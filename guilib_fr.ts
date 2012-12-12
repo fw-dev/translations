@@ -18,11 +18,6 @@
         <source>Copyright © Filewave International Holding AG 2012</source>
         <translation></translation>
     </message>
-    <message>
-        <location filename="../FileWaveGuiLib/AboutWidget.ui" line="86"/>
-        <source>New text to translate</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>Boosters</name>
