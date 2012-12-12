@@ -6,7 +6,7 @@
     <message>
         <location filename="../FileWaveGuiLib/AboutWidget.ui" line="46"/>
         <source>Version  %1</source>
-        <translation type="unfinished">verysion</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../FileWaveGuiLib/AboutWidget.ui" line="61"/>
