@@ -451,30 +451,6 @@ settings for this client</source>
         <comment>terabytes</comment>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../FileWaveGuiLib/FWIcons.cpp" line="19"/>
-        <source>:/IDR_MAINFRAME256</source>
-        <comment>corporate icon 256 x 256</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../FileWaveGuiLib/FWIcons.cpp" line="25"/>
-        <source>:/IDR_MAINFRAME127</source>
-        <comment>corporate icon 128 x 128</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../FileWaveGuiLib/FWIcons.cpp" line="31"/>
-        <source>:/IDR_MAINFRAME64</source>
-        <comment>corporate icon 64 x 64</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../FileWaveGuiLib/FWIcons.cpp" line="37"/>
-        <source>:/IDR_MAINFRAME32</source>
-        <comment>corporate icon 32 x 32</comment>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>SearchLineEdit</name>
