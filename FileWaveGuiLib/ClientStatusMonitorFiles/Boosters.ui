@@ -1,0 +1,241 @@
+<ui version="4.0" >
+ <class>Boosters</class>
+ <widget class="QWidget" name="Boosters" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>463</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" >
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <spacer name="horizontalSpacer" >
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0" >
+        <size>
+         <width>18</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout" >
+       <item row="0" column="1" >
+        <widget class="QLabel" name="boosterAddressLA" >
+         <property name="text" >
+          <string>IP or DNS Address</string>
+         </property>
+         <property name="alignment" >
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" >
+        <widget class="QLabel" name="boosterPortLA" >
+         <property name="text" >
+          <string>Port</string>
+         </property>
+         <property name="alignment" >
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" >
+        <widget class="QLabel" name="label" >
+         <property name="text" >
+          <string>Booster 1:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" >
+        <widget class="QLineEdit" name="booster1AddED" />
+       </item>
+       <item row="1" column="2" >
+        <widget class="QSpinBox" name="booster1PortSB" >
+         <property name="minimum" >
+          <number>0</number>
+         </property>
+         <property name="maximum" >
+          <number>65535</number>
+         </property>
+         <property name="value" >
+          <number>20013</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" >
+        <widget class="QLabel" name="label_2" >
+         <property name="text" >
+          <string>Booster 2:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" >
+        <widget class="QLineEdit" name="booster2AddED" />
+       </item>
+       <item row="2" column="2" >
+        <widget class="QSpinBox" name="booster2PortSB" >
+         <property name="minimum" >
+          <number>0</number>
+         </property>
+         <property name="maximum" >
+          <number>65535</number>
+         </property>
+         <property name="value" >
+          <number>20013</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" >
+        <widget class="QLabel" name="label_3" >
+         <property name="text" >
+          <string>Booster 3:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1" >
+        <widget class="QLineEdit" name="booster3AddED" />
+       </item>
+       <item row="3" column="2" >
+        <widget class="QSpinBox" name="booster3PortSB" >
+         <property name="minimum" >
+          <number>0</number>
+         </property>
+         <property name="maximum" >
+          <number>65535</number>
+         </property>
+         <property name="value" >
+          <number>20013</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" >
+        <widget class="QLabel" name="label_4" >
+         <property name="text" >
+          <string>Booster 4:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1" >
+        <widget class="QLineEdit" name="booster4AddED" />
+       </item>
+       <item row="4" column="2" >
+        <widget class="QSpinBox" name="booster4PortSB" >
+         <property name="minimum" >
+          <number>0</number>
+         </property>
+         <property name="maximum" >
+          <number>65535</number>
+         </property>
+         <property name="value" >
+          <number>20013</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" >
+        <widget class="QLabel" name="label_5" >
+         <property name="text" >
+          <string>Booster 5:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1" >
+        <widget class="QLineEdit" name="booster5AddED" />
+       </item>
+       <item row="5" column="2" >
+        <widget class="QSpinBox" name="booster5PortSB" >
+         <property name="minimum" >
+          <number>0</number>
+         </property>
+         <property name="maximum" >
+          <number>65535</number>
+         </property>
+         <property name="value" >
+          <number>20013</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3" >
+        <widget class="BonjourServiceView" name="bonjourView1" />
+       </item>
+       <item row="2" column="3" >
+        <widget class="BonjourServiceView" name="bonjourView2" />
+       </item>
+       <item row="3" column="3" >
+        <widget class="BonjourServiceView" name="bonjourView3" />
+       </item>
+       <item row="4" column="3" >
+        <widget class="BonjourServiceView" name="bonjourView4" />
+       </item>
+       <item row="5" column="3" >
+        <widget class="BonjourServiceView" name="bonjourView5" />
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2" >
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0" >
+        <size>
+         <width>17</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer" >
+     <property name="orientation" >
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0" >
+      <size>
+       <width>20</width>
+       <height>18</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BonjourServiceView</class>
+   <extends>QPushButton</extends>
+   <header>bonjour/bonjourserviceview.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>booster1AddED</tabstop>
+  <tabstop>booster1PortSB</tabstop>
+  <tabstop>bonjourView1</tabstop>
+  <tabstop>booster2AddED</tabstop>
+  <tabstop>booster2PortSB</tabstop>
+  <tabstop>bonjourView2</tabstop>
+  <tabstop>booster3AddED</tabstop>
+  <tabstop>booster3PortSB</tabstop>
+  <tabstop>bonjourView3</tabstop>
+  <tabstop>booster4AddED</tabstop>
+  <tabstop>booster4PortSB</tabstop>
+  <tabstop>bonjourView4</tabstop>
+  <tabstop>booster5AddED</tabstop>
+  <tabstop>booster5PortSB</tabstop>
+  <tabstop>bonjourView5</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

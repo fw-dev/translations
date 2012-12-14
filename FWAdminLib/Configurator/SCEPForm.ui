@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SCEPForm</class>
+ <widget class="QWidget" name="SCEPForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>519</width>
+    <height>1058</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="URLTitle">
+     <property name="text">
+      <string>URL</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QLabel" name="lTipURL">
+     <property name="text">
+      <string>The base URL for the SCEP server</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="4">
+    <widget class="QLineEdit" name="URL"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="NameTitle">
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QLabel" name="lTipName">
+     <property name="text">
+      <string>The name of the instance: CA-IDENT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="4">
+    <widget class="QLineEdit" name="Name"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="SubjectTitle">
+     <property name="text">
+      <string>Subject</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="3">
+    <widget class="QLabel" name="lTipSubject">
+     <property name="text">
+      <string>Representaiton of a X.500 name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="4">
+    <widget class="QLineEdit" name="Subject">
+     <property name="placeholderText">
+      <string>[optional] Ex. O=Company Name, CN=Foo</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0" colspan="3">
+    <widget class="QLabel" name="SubjectAlternateTypeTitle">
+     <property name="text">
+      <string>Subjet Alternative Name Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0" colspan="3">
+    <widget class="QLabel" name="lTipSubjectAlternateType">
+     <property name="text">
+      <string>The type of a subject alternative name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0" colspan="3">
+    <widget class="QComboBox" name="SubjectAlternateType">
+     <property name="minimumSize">
+      <size>
+       <width>250</width>
+       <height>0</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <spacer name="horizontalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>238</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="12" column="0" colspan="3">
+    <widget class="QLabel" name="SubjectAlternateValueTitle">
+     <property name="text">
+      <string>Subject Alternative Name Value</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0" colspan="3">
+    <widget class="QLabel" name="lTipSubjectAlternateValue">
+     <property name="text">
+      <string>Representaiton of a X.500 name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0" colspan="4">
+    <widget class="QLineEdit" name="SubjectAlternateValue">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0" colspan="2">
+    <widget class="QLabel" name="SubjectAlternatentPrincipalTitle">
+     <property name="text">
+      <string>NT Principal Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0" colspan="4">
+    <widget class="QLabel" name="lTipSubjectAlternatentPrincipal">
+     <property name="text">
+      <string>An NT prinicpal name for use in the certificate requests </string>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="0" colspan="4">
+    <widget class="QLineEdit" name="SubjectAlternatentPrincipal">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="0">
+    <widget class="QLabel" name="RetriesTitle">
+     <property name="text">
+      <string>Retries</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="0" colspan="4">
+    <widget class="QLabel" name="lTipRetries">
+     <property name="text">
+      <string>The number of times to poll the SCEP server for a signed certificate before giving up</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0" colspan="2">
+    <widget class="QLineEdit" name="Retries">
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="2" colspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>338</width>
+       <height>17</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="21" column="0">
+    <widget class="QLabel" name="RetryDelayTitle">
+     <property name="text">
+      <string>Retry Delay</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="0" colspan="4">
+    <widget class="QLabel" name="lTipRetryDelay">
+     <property name="text">
+      <string>The number of seconds to wait between poll attempts</string>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="0" colspan="2">
+    <widget class="QLineEdit" name="RetryDelay">
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="2" colspan="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>338</width>
+       <height>17</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="24" column="0">
+    <widget class="QLabel" name="ChallengeTitle">
+     <property name="text">
+      <string>Challenge</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="0" colspan="4">
+    <widget class="QLabel" name="lTipChallenge">
+     <property name="text">
+      <string>Used as the pre-shared secret for automatic enrollment</string>
+     </property>
+    </widget>
+   </item>
+   <item row="26" column="0" colspan="4">
+    <widget class="QLineEdit" name="Challenge">
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="27" column="0">
+    <widget class="QLabel" name="KeySizeTitle">
+     <property name="text">
+      <string>Key Size</string>
+     </property>
+    </widget>
+   </item>
+   <item row="28" column="0" colspan="2">
+    <widget class="QLabel" name="lTipKeySize">
+     <property name="text">
+      <string>Key size in bits</string>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="0">
+    <widget class="QComboBox" name="KeySize">
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>90</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>1024</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2048</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="29" column="1" colspan="3">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>338</width>
+       <height>18</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="30" column="0" colspan="3">
+    <widget class="QCheckBox" name="DigitalSignature">
+     <property name="text">
+      <string>Use as digital signature</string>
+     </property>
+    </widget>
+   </item>
+   <item row="31" column="0" colspan="3">
+    <widget class="QCheckBox" name="KeyEncipherment">
+     <property name="text">
+      <string>Use for key encipherment</string>
+     </property>
+    </widget>
+   </item>
+   <item row="32" column="0">
+    <widget class="QLabel" name="FingerprintTitle">
+     <property name="text">
+      <string>Fingerprint</string>
+     </property>
+    </widget>
+   </item>
+   <item row="33" column="0" colspan="4">
+    <widget class="QLabel" name="lTipFingerprint">
+     <property name="text">
+      <string>Enter hex string to be used as a fingerprint or use button to create fingerprint from Certificate</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="34" column="0" colspan="4">
+    <widget class="QLineEdit" name="Fingerprint">
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="35" column="0" colspan="4">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>292</width>
+         <height>18</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="fromCertificate">
+       <property name="text">
+        <string>Create from Certificate...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="36" column="3">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

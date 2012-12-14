@@ -1,0 +1,135 @@
+<ui version="4.0" >
+ <class>CAdminsOnlineDlg</class>
+ <widget class="QWidget" name="CAdminsOnlineDlg" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>231</width>
+    <height>309</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Online Administrators</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" >
+   <item row="0" column="0" >
+    <widget class="QTreeWidget" name="treeWidgetAdminList" >
+     <property name="contextMenuPolicy" >
+      <enum>Qt::ActionsContextMenu</enum>
+     </property>
+     <property name="alternatingRowColors" >
+      <bool>true</bool>
+     </property>
+     <property name="rootIsDecorated" >
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text" >
+       <string/>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>Login Name</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout" >
+       <item>
+        <widget class="QLabel" name="labelName" >
+         <property name="text" >
+          <string>Name:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelLogin" >
+         <property name="text" >
+          <string>Login:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelEmail" >
+         <property name="text" >
+          <string>Email:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelPhone" >
+         <property name="text" >
+          <string>Phone:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2" >
+       <item>
+        <widget class="QLabel" name="textName" >
+         <property name="minimumSize" >
+          <size>
+           <width>149</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>No Selection</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="textLogin" >
+         <property name="minimumSize" >
+          <size>
+           <width>149</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>No Selection</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="textEmail" >
+         <property name="minimumSize" >
+          <size>
+           <width>149</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>No Selection</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="textPhone" >
+         <property name="minimumSize" >
+          <size>
+           <width>149</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text" >
+          <string>No Selection</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

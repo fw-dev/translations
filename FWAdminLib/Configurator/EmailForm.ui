@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmailForm</class>
+ <widget class="QWidget" name="EmailForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>1203</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="15" column="0">
+    <widget class="QLabel" name="lTipAllowRecentAddressesSynced">
+     <property name="text">
+      <string>Recent Addresses will be synced</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="lAccountDescription">
+     <property name="text">
+      <string>Account Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="0">
+    <widget class="QLabel" name="lTipUseOnlyInMail">
+     <property name="text">
+      <string>Send outgoing mail from this account only from Mail app</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="lUserDisplayName">
+     <property name="text">
+      <string>User Display Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="lTipUserDisplayName">
+     <property name="text">
+      <string>The display name of the user (eg. &quot;John Appleseed&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLineEdit" name="editUserDisplayName"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipAccountDescription">
+     <property name="text">
+      <string>The displayname of the account (eg. &quot;Company mail account&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="0">
+    <widget class="QWidget" name="certificateOptions" native="true">
+     <layout class="QGridLayout" name="gridLayout_6">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lTipEncryptionCertificate">
+        <property name="text">
+         <string>Certificate used to sign messages sent from this account</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QComboBox" name="comboSigningCertificate"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="SigningCertificateTitle">
+        <property name="text">
+         <string>Signing Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lTipSigningCertificate">
+        <property name="text">
+         <string>Certificate used to sign messages sent from this account</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="EncryptionCertificateTitle">
+        <property name="text">
+         <string>Encryption Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QComboBox" name="comboEncryptionCertificate"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="23" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tabIncoming">
+      <attribute name="title">
+       <string>Incoming Mail</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget_2" native="true">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLabel" name="lMailServerPort">
+            <property name="text">
+             <string>Mail Server and Port</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QLabel" name="lTipMailServerPort">
+            <property name="text">
+             <string>Hostname or IP address, and port number for incoming mail</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLineEdit" name="editInMailServer">
+              <property name="text">
+               <string>mail.example.com</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lColon">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="editInPort">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="lUserName">
+            <property name="text">
+             <string>User Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="2">
+           <widget class="QLabel" name="lTipUserName">
+            <property name="text">
+             <string>The username used to connect to the server for incoming mail</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="2">
+           <widget class="QLineEdit" name="editInUserName">
+            <property name="placeholderText">
+             <string>[set on device]</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="lAuthenticationType">
+            <property name="text">
+             <string>Authentication Type</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="2">
+           <widget class="QLabel" name="lTipAuthenticationType">
+            <property name="text">
+             <string>The authentication method for the incoming mail server</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QComboBox" name="comboInAuthenticationType"/>
+          </item>
+          <item row="8" column="1">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>210</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="9" column="0">
+           <widget class="QLabel" name="lPassword">
+            <property name="text">
+             <string>Password</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0" colspan="2">
+           <widget class="QLabel" name="lTipPassword">
+            <property name="text">
+             <string>The password for the incoming mail server</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0" colspan="2">
+           <widget class="QLineEdit" name="editInPassword">
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="0">
+           <widget class="QCheckBox" name="checkInUseSSL">
+            <property name="text">
+             <string>Use SSL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="0" colspan="2">
+           <widget class="QLabel" name="lTipUseSSL">
+            <property name="text">
+             <string>Retrieve incoming mail through secure socket layer</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="0">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabOutgoing">
+      <attribute name="title">
+       <string>Outgoing Mail</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="lMailServerPort_2">
+            <property name="text">
+             <string>Mail Server and Port</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QLabel" name="lTipMailServerPort_2">
+            <property name="text">
+             <string>Hostname or IP address, and port number for outgoing mail</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="lUserName_2">
+            <property name="text">
+             <string>User Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="2">
+           <widget class="QLabel" name="lTipUserName_2">
+            <property name="text">
+             <string>The username used to connect to the server for outgoing mail</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="lAuthenticationType_2">
+            <property name="text">
+             <string>Authentication Type</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="2">
+           <widget class="QLabel" name="lTipAuthenticationType_2">
+            <property name="text">
+             <string>The authentication method for the outgoing mail server</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QComboBox" name="comboOutAuthenticationType"/>
+          </item>
+          <item row="8" column="1">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>210</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="9" column="0">
+           <widget class="QLabel" name="lPassword_2">
+            <property name="text">
+             <string>Password</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0" colspan="2">
+           <widget class="QLabel" name="lTipPassword_2">
+            <property name="text">
+             <string>The password for the outgoing mail server</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="0" colspan="2">
+           <widget class="QCheckBox" name="checkOutgoingSameIncoming">
+            <property name="text">
+             <string>Outgoing password same as incoming</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="0" colspan="2">
+           <widget class="QLabel" name="lTipOutgoingSameAsIncoming">
+            <property name="text">
+             <string>SMTP authentication uses the same password as POP/IMAP</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="0">
+           <widget class="QCheckBox" name="checkOutUseSSL">
+            <property name="text">
+             <string>Use SSL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0" colspan="2">
+           <widget class="QLabel" name="lTipUseSSL_2">
+            <property name="text">
+             <string>Retrieve incoming mail through secure socket layer</string>
+            </property>
+           </widget>
+          </item>
+          <item row="16" column="1">
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="0" colspan="2">
+           <widget class="QLineEdit" name="editOutUserName">
+            <property name="placeholderText">
+             <string>[set on device]</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLineEdit" name="editOutMailServer">
+              <property name="text">
+               <string>smtp.example.com</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lColon_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="editOutPort">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>50</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="11" column="0" colspan="2">
+           <widget class="QLineEdit" name="editOutPassword">
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="lTipEmailAddress">
+     <property name="text">
+      <string>The address of the account (eg. &quot;john@company.com&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="editEmailAddress">
+     <property name="placeholderText">
+      <string>[set on device]</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QCheckBox" name="checkAllowUserMoveMessages">
+     <property name="text">
+      <string>Allow messages to be moved</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="lEmailAddress">
+     <property name="text">
+      <string>Email Address</string>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0">
+    <widget class="QCheckBox" name="checkEnableSMIME">
+     <property name="text">
+      <string>Enable S/MIME</string>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="0">
+    <widget class="QLabel" name="lTipEnableSMime">
+     <property name="text">
+      <string>Support S/MIME for this account</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lAccountType">
+     <property name="text">
+      <string>Account Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipAccountType">
+     <property name="text">
+      <string>The protocol for accessing the email account</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0">
+    <widget class="QCheckBox" name="checkUseOnlyInMail">
+     <property name="text">
+      <string>Use only in Mail</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="lTipDoNotAllowUserMoveMessages">
+     <property name="text">
+      <string>Messages can be moved from this account to another</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="editAccountDescription">
+     <property name="text">
+      <string>My Mail Account</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QComboBox" name="comboAccountType">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="spacerWidetAccountType" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lTipPathPrefix">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Path Prefix: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="editPathPrefix">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>100</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="14" column="0">
+    <widget class="QCheckBox" name="checkAllowRecentAddressesSynced">
+     <property name="text">
+      <string>Allow recent addresses to be synced</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>editAccountDescription</tabstop>
+  <tabstop>comboAccountType</tabstop>
+  <tabstop>editPathPrefix</tabstop>
+  <tabstop>editUserDisplayName</tabstop>
+  <tabstop>editEmailAddress</tabstop>
+  <tabstop>checkAllowUserMoveMessages</tabstop>
+  <tabstop>checkAllowRecentAddressesSynced</tabstop>
+  <tabstop>checkUseOnlyInMail</tabstop>
+  <tabstop>checkEnableSMIME</tabstop>
+  <tabstop>comboSigningCertificate</tabstop>
+  <tabstop>comboEncryptionCertificate</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>editInMailServer</tabstop>
+  <tabstop>editInPort</tabstop>
+  <tabstop>editInUserName</tabstop>
+  <tabstop>comboInAuthenticationType</tabstop>
+  <tabstop>editInPassword</tabstop>
+  <tabstop>checkInUseSSL</tabstop>
+  <tabstop>editOutMailServer</tabstop>
+  <tabstop>editOutPort</tabstop>
+  <tabstop>editOutUserName</tabstop>
+  <tabstop>comboOutAuthenticationType</tabstop>
+  <tabstop>editOutPassword</tabstop>
+  <tabstop>checkOutgoingSameIncoming</tabstop>
+  <tabstop>checkOutUseSSL</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>COpenFilesetDlg</class>
+ <widget class="QMainWindow" name="COpenFilesetDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::PreventContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Fileset Contents</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="m_hideUnusedFolders">
+      <property name="text">
+       <string>Hide unused folders</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="CircularProgressIndicator" name="progressIndicator" native="true"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="SearchLineEdit" name="searchLineEdit"/>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QStackedWidget" name="stackedWidgetList">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>1</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="FilesetContentsFilesView" name="m_listFiles">
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::EditKeyPressed|QAbstractItemView::SelectedClicked</set>
+          </property>
+          <property name="dragDropOverwriteMode">
+           <bool>true</bool>
+          </property>
+          <property name="dragDropMode">
+           <enum>QAbstractItemView::DragDrop</enum>
+          </property>
+          <property name="alternatingRowColors">
+           <bool>true</bool>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::ExtendedSelection</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTreeView" name="m_listSearch">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>1</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::EditKeyPressed|QAbstractItemView::SelectedClicked</set>
+          </property>
+          <property name="alternatingRowColors">
+           <bool>true</bool>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::ExtendedSelection</enum>
+          </property>
+          <property name="rootIsDecorated">
+           <bool>false</bool>
+          </property>
+          <property name="sortingEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="contextMenuPolicy">
+    <enum>Qt::PreventContextMenu</enum>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAdd_Files_Folders"/>
+   <addaction name="actionNew_Folder"/>
+   <addaction name="actionGet_Info"/>
+   <addaction name="actionView"/>
+   <addaction name="actionEditText"/>
+   <addaction name="actionExportFiles"/>
+   <addaction name="actionDelete"/>
+   <addaction name="actionReserve"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionAdd_Files_Folders">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_IMPORT</normaloff>:/IDI_ICON_FILESET_IMPORT</iconset>
+   </property>
+   <property name="text">
+    <string>Import File/Folder</string>
+   </property>
+  </action>
+  <action name="actionGet_Info">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_GET_INFO </normaloff>:/IDI_ICON_GET_INFO </iconset>
+   </property>
+   <property name="text">
+    <string>Get Info</string>
+   </property>
+  </action>
+  <action name="actionView">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_VIEW_REGDIFF</normaloff>:/IDI_ICON_VIEW_REGDIFF</iconset>
+   </property>
+   <property name="text">
+    <string>Edit Registry</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TRASH</normaloff>:/IDI_ICON_TRASH</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Backspace</string>
+   </property>
+  </action>
+  <action name="actionReserve">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_LOCK_LOCKED</normaloff>:/IDI_ICON_LOCK_LOCKED</iconset>
+   </property>
+   <property name="text">
+    <string>Take Control</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionNew_Folder">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_ADD_FOLDER</normaloff>:/IDI_ICON_ADD_FOLDER</iconset>
+   </property>
+   <property name="text">
+    <string>New Folder</string>
+   </property>
+  </action>
+  <action name="actionExportFiles">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_EXPORT</normaloff>:/IDI_ICON_FILESET_EXPORT</iconset>
+   </property>
+   <property name="text">
+    <string>Export Files</string>
+   </property>
+   <property name="toolTip">
+    <string>Export one or more files to disk.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionEditText">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_NEW_CLIENT_FROM_TEXT_FILE</normaloff>:/IDI_ICON_NEW_CLIENT_FROM_TEXT_FILE</iconset>
+   </property>
+   <property name="text">
+    <string>Edit Text</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FilesetContentsFilesView</class>
+   <extends>QTreeView</extends>
+   <header>views/filesetcontentsfilesview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CircularProgressIndicator</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/circularprogressindicator.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SearchLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../FileWaveGuiLib/GuiLib.qrc"/>
+ </resources>
+ <connections/>
+</ui>

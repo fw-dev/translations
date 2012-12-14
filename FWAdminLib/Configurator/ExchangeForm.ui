@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExchangeForm</class>
+ <widget class="QWidget" name="ExchangeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>545</width>
+    <height>1133</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+   <item>
+    <widget class="QLabel" name="lAccountDescription">
+     <property name="text">
+      <string>Account Description</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAccountDescription">
+     <property name="text">
+      <string>Name for the Exchange ActiveSync account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editAccountDescription">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lConnectionType">
+     <property name="text">
+      <string>Connection Type</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipConnectionType">
+     <property name="text">
+      <string>The type of connection enabled by this policy</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboConnectionType"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lDomain">
+     <property name="text">
+      <string>Domain</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDomain">
+     <property name="text">
+      <string>Domain for the account. Leave Domain and user blank to set user on device</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editDomain">
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>set on device</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lUser">
+     <property name="text">
+      <string>User</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipUser">
+     <property name="text">
+      <string>User for the account. Leave Domain and user blank to set user on device</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editUser">
+     <property name="placeholderText">
+      <string>set on device</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lEmail">
+     <property name="text">
+      <string>Email Address</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipEmail">
+     <property name="text">
+      <string>The address of the account (eg. &quot;john@company.com&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editEmail">
+     <property name="placeholderText">
+      <string>[defaults to username@host]</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkAllowMove">
+     <property name="text">
+      <string>Allow messages to be moved</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDoNotAllowMove">
+     <property name="text">
+      <string>Messages can be moved from this account to another</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkSyncRecentAddress">
+     <property name="text">
+      <string>Allow recent addresses to be synced</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRecentAddressesSync">
+     <property name="text">
+      <string>Recent addresses will be synced</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkUseOnlyMail">
+     <property name="text">
+      <string>Use Only in Mail</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipUseOnlyMail">
+     <property name="text">
+      <string>Send outgoing mail for this account only from Mail app</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lPassword">
+     <property name="text">
+      <string>Password</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipPassword">
+     <property name="text">
+      <string>The password for the account (e.g. &quot;MyP4ssw0rd!&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editPassword">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="specificOptions">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="lHost">
+         <property name="text">
+          <string>Exchange ActiveSync Host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipHost">
+         <property name="text">
+          <string>Microsoft Exchange Server</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editHost"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkUseSSL">
+         <property name="text">
+          <string>Use SSL</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipUseSSL">
+         <property name="text">
+          <string>Send all communication through secure socket layer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lPastDays">
+         <property name="text">
+          <string>Past Days of Mail to Sync</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipPastDays">
+         <property name="text">
+          <string>The number of past days of email to synchronize</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboPastDays">
+         <property name="currentIndex">
+          <number>-1</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lAuthenticationCredential">
+         <property name="text">
+          <string>Authentication Credential Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipAuthenticationCredential">
+         <property name="text">
+          <string>Credential for authentication the ActiveSync account</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboCredential">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkSMime">
+         <property name="text">
+          <string>Enable S/MIME</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipSMime">
+         <property name="text">
+          <string>Support S/MIME for this account</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="certificateOptions" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0">
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="SigningCertificateTitle">
+            <property name="text">
+             <string>Signing Certificate</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipSigningCertificate">
+            <property name="text">
+             <string>Certificate used to sign messages sent from this account</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboSigningCertificate"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="EncryptionCertificateTitle">
+            <property name="text">
+             <string>Encryption Certificate</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipEncryptionCertificate">
+            <property name="text">
+             <string>Certificate used to sign messages sent from this account</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboEncryptionCertificate"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Internal Exchange Host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipInternalES">
+         <property name="text">
+          <string>Microsoft Exchange Server</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0,0">
+         <item>
+          <widget class="QLineEdit" name="editInternalESHost"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="editInternalESPort">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Internal Server Path</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipInternalPath">
+         <property name="text">
+          <string>Server path for the internal exchange host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editInternalESPath"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkInternalESSSL">
+         <property name="text">
+          <string>Use SSL for Internal Exchange Host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipInternalSSL">
+         <property name="text">
+          <string>Send all communication through secure socket layer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="ExternalES">
+         <property name="text">
+          <string>External Exchange Host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipExternal">
+         <property name="text">
+          <string>Microsoft Exchange Server</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLineEdit" name="editExternalESHost"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="editExternalESPort">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>External Server Path</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipExternalPath">
+         <property name="text">
+          <string>Server path for the external exchange host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editExternalESPath"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkExternalESSSL">
+         <property name="text">
+          <string>Use SSL for External Exchange Host</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipExternalSSL">
+         <property name="text">
+          <string>Send all communication through secure socket layer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

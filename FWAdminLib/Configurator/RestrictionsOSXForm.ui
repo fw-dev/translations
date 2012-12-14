@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RestrictionsOSXForm</class>
+ <widget class="QWidget" name="RestrictionsOSXForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_12">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Preferences</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <property name="spacing">
+          <number>4</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="restrictSystemPreferences">
+           <property name="text">
+            <string>Restrict which system preferences are enabled</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_restrict_ref_panes">
+           <property name="text">
+            <string>The selected items are enabled in System Preferences</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QWidget" name="checkboxes" native="true">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="leftMargin">
+             <number>25</number>
+            </property>
+            <item>
+             <widget class="QCheckBox" name="users">
+              <property name="text">
+               <string>Users &amp;&amp; Groups</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/usersAndGroups.png</normaloff>:/assets/restrictions/usersAndGroups.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="general">
+              <property name="text">
+               <string>General</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/general.png</normaloff>:/assets/restrictions/general.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="bluetooth">
+              <property name="text">
+               <string>Bluetooth</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/bluetooth.png</normaloff>:/assets/restrictions/bluetooth.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="datetime">
+              <property name="text">
+               <string>Date &amp;&amp; Time</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/dateAndTime.png</normaloff>:/assets/restrictions/dateAndTime.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="desktopscreeneffect">
+              <property name="text">
+               <string>Desktop &amp;&amp; Screen Saver</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/desktopAndScreenSaver.png</normaloff>:/assets/restrictions/desktopAndScreenSaver.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="discs">
+              <property name="text">
+               <string>CDs &amp;&amp; DVDs</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/cdsAndDvds.png</normaloff>:/assets/restrictions/cdsAndDvds.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="displays">
+              <property name="text">
+               <string>Displays</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/displays.png</normaloff>:/assets/restrictions/displays.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="dock">
+              <property name="text">
+               <string>Dock</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/dock.png</normaloff>:/assets/restrictions/dock.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="energySaver">
+              <property name="text">
+               <string>Energy Saver</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/energySaver.png</normaloff>:/assets/restrictions/energySaver.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="missionControl">
+              <property name="text">
+               <string>Mission Control</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/missionControl.png</normaloff>:/assets/restrictions/missionControl.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="fibreChannel">
+              <property name="text">
+               <string>FibreChannel</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/fibreChannel.png</normaloff>:/assets/restrictions/fibreChannel.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="ink">
+              <property name="text">
+               <string>Ink</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/ink.png</normaloff>:/assets/restrictions/ink.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="internetAccounts">
+              <property name="text">
+               <string>Mail, Contacts &amp;&amp; Calendars</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/mail.png</normaloff>:/assets/restrictions/mail.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="keyboard">
+              <property name="text">
+               <string>Keyboard</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/keyboard.png</normaloff>:/assets/restrictions/keyboard.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="localization">
+              <property name="text">
+               <string>Language &amp;&amp; Text</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/languageAndText.png</normaloff>:/assets/restrictions/languageAndText.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="mobileMe">
+              <property name="text">
+               <string>MobileMe</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/mobileMe.png</normaloff>:/assets/restrictions/mobileMe.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="mouse">
+              <property name="text">
+               <string>Mouse</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/mouse.png</normaloff>:/assets/restrictions/mouse.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="network">
+              <property name="text">
+               <string>Network</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/network.png</normaloff>:/assets/restrictions/network.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="notifications">
+              <property name="text">
+               <string>Notifications</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/notifications.png</normaloff>:/assets/restrictions/notifications.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="parentalControls">
+              <property name="text">
+               <string>Parental Controls</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/parentalcontrols.png</normaloff>:/assets/restrictions/parentalcontrols.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="printScan">
+              <property name="text">
+               <string>Print &amp;&amp; Scan</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/printAndScan.png</normaloff>:/assets/restrictions/printAndScan.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="profiles">
+              <property name="text">
+               <string>Profiles</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/profiles.png</normaloff>:/assets/restrictions/profiles.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="securityPrivacy">
+              <property name="text">
+               <string>Security &amp;&amp; Privacy</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/securityAndPrivacy.png</normaloff>:/assets/restrictions/securityAndPrivacy.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="sharing">
+              <property name="text">
+               <string>Sharing</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/sharing.png</normaloff>:/assets/restrictions/sharing.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="softwareUpdate">
+              <property name="text">
+               <string>Software Update</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/softwareUpdate.png</normaloff>:/assets/restrictions/softwareUpdate.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="sound">
+              <property name="text">
+               <string>Sound</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/sound.png</normaloff>:/assets/restrictions/sound.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="speech">
+              <property name="text">
+               <string>Dictation &amp;&amp; Speech</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/dictationAndSpeech.png</normaloff>:/assets/restrictions/dictationAndSpeech.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="startupDisk">
+              <property name="text">
+               <string>Startup Disk</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/startupdisk.png</normaloff>:/assets/restrictions/startupdisk.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="timeMachine">
+              <property name="text">
+               <string>Time Machine</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/timeMachine.png</normaloff>:/assets/restrictions/timeMachine.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="trackpad">
+              <property name="text">
+               <string>Trackpad</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/trackpad.png</normaloff>:/assets/restrictions/trackpad.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="accessibility">
+              <property name="text">
+               <string>Accessibility</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/accessibility.png</normaloff>:/assets/restrictions/accessibility.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="xsan">
+              <property name="text">
+               <string>Xsan</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/xsan.png</normaloff>:/assets/restrictions/xsan.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="icloud">
+              <property name="text">
+               <string>iCloud</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/iCloud.png</normaloff>:/assets/restrictions/iCloud.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="spotlight">
+              <property name="text">
+               <string>Spotlight</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/spotlight.png</normaloff>:/assets/restrictions/spotlight.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QWidget" name="buttons" native="true">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QPushButton" name="enableAll">
+              <property name="text">
+               <string>Enable All</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="enableNone">
+              <property name="text">
+               <string>Enable None</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Applications</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QCheckBox" name="restrictAppStoreSU">
+         <property name="text">
+          <string>Restrict App Store to software updates only</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="restrictApps">
+         <property name="text">
+          <string>Restrict which applications are allowed to launch</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="applications" native="true">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>Allow Applictions:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lTip_allow_apps">
+              <property name="text">
+               <string>The user can always launch these applications</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="appList"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QToolButton" name="addAllowedApp">
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="removeAllowedApp">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>Allow Folders:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lTip_allow_folders">
+              <property name="text">
+               <string>The user can always launch applications in these folders</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="allowAppFolderList"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QToolButton" name="addAllowedFolder">
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="removeAllowedFolder">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_23">
+              <property name="text">
+               <string>Disallow Folders:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lTip_disallow_folders">
+              <property name="text">
+               <string>The user can never launch applications in these folders</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="disallowAppFolderList"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QToolButton" name="addDisallowedFolder">
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="removeDisallowedFolder">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Widgets</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_14">
+       <item>
+        <widget class="QCheckBox" name="restrictDashboard">
+         <property name="text">
+          <string>Allow only the following Dashboard widgets to run</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="dashboard" native="true">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_18">
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>Allow Widgets:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lTip_allow_widgets">
+              <property name="text">
+               <string>The user can always run these widgets</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QListWidget" name="allowWidgetList">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QToolButton" name="addAllowedWidget">
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="removeAllowedWidget">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Media</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_13" stretch="0,0,0,0,0,0,0,1">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Network Access</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_access">
+           <property name="text">
+            <string>Access settings for network media</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>150</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>AirDrop:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QCheckBox" name="airDrop">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Hard Disk Media Access</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_media">
+           <property name="text">
+            <string>Access settings for hard disk media</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QFormLayout" name="formLayout_2">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Internal Disks:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QCheckBox" name="internalAllow">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QCheckBox" name="internalAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QCheckBox" name="internalReadOnly">
+           <property name="text">
+            <string>Read-Only</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>External Disks:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QCheckBox" name="externalAllow">
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QCheckBox" name="externalAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QCheckBox" name="externalReadOnly">
+           <property name="text">
+            <string>Read-Only</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>Disk Images:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QCheckBox" name="imageAllow">
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QCheckBox" name="imageAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QCheckBox" name="imageReadOnly">
+           <property name="text">
+            <string>Read-Only</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>DVD-RAM:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QCheckBox" name="dvdramAllow">
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QCheckBox" name="dvdramAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="1">
+          <widget class="QCheckBox" name="dvdramReadOnly">
+           <property name="text">
+            <string>Read-Only</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>Disc Media Access</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_disc">
+           <property name="text">
+            <string>Access settings for removable disk media</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QFormLayout" name="formLayout_3">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_19">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>CDs &amp; CD-ROMs:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QCheckBox" name="cdromAllow">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QCheckBox" name="cdromAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>DVDs</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QCheckBox" name="dvdAllow">
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QCheckBox" name="dvdAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_21">
+           <property name="text">
+            <string>Recordable Discs:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QCheckBox" name="recordableAllow">
+           <property name="text">
+            <string>Allow</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QCheckBox" name="recordableAuthentication">
+           <property name="text">
+            <string>Require Authentication</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="logoutEject">
+           <property name="text">
+            <string>Eject at logout</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_eject">
+           <property name="text">
+            <string>Eject all removable media at logout</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Configurator.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>restrictSystemPreferences</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkboxes</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>restrictSystemPreferences</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>buttons</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>internalAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>internalAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>internalAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>internalReadOnly</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>180</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>344</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>externalAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>externalAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>287</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>externalAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>externalReadOnly</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>imageAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>imageAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>333</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>357</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>imageAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>imageReadOnly</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>333</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dvdramAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dvdramAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>403</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dvdramAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dvdramReadOnly</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>403</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cdromAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>cdromAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>513</x>
+     <y>527</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>551</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dvdAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dvdAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>574</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>598</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>recordableAllow</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>recordableAuthentication</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>621</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>restrictDashboard</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dashboard</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>566</x>
+     <y>91</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>restrictApps</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>applications</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>125</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>194</x>
+     <y>130</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WinAdminMainDlg</class>
+ <widget class="QMainWindow" name="WinAdminMainDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1680</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::PreventContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>FileWave Admin</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="PrettySplitter" name="mainSplitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="handleWidth">
+       <number>1</number>
+      </property>
+      <property name="childrenCollapsible">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <layout class="QVBoxLayout" name="sidebarVerticalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QTreeView" name="sideBar">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>145</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>60000</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="baseSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="showDropIndicator" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="rootIsDecorated">
+           <bool>true</bool>
+          </property>
+          <property name="uniformRowHeights">
+           <bool>true</bool>
+          </property>
+          <property name="headerHidden">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="WinAdminMainTabContainer" name="mainWidgetContainer" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>2</horstretch>
+            <verstretch>2</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1680</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionClose"/>
+    <addaction name="actionClose_All"/>
+    <addaction name="actionGet_Info"/>
+    <addaction name="actionExportView"/>
+    <addaction name="actionPreferences"/>
+    <addaction name="separator"/>
+    <addaction name="action_Quit_FileWave_WinAdmin"/>
+   </widget>
+   <widget class="QMenu" name="menuFileWave_Server">
+    <property name="title">
+     <string>&amp;Server</string>
+    </property>
+    <addaction name="actionEdit_Activation_Codes"/>
+    <addaction name="separator"/>
+    <addaction name="action_Update_Model"/>
+    <addaction name="separator"/>
+    <addaction name="action_Revert_to_Last_Model"/>
+    <addaction name="separator"/>
+    <addaction name="actionGet_Logfile"/>
+   </widget>
+   <widget class="QMenu" name="menu_Assistants">
+    <property name="title">
+     <string>&amp;Assistants</string>
+    </property>
+    <addaction name="actionFileWave_Client_Monitor"/>
+    <addaction name="separator"/>
+    <addaction name="actionFileset_WinMagic"/>
+    <addaction name="actionManaged_Preferences"/>
+    <addaction name="actionSearch_Local_iTunes_Library"/>
+    <addaction name="actionFind_OS_X_Software_Updates"/>
+    <addaction name="separator"/>
+    <addaction name="actionEnroll_Mobile_Device"/>
+    <addaction name="actionActionOpenAppStoreAssitant"/>
+    <addaction name="actionVPP_Code_Management"/>
+    <addaction name="separator"/>
+    <addaction name="actionManage_Administrators"/>
+    <addaction name="actionShow_Locked_Items"/>
+    <addaction name="actionFileWave_Audit_History"/>
+    <addaction name="actionAdministrators_online"/>
+    <addaction name="separator"/>
+    <addaction name="actionLDAP_Browser"/>
+    <addaction name="actionFile_Search"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="action_About_FileWave_WinAdmin"/>
+   </widget>
+   <widget class="QMenu" name="menuWindows">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionMinimize"/>
+    <addaction name="actionZoom"/>
+    <addaction name="separator"/>
+    <addaction name="actionBring_All_to_Front"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete"/>
+    <addaction name="separator"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionSelect_All"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuFileWave_Server"/>
+   <addaction name="menu_Assistants"/>
+   <addaction name="menuWindows"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBarFilesets">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::BottomToolBarArea</set>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew_Fileset"/>
+   <addaction name="actionNewMobileFileset"/>
+   <addaction name="actionNew_Fileset_Group"/>
+   <addaction name="separator"/>
+   <addaction name="actionExportFileset"/>
+   <addaction name="actionReport"/>
+   <addaction name="actionFilesetProperties"/>
+   <addaction name="actionReserve"/>
+   <addaction name="actionFilesetsTools"/>
+   <addaction name="actionFilesetsDelete"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::BottomToolBarArea|Qt::TopToolBarArea</set>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="action_Quit_FileWave_WinAdmin">
+   <property name="text">
+    <string>&amp;Quit FileWave Admin</string>
+   </property>
+   <property name="statusTip">
+    <string>Quit FileWave Admin</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionEdit_Activation_Codes">
+   <property name="text">
+    <string>&amp;Activation Code...</string>
+   </property>
+  </action>
+  <action name="action_Update_Model">
+   <property name="text">
+    <string>&amp;Update Model...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="action_Revert_to_Last_Model">
+   <property name="text">
+    <string>&amp;Revert to Last Model...</string>
+   </property>
+  </action>
+  <action name="actionGet_Logfile">
+   <property name="text">
+    <string>Get &amp;Logfile...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+L</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionFileWave_Client_Monitor">
+   <property name="text">
+    <string>Client Monitor</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionFileset_WinMagic">
+   <property name="text">
+    <string>Fileset Magic...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+M</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionManage_Administrators">
+   <property name="text">
+    <string>Manage &amp;Administrators...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+A</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionFileWave_Audit_History">
+   <property name="text">
+    <string>Audit &amp;History...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+H</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionAdministrators_online">
+   <property name="text">
+    <string>Administrators &amp;Online...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+O</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="action_About_FileWave_WinAdmin">
+   <property name="text">
+    <string>&amp;About FileWave Admin...</string>
+   </property>
+  </action>
+  <action name="action_Quit_FileWave_Server">
+   <property name="text">
+    <string>Quit FileWave Server...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Q</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionMinimize">
+   <property name="text">
+    <string>Minimize</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+M</string>
+   </property>
+  </action>
+  <action name="actionZoom">
+   <property name="text">
+    <string>Zoom</string>
+   </property>
+  </action>
+  <action name="actionBring_All_to_Front">
+   <property name="text">
+    <string>Bring All to Front</string>
+   </property>
+  </action>
+  <action name="actionNew_Group">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_CREATE_GROUP</normaloff>:/IDI_ICON_CREATE_GROUP</iconset>
+   </property>
+   <property name="text">
+    <string>New Group</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+G</string>
+   </property>
+  </action>
+  <action name="actionNew_Client">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_CREATE_CLIENT</normaloff>:/IDI_ICON_CREATE_CLIENT</iconset>
+   </property>
+   <property name="text">
+    <string>New Client</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+N</string>
+   </property>
+  </action>
+  <action name="actionClient_Monitor">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_VIEW_STATUS</normaloff>:/IDI_ICON_VIEW_STATUS</iconset>
+   </property>
+   <property name="text">
+    <string>Client Monitor</string>
+   </property>
+  </action>
+  <action name="actionNew_Association">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_NEW_ASSOCIATION</normaloff>:/IDI_ICON_NEW_ASSOCIATION</iconset>
+   </property>
+   <property name="text">
+    <string>New Association</string>
+   </property>
+  </action>
+  <action name="actionClientsGroupsTools">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TOOLS</normaloff>:/IDI_ICON_TOOLS</iconset>
+   </property>
+   <property name="text">
+    <string>Tools</string>
+   </property>
+  </action>
+  <action name="actionClientsGroupsDelete">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TRASH</normaloff>:/IDI_ICON_TRASH</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Backspace</string>
+   </property>
+  </action>
+  <action name="actionTake_Control">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_LOCK_LOCKED</normaloff>:/IDI_ICON_LOCK_LOCKED</iconset>
+   </property>
+   <property name="text">
+    <string>Take Control</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionNew_Fileset">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_NEW</normaloff>:/IDI_ICON_FILESET_NEW</iconset>
+   </property>
+   <property name="text">
+    <string>New Fileset</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_OPEN</normaloff>:/IDI_ICON_FILESET_OPEN</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionExportFileset">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_EXPORT</normaloff>:/IDI_ICON_FILESET_EXPORT</iconset>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+   <property name="toolTip">
+    <string>Export the selected Fileset</string>
+   </property>
+  </action>
+  <action name="actionReport">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_REPORT</normaloff>:/IDI_ICON_FILESET_REPORT</iconset>
+   </property>
+   <property name="text">
+    <string>Report</string>
+   </property>
+  </action>
+  <action name="actionFilesetsTools">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TOOLS</normaloff>:/IDI_ICON_TOOLS</iconset>
+   </property>
+   <property name="text">
+    <string>Tools</string>
+   </property>
+  </action>
+  <action name="actionReserve">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_LOCK_LOCKED</normaloff>:/IDI_ICON_LOCK_LOCKED</iconset>
+   </property>
+   <property name="text">
+    <string>Take Control</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionFilesetsDelete">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TRASH</normaloff>:/IDI_ICON_TRASH</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Backspace</string>
+   </property>
+  </action>
+  <action name="actionEdit_Association">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_NEW_ASSOCIATION</normaloff>:/IDI_ICON_NEW_ASSOCIATION</iconset>
+   </property>
+   <property name="text">
+    <string>Edit Association</string>
+   </property>
+  </action>
+  <action name="actionManageAssociationsDelete">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TRASH</normaloff>:/IDI_ICON_TRASH</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Backspace</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionManageAssociationsTools">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TOOLS</normaloff>:/IDI_ICON_TOOLS</iconset>
+   </property>
+   <property name="text">
+    <string>Tools</string>
+   </property>
+  </action>
+  <action name="actionFilesetProperties">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_PROPERTIES_32</normaloff>:/IDI_ICON_FILESET_PROPERTIES_32</iconset>
+   </property>
+   <property name="text">
+    <string>Properties</string>
+   </property>
+   <property name="toolTip">
+    <string>Set verification, requirements, and Imaging settings for the selected Fileset.</string>
+   </property>
+  </action>
+  <action name="actionShow_Locked_Items">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_LOCK_LOCKED</normaloff>:/IDI_ICON_LOCK_LOCKED</iconset>
+   </property>
+   <property name="text">
+    <string>Show &amp;Locked Items</string>
+   </property>
+  </action>
+  <action name="actionNew_Fileset_Group">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_GROUP_NEW</normaloff>:/IDI_ICON_FILESET_GROUP_NEW</iconset>
+   </property>
+   <property name="text">
+    <string>New Fileset Group</string>
+   </property>
+  </action>
+  <action name="actionNew_Group_via_Asset_Trustee">
+   <property name="text">
+    <string>New Group via FileWave Inventory</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+G</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Backspace</string>
+   </property>
+  </action>
+  <action name="actionGet_Info">
+   <property name="text">
+    <string>Get Info</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionSelect_All">
+   <property name="text">
+    <string>Select All</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences...</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionClients_Groups">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_CLIENT_GENERIC32</normaloff>:/IDI_ICON_CLIENT_GENERIC32</iconset>
+   </property>
+   <property name="text">
+    <string>Clients &amp; Groups View</string>
+   </property>
+   <property name="iconText">
+    <string>Clients  Groups</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Clients and Groups View</string>
+   </property>
+  </action>
+  <action name="actionFilesets_View">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_EMPTY</normaloff>:/IDI_ICON_FILESET_EMPTY</iconset>
+   </property>
+   <property name="text">
+    <string>Filesets</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Filesets View</string>
+   </property>
+  </action>
+  <action name="actionManage_Associations_View">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_NEW_ASSOCIATION</normaloff>:/IDI_ICON_NEW_ASSOCIATION</iconset>
+   </property>
+   <property name="text">
+    <string>Associations</string>
+   </property>
+   <property name="toolTip">
+    <string>Show Associations View</string>
+   </property>
+  </action>
+  <action name="actionNew_SmartGroup">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_CREATE_SMART_GROUP</normaloff>:/IDI_ICON_CREATE_SMART_GROUP</iconset>
+   </property>
+   <property name="text">
+    <string>New Smart Group</string>
+   </property>
+   <property name="toolTip">
+    <string>New Smart Group</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionLDAP_Browser">
+   <property name="text">
+    <string>LDAP Browser...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+B</string>
+   </property>
+  </action>
+  <action name="actionExportView">
+   <property name="text">
+    <string>Export Current View</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionClose_All">
+   <property name="text">
+    <string>Close All</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+W</string>
+   </property>
+  </action>
+  <action name="actionFile_Search">
+   <property name="text">
+    <string>File Search...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+S</string>
+   </property>
+  </action>
+  <action name="actionManaged_Preferences">
+   <property name="text">
+    <string>Policy Manager...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+P</string>
+   </property>
+  </action>
+  <action name="actionEnroll_Mobile_Device">
+   <property name="text">
+    <string>Enroll iOS Device...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionActionOpenAppStoreAssitant">
+   <property name="text">
+    <string>Search App Store...</string>
+   </property>
+   <property name="toolTip">
+    <string>Search App Store for iOS apps to install</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+T</string>
+   </property>
+  </action>
+  <action name="actionNewMobileFileset">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_MOBILE</normaloff>:/IDI_ICON_FILESET_MOBILE</iconset>
+   </property>
+   <property name="text">
+    <string>New Mobile Fileset</string>
+   </property>
+   <property name="toolTip">
+    <string>New Mobile Fileset</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+M</string>
+   </property>
+  </action>
+  <action name="actionSearch_Local_iTunes_Library">
+   <property name="text">
+    <string>Search Local iTunes Library...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+I</string>
+   </property>
+  </action>
+  <action name="actionFind_OS_X_Software_Updates">
+   <property name="text">
+    <string>Find Software Updates...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+U</string>
+   </property>
+  </action>
+  <action name="actionVPP_Code_Management">
+   <property name="text">
+    <string>VPP Code Management...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+V</string>
+   </property>
+  </action>
+  <action name="actionNewInventoryQuery">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_APP_STORE_32</normaloff>:/IDI_ICON_FILESET_APP_STORE_32</iconset>
+   </property>
+   <property name="text">
+    <string>New Inventory Query</string>
+   </property>
+   <property name="iconText">
+    <string>New License</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a new License Query Specification</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionDuplicateInventoryQuery">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILESET_APP_STORE_32</normaloff>:/IDI_ICON_FILESET_APP_STORE_32</iconset>
+   </property>
+   <property name="text">
+    <string>Duplicate</string>
+   </property>
+   <property name="toolTip">
+    <string>Duplicate a License Query Specification</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionDeleteInventoryQuery">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_TRASH</normaloff>:/IDI_ICON_TRASH</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete a License Query Specification</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Backspace</string>
+   </property>
+  </action>
+  <action name="actionEditInventoryQuery">
+   <property name="icon">
+    <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+     <normaloff>:/IDI_ICON_FILE32_MAC</normaloff>:/IDI_ICON_FILE32_MAC</iconset>
+   </property>
+   <property name="text">
+    <string>Edit</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit Inventory Query</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionApple_Configurator">
+   <property name="text">
+    <string>Apple Configurator (REMOVE ME LATER)</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>WinAdminMainTabContainer</class>
+   <extends>QWidget</extends>
+   <header>WinAdminMainTabContainer.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PrettySplitter</class>
+   <extends>QSplitter</extends>
+   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../FileWaveGuiLib/GuiLib.qrc"/>
+ </resources>
+ <connections/>
+</ui>

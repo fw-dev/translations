@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GeneralForm</class>
+ <widget class="QWidget" name="GeneralForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipName">
+     <property name="text">
+      <string>Display name of the profile (shown on device)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="editName"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Organization</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipOrganization">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Name of the organization for the profile</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="editOrganization"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="lTipDescription">
+     <property name="text">
+      <string>Brief explanation of the contents or purpose of the profile</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QTextEdit" name="textDescription">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="consentTitle">
+     <property name="text">
+      <string>Consent</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="lTipConsent">
+     <property name="text">
+      <string>Consent Text Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QTextEdit" name="textConsent">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Security</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="lTipSecurity">
+     <property name="text">
+      <string>Controls when the profile can be removed</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QComboBox" name="comboSecurity">
+     <item>
+      <property name="text">
+       <string>Always</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>With Authorization</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Never</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="lTipAuthorizationPassword">
+     <property name="text">
+      <string>Authorization Password</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0">
+    <widget class="QLineEdit" name="editAuthorizationPassword">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Automatically Remove Profile</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="0">
+    <widget class="QLabel" name="lTipRemove">
+     <property name="text">
+      <string>Settings for automatic profile removal</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,0,1">
+     <item>
+      <widget class="QComboBox" name="cbRemovalPolicy"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="editDuration">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelDuration">
+         <property name="text">
+          <string>Days</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="dateRemoval">
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="20" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>editName</tabstop>
+  <tabstop>editOrganization</tabstop>
+  <tabstop>textDescription</tabstop>
+  <tabstop>textConsent</tabstop>
+  <tabstop>comboSecurity</tabstop>
+  <tabstop>editAuthorizationPassword</tabstop>
+  <tabstop>cbRemovalPolicy</tabstop>
+  <tabstop>editDuration</tabstop>
+  <tabstop>dateRemoval</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

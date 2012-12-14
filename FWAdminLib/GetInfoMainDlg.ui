@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CGetInfoMainDlg</class>
+ <widget class="QWidget" name="CGetInfoMainDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>380</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Get Info...</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QGridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="iconLA">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>:/IDI_ICON_FILESETFOLDER32</pixmap>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="3">
+      <widget class="QLabel" name="fileNameLA">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>fileNameLA</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4" rowspan="2">
+      <widget class="QToolButton" name="reservePB">
+       <property name="toolTip">
+        <string>Reserve</string>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Kind:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="kindLA">
+       <property name="text">
+        <string>kindLA</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Created:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="createdLA">
+       <property name="text">
+        <string>createdLA</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Modified:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="modifiedLA">
+       <property name="text">
+        <string>modifiedLA</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTabWidget" name="m_MainTab">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="permissions">
+      <attribute name="title">
+       <string>Permissions (Mac OSX only)</string>
+      </attribute>
+      <layout class="QVBoxLayout">
+       <item>
+        <widget class="CGetInfoPermDlg" name="permissionsTabWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="CGetInfoPermModeTab" name="mode">
+          <attribute name="title">
+           <string>Mode</string>
+          </attribute>
+         </widget>
+         <widget class="CGetInfoPermOwnershipTab" name="ownership">
+          <attribute name="title">
+           <string>Ownership</string>
+          </attribute>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="CGetInfoACLDlg" name="ACLs">
+      <attribute name="title">
+       <string>ACLs</string>
+      </attribute>
+     </widget>
+     <widget class="CGetInfoVerifDlg" name="verification">
+      <attribute name="title">
+       <string>Verification</string>
+      </attribute>
+     </widget>
+     <widget class="CGetInfoExecuteDlg" name="executable">
+      <attribute name="title">
+       <string>Executable</string>
+      </attribute>
+     </widget>
+     <widget class="CGetInfoFlagsDlg" name="flags">
+      <attribute name="title">
+       <string>Flags</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="LockButton" name="lockButton" native="true"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelLockButton">
+       <property name="text">
+        <string>Click the lock to prevent further changes.</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CGetInfoVerifDlg</class>
+   <extends>QWidget</extends>
+   <header>GetInfoVerifDlg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CGetInfoACLDlg</class>
+   <extends>QWidget</extends>
+   <header>GetInfoACLDlg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CGetInfoExecuteDlg</class>
+   <extends>QWidget</extends>
+   <header>GetInfoExecuteDlg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CGetInfoFlagsDlg</class>
+   <extends>QWidget</extends>
+   <header>GetInfoFlagsDlg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CGetInfoPermModeTab</class>
+   <extends>QWidget</extends>
+   <header>GetInfoPermModeTab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CGetInfoPermOwnershipTab</class>
+   <extends>QWidget</extends>
+   <header>GetInfoPermOwnershipTab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CGetInfoPermDlg</class>
+   <extends>QTabWidget</extends>
+   <header>GetInfoPermDlg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LockButton</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/lockbutton/lockbutton.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../FileWaveGuiLib/GuiLib.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LDAPForm</class>
+ <widget class="QWidget" name="LDAPForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="DescriptionTitle">
+     <property name="text">
+      <string>Account Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipDescription">
+     <property name="text">
+      <string>The display name of the account (e.g. &quot;Company LDAP Account&quot;)</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="DescriptionField"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="UsernameTitle">
+     <property name="text">
+      <string>Account Username</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipUsername">
+     <property name="text">
+      <string>The username for this LDAP account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="UsernameField"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="PasswordTitle">
+     <property name="text">
+      <string>Account Password</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="lTipPassword">
+     <property name="text">
+      <string>The password for this LDAP account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLineEdit" name="PasswordField">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="HostnameTitle">
+     <property name="text">
+      <string>Account Hostname</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="lTipHostname">
+     <property name="text">
+      <string>The LDAP hostname or IP address</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="HostnameField"/>
+   </item>
+   <item row="12" column="0">
+    <widget class="QCheckBox" name="SSLField">
+     <property name="text">
+      <string>Use SSL</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="SearchTitle">
+     <property name="text">
+      <string>Search Settings</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLabel" name="lTipSearch">
+     <property name="text">
+      <string>Search settings for this LDAP server</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="FWTreeView" name="SearchView"/>
+   </item>
+   <item row="16" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="addSearchSetting">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="removeSearchSetting">
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FWTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FWAdminLib/views/FWTreeView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

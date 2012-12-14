@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IdentificationOSXForm</class>
+ <widget class="QWidget" name="IdentificationOSXForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>User Display Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisplay">
+     <property name="text">
+      <string>The user display name for the accounts</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="displayName">
+     <property name="placeholderText">
+      <string>set on device</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Email Address</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisplay_2">
+     <property name="text">
+      <string>The email address for the accounts</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="email">
+     <property name="placeholderText">
+      <string>set on device</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>User Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisplay_3">
+     <property name="text">
+      <string>The user name for the accounts</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="userName">
+     <property name="placeholderText">
+      <string>set on device</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="passwordLabel">
+     <property name="text">
+      <string>Password</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipPassword">
+     <property name="text">
+      <string>The password for the accounts</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="password">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string> </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="userEntersPassword">
+     <property name="text">
+      <string>User Enters Password</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisplay_7">
+     <property name="text">
+      <string>The user enters the password upon profile installation</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Prompt</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisplay_4">
+     <property name="text">
+      <string>Prompt text for any of the above values</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="promptText"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Prompt Message</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisplay_5">
+     <property name="text">
+      <string>Additional descriptive text for the Prompt field</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="promptMessage"/>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>41</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>displayName</tabstop>
+  <tabstop>email</tabstop>
+  <tabstop>userName</tabstop>
+  <tabstop>password</tabstop>
+  <tabstop>userEntersPassword</tabstop>
+  <tabstop>promptText</tabstop>
+  <tabstop>promptMessage</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
