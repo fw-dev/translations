@@ -344,42 +344,4 @@ Worklist:
         <translation type="unfinished"></translation>
     </message>
 </context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="180"/>
-        <source>Activating registry contents from file %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="184"/>
-        <source>Could not open file %1!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="202"/>
-        <source>Invalid header in registry file %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="230"/>
-        <source>Invalid value record in registry file %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="257"/>
-        <source>Invalid key record in registry file %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="276"/>
-        <source>No idea what to do with a key with parent ID %1 - parent not found.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtClient/Windows/Registry.cpp" line="287"/>
-        <source>No idea what to do with a value with parent ID %1 - parent not found.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
 </TS>
