@@ -256,17 +256,17 @@ Worklist:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1204"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1210"/>
         <source>Checking Files..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1249"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1253"/>
         <source>Activating Files..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1326"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1330"/>
         <source>Running..</source>
         <translation type="unfinished"></translation>
     </message>
