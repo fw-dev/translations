@@ -256,17 +256,17 @@ Worklist:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1204"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1210"/>
         <source>Checking Files..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1249"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1253"/>
         <source>Activating Files..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1326"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1330"/>
         <source>Running..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -274,17 +274,17 @@ Worklist:
 <context>
     <name>FW::MainController</name>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="30"/>
+        <location filename="../../QtClient/MainController.cpp" line="42"/>
         <source>Running...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="31"/>
-        <source>Installing </source>
+        <location filename="../../QtClient/MainController.cpp" line="47"/>
+        <source>Installing %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="123"/>
+        <location filename="../../QtClient/MainController.cpp" line="131"/>
         <source>Connecting to FW Server...</source>
         <translation type="unfinished"></translation>
     </message>
