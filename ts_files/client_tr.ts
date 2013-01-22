@@ -265,17 +265,17 @@ Worklist:
         <translation>Dosyalar Çalıştırılıyor..</translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1210"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1204"/>
         <source>Checking Files..</source>
         <translation>Dosyalar Kontrol Ediliyor..</translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1253"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1249"/>
         <source>Activating Files..</source>
         <translation>Dosyalar Aktive Ediliyor..</translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1330"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1326"/>
         <source>Running..</source>
         <translation>Çalışıyor..</translation>
     </message>
