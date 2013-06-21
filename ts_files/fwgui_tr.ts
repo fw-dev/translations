@@ -4,18 +4,18 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="49"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="59"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="50"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="60"/>
         <source>FileWave Kiosk</source>
         <translation>Tuğra Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="79"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="80"/>
         <source>Available Updates: %1</source>
         <translation>Hazır Güncellemeler: %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="83"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="84"/>
         <source>Install Software...</source>
         <translation>Yazılım Yükle...</translation>
     </message>
@@ -56,42 +56,42 @@
         <translation>Tuğra Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="73"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="74"/>
         <source>Install</source>
         <translation>Kur</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="75"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="76"/>
         <source>Uninstall</source>
         <translation>Kaldır</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="77"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="78"/>
         <source>Reinstall</source>
         <translation>Yeniden Kur</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="193"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="190"/>
         <source>Search...</source>
         <translation>Ara...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="197"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="195"/>
         <source>All Items</source>
         <translation>Tüm öğeler</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="198"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="196"/>
         <source>Installed</source>
         <translation>Kuruldu</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="199"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="197"/>
         <source>Not Installed</source>
         <translation>Kurulmadı</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="603"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="587"/>
         <source>%1 Item%2</source>
         <translation>Öğe %1/%2</translation>
     </message>
@@ -104,35 +104,35 @@
         <translation>Tuğra Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="56"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="53"/>
         <source>icon</source>
         <translation>ikon</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="102"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="99"/>
         <source>Title (Fileset Name)</source>
         <translation>Başlık (Fileset Adı)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="121"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="118"/>
         <source>Fileset Category</source>
         <translation>Fileset Kategorisi</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="232"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="229"/>
         <source>    Queued for Installation    </source>
         <translation>    Kurulum için sırada</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="305"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="254"/>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="96"/>
-        <source>UNINSTALL</source>
-        <translation>KALDIR</translation>
+        <source>Uninstall</source>
+        <translation type="unfinished">Kaldır</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="92"/>
-        <source>INSTALL</source>
-        <translation>KUR</translation>
+        <source>Install</source>
+        <translation type="unfinished">Kur</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="125"/>
@@ -188,17 +188,17 @@
         <translation>Çalışan Tüm İşlemlerden Çıkın</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="32"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="35"/>
         <source>Important System Software is to be installed on this computer...</source>
         <translation>Önemli bir Sistem Yazılımı bilgisayarınıza yüklendi...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="42"/>
         <source>Please save your work and exit all programs.</source>
         <translation>Lütfen çalışmanızı kaydedin ve tüm programlardan çıkın.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="46"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="49"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation>Aşağıdaki uygulamalar bu kurulumun yerleşmesine engel oluyor.</translation>
     </message>
