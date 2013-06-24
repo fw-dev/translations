@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>FileWave Kiosk</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true"/>
-  </property>
   <property name="unifiedTitleAndToolBarOnMac">
    <bool>true</bool>
   </property>
@@ -72,9 +69,6 @@
        <property name="autoFillBackground">
         <bool>false</bool>
        </property>
-       <property name="styleSheet">
-        <string notr="true"/>
-       </property>
        <property name="frameShape">
         <enum>QFrame::NoFrame</enum>
        </property>
@@ -112,7 +106,7 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="StyledListView" name="installView">
+         <widget class="StyledTreeView" name="installView">
           <property name="frameShape">
            <enum>QFrame::NoFrame</enum>
           </property>
@@ -140,7 +134,10 @@
             <height>32</height>
            </size>
           </property>
-          <property name="uniformItemSizes">
+          <property name="headerHidden">
+           <bool>true</bool>
+          </property>
+          <property name="uniformItemSizes" stdset="0">
            <bool>true</bool>
           </property>
          </widget>
@@ -251,9 +248,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledListView</class>
-   <extends>QListView</extends>
-   <header>FileWaveGuiLib/styledlistview/styledlistview.h</header>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
   <customwidget>
    <class>PrettySplitter</class>

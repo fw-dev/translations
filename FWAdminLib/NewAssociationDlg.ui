@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CNewAssociationDlg</class>
- <widget class="QWidget" name="CNewAssociationDlg">
+ <class>NewAssociationDlg</class>
+ <widget class="QWidget" name="NewAssociationDlg">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -21,24 +21,21 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QWidget" name="widget" native="true">
+    <widget class="ViewSearchHeader" name="header" native="true">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
-     <layout class="QGridLayout" name="gridLayout">
+     <layout class="QHBoxLayout" name="horizontalLayout">
       <property name="topMargin">
        <number>6</number>
       </property>
       <property name="bottomMargin">
        <number>6</number>
       </property>
-      <property name="verticalSpacing">
-       <number>0</number>
-      </property>
-      <item row="0" column="0">
+      <item>
        <widget class="QLabel" name="displayLabel">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -47,11 +44,11 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Associate one or more filesets with a client</string>
+         <string/>
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
+      <item>
        <spacer name="horizontalSpacer">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -64,65 +61,65 @@
         </property>
        </spacer>
       </item>
-      <item row="0" column="2">
-       <layout class="QVBoxLayout" name="verticalLayout">
-        <property name="spacing">
-         <number>6</number>
+      <item>
+       <widget class="QLabel" name="statistics">
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
         </property>
-        <item>
-         <widget class="SearchLineEdit" name="searchFilesetED">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="helperText">
-          <property name="text">
-           <string/>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="SearchLineEdit" name="searchField">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="treeWidgetFrame" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_3">
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="FilesetsGroupsView" name="filesetsView">
-        <property name="editTriggers">
-         <set>QAbstractItemView::NoEditTriggers</set>
-        </property>
-        <property name="alternatingRowColors">
-         <bool>true</bool>
-        </property>
-        <property name="selectionMode">
-         <enum>QAbstractItemView::ExtendedSelection</enum>
-        </property>
-        <property name="uniformRowHeights">
-         <bool>true</bool>
-        </property>
-        <property name="sortingEnabled">
-         <bool>true</bool>
-        </property>
-        <property name="animated">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-     </layout>
+    <widget class="FilesetsGroupsView" name="filesetsView">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::ExtendedSelection</enum>
+     </property>
+     <property name="uniformRowHeights">
+      <bool>true</bool>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="animated">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="ClientsGroupsView" name="clientsView">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
     </widget>
    </item>
    <item>
@@ -142,6 +139,12 @@
         <property name="text">
          <string>Create Association(s)</string>
         </property>
+        <property name="autoDefault">
+         <bool>true</bool>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item row="0" column="1">
@@ -157,22 +160,6 @@
         </property>
        </spacer>
       </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="_filesetsStatistics">
-        <property name="font">
-         <font>
-          <weight>50</weight>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>Static</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
      </layout>
     </widget>
    </item>
@@ -183,6 +170,17 @@
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ViewSearchHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ViewSearchHeader.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClientsGroupsView</class>
+   <extends>QTreeView</extends>
+   <header>views/clientsgroupsview.h</header>
   </customwidget>
   <customwidget>
    <class>FilesetsGroupsView</class>

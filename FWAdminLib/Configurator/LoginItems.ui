@@ -36,7 +36,7 @@
     </layout>
    </item>
    <item>
-    <widget class="QTreeWidget" name="appList">
+    <widget class="StyledTreeWidget" name="appList">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>0</horstretch>
@@ -123,7 +123,7 @@
     </layout>
    </item>
    <item>
-    <widget class="QTreeWidget" name="pathList">
+    <widget class="StyledTreeWidget" name="pathList">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>0</horstretch>
@@ -207,7 +207,7 @@
     </layout>
    </item>
    <item>
-    <widget class="QTreeWidget" name="mountList">
+    <widget class="StyledTreeWidget" name="mountList">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>0</horstretch>
@@ -288,6 +288,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>443</width>
-    <height>350</height>
+    <width>471</width>
+    <height>471</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,6 +16,12 @@
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
      <item>
       <spacer name="horizontalSpacer_2">
        <property name="orientation">
@@ -23,7 +29,7 @@
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>13</width>
+         <width>40</width>
          <height>20</height>
         </size>
        </property>
@@ -59,10 +65,7 @@
          <property name="enabled">
           <bool>false</bool>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
-          <property name="margin">
-           <number>0</number>
-          </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
           <item>
            <layout class="QVBoxLayout" name="verticalLayout">
             <item>
@@ -137,85 +140,89 @@
            </layout>
           </item>
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_7">
-            <item>
-             <widget class="QLabel" name="argumentsLA">
-              <property name="text">
-               <string>Launch arguments:</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QToolButton" name="deleteArgumentButton">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                <horstretch>23</horstretch>
-                <verstretch>23</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>23</width>
-                <height>23</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>23</width>
-                <height>23</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>-</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer_5">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
-             <widget class="QToolButton" name="addArgumentButton">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                <horstretch>23</horstretch>
-                <verstretch>23</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>23</width>
-                <height>23</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>23</width>
-                <height>23</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>+</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <widget class="QListWidget" name="argumentsListWidget">
-            <property name="dragDropMode">
-             <enum>QAbstractItemView::InternalMove</enum>
+           <widget class="QLabel" name="argumentsLA">
+            <property name="text">
+             <string>Launch arguments:</string>
             </property>
            </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QListWidget" name="argumentsListWidget">
+              <property name="dragDropMode">
+               <enum>QAbstractItemView::InternalMove</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QToolButton" name="addArgumentButton">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>23</horstretch>
+                  <verstretch>23</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>23</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>23</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QToolButton" name="deleteArgumentButton">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>23</horstretch>
+                  <verstretch>23</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>23</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>23</width>
+                  <height>23</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
           </item>
           <item>
            <widget class="QCheckBox" name="showDOSCB">
@@ -225,6 +232,12 @@
            </widget>
           </item>
          </layout>
+         <zorder>showDOSCB</zorder>
+         <zorder>addArgumentButton</zorder>
+         <zorder>deleteArgumentButton</zorder>
+         <zorder>addArgumentButton</zorder>
+         <zorder>deleteArgumentButton</zorder>
+         <zorder>argumentsLA</zorder>
         </widget>
        </item>
       </layout>
@@ -236,7 +249,7 @@
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>13</width>
+         <width>40</width>
          <height>20</height>
         </size>
        </property>
@@ -245,14 +258,14 @@
     </layout>
    </item>
    <item>
-    <spacer name="verticalSpacer">
+    <spacer name="verticalSpacer_2">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
      </property>
      <property name="sizeHint" stdset="0">
       <size>
        <width>20</width>
-       <height>6</height>
+       <height>40</height>
       </size>
      </property>
     </spacer>

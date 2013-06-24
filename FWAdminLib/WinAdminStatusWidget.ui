@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Status</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -27,6 +27,9 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../FileWaveGuiLib/GuiLib.qrc">:/fw-logo</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

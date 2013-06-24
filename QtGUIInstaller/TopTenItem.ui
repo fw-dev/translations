@@ -34,9 +34,6 @@
   <property name="windowTitle">
    <string/>
   </property>
-  <property name="styleSheet">
-   <string notr="true"/>
-  </property>
   <property name="pressed" stdset="0">
    <bool>false</bool>
   </property>

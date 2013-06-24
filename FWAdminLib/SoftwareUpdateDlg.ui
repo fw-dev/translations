@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>Available Software Updates</string>
   </property>
-  <property name="styleSheet">
-   <string notr="true"/>
-  </property>
   <property name="animated">
    <bool>false</bool>
   </property>
@@ -26,43 +23,6 @@
    <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="styleSheet">
-    <string notr="true">QPushButton {
-	border: 1px solid #606060;
-	border-radius:3;
-	padding-left: 13px;
-	padding-right: 13px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-size: 12px;
-	font-weight:bold;
-	font-family:Andale Mono;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #707070, stop: 0.4 #757575,
-                                stop: 0.5 #606060, stop: 1.0 #656565);
-	color: #eeeeee;
-}
-
-QPushButton:hover {
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #505050, stop: 0.4 #555555,
-                                stop: 0.5 #404040, stop: 1.0 #545454);
-}
-
-QPushButton:pressed {
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #404040, stop: 0.4 #454545,
-                                stop: 0.5 #303030, stop: 1.0 #353535);
-color: white;
-}
-
-QPushButton:disabled {
-	border: 1px solid #c0c0c0;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #c0c0c0, stop: 0.4 #c5c5c5,
-                                stop: 0.5 #b0b0b0, stop: 1.0 #b5b5b5);
-}</string>
-   </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <property name="margin">
      <number>0</number>
@@ -81,10 +41,7 @@ QPushButton:disabled {
          <number>0</number>
         </property>
         <item>
-         <widget class="QFrame" name="frame">
-          <property name="styleSheet">
-           <string notr="true"/>
-          </property>
+         <widget class="ViewSearchHeader" name="widget" native="true">
           <layout class="QHBoxLayout" name="searchBoxLayout_8">
            <property name="spacing">
             <number>-1</number>
@@ -169,14 +126,7 @@ QPushButton:disabled {
          </widget>
         </item>
         <item>
-         <widget class="Line" name="line_3">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="StyledListView" name="updateView">
+         <widget class="StyledTreeView" name="updateView">
           <property name="minimumSize">
            <size>
             <width>0</width>
@@ -195,7 +145,16 @@ QPushButton:disabled {
           <property name="selectionMode">
            <enum>QAbstractItemView::SingleSelection</enum>
           </property>
-          <property name="uniformItemSizes">
+          <property name="rootIsDecorated">
+           <bool>false</bool>
+          </property>
+          <property name="uniformRowHeights">
+           <bool>true</bool>
+          </property>
+          <property name="headerHidden">
+           <bool>true</bool>
+          </property>
+          <property name="uniformItemSizes" stdset="0">
            <bool>true</bool>
           </property>
          </widget>
@@ -215,7 +174,7 @@ QPushButton:disabled {
           <number>0</number>
          </property>
          <item>
-          <widget class="QFrame" name="frame1_2">
+          <widget class="ViewSearchHeader" name="widget1_2" native="true">
            <layout class="QHBoxLayout" name="searchBoxLayout_9">
             <property name="spacing">
              <number>-1</number>
@@ -259,14 +218,7 @@ QPushButton:disabled {
           </widget>
          </item>
          <item>
-          <widget class="Line" name="line_2">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QTreeView" name="groupView">
+          <widget class="StyledTreeView" name="groupView">
            <property name="frameShape">
             <enum>QFrame::NoFrame</enum>
            </property>
@@ -294,9 +246,6 @@ QPushButton:disabled {
            <attribute name="headerVisible">
             <bool>false</bool>
            </attribute>
-           <attribute name="headerVisible">
-            <bool>false</bool>
-           </attribute>
           </widget>
          </item>
         </layout>
@@ -307,7 +256,7 @@ QPushButton:disabled {
           <number>0</number>
          </property>
          <item>
-          <widget class="QFrame" name="frame1">
+          <widget class="ViewSearchHeader" name="widget1" native="true">
            <layout class="QHBoxLayout" name="searchBoxLayout_7">
             <property name="spacing">
              <number>-1</number>
@@ -335,7 +284,7 @@ QPushButton:disabled {
              <widget class="QLabel" name="clientCountLabel">
               <property name="minimumSize">
                <size>
-                <width>75</width>
+                <width>0</width>
                 <height>0</height>
                </size>
               </property>
@@ -370,13 +319,6 @@ QPushButton:disabled {
              </widget>
             </item>
            </layout>
-          </widget>
-         </item>
-         <item>
-          <widget class="Line" name="line">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
           </widget>
          </item>
          <item>
@@ -426,7 +368,7 @@ QPushButton:disabled {
             <item>
              <widget class="QPushButton" name="associateAllButton">
               <property name="text">
-               <string>ASSOCIATE SELECTED</string>
+               <string/>
               </property>
              </widget>
             </item>
@@ -441,49 +383,12 @@ QPushButton:disabled {
           </widget>
          </item>
          <item>
-          <widget class="StyledListView" name="clientView">
+          <widget class="StyledTreeView" name="clientView">
            <property name="minimumSize">
             <size>
              <width>0</width>
              <height>0</height>
             </size>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">QPushButton {
-	border: 1px solid #606060;
-	border-radius:3;
-	padding-left: 13px;
-	padding-right: 13px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-size: 12px;
-	font-weight:bold;
-	font-family:Andale Mono;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #707070, stop: 0.4 #757575,
-                                stop: 0.5 #606060, stop: 1.0 #656565);
-	color: #eeeeee;
-}
-
-QPushButton:hover {
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #505050, stop: 0.4 #555555,
-                                stop: 0.5 #404040, stop: 1.0 #545454);
-}
-
-QPushButton:pressed {
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #404040, stop: 0.4 #454545,
-                                stop: 0.5 #303030, stop: 1.0 #353535);
-color: white;
-}
-
-QPushButton:disabled {
-	border: 1px solid #c0c0c0;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #c0c0c0, stop: 0.4 #c5c5c5,
-                                stop: 0.5 #b0b0b0, stop: 1.0 #b5b5b5);
-}</string>
            </property>
            <property name="frameShape">
             <enum>QFrame::NoFrame</enum>
@@ -497,7 +402,10 @@ QPushButton:disabled {
            <property name="selectionMode">
             <enum>QAbstractItemView::ExtendedSelection</enum>
            </property>
-           <property name="uniformItemSizes">
+           <property name="headerHidden">
+            <bool>true</bool>
+           </property>
+           <property name="uniformItemSizes" stdset="0">
             <bool>true</bool>
            </property>
           </widget>
@@ -571,9 +479,15 @@ QPushButton:disabled {
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledListView</class>
-   <extends>QListView</extends>
-   <header>FileWaveGuiLib/styledlistview/styledlistview.h</header>
+   <class>SearchLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ViewSearchHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ViewSearchHeader.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>PrettySplitter</class>
@@ -582,9 +496,9 @@ QPushButton:disabled {
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>SearchLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

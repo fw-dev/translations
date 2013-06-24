@@ -27,7 +27,7 @@ QComboBox { font-size: 10pt }
 QComboBox[comboErrorHighlight=&quot;true&quot;]{
 color:red;
 }
-QToolButton { max-height: 16; max-width:16 }
+QToolButton[text=&quot;+&quot;],[text=&quot;-&quot;] { max-height: 16; max-width:16 }
 </string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">

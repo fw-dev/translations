@@ -32,7 +32,7 @@
       <enum>QTabWidget::Rounded</enum>
      </property>
      <property name="currentIndex">
-      <number>4</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tabProperties">
       <attribute name="title">
@@ -181,200 +181,123 @@
            </layout>
           </item>
           <item>
-           <widget class="Line" name="line">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Verification settings</string>
             </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_6">
-            <property name="text">
-             <string>Verification Settings:</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_14">
-            <item>
-             <spacer name="horizontalSpacer_16">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Fixed</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>13</width>
-                <height>13</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
-             <layout class="QVBoxLayout" name="verticalLayout_17">
-              <item>
-               <widget class="QRadioButton" name="radioButtonSelfHealing">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Self Healing</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QRadioButton" name="radioButtonDownloadIfMissing">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Download If Missing</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QRadioButton" name="radioButtonIgnoreAtVerify">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Ignore At Verify (Left Behind)</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="radioButtonSelfHealing">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>Self Healing</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButtonDownloadIfMissing">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>Download If Missing</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButtonIgnoreAtVerify">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>Ignore At Verify (Left Behind)</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_2">
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_12">
                 <item>
-                 <spacer name="horizontalSpacer_17">
-                  <property name="orientation">
-                   <enum>Qt::Horizontal</enum>
-                  </property>
-                  <property name="sizeType">
-                   <enum>QSizePolicy::Fixed</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>13</width>
-                    <height>13</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-                <item>
-                 <layout class="QVBoxLayout" name="verticalLayout_18">
-                  <item>
-                   <widget class="QCheckBox" name="noOverwrite">
-                    <property name="sizePolicy">
-                     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                      <horstretch>0</horstretch>
-                      <verstretch>0</verstretch>
-                     </sizepolicy>
-                    </property>
-                    <property name="text">
-                     <string>Don't overwrite existing files upon deployment</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item>
-                   <layout class="QHBoxLayout" name="horizontalLayout_16">
-                    <item>
-                     <spacer name="horizontalSpacer_18">
-                      <property name="orientation">
-                       <enum>Qt::Horizontal</enum>
-                      </property>
-                      <property name="sizeType">
-                       <enum>QSizePolicy::Fixed</enum>
-                      </property>
-                      <property name="sizeHint" stdset="0">
-                       <size>
-                        <width>13</width>
-                        <height>13</height>
-                       </size>
-                      </property>
-                     </spacer>
-                    </item>
-                    <item>
-                     <widget class="QCheckBox" name="overwriteOlder">
-                      <property name="sizePolicy">
-                       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                        <horstretch>0</horstretch>
-                        <verstretch>0</verstretch>
-                       </sizepolicy>
-                      </property>
-                      <property name="text">
-                       <string>Overwrite only if the existing file is older</string>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </item>
-                  <item>
-                   <spacer name="verticalSpacer_12">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                    <property name="sizeHint" stdset="0">
-                     <size>
-                      <width>20</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                   </spacer>
-                  </item>
-                 </layout>
-                </item>
-               </layout>
-              </item>
-              <item>
-               <layout class="QHBoxLayout" name="horizontalLayout_17">
-                <item>
-                 <widget class="QPushButton" name="buttonApply">
-                  <property name="enabled">
-                   <bool>false</bool>
-                  </property>
+                 <widget class="QCheckBox" name="noOverwrite">
                   <property name="sizePolicy">
-                   <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                     <horstretch>0</horstretch>
-                    <verstretch>26</verstretch>
+                    <verstretch>0</verstretch>
                    </sizepolicy>
                   </property>
                   <property name="text">
-                   <string>Apply Verification Settings</string>
+                   <string>Don't overwrite existing files upon deployment</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <spacer name="horizontalSpacer_5">
-                  <property name="orientation">
-                   <enum>Qt::Horizontal</enum>
+                 <widget class="QCheckBox" name="overwriteOlder">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
                   </property>
-                  <property name="sizeType">
-                   <enum>QSizePolicy::Expanding</enum>
+                  <property name="text">
+                   <string>Overwrite only if the existing file is older</string>
                   </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>250</width>
-                    <height>20</height>
-                   </size>
-                  </property>
-                 </spacer>
+                 </widget>
                 </item>
                </layout>
-              </item>
-             </layout>
-            </item>
-           </layout>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <spacer name="horizontalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>8</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="buttonApply">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>26</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Apply Verification Settings</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
           </item>
           <item>
            <spacer name="verticalSpacer_4">
@@ -717,16 +640,58 @@
        </property>
        <item row="0" column="0">
         <widget class="QWidget" name="imagingEDWidget" native="true">
-         <layout class="QGridLayout" name="gridLayout_8">
-          <item row="5" column="0">
-           <layout class="QVBoxLayout" name="verticalLayout_16">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QCheckBox" name="checkBoxImageFileset">
+            <property name="text">
+             <string>Make this Fileset an image Fileset</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxIgnorePaths">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Ignore the paths below upon erasure</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="StyledTreeView" name="treeViewIgnorePaths">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>7</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ExtendedSelection</enum>
+            </property>
+            <property name="rootIsDecorated">
+             <bool>false</bool>
+            </property>
+            <property name="headerHidden">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
             <item>
              <widget class="QToolButton" name="buttonAddPath">
               <property name="enabled">
                <bool>false</bool>
               </property>
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
@@ -754,7 +719,7 @@
                <bool>false</bool>
               </property>
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
@@ -777,121 +742,61 @@
              </widget>
             </item>
             <item>
-             <spacer name="verticalSpacer_10">
+             <spacer name="horizontalSpacer_3">
               <property name="orientation">
-               <enum>Qt::Vertical</enum>
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::MinimumExpanding</enum>
               </property>
               <property name="sizeHint" stdset="0">
                <size>
-                <width>20</width>
-                <height>40</height>
+                <width>40</width>
+                <height>20</height>
                </size>
               </property>
              </spacer>
             </item>
            </layout>
           </item>
-          <item row="1" column="0" colspan="3">
-           <widget class="QCheckBox" name="checkBoxImageFileset">
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="deleteFiles">
+      <attribute name="title">
+       <string>Delete Files</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="deleteFilesEDWidget" native="true">
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxDelete">
             <property name="text">
-             <string>Image Fileset</string>
+             <string>Delete the paths below upon Fileset activation</string>
             </property>
            </widget>
           </item>
-          <item row="1" column="3">
-           <widget class="QLabel" name="labelInvalidImage">
-            <property name="palette">
-             <palette>
-              <active>
-               <colorrole role="WindowText">
-                <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>255</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                 </color>
-                </brush>
-               </colorrole>
-              </active>
-              <inactive>
-               <colorrole role="WindowText">
-                <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>255</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                 </color>
-                </brush>
-               </colorrole>
-              </inactive>
-              <disabled>
-               <colorrole role="WindowText">
-                <brush brushstyle="SolidPattern">
-                 <color alpha="255">
-                  <red>69</red>
-                  <green>69</green>
-                  <blue>69</blue>
-                 </color>
-                </brush>
-               </colorrole>
-              </disabled>
-             </palette>
-            </property>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxVerify">
             <property name="text">
-             <string>Invalid Image</string>
+             <string>Execute at every verification</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
-           <spacer name="verticalSpacer_7">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>208</width>
-              <height>13</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item row="3" column="1" colspan="3">
-           <widget class="QCheckBox" name="checkBoxIgnorePaths">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="text">
-             <string>Ignore these paths when erasing:</string>
-            </property>
-           </widget>
-          </item>
-          <item row="4" column="1" colspan="2">
-           <spacer name="verticalSpacer_15">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>337</width>
-              <height>13</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item row="5" column="1" colspan="3">
-           <widget class="QTreeView" name="treeViewIgnorePaths">
+          <item row="2" column="0">
+           <widget class="StyledTreeView" name="treeViewDeletePaths">
             <property name="enabled">
              <bool>false</bool>
             </property>
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-              <horstretch>7</horstretch>
+              <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
@@ -909,165 +814,61 @@
             </property>
            </widget>
           </item>
-          <item row="5" column="4">
-           <spacer name="horizontalSpacer_3">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>10</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-         </layout>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="deleteFiles">
-      <attribute name="title">
-       <string>Delete Files</string>
-      </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_6">
-       <property name="margin">
-        <number>0</number>
-       </property>
-       <item>
-        <widget class="QWidget" name="deleteFilesEDWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout_10">
-          <item>
-           <widget class="QCheckBox" name="checkBoxDelete">
-            <property name="text">
-             <string>Delete these paths upon activation:</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QCheckBox" name="checkBoxVerify">
-            <property name="text">
-             <string>Execute every verify</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="verticalSpacer_6">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>328</width>
-              <height>10</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
+          <item row="3" column="0">
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
-             <layout class="QVBoxLayout" name="verticalLayout_15">
-              <item>
-               <widget class="QToolButton" name="buttonAddDeletePath">
-                <property name="enabled">
-                 <bool>false</bool>
-                </property>
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>25</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>+</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QToolButton" name="buttonRemoveDeletePath">
-                <property name="enabled">
-                 <bool>false</bool>
-                </property>
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="minimumSize">
-                 <size>
-                  <width>25</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>-</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <spacer name="verticalSpacer_31">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>0</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-             </layout>
-            </item>
-            <item>
-             <widget class="QTreeView" name="treeViewDeletePaths">
+             <widget class="QToolButton" name="buttonAddDeletePath">
               <property name="enabled">
                <bool>false</bool>
               </property>
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
-              <property name="alternatingRowColors">
-               <bool>true</bool>
+              <property name="minimumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
               </property>
-              <property name="selectionMode">
-               <enum>QAbstractItemView::ExtendedSelection</enum>
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
               </property>
-              <property name="rootIsDecorated">
+              <property name="text">
+               <string>+</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QToolButton" name="buttonRemoveDeletePath">
+              <property name="enabled">
                <bool>false</bool>
               </property>
-              <property name="headerHidden">
-               <bool>true</bool>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>-</string>
               </property>
              </widget>
             </item>
@@ -1076,12 +877,9 @@
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Fixed</enum>
-              </property>
               <property name="sizeHint" stdset="0">
                <size>
-                <width>10</width>
+                <width>40</width>
                 <height>20</height>
                </size>
               </property>
@@ -1133,7 +931,7 @@
                 <item>
                  <widget class="QLabel" name="label_5">
                   <property name="text">
-                   <string>Kiosk Icon:</string>
+                   <string>Kiosk Icon</string>
                   </property>
                  </widget>
                 </item>
@@ -1318,7 +1116,7 @@
                 <item>
                  <widget class="QLabel" name="label">
                   <property name="text">
-                   <string>Category:</string>
+                   <string>Category</string>
                   </property>
                  </widget>
                 </item>
@@ -1434,6 +1232,11 @@
   </layout>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
   <customwidget>
    <class>KioskCategoriesView</class>
    <extends>QTreeView</extends>

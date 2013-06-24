@@ -35,7 +35,7 @@
          </font>
         </property>
         <property name="text">
-         <string>ClientName</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -165,7 +165,7 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap resource="../FileWaveGuiLib/GuiLib.qrc">:/IDI_ICON_CLIENT_APPLE_IOS32</pixmap>
+           <pixmap resource="../FileWaveGuiLib/GuiLib.qrc">:/IDI_ICON_CLIENT_APPLE_IOS64</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -269,7 +269,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="detailsView">
+           <widget class="StyledTreeView" name="detailsView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -319,7 +322,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="commandView">
+           <widget class="StyledTreeView" name="commandView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -357,7 +363,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="managedAppView">
+           <widget class="StyledTreeView" name="managedAppView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="showDropIndicator" stdset="0">
              <bool>false</bool>
             </property>
@@ -386,7 +395,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="appView">
+           <widget class="StyledTreeView" name="appView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -424,7 +436,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="profileView">
+           <widget class="StyledTreeView" name="profileView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -453,12 +468,17 @@
        </widget>
       </item>
      </layout>
-     <zorder>nameField</zorder>
-     <zorder>tabWidget</zorder>
     </widget>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="../FileWaveGuiLib/GuiLib.qrc"/>
  </resources>

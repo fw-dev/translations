@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>625</width>
-    <height>192</height>
+    <width>773</width>
+    <height>360</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -36,7 +36,7 @@
     <number>0</number>
    </property>
    <item row="0" column="0">
-    <widget class="QSplitter" name="splitter">
+    <widget class="PrettySplitter" name="splitter">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
@@ -86,7 +86,7 @@
        </property>
        <property name="icon">
         <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-         <normaloff>:/Dock.png</normaloff>:/Dock.png</iconset>
+         <normaloff>:/IDI_ICON_POLICY_DOCK</normaloff>:/IDI_ICON_POLICY_DOCK</iconset>
        </property>
       </item>
       <item>
@@ -95,7 +95,7 @@
        </property>
        <property name="icon">
         <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-         <normaloff>:/Printing.png</normaloff>:/Printing.png</iconset>
+         <normaloff>:/IDI_ICON_POLICY_PRINTERS</normaloff>:/IDI_ICON_POLICY_PRINTERS</iconset>
        </property>
       </item>
       <item>
@@ -104,7 +104,7 @@
        </property>
        <property name="icon">
         <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-         <normaloff>:/res/png/EnergySaver.png</normaloff>:/res/png/EnergySaver.png</iconset>
+         <normaloff>:/IDI_ICON_POLICY_ENERGY</normaloff>:/IDI_ICON_POLICY_ENERGY</iconset>
        </property>
       </item>
       <item>
@@ -113,12 +113,15 @@
        </property>
        <property name="icon">
         <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-         <normaloff>:/Script.png</normaloff>:/Script.png</iconset>
+         <normaloff>:/IDI_ICON_POLICY_LOGIN</normaloff>:/IDI_ICON_POLICY_LOGIN</iconset>
        </property>
       </item>
      </widget>
      <widget class="QWidget" name="layoutWidget">
       <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
        <item>
         <widget class="QGroupBox" name="groupBox">
          <property name="styleSheet">
@@ -130,19 +133,12 @@
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout">
-            <item>
-             <spacer name="horizontalSpacer_2">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
+            <property name="leftMargin">
+             <number>20</number>
+            </property>
+            <property name="rightMargin">
+             <number>20</number>
+            </property>
             <item>
              <widget class="QLabel" name="label_2">
               <property name="sizePolicy">
@@ -159,25 +155,12 @@
             <item>
              <widget class="QLineEdit" name="nameLabel">
               <property name="sizePolicy">
-               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
              </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>
@@ -209,6 +192,9 @@
        </item>
        <item>
         <layout class="QHBoxLayout" name="buttonLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
          <property name="leftMargin">
           <number>12</number>
          </property>
@@ -252,6 +238,14 @@ margin: 0px;
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PrettySplitter</class>
+   <extends>QSplitter</extends>
+   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="../FileWaveGuiLib/GuiLib.qrc"/>
  </resources>

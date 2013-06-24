@@ -17,24 +17,46 @@
    <string>Fileset Contents</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
     <property name="margin">
      <number>0</number>
     </property>
-    <item row="0" column="0">
-     <widget class="QCheckBox" name="m_hideUnusedFolders">
-      <property name="text">
-       <string>Hide unused folders</string>
-      </property>
+    <item>
+     <widget class="ViewSearchHeader" name="widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QCheckBox" name="m_hideUnusedFolders">
+         <property name="text">
+          <string>Hide unused folders</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="CircularProgressIndicator" name="progressIndicator" native="true"/>
+       </item>
+       <item>
+        <widget class="SearchLineEdit" name="searchLineEdit"/>
+       </item>
+      </layout>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="CircularProgressIndicator" name="progressIndicator" native="true"/>
-    </item>
-    <item row="0" column="2">
-     <widget class="SearchLineEdit" name="searchLineEdit"/>
-    </item>
-    <item row="1" column="0" colspan="3">
+    <item>
      <widget class="QStackedWidget" name="stackedWidgetList">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -83,7 +105,7 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QTreeView" name="m_listSearch">
+         <widget class="StyledTreeView" name="m_listSearch">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
             <horstretch>1</horstretch>
@@ -105,6 +127,12 @@
           <property name="selectionMode">
            <enum>QAbstractItemView::ExtendedSelection</enum>
           </property>
+          <property name="iconSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
           <property name="rootIsDecorated">
            <bool>false</bool>
           </property>
@@ -119,16 +147,6 @@
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
    <property name="contextMenuPolicy">
@@ -137,10 +155,13 @@
    <property name="windowTitle">
     <string>toolBar</string>
    </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
    <property name="iconSize">
     <size>
-     <width>16</width>
-     <height>16</height>
+     <width>24</width>
+     <height>24</height>
     </size>
    </property>
    <property name="toolButtonStyle">
@@ -160,12 +181,11 @@
    <addaction name="actionExportFiles"/>
    <addaction name="actionDelete"/>
    <addaction name="actionReserve"/>
-   <addaction name="separator"/>
   </widget>
   <action name="actionAdd_Files_Folders">
    <property name="icon">
     <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-     <normaloff>:/IDI_ICON_FILESET_IMPORT</normaloff>:/IDI_ICON_FILESET_IMPORT</iconset>
+     <normaloff>:/IDI_ICON_FILESET_OPEN_IMPORT</normaloff>:/IDI_ICON_FILESET_OPEN_IMPORT</iconset>
    </property>
    <property name="text">
     <string>Import File/Folder</string>
@@ -174,7 +194,7 @@
   <action name="actionGet_Info">
    <property name="icon">
     <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-     <normaloff>:/IDI_ICON_GET_INFO </normaloff>:/IDI_ICON_GET_INFO </iconset>
+     <normaloff>:/IDI_ICON_GET_INFO</normaloff>:/IDI_ICON_GET_INFO</iconset>
    </property>
    <property name="text">
     <string>Get Info</string>
@@ -197,14 +217,11 @@
    <property name="text">
     <string>Delete</string>
    </property>
-   <property name="shortcut">
-    <string>Ctrl+Backspace</string>
-   </property>
   </action>
   <action name="actionReserve">
    <property name="icon">
     <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-     <normaloff>:/IDI_ICON_LOCK_LOCKED</normaloff>:/IDI_ICON_LOCK_LOCKED</iconset>
+     <normaloff>:/IDI_ICON_TAKE_CONTROL</normaloff>:/IDI_ICON_TAKE_CONTROL</iconset>
    </property>
    <property name="text">
     <string>Take Control</string>
@@ -225,7 +242,7 @@
   <action name="actionExportFiles">
    <property name="icon">
     <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-     <normaloff>:/IDI_ICON_FILESET_EXPORT</normaloff>:/IDI_ICON_FILESET_EXPORT</iconset>
+     <normaloff>:/IDI_ICON_FILESET_EXPORT_FILES</normaloff>:/IDI_ICON_FILESET_EXPORT_FILES</iconset>
    </property>
    <property name="text">
     <string>Export Files</string>
@@ -240,7 +257,7 @@
   <action name="actionEditText">
    <property name="icon">
     <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-     <normaloff>:/IDI_ICON_NEW_CLIENT_FROM_TEXT_FILE</normaloff>:/IDI_ICON_NEW_CLIENT_FROM_TEXT_FILE</iconset>
+     <normaloff>:/IDI_ICON_FILESET_EDIT_TEXT</normaloff>:/IDI_ICON_FILESET_EDIT_TEXT</iconset>
    </property>
    <property name="text">
     <string>Edit Text</string>
@@ -248,11 +265,6 @@
   </action>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>FilesetContentsFilesView</class>
-   <extends>QTreeView</extends>
-   <header>views/filesetcontentsfilesview.h</header>
-  </customwidget>
   <customwidget>
    <class>CircularProgressIndicator</class>
    <extends>QWidget</extends>
@@ -263,6 +275,22 @@
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ViewSearchHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ViewSearchHeader.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FilesetContentsFilesView</class>
+   <extends>QTreeView</extends>
+   <header>views/filesetcontentsfilesview.h</header>
   </customwidget>
  </customwidgets>
  <resources>

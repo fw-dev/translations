@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InventoryFieldPicker</class>
+ <widget class="QWidget" name="InventoryFieldPicker">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>7</number>
+   </property>
+   <item>
+    <widget class="SearchLineEdit" name="fieldSearchEdit"/>
+   </item>
+   <item>
+    <widget class="PrettySplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="FWTreeView" name="fields">
+      <property name="dragEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="itemsExpandable">
+       <bool>true</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="description">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SearchLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PrettySplitter</class>
+   <extends>QSplitter</extends>
+   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FWTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FWAdminLib/views/FWTreeView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

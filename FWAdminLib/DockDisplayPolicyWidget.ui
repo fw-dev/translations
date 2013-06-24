@@ -20,29 +20,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="styleSheet">
-      <string notr="true">QToolButton {
-	border: 1px solid #b0b0b0;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                 stop: 0 #eeeeee, stop: 0.4 #ffffff,
-                                 stop: 0.5 #e3e3e3, stop: 1.0 #efefef);
-	color:#505050;
-}
-
-QToolButton:hover {
-	border: 1px solid gray;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                 stop: 0 #eeeeee, stop: 0.4 #ffffff,
-                                 stop: 0.5 #e3e3e3, stop: 1.0 #efefef);
-	color: #505050;
-}
-
-QToolButton:pressed {
-	border: 1px solid gray;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                 stop: 0 #dddddd, stop: 0.4 #eeeeee,
-                                 stop: 0.5 #d3d3d3, stop: 1.0 #dfdfdf);
-	color: #505050;
-}</string>
+      <string notr="true"/>
      </property>
      <property name="currentIndex">
       <number>0</number>
@@ -126,7 +104,7 @@ QToolButton:pressed {
             </widget>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <layout class="QVBoxLayout" name="verticalLayout_2">
              <property name="spacing">
               <number>6</number>
              </property>
@@ -153,7 +131,7 @@ QToolButton:pressed {
               </widget>
              </item>
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_3">
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
                <property name="topMargin">
                 <number>1</number>
                </property>
@@ -186,19 +164,6 @@ QToolButton:pressed {
                 </widget>
                </item>
                <item>
-                <spacer name="verticalSpacer">
-                 <property name="orientation">
-                  <enum>Qt::Vertical</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>20</width>
-                   <height>40</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
                 <widget class="QToolButton" name="appMinusButton">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -223,6 +188,19 @@ QToolButton:pressed {
                  </property>
                 </widget>
                </item>
+               <item>
+                <spacer name="horizontalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
               </layout>
              </item>
             </layout>
@@ -235,7 +213,7 @@ QToolButton:pressed {
             </widget>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <layout class="QVBoxLayout" name="verticalLayout_3">
              <property name="spacing">
               <number>6</number>
              </property>
@@ -262,7 +240,7 @@ QToolButton:pressed {
               </widget>
              </item>
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_4">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
                <property name="topMargin">
                 <number>1</number>
                </property>
@@ -295,19 +273,6 @@ QToolButton:pressed {
                 </widget>
                </item>
                <item>
-                <spacer name="verticalSpacer_2">
-                 <property name="orientation">
-                  <enum>Qt::Vertical</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>20</width>
-                   <height>40</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
                 <widget class="QToolButton" name="folderMinusButton">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -331,6 +296,19 @@ QToolButton:pressed {
                   <string>-</string>
                  </property>
                 </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
                </item>
               </layout>
              </item>
@@ -362,22 +340,6 @@ QToolButton:pressed {
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_4">
-             <item>
-              <spacer name="horizontalSpacer">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeType">
-                <enum>QSizePolicy::Fixed</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>10</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
              <item>
               <widget class="QCheckBox" name="myApplicationsCheckbox">
                <property name="sizePolicy">
@@ -416,19 +378,6 @@ QToolButton:pressed {
                 <string>Network Home  </string>
                </property>
               </widget>
-             </item>
-             <item>
-              <spacer name="horizontalSpacer_5">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
              </item>
             </layout>
            </item>
