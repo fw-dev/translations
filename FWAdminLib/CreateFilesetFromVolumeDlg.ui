@@ -1,7 +1,8 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>CreateFilesetFromVolumeDlg</class>
- <widget class="QWidget" name="CreateFilesetFromVolumeDlg" >
-  <property name="geometry" >
+ <widget class="QWidget" name="CreateFilesetFromVolumeDlg">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -9,42 +10,47 @@
     <height>300</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>New Fileset from Volume</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout" >
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
    <item>
-    <widget class="QLabel" name="label" >
-     <property name="text" >
-      <string>Select a Volume for creating an Image Fileset:</string>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Select a Volume for creating an Image Fileset</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QListView" name="listView" >
-     <property name="resizeMode" >
-      <enum>QListView::Adjust</enum>
-     </property>
-     <property name="gridSize" >
-      <size>
-       <width>128</width>
-       <height>72</height>
-      </size>
-     </property>
-     <property name="viewMode" >
-      <enum>QListView::IconMode</enum>
+    <widget class="StyledTreeView" name="treeView">
+     <property name="headerHidden">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox" >
-     <property name="standardButtons" >
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

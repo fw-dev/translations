@@ -153,6 +153,14 @@
 You may ignore this warning if you have a customized setup. </source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Booster Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to get a valid connection to Booster %1:%2</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BoosterStatusDlg</name>
@@ -322,6 +330,10 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
     <message>
         <source>Monitor Not Connected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to set preferences for Booster %1:%2</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

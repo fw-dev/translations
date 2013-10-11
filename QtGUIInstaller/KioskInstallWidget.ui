@@ -22,9 +22,6 @@
   <property name="autoFillBackground">
    <bool>false</bool>
   </property>
-  <property name="styleSheet">
-   <string notr="true"/>
-  </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <property name="topMargin">
     <number>0</number>
@@ -253,56 +250,8 @@ QProgressBar::chunk {
        <height>0</height>
       </size>
      </property>
-     <property name="font">
-      <font>
-       <family>Andale Mono</family>
-       <pointsize>-1</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton {
-	border: 1px solid #606060;
-	border-radius:3;
-	padding-left: 13px;
-	padding-right: 13px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-size: 12px;
-	font-weight:bold;
-	font-family:Andale Mono;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #707070, stop: 0.4 #757575,
-                                stop: 0.5 #606060, stop: 1.0 #656565);
-	color: #eeeeee;
-}
-
-QPushButton:hover {
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #505050, stop: 0.4 #555555,
-                                stop: 0.5 #404040, stop: 1.0 #545454);
-}
-
-QPushButton:pressed {
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #404040, stop: 0.4 #454545,
-                                stop: 0.5 #303030, stop: 1.0 #353535);
-color: white;
-}
-
-QPushButton:disabled {
-	border: 1px solid #c0c0c0;
-	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
-                                stop: 0 #d0d0d0, stop: 0.4 #d5d5d5,
-                                stop: 0.5 #c0c0c0, stop: 1.0 #c5c5c5);
-}</string>
-     </property>
      <property name="text">
-      <string>UNINSTALL</string>
+      <string>Uninstall</string>
      </property>
     </widget>
    </item>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>512</width>
-    <height>2421</height>
+    <height>2490</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -87,6 +87,11 @@
        <item>
         <property name="text">
          <string>Aruba VIA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Check Point Mobile VPN</string>
         </property>
        </item>
        <item>
@@ -222,9 +227,12 @@
        </widget>
       </item>
       <item>
-       <widget class="QTreeWidget" name="customTreeWidget">
+       <widget class="StyledTreeWidget" name="customTreeWidget">
         <property name="alternatingRowColors">
          <bool>true</bool>
+        </property>
+        <property name="rootIsDecorated">
+         <bool>false</bool>
         </property>
         <attribute name="headerDefaultSectionSize">
          <number>200</number>
@@ -591,6 +599,9 @@
        <layout class="QHBoxLayout" name="horizontalLayout_16">
         <item>
          <widget class="QComboBox" name="machineAuthenticationCombo">
+          <property name="sizeAdjustPolicy">
+           <enum>QComboBox::AdjustToContents</enum>
+          </property>
           <item>
            <property name="text">
             <string>Certificate</string>
@@ -617,6 +628,76 @@
          </spacer>
         </item>
        </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="certificate" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lTip_19">
+        <property name="text">
+         <string>Credential for authenticating the connection</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QComboBox" name="certComboBox">
+          <item>
+           <property name="text">
+            <string>Add credentials in the Credentials payload</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SCEP: url -name</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_10">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QWidget" name="userPIN" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <property name="margin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="userPINCheckbox">
+           <property name="text">
+            <string>Include User PIN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_20">
+           <property name="text">
+            <string>Request PIN during connection and send with authentication</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -747,12 +828,15 @@
        </widget>
       </item>
       <item>
-       <widget class="QTreeWidget" name="certificateTreeWidget">
+       <widget class="StyledTreeWidget" name="certificateTreeWidget">
         <property name="showDropIndicator" stdset="0">
          <bool>false</bool>
         </property>
         <property name="alternatingRowColors">
          <bool>true</bool>
+        </property>
+        <property name="rootIsDecorated">
+         <bool>false</bool>
         </property>
         <property name="columnCount">
          <number>2</number>
@@ -807,71 +891,33 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="certificate" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <property name="margin">
+    <widget class="QWidget" name="disconnectOnIdle" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_22">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="lTip_19">
+       <widget class="QLabel" name="lDisconnectOnIdle">
         <property name="text">
-         <string>Credential for authenticating the connection</string>
+         <string>Disconnect On Idle</string>
         </property>
        </widget>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_11">
-        <item>
-         <widget class="QComboBox" name="certComboBox">
-          <item>
-           <property name="text">
-            <string>Add credentials in the Credentials payload</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>SCEP: url -name</string>
-           </property>
-          </item>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_10">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
+       <widget class="QLabel" name="lTipDisconnectOnIdle">
+        <property name="text">
+         <string>Disconnect after this length of idle time</string>
+        </property>
+       </widget>
       </item>
       <item>
-       <widget class="QWidget" name="userPIN" native="true">
-        <layout class="QVBoxLayout" name="verticalLayout_15">
-         <property name="margin">
-          <number>0</number>
-         </property>
-         <item>
-          <widget class="QCheckBox" name="userPINCheckbox">
-           <property name="text">
-            <string>Include User PIN</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="lTip_20">
-           <property name="text">
-            <string>Request PIN during connection and send with authentication</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </widget>
+       <widget class="QComboBox" name="disconnectOnIdleCB"/>
       </item>
      </layout>
     </widget>
@@ -945,6 +991,9 @@
        <widget class="QCheckBox" name="sendAllTrafficCheckBox">
         <property name="text">
          <string>Send All Traffic</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -1151,6 +1200,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

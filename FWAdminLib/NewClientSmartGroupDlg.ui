@@ -20,42 +20,50 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>9</number>
+   </property>
    <item row="0" column="0">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>Please enter the name and the optional comment for the new smart group:</string>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="leftMargin">
+      <number>12</number>
      </property>
-     <property name="wordWrap">
-      <bool>false</bool>
+     <property name="rightMargin">
+      <number>12</number>
      </property>
-    </widget>
-   </item>
-   <item row="1" column="0">
-    <layout class="QGridLayout" name="gridLayout">
+     <property name="bottomMargin">
+      <number>4</number>
+     </property>
      <item row="0" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>Name</string>
+        <string>Name:</string>
        </property>
       </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="nameED"/>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>Comment</string>
+        <string>Comment:</string>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
       <widget class="QLineEdit" name="commentED"/>
      </item>
-     <item row="0" column="1">
-      <widget class="QLineEdit" name="nameED"/>
-     </item>
     </layout>
    </item>
-   <item row="2" column="0">
-    <widget class="QWidget" name="editorContainer" native="true">
+   <item row="1" column="0">
+    <widget class="ExpressionEditorWidget" name="expressionEditorWidget" native="true">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>0</horstretch>
@@ -69,6 +77,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ExpressionEditorWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Expressions/ExpressionEditorWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>nameED</tabstop>
   <tabstop>commentED</tabstop>

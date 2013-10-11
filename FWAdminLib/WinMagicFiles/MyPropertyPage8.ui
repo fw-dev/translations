@@ -23,7 +23,7 @@ When you are done click Continue.</string>
     </widget>
    </item>
    <item>
-    <widget class="QTreeWidget" name="m_ListFile">
+    <widget class="StyledTreeWidget" name="m_ListFile">
      <property name="alternatingRowColors">
       <bool>true</bool>
      </property>
@@ -56,6 +56,13 @@ When you are done click Continue.</string>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

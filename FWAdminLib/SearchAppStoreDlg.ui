@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>715</width>
-    <height>300</height>
+    <width>967</width>
+    <height>539</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,21 +21,22 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="QFrame" name="frame">
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
+    <widget class="ViewSearchHeader" name="widget" native="true">
      <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <property name="margin">
-       <number>12</number>
-      </property>
       <item>
-       <widget class="SearchLineEdit" name="searchField">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-          <horstretch>10</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
+       <widget class="QRadioButton" name="searchRadio">
+        <property name="text">
+         <string>Search</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="lookupRadio">
+        <property name="text">
+         <string>iTunes ID Lookup</string>
         </property>
        </widget>
       </item>
@@ -184,9 +185,12 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="searchButton">
-        <property name="text">
-         <string>Search</string>
+       <widget class="SearchLineEdit" name="searchField">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>10</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
        </widget>
       </item>
@@ -194,56 +198,7 @@
     </widget>
    </item>
    <item>
-    <widget class="Line" name="line">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QFrame" name="frame_2">
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <layout class="QHBoxLayout" name="horizontalLayout_3">
-      <property name="margin">
-       <number>12</number>
-      </property>
-      <item>
-       <widget class="QRadioButton" name="searchRadio">
-        <property name="text">
-         <string>Search</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QRadioButton" name="lookupRadio">
-        <property name="text">
-         <string>iTunes ID Lookup</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <spacer name="horizontalSpacer_3">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item>
-    <widget class="QTreeWidget" name="treeWidget">
+    <widget class="StyledTreeWidget" name="treeWidget">
      <property name="alternatingRowColors">
       <bool>true</bool>
      </property>
@@ -262,9 +217,11 @@
      <property name="animated">
       <bool>true</bool>
      </property>
-     <property name="columnCount">
-      <number>0</number>
-     </property>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
     </widget>
    </item>
    <item>
@@ -313,12 +270,34 @@
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
   </customwidget>
   <customwidget>
+   <class>ViewSearchHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ViewSearchHeader.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StyledTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+  <customwidget>
    <class>CircularProgressIndicator</class>
    <extends>QWidget</extends>
    <header>FileWaveGuiLib/circularprogressindicator.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>searchField</tabstop>
+  <tabstop>searchRadio</tabstop>
+  <tabstop>lookupRadio</tabstop>
+  <tabstop>countryComboBox</tabstop>
+  <tabstop>languageComboBox</tabstop>
+  <tabstop>genreComboBox</tabstop>
+  <tabstop>deviceComboBox</tabstop>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>createFilesetButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

@@ -99,6 +99,20 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="appstore">
+              <property name="text">
+               <string>App Store</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/appstore.png</normaloff>:/assets/restrictions/appstore.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="datetime">
               <property name="text">
                <string>Date &amp;&amp; Time</string>
@@ -607,6 +621,87 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
+        <widget class="QCheckBox" name="allowGameCenter">
+         <property name="text">
+          <string>Allow use of Game Center</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>10</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_19">
+           <item>
+            <widget class="QCheckBox" name="allowMultiplayerGaming">
+             <property name="text">
+              <string>Allow multiplayer gaming</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="allowAddingGCFriends">
+             <property name="text">
+              <string>Allow adding Game Center friends</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="allowGCAccountModification">
+             <property name="text">
+              <string>Allow Game Center account modification</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowAppAdoption">
+         <property name="text">
+          <string>Allow App Store app adoption</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="requireAdminToInstall">
+         <property name="text">
+          <string>Require admin password to install or update apps</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="restrictAppStoreSU">
          <property name="text">
           <string>Restrict App Store to software updates only</string>
@@ -634,7 +729,7 @@
             <item>
              <widget class="QLabel" name="label_2">
               <property name="text">
-               <string>Allow Applictions:</string>
+               <string>Allow Applications:</string>
               </property>
              </widget>
             </item>
@@ -1305,6 +1400,154 @@
           <size>
            <width>20</width>
            <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="sharingTab">
+      <attribute name="title">
+       <string>Sharing Services</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_20">
+       <item>
+        <widget class="QLabel" name="lTip_selectServices">
+         <property name="text">
+          <string>Select services that should be available in the share menu</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareAirDrop">
+         <property name="text">
+          <string>AirDrop</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareFacebook">
+         <property name="text">
+          <string>Facebook</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareTwitter">
+         <property name="text">
+          <string>Twitter</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareMail">
+         <property name="text">
+          <string>Mail</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareMessages">
+         <property name="text">
+          <string>Messages</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareVideo">
+         <property name="text">
+          <string>Video Services - Flickr, Vimeo, Tudou and Youku</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareiPhoto">
+         <property name="text">
+          <string>Add to iPhoto</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareAperture">
+         <property name="text">
+          <string>Add to Aperture</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareReadingList">
+         <property name="text">
+          <string>Add to Reading List</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareSinaWeibo">
+         <property name="text">
+          <string>Sina Weibo</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_21">
+         <property name="topMargin">
+          <number>12</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="shareServicesAutoEnable">
+           <property name="text">
+            <string>Automatically enable new sharing services</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_shareServicesAutoEnable">
+           <property name="text">
+            <string>New sharing services will be enabled in the share menu automatically</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>542</height>
           </size>
          </property>
         </spacer>

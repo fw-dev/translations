@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>739</width>
+    <width>742</width>
     <height>357</height>
    </rect>
   </property>
@@ -17,15 +17,12 @@
    <item>
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>This is a list of all FileWave Clients that have recently contacted the
-FileWave server, but have not yet been added to the model.
-Select which clients you would like to add to the model.
-After adding clients, update the model in order to allow them to connect to the server.</string>
+      <string/>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QTreeView" name="m_listClients">
+    <widget class="StyledTreeView" name="m_listClients">
      <property name="focusPolicy">
       <enum>Qt::WheelFocus</enum>
      </property>
@@ -131,7 +128,7 @@ After adding clients, update the model in order to allow them to connect to the 
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Add Selected Clients</string>
+        <string/>
        </property>
        <property name="shortcut">
         <string>Return</string>
@@ -180,6 +177,11 @@ After adding clients, update the model in order to allow them to connect to the 
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -48,7 +48,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QListView" name="lstProcesses">
+    <widget class="StyledTreeView" name="lstProcesses">
      <property name="sizePolicy">
       <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
        <horstretch>0</horstretch>
@@ -61,11 +61,11 @@
        <height>24</height>
       </size>
      </property>
-     <property name="gridSize">
-      <size>
-       <width>32</width>
-       <height>32</height>
-      </size>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <property name="headerHidden">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -196,6 +196,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>delayButton</tabstop>
   <tabstop>delayCombo</tabstop>

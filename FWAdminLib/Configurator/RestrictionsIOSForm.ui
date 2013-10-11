@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>543</width>
-    <height>619</height>
+    <width>517</width>
+    <height>988</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -63,6 +63,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowPhotoStream">
+         <property name="text">
+          <string>Allow My Photo Stream (disallowing can cause data loss)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowScreenCapture">
          <property name="text">
           <string>Allow screen capture</string>
@@ -73,9 +83,79 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowPhotoStream">
+        <widget class="QCheckBox" name="allowChat">
          <property name="text">
-          <string>Allow Photo Stream (disallowing can cause data loss)</string>
+          <string>Allow use of iMessage (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowInstallingApps">
+         <property name="text">
+          <string>Allow installing apps</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowAppRemoval">
+         <property name="text">
+          <string>Allow removing apps (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowInAppPurchase">
+         <property name="text">
+          <string>Allow In-App Purchase</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="requireItunesStorePassword">
+         <property name="text">
+          <string>Require iTunes Store password for all purchases</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowiCloudBackup">
+         <property name="text">
+          <string>Allow iCloud backup</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowiCloudDocSync">
+         <property name="text">
+          <string>Allow iCloud document and data</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowCloudKeychainSync">
+         <property name="text">
+          <string>Allow iCloud keychain</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -85,7 +165,7 @@
        <item>
         <widget class="QCheckBox" name="allowSharedStream">
          <property name="text">
-          <string>Allow Shared Photo Streams</string>
+          <string>Allow iCloud photo sharing</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -93,9 +173,9 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowChat">
+        <widget class="QCheckBox" name="allowAutomaticSyncWhileRoaming">
          <property name="text">
-          <string>Allow use of iMessage (Supervised devices only)</string>
+          <string>Allow automatic sync while roaming</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -156,7 +236,18 @@
           <item>
            <widget class="QCheckBox" name="forceAssistantProfanityFilter">
             <property name="text">
-             <string>Enable Siri Profanity Filter (Supervised devices only)</string>
+             <string>Enable Siri profanity filter (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="allowAssistantUserGeneratedContent">
+            <property name="text">
+             <string>Allow user-generated content in Siri
+(Supervised devices only)</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -167,86 +258,12 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowPassbookWhileLocked">
+        <widget class="QCheckBox" name="allowBookstore">
          <property name="text">
-          <string>Allow Passbook while device locked</string>
+          <string>Allow iBookStore (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowInstallingApps">
-         <property name="text">
-          <string>Allow installing apps</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowAppRemoval">
-         <property name="text">
-          <string>Allow removing apps (Supervised devices only)</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowInAppPurchase">
-         <property name="text">
-          <string>Allow In-App Purchase</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="requireItunesStorePassword">
-         <property name="text">
-          <string>Require iTunes Store password for all purchases</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowiCloudDocSync">
-         <property name="text">
-          <string>Allow iCloud document syncing</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowiCloudBackup">
-         <property name="text">
-          <string>Allow iCloud backup</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowAutomaticSyncWhileRoaming">
-         <property name="text">
-          <string>Allow automatic sync while roaming</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="forceEncryptedBackup">
-         <property name="text">
-          <string>Force encrypted backups</string>
          </property>
         </widget>
        </item>
@@ -254,6 +271,16 @@
         <widget class="QCheckBox" name="allowUserAcceptUntrustedCertificates">
          <property name="text">
           <string>Allow users to accept untrusted TLS certificates</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowOTAPKIUpdates">
+         <property name="text">
+          <string>Allow automatic updates to certificate trust settings</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -272,9 +299,161 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowAccountModification">
+         <property name="text">
+          <string>Allow modifying account settings (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowFindMyFriendsModification">
+         <property name="text">
+          <string>Allow modifying Find My Friends settings
+(Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowOpenFromManagedToUnmanaged">
+         <property name="text">
+          <string>Allow documents from managed apps in unmanaged apps</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowOpenFromUnmanagedToManaged">
+         <property name="text">
+          <string>Allow documents from unmanaged apps in managed apps</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowWebTextDefine">
+         <property name="text">
+          <string>Allow inline dictionary word lookup</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPassbookWhileLocked">
+         <property name="text">
+          <string>Allow Passbook notifications while locked</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowLockScreenControlCenter">
+         <property name="text">
+          <string>Show Control Center in lock screen</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowLockScreenNotificationsView">
+         <property name="text">
+          <string>Show Notification Center in lock screen</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowLockScreenTodayView">
+         <property name="text">
+          <string>Show Today view in lock screen</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowAirDrop">
+         <property name="text">
+          <string>Allow AirDrop (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowHostPairing">
+         <property name="text">
+          <string>Allow pairing with non-Configurator hosts
+(Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowTextDefine">
+         <property name="text">
+          <string>Allow text define (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceLimitAdTracking">
+         <property name="text">
+          <string>Force limited ad tracking</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceEncryptedBackup">
+         <property name="text">
+          <string>Force encrypted backups</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowDiagnosticSubmission">
          <property name="text">
-          <string>Send diagnostic and usage data to Apple</string>
+          <string>Allow sending diagnostic and usage data to Apple</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowFingerprintForUnlock">
+         <property name="text">
+          <string>Allow Touch ID to unlock device</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -314,58 +493,17 @@
        <item>
         <widget class="QCheckBox" name="allowiTunes">
          <property name="text">
-          <string>Allow use of iTunes Music Store</string>
+          <string>Allow use of iTunes Store</string>
          </property>
          <property name="checked">
           <bool>true</bool>
          </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowBookstore">
-         <property name="text">
-          <string>Allow iBookStore (Supervised devices only)</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QWidget" name="bookstoreSub" native="true">
-         <layout class="QHBoxLayout" name="horizontalLayout_3">
-          <property name="spacing">
-           <number>0</number>
-          </property>
-          <property name="leftMargin">
-           <number>25</number>
-          </property>
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="rightMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
-          <item>
-           <widget class="QCheckBox" name="allowBookstoreErotica">
-            <property name="text">
-             <string>Allow Erotica</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-         </layout>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="allowGameCenter">
          <property name="text">
-          <string>Allow use of Game Center (Supervised devices only)</string>
+          <string>Allow use of Game Center (supervised only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -530,6 +668,13 @@
        <string>Media Content</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_3">
+       <item row="1" column="0">
+        <widget class="QLabel" name="lTipRatingsRegion">
+         <property name="text">
+          <string>Sets the region for the ratings</string>
+         </property>
+        </widget>
+       </item>
        <item row="4" column="0">
         <widget class="QLabel" name="lTipMaximumAllowedRatings">
          <property name="text">
@@ -722,7 +867,37 @@
          </item>
         </layout>
        </item>
-       <item row="7" column="1">
+       <item row="2" column="0">
+        <widget class="QComboBox" name="ratingsRegion"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Ratings region</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QCheckBox" name="allowExplicitMusic">
+         <property name="text">
+          <string>Allow playback of explicit music, podcasts &amp;&amp; iTunes U media</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QCheckBox" name="allowBookstoreErotica">
+         <property name="text">
+          <string>Allow explicit sexual content in iBooks Store</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
         <spacer name="verticalSpacer_3">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -734,33 +909,6 @@
           </size>
          </property>
         </spacer>
-       </item>
-       <item row="2" column="0">
-        <widget class="QComboBox" name="ratingsRegion"/>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>Ratings region</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="lTipRatingsRegion">
-         <property name="text">
-          <string>Sets the region for the ratings</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0" colspan="2">
-        <widget class="QCheckBox" name="allowExplicitMusic">
-         <property name="text">
-          <string>Allow explicit music, podcasts and iTunes U</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
        </item>
       </layout>
      </widget>
@@ -831,22 +979,6 @@
     <hint type="destinationlabel">
      <x>271</x>
      <y>204</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>allowBookstore</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>bookstoreSub</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>124</x>
-     <y>93</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>271</x>
-     <y>118</y>
     </hint>
    </hints>
   </connection>

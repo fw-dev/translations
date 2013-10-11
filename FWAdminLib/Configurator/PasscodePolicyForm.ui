@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>488</width>
-    <height>606</height>
+    <width>508</width>
+    <height>683</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -120,7 +120,7 @@
         <widget class="QComboBox" name="minLengthField">
          <item>
           <property name="text">
-           <string>0</string>
+           <string>--</string>
           </property>
          </item>
          <item>
@@ -240,7 +240,7 @@
         <widget class="QComboBox" name="minComplexCharsField">
          <item>
           <property name="text">
-           <string>0</string>
+           <string>--</string>
           </property>
          </item>
          <item>
@@ -261,66 +261,6 @@
          <item>
           <property name="text">
            <string>4</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>5</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>6</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>7</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>8</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>9</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>10</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>11</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>12</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>13</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>14</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>15</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>16</string>
           </property>
          </item>
         </widget>
@@ -357,9 +297,27 @@
         </spacer>
        </item>
        <item>
-        <widget class="QSpinBox" name="maxAgeField">
-         <property name="maximum">
-          <number>750</number>
+        <widget class="QLineEdit" name="maxAgeField">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="maxLength">
+          <number>4</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
@@ -412,9 +370,24 @@
         </spacer>
        </item>
        <item>
-        <widget class="QSpinBox" name="passcodeHistoryField">
-         <property name="maximum">
-          <number>750</number>
+        <widget class="QLineEdit" name="passcodeHistoryField">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="maxLength">
+          <number>3</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
@@ -447,7 +420,10 @@
      <item row="15" column="1">
       <widget class="QLabel" name="lTipGracePeriod">
        <property name="text">
-        <string>Smallest number of non-alphanumeric characters</string>
+        <string>Amount of time the device can be locked without prompting for passcode on unlock</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -470,12 +446,7 @@
         <widget class="QComboBox" name="maxFailedAttemptsField">
          <item>
           <property name="text">
-           <string>0</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>1</string>
+           <string>--</string>
           </property>
          </item>
          <item>
@@ -521,36 +492,6 @@
          <item>
           <property name="text">
            <string>10</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>11</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>12</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>13</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>14</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>15</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>16</string>
           </property>
          </item>
         </widget>

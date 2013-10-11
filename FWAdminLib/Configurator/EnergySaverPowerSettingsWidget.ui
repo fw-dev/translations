@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EnergySaverPowerSettingsWidget</class>
+ <widget class="QWidget" name="EnergySaverPowerSettingsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>567</width>
+    <height>678</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="sleepOptionsTitle">
+     <property name="text">
+      <string>Sleep Options</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipSleepOptionDescription">
+     <property name="text">
+      <string>Put the computer to sleep after a period of inactivity</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QCheckBox" name="systemSleepTimerCheckbox">
+       <property name="text">
+        <string>Put the computer to sleep after:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="systemSleepTimerValue">
+       <property name="text">
+        <string>1 minute</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="systemSleepTimerGridLayout">
+     <property name="leftMargin">
+      <number>20</number>
+     </property>
+     <item row="0" column="0" colspan="7">
+      <widget class="QSlider" name="systemSleepTimerSlider">
+       <property name="minimum">
+        <number>0</number>
+       </property>
+       <property name="maximum">
+        <number>1000</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::NoTicks</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <spacer name="systemSleepTimerHorizontalSpacerMiddle">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="systemSleepTimer1HourLabel">
+       <property name="text">
+        <string>1 hr</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="systemSleepTimer15MinutesLabel">
+       <property name="text">
+        <string>15 min</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <spacer name="systemSleepTimerhorizontalSpacerLeft">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="systemSleepTimer1MinuteLabel">
+       <property name="text">
+        <string>1 min</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="systemSleepTimer3HoursLabel">
+       <property name="text">
+        <string>3 hr</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <spacer name="systemSleepTimerHorizontalSpacerRight">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QCheckBox" name="displaySleepTimerCheckbox">
+       <property name="text">
+        <string>Put the display(s) to sleep after:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="displaySleepTimerValue">
+       <property name="text">
+        <string>1 minute</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="displaySleepTimerGridLayout">
+     <property name="leftMargin">
+      <number>20</number>
+     </property>
+     <item row="0" column="0" colspan="7">
+      <widget class="QSlider" name="displaySleepTimerSlider">
+       <property name="minimum">
+        <number>0</number>
+       </property>
+       <property name="maximum">
+        <number>1000</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::NoTicks</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <spacer name="displaySleepTimerHorizontalSpacerMiddle">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="displaySleepTimer1HourLabel">
+       <property name="text">
+        <string>1 hr</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="displaySleepTimer15MinutesLabel">
+       <property name="text">
+        <string>15 min</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <spacer name="displaySleepTimerhorizontalSpacerLeft">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="displaySleepTimer1MinuteLabel">
+       <property name="text">
+        <string>1 min</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="displaySleepTimer3HoursLabel">
+       <property name="text">
+        <string>3 hr</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <spacer name="displaySleepTimerHorizontalSpacerRight">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="diskSleepTimerBooleanCheckbox">
+     <property name="text">
+      <string>Put the hard disk(s) to sleep whenever possible</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="wakeOptionsTitle">
+     <property name="text">
+      <string>Wake Options</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipWakeOptionsDescription">
+     <property name="text">
+      <string>Settings for waking the computer from sleep</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="wakeOnLanCheckbox">
+     <property name="text">
+      <string>Wake for Ethernet network administrator access</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="sleepOnPowerButtonCheckbox">
+     <property name="text">
+      <string>Allow power button to sleep the computer</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="otherOptionsTitle">
+     <property name="text">
+      <string>Other Options</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipOtherOptionsDescription">
+     <property name="text">
+      <string>Additional power settings for the computer</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="automaticRestartOnPowerLossCheckbox">
+     <property name="text">
+      <string>Start up automatically after a power failure</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TimeMachineForm</class>
+ <widget class="QWidget" name="TimeMachineForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>489</width>
+    <height>916</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="backupDestURLTitle">
+     <property name="text">
+      <string>Backup Server</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipbackupDestURLDescription">
+     <property name="text">
+      <string>URL of the backup destination (e.g., afp://server.apple.com/backups/)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="backupDestURLEdit"/>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="backupAllVolumesCheckbox">
+     <property name="text">
+      <string>Backup all volumes</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipbackupAllVolumesDescription">
+     <property name="text">
+      <string>Only startup volume is backed up by default</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="backupSkipSysCheckbox">
+     <property name="text">
+      <string>Backup system files and folders</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipbackupSkipSysDescription">
+     <property name="text">
+      <string>System files and folders are skipped by default</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="autoBackupCheckbox">
+     <property name="text">
+      <string>Enable automatic backups</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipautoBackupDescription">
+     <property name="text">
+      <string>Automatically backup at regular intervals</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="mobileBackupsCheckbox">
+     <property name="text">
+      <string>Enable local snapshots (10.8 and above only)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipmobileBackupsDescription">
+     <property name="text">
+      <string>Creates local backup snapshots when not connected to network</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="backupSizeMBTitle">
+     <property name="text">
+      <string>Backup size Limit</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipbackupSizeMBDescription">
+     <property name="text">
+      <string>Backup size limit in MB. Set to 0 for unlimited.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="backupSizeMBEdit">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="basePathsTitle">
+     <property name="text">
+      <string>Paths to backup:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipbasePathsDescription">
+     <property name="text">
+      <string>The startup volume is always backed up</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="basePathsListWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16667</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::InternalMove</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="basePathsButtonsLayout">
+     <item>
+      <widget class="QToolButton" name="basePathsPlusButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>23</horstretch>
+         <verstretch>23</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="basePathsMinusButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>23</horstretch>
+         <verstretch>23</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="basePathsSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="skipPathsTitle">
+     <property name="text">
+      <string>Paths to skip:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipskipPathsDescription">
+     <property name="text">
+      <string>The paths to skip from startup volume</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="skipPathsListWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16667</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::InternalMove</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="skipPathsButtonsLayout">
+     <item>
+      <widget class="QToolButton" name="skipPathsPlusButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>23</horstretch>
+         <verstretch>23</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="skipPathsMinusButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>23</horstretch>
+         <verstretch>23</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="skipPathsSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="finalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>basePathsListWidget</tabstop>
+  <tabstop>basePathsPlusButton</tabstop>
+  <tabstop>basePathsMinusButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

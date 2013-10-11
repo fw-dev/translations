@@ -14,8 +14,11 @@
    <string>Registry Entries</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
    <item row="0" column="0">
-    <widget class="QSplitter" name="splitter">
+    <widget class="PrettySplitter" name="splitter">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
@@ -58,6 +61,12 @@
   </layout>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>PrettySplitter</class>
+   <extends>QSplitter</extends>
+   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
+   <container>1</container>
+  </customwidget>
   <customwidget>
    <class>RegDiffView</class>
    <extends>QTreeView</extends>

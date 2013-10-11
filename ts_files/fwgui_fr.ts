@@ -4,18 +4,18 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="49"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="59"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="52"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="62"/>
         <source>FileWave Kiosk</source>
         <translation>Kiosque FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="79"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="86"/>
         <source>Available Updates: %1</source>
         <translation>Mises à jour disponibles: %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="83"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="90"/>
         <source>Install Software...</source>
         <translation>Installation du logiciel...</translation>
     </message>
@@ -56,42 +56,42 @@
         <translation>Kiosque FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="73"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="74"/>
         <source>Install</source>
         <translation>Installer</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="75"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="76"/>
         <source>Uninstall</source>
         <translation>Désinstaller</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="77"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="78"/>
         <source>Reinstall</source>
         <translation>Réinstaller</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="193"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="191"/>
         <source>Search...</source>
         <translation>Recherche...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="197"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="196"/>
         <source>All Items</source>
         <translation>Tous les éléments</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="198"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="197"/>
         <source>Installed</source>
         <translation>Installé</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="199"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="198"/>
         <source>Not Installed</source>
         <translation>Non installé</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="603"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="588"/>
         <source>%1 Item%2</source>
         <translation>%1 élément%2</translation>
     </message>
@@ -104,78 +104,78 @@
         <translation>Kiosque FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="56"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="53"/>
         <source>icon</source>
         <translation>icone</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="102"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="99"/>
         <source>Title (Fileset Name)</source>
         <translation>Titre (nom du fileset)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="121"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="118"/>
         <source>Fileset Category</source>
         <translation>Catégorie du fileset</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="232"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="229"/>
         <source>    Queued for Installation    </source>
         <translation>Mis dans la file d&apos;installation</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="305"/>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="96"/>
-        <source>UNINSTALL</source>
-        <translation>DESINSTALLER</translation>
-    </message>
-    <message>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="254"/>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="92"/>
-        <source>INSTALL</source>
-        <translation>INSTALLER</translation>
+        <source>Uninstall</source>
+        <translation type="unfinished">Désinstaller</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="125"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="88"/>
+        <source>Install</source>
+        <translation type="unfinished">Installer</translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="121"/>
         <source>Not Installed</source>
         <translation>Non installé</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="127"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="123"/>
         <source>Queued for Installation</source>
         <translation>Mis dans la file d&apos;installation</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="129"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="125"/>
         <source>Downloading...</source>
         <translation>Téléchargement en cours...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="131"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="127"/>
         <source>Installing...</source>
         <translation>Installation en cours...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="133"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="129"/>
         <source>Installed</source>
         <translation>Installé</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="135"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="131"/>
         <source>Uninstalling...</source>
         <translation>Desinstallation en cours...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="137"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="133"/>
         <source>Reinstalling...</source>
         <translation>Réinstallation en cours...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="139"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="135"/>
         <source>Install Failed</source>
         <translation>L&apos;installation a échoué</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="141"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="137"/>
         <source>Unknown</source>
         <translation>Inconnu</translation>
     </message>
@@ -228,32 +228,32 @@
         <translation>Démarrer l&apos;installation</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="62"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="64"/>
         <source>15 Minutes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="63"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="65"/>
         <source>30 Minutes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="64"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="66"/>
         <source>1 Hour</source>
         <translation>1 Heure</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="65"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="67"/>
         <source>2 Hours</source>
         <translation>2 Heures</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="102"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="104"/>
         <source>%1 programs active</source>
         <translation>%1 programme(s) actif(s)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="118"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="120"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation>L&apos;installation débutera automatiquement dans %1 secondes...</translation>
     </message>

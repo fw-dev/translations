@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppLockForm</class>
+ <widget class="QWidget" name="AppLockForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>461</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>This profile can only be applied to devices in Supervised Mode</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="Identifier">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="chooseAppButton">
+       <property name="text">
+        <string>Choose</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="optionsGroupBox">
+     <property name="title">
+      <string>Options (iOS 7 only)</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="EnableZoom">
+        <property name="text">
+         <string>Enable Zoom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="DisableVolumeButtons">
+        <property name="text">
+         <string>Disable Volume Buttons</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="EnableInvertColors">
+        <property name="text">
+         <string>Enable Invert Colors</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QCheckBox" name="DisableAutoLock">
+        <property name="text">
+         <string>Disable Auto Lock</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="DisableSleepWakeButton">
+        <property name="text">
+         <string>Disable Sleep Wake Button</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="DisableRingerSwitch">
+        <property name="text">
+         <string>Disable Ringer Switch</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="DisableDeviceRotation">
+        <property name="text">
+         <string>Disable Device Rotation</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="EnableVoiceOver">
+        <property name="text">
+         <string>Enable Voice Over</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="DisableTouch">
+        <property name="text">
+         <string>Disable Touch</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QCheckBox" name="EnableAssistiveTouch">
+        <property name="text">
+         <string>Enable Assistive Touch</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QCheckBox" name="EnableSpeakSelection">
+        <property name="text">
+         <string>Enable Speak Selection</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QCheckBox" name="EnableMonoAudio">
+        <property name="text">
+         <string>Enable Mono Audio</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="userOptionsGroupBox">
+     <property name="title">
+      <string>User Enabled Options (iOS 7 only)</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="VoiceOver">
+        <property name="text">
+         <string>Voice Over</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="Zoom">
+        <property name="text">
+         <string>Zoom</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="InvertColors">
+        <property name="text">
+         <string>Invert Colors</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="AssistiveTouch">
+        <property name="text">
+         <string>Assistive Touch</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>Identifier</tabstop>
+  <tabstop>chooseAppButton</tabstop>
+  <tabstop>DisableTouch</tabstop>
+  <tabstop>DisableVolumeButtons</tabstop>
+  <tabstop>DisableDeviceRotation</tabstop>
+  <tabstop>DisableRingerSwitch</tabstop>
+  <tabstop>DisableSleepWakeButton</tabstop>
+  <tabstop>DisableAutoLock</tabstop>
+  <tabstop>EnableVoiceOver</tabstop>
+  <tabstop>EnableZoom</tabstop>
+  <tabstop>EnableInvertColors</tabstop>
+  <tabstop>EnableAssistiveTouch</tabstop>
+  <tabstop>EnableSpeakSelection</tabstop>
+  <tabstop>EnableMonoAudio</tabstop>
+  <tabstop>VoiceOver</tabstop>
+  <tabstop>Zoom</tabstop>
+  <tabstop>InvertColors</tabstop>
+  <tabstop>AssistiveTouch</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

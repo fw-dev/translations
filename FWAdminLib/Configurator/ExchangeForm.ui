@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>545</width>
-    <height>1133</height>
+    <width>555</width>
+    <height>1301</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -205,10 +205,10 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
        <property name="margin">
         <number>0</number>
        </property>
@@ -268,9 +268,26 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lAuthenticationCredential">
+        <widget class="QLabel" name="lAuthenticationCredentialName">
          <property name="text">
           <string>Authentication Credential Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipAuthenticationName">
+         <property name="text">
+          <string>Name or description for ActiveSync</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editAuthCredentialName"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lAuthenticationCredential">
+         <property name="text">
+          <string>Authentication Credential</string>
          </property>
         </widget>
        </item>
@@ -289,6 +306,27 @@
         </widget>
        </item>
        <item>
+        <widget class="QLabel" name="lAuthenticationCredentialPassphrase">
+         <property name="text">
+          <string>Authentication Credential Passphrase</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipAuthenticationCredentialPassphrase">
+         <property name="text">
+          <string>The device will prompt the user for the passphrase if not given</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editAuthCredentialPassphrase">
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="checkSMime">
          <property name="text">
           <string>Enable S/MIME</string>
@@ -301,6 +339,23 @@
           <string>Support S/MIME for this account</string>
          </property>
         </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lHeaderMagic">
+         <property name="text">
+          <string>Header Magic</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipHeaderMagic">
+         <property name="text">
+          <string>The X-Apple-Config-Magic header in each EAS HTTP request</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editHeaderMagic"/>
        </item>
        <item>
         <widget class="QWidget" name="certificateOptions" native="true">

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SingleSignonForm</class>
+ <widget class="QWidget" name="SingleSignonForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="AccountNameField"/>
+   </item>
+   <item row="14" column="0">
+    <widget class="QCheckBox" name="LimitToApplicationIDField">
+     <property name="text">
+      <string>Limit this account to specific applications</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipAccountName">
+     <property name="text">
+      <string>Display name of the account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="AccountNameTitle">
+     <property name="text">
+      <string>Account Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="RealmTitle">
+     <property name="text">
+      <string>Realm</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLineEdit" name="RealmField">
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QCheckBox" name="LimitToURLsField">
+     <property name="text">
+      <string>Limit this account to specific URL patterns</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="lTipRealm">
+     <property name="text">
+      <string>Realm of the account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipPrincipalName">
+     <property name="text">
+      <string>Principal name of the account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="PrincipalNameTitle">
+     <property name="text">
+      <string>Principal Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="PrincipalNameField"/>
+   </item>
+   <item row="15" column="0">
+    <widget class="QWidget" name="ApplicationIdsWidget" native="true">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lTipLimitToApplication">
+        <property name="text">
+         <string>This account will only be used for the following application Identifiers</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="ApplicationIdList"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QToolButton" name="addApplicationID">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="removeApplicationID">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QWidget" name="URLWidget" native="true">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lTipLitmiToURLs">
+        <property name="text">
+         <string>This account will only be used for URLs that match the following patterns</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="URLPatternsList"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QToolButton" name="addURLPattern">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="removeURLPattern">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>AccountNameField</tabstop>
+  <tabstop>PrincipalNameField</tabstop>
+  <tabstop>RealmField</tabstop>
+  <tabstop>LimitToURLsField</tabstop>
+  <tabstop>LimitToApplicationIDField</tabstop>
+  <tabstop>URLPatternsList</tabstop>
+  <tabstop>addURLPattern</tabstop>
+  <tabstop>removeURLPattern</tabstop>
+  <tabstop>ApplicationIdList</tabstop>
+  <tabstop>addApplicationID</tabstop>
+  <tabstop>removeApplicationID</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EnergySaverForm</class>
+ <widget class="QWidget" name="EnergySaverForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>517</width>
+    <height>442</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="generalTabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="desktopTab">
+      <attribute name="title">
+       <string>Desktop</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="EnergySaverPowerSettingsWidget" name="desktopACPowerSettingsWidget" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="portableTab">
+      <attribute name="title">
+       <string>Portable</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTabWidget" name="portableTabWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="portableBatteryPowerTab">
+          <attribute name="title">
+           <string>Battery</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="EnergySaverPowerSettingsWidget" name="portableBatteryPowerSettingsWidget" native="true"/>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="portableACPowerTab">
+          <attribute name="title">
+           <string>Power Adapter</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="EnergySaverPowerSettingsWidget" name="portableACPowerSettingsWidget" native="true"/>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="scheduleTab">
+      <attribute name="title">
+       <string>Schedule</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0" colspan="2">
+          <widget class="QCheckBox" name="repeatingPowerOnCheckbox">
+           <property name="text">
+            <string>Start up the computer</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QComboBox" name="repeatingPowerOffEventTypeComboBox">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>Sleep</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Shut Down</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <spacer name="repeatingPowerOffTitleSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <widget class="QCheckBox" name="repeatingPowerOffCheckbox">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QComboBox" name="repeatingPowerOnWeekdaysComboBox">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>Weekdays</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Weekend</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Every Day</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Monday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Tuesday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Wednesday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Thursday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Friday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Saturday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sunday</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="repeatingPowerOnLabel">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>at</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="repeatingPowerOnTimeTimeEdit">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="repeatingPowerOnSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QComboBox" name="repeatingPowerOffWeekdaysComboBox">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>Weekdays</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Weekend</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Every Day</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Monday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Tuesday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Wednesday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Thursday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Friday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Saturday</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sunday</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="repeatingPowerOffLabel">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>at</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTimeEdit" name="repeatingPowerOffTimeTimeEdit">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="repeatingPowerOffSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="ScheduleSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>EnergySaverPowerSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/EnergySaverPowerSettingsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

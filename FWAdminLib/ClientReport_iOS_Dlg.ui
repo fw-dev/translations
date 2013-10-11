@@ -35,7 +35,7 @@
          </font>
         </property>
         <property name="text">
-         <string>ClientName</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -154,7 +154,26 @@
          </layout>
         </item>
         <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
          <widget class="QLabel" name="platformIcon">
+          <property name="minimumSize">
+           <size>
+            <width>64</width>
+            <height>64</height>
+           </size>
+          </property>
           <property name="maximumSize">
            <size>
             <width>64</width>
@@ -163,9 +182,6 @@
           </property>
           <property name="text">
            <string/>
-          </property>
-          <property name="pixmap">
-           <pixmap resource="../FileWaveGuiLib/GuiLib.qrc">:/IDI_ICON_CLIENT_APPLE_IOS32</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -269,7 +285,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="detailsView">
+           <widget class="StyledTreeView" name="detailsView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -284,9 +303,6 @@
             </property>
             <property name="selectionMode">
              <enum>QAbstractItemView::ExtendedSelection</enum>
-            </property>
-            <property name="selectionBehavior">
-             <enum>QAbstractItemView::SelectItems</enum>
             </property>
             <property name="rootIsDecorated">
              <bool>false</bool>
@@ -319,7 +335,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="commandView">
+           <widget class="StyledTreeView" name="commandView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -357,7 +376,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="managedAppView">
+           <widget class="StyledTreeView" name="managedAppView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="showDropIndicator" stdset="0">
              <bool>false</bool>
             </property>
@@ -386,7 +408,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="appView">
+           <widget class="StyledTreeView" name="appView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -424,7 +449,10 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QTreeView" name="profileView">
+           <widget class="StyledTreeView" name="profileView">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
             <property name="editTriggers">
              <set>QAbstractItemView::NoEditTriggers</set>
             </property>
@@ -453,14 +481,17 @@
        </widget>
       </item>
      </layout>
-     <zorder>nameField</zorder>
-     <zorder>tabWidget</zorder>
     </widget>
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="../FileWaveGuiLib/GuiLib.qrc"/>
- </resources>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
  <connections/>
 </ui>

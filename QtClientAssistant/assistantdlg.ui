@@ -342,11 +342,35 @@
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="customDataButton">
+       <property name="text">
+        <string>Edit Custom Data...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
@@ -359,15 +383,15 @@
  </customwidgets>
  <tabstops>
   <tabstop>serverAddress</tabstop>
+  <tabstop>serverPort</tabstop>
+  <tabstop>serverBonjourView</tabstop>
   <tabstop>boosterAddress</tabstop>
+  <tabstop>boosterPort</tabstop>
+  <tabstop>boosterBonjourView</tabstop>
   <tabstop>computerNameCB</tabstop>
   <tabstop>clientName</tabstop>
   <tabstop>clientPassword</tabstop>
   <tabstop>confirmPassword</tabstop>
-  <tabstop>serverPort</tabstop>
-  <tabstop>boosterPort</tabstop>
-  <tabstop>serverBonjourView</tabstop>
-  <tabstop>boosterBonjourView</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources>
