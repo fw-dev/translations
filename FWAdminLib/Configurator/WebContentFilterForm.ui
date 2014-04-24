@@ -186,7 +186,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QTreeWidget" name="bookmarksTreeWidget">
+       <widget class="QTreeWidget" name="whitelistedTreeWidget">
         <property name="showDropIndicator" stdset="0">
          <bool>false</bool>
         </property>
@@ -222,14 +222,14 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
-         <widget class="QToolButton" name="addBookmark">
+         <widget class="QToolButton" name="addToWhitelist">
           <property name="text">
            <string>+</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QToolButton" name="removeBookmark">
+         <widget class="QToolButton" name="removeFromWhitelist">
           <property name="text">
            <string>-</string>
           </property>

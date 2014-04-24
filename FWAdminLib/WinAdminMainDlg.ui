@@ -27,7 +27,16 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_2">
-    <property name="margin">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
      <number>0</number>
     </property>
     <item>
@@ -122,9 +131,9 @@
        <property name="currentIndex">
         <number>0</number>
        </property>
-       <widget class="ClientsWidget" name="clientsWidget"/>
+       <widget class="SmartGroupReportTabForClients" name="smartGroupReportTabForClients"/>
        <widget class="FilesetListWidget" name="filesetList"/>
-       <widget class="AssociationMainWidget" name="associations"/>
+       <widget class="SmartGroupReportTabForAssociations" name="smartGroupReportTabForAssociations"/>
        <widget class="IOSInventoryWidget" name="IOSInvWidget"/>
        <widget class="LicenseTabWidget" name="licenseTabWidget"/>
        <widget class="InventoryQueryTab" name="inventoryQueryTab"/>
@@ -180,8 +189,8 @@
     <addaction name="actionEnroll_Mobile_Device"/>
     <addaction name="actionActionOpenAppStoreAssistant"/>
     <addaction name="actionVPP_Code_Management"/>
-    <addaction name="actionManage_VPP_Users"/>
     <addaction name="actionAssign_VPP_Licenses"/>
+    <addaction name="actionManage_VPP_Users"/>
     <addaction name="separator"/>
     <addaction name="actionManage_Administrators"/>
     <addaction name="actionShow_Locked_Items"/>
@@ -566,7 +575,7 @@
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Manage VPP Users (iOS 7+)...</string>
+    <string>VPP User Management...</string>
    </property>
    <property name="shortcut">
     <string>Meta+Ctrl+Alt+V</string>
@@ -577,7 +586,7 @@
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Assign VPP Licenses (iOS 7+)…</string>
+    <string>VPP License Management...</string>
    </property>
    <property name="shortcut">
     <string>Meta+Ctrl+Alt+L</string>
@@ -595,12 +604,6 @@
    <class>SideBar</class>
    <extends>QTreeView</extends>
    <header>FileWaveGuiLib/style/SideBar.h</header>
-  </customwidget>
-  <customwidget>
-   <class>ClientsWidget</class>
-   <extends>QWidget</extends>
-   <header>ClientsWidget.h</header>
-   <container>1</container>
   </customwidget>
   <customwidget>
    <class>IOSInventoryWidget</class>
@@ -627,9 +630,15 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>AssociationMainWidget</class>
+   <class>SmartGroupReportTabForClients</class>
    <extends>QWidget</extends>
-   <header>FWAdminLib/AssociationMainWidget.h</header>
+   <header>FWAdminLib/inventory/SmartGroupReportTab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SmartGroupReportTabForAssociations</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/inventory/SmartGroupReportTab.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

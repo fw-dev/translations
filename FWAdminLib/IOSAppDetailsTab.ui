@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>197</width>
-    <height>229</height>
+    <width>462</width>
+    <height>336</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -16,7 +16,7 @@
     <height>99999</height>
    </size>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,0,0,0,1">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,1">
      <item>
@@ -189,7 +189,16 @@
      </item>
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>12</number>
+       </property>
+       <property name="topMargin">
+        <number>12</number>
+       </property>
+       <property name="rightMargin">
+        <number>12</number>
+       </property>
+       <property name="bottomMargin">
         <number>12</number>
        </property>
        <item>
@@ -250,6 +259,69 @@
       </widget>
      </item>
     </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="vppGroupBox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>VPP</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Associated token:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="vppTokensComboBox"/>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="vppLicenseInUseHintLabel">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: red</string>
+        </property>
+        <property name="text">
+         <string>Note: N licences in use, therefore you can't assign another token</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="vppTokenWithoutLicenseHintLabel">
+        <property name="styleSheet">
+         <string notr="true">color: red</string>
+        </property>
+        <property name="text">
+         <string>Note: You haven't purchased any licenses for this application.
+This fileset will fail to deploy.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
    </item>
    <item>
     <spacer name="verticalSpacer">

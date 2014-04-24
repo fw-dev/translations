@@ -15,8 +15,8 @@
     </message>
     <message utf8="true">
         <location filename="../../FileWaveGuiLib/AboutWidget.ui" line="124"/>
-        <source>Copyright © Filewave International Holding AG 2013</source>
-        <translation type="unfinished"></translation>
+        <source>Copyright © Filewave International Holding AG 2014</source>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -210,7 +210,7 @@
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="262"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="470"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="471"/>
         <source>[disconnected]</source>
         <translation>[déconnecté]</translation>
     </message>
@@ -236,17 +236,17 @@
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="468"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="469"/>
         <source>Can&apos;t connect to client...</source>
         <translation>Impossible de se connecter au client...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="523"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="524"/>
         <source>The verify command has been sent to the client</source>
         <translation>La commande de vérification a été envoyée au client</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="525"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="526"/>
         <source>Failed to send the verify message to this client</source>
         <translation>La commande de vérification n&apos;a pas pu être envoyée</translation>
     </message>
@@ -275,112 +275,112 @@ settings for this client</source>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="20"/>
         <source>Form</source>
-        <translation type="unfinished">Formulaire</translation>
+        <translation>Formulaire</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="32"/>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="51"/>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="58"/>
         <source>at</source>
-        <translation type="unfinished"></translation>
+        <translation>à</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="81"/>
         <source>skip week-ends</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauf week-ends</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="88"/>
         <source>Every day</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous les jours</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="98"/>
         <source>Every week on</source>
-        <translation type="unfinished"></translation>
+        <translation>Toutes les semaines</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="105"/>
         <source>Every month on the</source>
-        <translation type="unfinished"></translation>
+        <translation>Tous les mois, le</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="36"/>
         <source>Monday</source>
-        <translation type="unfinished"></translation>
+        <translation>Lundi</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="37"/>
         <source>Tuesday</source>
-        <translation type="unfinished"></translation>
+        <translation>Mardi</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="38"/>
         <source>Wednesday</source>
-        <translation type="unfinished"></translation>
+        <translation>Mercredi</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="39"/>
         <source>Thursday</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeudi</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="40"/>
         <source>Friday</source>
-        <translation type="unfinished"></translation>
+        <translation>Vendredi</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="41"/>
         <source>Saturday</source>
-        <translation type="unfinished"></translation>
+        <translation>Samedi</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="42"/>
         <source>Sunday</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimanche</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="45"/>
         <source>first</source>
-        <translation type="unfinished"></translation>
+        <translation>premier</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="46"/>
         <source>second</source>
-        <translation type="unfinished"></translation>
+        <translation>deuxième</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="47"/>
         <source>third</source>
-        <translation type="unfinished"></translation>
+        <translation>troisième</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="48"/>
         <source>fourth</source>
-        <translation type="unfinished"></translation>
+        <translation>quatrième</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="49"/>
         <source>last</source>
-        <translation type="unfinished"></translation>
+        <translation>dernier</translation>
     </message>
 </context>
 <context>
     <name>FTabWidget</name>
     <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="70"/>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="72"/>
         <source>Close Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermer l&apos;onglet</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="73"/>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="75"/>
         <source>Close All Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermer tous les onglets</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="74"/>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="76"/>
         <source>Close Other Tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermer les autres onglets</translation>
     </message>
 </context>
 <context>
@@ -555,25 +555,50 @@ settings for this client</source>
         <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="49"/>
         <source>Select an Icon</source>
         <comment>KioskResourceHelper</comment>
-        <translation type="unfinished">Sélectionnez une icône</translation>
+        <translation>Sélectionnez une icône</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="53"/>
         <source>Select an exe, dll, or icon file</source>
         <comment>KioskResourceHelper</comment>
-        <translation type="unfinished">Sélectionnez un exe, dll ou une icône</translation>
+        <translation>Sélectionnez un exe, dll ou une icône</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="57"/>
         <source>Select an Application or icon file</source>
         <comment>KioskResourceHelper</comment>
-        <translation type="unfinished">Sélectionnez une application ou un fichier icône</translation>
+        <translation>Sélectionnez une application ou un fichier icône</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="60"/>
         <source>Images (</source>
         <comment>KioskResourceHelper</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="8"/>
+        <source>GCM correctly configured.</source>
+        <translation>GCM configuré correctement.</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="10"/>
+        <source>Project number not set.</source>
+        <translation>Numéro de projet non renseigné.</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="12"/>
+        <source>API Key not set.</source>
+        <translation>Clé d&apos;API non renseignée.</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="14"/>
+        <source>Invalid server API key or project not correctly configured in Google Dev. Console.</source>
+        <translation>Clé API invalide ou projet mal configuré dans Google Dev. Console.</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="16"/>
+        <source>GCM not configured.</source>
+        <translation>GCM non configuré.</translation>
     </message>
 </context>
 <context>
@@ -586,15 +611,15 @@ settings for this client</source>
         <location filename="../../FileWaveGuiLib/searchlineedit/searchlineedit.cpp" line="23"/>
         <location filename="../../FileWaveGuiLib/searchlineedit/searchlineedit.cpp" line="24"/>
         <source>Press enter to search</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrez votre recherche</translation>
     </message>
 </context>
 <context>
     <name>StyledTreeView</name>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="320"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="321"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Copier</translation>
     </message>
 </context>
 </TS>

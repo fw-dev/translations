@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>279</width>
-    <height>278</height>
+    <height>282</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
@@ -121,7 +121,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Copyright © Filewave International Holding AG 2013</string>
+      <string>Copyright © Filewave International Holding AG 2014</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

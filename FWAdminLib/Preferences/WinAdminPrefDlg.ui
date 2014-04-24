@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>789</width>
-    <height>702</height>
+    <width>793</width>
+    <height>749</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,16 @@
    <property name="spacing">
     <number>0</number>
    </property>
-   <property name="margin">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
     <number>0</number>
    </property>
    <item>
@@ -330,6 +339,16 @@
                 <horstretch>0</horstretch>
                 <verstretch>0</verstretch>
                </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="ldapUseAuthForExtraction">
+              <property name="text">
+               <string>use it for extraction</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
               </property>
              </widget>
             </item>
@@ -1167,118 +1186,241 @@
            </widget>
           </item>
           <item>
-           <widget class="QGroupBox" name="apnBox">
-            <property name="title">
-             <string>Apple Push Notification Certificate</string>
+           <widget class="QTabWidget" name="tabMobileWidget">
+            <property name="currentIndex">
+             <number>0</number>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_10">
-             <item>
-              <layout class="QGridLayout" name="gridLayout_11">
-               <item row="2" column="0">
-                <widget class="QLabel" name="label_29">
-                 <property name="text">
-                  <string>APN Certificate/Key:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0">
-                <widget class="QLabel" name="label_11">
-                 <property name="text">
-                  <string>Expiration Date:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="1">
-                <widget class="QLabel" name="apnExpirationLineEdit">
-                 <property name="text">
-                  <string/>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="1">
-                <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <widget class="QWidget" name="tabIos">
+             <attribute name="title">
+              <string>iOS</string>
+             </attribute>
+             <layout class="QVBoxLayout" name="verticalLayout_15">
+              <item>
+               <widget class="QGroupBox" name="apnBox">
+                <property name="title">
+                 <string>Apple Push Notification Certificate</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_10">
                  <item>
-                  <widget class="QLineEdit" name="apnP12LineEdit">
-                   <property name="enabled">
-                    <bool>false</bool>
-                   </property>
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                     <horstretch>3</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
+                  <layout class="QGridLayout" name="gridLayout_11">
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_29">
+                     <property name="text">
+                      <string>APN Certificate/Key:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_11">
+                     <property name="text">
+                      <string>Expiration Date:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLabel" name="apnExpirationLineEdit">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <layout class="QHBoxLayout" name="horizontalLayout_4">
+                     <item>
+                      <widget class="QLineEdit" name="apnP12LineEdit">
+                       <property name="enabled">
+                        <bool>false</bool>
+                       </property>
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                         <horstretch>3</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>.p12 file</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="horizontalSpacer_13">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>12</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="apnP12BrowseButton">
+                       <property name="text">
+                        <string>Browse...</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_9">
+                     <property name="text">
+                      <string>Current Certificate:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="apnInfoLineEdit">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <layout class="QHBoxLayout" name="horizontalLayout_9">
+                     <item>
+                      <widget class="QPushButton" name="apnUploadButton">
+                       <property name="text">
+                        <string>Upload APN Certificate/Key Pair</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="horizontalSpacer_11">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>40</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="ignoreAPNStatusNotifications">
+                <property name="text">
+                 <string>Ignore status notifications</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tabAndroid">
+             <attribute name="title">
+              <string>Android</string>
+             </attribute>
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item>
+               <widget class="QGroupBox" name="groupBox_2">
+                <property name="title">
+                 <string>Google Cloud Messaging (Notifications)</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="OnlineStatus" name="GCMStatus">
+                   <property name="maximumSize">
+                    <size>
+                     <width>24</width>
+                     <height>24</height>
+                    </size>
                    </property>
                    <property name="text">
-                    <string>.p12 file</string>
+                    <string/>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <spacer name="horizontalSpacer_13">
+                  <widget class="QLabel" name="GCMStatusText">
+                   <property name="text">
+                    <string>Retrieving GCM configuration...</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_2">
                    <property name="orientation">
                     <enum>Qt::Horizontal</enum>
                    </property>
-                   <property name="sizeType">
-                    <enum>QSizePolicy::Fixed</enum>
-                   </property>
                    <property name="sizeHint" stdset="0">
                     <size>
-                     <width>12</width>
+                     <width>469</width>
                      <height>20</height>
                     </size>
                    </property>
                   </spacer>
                  </item>
                  <item>
-                  <widget class="QPushButton" name="apnP12BrowseButton">
+                  <widget class="QPushButton" name="GCMButton">
                    <property name="text">
-                    <string>Browse...</string>
+                    <string>Configure GCM</string>
                    </property>
                   </widget>
                  </item>
                 </layout>
-               </item>
-               <item row="0" column="0">
-                <widget class="QLabel" name="label_9">
-                 <property name="text">
-                  <string>Current Certificate:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="1">
-                <widget class="QLabel" name="apnInfoLineEdit">
-                 <property name="text">
-                  <string/>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="1">
-                <layout class="QHBoxLayout" name="horizontalLayout_9">
-                 <item>
-                  <widget class="QPushButton" name="apnUploadButton">
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="androidOverrideFwxserverSetting">
+                <property name="title">
+                 <string>Override FileWave server configuration</string>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_2">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label">
                    <property name="text">
-                    <string>Upload APN Certificate/Key Pair</string>
+                    <string>Public DNS hostname:</string>
                    </property>
                   </widget>
                  </item>
-                 <item>
-                  <spacer name="horizontalSpacer_11">
-                   <property name="orientation">
-                    <enum>Qt::Horizontal</enum>
+                 <item row="0" column="1">
+                  <widget class="QLineEdit" name="publicDNSServerHostname">
+                   <property name="placeholderText">
+                    <string>By default, MDM and FileWave servers are on the same host</string>
                    </property>
-                   <property name="sizeHint" stdset="0">
-                    <size>
-                     <width>40</width>
-                     <height>20</height>
-                    </size>
-                   </property>
-                  </spacer>
+                  </widget>
                  </item>
                 </layout>
-               </item>
-              </layout>
-             </item>
-            </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="ignoreGCMStatusNotifications">
+                <property name="text">
+                 <string>Ignore status notifications</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
            </widget>
           </item>
           <item>
@@ -1302,181 +1444,43 @@
          </attribute>
          <layout class="QVBoxLayout" name="verticalLayout_11" stretch="0,0,0,1">
           <item>
-           <widget class="QGroupBox" name="serviceTokenGrp">
+           <widget class="QGroupBox" name="tokenGroupBox">
             <property name="title">
-             <string>VPP service token</string>
+             <string>Service tokens</string>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_12">
+            <layout class="QHBoxLayout" name="horizontalLayout_300">
              <item>
-              <widget class="QStackedWidget" name="vppTokenStackedWidget">
-               <property name="currentIndex">
-                <number>0</number>
-               </property>
-               <widget class="QWidget" name="pageNoToken">
-                <layout class="QHBoxLayout" name="horizontalLayout_11">
-                 <property name="margin">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <spacer name="horizontalSpacer_12">
-                   <property name="orientation">
-                    <enum>Qt::Horizontal</enum>
-                   </property>
-                   <property name="sizeHint" stdset="0">
-                    <size>
-                     <width>40</width>
-                     <height>20</height>
-                    </size>
-                   </property>
-                  </spacer>
-                 </item>
-                 <item>
-                  <widget class="QLabel" name="label_36">
-                   <property name="text">
-                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;No VPP service token is currently set.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                   </property>
-                   <property name="openExternalLinks">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QPushButton" name="setVPPToken">
-                   <property name="text">
-                    <string>Set the VPP service token</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <spacer name="horizontalSpacer_9">
-                   <property name="orientation">
-                    <enum>Qt::Horizontal</enum>
-                   </property>
-                   <property name="sizeHint" stdset="0">
-                    <size>
-                     <width>40</width>
-                     <height>20</height>
-                    </size>
-                   </property>
-                  </spacer>
-                 </item>
-                </layout>
-               </widget>
-               <widget class="QWidget" name="pageTokenSet">
-                <layout class="QVBoxLayout" name="verticalLayout_13">
-                 <property name="margin">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <layout class="QFormLayout" name="formLayout_7">
-                   <property name="fieldGrowthPolicy">
-                    <enum>QFormLayout::FieldsStayAtSizeHint</enum>
-                   </property>
-                   <item row="1" column="0">
-                    <widget class="QLabel" name="tokenOrgNameTitleLabel">
-                     <property name="text">
-                      <string>Organization name:</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="2" column="0">
-                    <widget class="QLabel" name="tokenExpDateTitleLabel">
-                     <property name="text">
-                      <string>Expiration date:</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="2" column="1">
-                    <widget class="QLabel" name="tokenExpDateLabel">
-                     <property name="text">
-                      <string>N/A</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="1">
-                    <widget class="QLabel" name="tokenOrgNameLabel">
-                     <property name="text">
-                      <string>N/A</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </item>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_12">
-                   <item>
-                    <spacer name="horizontalSpacer_14">
-                     <property name="orientation">
-                      <enum>Qt::Horizontal</enum>
-                     </property>
-                     <property name="sizeHint" stdset="0">
-                      <size>
-                       <width>40</width>
-                       <height>20</height>
-                      </size>
-                     </property>
-                    </spacer>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="updateVPPToken">
-                     <property name="text">
-                      <string>Update VPP service token</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <spacer name="horizontalSpacer_10">
-                     <property name="orientation">
-                      <enum>Qt::Horizontal</enum>
-                     </property>
-                     <property name="sizeHint" stdset="0">
-                      <size>
-                       <width>40</width>
-                       <height>20</height>
-                      </size>
-                     </property>
-                    </spacer>
-                   </item>
-                  </layout>
-                 </item>
-                </layout>
-               </widget>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QGroupBox" name="vppUsersGrp">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="title">
-             <string>Users</string>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_6">
-             <item row="0" column="0" colspan="2">
-              <widget class="QCheckBox" name="vppAutoUsers">
+              <widget class="QLabel" name="tokenLabel">
                <property name="text">
-                <string>Automatically create VPP users with new devices</string>
+                <string>No tokens are configured</string>
                </property>
               </widget>
              </item>
-             <item row="1" column="0">
-              <widget class="QLabel" name="devicesWithoutUsersWarning">
+             <item>
+              <widget class="QPushButton" name="editVPPTokensButton">
                <property name="text">
-                <string>There are devices without associated user. &lt;a href=&quot;#&quot;&gt;Close Preferences and open VPP assistant&lt;/a&gt;</string>
+                <string>Configure tokens</string>
                </property>
               </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_400">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
              </item>
             </layout>
            </widget>
           </item>
           <item>
            <widget class="QGroupBox" name="synchronizationGroupBox">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
             <property name="title">
              <string>Synchronization</string>
             </property>
@@ -1487,17 +1491,13 @@
              <item row="0" column="3">
               <widget class="CircularProgressIndicator" name="syncAppleCirc" native="true"/>
              </item>
-             <item row="0" column="4">
-              <widget class="QLabel" name="lastSyncWithApple">
+             <item row="0" column="0">
+              <widget class="QCheckBox" name="syncWithApple">
                <property name="text">
-                <string>Last Sync: (N/A)</string>
+                <string>Synchronize data with Apple VPP every:</string>
                </property>
-              </widget>
-             </item>
-             <item row="4" column="0" colspan="6">
-              <widget class="QCheckBox" name="sendLDAPInviteEmails">
-               <property name="text">
-                <string>Send invite emails to newly registered LDAP users</string>
+               <property name="checked">
+                <bool>true</bool>
                </property>
               </widget>
              </item>
@@ -1514,6 +1514,63 @@
                </property>
                <property name="singleStep">
                 <number>5</number>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="6">
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>10</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="4">
+              <widget class="QLabel" name="lastSyncWithApple">
+               <property name="text">
+                <string>Last Sync: (N/A)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QSpinBox" name="syncLDAPDelay">
+               <property name="suffix">
+                <string> hour(s)</string>
+               </property>
+               <property name="minimum">
+                <number>1</number>
+               </property>
+               <property name="maximum">
+                <number>148</number>
+               </property>
+               <property name="value">
+                <number>24</number>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="3">
+              <widget class="QCheckBox" name="syncWithLDAPByEmail">
+               <property name="text">
+                <string>Automatically associate users via their email address</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QPushButton" name="syncAppleNow">
+               <property name="text">
+                <string>Synchronize now</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0" colspan="6">
+              <widget class="QCheckBox" name="sendLDAPInviteEmails">
+               <property name="text">
+                <string>Send invite emails to newly registered LDAP users</string>
                </property>
               </widget>
              </item>
@@ -1540,65 +1597,12 @@
                </property>
               </spacer>
              </item>
-             <item row="0" column="0">
-              <widget class="QCheckBox" name="syncWithApple">
-               <property name="text">
-                <string>Synchronize data with Apple VPP every:</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="0" colspan="3">
-              <widget class="QCheckBox" name="syncWithLDAPByEmail">
-               <property name="text">
-                <string>Automatically associate users via their email address</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="1">
-              <widget class="QSpinBox" name="syncLDAPDelay">
-               <property name="suffix">
-                <string> hour(s)</string>
-               </property>
-               <property name="minimum">
-                <number>1</number>
-               </property>
-               <property name="maximum">
-                <number>148</number>
-               </property>
-               <property name="value">
-                <number>24</number>
-               </property>
-              </widget>
-             </item>
              <item row="3" column="0" colspan="3">
               <widget class="QCheckBox" name="autoRetireLDAPUsers">
                <property name="text">
                 <string>Automatically retire non-existing LDAP users</string>
                </property>
               </widget>
-             </item>
-             <item row="0" column="2">
-              <widget class="QPushButton" name="syncAppleNow">
-               <property name="text">
-                <string>Synchronize now</string>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="6">
-              <spacer name="horizontalSpacer_8">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>10</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
              </item>
              <item row="1" column="2" colspan="3">
               <widget class="QLabel" name="lastSyncWithLDAP">
@@ -1608,6 +1612,13 @@
               </widget>
              </item>
             </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="devicesWithoutUsersWarning">
+            <property name="text">
+             <string>There are devices without associated user. &lt;a href=&quot;#&quot;&gt;Close Preferences and open VPP assistant&lt;/a&gt;</string>
+            </property>
            </widget>
           </item>
           <item>
@@ -1823,7 +1834,16 @@
              <item row="1" column="1">
               <widget class="QWidget" name="inventoryDetails" native="true">
                <layout class="QHBoxLayout" name="horizontalLayout_18">
-                <property name="margin">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
                  <number>0</number>
                 </property>
                 <item>
@@ -1935,6 +1955,35 @@
                 <string/>
                </property>
               </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="smartGroupsGB">
+            <property name="title">
+             <string>Smart Groups</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QPushButton" name="refreshAllSmartGroupsCommandButton">
+               <property name="text">
+                <string>Refresh all Smart Groups</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
              </item>
             </layout>
            </widget>

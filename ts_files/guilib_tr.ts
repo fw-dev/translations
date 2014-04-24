@@ -15,8 +15,12 @@
     </message>
     <message utf8="true">
         <location filename="../../FileWaveGuiLib/AboutWidget.ui" line="124"/>
+        <source>Copyright © Filewave International Holding AG 2014</source>
+        <translation type="unfinished">Copyright © Filewave International Holding AG 2014</translation>
+    </message>
+    <message utf8="true">
         <source>Copyright © Filewave International Holding AG 2013</source>
-        <translation type="unfinished">Copyright © Filewave International Holding AG 2013</translation>
+        <translation type="obsolete">Copyright © Filewave International Holding AG 2013</translation>
     </message>
     <message utf8="true">
         <source>Copyright © Filewave International Holding AG 2012</source>
@@ -214,7 +218,7 @@
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="262"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="470"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="471"/>
         <source>[disconnected]</source>
         <translation>[bağlantı yok]</translation>
     </message>
@@ -240,17 +244,17 @@
         <translation> (%1.%2.%3)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="468"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="469"/>
         <source>Can&apos;t connect to client...</source>
         <translation>İstemciye bağlanılamıyor...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="523"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="524"/>
         <source>The verify command has been sent to the client</source>
         <translation>Doğrulama komutu istemciye iletildi</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="525"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="526"/>
         <source>Failed to send the verify message to this client</source>
         <translation>Doğrulama komutu bu istemciye gönderilemedi</translation>
     </message>
@@ -373,17 +377,17 @@ gerekli şifreyi girin</translation>
 <context>
     <name>FTabWidget</name>
     <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="70"/>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="72"/>
         <source>Close Tab</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="73"/>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="75"/>
         <source>Close All Tabs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="74"/>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="76"/>
         <source>Close Other Tabs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -585,6 +589,31 @@ gerekli şifreyi girin</translation>
         <comment>KioskResourceHelper</comment>
         <translation type="unfinished">Resimler (</translation>
     </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="8"/>
+        <source>GCM correctly configured.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="10"/>
+        <source>Project number not set.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="12"/>
+        <source>API Key not set.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="14"/>
+        <source>Invalid server API key or project not correctly configured in Google Dev. Console.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="16"/>
+        <source>GCM not configured.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SearchLineEdit</name>
@@ -602,7 +631,7 @@ gerekli şifreyi girin</translation>
 <context>
     <name>StyledTreeView</name>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="320"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="321"/>
         <source>Copy</source>
         <translation type="unfinished"></translation>
     </message>
