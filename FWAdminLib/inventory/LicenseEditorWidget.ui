@@ -92,7 +92,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Warning when less than:</string>
+        <string>Warning when:</string>
        </property>
       </widget>
      </item>
@@ -110,7 +110,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>remain</string>
+          <string>(or less) remain</string>
          </property>
         </widget>
        </item>

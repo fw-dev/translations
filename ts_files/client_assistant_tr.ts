@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="tr_TR">
+<TS version="2.1" language="tr_TR">
 <context>
     <name>AssistantCustomDataDlg</name>
     <message>
@@ -565,7 +565,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="225"/>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="223"/>
         <source>The password and confirmation don&apos;t match -- please try again.</source>
         <translation>Şifre ve doğrulaması eşleşmiyor -- lütfen tekrar deneyin.</translation>
     </message>
@@ -573,17 +573,17 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="15"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
         <source>FileWave</source>
         <translation>Tuğra</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="16"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="21"/>
         <source>filewave.com</source>
         <translation>filewave.com</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="17"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="22"/>
         <source>FileWave Client Assistant</source>
         <translation>Tuğra İstemci Yardımcısı</translation>
     </message>
