@@ -75,27 +75,27 @@
     </message>
     <message>
         <source>FileWave Kiosk</source>
-        <translation type="unfinished">FileWave Kiosk</translation>
+        <translation>FileWave Kiosk</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organizations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organisationen&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Go to App Store</source>
-        <translation type="unfinished"></translation>
+        <translation>App Store öffnen</translation>
     </message>
     <message>
         <source>Get license</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizenz beziehen</translation>
     </message>
     <message>
         <source>Revoke license</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizenz zurückgeben</translation>
     </message>
     <message>
         <source>Installing %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Installiere %1.</translation>
     </message>
     <message>
         <source>In order to install this license, you need to associate your iTunes account to organization &quot;%1&quot;.
@@ -105,15 +105,23 @@ If you haven&apos;t associated your account yet, please use the App Store to do 
 If you have already associated your iTunes account, please try again later as synchronization may take a few minutes.
 
 When you click &quot;Associate my Account&quot; the App Store will ask for your iTunes ID and that you accept the Apple terms and conditions for account association.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um diese Lizenz zu beziehen müssen Sie mit ihrem iTunes-Konto der Organisation &quot;%1&quot; beitreten.
+
+Falls Sie das noch nicht getan haben benutzen Sie bitte den untenstehenden &quot;Beitreten&quot; - Knopf.
+
+Falls Sie bereits innerhalb der letzten 5 Minuten beigetreten sind probieren Sie es bitte in ca. 10 Minuten nochmals. 
+
+Klicken Sie auf &quot;Beitreten&quot; um mithilfe des App Stores der Organisation beizutreten - der App Store wird Sie bitten, sich mit 
+ihrem iTunes-Konto anzumelden. </translation>
     </message>
     <message>
         <source>Associate my Account</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>	</translatorcomment>
+        <translation>Beitreten</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 <context>
@@ -176,59 +184,62 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     </message>
     <message>
         <source>Some long text</source>
-        <translation type="unfinished"></translation>
+        <translation>Langer Beispieltext</translation>
     </message>
     <message>
         <source>Get license</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>	</translatorcomment>
+        <translation>Lizenz beziehen</translation>
     </message>
     <message>
         <source>Install</source>
-        <translation type="unfinished">Installiere</translation>
+        <translation>Installiere</translation>
     </message>
     <message>
         <source>Uninstall</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Entfernen</translation>
     </message>
     <message>
         <source>Revoke license</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>	</translatorcomment>
+        <translation>Lizenz zurückgeben</translation>
     </message>
     <message>
         <source>License association error</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>	</translatorcomment>
+        <translation>Lizenz-Zuordnungsfehler</translation>
     </message>
     <message>
         <source>License associated</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizenz zugeordnet</translation>
     </message>
     <message>
         <source>Accept the invite to the organization with a valid iTunes account</source>
-        <translation type="unfinished"></translation>
+        <translation>Treten Sie der Organisation mit einem gültigen iTunes-Account bei</translation>
     </message>
     <message>
         <source>No VPP user for this application&apos;s organization for your device</source>
-        <translation type="unfinished"></translation>
+        <translation>Diesem Gerät ist kein VPP-Benutzer zugeordnet</translation>
     </message>
     <message>
         <source>VPP user is retired</source>
-        <translation type="unfinished"></translation>
+        <translation>VPP User existiert nicht mehr</translation>
     </message>
     <message>
         <source>No VPP token associated</source>
-        <translation type="unfinished"></translation>
+        <translation>Kein VPP-Token assoziiert</translation>
     </message>
     <message>
         <source>Not enough licenses</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Lizenzen mehr verfügbar</translation>
     </message>
     <message>
         <source>No license available or required</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Lizenz verfügbar oder nötig</translation>
     </message>
     <message>
         <source>Invalid status</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültiger Status</translation>
     </message>
 </context>
 <context>
@@ -305,15 +316,15 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <name>VppUserWidget</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formular</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <source>Join</source>
-        <translation type="unfinished"></translation>
+        <translation>Beitreten</translation>
     </message>
 </context>
 </TS>
