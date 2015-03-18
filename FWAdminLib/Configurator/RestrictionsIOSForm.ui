@@ -548,6 +548,46 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowPredictiveKeyboard">
+         <property name="text">
+          <string>Allow predictive keyboard (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowAutoCorrection">
+         <property name="text">
+          <string>Allow keyboard auto correction (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowSpellCheck">
+         <property name="text">
+          <string>Allow keyboard spell check (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowDefinitionLookup">
+         <property name="text">
+          <string>Allow keyboard definition lookup (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>

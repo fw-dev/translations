@@ -131,9 +131,11 @@
        <property name="currentIndex">
         <number>0</number>
        </property>
+       <widget class="DashboardContainer" name="dashboardContainer"/>
        <widget class="SmartGroupReportTabForClients" name="smartGroupReportTabForClients"/>
        <widget class="FilesetListWidget" name="filesetList"/>
        <widget class="SmartGroupReportTabForAssociations" name="smartGroupReportTabForAssociations"/>
+       <widget class="ImagingWidget" name="imagingWidget"/>
        <widget class="IOSInventoryWidget" name="IOSInvWidget"/>
        <widget class="LicenseTabWidget" name="licenseTabWidget"/>
        <widget class="InventoryQueryTab" name="inventoryQueryTab"/>
@@ -673,6 +675,18 @@
    <class>SmartGroupReportTabForAssociations</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/inventory/SmartGroupReportTab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DashboardContainer</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/DashboardContainer.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ImagingWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ImagingWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

@@ -22,7 +22,7 @@
     </widget>
    </item>
    <item>
-    <widget class="StyledTreeWidget" name="m_listOfClients">
+    <widget class="StyledTreeView" name="m_listOfClients">
      <property name="editTriggers">
       <set>QAbstractItemView::NoEditTriggers</set>
      </property>
@@ -38,16 +38,6 @@
      <property name="itemsExpandable">
       <bool>false</bool>
      </property>
-     <column>
-      <property name="text">
-       <string>Name</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Comment</string>
-      </property>
-     </column>
     </widget>
    </item>
    <item>
@@ -153,7 +143,7 @@
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
   </customwidget>
   <customwidget>
-   <class>StyledTreeWidget</class>
+   <class>StyledTreeView</class>
    <extends>QTreeWidget</extends>
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>

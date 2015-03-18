@@ -14,7 +14,16 @@
    <string>Communications</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
-   <property name="margin">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
     <number>0</number>
    </property>
    <item row="0" column="0">
@@ -141,14 +150,14 @@
       <widget class="QLineEdit" name="commClientNameED"/>
      </item>
      <item row="4" column="2">
-      <widget class="QLabel" name="label_8">
+      <widget class="QLabel" name="monitorExampleLabel">
        <property name="text">
         <string>ex. 20010</string>
        </property>
       </widget>
      </item>
      <item row="5" column="2">
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="kioskExampleLabel">
        <property name="text">
         <string>ex. 20020</string>
        </property>
