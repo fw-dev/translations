@@ -13,93 +13,39 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
-   <property name="leftMargin">
-    <number>12</number>
-   </property>
-   <item row="0" column="0">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,1">
+   <item>
     <widget class="QLabel" name="label">
      <property name="text">
       <string>Preference Domain</string>
      </property>
     </widget>
    </item>
-   <item row="2" column="0">
-    <widget class="QLineEdit" name="domainName">
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </item>
-   <item row="6" column="0">
-    <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0">
-     <item>
-      <widget class="QPushButton" name="uploadFile">
-       <property name="text">
-        <string>Upload File...</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item>
-      <widget class="QPushButton" name="addItem">
-       <property name="text">
-        <string>Add Item</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="deleteItem">
-       <property name="text">
-        <string>Delete Item</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </item>
-   <item row="5" column="0">
-    <widget class="StyledTreeView" name="customSettingsTreeView"/>
-   </item>
-   <item row="3" column="0">
-    <widget class="QLabel" name="label_3">
-     <property name="text">
-      <string>Property List Values</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0">
+   <item>
     <widget class="QLabel" name="lTip_label_2">
      <property name="text">
       <string>The name of a preference domain (com.company.application)</string>
      </property>
     </widget>
    </item>
-   <item row="4" column="0">
-    <widget class="QLabel" name="lTip_label_4">
+   <item>
+    <widget class="QLineEdit" name="domainName">
      <property name="text">
-      <string>Key value pairs for settings in the specified domain</string>
+      <string/>
      </property>
     </widget>
+   </item>
+   <item>
+    <widget class="PListEditor" name="editor" native="true"/>
    </item>
   </layout>
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledTreeView</class>
-   <extends>QTreeView</extends>
-   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+   <class>PListEditor</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/PListEditor.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

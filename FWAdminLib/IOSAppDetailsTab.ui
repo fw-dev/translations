@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>197</width>
-    <height>229</height>
+    <width>509</width>
+    <height>496</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -16,7 +16,7 @@
     <height>99999</height>
    </size>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_6" stretch="0,0,0,0,0,1">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,1">
      <item>
@@ -189,7 +189,16 @@
      </item>
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>12</number>
+       </property>
+       <property name="topMargin">
+        <number>12</number>
+       </property>
+       <property name="rightMargin">
+        <number>12</number>
+       </property>
+       <property name="bottomMargin">
         <number>12</number>
        </property>
        <item>
@@ -252,6 +261,121 @@
     </layout>
    </item>
    <item>
+    <widget class="QWidget" name="externalUrlGroup" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>12</number>
+      </property>
+      <property name="topMargin">
+       <number>12</number>
+      </property>
+      <property name="rightMargin">
+       <number>12</number>
+      </property>
+      <property name="bottomMargin">
+       <number>12</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="externalUrl">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="OnlineStatus" name="externalUrlLbl" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="externalUrlCheck">
+        <property name="text">
+         <string>External URL Download:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="externalUrlError">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="vppGroupBox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>VPP</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Associated token:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="vppTokensComboBox"/>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="vppLicenseInUseHintLabel">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: red</string>
+        </property>
+        <property name="text">
+         <string>Note: N licences in use, therefore you can't change the associated token</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="vppTokenWithoutLicenseHintLabel">
+        <property name="styleSheet">
+         <string notr="true">color: red</string>
+        </property>
+        <property name="text">
+         <string>Note: You haven't purchased any licenses for this application.
+This fileset will fail to deploy.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -276,10 +400,33 @@
   <customwidget>
    <class>ManagementFlagsWidget</class>
    <extends>QWidget</extends>
-   <header>ManagementFlagsWidget.h</header>
+   <header>FWAdminLib/ManagementFlagsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>OnlineStatus</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/OnlineStatus.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>externalUrlCheck</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>externalUrl</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>32</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>279</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

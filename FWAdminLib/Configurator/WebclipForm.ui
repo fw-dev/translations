@@ -63,7 +63,7 @@
    <item row="6" column="0">
     <widget class="QCheckBox" name="chkRemovable">
      <property name="text">
-      <string>Removable</string>
+      <string>Removable (iOS only)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -120,7 +120,16 @@
         <enum>QFrame::Box</enum>
        </property>
        <layout class="QGridLayout" name="gridLayout_2">
-        <property name="margin">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
          <number>0</number>
         </property>
         <property name="spacing">
@@ -316,7 +325,16 @@ border: 2px solid grey;
      <item>
       <widget class="QWidget" name="sizeWarning" native="true">
        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1">
-        <property name="margin">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
          <number>0</number>
         </property>
         <item>
@@ -397,7 +415,7 @@ border: 2px solid grey;
    <item row="12" column="0" colspan="2">
     <widget class="QCheckBox" name="chkPrecomposed">
      <property name="text">
-      <string>Precomposed icon</string>
+      <string>Precomposed icon (iOS only)</string>
      </property>
     </widget>
    </item>
@@ -411,7 +429,7 @@ border: 2px solid grey;
    <item row="14" column="0">
     <widget class="QCheckBox" name="chkFullscreen">
      <property name="text">
-      <string>Full Screen</string>
+      <string>Full Screen (iOS only)</string>
      </property>
     </widget>
    </item>

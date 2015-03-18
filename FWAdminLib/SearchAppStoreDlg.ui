@@ -11,13 +11,22 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Search iTunes App Store</string>
+   <string>Search App Store</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
     <number>0</number>
    </property>
-   <property name="margin">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
     <number>0</number>
    </property>
    <item>
@@ -36,7 +45,7 @@
       <item>
        <widget class="QRadioButton" name="lookupRadio">
         <property name="text">
-         <string>iTunes ID Lookup</string>
+         <string>Store ID Lookup</string>
         </property>
        </widget>
       </item>
@@ -226,7 +235,16 @@
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
-     <property name="margin">
+     <property name="leftMargin">
+      <number>12</number>
+     </property>
+     <property name="topMargin">
+      <number>12</number>
+     </property>
+     <property name="rightMargin">
+      <number>12</number>
+     </property>
+     <property name="bottomMargin">
       <number>12</number>
      </property>
      <item>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>335</height>
+    <width>588</width>
+    <height>344</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -78,12 +78,13 @@
        </property>
        <property name="minimumSize">
         <size>
-         <width>300</width>
+         <width>400</width>
          <height>0</height>
         </size>
        </property>
        <property name="text">
-        <string>This license is defined by your VPP account. Usage count concerns iOS 7 devices only.</string>
+        <string>This license is defined by your Managed Distribution account.
+Usage count concerns iOS 7+ or OS X 10.9+ devices only.</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
@@ -93,7 +94,7 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="0">
+     <item row="3" column="0">
       <widget class="QLabel" name="label">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
@@ -106,7 +107,7 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
+     <item row="3" column="1">
       <widget class="QLineEdit" name="name">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -134,7 +135,7 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
+     <item row="4" column="0">
       <widget class="QLabel" name="label_5">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
@@ -143,11 +144,11 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>Warning when less than:</string>
+        <string>Warning when:</string>
        </property>
       </widget>
      </item>
-     <item row="2" column="1">
+     <item row="4" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QSpinBox" name="watermark"/>
@@ -161,13 +162,13 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>remain</string>
+          <string>(or less) remain</string>
          </property>
         </widget>
        </item>
       </layout>
      </item>
-     <item row="3" column="0">
+     <item row="5" column="0">
       <widget class="QLabel" name="label_2">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
@@ -180,7 +181,7 @@
        </property>
       </widget>
      </item>
-     <item row="3" column="1">
+     <item row="5" column="1">
       <widget class="QLineEdit" name="count">
        <property name="enabled">
         <bool>false</bool>
@@ -193,17 +194,44 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
-      <widget class="QLabel" name="lastSyncWithApple">
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>Last synchronization with Apple : N/A.</string>
+        <string>Platform:</string>
        </property>
       </widget>
      </item>
-     <item row="5" column="1">
-      <widget class="QLabel" name="last_sync">
+     <item row="6" column="1">
+      <widget class="QLabel" name="platform">
+       <property name="text">
+        <string>iOS</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>VPP token:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="tokenName">
+       <property name="minimumSize">
+        <size>
+         <width>10</width>
+         <height>0</height>
+        </size>
+       </property>
        <property name="text">
         <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLabel" name="lastSyncWithApple">
+       <property name="text">
+        <string>Last synchronization with Apple : N/A.</string>
        </property>
       </widget>
      </item>
@@ -235,10 +263,10 @@
   </layout>
  </widget>
  <tabstops>
-  <tabstop>watermark</tabstop>
   <tabstop>name</tabstop>
-  <tabstop>buttonBox</tabstop>
+  <tabstop>watermark</tabstop>
   <tabstop>count</tabstop>
+  <tabstop>buttonBox</tabstop>
  </tabstops>
  <resources/>
  <connections>

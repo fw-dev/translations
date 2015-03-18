@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Move selected users to...</string>
+   <string>Clone Clients into Same Groups As...</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <property name="spacing">
@@ -212,11 +212,6 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledTreeView</class>
-   <extends>QTreeView</extends>
-   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
-  </customwidget>
-  <customwidget>
    <class>PrettySplitter</class>
    <extends>QSplitter</extends>
    <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
@@ -232,6 +227,11 @@
    <extends>QWidget</extends>
    <header>FWAdminLib/ViewSearchHeader.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

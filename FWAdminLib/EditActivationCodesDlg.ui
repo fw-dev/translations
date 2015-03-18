@@ -65,6 +65,9 @@
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
       <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+       </property>
        <item row="0" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
@@ -134,23 +137,6 @@
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QLabel" name="label_7">
-         <property name="text">
-          <string>Licensed Boosters:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QLabel" name="labelNumberOfBoosters">
-         <property name="text">
-          <string>labelNumberOfBoosters</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
         <widget class="QLabel" name="label_8">
          <property name="text">
           <string>License Expiry Date:</string>
@@ -160,14 +146,14 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="1">
+       <item row="4" column="1">
         <widget class="QLabel" name="labelExpiryDate">
          <property name="text">
           <string>label expiry</string>
          </property>
         </widget>
        </item>
-       <item row="6" column="0">
+       <item row="5" column="0">
         <widget class="QLabel" name="label_9">
          <property name="text">
           <string>Mobile License Expiry Date:</string>
@@ -177,10 +163,24 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="1">
+       <item row="5" column="1">
         <widget class="QLabel" name="labelMovileExpiryDate">
          <property name="text">
           <string>mobile expiry</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="labelAllowUserDataCollection">
+         <property name="text">
+          <string>yes/no</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Allows collection of personal data:</string>
          </property>
         </widget>
        </item>

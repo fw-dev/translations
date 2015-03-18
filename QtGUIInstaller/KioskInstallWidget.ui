@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>822</width>
-    <height>46</height>
+    <width>842</width>
+    <height>72</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -79,6 +79,19 @@
       <number>0</number>
      </property>
      <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <widget class="QLabel" name="titleLabel">
        <property name="sizePolicy">
         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
@@ -127,7 +140,7 @@
        <property name="sizeHint" stdset="0">
         <size>
          <width>20</width>
-         <height>0</height>
+         <height>40</height>
         </size>
        </property>
       </spacer>
@@ -219,6 +232,12 @@ QProgressBar::chunk {
    </item>
    <item>
     <widget class="QLabel" name="statusLabel">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>60</height>
+      </size>
+     </property>
      <property name="font">
       <font>
        <weight>50</weight>
@@ -230,6 +249,9 @@ QProgressBar::chunk {
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -251,7 +273,7 @@ QProgressBar::chunk {
       </size>
      </property>
      <property name="text">
-      <string>Uninstall</string>
+      <string>Some long text</string>
      </property>
     </widget>
    </item>

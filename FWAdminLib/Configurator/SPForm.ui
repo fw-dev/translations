@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>490</width>
-    <height>463</height>
+    <width>603</width>
+    <height>498</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -162,40 +162,63 @@
        <item>
         <widget class="QWidget" name="m_filevaultWidget" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_6">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
           <item>
-           <widget class="QCheckBox" name="m_checkCreatePersonalKey">
-            <property name="text">
-             <string>Create personal recovery key</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="lTipPersonalKey">
-            <property name="text">
-             <string>Create a personal FileVault recovery key</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QCheckBox" name="m_checkUseInstitutionalKey">
+           <widget class="QRadioButton" name="m_radioUseInstitutionalKey">
             <property name="text">
              <string>Use institutional recovery key</string>
             </property>
+            <attribute name="buttonGroup">
+             <string notr="true">m_fileVaultButtonGroup</string>
+            </attribute>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="lTipInstitutionalKey">
+           <widget class="QRadioButton" name="m_radioCreatePersonalKey">
             <property name="text">
-             <string>Enables access to the encrypted disc using the institutional keychain</string>
+             <string>Create personal FileVault recovery key</string>
             </property>
-            <property name="wordWrap">
-             <bool>true</bool>
+            <attribute name="buttonGroup">
+             <string notr="true">m_fileVaultButtonGroup</string>
+            </attribute>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="m_radioInstitutionalAndPersonal">
+            <property name="text">
+             <string>Use an institutional and create personal recovery keys</string>
             </property>
+            <attribute name="buttonGroup">
+             <string notr="true">m_fileVaultButtonGroup</string>
+            </attribute>
            </widget>
           </item>
           <item>
            <widget class="QWidget" name="m_widgetCertificate" native="true">
             <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
              <item>
               <widget class="QLabel" name="label_4">
                <property name="text">
@@ -303,4 +326,7 @@
  </widget>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="m_fileVaultButtonGroup"/>
+ </buttongroups>
 </ui>

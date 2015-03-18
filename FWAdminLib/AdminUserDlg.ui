@@ -21,6 +21,9 @@
        <property name="alternatingRowColors">
         <bool>true</bool>
        </property>
+       <property name="rootIsDecorated">
+        <bool>false</bool>
+       </property>
        <column>
         <property name="text">
          <string>LoginName</string>
@@ -111,13 +114,134 @@
          </property>
         </widget>
        </item>
+       <item>
+        <widget class="QPushButton" name="vppTokenManagementButton">
+         <property name="text">
+          <string>Manage VPP Tokens</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </item>
     </layout>
    </item>
    <item row="0" column="1">
     <layout class="QGridLayout" name="gridLayout_6">
-     <item row="0" column="0" rowspan="7">
+     <item row="4" column="1">
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="title">
+        <string>Associations</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <property name="verticalSpacing">
+         <number>8</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="checkBoxModifyAssociations">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Modify Associations</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QCheckBox" name="approveSoftwareUpdatesCheckbox">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Approve Software Updates</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>185</width>
+         <height>17</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="6" column="1">
+      <widget class="QWidget" name="widget" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>5</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonNone">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Select None</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonAll">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Select All</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="0" rowspan="8">
       <widget class="QGroupBox" name="grpUserDetails">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -268,8 +392,8 @@
        </layout>
       </widget>
      </item>
-     <item row="0" column="1">
-      <widget class="QGroupBox" name="groupBox">
+     <item row="3" column="1">
+      <widget class="QGroupBox" name="groupBox_5">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
          <horstretch>0</horstretch>
@@ -277,49 +401,59 @@
         </sizepolicy>
        </property>
        <property name="title">
-        <string>Server/Model</string>
+        <string>Filesets and Groups</string>
        </property>
-       <layout class="QGridLayout" name="gridLayout_2">
+       <layout class="QGridLayout" name="gridLayout">
         <property name="verticalSpacing">
          <number>8</number>
         </property>
         <item row="0" column="0">
-         <widget class="QCheckBox" name="checkBoxUpdateModel">
+         <widget class="QCheckBox" name="checkBoxModifyFilesets">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Update Model</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QCheckBox" name="checkBoxRevertModel">
-          <property name="enabled">
-           <bool>false</bool>
-          </property>
-          <property name="text">
-           <string>Revert Model</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QCheckBox" name="checkBoxAuditing">
-          <property name="enabled">
-           <bool>false</bool>
-          </property>
-          <property name="text">
-           <string>Auditing</string>
+           <string>Modify Filesets</string>
           </property>
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QCheckBox" name="checkBoxActivationKeys">
+         <widget class="QCheckBox" name="checkBoxExportFilesetTemplate">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Activation Keys</string>
+           <string>Export Fileset/Template</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QCheckBox" name="checkBoxShowFilesetReport">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Show Fileset Report</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QCheckBox" name="checkBoxFilesetsAndGroupsSetPermissions">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Set Permissions</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QCheckBox" name="checkBoxManageVPPCodes">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Manage VPP codes</string>
           </property>
          </widget>
         </item>
@@ -399,8 +533,8 @@
        </layout>
       </widget>
      </item>
-     <item row="3" column="1">
-      <widget class="QGroupBox" name="groupBox_5">
+     <item row="0" column="1">
+      <widget class="QGroupBox" name="groupBox">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
          <horstretch>0</horstretch>
@@ -408,97 +542,49 @@
         </sizepolicy>
        </property>
        <property name="title">
-        <string>Filesets and Groups</string>
+        <string>Server/Model</string>
        </property>
-       <layout class="QGridLayout" name="gridLayout">
+       <layout class="QGridLayout" name="gridLayout_2">
         <property name="verticalSpacing">
          <number>8</number>
         </property>
         <item row="0" column="0">
-         <widget class="QCheckBox" name="checkBoxModifyFilesets">
+         <widget class="QCheckBox" name="checkBoxUpdateModel">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Modify Filesets</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QCheckBox" name="checkBoxExportFilesetTemplate">
-          <property name="enabled">
-           <bool>false</bool>
-          </property>
-          <property name="text">
-           <string>Export Fileset/Template</string>
+           <string>Update Model</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QCheckBox" name="checkBoxShowFilesetReport">
+         <widget class="QCheckBox" name="checkBoxRevertModel">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Show Fileset Report</string>
+           <string>Revert Model</string>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
-         <widget class="QCheckBox" name="checkBoxFilesetsAndGroupsSetPermissions">
+         <widget class="QCheckBox" name="checkBoxAuditing">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Set Permissions</string>
+           <string>Auditing</string>
           </property>
          </widget>
         </item>
-        <item row="1" column="1">
-         <widget class="QCheckBox" name="checkBoxManageVPPCodes">
+        <item row="0" column="1">
+         <widget class="QCheckBox" name="checkBoxActivationKeys">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Manage VPP codes</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-     <item row="4" column="1">
-      <widget class="QGroupBox" name="groupBox_6">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="title">
-        <string>Associations</string>
-       </property>
-       <layout class="QGridLayout" name="gridLayout_5">
-        <property name="verticalSpacing">
-         <number>8</number>
-        </property>
-        <item row="0" column="0">
-         <widget class="QCheckBox" name="checkBoxModifyAssociations">
-          <property name="enabled">
-           <bool>false</bool>
-          </property>
-          <property name="text">
-           <string>Modify Associations</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QCheckBox" name="approveSoftwareUpdatesCheckbox">
-          <property name="enabled">
-           <bool>false</bool>
-          </property>
-          <property name="text">
-           <string>Approve Software Updates</string>
+           <string>Activation Keys</string>
           </property>
          </widget>
         </item>
@@ -506,71 +592,42 @@
       </widget>
      </item>
      <item row="5" column="1">
-      <widget class="QWidget" name="widget" native="true">
+      <widget class="QGroupBox" name="groupBox_7">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <property name="spacing">
-         <number>5</number>
+       <property name="title">
+        <string>DEP</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <property name="verticalSpacing">
+         <number>8</number>
         </property>
-        <property name="margin">
-         <number>0</number>
-        </property>
-        <item>
-         <spacer name="horizontalSpacer">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
-         <widget class="QPushButton" name="buttonNone">
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="editDEPProfilesCheckBox">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Select None</string>
+           <string>Edit Profiles</string>
           </property>
          </widget>
         </item>
-        <item>
-         <widget class="QPushButton" name="buttonAll">
+        <item row="1" column="0">
+         <widget class="QCheckBox" name="assignDEPProfilesCheckBox">
           <property name="enabled">
            <bool>false</bool>
           </property>
           <property name="text">
-           <string>Select All</string>
+           <string>Assign Profiles</string>
           </property>
          </widget>
         </item>
        </layout>
       </widget>
-     </item>
-     <item row="6" column="1">
-      <spacer name="verticalSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Preferred</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>185</width>
-         <height>17</height>
-        </size>
-       </property>
-      </spacer>
      </item>
     </layout>
    </item>

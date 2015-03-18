@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>606</width>
-    <height>860</height>
+    <width>640</width>
+    <height>881</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,17 @@
   <layout class="QVBoxLayout" name="verticalLayout_12">
    <item>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
      <property name="currentIndex">
       <number>0</number>
+     </property>
+     <property name="documentMode">
+      <bool>false</bool>
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
@@ -1043,7 +1052,7 @@
        <item>
         <layout class="QFormLayout" name="formLayout">
          <item row="0" column="0">
-          <widget class="QLabel" name="label_12">
+          <widget class="QLabel" name="airDropLabel">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -1112,7 +1121,7 @@
           <enum>QFormLayout::FieldsStayAtSizeHint</enum>
          </property>
          <item row="0" column="0">
-          <widget class="QLabel" name="label_13">
+          <widget class="QLabel" name="internalDisksLabel">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -1282,7 +1291,7 @@
           <enum>QFormLayout::FieldsStayAtSizeHint</enum>
          </property>
          <item row="0" column="0">
-          <widget class="QLabel" name="label_19">
+          <widget class="QLabel" name="cdromLabel">
            <property name="minimumSize">
             <size>
              <width>150</width>
@@ -1554,6 +1563,98 @@
        </item>
       </layout>
      </widget>
+     <widget class="QWidget" name="desktopTab">
+      <attribute name="title">
+       <string>Desktop</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_24">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_23">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="lockDesktopPicture">
+           <property name="text">
+            <string>Lock desktop picture</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_desktop_locked">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>1</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Prevents user from modifying the desktop picture selection</string>
+           </property>
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <property name="indent">
+            <number>18</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QWidget" name="lockDestopWidget" native="true">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_22">
+          <property name="leftMargin">
+           <number>19</number>
+          </property>
+          <property name="topMargin">
+           <number>12</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Desktop picture path</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_desktop_picture_path">
+            <property name="text">
+             <string>The path of the file to use as the desktop picture. Leave path blank to use the current selection on device</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="overridePicturePath">
+            <property name="placeholderText">
+             <string>optional</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>636</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
   </layout>
@@ -1601,12 +1702,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>299</x>
-     <y>186</y>
+     <x>513</x>
+     <y>179</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>217</y>
+     <y>203</y>
     </hint>
    </hints>
   </connection>
@@ -1617,8 +1718,8 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>339</x>
-     <y>180</y>
+     <x>513</x>
+     <y>179</y>
     </hint>
     <hint type="destinationlabel">
      <x>344</x>
@@ -1634,11 +1735,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>263</y>
+     <y>249</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>287</y>
+     <y>273</y>
     </hint>
    </hints>
   </connection>
@@ -1650,11 +1751,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>263</y>
+     <y>249</y>
     </hint>
     <hint type="destinationlabel">
      <x>355</x>
-     <y>310</y>
+     <y>296</y>
     </hint>
    </hints>
   </connection>
@@ -1666,11 +1767,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>333</y>
+     <y>319</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>357</y>
+     <y>343</y>
     </hint>
    </hints>
   </connection>
@@ -1682,11 +1783,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>333</y>
+     <y>319</y>
     </hint>
     <hint type="destinationlabel">
      <x>355</x>
-     <y>380</y>
+     <y>366</y>
     </hint>
    </hints>
   </connection>
@@ -1698,11 +1799,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>403</y>
+     <y>389</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>427</y>
+     <y>413</y>
     </hint>
    </hints>
   </connection>
@@ -1714,11 +1815,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>403</y>
+     <y>389</y>
     </hint>
     <hint type="destinationlabel">
      <x>355</x>
-     <y>450</y>
+     <y>436</y>
     </hint>
    </hints>
   </connection>
@@ -1730,11 +1831,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>513</x>
-     <y>527</y>
+     <y>506</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>551</y>
+     <y>530</y>
     </hint>
    </hints>
   </connection>
@@ -1746,11 +1847,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>574</y>
+     <y>553</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>598</y>
+     <y>577</y>
     </hint>
    </hints>
   </connection>
@@ -1762,11 +1863,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>323</x>
-     <y>621</y>
+     <y>600</y>
     </hint>
     <hint type="destinationlabel">
      <x>433</x>
-     <y>645</y>
+     <y>624</y>
     </hint>
    </hints>
   </connection>
@@ -1793,12 +1894,28 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>125</x>
-     <y>89</y>
+     <x>140</x>
+     <y>220</y>
     </hint>
     <hint type="destinationlabel">
-     <x>194</x>
-     <y>130</y>
+     <x>209</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lockDesktopPicture</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lockDestopWidget</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>89</y>
     </hint>
    </hints>
   </connection>

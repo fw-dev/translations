@@ -27,7 +27,16 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_2">
-    <property name="margin">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
      <number>0</number>
     </property>
     <item>
@@ -122,9 +131,9 @@
        <property name="currentIndex">
         <number>0</number>
        </property>
-       <widget class="ClientsWidget" name="clientsWidget"/>
+       <widget class="SmartGroupReportTabForClients" name="smartGroupReportTabForClients"/>
        <widget class="FilesetListWidget" name="filesetList"/>
-       <widget class="AssociationMainWidget" name="associations"/>
+       <widget class="SmartGroupReportTabForAssociations" name="smartGroupReportTabForAssociations"/>
        <widget class="IOSInventoryWidget" name="IOSInvWidget"/>
        <widget class="LicenseTabWidget" name="licenseTabWidget"/>
        <widget class="InventoryQueryTab" name="inventoryQueryTab"/>
@@ -165,6 +174,7 @@
     <addaction name="action_Revert_to_Last_Model"/>
     <addaction name="separator"/>
     <addaction name="actionGet_Logfile"/>
+    <addaction name="actionOpen_Logfile_Directory"/>
    </widget>
    <widget class="QMenu" name="menu_Assistants">
     <property name="title">
@@ -180,8 +190,10 @@
     <addaction name="actionEnroll_Mobile_Device"/>
     <addaction name="actionActionOpenAppStoreAssistant"/>
     <addaction name="actionVPP_Code_Management"/>
-    <addaction name="actionManage_VPP_Users"/>
     <addaction name="actionAssign_VPP_Licenses"/>
+    <addaction name="actionManage_VPP_Users"/>
+    <addaction name="actionDEP_Association_Management"/>
+    <addaction name="actionActivation_Lock_Bypass_Code_Management"/>
     <addaction name="separator"/>
     <addaction name="actionManage_Administrators"/>
     <addaction name="actionShow_Locked_Items"/>
@@ -191,7 +203,9 @@
     <addaction name="actionLDAP_Browser"/>
     <addaction name="actionFile_Search"/>
     <addaction name="separator"/>
+    <addaction name="actionUnmanaged_devices"/>
     <addaction name="actionEmail_notifications"/>
+    <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menu_Help">
     <property name="title">
@@ -566,7 +580,7 @@
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Manage VPP Users (iOS 7+)...</string>
+    <string>VPP User Management...</string>
    </property>
    <property name="shortcut">
     <string>Meta+Ctrl+Alt+V</string>
@@ -577,10 +591,39 @@
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Assign VPP Licenses (iOS 7+)…</string>
+    <string>VPP License Management...</string>
    </property>
    <property name="shortcut">
     <string>Meta+Ctrl+Alt+L</string>
+   </property>
+  </action>
+  <action name="actionDEP_Association_Management">
+   <property name="text">
+    <string>DEP Association Management...</string>
+   </property>
+   <property name="toolTip">
+    <string>DEP Association Management</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+D</string>
+   </property>
+  </action>
+  <action name="actionUnmanaged_devices">
+   <property name="text">
+    <string>Unmanaged devices...</string>
+   </property>
+  </action>
+  <action name="actionOpen_Logfile_Directory">
+   <property name="text">
+    <string>Open Logfile Folder</string>
+   </property>
+  </action>
+  <action name="actionActivation_Lock_Bypass_Code_Management">
+   <property name="text">
+    <string>Activation Lock Management...</string>
+   </property>
+   <property name="shortcut">
+    <string>Meta+Shift+A</string>
    </property>
   </action>
  </widget>
@@ -595,12 +638,6 @@
    <class>SideBar</class>
    <extends>QTreeView</extends>
    <header>FileWaveGuiLib/style/SideBar.h</header>
-  </customwidget>
-  <customwidget>
-   <class>ClientsWidget</class>
-   <extends>QWidget</extends>
-   <header>ClientsWidget.h</header>
-   <container>1</container>
   </customwidget>
   <customwidget>
    <class>IOSInventoryWidget</class>
@@ -627,9 +664,15 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>AssociationMainWidget</class>
+   <class>SmartGroupReportTabForClients</class>
    <extends>QWidget</extends>
-   <header>FWAdminLib/AssociationMainWidget.h</header>
+   <header>FWAdminLib/inventory/SmartGroupReportTab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SmartGroupReportTabForAssociations</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/inventory/SmartGroupReportTab.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

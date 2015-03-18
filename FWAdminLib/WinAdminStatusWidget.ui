@@ -104,7 +104,7 @@
          <string>Server Status:</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
         </property>
        </widget>
       </item>
@@ -164,20 +164,13 @@
       <string>License</string>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="0">
-       <widget class="QLabel" name="labelLicenseType">
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelLicensedMob">
         <property name="text">
-         <string>License Type:</string>
+         <string>Licensed Mobiles:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="licenseType">
-        <property name="text">
-         <string/>
         </property>
        </widget>
       </item>
@@ -198,13 +191,20 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="0">
-       <widget class="QLabel" name="labelLicensedMob">
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelLicenseType">
         <property name="text">
-         <string>Licensed Mobiles:</string>
+         <string>License Type:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="licenseType">
+        <property name="text">
+         <string/>
         </property>
        </widget>
       </item>
@@ -233,23 +233,6 @@
        </widget>
       </item>
       <item row="4" column="0">
-       <widget class="QLabel" name="labelNumBoosters">
-        <property name="text">
-         <string>Licensed Boosters:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="1">
-       <widget class="QLabel" name="licensedBoosters">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="0">
        <widget class="QLabel" name="labelExpiryDate">
         <property name="text">
          <string>License Expiry Date:</string>
@@ -259,14 +242,14 @@
         </property>
        </widget>
       </item>
-      <item row="5" column="1">
+      <item row="4" column="1">
        <widget class="QLabel" name="expiry">
         <property name="text">
          <string/>
         </property>
        </widget>
       </item>
-      <item row="6" column="0">
+      <item row="5" column="0">
        <widget class="QLabel" name="labelExpiryDateMobile">
         <property name="text">
          <string>Mobile License Expiry Date:</string>
@@ -276,7 +259,7 @@
         </property>
        </widget>
       </item>
-      <item row="6" column="1">
+      <item row="5" column="1">
        <widget class="QLabel" name="expiryMobile">
         <property name="text">
          <string/>
