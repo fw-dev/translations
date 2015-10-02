@@ -25,7 +25,7 @@
   <property name="maximumSize">
    <size>
     <width>497</width>
-    <height>16777215</height>
+    <height>6777215</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -55,7 +55,17 @@
      </item>
      <item>
       <property name="text">
-       <string>Ethernet (Mac OS X only)</string>
+       <string>Legacy Hotspot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Passpoint</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ethernet (OS X only)</string>
       </property>
      </item>
     </widget>
@@ -76,89 +86,8 @@
        <number>12</number>
       </property>
       <item>
-       <widget class="QLabel" name="lSSID">
-        <property name="text">
-         <string>Service Set Identifier (SSID)</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTipSSID">
-        <property name="text">
-         <string>Identification of the wireless network to connect to</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="editSSID"/>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="checkHiddenNetwork">
-        <property name="text">
-         <string>Hidden Network</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTipHiddenNetwork">
-        <property name="text">
-         <string>Enable if target network is not open or broadcasting</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="checkAutoJoin">
-        <property name="text">
-         <string>Auto Join</string>
-        </property>
-        <property name="checked">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTipAutoJoin">
-        <property name="text">
-         <string>Automatically Join this wireless Network</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lpasspoint">
-        <property name="text">
-         <string>Passpoint</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTipPasspoint">
-        <property name="text">
-         <string>Configures network to appear as a legacy or HotSpot 2.0</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="hotspotComboBox">
-        <item>
-         <property name="text">
-          <string>None</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Legacy HotSpot</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>HotSpot 2.0</string>
-         </property>
-        </item>
-       </widget>
-      </item>
-      <item>
-       <widget class="QWidget" name="WiFiHotspot" native="true">
-        <layout class="QVBoxLayout" name="verticalLayout_15">
+       <widget class="QWidget" name="widgetSSID" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_20">
          <property name="leftMargin">
           <number>0</number>
          </property>
@@ -169,24 +98,59 @@
           <number>0</number>
          </property>
          <property name="bottomMargin">
-          <number>12</number>
+          <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="lOperatorName">
+          <widget class="QLabel" name="lSSID">
            <property name="text">
-            <string>Displayed Operator Name</string>
+            <string>Service Set Identifier (SSID)</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="lTipOperatorName">
+          <widget class="QLabel" name="lTipSSID">
            <property name="text">
-            <string>Name of the WiFi hotspot service provider</string>
+            <string>Identification of the wireless network to connect to</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="DisplayedOperatorName"/>
+          <widget class="QLineEdit" name="editSSID"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetPasspoint" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_19">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="lProviderName">
+           <property name="text">
+            <string>Provider Display Name</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipProviderName">
+           <property name="text">
+            <string>Display name of the Passpoint service provider</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="DisplayedProviderName"/>
          </item>
          <item>
           <widget class="QLabel" name="lDomainName">
@@ -198,7 +162,7 @@
          <item>
           <widget class="QLabel" name="lTipDomainName">
            <property name="text">
-            <string>Name of the Passpoint service provider</string>
+            <string>Domain name of the Passpoint service provider</string>
            </property>
           </widget>
          </item>
@@ -227,6 +191,12 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>6777215</height>
+            </size>
+           </property>
           </widget>
          </item>
          <item>
@@ -254,95 +224,131 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="lMCCAndMNCs">
-           <property name="text">
-            <string>MCC/MNCs</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="lTipMCCAndMNCs">
-           <property name="text">
-            <string>Mobile Country Code and Mobile Network Configuration</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_5">
-           <item>
-            <widget class="QTreeWidget" name="MCCAndMNCs">
-             <property name="columnCount">
-              <number>2</number>
-             </property>
-             <column>
+          <widget class="QWidget" name="WiFiHotspot" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_15">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>12</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="lMCCAndMNCs">
               <property name="text">
-               <string notr="true">1</string>
+               <string>MCC/MNCs</string>
               </property>
-             </column>
-             <column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lTipMCCAndMNCs">
               <property name="text">
-               <string notr="true">2</string>
+               <string>Mobile Country Code and Mobile Network Configuration</string>
               </property>
-             </column>
-            </widget>
-           </item>
-           <item>
-            <spacer name="horizontalSpacer_6">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>350</width>
-               <height>20</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_6">
-           <property name="bottomMargin">
-            <number>12</number>
-           </property>
-           <item>
-            <widget class="QToolButton" name="addMCCAndMNC">
-             <property name="text">
-              <string>+</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QToolButton" name="removeMCCAndMNC">
-             <property name="text">
-              <string>-</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <spacer name="horizontalSpacer_8">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>40</width>
-               <height>20</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </item>
-         <item>
-          <widget class="QCheckBox" name="ServiceProviderRoamingEnabled">
-           <property name="text">
-            <string>Allow connecting to roaming partner Passpoint networks</string>
-           </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QTreeWidget" name="MCCAndMNCs">
+                <property name="columnCount">
+                 <number>2</number>
+                </property>
+                <column>
+                 <property name="text">
+                  <string notr="true">1</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string notr="true">2</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <property name="bottomMargin">
+               <number>12</number>
+              </property>
+              <item>
+               <widget class="QToolButton" name="addMCCAndMNC">
+                <property name="text">
+                 <string>+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QToolButton" name="removeMCCAndMNC">
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_8">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="ServiceProviderRoamingEnabled">
+              <property name="text">
+               <string>Connect to roaming partner Passpoint networks</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </widget>
          </item>
         </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkHiddenNetwork">
+        <property name="text">
+         <string>Hidden Network</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipHiddenNetwork">
+        <property name="text">
+         <string>Enable if target network is not open or broadcasting</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkAutoJoin">
+        <property name="text">
+         <string>Auto Join</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipAutoJoin">
+        <property name="text">
+         <string>Automatically join this wireless Network</string>
+        </property>
        </widget>
       </item>
       <item>
@@ -355,28 +361,12 @@
       <item>
        <widget class="QLabel" name="lTipProxySetup">
         <property name="text">
-         <string>Configure proxies to be used with this network</string>
+         <string>Configure proxy to be used with this network</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboProxySetup">
-        <item>
-         <property name="text">
-          <string>None</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Manual</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Auto</string>
-         </property>
-        </item>
-       </widget>
+       <widget class="QComboBox" name="comboProxySetup"/>
       </item>
       <item>
        <widget class="QWidget" name="widgetProxyAutomatic" native="true">
@@ -421,6 +411,9 @@
            <property name="text">
             <string>PAC Fallback</string>
            </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
           </widget>
          </item>
          <item>
@@ -451,7 +444,7 @@
          <item>
           <widget class="QLabel" name="lServerAndPort">
            <property name="text">
-            <string>Server and Port</string>
+            <string>Proxy Server and Port</string>
            </property>
           </widget>
          </item>
@@ -526,7 +519,7 @@
          <item>
           <widget class="QLabel" name="lTipProxyPassword">
            <property name="text">
-            <string>Password used to authenticate to the proxy</string>
+            <string>Password used to authenticate with the proxy</string>
            </property>
           </widget>
          </item>
@@ -618,7 +611,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QCheckBox" name="checkLoginWindow">
+       <widget class="QCheckBox" name="checkUseAsALoginWindowConfiguration">
         <property name="text">
          <string>Use as a Login Window configuration (OS X only)</string>
         </property>
@@ -627,7 +620,7 @@
       <item>
        <widget class="QLabel" name="lTipLoginWindow">
         <property name="text">
-         <string>User logs in to authenticate the Mac to the Network</string>
+         <string>User logs in to authenticate the Mac to the network</string>
         </property>
        </widget>
       </item>
@@ -641,7 +634,7 @@
       <item>
        <widget class="QLabel" name="lTipNetworkSettings">
         <property name="text">
-         <string>Configuration settings for 802.1x network authentication</string>
+         <string>Configuration settings for 802.1X network authentication</string>
         </property>
        </widget>
       </item>
@@ -768,47 +761,6 @@
            </widget>
           </item>
           <item>
-           <widget class="QWidget" name="widgetIdentityCertificate" native="true">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>0</height>
-             </size>
-            </property>
-            <layout class="QVBoxLayout" name="verticalLayout_13">
-             <property name="leftMargin">
-              <number>0</number>
-             </property>
-             <property name="topMargin">
-              <number>0</number>
-             </property>
-             <property name="rightMargin">
-              <number>0</number>
-             </property>
-             <property name="bottomMargin">
-              <number>0</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="lIdentityCertificate">
-               <property name="text">
-                <string>Identity Certificate</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="lTipIdentityCertificate">
-               <property name="text">
-                <string>Credentials for connection to wireless network</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QComboBox" name="comboIdentityCertificate"/>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
            <widget class="QWidget" name="widgetEAPFAST" native="true">
             <property name="minimumSize">
              <size>
@@ -905,7 +857,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QWidget" name="widgetUseDirectory" native="true">
+           <widget class="QWidget" name="widgetUseTwoFactorAuthentication" native="true">
             <layout class="QVBoxLayout" name="verticalLayout_17">
              <property name="leftMargin">
               <number>0</number>
@@ -920,16 +872,9 @@
               <number>12</number>
              </property>
              <item>
-              <widget class="QCheckBox" name="checkUseDirectory">
+              <widget class="QCheckBox" name="checkUseTwoFactorAuthentication">
                <property name="text">
-                <string>Use Directory Authentication</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="lTipUseDirectory">
-               <property name="text">
-                <string>Authenticate with the target machine's directory credentials</string>
+                <string>Use Two Factor Authentication</string>
                </property>
               </widget>
              </item>
@@ -967,12 +912,19 @@
              <item>
               <widget class="QLabel" name="lTipEAPUsername">
                <property name="text">
-                <string>Username for connection to wireless network</string>
+                <string>Username for connection to the network</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QLineEdit" name="editEAPUsername"/>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkPerConnection">
+               <property name="text">
+                <string>Use Per-Connection Password</string>
+               </property>
+              </widget>
              </item>
              <item>
               <widget class="QWidget" name="passwordFields" native="true">
@@ -989,20 +941,6 @@
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <item>
-                 <widget class="QCheckBox" name="checkPerConnection">
-                  <property name="text">
-                   <string>User Per-Connection Password</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QLabel" name="lTipPerConnection">
-                  <property name="text">
-                   <string>Request during connection and send with authentication</string>
-                  </property>
-                 </widget>
-                </item>
                 <item>
                  <widget class="QLabel" name="lEAPPassword">
                   <property name="text">
@@ -1026,6 +964,47 @@
                 </item>
                </layout>
               </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetIdentityCertificate" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_13">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="lIdentityCertificate">
+               <property name="text">
+                <string>Identity Certificate</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipIdentityCertificate">
+               <property name="text">
+                <string>Credentials for connection to the network</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboIdentityCertificate"/>
              </item>
             </layout>
            </widget>
@@ -1070,28 +1049,8 @@
                <item>
                 <widget class="QComboBox" name="comboInnerAuthentication">
                  <property name="currentIndex">
-                  <number>3</number>
+                  <number>-1</number>
                  </property>
-                 <item>
-                  <property name="text">
-                   <string>PAP</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>CHAP</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>MSCHAP</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>MSCHAPv2</string>
-                  </property>
-                 </item>
                 </widget>
                </item>
                <item>

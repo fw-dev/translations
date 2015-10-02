@@ -7,13 +7,53 @@
     <x>0</x>
     <y>0</y>
     <width>656</width>
-    <height>575</height>
+    <height>930</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="labelDirectoryType">
+     <property name="text">
+      <string>Directory Type</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDirectoryType">
+     <property name="text">
+      <string>The type of directory server configured with this policy</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBoxDirectoryType">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+     <item>
+      <property name="text">
+       <string>Active Directory</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Open Directory/LDAP</string>
+      </property>
+     </item>
+    </widget>
+   </item>
    <item>
     <widget class="QLabel" name="hostnameTitle">
      <property name="text">
@@ -103,6 +143,398 @@
     </widget>
    </item>
    <item>
+    <widget class="QWidget" name="widgetActiveDirectory" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelOrganizationalUnit">
+        <property name="text">
+         <string>Organizational Unit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipOrganizationalUnit">
+        <property name="text">
+         <string>The directory server organizational unit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="organizationalUnitEdit"/>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tabUserExperience">
+         <attribute name="title">
+          <string>User Experience</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QCheckBox" name="checkBoxCreateMobileAccount">
+            <property name="text">
+             <string>Create mobile account at login</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetRequireConfirmation" native="true">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="leftMargin">
+              <number>18</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="checkBoxRequireConfirmation">
+               <property name="text">
+                <string>Require confirmation before creating mobile account</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxForceLocalHomeDirectory">
+            <property name="text">
+             <string>Force local home directory on startup disk</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxUseUNCPath">
+            <property name="text">
+             <string>Use UNC path from Active Directory to derive network home location</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetMountStyle" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="labelMountStyle">
+               <property name="text">
+                <string>Mount Style</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipNetworkProtocol">
+               <property name="text">
+                <string>Network protocol to be used to mount home directory</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBoxMountStyle">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>afp</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>smb</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelDefaultUserShell">
+            <property name="text">
+             <string>Default user shell</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="defaultUserShellEdit">
+            <property name="text">
+             <string>/bin/bash</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tabMappings">
+         <attribute name="title">
+          <string>Mappings</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="labelMapUID">
+            <property name="text">
+             <string>Map UID to attribute</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="mapUIDEdit"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelMapUser">
+            <property name="text">
+             <string>Map user GID to attribute</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="mapUserEdit"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelMapGroup">
+            <property name="text">
+             <string>Map group GID to attribute</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="mapGroupEdit"/>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Administrative</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="labelPreferredDomainServer">
+            <property name="text">
+             <string>Preferred domain server</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="preferredDomainServerEdit"/>
+          </item>
+          <item>
+           <widget class="ItemListWidget" name="widgetAllowAdministration" native="true"/>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxAllowAuthentication">
+            <property name="text">
+             <string>Allow authentication from any domain in the forest</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelNamespace">
+            <property name="text">
+             <string>Namespace</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBoxNamespace">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>forest</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>domain</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelPacketSigning">
+            <property name="text">
+             <string>Packet signing</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBoxPacketSigning">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <item>
+             <property name="text">
+              <string>allow</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>disable</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>require</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelPacketEncryption">
+            <property name="text">
+             <string>Packet encryption</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBoxPacketEncryption">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <item>
+             <property name="text">
+              <string>allow</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>disable</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>require</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ssl</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="ItemListWidget" name="widgetRestrictDDNS" native="true"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelPasswordTrustInterval">
+            <property name="text">
+             <string>Password trust interval</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipPasswordTrust">
+            <property name="text">
+             <string>How often to change computer trust account password in days</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="passwordTrustIntervalEdit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>14</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -117,6 +549,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ItemListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

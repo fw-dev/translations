@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>309</height>
+    <width>735</width>
+    <height>310</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -229,6 +229,9 @@
      </property>
      <item>
       <widget class="QPushButton" name="wipe">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Set Wipe Flag</string>
        </property>
@@ -249,6 +252,29 @@
         </size>
        </property>
       </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="findMyMacPINlbl">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Find My Mac PIN: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="findMyMacPIN">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="inputMask">
+        <string>999999</string>
+       </property>
+       <property name="text">
+        <string>123456</string>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QCheckBox" name="removeAL">

@@ -309,6 +309,13 @@
            </widget>
           </item>
           <item>
+           <widget class="QCheckBox" name="checkBoxUseMsiUninstaller">
+            <property name="text">
+             <string>Use MSI uninstaller</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <spacer name="verticalSpacer_4">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
@@ -508,17 +515,122 @@
                </item>
                <item row="1" column="0">
                 <layout class="QGridLayout" name="gridLayout_4">
-                 <item row="4" column="0">
-                  <widget class="QCheckBox" name="checkBox106x">
+                 <item row="7" column="0">
+                  <widget class="QCheckBox" name="checkBox109x">
                    <property name="text">
-                    <string>10.6.x</string>
+                    <string>10.9.x</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="0" column="3">
-                  <widget class="QCheckBox" name="checkBoxFutureCompatibility">
+                 <item row="1" column="2">
+                  <widget class="QCheckBox" name="checkBoxAPI16">
                    <property name="text">
-                    <string>Use/install on newer OS versions</string>
+                    <string>4.1</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="8" column="0">
+                  <widget class="QCheckBox" name="checkBox1010x">
+                   <property name="text">
+                    <string>10.10.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="1">
+                  <widget class="QCheckBox" name="checkBox81">
+                   <property name="text">
+                    <string>8.1</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLabel" name="androidLabel">
+                   <property name="text">
+                    <string>Android</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QCheckBox" name="checkBox103x">
+                   <property name="text">
+                    <string>10.3.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="2">
+                  <widget class="QCheckBox" name="checkBoxAPI19">
+                   <property name="text">
+                    <string>4.4</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="1">
+                  <widget class="QCheckBox" name="checkBox8">
+                   <property name="text">
+                    <string>8</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="2">
+                  <widget class="QCheckBox" name="checkBoxAPI17">
+                   <property name="text">
+                    <string>4.2</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="6" column="0">
+                  <widget class="QCheckBox" name="checkBox108x">
+                   <property name="text">
+                    <string>10.8.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="1">
+                  <widget class="QCheckBox" name="checkBox7">
+                   <property name="text">
+                    <string>7</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QCheckBox" name="checkBoxXP">
+                   <property name="text">
+                    <string>XP</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLabel" name="windowsLabel">
+                   <property name="text">
+                    <string>Windows</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QCheckBox" name="checkBox104x">
+                   <property name="text">
+                    <string>10.4.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="0">
+                  <widget class="QCheckBox" name="checkBox105x">
+                   <property name="text">
+                    <string>10.5.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="0">
+                  <widget class="QCheckBox" name="checkBox107x">
+                   <property name="text">
+                    <string>10.7.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QCheckBox" name="checkBoxVista">
+                   <property name="text">
+                    <string>Vista</string>
                    </property>
                   </widget>
                  </item>
@@ -536,122 +648,45 @@
                    </property>
                   </widget>
                  </item>
-                 <item row="2" column="1">
-                  <widget class="QCheckBox" name="checkBoxVista">
+                 <item row="0" column="3">
+                  <widget class="QCheckBox" name="checkBoxFutureCompatibility">
                    <property name="text">
-                    <string>Vista</string>
+                    <string>Use/install on newer OS versions</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="5" column="0">
-                  <widget class="QCheckBox" name="checkBox107x">
+                 <item row="4" column="0">
+                  <widget class="QCheckBox" name="checkBox106x">
                    <property name="text">
-                    <string>10.7.x</string>
+                    <string>10.6.x</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="3" column="0">
-                  <widget class="QCheckBox" name="checkBox105x">
+                 <item row="9" column="0">
+                  <widget class="QCheckBox" name="checkBox1011x">
                    <property name="text">
-                    <string>10.5.x</string>
+                    <string>10.11.x</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="0" column="1">
-                  <widget class="QLabel" name="windowsLabel">
+                 <item row="6" column="1">
+                  <widget class="QCheckBox" name="checkBox100">
                    <property name="text">
-                    <string>Windows</string>
+                    <string>10.0</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="1" column="1">
-                  <widget class="QCheckBox" name="checkBoxXP">
+                 <item row="5" column="2">
+                  <widget class="QCheckBox" name="checkBoxAPI21">
                    <property name="text">
-                    <string>XP</string>
+                    <string>5.0</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="2" column="0">
-                  <widget class="QCheckBox" name="checkBox104x">
+                 <item row="6" column="2">
+                  <widget class="QCheckBox" name="checkBoxAPI22">
                    <property name="text">
-                    <string>10.4.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="6" column="0">
-                  <widget class="QCheckBox" name="checkBox108x">
-                   <property name="text">
-                    <string>10.8.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="4" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI19">
-                   <property name="text">
-                    <string>4.4</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="3" column="1">
-                  <widget class="QCheckBox" name="checkBox7">
-                   <property name="text">
-                    <string>7</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="2" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI17">
-                   <property name="text">
-                    <string>4.2</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="0">
-                  <widget class="QCheckBox" name="checkBox103x">
-                   <property name="text">
-                    <string>10.3.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="4" column="1">
-                  <widget class="QCheckBox" name="checkBox8">
-                   <property name="text">
-                    <string>8</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="2">
-                  <widget class="QLabel" name="androidLabel">
-                   <property name="text">
-                    <string>Android</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI16">
-                   <property name="text">
-                    <string>4.1</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="7" column="0">
-                  <widget class="QCheckBox" name="checkBox109x">
-                   <property name="text">
-                    <string>10.9.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="8" column="0">
-                  <widget class="QCheckBox" name="checkBox1010x">
-                   <property name="text">
-                    <string>10.10.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="5" column="1">
-                  <widget class="QCheckBox" name="checkBox81">
-                   <property name="text">
-                    <string>8.1</string>
+                    <string>5.1</string>
                    </property>
                   </widget>
                  </item>
@@ -772,11 +807,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tabImaging">
+     <widget class="QWidget" name="dependenciesTab">
       <attribute name="title">
-       <string>Imaging</string>
+       <string>Dependencies</string>
       </attribute>
-      <layout class="QGridLayout" name="gridLayout_2">
+      <layout class="QVBoxLayout" name="verticalLayout_7">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -789,129 +824,8 @@
        <property name="bottomMargin">
         <number>0</number>
        </property>
-       <item row="0" column="0">
-        <widget class="QWidget" name="imagingEDWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout_7">
-          <item>
-           <widget class="QCheckBox" name="checkBoxImageFileset">
-            <property name="text">
-             <string>Make this Fileset an image Fileset</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QCheckBox" name="checkBoxIgnorePaths">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="text">
-             <string>Ignore the paths below upon erasure</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="StyledTreeView" name="treeViewIgnorePaths">
-            <property name="enabled">
-             <bool>false</bool>
-            </property>
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-              <horstretch>7</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="alternatingRowColors">
-             <bool>true</bool>
-            </property>
-            <property name="selectionMode">
-             <enum>QAbstractItemView::ExtendedSelection</enum>
-            </property>
-            <property name="rootIsDecorated">
-             <bool>false</bool>
-            </property>
-            <property name="headerHidden">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
-            <item>
-             <widget class="QToolButton" name="buttonAddPath">
-              <property name="enabled">
-               <bool>false</bool>
-              </property>
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>25</width>
-                <height>25</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>25</width>
-                <height>25</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>+</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QToolButton" name="buttonRemovePath">
-              <property name="enabled">
-               <bool>false</bool>
-              </property>
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
-              <property name="minimumSize">
-               <size>
-                <width>25</width>
-                <height>25</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>25</width>
-                <height>25</height>
-               </size>
-              </property>
-              <property name="text">
-               <string>-</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer_3">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::MinimumExpanding</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-           </layout>
-          </item>
-         </layout>
-        </widget>
+       <item>
+        <widget class="FilesetDependenciesWidget" name="dependenciesWidget" native="true"/>
        </item>
       </layout>
      </widget>
@@ -1382,7 +1296,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPlainTextEdit" name="description"/>
+           <widget class="RichTextEditor" name="description" native="true"/>
           </item>
          </layout>
         </widget>
@@ -1445,6 +1359,18 @@
    <header>FileWaveGuiLib/RatingWidget.h</header>
    <container>1</container>
   </customwidget>
+  <customwidget>
+   <class>FilesetDependenciesWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/FilesetDependenciesWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RichTextEditor</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/RichTextEditor.h</header>
+   <container>1</container>
+  </customwidget>
  </customwidgets>
  <tabstops>
   <tabstop>buttonBox</tabstop>
@@ -1454,22 +1380,6 @@
   <include location="../FileWaveGuiLib/GuiLib.qrc"/>
  </resources>
  <connections>
-  <connection>
-   <sender>checkBoxIgnorePaths</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>buttonAddPath</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>288</x>
-     <y>117</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>33</x>
-     <y>164</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>checkBoxDelete</sender>
    <signal>toggled(bool)</signal>
@@ -1487,22 +1397,6 @@
    </hints>
   </connection>
   <connection>
-   <sender>checkBoxIgnorePaths</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>treeViewIgnorePaths</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>288</x>
-     <y>117</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>288</x>
-     <y>321</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>checkBoxDelete</sender>
    <signal>toggled(bool)</signal>
    <receiver>buttonAddDeletePath</receiver>
@@ -1515,22 +1409,6 @@
     <hint type="destinationlabel">
      <x>34</x>
      <y>127</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>checkBoxImageFileset</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>checkBoxIgnorePaths</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>60</x>
-     <y>72</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>60</x>
-     <y>72</y>
     </hint>
    </hints>
   </connection>

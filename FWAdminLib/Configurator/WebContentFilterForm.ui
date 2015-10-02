@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>476</width>
-    <height>670</height>
+    <height>714</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -410,6 +410,26 @@
        </item>
        <item>
         <widget class="QComboBox" name="certificate"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="filterWebKitTraffic">
+         <property name="text">
+          <string>Filter WebKit Traffic</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="filterSocketTraffic">
+         <property name="text">
+          <string>Filter Socket Traffic</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="PListEditor" name="customData" native="true"/>

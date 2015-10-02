@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>603</width>
+    <width>627</width>
     <height>498</height>
    </rect>
   </property>
@@ -15,7 +15,10 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="leftMargin">
-    <number>12</number>
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
    </property>
    <item>
     <widget class="QTabWidget" name="tabWidget">
@@ -27,6 +30,12 @@
        <string>General (OS X Only)</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="leftMargin">
+        <number>5</number>
+       </property>
+       <property name="rightMargin">
+        <number>5</number>
+       </property>
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
@@ -83,44 +92,104 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowChangePasswordCb">
-         <property name="text">
-          <string>Allow user to change password</string>
+        <layout class="QVBoxLayout" name="verticalLayoutForCheckBoxes">
+         <property name="spacing">
+          <number>3</number>
          </property>
-         <property name="checked">
-          <bool>true</bool>
+         <property name="leftMargin">
+          <number>0</number>
          </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="requirePasswordAfterSleepCb">
-         <property name="text">
-          <string>Require password after sleep or screen saver begins</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowLockMessageCb">
-         <property name="text">
-          <string>Allow user to set lock message</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="disableAutomaticLoginCb">
-         <property name="text">
-          <string>Disable automatic login</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutAllowChangePassword">
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QCheckBox" name="allowChangePasswordCb">
+             <property name="text">
+              <string>Allow user to change password</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="spacing">
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QCheckBox" name="requirePasswordAfterSleepCb">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>Require password</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="comboBoxRequirePasswordDelay"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="afterSleepLabel">
+             <property name="text">
+              <string>after sleep or screen saver begins</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutAllowLockMessage">
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QCheckBox" name="allowLockMessageCb">
+             <property name="text">
+              <string>Allow user to set lock message</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutDisableAutomaticLogin">
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <item>
+            <widget class="QCheckBox" name="disableAutomaticLoginCb">
+             <property name="text">
+              <string>Disable automatic login</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
        </item>
        <item>
         <spacer name="verticalSpacer_2">

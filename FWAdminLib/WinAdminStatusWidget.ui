@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>541</width>
-    <height>545</height>
+    <height>562</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -164,47 +164,13 @@
       <string>License</string>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="2" column="0">
-       <widget class="QLabel" name="labelLicensedMob">
+      <item row="5" column="0">
+       <widget class="QLabel" name="labelExpiryDateMobile">
         <property name="text">
-         <string>Licensed Mobiles:</string>
+         <string>Mobile License Expiry Date:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QLabel" name="labelLicensedClients">
-        <property name="text">
-         <string>Licensed Clients:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QLabel" name="licensedClients">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="labelLicenseType">
-        <property name="text">
-         <string>License Type:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="licenseType">
-        <property name="text">
-         <string/>
         </property>
        </widget>
       </item>
@@ -212,23 +178,6 @@
        <widget class="QLabel" name="licensedMobiles">
         <property name="text">
          <string/>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <widget class="QLabel" name="labelLicensedAdmins">
-        <property name="text">
-         <string>Licensed Admins:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QLabel" name="licensedAdmins">
-        <property name="text">
-         <string>&lt;admins&gt;</string>
         </property>
        </widget>
       </item>
@@ -242,6 +191,30 @@
         </property>
        </widget>
       </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="engageEnabled">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="licensedAdmins">
+        <property name="text">
+         <string>&lt;admins&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelLicenseType">
+        <property name="text">
+         <string>License Type:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
       <item row="4" column="1">
        <widget class="QLabel" name="expiry">
         <property name="text">
@@ -249,18 +222,79 @@
         </property>
        </widget>
       </item>
-      <item row="5" column="0">
-       <widget class="QLabel" name="labelExpiryDateMobile">
+      <item row="6" column="0">
+       <widget class="QLabel" name="labelEngageProductEnabled">
         <property name="text">
-         <string>Mobile License Expiry Date:</string>
+         <string>Engage Enabled:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
         </property>
        </widget>
       </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labelLicensedAdmins">
+        <property name="text">
+         <string>Licensed Admins:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="licensedClients">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelLicensedMob">
+        <property name="text">
+         <string>Licensed Mobiles:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="licenseType">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
       <item row="5" column="1">
        <widget class="QLabel" name="expiryMobile">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelLicensedClients">
+        <property name="text">
+         <string>Licensed Clients:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="labelEngageProductEnabled_2">
+        <property name="text">
+         <string>Clever Integration:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLabel" name="cleverEnabledFromDate">
         <property name="text">
          <string/>
         </property>

@@ -446,6 +446,9 @@
            <property name="focusPolicy">
             <enum>Qt::NoFocus</enum>
            </property>
+           <property name="toolTip">
+            <string>Create a fileset based on Android application package</string>
+           </property>
            <property name="text">
             <string/>
            </property>

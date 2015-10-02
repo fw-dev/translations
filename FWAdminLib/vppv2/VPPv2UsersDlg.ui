@@ -48,6 +48,12 @@
    <item>
     <widget class="QWidget" name="VPPMainWidget" native="true">
      <layout class="QFormLayout" name="formLayout">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+      </property>
+      <property name="formAlignment">
+       <set>Qt::AlignHCenter|Qt::AlignTop</set>
+      </property>
       <property name="leftMargin">
        <number>0</number>
       </property>
@@ -584,7 +590,7 @@
   <customwidget>
    <class>ViewSearchHeader</class>
    <extends>QWidget</extends>
-   <header>FWAdminLib/ViewSearchHeader.h</header>
+   <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

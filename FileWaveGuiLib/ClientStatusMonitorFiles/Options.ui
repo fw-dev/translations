@@ -139,8 +139,58 @@
      </property>
     </widget>
    </item>
+   <item row="7" column="1">
+    <widget class="QCheckBox" name="vncPromptClient">
+     <property name="toolTip">
+      <string>Prompt client when administrator requests control of screen.</string>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="tristate">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="vncPromptClientLA">
+     <property name="text">
+      <string>Prompt for screen control:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="vncManagedLA">
+     <property name="text">
+      <string>Managed remote control:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QCheckBox" name="vncManaged">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>opDebugLevelSB</tabstop>
+  <tabstop>opFileChkIntervalSB</tabstop>
+  <tabstop>freeSpaceSB</tabstop>
+  <tabstop>opPasswordED</tabstop>
+  <tabstop>opPassword2ED</tabstop>
+  <tabstop>opPrioritySB</tabstop>
+  <tabstop>vncManaged</tabstop>
+  <tabstop>vncPromptClient</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

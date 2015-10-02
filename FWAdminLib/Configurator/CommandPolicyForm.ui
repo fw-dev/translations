@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CommandPolicyForm</class>
+ <widget class="QWidget" name="CommandPolicyForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Voice Roaming (iPhone devices only)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTip_label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The voice roaming setting is only available on certain carriers.&lt;br/&gt;Disabling voice roaming also disables data roaming.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cbVoiceRoaming">
+     <item>
+      <property name="text">
+       <string>Don't change Voice Roaming</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Enable Voice Roaming</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Disable Voice Roaming</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Data Roaming</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTip_label_3">
+     <property name="text">
+      <string>Enabling data roaming also enables voice roaming.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cbDataRoaming">
+     <item>
+      <property name="text">
+       <string>Don't change Data Roaming</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Enable Data Roaming</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Disable Data Roaming</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>594</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

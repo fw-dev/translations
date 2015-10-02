@@ -81,11 +81,23 @@
             <height>0</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Helvetica Neue</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
           <property name="focusPolicy">
            <enum>Qt::NoFocus</enum>
           </property>
           <property name="frameShape">
            <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>0</number>
           </property>
           <property name="verticalScrollBarPolicy">
            <enum>Qt::ScrollBarAsNeeded</enum>
@@ -112,8 +124,11 @@
            <bool>false</bool>
           </property>
           <property name="headerHidden">
-           <bool>true</bool>
+           <bool>false</bool>
           </property>
+          <attribute name="headerVisible">
+           <bool>false</bool>
+          </attribute>
          </widget>
         </item>
        </layout>
@@ -131,9 +146,11 @@
        <property name="currentIndex">
         <number>0</number>
        </property>
+       <widget class="DashboardContainer" name="dashboardContainer"/>
        <widget class="SmartGroupReportTabForClients" name="smartGroupReportTabForClients"/>
        <widget class="FilesetListWidget" name="filesetList"/>
        <widget class="SmartGroupReportTabForAssociations" name="smartGroupReportTabForAssociations"/>
+       <widget class="ImagingWidget" name="imagingWidget"/>
        <widget class="IOSInventoryWidget" name="IOSInvWidget"/>
        <widget class="LicenseTabWidget" name="licenseTabWidget"/>
        <widget class="InventoryQueryTab" name="inventoryQueryTab"/>
@@ -190,7 +207,6 @@
     <addaction name="actionEnroll_Mobile_Device"/>
     <addaction name="actionActionOpenAppStoreAssistant"/>
     <addaction name="actionVPP_Code_Management"/>
-    <addaction name="actionAssign_VPP_Licenses"/>
     <addaction name="actionManage_VPP_Users"/>
     <addaction name="actionDEP_Association_Management"/>
     <addaction name="actionActivation_Lock_Bypass_Code_Management"/>
@@ -499,6 +515,9 @@
    <property name="shortcut">
     <string>Ctrl+E</string>
    </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
   </action>
   <action name="actionClose_All">
    <property name="text">
@@ -586,17 +605,6 @@
     <string>Meta+Ctrl+Alt+V</string>
    </property>
   </action>
-  <action name="actionAssign_VPP_Licenses">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <property name="text">
-    <string>VPP License Management...</string>
-   </property>
-   <property name="shortcut">
-    <string>Meta+Ctrl+Alt+L</string>
-   </property>
-  </action>
   <action name="actionDEP_Association_Management">
    <property name="text">
     <string>DEP Association Management...</string>
@@ -673,6 +681,18 @@
    <class>SmartGroupReportTabForAssociations</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/inventory/SmartGroupReportTab.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DashboardContainer</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/DashboardContainer.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ImagingWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ImagingWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

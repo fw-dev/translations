@@ -7,35 +7,70 @@
     <x>0</x>
     <y>0</y>
     <width>485</width>
-    <height>1203</height>
+    <height>1213</height>
    </rect>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
-   <item row="15" column="0">
-    <widget class="QLabel" name="lTipAllowRecentAddressesSynced">
-     <property name="text">
-      <string>Recent Addresses will be synced</string>
-     </property>
-    </widget>
+   <item row="8" column="0">
+    <widget class="QLineEdit" name="editUserDisplayName"/>
    </item>
-   <item row="0" column="0">
-    <widget class="QLabel" name="lAccountDescription">
-     <property name="text">
-      <string>Account Description</string>
+   <item row="5" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <property name="spacing">
+      <number>0</number>
      </property>
-    </widget>
+     <item>
+      <widget class="QComboBox" name="comboAccountType">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="spacerWidetAccountType" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>1</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lTipPathPrefix">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Path Prefix: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="editPathPrefix">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>100</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
-   <item row="17" column="0">
-    <widget class="QLabel" name="lTipUseOnlyInMail">
+   <item row="14" column="0">
+    <widget class="QCheckBox" name="checkAllowRecentAddressesSynced">
      <property name="text">
-      <string>Send outgoing mail from this account only from Mail app</string>
+      <string>Allow recent addresses to be synced</string>
      </property>
-    </widget>
-   </item>
-   <item row="6" column="0">
-    <widget class="QLabel" name="lUserDisplayName">
-     <property name="text">
-      <string>User Display Name</string>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -46,17 +81,7 @@
      </property>
     </widget>
    </item>
-   <item row="8" column="0">
-    <widget class="QLineEdit" name="editUserDisplayName"/>
-   </item>
-   <item row="1" column="0">
-    <widget class="QLabel" name="lTipAccountDescription">
-     <property name="text">
-      <string>The displayname of the account (eg. &quot;Company mail account&quot;)</string>
-     </property>
-    </widget>
-   </item>
-   <item row="22" column="0">
+   <item row="24" column="0">
     <widget class="QWidget" name="certificateOptions" native="true">
      <layout class="QGridLayout" name="gridLayout_6">
       <property name="leftMargin">
@@ -122,7 +147,77 @@
      </layout>
     </widget>
    </item>
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="editEmailAddress">
+     <property name="placeholderText">
+      <string>[set on device]</string>
+     </property>
+    </widget>
+   </item>
    <item row="23" column="0">
+    <widget class="QLabel" name="lTipEnableSMime">
+     <property name="text">
+      <string>Support S/MIME for this account</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="lTipEmailAddress">
+     <property name="text">
+      <string>The address of the account (eg. &quot;john@company.com&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="lTipAllowRecentAddressesSynced">
+     <property name="text">
+      <string>Recent Addresses will be synced</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="lUserDisplayName">
+     <property name="text">
+      <string>User Display Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipAccountDescription">
+     <property name="text">
+      <string>The displayname of the account (eg. &quot;Company mail account&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="0">
+    <widget class="QLabel" name="lTipUseOnlyInMail">
+     <property name="text">
+      <string>Send outgoing mail from this account only from Mail app</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="0">
+    <widget class="QCheckBox" name="checkEnableSMIME">
+     <property name="text">
+      <string>Enable S/MIME</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="lTipDoNotAllowUserMoveMessages">
+     <property name="text">
+      <string>Messages can be moved from this account to another</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lAccountType">
+     <property name="text">
+      <string>Account Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="0">
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
       <number>0</number>
@@ -529,20 +624,6 @@
      </widget>
     </widget>
    </item>
-   <item row="10" column="0">
-    <widget class="QLabel" name="lTipEmailAddress">
-     <property name="text">
-      <string>The address of the account (eg. &quot;john@company.com&quot;)</string>
-     </property>
-    </widget>
-   </item>
-   <item row="11" column="0">
-    <widget class="QLineEdit" name="editEmailAddress">
-     <property name="placeholderText">
-      <string>[set on device]</string>
-     </property>
-    </widget>
-   </item>
    <item row="12" column="0">
     <widget class="QCheckBox" name="checkAllowUserMoveMessages">
      <property name="text">
@@ -553,6 +634,20 @@
      </property>
     </widget>
    </item>
+   <item row="16" column="0">
+    <widget class="QCheckBox" name="checkAllowMailDrop">
+     <property name="text">
+      <string>Allow Mail Drop</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="lAccountDescription">
+     <property name="text">
+      <string>Account Description</string>
+     </property>
+    </widget>
+   </item>
    <item row="9" column="0">
     <widget class="QLabel" name="lEmailAddress">
      <property name="text">
@@ -560,24 +655,10 @@
      </property>
     </widget>
    </item>
-   <item row="20" column="0">
-    <widget class="QCheckBox" name="checkEnableSMIME">
+   <item row="18" column="0">
+    <widget class="QCheckBox" name="checkUseOnlyInMail">
      <property name="text">
-      <string>Enable S/MIME</string>
-     </property>
-    </widget>
-   </item>
-   <item row="21" column="0">
-    <widget class="QLabel" name="lTipEnableSMime">
-     <property name="text">
-      <string>Support S/MIME for this account</string>
-     </property>
-    </widget>
-   </item>
-   <item row="3" column="0">
-    <widget class="QLabel" name="lAccountType">
-     <property name="text">
-      <string>Account Type</string>
+      <string>Use only in Mail</string>
      </property>
     </widget>
    </item>
@@ -588,20 +669,6 @@
      </property>
     </widget>
    </item>
-   <item row="16" column="0">
-    <widget class="QCheckBox" name="checkUseOnlyInMail">
-     <property name="text">
-      <string>Use only in Mail</string>
-     </property>
-    </widget>
-   </item>
-   <item row="13" column="0">
-    <widget class="QLabel" name="lTipDoNotAllowUserMoveMessages">
-     <property name="text">
-      <string>Messages can be moved from this account to another</string>
-     </property>
-    </widget>
-   </item>
    <item row="2" column="0">
     <widget class="QLineEdit" name="editAccountDescription">
      <property name="text">
@@ -609,63 +676,10 @@
      </property>
     </widget>
    </item>
-   <item row="5" column="0">
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <property name="spacing">
-      <number>0</number>
-     </property>
-     <item>
-      <widget class="QComboBox" name="comboAccountType">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QWidget" name="spacerWidetAccountType" native="true">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-         <horstretch>1</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="lTipPathPrefix">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>Path Prefix: </string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="editPathPrefix">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-         <horstretch>100</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </item>
-   <item row="14" column="0">
-    <widget class="QCheckBox" name="checkAllowRecentAddressesSynced">
+   <item row="17" column="0">
+    <widget class="QLabel" name="lTipAllowMailDropForThisAccount">
      <property name="text">
-      <string>Allow recent addresses to be synced</string>
-     </property>
-     <property name="checked">
-      <bool>true</bool>
+      <string>Allow Mail Drop for this account</string>
      </property>
     </widget>
    </item>

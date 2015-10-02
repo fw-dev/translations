@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>493</width>
-    <height>3733</height>
+    <height>4112</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -610,17 +610,35 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_5">
-        <property name="text">
-         <string>User Authentication</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTip_15">
-        <property name="text">
-         <string>Authentication type for connection</string>
-        </property>
+       <widget class="QWidget" name="widgetUserAuthenticationCaption" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_34">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labelUserAuthentication">
+           <property name="text">
+            <string>User Authentication</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_15">
+           <property name="text">
+            <string>Authentication type for connection</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </widget>
       </item>
       <item>
@@ -772,35 +790,49 @@
        </widget>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_15">
-        <item>
-         <widget class="QComboBox" name="authenticationCombo">
-          <item>
-           <property name="text">
-            <string>Password</string>
+       <widget class="QWidget" name="widgetForAuthenticationCombo" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QComboBox" name="authenticationCombo">
+           <item>
+            <property name="text">
+             <string>Password</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Certificate</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_12">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
            </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>Certificate</string>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
            </property>
-          </item>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_12">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
       </item>
       <item>
        <widget class="QWidget" name="password" native="true">
@@ -999,6 +1031,94 @@
     </widget>
    </item>
    <item>
+    <widget class="QWidget" name="certificateType" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_35">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelCertificateType">
+        <property name="text">
+         <string>Certificate Type</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipTypeOfTheServerCertificate">
+        <property name="text">
+         <string>Type of the server certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QComboBox" name="certificateTypeCombo">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>RSA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ECDSA256</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ECDSA384</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ECDSA521</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_19">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <widget class="QWidget" name="groupName" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_7">
       <property name="leftMargin">
@@ -1157,7 +1277,7 @@
       <item>
        <widget class="QCheckBox" name="vpnOnDemand">
         <property name="text">
-         <string>Enable VPN On Demand (OS X only)</string>
+         <string>Enable VPN on Demand</string>
         </property>
        </widget>
       </item>
@@ -1433,88 +1553,26 @@
       <property name="bottomMargin">
        <number>0</number>
       </property>
+      <item row="9" column="0">
+       <widget class="QCheckBox" name="checkDisableRedirects">
+        <property name="text">
+         <string>Disable redirects</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QCheckBox" name="checkDisableMobility">
+        <property name="text">
+         <string>Disable Mobility and Multlhoming</string>
+        </property>
+       </widget>
+      </item>
       <item row="7" column="0" colspan="2">
        <widget class="QLabel" name="lTip_31">
         <property name="text">
          <string>Interval at which keepalive should be sent</string>
         </property>
        </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="checkEnableEAP">
-        <property name="text">
-         <string>Enable EAP</string>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="0">
-       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
-      </item>
-      <item row="3" column="0" colspan="2">
-       <widget class="QLabel" name="lTip_30">
-        <property name="text">
-         <string>Enable extended authentication</string>
-        </property>
-       </widget>
-      </item>
-      <item row="9" column="0">
-       <spacer name="verticalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Fixed</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>10</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="10" column="0" colspan="2">
-       <widget class="QTabWidget" name="tabWidget">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="currentIndex">
-         <number>0</number>
-        </property>
-        <widget class="SecurityAssociationParametersWidget" name="tabIkeSaParams">
-         <attribute name="title">
-          <string>IKE SA Params</string>
-         </attribute>
-        </widget>
-        <widget class="SecurityAssociationParametersWidget" name="tabChildSaParams">
-         <attribute name="title">
-          <string>Child SA Params</string>
-         </attribute>
-        </widget>
-       </widget>
-      </item>
-      <item row="6" column="0" colspan="2">
-       <widget class="QLabel" name="label_24">
-        <property name="text">
-         <string>Dead Peer Detection Interval</string>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="1">
-       <spacer name="horizontalSpacer_14">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>348</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
       </item>
       <item row="4" column="0" rowspan="2" colspan="2">
        <widget class="QWidget" name="eapWidget" native="true">
@@ -1634,6 +1692,94 @@
           </widget>
          </item>
          <item>
+          <widget class="QWidget" name="certificateTypeEAP" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_36">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="labelCertificateTypeEAP">
+              <property name="text">
+               <string>Certificate Type</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lTipTypeOfTheServerCertificateEAP">
+              <property name="text">
+               <string>Type of the server certificate</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_19">
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QComboBox" name="certificateTypeComboEAP">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>RSA</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ECDSA256</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ECDSA384</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ECDSA521</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_20">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
           <widget class="QWidget" name="eapAuthenticationUserWidget" native="true">
            <layout class="QVBoxLayout" name="verticalLayout_31">
             <property name="leftMargin">
@@ -1690,6 +1836,106 @@
           </widget>
          </item>
         </layout>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <spacer name="horizontalSpacer_14">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>348</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="12" column="0">
+       <widget class="QCheckBox" name="checkEnablePFS">
+        <property name="text">
+         <string>Enable perfect forward secrecy</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>Dead Peer Detection Interval</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QLabel" name="lTip_30">
+        <property name="text">
+         <string>Enable extended authentication</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="checkUseIPv4">
+        <property name="text">
+         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0" colspan="2">
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="SecurityAssociationParametersWidget" name="tabIkeSaParams">
+         <attribute name="title">
+          <string>IKE SA Params</string>
+         </attribute>
+        </widget>
+        <widget class="SecurityAssociationParametersWidget" name="tabChildSaParams">
+         <attribute name="title">
+          <string>Child SA Params</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+      <item row="13" column="0">
+       <widget class="QCheckBox" name="checkEnableCertificateRevocationCheck">
+        <property name="text">
+         <string>Enable certificate revocation check</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
+      </item>
+      <item row="14" column="0">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>10</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkEnableEAP">
+        <property name="text">
+         <string>Enable EAP</string>
+        </property>
        </widget>
       </item>
      </layout>

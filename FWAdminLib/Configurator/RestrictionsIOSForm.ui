@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>650</width>
-    <height>1324</height>
+    <width>600</width>
+    <height>1588</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -75,7 +75,7 @@
        <item>
         <widget class="QCheckBox" name="allowScreenCapture">
          <property name="text">
-          <string>Allow screen capture</string>
+          <string>Allow screenshots and screen recording</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -93,13 +93,76 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowMusicService">
+         <property name="text">
+          <string>Allow Apple Music (Supervised devices only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowInstallingApps">
          <property name="text">
-          <string>Allow installing apps</string>
+          <string>Allow installing apps using Apple Configurator and iTunes</string>
          </property>
          <property name="checked">
           <bool>true</bool>
          </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widgetAllowInstallingAppsUsingAppStore" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <property name="leftMargin">
+           <number>18</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="allowUIAppInstallation">
+            <property name="text">
+             <string>Allow installing apps using App Store (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetAllowAutomaticAppDownloads" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="leftMargin">
+              <number>18</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="allowAutomaticAppDownloads">
+               <property name="text">
+                <string>Allow automatic app downloads (Supervised devices only)</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -165,7 +228,17 @@
        <item>
         <widget class="QCheckBox" name="allowSharedStream">
          <property name="text">
-          <string>Allow iCloud photo sharing</string>
+          <string>Allow iCloud Photo sharing</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowCloudPhotoLibrary">
+         <property name="text">
+          <string>Allow iCloud Photo Library</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -276,8 +349,7 @@
           <item>
            <widget class="QCheckBox" name="allowAssistantUserGeneratedContent">
             <property name="text">
-             <string>Allow user-generated content in Siri
-(Supervised devices only)</string>
+             <string>Allow user-generated content in Siri (Supervised devices only)</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -318,10 +390,19 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowEnterpriseAppTrust">
+         <property name="text">
+          <string>Allow trusting new enterprise app authors</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowUIConfigurationProfileInstallation">
          <property name="text">
-          <string>Allow Installation of Configuration Profiles
-(Supervised devices only)</string>
+          <string>Allow Installation of Configuration Profiles (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -332,6 +413,16 @@
         <widget class="QCheckBox" name="allowEnablingRestrictions">
          <property name="text">
           <string>Allow configuring restrictions (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowWallpaperModification">
+         <property name="text">
+          <string>Allow modifying Wallpaper (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -359,14 +450,61 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowFindMyFriendsModification">
+        <widget class="QCheckBox" name="allowDeviceNameModification">
          <property name="text">
-          <string>Allow modifying Find My Friends settings
-(Supervised devices only)</string>
+          <string>Allow modifying device name (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
          </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowFindMyFriendsModification">
+         <property name="text">
+          <string>Allow modifying Find My Friends settings (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPasscodeModification">
+         <property name="text">
+          <string>Allow modifying passcode (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widgetAllowFingerprintModification" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="leftMargin">
+           <number>25</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="allowFingerprintModification">
+            <property name="text">
+             <string>Allow modifying Touch ID fingerprints (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -390,6 +528,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="forceAirDropUnmanaged">
+         <property name="text">
+          <string>Treat AirDrop as unmanaged destination</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowActivityContinuation">
          <property name="text">
           <string>Allow Handoff</string>
@@ -402,7 +547,7 @@
        <item>
         <widget class="QCheckBox" name="allowSpotlightInternetResults">
          <property name="text">
-          <string>Allow internet results in Spotlight</string>
+          <string>Allow Spotlight Suggestions</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -422,7 +567,7 @@
        <item>
         <widget class="QCheckBox" name="allowPassbookWhileLocked">
          <property name="text">
-          <string>Allow Passbook notifications while locked</string>
+          <string>Allow Wallet notifications in Lock screen</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -432,7 +577,7 @@
        <item>
         <widget class="QCheckBox" name="allowLockScreenControlCenter">
          <property name="text">
-          <string>Show Control Center in lock screen</string>
+          <string>Show Control Center in Lock screen</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -472,8 +617,7 @@
        <item>
         <widget class="QCheckBox" name="allowHostPairing">
          <property name="text">
-          <string>Allow pairing with non-Configurator hosts
-(Supervised devices only)</string>
+          <string>Allow pairing with non-Configurator hosts (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -541,9 +685,73 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="forceWatchWristDetection">
+         <property name="text">
+          <string>Force Apple Watch wrist detection</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPairedWatch">
+         <property name="text">
+          <string>Allow pairing with Apple Watch (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="requirePasscodeOnFirstAirPlayPairing">
          <property name="text">
           <string>Require passcode on first AirPlay pairing</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPredictiveKeyboard">
+         <property name="text">
+          <string>Allow predictive keyboard (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowKeyboardShortcuts">
+         <property name="text">
+          <string>Allow keyboard shortcuts (Supervised devices only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowAutoCorrection">
+         <property name="text">
+          <string>Allow keyboard auto correction (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowSpellCheck">
+         <property name="text">
+          <string>Allow keyboard spell check (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowDefinitionLookup">
+         <property name="text">
+          <string>Allow keyboard definition lookup (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -564,7 +772,7 @@
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="title">
-       <string>Applications</string>
+       <string>Apps</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
@@ -588,9 +796,29 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowNews">
+         <property name="text">
+          <string>Allow use of News (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPodcasts">
+         <property name="text">
+          <string>Allow use of Podcasts (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowGameCenter">
          <property name="text">
-          <string>Allow use of Game Center (supervised only)</string>
+          <string>Allow use of Game Center (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -697,48 +925,53 @@
             </property>
            </widget>
           </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Accept cookies</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="acceptCookies">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>Never</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>From current website only</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>From visited sites</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Always</string>
+             </property>
+            </item>
+           </widget>
+          </item>
          </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>Accept cookies</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QComboBox" name="acceptCookies">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="currentIndex">
-          <number>1</number>
-         </property>
-         <item>
-          <property name="text">
-           <string>Never</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>From visited sites</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Always</string>
-          </property>
-         </item>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="autonomousSingleAppMode">
          <property name="text">
-          <string>Autonomous Single App Mode (Supervised Only)</string>
+          <string>Autonomous Single App Mode (Supervised devices only)</string>
          </property>
         </widget>
        </item>

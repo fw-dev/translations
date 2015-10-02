@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>495</width>
-    <height>395</height>
+    <width>524</width>
+    <height>469</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,82 +38,39 @@
        <string>Communications</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="1" column="2">
-        <widget class="QLineEdit" name="serverPort"/>
-       </item>
-       <item row="0" column="0">
-        <spacer name="horizontalSpacer_4">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>1</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="2" colspan="3">
-        <widget class="QLineEdit" name="lineEditServerAddress">
+       <item row="4" column="1">
+        <widget class="QLabel" name="label_24">
          <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="5">
-        <widget class="BonjourServiceView" name="bonjourView">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLineEdit" name="monitorPort"/>
-       </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="kioskPort"/>
-       </item>
-       <item row="0" column="6">
-        <spacer name="horizontalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>1</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="2" column="1">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>Monitor Port:</string>
+          <string>Kiosk Port:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
          <property name="buddy">
-          <cstring>monitorPort</cstring>
+          <cstring>kioskPort</cstring>
          </property>
         </widget>
        </item>
-       <item row="2" column="3" colspan="3">
-        <widget class="QLabel" name="smallLabel_2">
+       <item row="7" column="1">
+        <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>ex. 20010</string>
+          <string>Tickle Interval:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>spinBoxTickleInterval</cstring>
          </property>
         </widget>
        </item>
-       <item row="5" column="5">
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="vncRelayPort"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="serverPort"/>
+       </item>
+       <item row="8" column="5">
         <widget class="QCheckBox" name="checkBoxSynchronizeClientName">
          <property name="text">
           <string/>
@@ -123,24 +80,7 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="2">
-        <widget class="QSpinBox" name="spinBoxTickleInterval">
-         <property name="specialValueText">
-          <string>_</string>
-         </property>
-         <property name="maximum">
-          <number>28800</number>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="3" colspan="3">
-        <widget class="QLabel" name="label_9">
-         <property name="text">
-          <string>seconds</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1" colspan="4">
+       <item row="8" column="1" colspan="4">
         <widget class="QLabel" name="label_6">
          <property name="text">
           <string>Synchronize Client Name with Computer name</string>
@@ -150,6 +90,13 @@
          </property>
          <property name="buddy">
           <cstring>checkBoxSynchronizeClientName</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="3">
+        <widget class="QLineEdit" name="lineEditServerAddress">
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
@@ -166,23 +113,36 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="1">
-        <widget class="QLabel" name="label_24">
+       <item row="0" column="6">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="5">
+        <widget class="BonjourServiceView" name="bonjourView">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="text">
-          <string>Kiosk Port:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-         <property name="buddy">
-          <cstring>kioskPort</cstring>
+          <string/>
          </property>
         </widget>
        </item>
-       <item row="1" column="3" colspan="3">
-        <widget class="QLabel" name="smallLabel">
+       <item row="4" column="3">
+        <widget class="QLabel" name="smallLabel_5">
          <property name="text">
-          <string>ex. 20015</string>
+          <string>ex. 20020</string>
          </property>
         </widget>
        </item>
@@ -199,7 +159,90 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="5">
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Monitor Port:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>monitorPort</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLabel" name="smallLabelVNCSrvPort">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>ex. 20031</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>VNC Relay Port:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3" colspan="3">
+        <widget class="QLabel" name="smallLabel_2">
+         <property name="text">
+          <string>ex. 20010</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLineEdit" name="vncServerPort"/>
+       </item>
+       <item row="0" column="0">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="3" colspan="3">
+        <widget class="QLabel" name="smallLabel">
+         <property name="text">
+          <string>ex. 20015</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="smallLabelVNCRelayPort">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>ex. 20030</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="monitorPort"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="kioskPort"/>
+       </item>
+       <item row="9" column="5">
         <spacer name="verticalSpacer_3">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -212,23 +255,55 @@
          </property>
         </spacer>
        </item>
-       <item row="4" column="1">
-        <widget class="QLabel" name="label_4">
+       <item row="7" column="3" colspan="3">
+        <widget class="QLabel" name="label_9">
          <property name="text">
-          <string>Tickle Interval:</string>
+          <string>seconds</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="label_28">
+         <property name="text">
+          <string>VNC Server Port:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
-         <property name="buddy">
-          <cstring>spinBoxTickleInterval</cstring>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QSpinBox" name="spinBoxTickleInterval">
+         <property name="specialValueText">
+          <string>_</string>
+         </property>
+         <property name="maximum">
+          <number>28800</number>
          </property>
         </widget>
        </item>
-       <item row="3" column="3">
-        <widget class="QLabel" name="smallLabel_5">
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>ex. 20020</string>
+          <string>Server Publish Port:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="serverPublishPort"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="smallLabelSrvPubPort">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>ex. 20005</string>
          </property>
         </widget>
        </item>
@@ -239,49 +314,13 @@
        <string>Boosters</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="7" column="2">
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="6" column="3">
+        <widget class="QSpinBox" name="spinBoxBoosterPort5">
+         <property name="specialValueText">
+          <string/>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>1</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="5">
-        <spacer name="horizontalSpacer_5">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>1</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="0">
-        <spacer name="horizontalSpacer_6">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>1</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLabel" name="label_11">
-         <property name="text">
-          <string>IP or DNS Address:</string>
+         <property name="maximum">
+          <number>65535</number>
          </property>
         </widget>
        </item>
@@ -292,21 +331,11 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QLabel" name="label_13">
-         <property name="text">
-          <string>Booster 1:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-         <property name="buddy">
-          <cstring>lineEditBoosterAddress1</cstring>
-         </property>
-        </widget>
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="lineEditBoosterAddress4"/>
        </item>
-       <item row="1" column="2">
-        <widget class="QLineEdit" name="lineEditBoosterAddress1"/>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="lineEditBoosterAddress2"/>
        </item>
        <item row="1" column="3">
         <widget class="QSpinBox" name="spinBoxBoosterPort1">
@@ -318,14 +347,24 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="lineEditBoosterAddress2"/>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="lineEditBoosterAddress1"/>
        </item>
-       <item row="5" column="2">
-        <widget class="QLineEdit" name="lineEditBoosterAddress4"/>
+       <item row="4" column="1">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Booster 3:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>lineEditBoosterAddress3</cstring>
+         </property>
+        </widget>
        </item>
-       <item row="6" column="2">
-        <widget class="QLineEdit" name="lineEditBoosterAddress5"/>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="lineEditBoosterAddress3"/>
        </item>
        <item row="3" column="1">
         <widget class="QLabel" name="label_14">
@@ -340,16 +379,32 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="1">
-        <widget class="QLabel" name="label_15">
+       <item row="1" column="5">
+        <widget class="BonjourServiceView" name="bonjourViewBooster1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="text">
-          <string>Booster 3:</string>
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLineEdit" name="lineEditBoosterAddress5"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>Booster 5:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
          <property name="buddy">
-          <cstring>lineEditBoosterAddress3</cstring>
+          <cstring>lineEditBoosterAddress5</cstring>
          </property>
         </widget>
        </item>
@@ -366,86 +421,21 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="1">
-        <widget class="QLabel" name="label_17">
-         <property name="text">
-          <string>Booster 5:</string>
+       <item row="0" column="6">
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
          </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1</width>
+           <height>20</height>
+          </size>
          </property>
-         <property name="buddy">
-          <cstring>lineEditBoosterAddress5</cstring>
-         </property>
-        </widget>
+        </spacer>
        </item>
-       <item row="1" column="4">
-        <widget class="BonjourServiceView" name="bonjourViewBooster1">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="4">
-        <widget class="BonjourServiceView" name="bonjourViewBooster2">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="4">
-        <widget class="BonjourServiceView" name="bonjourViewBooster3">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="4">
-        <widget class="BonjourServiceView" name="bonjourViewBooster4">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="4">
-        <widget class="BonjourServiceView" name="bonjourViewBooster5">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="3">
-        <widget class="QSpinBox" name="spinBoxBoosterPort3">
+       <item row="3" column="3">
+        <widget class="QSpinBox" name="spinBoxBoosterPort2">
          <property name="specialValueText">
           <string/>
          </property>
@@ -464,8 +454,8 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="3">
-        <widget class="QSpinBox" name="spinBoxBoosterPort5">
+       <item row="4" column="3">
+        <widget class="QSpinBox" name="spinBoxBoosterPort3">
          <property name="specialValueText">
           <string/>
          </property>
@@ -474,16 +464,155 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="2">
-        <widget class="QLineEdit" name="lineEditBoosterAddress3"/>
-       </item>
-       <item row="3" column="3">
-        <widget class="QSpinBox" name="spinBoxBoosterPort2">
-         <property name="specialValueText">
+       <item row="6" column="5">
+        <widget class="BonjourServiceView" name="bonjourViewBooster5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
           <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="5">
+        <widget class="BonjourServiceView" name="bonjourViewBooster4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="BonjourServiceView" name="bonjourViewBooster2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="BonjourServiceView" name="bonjourViewBooster3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>Booster 1:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>lineEditBoosterAddress1</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>IP or DNS Address:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>1</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="4">
+        <widget class="QSpinBox" name="boosterPubPort1">
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QSpinBox" name="boosterPubPort2">
+         <property name="enabled">
+          <bool>false</bool>
          </property>
          <property name="maximum">
           <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QSpinBox" name="boosterPubPort3">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QSpinBox" name="boosterPubPort4">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QSpinBox" name="boosterPubPort5">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_33">
+         <property name="text">
+          <string>Publish Port</string>
          </property>
         </widget>
        </item>
@@ -494,6 +623,52 @@
        <string>Options</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="2">
+        <widget class="QSpinBox" name="spinBoxDebugLevel">
+         <property name="specialValueText">
+          <string>_</string>
+         </property>
+         <property name="minimum">
+          <number>9</number>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>1</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLabel" name="label_31">
+         <property name="text">
+          <string>Managed remote control:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
        <item row="0" column="1">
         <widget class="QLabel" name="label_18">
          <property name="text">
@@ -590,6 +765,13 @@
          </property>
         </widget>
        </item>
+       <item row="5" column="2" colspan="2">
+        <widget class="QLineEdit" name="lineEditVerifyPassword">
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
        <item row="3" column="3">
         <widget class="QLabel" name="label_26">
          <property name="text">
@@ -599,13 +781,6 @@
        </item>
        <item row="4" column="2" colspan="2">
         <widget class="QLineEdit" name="lineEditPassword">
-         <property name="echoMode">
-          <enum>QLineEdit::Password</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2" colspan="2">
-        <widget class="QLineEdit" name="lineEditVerifyPassword">
          <property name="echoMode">
           <enum>QLineEdit::Password</enum>
          </property>
@@ -640,41 +815,35 @@
          </property>
         </spacer>
        </item>
-       <item row="0" column="0">
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="8" column="1">
+        <widget class="QLabel" name="label_32">
+         <property name="text">
+          <string>Prompt client for remote control access:</string>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>1</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="2">
-        <widget class="QSpinBox" name="spinBoxDebugLevel">
-         <property name="specialValueText">
-          <string>_</string>
-         </property>
-         <property name="minimum">
-          <number>9</number>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="7" column="1">
-        <spacer name="verticalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="7" column="2">
+        <widget class="QCheckBox" name="checkBoxVNCManaged">
+         <property name="text">
+          <string/>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>1</height>
-          </size>
+         <property name="tristate">
+          <bool>true</bool>
          </property>
-        </spacer>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QCheckBox" name="checkBoxVNCPromptClient">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="tristate">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -701,24 +870,32 @@
   <tabstop>lineEditServerAddress</tabstop>
   <tabstop>bonjourView</tabstop>
   <tabstop>serverPort</tabstop>
+  <tabstop>serverPublishPort</tabstop>
   <tabstop>monitorPort</tabstop>
   <tabstop>kioskPort</tabstop>
+  <tabstop>vncRelayPort</tabstop>
+  <tabstop>vncServerPort</tabstop>
   <tabstop>spinBoxTickleInterval</tabstop>
   <tabstop>checkBoxSynchronizeClientName</tabstop>
   <tabstop>lineEditBoosterAddress1</tabstop>
   <tabstop>spinBoxBoosterPort1</tabstop>
+  <tabstop>boosterPubPort1</tabstop>
   <tabstop>bonjourViewBooster1</tabstop>
   <tabstop>lineEditBoosterAddress2</tabstop>
   <tabstop>spinBoxBoosterPort2</tabstop>
+  <tabstop>boosterPubPort2</tabstop>
   <tabstop>bonjourViewBooster2</tabstop>
   <tabstop>lineEditBoosterAddress3</tabstop>
   <tabstop>spinBoxBoosterPort3</tabstop>
+  <tabstop>boosterPubPort3</tabstop>
   <tabstop>bonjourViewBooster3</tabstop>
   <tabstop>lineEditBoosterAddress4</tabstop>
   <tabstop>spinBoxBoosterPort4</tabstop>
+  <tabstop>boosterPubPort4</tabstop>
   <tabstop>bonjourViewBooster4</tabstop>
   <tabstop>lineEditBoosterAddress5</tabstop>
   <tabstop>spinBoxBoosterPort5</tabstop>
+  <tabstop>boosterPubPort5</tabstop>
   <tabstop>bonjourViewBooster5</tabstop>
   <tabstop>spinBoxDebugLevel</tabstop>
   <tabstop>spinBoxFileCheckInterval</tabstop>
@@ -726,6 +903,8 @@
   <tabstop>lineEditPassword</tabstop>
   <tabstop>lineEditVerifyPassword</tabstop>
   <tabstop>spinBoxPriority</tabstop>
+  <tabstop>checkBoxVNCManaged</tabstop>
+  <tabstop>checkBoxVNCPromptClient</tabstop>
  </tabstops>
  <resources/>
  <connections/>

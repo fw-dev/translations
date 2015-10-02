@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>656</width>
-    <height>575</height>
+    <height>749</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
    <item>
     <widget class="QLabel" name="descTitle">
      <property name="text">
@@ -99,6 +99,33 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Certificate Expiration Notification Threshold</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipCENT">
+     <property name="text">
+      <string>The number of days before the certificate expires at which to start showing the expiration notification</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editCENT">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QCheckBox" name="cbPromptForCredentials">
      <property name="text">
       <string>Prompt for credentials</string>
@@ -115,7 +142,16 @@
    <item>
     <widget class="QWidget" name="credentials" native="true">
      <layout class="QVBoxLayout" name="verticalLayout">
-      <property name="margin">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
        <number>0</number>
       </property>
       <item>
@@ -163,6 +199,34 @@
        </widget>
       </item>
      </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="cbAllowAccessToAllApps">
+     <property name="text">
+      <string>Allow access to all apps</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowAllAppsToAccess">
+     <property name="text">
+      <string>Allow all apps to access the certificate in the keychain</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="cbAllowExportFromKeychain">
+     <property name="text">
+      <string>Allow export from keychain</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowAdminToExportPrivateKey">
+     <property name="text">
+      <string>Allow admin to export private key from the keychain</string>
+     </property>
     </widget>
    </item>
    <item>

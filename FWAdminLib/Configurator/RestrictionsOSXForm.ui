@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>640</width>
-    <height>881</height>
+    <height>1173</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -41,18 +41,57 @@
          <item>
           <widget class="QCheckBox" name="restrictSystemPreferences">
            <property name="text">
-            <string>Restrict which system preferences are enabled</string>
+            <string>Restrict items in System Preferences</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="lTip_restrict_ref_panes">
-           <property name="text">
-            <string>The selected items are enabled in System Preferences</string>
+          <layout class="QVBoxLayout" name="verticalLayout_27">
+           <property name="leftMargin">
+            <number>25</number>
            </property>
-          </widget>
+           <property name="topMargin">
+            <number>5</number>
+           </property>
+           <property name="rightMargin">
+            <number>9</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QRadioButton" name="radioButtonEnableSelectedItems">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>enable selected items</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButtonDisableSelectedItems">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>disable selected items</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
         </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>System Preference Panes</string>
+         </property>
+        </widget>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -206,6 +245,20 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="extensions">
+              <property name="text">
+               <string>Extensions</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/extensions.png</normaloff>:/assets/restrictions/extensions.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="missionControl">
               <property name="text">
                <string>Mission Control</string>
@@ -250,7 +303,7 @@
             <item>
              <widget class="QCheckBox" name="internetAccounts">
               <property name="text">
-               <string>Mail, Contacts &amp;&amp; Calendars</string>
+               <string>Internet Accounts</string>
               </property>
               <property name="icon">
                <iconset resource="Configurator.qrc">
@@ -338,7 +391,7 @@
               </property>
               <property name="icon">
                <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/notifications.png</normaloff>:/assets/restrictions/notifications.png</iconset>
+                <normaloff>:/assets/restrictions/notifs.png</normaloff>:/assets/restrictions/notifs.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -580,14 +633,14 @@
             <item>
              <widget class="QPushButton" name="enableAll">
               <property name="text">
-               <string>Enable All</string>
+               <string>Select All</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="enableNone">
               <property name="text">
-               <string>Enable None</string>
+               <string>Select None</string>
               </property>
              </widget>
             </item>
@@ -621,6 +674,101 @@
           </spacer>
          </item>
         </layout>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidgetThirdPartyPanes">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <widget class="QWidget" name="winThirdPartyPanesPage">
+          <layout class="QVBoxLayout" name="verticalLayout_25">
+           <item>
+            <widget class="QLabel" name="labelThirdPartyPrefPanes">
+             <property name="text">
+              <string>Third-party Preference Panes</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QListWidget" name="listWidgetThirdPartyPrefPanes"/>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="QToolButton" name="addThirdPartyPrefPane">
+               <property name="text">
+                <string>+</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="removeThirdPartyPrefPane">
+               <property name="text">
+                <string>-</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="osxThirdPartyPanesPage">
+          <layout class="QVBoxLayout" name="verticalLayout_26">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="labelThirdPartyPrefPanesOsX">
+             <property name="text">
+              <string>Third-party Preference Panes</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayoutThirdParty">
+             <property name="leftMargin">
+              <number>25</number>
+             </property>
+             <property name="topMargin">
+              <number>12</number>
+             </property>
+             <property name="rightMargin">
+              <number>12</number>
+             </property>
+             <property name="bottomMargin">
+              <number>12</number>
+             </property>
+            </layout>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_7">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -697,6 +845,16 @@
         <widget class="QCheckBox" name="allowAppAdoption">
          <property name="text">
           <string>Allow App Store app adoption</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowSafariAutoFill">
+         <property name="text">
+          <string>Allow Safari AutoFill</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1637,21 +1795,68 @@
             </property>
            </widget>
           </item>
-          <item>
-           <spacer name="verticalSpacer_6">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>20</width>
-              <height>636</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
          </layout>
         </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_28">
+         <property name="spacing">
+          <number>13</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="allowUseOfCamera">
+           <property name="text">
+            <string>Allow use of Camera</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudDocumentsData">
+           <property name="text">
+            <string>Allow iCloud documents &amp;&amp; data</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowUseOfiCloudPassword">
+           <property name="text">
+            <string>Allow use of iCloud password for local accounts</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowSpotlightSuggestions">
+           <property name="text">
+            <string>Allow Spotlight Suggestions</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>
@@ -1916,6 +2121,54 @@
     <hint type="destinationlabel">
      <x>40</x>
      <y>89</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>restrictSystemPreferences</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>stackedWidgetThirdPartyPanes</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>938</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>restrictSystemPreferences</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>radioButtonDisableSelectedItems</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>98</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>restrictSystemPreferences</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>radioButtonEnableSelectedItems</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>75</y>
     </hint>
    </hints>
   </connection>
