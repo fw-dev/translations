@@ -5996,6 +5996,20 @@ Tuğra Admin oturumunu kapatmak için Tamam&apos;a basın.</translation>
         <translation>Kilitli Öğeleri Göster</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1783"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.
+
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2012"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be exported.
+
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2182"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2248"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2265"/>
@@ -6206,13 +6220,6 @@ Herhangi bir kullanıcı Modele Dön&apos;ü çalıştırdığında, otorumu kap
         <translation>Fileset&apos;in bir kısmı çoğaltılamıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1783"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1829"/>
         <source>Duplicate Failed</source>
         <translation>Çoğaltma Hatası</translation>
@@ -6233,13 +6240,6 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2012"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>Fileset&apos;in bir kısmı dışa aktarılamıyor</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2012"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be exported.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2031"/>
@@ -7355,13 +7355,6 @@ Please enter super admin credentials to continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="747"/>
-        <source>There was an error in the request to check the proxy.
-
-%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1636"/>
         <source>Engage Certificate Changed</source>
         <translation type="unfinished"></translation>
@@ -7580,6 +7573,13 @@ Continue ?</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2722"/>
         <source>Connected successfully!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="747"/>
+        <source>There was an error in the request to check the proxy.
+
+%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8846,13 +8846,6 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation>Araçlar</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="321"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address.  It probably hasn&apos;t successfully connected yet.
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="540"/>
         <source>Unable to observe client session.&lt;br/&gt;Reason: </source>
         <translation type="unfinished"></translation>
@@ -9031,6 +9024,13 @@ Bu işlem geri alınamaz!</translation>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="125"/>
         <source>Search clients or groups...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="321"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address.  It probably hasn&apos;t successfully connected yet.
+
+Do you want to open the Client Monitor anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
