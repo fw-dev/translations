@@ -124,7 +124,7 @@
            <bool>false</bool>
           </property>
           <property name="headerHidden">
-           <bool>false</bool>
+           <bool>true</bool>
           </property>
           <attribute name="headerVisible">
            <bool>false</bool>
@@ -144,15 +144,17 @@
         <number>0</number>
        </property>
        <property name="currentIndex">
-        <number>0</number>
+        <number>5</number>
        </property>
        <widget class="DashboardContainer" name="dashboardContainer"/>
        <widget class="SmartGroupReportTabForClients" name="smartGroupReportTabForClients"/>
        <widget class="FilesetListWidget" name="filesetList"/>
        <widget class="SmartGroupReportTabForAssociations" name="smartGroupReportTabForAssociations"/>
        <widget class="ImagingWidget" name="imagingWidget"/>
+       <widget class="DeviceCartMappingsWidget" name="mappingsWidget"/>
        <widget class="IOSInventoryWidget" name="IOSInvWidget"/>
        <widget class="LicenseTabWidget" name="licenseTabWidget"/>
+       <widget class="BoostersWidget" name="boostersTab"/>
        <widget class="InventoryQueryTab" name="inventoryQueryTab"/>
       </widget>
      </widget>
@@ -200,7 +202,6 @@
     <addaction name="actionFileWave_Client_Monitor"/>
     <addaction name="separator"/>
     <addaction name="actionFileset_WinMagic"/>
-    <addaction name="actionSearch_Local_iTunes_Library"/>
     <addaction name="actionFind_OS_X_Software_Updates"/>
     <addaction name="actionImaging"/>
     <addaction name="separator"/>
@@ -554,14 +555,6 @@
     <string>Ctrl+Shift+T</string>
    </property>
   </action>
-  <action name="actionSearch_Local_iTunes_Library">
-   <property name="text">
-    <string>Search Local iTunes Library...</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+Shift+I</string>
-   </property>
-  </action>
   <action name="actionFind_OS_X_Software_Updates">
    <property name="text">
     <string>Find Software Updates...</string>
@@ -643,6 +636,12 @@
    <container>1</container>
   </customwidget>
   <customwidget>
+   <class>FilesetListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/FilesetListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
    <class>SideBar</class>
    <extends>QTreeView</extends>
    <header>FileWaveGuiLib/style/SideBar.h</header>
@@ -663,12 +662,6 @@
    <class>InventoryQueryTab</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/inventory/InventoryQueryTab.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>FilesetListWidget</class>
-   <extends>QWidget</extends>
-   <header>FWAdminLib/FilesetListWidget.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
@@ -693,6 +686,18 @@
    <class>ImagingWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/ImagingWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BoostersWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/BoostersWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DeviceCartMappingsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/DeviceCartMappingsWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

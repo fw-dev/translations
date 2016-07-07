@@ -246,7 +246,7 @@
           <item>
            <widget class="QRadioButton" name="m_radioUseInstitutionalKey">
             <property name="text">
-             <string>Use institutional recovery key</string>
+             <string>Use an institutional recovery key</string>
             </property>
             <attribute name="buttonGroup">
              <string notr="true">m_fileVaultButtonGroup</string>
@@ -256,7 +256,7 @@
           <item>
            <widget class="QRadioButton" name="m_radioCreatePersonalKey">
             <property name="text">
-             <string>Create personal FileVault recovery key</string>
+             <string>Create a personal FileVault recovery key</string>
             </property>
             <attribute name="buttonGroup">
              <string notr="true">m_fileVaultButtonGroup</string>
@@ -266,7 +266,7 @@
           <item>
            <widget class="QRadioButton" name="m_radioInstitutionalAndPersonal">
             <property name="text">
-             <string>Use an institutional and create personal recovery keys</string>
+             <string>Use an institutional and create a personal recovery key</string>
             </property>
             <attribute name="buttonGroup">
              <string notr="true">m_fileVaultButtonGroup</string>
@@ -354,7 +354,8 @@
        <item>
         <widget class="QCheckBox" name="diagAndUsageCb">
          <property name="text">
-          <string>Send diagnostic and usage data to Apple</string>
+          <string>Allow sending diagnostic and usage data to Apple, and sharing
+crash data and statistics with app developers</string>
          </property>
          <property name="checked">
           <bool>true</bool>

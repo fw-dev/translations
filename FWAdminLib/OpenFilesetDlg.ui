@@ -110,6 +110,9 @@
           <property name="selectionMode">
            <enum>QAbstractItemView::ExtendedSelection</enum>
           </property>
+          <property name="autoExpandDelay">
+           <number>500</number>
+          </property>
           <property name="sortingEnabled">
            <bool>true</bool>
           </property>

@@ -425,133 +425,138 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="291"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="294"/>
         <source>Uninstall</source>
         <translation type="unfinished">Kaldır</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="278"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="281"/>
         <source>Get license</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="282"/>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="298"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="285"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="301"/>
         <source>Install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="378"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="382"/>
         <source>More</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="395"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="399"/>
         <source>Not Installed</source>
         <translation>Kurulmadı</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="398"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="402"/>
         <source>Queued for Installation</source>
         <translation>Kurulum İçin Sırayada</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="401"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="405"/>
+        <source>Requirements Met</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="408"/>
         <source>Downloading...</source>
         <translation>İndiriliyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="404"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="411"/>
         <source>Installing...</source>
         <translation>Kuruluyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="407"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="414"/>
         <source>Installed</source>
         <translation>Kuruldu</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="410"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="417"/>
         <source>Uninstalling...</source>
         <translation>Kaldırılıyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="413"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="420"/>
         <source>Reinstalling...</source>
         <translation>Tekrar Kuruluyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="416"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="423"/>
         <source>Install Failed</source>
         <translation>Kurulum Başarısız</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="419"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="426"/>
         <source>License association error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="424"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="431"/>
         <source>License associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="426"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
         <source>License associated - Use App Store to install the app on your Mac</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="430"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="437"/>
         <source>Installed via Mac App Store</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="440"/>
         <source>Installing via Mac App Store (can take some time)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="436"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="443"/>
         <source>Accept the invite to the organization with a valid iTunes account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="439"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="446"/>
         <source>No VPP user for this application&apos;s organization for your device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="442"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="449"/>
         <source>VPP user is retired</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="445"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="452"/>
         <source>VPP license for asset can not be assigned to a device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="448"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="455"/>
         <source>No VPP token associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="451"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="458"/>
         <source>Not enough licenses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="454"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="461"/>
         <source>No license available or required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="457"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="464"/>
         <source>Invalid status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="460"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="467"/>
         <source>Unknown</source>
         <translation>Belirsiz</translation>
     </message>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeviceCartMappingsWidget</class>
+ <widget class="QWidget" name="DeviceCartMappingsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>879</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="PrettySplitter" name="mappingsVerticalSplitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="PrettySplitter" name="mappingsHorizontalSplitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="ClientsWidget" name="clientsWidget" native="true"/>
+      <widget class="SisExplorerWidget" name="sisWidget" native="true"/>
+     </widget>
+     <widget class="ClassroomMappingsWidget" name="mappingsWidget" native="true"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PrettySplitter</class>
+   <extends>QSplitter</extends>
+   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClientsWidget</class>
+   <extends>QWidget</extends>
+   <header>ClientsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SisExplorerWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/SisExplorerWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClassroomMappingsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/ClassroomMappingsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

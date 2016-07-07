@@ -418,6 +418,22 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>description</tabstop>
+  <tabstop>iconList</tabstop>
+  <tabstop>identifier</tabstop>
+  <tabstop>editPayload</tabstop>
+  <tabstop>exportPayload</tabstop>
+  <tabstop>ios</tabstop>
+  <tabstop>osx</tabstop>
+  <tabstop>users</tabstop>
+  <tabstop>system</tabstop>
+  <tabstop>reinstall</tabstop>
+  <tabstop>forceMCX</tabstop>
+  <tabstop>engageBoxAvailable</tabstop>
+  <tabstop>engageTitleEdit</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>

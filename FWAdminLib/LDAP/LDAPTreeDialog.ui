@@ -30,9 +30,20 @@
     <number>0</number>
    </property>
    <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="SearchLineEdit" name="searchField">
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
     <widget class="StyledTreeView" name="treeView">
      <property name="focusPolicy">
-      <enum>Qt::NoFocus</enum>
+      <enum>Qt::StrongFocus</enum>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -78,6 +89,9 @@
       </item>
       <item row="0" column="2">
        <widget class="QPushButton" name="pushButton">
+        <property name="focusPolicy">
+         <enum>Qt::StrongFocus</enum>
+        </property>
         <property name="text">
          <string>Select</string>
         </property>
@@ -94,7 +108,16 @@
    <extends>QTreeView</extends>
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
+  <customwidget>
+   <class>SearchLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>searchField</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

@@ -4,145 +4,145 @@
 <context>
     <name>FW::Catalog</name>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="320"/>
+        <location filename="../../QtClient/Catalog.cpp" line="322"/>
         <source>Checking for new model version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="343"/>
+        <location filename="../../QtClient/Catalog.cpp" line="345"/>
         <source>Check for new model in %1 seconds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="345"/>
+        <location filename="../../QtClient/Catalog.cpp" line="347"/>
         <source>Waiting for push notification</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="610"/>
+        <location filename="../../QtClient/Catalog.cpp" line="620"/>
         <source>Checking Files...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="611"/>
+        <location filename="../../QtClient/Catalog.cpp" line="621"/>
         <source>Verifying Files...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="638"/>
+        <location filename="../../QtClient/Catalog.cpp" line="648"/>
         <source>Verifying %1 of %2 filesets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="698"/>
+        <location filename="../../QtClient/Catalog.cpp" line="716"/>
         <source>Running..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="700"/>
+        <location filename="../../QtClient/Catalog.cpp" line="718"/>
         <source>Finished Verifying Files...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="985"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1004"/>
         <source>Downloading User Manifest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1038"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1057"/>
         <source>Downloading Smart Filter Manifests</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1086"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1104"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1349"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1105"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1123"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1356"/>
         <source>Running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2334"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2375"/>
         <source>Waiting for Booster - filesetID: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2658"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2717"/>
         <source>Downloading Fileset Container (ID %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2766"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2825"/>
         <source>Downloading fileset %1 of %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2754"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2813"/>
         <source>The Hard Disk is Full...Cannot download new Filesets.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1011"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1030"/>
         <source>Downloading Imaging Manifest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2660"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2719"/>
         <source>Processing requirements of fileset %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2802"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2863"/>
         <source>Activating %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2812"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2873"/>
         <source>Activating fileset %1 of %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2848"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2909"/>
         <source>Imaging - Erasing Files...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2858"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2919"/>
         <source>Imaging - Activating Files...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2866"/>
-        <location filename="../../QtClient/Catalog.cpp" line="2867"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2927"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2928"/>
         <source>Rebooting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="2935"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2997"/>
         <source>Installing Software...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3010"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3076"/>
         <source> Installation Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3018"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3084"/>
         <source> Installation Successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3046"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3112"/>
         <source>Making passive %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3255"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3321"/>
         <source>Updating fileset %1 to new version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3544"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3617"/>
         <source>
 **************************
 **FileWave Client Status**
@@ -152,7 +152,7 @@ User ID: %1
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3549"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3622"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -161,13 +161,13 @@ Filesets in Inventory:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3560"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3633"/>
         <source>%1. %2, ID %3 - %4
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3564"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3637"/>
         <source>
 Worklist:
 
@@ -175,23 +175,23 @@ Worklist:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3573"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3646"/>
         <source>&lt;still unknown&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3574"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3647"/>
         <source>%1. %2 (%3 on %4)
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3616"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3689"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3617"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3690"/>
         <source>Executing Remote Wipe</source>
         <translation type="unfinished"></translation>
     </message>
@@ -214,43 +214,43 @@ Worklist:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1187"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1186"/>
         <source>Deleting empty folders of Fileset: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1235"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1234"/>
         <source>Making Fileset: %1 passive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1364"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1363"/>
         <source>Deleting Fileset %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1456"/>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1518"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1455"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1517"/>
         <source>Executing %1...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1458"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1457"/>
         <source>Executing Files...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1574"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1575"/>
         <source>Checking Files..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1617"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1618"/>
         <source>Activating Files..</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1690"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1700"/>
         <source>Running..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -289,33 +289,33 @@ Worklist:
 <context>
     <name>FW::ServerConnection</name>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1150"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1170"/>
         <source>Building list of files to download...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1170"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1190"/>
         <source>Downloading subset for Fileset: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1230"/>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1438"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1250"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1458"/>
         <source>Downloading Fileset: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1363"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1383"/>
         <source>Sending download request to server...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1439"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1459"/>
         <source>Downloading...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1618"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1637"/>
         <source>Sleeping, waiting for download...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -323,7 +323,7 @@ Worklist:
 <context>
     <name>KioskServerController</name>
     <message>
-        <location filename="../../QtClient/kiosk/KioskServerController.cpp" line="297"/>
+        <location filename="../../QtClient/kiosk/KioskServerController.cpp" line="304"/>
         <source>Installing Software...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -331,37 +331,37 @@ Worklist:
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="52"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="53"/>
         <source>checkRequirements</source>
         <comment>ActionRecord</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="53"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="54"/>
         <source>downloadFiles</source>
         <comment>ActionRecord</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="54"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="55"/>
         <source>activateFiles</source>
         <comment>ActionRecord</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="55"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="56"/>
         <source>makeFilesPassive</source>
         <comment>ActionRecord</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="56"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="57"/>
         <source>updateFileset</source>
         <comment>ActionRecord</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="57"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="58"/>
         <source>deleteFiles</source>
         <comment>ActionRecord</comment>
         <translation type="unfinished"></translation>

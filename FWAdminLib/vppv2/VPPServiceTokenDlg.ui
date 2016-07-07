@@ -45,7 +45,7 @@
              <string>The token name will be displayed to the end user when invited to join the organization</string>
             </property>
             <property name="text">
-             <string>Token name</string>
+             <string>Token name:</string>
             </property>
            </widget>
           </item>
@@ -113,6 +113,16 @@
             </property>
            </widget>
           </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>App Store:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="AppStoreLocale" name="localeWidget" native="true"/>
+          </item>
          </layout>
          <zorder>ownerEmailLineEdit</zorder>
          <zorder>tokenNameLineEdit</zorder>
@@ -122,6 +132,8 @@
          <zorder>ownerLabel</zorder>
          <zorder>ownerLineEdit</zorder>
          <zorder>departmentLineEdit</zorder>
+         <zorder>label_4</zorder>
+         <zorder>localeWidget</zorder>
         </widget>
        </item>
        <item>
@@ -174,7 +186,7 @@
            </widget>
           </item>
           <item row="0" column="0" colspan="2">
-           <widget class="QPlainTextEdit" name="token"/>
+           <widget class="TokenPlainTextEdit" name="token"/>
           </item>
          </layout>
         </widget>
@@ -353,6 +365,17 @@ Please wait until all data are fetched and added to FileWave...</string>
    <class>CircularProgressIndicator</class>
    <extends>QWidget</extends>
    <header>FileWaveGuiLib/circularprogressindicator.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TokenPlainTextEdit</class>
+   <extends>QPlainTextEdit</extends>
+   <header>FWAdminLib/vppv2/TokenPlainTextEdit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AppStoreLocale</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/AppStoreLocale.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

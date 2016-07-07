@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EducationPreferencesWidget</class>
+ <widget class="QWidget" name="EducationPreferencesWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
+   <item>
+    <widget class="QTabWidget" name="educationAppTab">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="SisPreferencesWidget" name="sisWidget">
+      <attribute name="title">
+       <string>SIS</string>
+      </attribute>
+     </widget>
+     <widget class="EngagePreferencesWidget" name="engageTab">
+      <attribute name="title">
+       <string>Engage</string>
+      </attribute>
+     </widget>
+     <widget class="ClassroomPreferencesWidget" name="classroomTab">
+      <attribute name="title">
+       <string>Apple Classroom</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>EngagePreferencesWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Preferences/EngagePreferencesWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClassroomPreferencesWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Preferences/ClassroomPreferencesWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SisPreferencesWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Preferences/SisPreferencesWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

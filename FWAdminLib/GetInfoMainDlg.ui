@@ -237,43 +237,43 @@
   <customwidget>
    <class>CGetInfoVerifDlg</class>
    <extends>QWidget</extends>
-   <header>GetInfoVerifDlg.h</header>
+   <header>FWAdminLib/GetInfoVerifDlg.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>CGetInfoACLDlg</class>
    <extends>QWidget</extends>
-   <header>GetInfoACLDlg.h</header>
+   <header>FWAdminLib/GetInfoACLDlg.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>CGetInfoExecuteDlg</class>
    <extends>QWidget</extends>
-   <header>GetInfoExecuteDlg.h</header>
+   <header>FWAdminLib/GetInfoExecuteDlg.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>CGetInfoFlagsDlg</class>
    <extends>QWidget</extends>
-   <header>GetInfoFlagsDlg.h</header>
+   <header>FWAdminLib/GetInfoFlagsDlg.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>CGetInfoPermModeTab</class>
    <extends>QWidget</extends>
-   <header>GetInfoPermModeTab.h</header>
+   <header>FWAdminLib/GetInfoPermModeTab.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>CGetInfoPermOwnershipTab</class>
    <extends>QWidget</extends>
-   <header>GetInfoPermOwnershipTab.h</header>
+   <header>FWAdminLib/GetInfoPermOwnershipTab.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>CGetInfoPermDlg</class>
    <extends>QTabWidget</extends>
-   <header>GetInfoPermDlg.h</header>
+   <header>FWAdminLib/GetInfoPermDlg.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

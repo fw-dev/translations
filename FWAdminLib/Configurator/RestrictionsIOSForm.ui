@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>1588</height>
+    <width>632</width>
+    <height>1697</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -83,6 +83,34 @@
         </widget>
        </item>
        <item>
+        <widget class="QWidget" name="allowScreenCaptureSub" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="leftMargin">
+           <number>25</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="allowClassroomObservation">
+            <property name="text">
+             <string>Allow screen observation by Classroom (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowChat">
          <property name="text">
           <string>Allow use of iMessage (Supervised devices only)</string>
@@ -96,6 +124,16 @@
         <widget class="QCheckBox" name="allowMusicService">
          <property name="text">
           <string>Allow Apple Music (Supervised devices only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowRadioService">
+         <property name="text">
+          <string>Allow Radio (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -675,6 +713,34 @@
         </widget>
        </item>
        <item>
+        <widget class="QWidget" name="widgetAllowDiagnosticSubmissionModification" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="leftMargin">
+           <number>25</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="allowDiagnosticSubmissionModification">
+            <property name="text">
+             <string>Allow modifying diagnostics settings (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowFingerprintForUnlock">
          <property name="text">
           <string>Allow Touch ID to unlock device</string>
@@ -722,6 +788,9 @@
         <widget class="QCheckBox" name="allowKeyboardShortcuts">
          <property name="text">
           <string>Allow keyboard shortcuts (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -978,12 +1047,19 @@
        <item>
         <widget class="QLabel" name="lTipSIngleAppMode">
          <property name="text">
-          <string>Allow these apps to enter single app mode</string>
+          <string>Allow these apps to enter Single App Mode</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QListView" name="SAMList"/>
+        <widget class="QListView" name="SAMList">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout">
@@ -1015,6 +1091,35 @@
           </spacer>
          </item>
         </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelRestrictAppUsage">
+         <property name="text">
+          <string>Restrict App Usage (supervised only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxRestrictAppUsage">
+         <item>
+          <property name="text">
+           <string>Allow all apps</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Only allow the apps below</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Block the apps listed below</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="ItemListWidget" name="widgetRestrictAppUsage" native="true"/>
        </item>
        <item>
         <spacer name="verticalSpacer_2">
@@ -1284,6 +1389,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ItemListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>
@@ -1293,12 +1406,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>96</x>
-     <y>210</y>
+     <x>103</x>
+     <y>44</y>
     </hint>
     <hint type="destinationlabel">
      <x>94</x>
-     <y>236</y>
+     <y>49</y>
     </hint>
    </hints>
   </connection>
@@ -1309,12 +1422,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>94</x>
-     <y>136</y>
+     <x>103</x>
+     <y>40</y>
     </hint>
     <hint type="destinationlabel">
-     <x>81</x>
-     <y>162</y>
+     <x>94</x>
+     <y>45</y>
     </hint>
    </hints>
   </connection>
@@ -1341,12 +1454,28 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>88</x>
-     <y>190</y>
+     <x>103</x>
+     <y>602</y>
     </hint>
     <hint type="destinationlabel">
-     <x>271</x>
-     <y>204</y>
+     <x>286</x>
+     <y>670</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>allowDiagnosticSubmission</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>allowDiagnosticSubmissionModification</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>153</x>
+     <y>1310</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>159</x>
+     <y>1331</y>
     </hint>
    </hints>
   </connection>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>757</width>
-    <height>644</height>
+    <width>779</width>
+    <height>562</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -129,6 +129,24 @@
              </widget>
             </item>
            </layout>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+            </layout>
+           </widget>
           </item>
           <item>
            <layout class="QGridLayout" name="gridLayout_10">
@@ -515,157 +533,17 @@
                </item>
                <item row="1" column="0">
                 <layout class="QGridLayout" name="gridLayout_4">
-                 <item row="7" column="0">
-                  <widget class="QCheckBox" name="checkBox109x">
+                 <item row="6" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI22">
                    <property name="text">
-                    <string>10.9.x</string>
+                    <string>5.1</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="1" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI16">
+                 <item row="5" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI21">
                    <property name="text">
-                    <string>4.1</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="8" column="0">
-                  <widget class="QCheckBox" name="checkBox1010x">
-                   <property name="text">
-                    <string>10.10.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="5" column="1">
-                  <widget class="QCheckBox" name="checkBox81">
-                   <property name="text">
-                    <string>8.1</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="2">
-                  <widget class="QLabel" name="androidLabel">
-                   <property name="text">
-                    <string>Android</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="0">
-                  <widget class="QCheckBox" name="checkBox103x">
-                   <property name="text">
-                    <string>10.3.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="4" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI19">
-                   <property name="text">
-                    <string>4.4</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="4" column="1">
-                  <widget class="QCheckBox" name="checkBox8">
-                   <property name="text">
-                    <string>8</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="2" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI17">
-                   <property name="text">
-                    <string>4.2</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="6" column="0">
-                  <widget class="QCheckBox" name="checkBox108x">
-                   <property name="text">
-                    <string>10.8.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="3" column="1">
-                  <widget class="QCheckBox" name="checkBox7">
-                   <property name="text">
-                    <string>7</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="1">
-                  <widget class="QCheckBox" name="checkBoxXP">
-                   <property name="text">
-                    <string>XP</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="1">
-                  <widget class="QLabel" name="windowsLabel">
-                   <property name="text">
-                    <string>Windows</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="2" column="0">
-                  <widget class="QCheckBox" name="checkBox104x">
-                   <property name="text">
-                    <string>10.4.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="3" column="0">
-                  <widget class="QCheckBox" name="checkBox105x">
-                   <property name="text">
-                    <string>10.5.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="5" column="0">
-                  <widget class="QCheckBox" name="checkBox107x">
-                   <property name="text">
-                    <string>10.7.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="2" column="1">
-                  <widget class="QCheckBox" name="checkBoxVista">
-                   <property name="text">
-                    <string>Vista</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="3" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI18">
-                   <property name="text">
-                    <string>4.3</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="0">
-                  <widget class="QLabel" name="macOSLabel">
-                   <property name="text">
-                    <string>Mac OS</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="3">
-                  <widget class="QCheckBox" name="checkBoxFutureCompatibility">
-                   <property name="text">
-                    <string>Use/install on newer OS versions</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="4" column="0">
-                  <widget class="QCheckBox" name="checkBox106x">
-                   <property name="text">
-                    <string>10.6.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="9" column="0">
-                  <widget class="QCheckBox" name="checkBox1011x">
-                   <property name="text">
-                    <string>10.11.x</string>
+                    <string>5.0</string>
                    </property>
                   </widget>
                  </item>
@@ -676,17 +554,185 @@
                    </property>
                   </widget>
                  </item>
-                 <item row="5" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI21">
+                 <item row="9" column="0">
+                  <widget class="QCheckBox" name="checkBox1011x">
                    <property name="text">
-                    <string>5.0</string>
+                    <string>10.11.x</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="6" column="2">
-                  <widget class="QCheckBox" name="checkBoxAPI22">
+                 <item row="4" column="0">
+                  <widget class="QCheckBox" name="checkBox106x">
                    <property name="text">
-                    <string>5.1</string>
+                    <string>10.6.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="4">
+                  <widget class="QCheckBox" name="checkBoxFutureCompatibility">
+                   <property name="text">
+                    <string>Use/install on newer OS versions</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="macOSLabel">
+                   <property name="text">
+                    <string>OS X</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI18">
+                   <property name="text">
+                    <string>4.3</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QCheckBox" name="checkBoxVista">
+                   <property name="text">
+                    <string>Vista</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="0">
+                  <widget class="QCheckBox" name="checkBox107x">
+                   <property name="text">
+                    <string>10.7.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="0">
+                  <widget class="QCheckBox" name="checkBox105x">
+                   <property name="text">
+                    <string>10.5.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QCheckBox" name="checkBox104x">
+                   <property name="text">
+                    <string>10.4.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLabel" name="windowsLabel">
+                   <property name="text">
+                    <string>Windows</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QCheckBox" name="checkBoxXP">
+                   <property name="text">
+                    <string>XP</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="1">
+                  <widget class="QCheckBox" name="checkBox7">
+                   <property name="text">
+                    <string>7</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="6" column="0">
+                  <widget class="QCheckBox" name="checkBox108x">
+                   <property name="text">
+                    <string>10.8.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI17">
+                   <property name="text">
+                    <string>4.2</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="1">
+                  <widget class="QCheckBox" name="checkBox8">
+                   <property name="text">
+                    <string>8</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI19">
+                   <property name="text">
+                    <string>4.4</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QCheckBox" name="checkBox103x">
+                   <property name="text">
+                    <string>10.3.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QLabel" name="androidLabel">
+                   <property name="text">
+                    <string>Android</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="1">
+                  <widget class="QCheckBox" name="checkBox81">
+                   <property name="text">
+                    <string>8.1</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="8" column="0">
+                  <widget class="QCheckBox" name="checkBox1010x">
+                   <property name="text">
+                    <string>10.10.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI16">
+                   <property name="text">
+                    <string>4.1</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="7" column="0">
+                  <widget class="QCheckBox" name="checkBox109x">
+                   <property name="text">
+                    <string>10.9.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLabel" name="winServerLabel">
+                   <property name="text">
+                    <string>Windows Server</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QCheckBox" name="checkBoxSrv2008r2">
+                   <property name="text">
+                    <string>2008 R2</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="2">
+                  <widget class="QCheckBox" name="checkBoxSrv2012">
+                   <property name="text">
+                    <string>2012</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="2">
+                  <widget class="QCheckBox" name="checkBoxSrv2012r2">
+                   <property name="text">
+                    <string>2012 R2</string>
                    </property>
                   </widget>
                  </item>
@@ -782,7 +828,7 @@
           <item>
            <widget class="QCheckBox" name="checkBoxApplyToActive">
             <property name="text">
-             <string>Apply to Active Filesets</string>
+             <string>Evaluate requirements on change and uninstall active Fileset if they failed</string>
             </property>
            </widget>
           </item>

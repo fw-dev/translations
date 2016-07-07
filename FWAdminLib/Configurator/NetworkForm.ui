@@ -754,13 +754,6 @@
            </layout>
           </item>
           <item>
-           <widget class="QCheckBox" name="TLSCertificateIsRequired">
-            <property name="text">
-             <string>TLS Certificate is Required</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <widget class="QWidget" name="widgetEAPFAST" native="true">
             <property name="minimumSize">
              <size>
@@ -869,12 +862,44 @@
               <number>0</number>
              </property>
              <property name="bottomMargin">
-              <number>12</number>
+              <number>0</number>
              </property>
              <item>
               <widget class="QCheckBox" name="checkUseTwoFactorAuthentication">
                <property name="text">
                 <string>Use Two Factor Authentication</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetUseDirectoryAuthentication" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_21">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="checkBoxUseDirectoryAuthentication">
+               <property name="text">
+                <string>Use Directory Authentication</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipUseDirectoryAuthentication">
+               <property name="text">
+                <string>Authenticate with the target's machine directory credentials</string>
                </property>
               </widget>
              </item>
