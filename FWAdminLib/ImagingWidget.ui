@@ -88,10 +88,10 @@
              </property>
              <item>
               <property name="text">
-               <string>Mac OSX</string>
+               <string>macOS</string>
               </property>
               <property name="icon">
-               <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+               <iconset>
                 <normaloff>:/IDI_ICON_CLIENT_VIEW_OSX_64</normaloff>:/IDI_ICON_CLIENT_VIEW_OSX_64</iconset>
               </property>
              </item>
@@ -100,7 +100,7 @@
                <string>Windows</string>
               </property>
               <property name="icon">
-               <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+               <iconset>
                 <normaloff>:/IDI_ICON_CLIENT_VIEW_WIN_64</normaloff>:/IDI_ICON_CLIENT_VIEW_WIN_64</iconset>
               </property>
              </item>
@@ -369,12 +369,6 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>FilesetListWidget</class>
-   <extends>QWidget</extends>
-   <header>FWAdminLib/FilesetListWidget.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
@@ -383,6 +377,12 @@
    <class>ViewSearchHeader</class>
    <extends>QWidget</extends>
    <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FilesetListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/FilesetListWidget.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
@@ -397,8 +397,6 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources>
-  <include location="../FileWaveGuiLib/GuiLib.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

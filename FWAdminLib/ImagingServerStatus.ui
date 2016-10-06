@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>641</width>
-    <height>260</height>
+    <height>272</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,11 +17,7 @@
    <item>
     <layout class="QGridLayout" name="gridLayout">
      <item row="5" column="1">
-      <widget class="OnlineStatus" name="osAdmin">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osAdmin"/>
      </item>
      <item row="1" column="2">
       <widget class="QLabel" name="lbClientStatus">
@@ -84,25 +80,13 @@
       </widget>
      </item>
      <item row="4" column="1">
-      <widget class="OnlineStatus" name="osServer">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osServer"/>
      </item>
      <item row="3" column="1">
-      <widget class="OnlineStatus" name="osInventory">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osInventory"/>
      </item>
      <item row="6" column="1">
-      <widget class="OnlineStatus" name="osWindows">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osWindows"/>
      </item>
      <item row="4" column="2">
       <widget class="QLabel" name="lbServer">
@@ -125,11 +109,7 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="OnlineStatus" name="osClientStatus">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osClientStatus"/>
      </item>
      <item row="3" column="0">
       <widget class="QLabel" name="label_3">
@@ -141,7 +121,7 @@
      <item row="2" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>NBI for OS X imaging:</string>
+        <string>NBI for macOS imaging:</string>
        </property>
       </widget>
      </item>
@@ -153,11 +133,7 @@
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="OnlineStatus" name="osNBI">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osNBI"/>
      </item>
      <item row="6" column="2">
       <widget class="QLabel" name="lbWindows">
@@ -186,11 +162,7 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="OnlineStatus" name="osVersion">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
+      <widget class="OnlineStatus" name="osVersion"/>
      </item>
      <item row="0" column="2">
       <widget class="QLabel" name="lbVersion">

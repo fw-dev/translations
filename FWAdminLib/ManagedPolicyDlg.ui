@@ -176,7 +176,7 @@
           <item>
            <widget class="QLabel" name="osxOnlyLabel">
             <property name="text">
-             <string>Policy Filesets only apply to Clients running Mac OS X</string>
+             <string>Policy Filesets only apply to Clients running macOS</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoostersWidget</class>
+ <widget class="QWidget" name="BoostersWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>931</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="FTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <property name="usesScrollButtons">
+      <bool>false</bool>
+     </property>
+     <property name="documentMode">
+      <bool>true</bool>
+     </property>
+     <widget class="BoosterStatusCardsWidget" name="boosterStatusTab">
+      <attribute name="title">
+       <string>Boosters</string>
+      </attribute>
+     </widget>
+     <widget class="BoosterStatusDetailsWidget" name="boosterDetailsTab">
+      <attribute name="title">
+       <string>Booster Details</string>
+      </attribute>
+     </widget>
+     <widget class="DiscoveryResultsWidget" name="discoveryResultsTab">
+      <attribute name="title">
+       <string>Discovery Results</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FTabWidget</class>
+   <extends>QTabWidget</extends>
+   <header>FileWaveGuiLib/FTabWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DiscoveryResultsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Discovery/DiscoveryResultsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BoosterStatusCardsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Discovery/BoosterStatusCardsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BoosterStatusDetailsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Discovery/BoosterStatusDetailsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

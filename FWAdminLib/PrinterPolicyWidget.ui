@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>643</width>
-    <height>492</height>
+    <height>504</height>
    </rect>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -293,7 +293,7 @@
                  <item>
                   <widget class="QCheckBox" name="userModifyBox">
                    <property name="text">
-                    <string>Allow user to modify the printer list (OS X 10.4 or earlier)</string>
+                    <string>Allow user to modify the printer list (macOS 10.4 or earlier)</string>
                    </property>
                   </widget>
                  </item>
@@ -439,7 +439,7 @@
        <item>
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>Settings Apply to Mac OS X 10.5 or later</string>
+          <string>Settings Apply to macOS 10.5 or later</string>
          </property>
         </widget>
        </item>

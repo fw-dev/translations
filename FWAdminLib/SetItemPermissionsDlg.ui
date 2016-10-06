@@ -53,9 +53,18 @@
      <property name="alternatingRowColors">
       <bool>true</bool>
      </property>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <property name="itemsExpandable">
+      <bool>false</bool>
+     </property>
+     <property name="expandsOnDoubleClick">
+      <bool>false</bool>
+     </property>
      <column>
       <property name="text">
-       <string>LoginName</string>
+       <string>Account Name</string>
       </property>
      </column>
      <column>

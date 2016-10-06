@@ -183,7 +183,7 @@
        <item>
         <widget class="QLabel" name="lTip_eject">
          <property name="text">
-          <string>Opens a dialog box for finding servers on the network</string>
+          <string>Ejects removable media and mountable volumes</string>
          </property>
         </widget>
        </item>

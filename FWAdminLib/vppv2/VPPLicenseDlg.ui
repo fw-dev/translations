@@ -84,7 +84,7 @@
        </property>
        <property name="text">
         <string>This license is defined by your Managed Distribution account.
-Usage count concerns iOS 7+ or OS X 10.9+ devices only.</string>
+Usage count concerns iOS 7+ or macOS 10.9+ devices only.</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>

@@ -31,20 +31,7 @@
      </item>
      <item>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="1" column="2">
-        <widget class="QSpinBox" name="booster1PortSB">
-         <property name="minimum">
-          <number>0</number>
-         </property>
-         <property name="maximum">
-          <number>65535</number>
-         </property>
-         <property name="value">
-          <number>20013</number>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
+       <item row="4" column="2">
         <widget class="QSpinBox" name="booster3PortSB">
          <property name="minimum">
           <number>0</number>
@@ -57,7 +44,7 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="2">
+       <item row="3" column="2">
         <widget class="QSpinBox" name="booster2PortSB">
          <property name="minimum">
           <number>0</number>
@@ -70,19 +57,19 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="4">
+       <item row="5" column="4">
         <widget class="BonjourServiceView" name="bonjourView4"/>
        </item>
-       <item row="1" column="1">
+       <item row="2" column="1">
         <widget class="QLineEdit" name="booster1AddED"/>
        </item>
-       <item row="3" column="1">
-        <widget class="QLineEdit" name="booster3AddED"/>
-       </item>
-       <item row="5" column="1">
+       <item row="6" column="1">
         <widget class="QLineEdit" name="booster5AddED"/>
        </item>
-       <item row="4" column="2">
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="booster3AddED"/>
+       </item>
+       <item row="5" column="2">
         <widget class="QSpinBox" name="booster4PortSB">
          <property name="minimum">
           <number>0</number>
@@ -95,10 +82,78 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="4">
-        <widget class="BonjourServiceView" name="bonjourView1"/>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Booster 4:</string>
+         </property>
+        </widget>
        </item>
-       <item row="0" column="1">
+       <item row="1" column="2">
+        <widget class="QLabel" name="boosterPortLA">
+         <property name="text">
+          <string>Port</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Publish Port</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QSpinBox" name="booster1PubPortSB">
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QSpinBox" name="booster2PubPortSB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QSpinBox" name="booster3PubPortSB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QSpinBox" name="booster4PubPortSB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QSpinBox" name="booster5PubPortSB">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
         <widget class="QLabel" name="boosterAddressLA">
          <property name="text">
           <string>IP or DNS Address</string>
@@ -108,14 +163,20 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="0">
+       <item row="2" column="4">
+        <widget class="BonjourServiceView" name="bonjourView1"/>
+       </item>
+       <item row="6" column="4">
+        <widget class="BonjourServiceView" name="bonjourView5"/>
+       </item>
+       <item row="3" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
           <string>Booster 2:</string>
          </property>
         </widget>
        </item>
-       <item row="5" column="2">
+       <item row="6" column="2">
         <widget class="QSpinBox" name="booster5PortSB">
          <property name="minimum">
           <number>0</number>
@@ -128,110 +189,56 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="4">
-        <widget class="BonjourServiceView" name="bonjourView5"/>
-       </item>
-       <item row="2" column="4">
+       <item row="3" column="4">
         <widget class="BonjourServiceView" name="bonjourView2"/>
        </item>
-       <item row="3" column="4">
-        <widget class="BonjourServiceView" name="bonjourView3"/>
-       </item>
-       <item row="2" column="1">
+       <item row="3" column="1">
         <widget class="QLineEdit" name="booster2AddED"/>
        </item>
-       <item row="4" column="1">
+       <item row="4" column="4">
+        <widget class="BonjourServiceView" name="bonjourView3"/>
+       </item>
+       <item row="5" column="1">
         <widget class="QLineEdit" name="booster4AddED"/>
        </item>
-       <item row="3" column="0">
+       <item row="4" column="0">
         <widget class="QLabel" name="label_3">
          <property name="text">
           <string>Booster 3:</string>
          </property>
         </widget>
        </item>
-       <item row="5" column="0">
+       <item row="6" column="0">
         <widget class="QLabel" name="label_5">
          <property name="text">
           <string>Booster 5:</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
+       <item row="2" column="2">
+        <widget class="QSpinBox" name="booster1PortSB">
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>65535</number>
+         </property>
+         <property name="value">
+          <number>20013</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
         <widget class="QLabel" name="label">
          <property name="text">
           <string>Booster 1:</string>
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_4">
+       <item row="0" column="1" colspan="3">
+        <widget class="QCheckBox" name="boosterRouting">
          <property name="text">
-          <string>Booster 4:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLabel" name="boosterPortLA">
-         <property name="text">
-          <string>Port</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="3">
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>Publish Port</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="3">
-        <widget class="QSpinBox" name="booster1PubPortSB">
-         <property name="maximum">
-          <number>65535</number>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="3">
-        <widget class="QSpinBox" name="booster2PubPortSB">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="maximum">
-          <number>65535</number>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="3">
-        <widget class="QSpinBox" name="booster3PubPortSB">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="maximum">
-          <number>65535</number>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="3">
-        <widget class="QSpinBox" name="booster4PubPortSB">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="maximum">
-          <number>65535</number>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="3">
-        <widget class="QSpinBox" name="booster5PubPortSB">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="maximum">
-          <number>65535</number>
+          <string>Route server messages via Boosters</string>
          </property>
         </widget>
        </item>
@@ -275,6 +282,7 @@
   </customwidget>
  </customwidgets>
  <tabstops>
+  <tabstop>boosterRouting</tabstop>
   <tabstop>booster1AddED</tabstop>
   <tabstop>booster1PortSB</tabstop>
   <tabstop>booster1PubPortSB</tabstop>

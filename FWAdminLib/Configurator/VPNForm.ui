@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>493</width>
-    <height>4112</height>
+    <height>4159</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -56,7 +56,7 @@
        </item>
        <item>
         <property name="text">
-         <string>PPTP</string>
+         <string>PPTP (iOS 9 and OS X 10.11 and earlier)</string>
         </property>
        </item>
        <item>
@@ -139,7 +139,7 @@
       <item>
        <widget class="QCheckBox" name="checkAlwaysOn">
         <property name="text">
-         <string>Always On (supervised only)</string>
+         <string>Always-on VPN (iOS supervised only)</string>
         </property>
        </widget>
       </item>
@@ -276,23 +276,6 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_8">
-        <property name="text">
-         <string>Local Identifier</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTip_28">
-        <property name="text">
-         <string>FQDN, UserFQDN, Address or ASN1DN local identifier</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="ike2LocalIdentifierLE"/>
-      </item>
-      <item>
        <widget class="QLabel" name="label_23">
         <property name="text">
          <string>Remote Identifier</string>
@@ -300,7 +283,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="lTip_29">
+       <widget class="QLabel" name="lTipRemoteIdentifier">
         <property name="text">
          <string>FQDN, UserFQDN, Address or ASN1DN remote identifier</string>
         </property>
@@ -308,6 +291,23 @@
       </item>
       <item>
        <widget class="QLineEdit" name="ike2RemoteIdentifierLE"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Local Identifier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipLocalIdentifier">
+        <property name="text">
+         <string>FQDN, UserFQDN, Address or ASN1DN local identifier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ike2LocalIdentifierLE"/>
       </item>
      </layout>
     </widget>
@@ -709,7 +709,7 @@
            <item>
             <widget class="QRadioButton" name="certificateRadioButton">
              <property name="text">
-              <string>Certificate (OS X only)</string>
+              <string>Certificate (macOS only)</string>
              </property>
             </widget>
            </item>
@@ -743,7 +743,7 @@
            <item>
             <widget class="QRadioButton" name="kerberosRadioButton">
              <property name="text">
-              <string>Kerberos (OS X only)</string>
+              <string>Kerberos (macOS only)</string>
              </property>
             </widget>
            </item>
@@ -767,7 +767,7 @@
            <item>
             <widget class="QRadioButton" name="cryptoCardRadioButton">
              <property name="text">
-              <string>CryptoCard (OS X only)</string>
+              <string>CryptoCard (macOS only)</string>
              </property>
             </widget>
            </item>
@@ -957,6 +957,13 @@
       <property name="bottomMargin">
        <number>0</number>
       </property>
+      <item>
+       <widget class="QLabel" name="labelCredential">
+        <property name="text">
+         <string>Credential</string>
+        </property>
+       </widget>
+      </item>
       <item>
        <widget class="QLabel" name="lTip_19">
         <property name="text">
@@ -1249,7 +1256,7 @@
          <item>
           <widget class="QLabel" name="lTip_18">
            <property name="text">
-            <string>Prompt for password on the device</string>
+            <string>Prompt user for password on the device</string>
            </property>
           </widget>
          </item>
@@ -1553,6 +1560,13 @@
       <property name="bottomMargin">
        <number>0</number>
       </property>
+      <item row="7" column="0" colspan="2">
+       <widget class="QLabel" name="lTip_31">
+        <property name="text">
+         <string>Interval at which keepalive should be sent</string>
+        </property>
+       </widget>
+      </item>
       <item row="9" column="0">
        <widget class="QCheckBox" name="checkDisableRedirects">
         <property name="text">
@@ -1564,13 +1578,6 @@
        <widget class="QCheckBox" name="checkDisableMobility">
         <property name="text">
          <string>Disable Mobility and Multlhoming</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="0" colspan="2">
-       <widget class="QLabel" name="lTip_31">
-        <property name="text">
-         <string>Interval at which keepalive should be sent</string>
         </property>
        </widget>
       </item>
@@ -1607,7 +1614,7 @@
           <widget class="QComboBox" name="comboEapAuthenticationType">
            <item>
             <property name="text">
-             <string>Username/Password</string>
+             <string>User name/Password</string>
             </property>
            </item>
            <item>
@@ -1838,33 +1845,10 @@
         </layout>
        </widget>
       </item>
-      <item row="8" column="1">
-       <spacer name="horizontalSpacer_14">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>348</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="12" column="0">
-       <widget class="QCheckBox" name="checkEnablePFS">
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="checkUseIPv4">
         <property name="text">
-         <string>Enable perfect forward secrecy</string>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0" colspan="2">
-       <widget class="QLabel" name="label_24">
-        <property name="text">
-         <string>Dead Peer Detection Interval</string>
+         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
         </property>
        </widget>
       </item>
@@ -1875,14 +1859,40 @@
         </property>
        </widget>
       </item>
-      <item row="11" column="0">
-       <widget class="QCheckBox" name="checkUseIPv4">
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkEnableEAP">
         <property name="text">
-         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
+         <string>Enable EAP</string>
         </property>
        </widget>
       </item>
-      <item row="15" column="0" colspan="2">
+      <item row="8" column="0">
+       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
+      </item>
+      <item row="15" column="0">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>10</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>Dead Peer Detection Interval</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0" colspan="2">
        <widget class="QTabWidget" name="tabWidget">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -1905,6 +1915,29 @@
         </widget>
        </widget>
       </item>
+      <item row="12" column="0">
+       <widget class="QCheckBox" name="checkEnablePFS">
+        <property name="text">
+         <string>Enable perfect forward secrecy</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <spacer name="horizontalSpacer_14">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>348</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
       <item row="13" column="0">
        <widget class="QCheckBox" name="checkEnableCertificateRevocationCheck">
         <property name="text">
@@ -1912,30 +1945,67 @@
         </property>
        </widget>
       </item>
-      <item row="8" column="0">
-       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
-      </item>
-      <item row="14" column="0">
-       <spacer name="verticalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Fixed</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>10</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="checkEnableEAP">
-        <property name="text">
-         <string>Enable EAP</string>
-        </property>
+      <item row="14" column="0" colspan="2">
+       <widget class="QWidget" name="widgetNAT" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_37">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBoxEnableNATKeepalive">
+           <property name="text">
+            <string>Enable NAT keepalive while the device is asleep</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelNATKeepaliveInterval">
+           <property name="text">
+            <string>NAT Keepalive Interval</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipNATThreshold">
+           <property name="text">
+            <string>The minimum threshold is 20 seconds</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutNAT" stretch="1,3">
+           <item>
+            <widget class="QLineEdit" name="lineEditNATThreshold">
+             <property name="text">
+              <string>110</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_21">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
        </widget>
       </item>
      </layout>

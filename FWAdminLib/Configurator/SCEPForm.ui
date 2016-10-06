@@ -316,7 +316,7 @@
    <item row="24" column="0">
     <widget class="QLabel" name="CertificateExpirationTitle">
      <property name="text">
-      <string>Certificate Expiration Notification Threshold (OS X only)</string>
+      <string>Certificate Expiration Notification Threshold (macOS only)</string>
      </property>
     </widget>
    </item>

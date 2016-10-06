@@ -7,13 +7,16 @@
     <x>0</x>
     <y>0</y>
     <width>611</width>
-    <height>663</height>
+    <height>641</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="HostnameField"/>
+   </item>
    <item row="0" column="0">
     <widget class="QLabel" name="DescriptionTitle">
      <property name="text">
@@ -21,108 +24,7 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
-    <widget class="QLabel" name="lTipDescription">
-     <property name="text">
-      <string>The display name of the account (e.g. &quot;Company LDAP Account&quot;)</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="0">
-    <widget class="QLineEdit" name="DescriptionField"/>
-   </item>
-   <item row="3" column="0">
-    <widget class="QLabel" name="UsernameTitle">
-     <property name="text">
-      <string>Account Username</string>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="0">
-    <widget class="QLabel" name="lTipUsername">
-     <property name="text">
-      <string>The username for this LDAP account</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="5" column="0">
-    <widget class="QLineEdit" name="UsernameField"/>
-   </item>
-   <item row="6" column="0">
-    <widget class="QLabel" name="PasswordTitle">
-     <property name="text">
-      <string>Account Password</string>
-     </property>
-    </widget>
-   </item>
-   <item row="7" column="0">
-    <widget class="QLabel" name="lTipPassword">
-     <property name="text">
-      <string>The password for this LDAP account</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="8" column="0">
-    <widget class="QLineEdit" name="PasswordField">
-     <property name="echoMode">
-      <enum>QLineEdit::Password</enum>
-     </property>
-    </widget>
-   </item>
-   <item row="9" column="0">
-    <widget class="QLabel" name="HostnameTitle">
-     <property name="text">
-      <string>Account Hostname</string>
-     </property>
-    </widget>
-   </item>
-   <item row="10" column="0">
-    <widget class="QLabel" name="lTipHostname">
-     <property name="text">
-      <string>The LDAP hostname or IP address</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="11" column="0">
-    <widget class="QLineEdit" name="HostnameField"/>
-   </item>
-   <item row="12" column="0">
-    <widget class="QCheckBox" name="SSLField">
-     <property name="text">
-      <string>Use SSL</string>
-     </property>
-    </widget>
-   </item>
-   <item row="13" column="0">
-    <widget class="QLabel" name="SearchTitle">
-     <property name="text">
-      <string>Search Settings</string>
-     </property>
-    </widget>
-   </item>
-   <item row="14" column="0">
-    <widget class="QLabel" name="lTipSearch">
-     <property name="text">
-      <string>Search settings for this LDAP server</string>
-     </property>
-    </widget>
-   </item>
-   <item row="15" column="0">
-    <widget class="FWTreeView" name="SearchView"/>
-   </item>
-   <item row="16" column="0">
+   <item row="17" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QToolButton" name="addSearchSetting">
@@ -153,6 +55,128 @@
      </item>
     </layout>
    </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="UsernameTitle">
+     <property name="text">
+      <string>Account Username</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="lTipSearch">
+     <property name="text">
+      <string>Search settings for this LDAP server</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="HostnameTitle">
+     <property name="text">
+      <string>Account Hostname</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipUsername">
+     <property name="text">
+      <string>The username for this LDAP account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLineEdit" name="PasswordField">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0">
+    <widget class="FWTreeView" name="SearchView"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="lTipHostname">
+     <property name="text">
+      <string>The LDAP hostname or IP address</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipDescription">
+     <property name="text">
+      <string>The display name of the account (e.g. &quot;Company LDAP Account&quot;)</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLabel" name="SearchTitle">
+     <property name="text">
+      <string>Search Settings</string>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="0">
+    <widget class="QLabel" name="lTipDefaultApp">
+     <property name="text">
+      <string>Default app to be used when calling contacts from this account</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QCheckBox" name="SSLField">
+     <property name="text">
+      <string>Use SSL</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="PasswordTitle">
+     <property name="text">
+      <string>Account Password</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="DescriptionField"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="lTipPassword">
+     <property name="text">
+      <string>The password for this LDAP account</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="UsernameField"/>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="lTipSSL">
+     <property name="text">
+      <string>Enable Secure Socker Layer for this connection</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="0">
+    <widget class="QLabel" name="labelCommunicationServiceRules">
+     <property name="text">
+      <string>Communication Service Rules</string>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0">
+    <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
+   </item>
   </layout>
  </widget>
  <customwidgets>
@@ -160,6 +184,12 @@
    <class>FWTreeView</class>
    <extends>QTreeView</extends>
    <header>FWAdminLib/views/FWTreeView.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AppPickerWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

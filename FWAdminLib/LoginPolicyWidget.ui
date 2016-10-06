@@ -93,7 +93,7 @@
          <item>
           <widget class="QLabel" name="tenFourLabel">
            <property name="text">
-            <string>Settings apply to Mac OS X v10.4 or later</string>
+            <string>Settings apply to macOS v10.4 or later</string>
            </property>
           </widget>
          </item>

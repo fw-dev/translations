@@ -109,26 +109,7 @@
           </widget>
          </item>
          <item row="0" column="4">
-          <widget class="OnlineStatus" name="imagingConnected">
-           <property name="minimumSize">
-            <size>
-             <width>24</width>
-             <height>24</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>24</width>
-             <height>24</height>
-            </size>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="scaledContents">
-            <bool>false</bool>
-           </property>
-          </widget>
+          <widget class="OnlineStatus" name="imagingConnected"/>
          </item>
          <item row="0" column="5">
           <widget class="CircularProgressIndicator" name="imagingServerProgress" native="true">

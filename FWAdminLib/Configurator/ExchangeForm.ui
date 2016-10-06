@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>555</width>
-    <height>1434</height>
+    <height>1537</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    <item>
     <widget class="QLabel" name="lAccountDescription">
      <property name="text">
@@ -159,6 +159,20 @@
     </widget>
    </item>
    <item>
+    <widget class="QCheckBox" name="checkBoxAllowMailDrop">
+     <property name="text">
+      <string>Allow Mail Drop</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowMailDrop">
+     <property name="text">
+      <string>Allow Mail Drop for this account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QCheckBox" name="checkUseOnlyMail">
      <property name="text">
       <string>Use Only in Mail</string>
@@ -208,7 +222,7 @@
       <number>0</number>
      </property>
      <widget class="QWidget" name="page">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -450,19 +464,6 @@
          </layout>
         </widget>
        </item>
-       <item>
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="page_2">
@@ -640,8 +641,46 @@
      </widget>
     </widget>
    </item>
+   <item>
+    <widget class="QLabel" name="CommunicationServiceRulesTitle">
+     <property name="text">
+      <string>Communication Service Rules</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipCommunicationServiceRules">
+     <property name="text">
+      <string>Default app to be used when calling contacts from this account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AppPickerWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

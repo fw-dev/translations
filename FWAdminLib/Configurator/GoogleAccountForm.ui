@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoogleAccountForm</class>
+ <widget class="QWidget" name="GoogleAccountForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0">
+   <item>
+    <widget class="QLabel" name="lAccountDescription">
+     <property name="text">
+      <string>Account Description</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAccountDescription">
+     <property name="text">
+      <string>The display name of the account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editAccountDescription">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lAccountName">
+     <property name="text">
+      <string>Account Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAccountName">
+     <property name="text">
+      <string>The full name of the user for the account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editAccountName"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lEmailAddress">
+     <property name="text">
+      <string>Email Address</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipEmailAddress">
+     <property name="text">
+      <string>The Google email address of the account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editEmailAddress"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lCommunicationServiceRules">
+     <property name="text">
+      <string>Communication Service Rules</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDefaultApp">
+     <property name="text">
+      <string>Default app to be used when calling contacts from this account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AppPickerWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

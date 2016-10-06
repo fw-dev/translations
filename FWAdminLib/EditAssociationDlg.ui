@@ -100,186 +100,246 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
       <attribute name="title">
        <string>Timing</string>
       </attribute>
-      <layout class="QGridLayout" name="gridLayout">
+      <layout class="QGridLayout" name="gridLayout_2">
        <property name="leftMargin">
         <number>0</number>
        </property>
        <property name="rightMargin">
         <number>0</number>
        </property>
-       <property name="bottomMargin">
-        <number>0</number>
-       </property>
-       <item row="1" column="1">
-        <layout class="QVBoxLayout" name="deleteionLayout">
-         <item>
-          <widget class="QCheckBox" name="deletionCB">
-           <property name="text">
-            <string>Delete files at:</string>
-           </property>
-          </widget>
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="timingTabInnerGridLayout">
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="downloadLayout">
+           <item>
+            <widget class="QCheckBox" name="startDownloadCB">
+             <property name="text">
+              <string>Start downloading at:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="startDownloadDT">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="wrapping">
+              <bool>false</bool>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="accelerated">
+              <bool>false</bool>
+             </property>
+             <property name="keyboardTracking">
+              <bool>true</bool>
+             </property>
+             <property name="dateTime">
+              <datetime>
+               <hour>0</hour>
+               <minute>0</minute>
+               <second>0</second>
+               <year>1752</year>
+               <month>9</month>
+               <day>14</day>
+              </datetime>
+             </property>
+             <property name="date">
+              <date>
+               <year>1752</year>
+               <month>9</month>
+               <day>14</day>
+              </date>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
-         <item>
-          <widget class="QDateTimeEdit" name="deletionDT">
-           <property name="enabled">
-            <bool>false</bool>
+         <item row="0" column="1">
+          <layout class="QVBoxLayout" name="activateLayout">
+           <item>
+            <widget class="QCheckBox" name="activateCB">
+             <property name="text">
+              <string>Activate files at:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="activateDT">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="date">
+              <date>
+               <year>1752</year>
+               <month>9</month>
+               <day>14</day>
+              </date>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QVBoxLayout" name="passiveLayout">
+           <item>
+            <widget class="QCheckBox" name="passiveCB">
+             <property name="text">
+              <string>Make files inactive at:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="passiveDT">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="keyboardTracking">
+              <bool>false</bool>
+             </property>
+             <property name="date">
+              <date>
+               <year>1752</year>
+               <month>9</month>
+               <day>14</day>
+              </date>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="1">
+          <layout class="QVBoxLayout" name="deleteionLayout">
+           <item>
+            <widget class="QCheckBox" name="deletionCB">
+             <property name="text">
+              <string>Delete files at:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="deletionDT">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="date">
+              <date>
+               <year>1752</year>
+               <month>9</month>
+               <day>14</day>
+              </date>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QVBoxLayout" name="rebootDeadlineLayout">
+           <item>
+            <widget class="QCheckBox" name="rebootDeadlineCB">
+             <property name="text">
+              <string>Reboot deadline at:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateTimeEdit" name="rebootDeadlineDT">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="frame">
+              <bool>false</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="date">
+              <date>
+               <year>1752</year>
+               <month>9</month>
+               <day>14</day>
+              </date>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="1">
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
            </property>
-           <property name="frame">
-            <bool>false</bool>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
            </property>
-           <property name="buttonSymbols">
-            <enum>QAbstractSpinBox::NoButtons</enum>
-           </property>
-           <property name="date">
-            <date>
-             <year>1752</year>
-             <month>9</month>
-             <day>14</day>
-            </date>
-           </property>
-           <property name="calendarPopup">
-            <bool>true</bool>
-           </property>
-          </widget>
+          </spacer>
          </item>
         </layout>
        </item>
        <item row="1" column="0">
-        <layout class="QVBoxLayout" name="passiveLayout">
-         <item>
-          <widget class="QCheckBox" name="passiveCB">
-           <property name="text">
-            <string>Make files inactive at:</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QDateTimeEdit" name="passiveDT">
-           <property name="enabled">
-            <bool>false</bool>
-           </property>
-           <property name="frame">
-            <bool>false</bool>
-           </property>
-           <property name="buttonSymbols">
-            <enum>QAbstractSpinBox::NoButtons</enum>
-           </property>
-           <property name="keyboardTracking">
-            <bool>false</bool>
-           </property>
-           <property name="date">
-            <date>
-             <year>1752</year>
-             <month>9</month>
-             <day>14</day>
-            </date>
-           </property>
-           <property name="calendarPopup">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="0" column="0">
-        <layout class="QVBoxLayout" name="downloadLayout">
-         <item>
-          <widget class="QCheckBox" name="startDownloadCB">
-           <property name="text">
-            <string>Start downloading at:</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QDateTimeEdit" name="startDownloadDT">
-           <property name="enabled">
-            <bool>false</bool>
-           </property>
-           <property name="wrapping">
-            <bool>false</bool>
-           </property>
-           <property name="frame">
-            <bool>false</bool>
-           </property>
-           <property name="buttonSymbols">
-            <enum>QAbstractSpinBox::NoButtons</enum>
-           </property>
-           <property name="accelerated">
-            <bool>false</bool>
-           </property>
-           <property name="keyboardTracking">
-            <bool>true</bool>
-           </property>
-           <property name="dateTime">
-            <datetime>
-             <hour>0</hour>
-             <minute>0</minute>
-             <second>0</second>
-             <year>1752</year>
-             <month>9</month>
-             <day>14</day>
-            </datetime>
-           </property>
-           <property name="date">
-            <date>
-             <year>1752</year>
-             <month>9</month>
-             <day>14</day>
-            </date>
-           </property>
-           <property name="calendarPopup">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="0" column="1">
-        <layout class="QVBoxLayout" name="activateLayout">
-         <item>
-          <widget class="QCheckBox" name="activateCB">
-           <property name="text">
-            <string>Activate files at:</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QDateTimeEdit" name="activateDT">
-           <property name="enabled">
-            <bool>false</bool>
-           </property>
-           <property name="frame">
-            <bool>false</bool>
-           </property>
-           <property name="buttonSymbols">
-            <enum>QAbstractSpinBox::NoButtons</enum>
-           </property>
-           <property name="date">
-            <date>
-             <year>1752</year>
-             <month>9</month>
-             <day>14</day>
-            </date>
-           </property>
-           <property name="calendarPopup">
-            <bool>true</bool>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="2" column="1">
-        <spacer name="verticalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+        <widget class="QLabel" name="rebootDeadlineLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <property name="sizeHint" stdset="0">
+         <property name="maximumSize">
           <size>
-           <width>20</width>
-           <height>40</height>
+           <width>16777215</width>
+           <height>16777215</height>
           </size>
          </property>
-        </spacer>
+         <property name="text">
+          <string>[Reboot deadline label...]</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -403,7 +463,10 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
        <item>
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE: &lt;/span&gt;These options affects only VPP filesets&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>These options affect only VPP filesets</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -419,7 +482,7 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
      <property name="sizeHint" stdset="0">
       <size>
        <width>40</width>
-       <height>20</height>
+       <height>5</height>
       </size>
      </property>
     </spacer>
@@ -485,12 +548,12 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>19</x>
-     <y>138</y>
+     <x>34</x>
+     <y>195</y>
     </hint>
     <hint type="destinationlabel">
-     <x>39</x>
-     <y>156</y>
+     <x>56</x>
+     <y>227</y>
     </hint>
    </hints>
   </connection>
@@ -501,12 +564,12 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>163</x>
-     <y>131</y>
+     <x>320</x>
+     <y>195</y>
     </hint>
     <hint type="destinationlabel">
-     <x>173</x>
-     <y>160</y>
+     <x>332</x>
+     <y>227</y>
     </hint>
    </hints>
   </connection>
@@ -517,12 +580,12 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>13</x>
-     <y>197</y>
+     <x>28</x>
+     <y>258</y>
     </hint>
     <hint type="destinationlabel">
-     <x>15</x>
-     <y>218</y>
+     <x>32</x>
+     <y>290</y>
     </hint>
    </hints>
   </connection>
@@ -533,12 +596,28 @@ QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>166</x>
-     <y>195</y>
+     <x>323</x>
+     <y>258</y>
     </hint>
     <hint type="destinationlabel">
-     <x>216</x>
-     <y>218</y>
+     <x>374</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rebootDeadlineCB</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>rebootDeadlineDT</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>19</x>
+     <y>316</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>78</x>
+     <y>347</y>
     </hint>
    </hints>
   </connection>

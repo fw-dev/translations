@@ -147,8 +147,20 @@ QProgressBar::chunk {
              <verstretch>1</verstretch>
             </sizepolicy>
            </property>
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
            <property name="selectionMode">
             <enum>QAbstractItemView::ExtendedSelection</enum>
+           </property>
+           <property name="rootIsDecorated">
+            <bool>false</bool>
+           </property>
+           <property name="itemsExpandable">
+            <bool>false</bool>
            </property>
            <property name="headerHidden">
             <bool>true</bool>
@@ -272,7 +284,7 @@ QProgressBar::chunk {
               <widget class="QWidget" name="topTenWidgetContents">
                <property name="geometry">
                 <rect>
-                 <x>146</x>
+                 <x>0</x>
                  <y>0</y>
                  <width>394</width>
                  <height>76</height>

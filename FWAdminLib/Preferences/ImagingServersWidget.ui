@@ -190,6 +190,16 @@
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>serverList</tabstop>
+  <tabstop>addServerButton</tabstop>
+  <tabstop>removeServerButton</tabstop>
+  <tabstop>selectAllButton</tabstop>
+  <tabstop>unselectAllButton</tabstop>
+  <tabstop>status</tabstop>
+  <tabstop>clientMonitorButton</tabstop>
+  <tabstop>downloadNbiButton</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>

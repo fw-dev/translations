@@ -30,7 +30,7 @@
    <item>
     <widget class="QLabel" name="lTipDisplayName">
      <property name="text">
-      <string>The display name for the OS X Server Account</string>
+      <string>The display name for the macOS Server Account</string>
      </property>
     </widget>
    </item>
@@ -46,7 +46,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>My OS X Server Account</string>
+      <string>My macOS Server Account</string>
      </property>
     </widget>
    </item>
@@ -66,7 +66,7 @@
    <item>
     <widget class="QLabel" name="lTipHostname">
      <property name="text">
-      <string>The hostname of the OS X Server</string>
+      <string>The hostname of the macOS Server</string>
      </property>
     </widget>
    </item>
@@ -93,7 +93,7 @@
    <item>
     <widget class="QLabel" name="lTipUserName">
      <property name="text">
-      <string>The username of the OS X Server Account</string>
+      <string>The username of the macOS Server Account</string>
      </property>
     </widget>
    </item>
@@ -120,7 +120,7 @@
    <item>
     <widget class="QLabel" name="lTipPassword">
      <property name="text">
-      <string>The password for the OS X Server Account</string>
+      <string>The password for the macOS Server Account</string>
      </property>
     </widget>
    </item>

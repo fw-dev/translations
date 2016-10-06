@@ -224,7 +224,7 @@
        <item row="0" column="2">
         <widget class="QGroupBox" name="installationBox">
          <property name="title">
-          <string>Installation (OS X)</string>
+          <string>Installation</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
@@ -269,10 +269,10 @@
           <item>
            <widget class="QCheckBox" name="osx">
             <property name="toolTip">
-             <string>Allow this profile to be installed on OS X machines</string>
+             <string>Allow this profile to be installed on macOS machines</string>
             </property>
             <property name="text">
-             <string>OSX</string>
+             <string>macOS</string>
             </property>
            </widget>
           </item>
@@ -314,7 +314,7 @@
           <bool>false</bool>
          </property>
          <property name="text">
-          <string>Force legacy install (OSX 10.7+)</string>
+          <string>Force legacy install (macOS 10.7+)</string>
          </property>
         </widget>
        </item>
@@ -418,6 +418,22 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>description</tabstop>
+  <tabstop>iconList</tabstop>
+  <tabstop>identifier</tabstop>
+  <tabstop>editPayload</tabstop>
+  <tabstop>exportPayload</tabstop>
+  <tabstop>ios</tabstop>
+  <tabstop>osx</tabstop>
+  <tabstop>users</tabstop>
+  <tabstop>system</tabstop>
+  <tabstop>reinstall</tabstop>
+  <tabstop>forceMCX</tabstop>
+  <tabstop>engageBoxAvailable</tabstop>
+  <tabstop>engageTitleEdit</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>

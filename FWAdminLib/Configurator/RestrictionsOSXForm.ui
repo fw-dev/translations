@@ -1596,26 +1596,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="shareFacebook">
-         <property name="text">
-          <string>Facebook</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="shareTwitter">
-         <property name="text">
-          <string>Twitter</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="shareMail">
          <property name="text">
           <string>Mail</string>
@@ -1636,9 +1616,29 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="shareVideo">
+        <widget class="QCheckBox" name="shareNotes">
          <property name="text">
-          <string>Video Services - Flickr, Vimeo, Tudou and Youku</string>
+          <string>Notes</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareReminders">
+         <property name="text">
+          <string>Reminders</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareReadingList">
+         <property name="text">
+          <string>Add to Reading List</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1648,7 +1648,7 @@
        <item>
         <widget class="QCheckBox" name="shareiPhoto">
          <property name="text">
-          <string>Add to iPhoto</string>
+          <string>Add to Photos</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1666,9 +1666,55 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="shareReadingList">
+        <spacer name="verticalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>10</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareTwitter">
          <property name="text">
-          <string>Add to Reading List</string>
+          <string>Twitter</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareFacebook">
+         <property name="text">
+          <string>Facebook</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareLinkedIn">
+         <property name="text">
+          <string>LinkedIn</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="shareVideo">
+         <property name="text">
+          <string>Video Services - Flickr, Vimeo, Tudou and Youku</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1814,9 +1860,29 @@
           </widget>
          </item>
          <item>
+          <widget class="QCheckBox" name="allowAppleMusic">
+           <property name="text">
+            <string>Allow Apple Music</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QCheckBox" name="allowiCloudDocumentsData">
            <property name="text">
             <string>Allow iCloud documents &amp;&amp; data</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudKeychain">
+           <property name="text">
+            <string>Allow iCloud Keychain</string>
            </property>
            <property name="checked">
             <bool>true</bool>

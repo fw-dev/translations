@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>497</width>
-    <height>2706</height>
+    <height>2712</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -31,7 +31,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0,0">
    <item>
     <widget class="QLabel" name="lNetworkInterface">
      <property name="text">
@@ -65,7 +65,7 @@
      </item>
      <item>
       <property name="text">
-       <string>Ethernet (OS X only)</string>
+       <string>Ethernet (macOS only)</string>
       </property>
      </item>
     </widget>
@@ -347,7 +347,21 @@
       <item>
        <widget class="QLabel" name="lTipAutoJoin">
         <property name="text">
-         <string>Automatically join this wireless Network</string>
+         <string>Automatically join this wireless network</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxDisableCaptiveNetworkDetection">
+        <property name="text">
+         <string>Disable Captive Network Detection (iOS only)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipDisableCaptiveNetworkDetection">
+        <property name="text">
+         <string>Do not show Captive Network Assistant</string>
         </property>
        </widget>
       </item>
@@ -361,7 +375,7 @@
       <item>
        <widget class="QLabel" name="lTipProxySetup">
         <property name="text">
-         <string>Configure proxy to be used with this network</string>
+         <string>Configures proxy settings to be used with this network</string>
         </property>
        </widget>
       </item>
@@ -613,7 +627,7 @@
       <item>
        <widget class="QCheckBox" name="checkUseAsALoginWindowConfiguration">
         <property name="text">
-         <string>Use as a Login Window configuration (OS X only)</string>
+         <string>Use as a Login Window configuration (macOS only)</string>
         </property>
        </widget>
       </item>
@@ -641,7 +655,7 @@
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
@@ -754,13 +768,6 @@
            </layout>
           </item>
           <item>
-           <widget class="QCheckBox" name="TLSCertificateIsRequired">
-            <property name="text">
-             <string>TLS Certificate is Required</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <widget class="QWidget" name="widgetEAPFAST" native="true">
             <property name="minimumSize">
              <size>
@@ -869,12 +876,44 @@
               <number>0</number>
              </property>
              <property name="bottomMargin">
-              <number>12</number>
+              <number>0</number>
              </property>
              <item>
               <widget class="QCheckBox" name="checkUseTwoFactorAuthentication">
                <property name="text">
                 <string>Use Two Factor Authentication</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetUseDirectoryAuthentication" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_21">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="checkBoxUseDirectoryAuthentication">
+               <property name="text">
+                <string>Use Directory Authentication</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipUseDirectoryAuthentication">
+               <property name="text">
+                <string>Authenticate with the target's machine directory credentials</string>
                </property>
               </widget>
              </item>
@@ -905,14 +944,14 @@
              <item>
               <widget class="QLabel" name="lEAPUsername">
                <property name="text">
-                <string>Username</string>
+                <string>User name</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QLabel" name="lTipEAPUsername">
                <property name="text">
-                <string>Username for connection to the network</string>
+                <string>User name for connection to the network</string>
                </property>
               </widget>
              </item>
@@ -1152,14 +1191,14 @@
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_7">
+           <spacer name="verticalSpacer_2">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
             <property name="sizeHint" stdset="0">
              <size>
               <width>20</width>
-              <height>40</height>
+              <height>10</height>
              </size>
             </property>
            </spacer>
@@ -1292,6 +1331,79 @@
     </widget>
    </item>
    <item>
+    <widget class="QWidget" name="widgetRestrictFastLane" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_22">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelRestrictFastLaneQoSMarking">
+        <property name="text">
+         <string>Restrict Fast Lane QoS Marking</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,2">
+        <item>
+         <widget class="QComboBox" name="comboBoxRestrictFastLane"/>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetWhitelistSpecificApps" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_23">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBoxAllowQoSMarkingForAudioVideoApps">
+           <property name="text">
+            <string>Allow QoS marking for built-in audio/video apps</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="ItemListWidget" name="widgetWhilelistedApps" native="true"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -1299,7 +1411,7 @@
      <property name="sizeHint" stdset="0">
       <size>
        <width>20</width>
-       <height>1</height>
+       <height>10</height>
       </size>
      </property>
     </spacer>
@@ -1311,6 +1423,12 @@
    <class>PayloadFormListWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/Configurator/PayloadFormListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ItemListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

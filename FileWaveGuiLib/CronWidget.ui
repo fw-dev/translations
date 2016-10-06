@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>520</width>
-    <height>149</height>
+    <height>214</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -20,46 +20,55 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="4" column="5">
-    <widget class="QTimeEdit" name="timeWeek"/>
+   <item row="6" column="5">
+    <widget class="QTimeEdit" name="timeWeek">
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
    </item>
-   <item row="5" column="3">
-    <widget class="QComboBox" name="monthDay"/>
-   </item>
-   <item row="4" column="4">
-    <widget class="QLabel" name="label_2">
+   <item row="1" column="4">
+    <widget class="QLabel" name="labelAtEveryHour">
      <property name="text">
       <string>at</string>
      </property>
     </widget>
    </item>
-   <item row="4" column="2">
-    <widget class="QComboBox" name="weekDay"/>
-   </item>
-   <item row="5" column="2">
-    <widget class="QComboBox" name="monthQualifier"/>
-   </item>
-   <item row="5" column="5">
-    <widget class="QTimeEdit" name="timeMonth"/>
-   </item>
-   <item row="0" column="5">
-    <widget class="QTimeEdit" name="timeDay"/>
-   </item>
-   <item row="0" column="4">
+   <item row="2" column="4">
     <widget class="QLabel" name="label">
      <property name="text">
       <string>at</string>
      </property>
     </widget>
    </item>
-   <item row="5" column="4">
-    <widget class="QLabel" name="label_3">
+   <item row="7" column="0" colspan="2">
+    <widget class="QRadioButton" name="everyMonth">
      <property name="text">
-      <string>at</string>
+      <string>Every month on the</string>
      </property>
     </widget>
    </item>
-   <item row="2" column="0">
+   <item row="7" column="5">
+    <widget class="QTimeEdit" name="timeMonth">
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QTimeEdit" name="timeHour">
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="displayFormat">
+      <string>mm</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QComboBox" name="weekDay"/>
+   </item>
+   <item row="4" column="0">
     <spacer name="horizontalSpacer">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -75,14 +84,31 @@
      </property>
     </spacer>
    </item>
-   <item row="2" column="1">
-    <widget class="QCheckBox" name="skipWeekEnd">
+   <item row="6" column="4">
+    <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>skip week-ends</string>
+      <string>at</string>
      </property>
     </widget>
    </item>
-   <item row="0" column="0" colspan="3">
+   <item row="4" column="1">
+    <widget class="QCheckBox" name="skipWeekEnd">
+     <property name="text">
+      <string>skip weekends</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QComboBox" name="monthQualifier"/>
+   </item>
+   <item row="2" column="5">
+    <widget class="QTimeEdit" name="timeDay">
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
     <widget class="QRadioButton" name="everyDay">
      <property name="text">
       <string>Every day</string>
@@ -92,23 +118,58 @@
      </property>
     </widget>
    </item>
-   <item row="4" column="0" colspan="2">
+   <item row="7" column="4">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>at</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QComboBox" name="monthDay"/>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QRadioButton" name="everyHour">
+     <property name="text">
+      <string>Every hour</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="2">
     <widget class="QRadioButton" name="everyWeek">
      <property name="text">
       <string>Every week on</string>
      </property>
     </widget>
    </item>
-   <item row="5" column="0" colspan="2">
-    <widget class="QRadioButton" name="everyMonth">
+   <item row="0" column="0" colspan="3">
+    <widget class="QRadioButton" name="oneTimeShot">
      <property name="text">
-      <string>Every month on the</string>
+      <string>One-time</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <widget class="QLabel" name="labelOneTimeShot">
+     <property name="text">
+      <string>at</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QTimeEdit" name="timeOneShot">
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
  <tabstops>
+  <tabstop>oneTimeShot</tabstop>
+  <tabstop>timeOneShot</tabstop>
+  <tabstop>everyHour</tabstop>
+  <tabstop>timeHour</tabstop>
   <tabstop>everyDay</tabstop>
   <tabstop>timeDay</tabstop>
   <tabstop>skipWeekEnd</tabstop>
