@@ -6,18 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>555</width>
-    <height>1537</height>
+    <width>570</width>
+    <height>1632</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    <item>
-    <widget class="QLabel" name="lAccountDescription">
+    <widget class="QLabel" name="lAccountName">
      <property name="text">
-      <string>Account Description</string>
+      <string>Account Name</string>
      </property>
     </widget>
    </item>
@@ -75,7 +75,7 @@
       <bool>false</bool>
      </property>
      <property name="placeholderText">
-      <string>set on device</string>
+      <string>[set on device]</string>
      </property>
     </widget>
    </item>
@@ -89,7 +89,7 @@
    <item>
     <widget class="QLabel" name="lTipUser">
      <property name="text">
-      <string>User for the account. Leave Domain and user blank to set user on device</string>
+      <string>The user of the account with optional domain (e.g. &quot;user&quot; or &quot;domainuser&quot;) (required for</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -97,9 +97,16 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="lTipUser2">
+     <property name="text">
+      <string>supervised devices)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QLineEdit" name="editUser">
      <property name="placeholderText">
-      <string>set on device</string>
+      <string>[set on device]</string>
      </property>
     </widget>
    </item>
@@ -113,7 +120,7 @@
    <item>
     <widget class="QLabel" name="lTipEmail">
      <property name="text">
-      <string>The address of the account (eg. &quot;john@company.com&quot;)</string>
+      <string>The address of the account (e.g. &quot;john@company.com&quot;) (required for supervised devices)</string>
      </property>
     </widget>
    </item>
@@ -154,7 +161,7 @@
    <item>
     <widget class="QLabel" name="lTipRecentAddressesSync">
      <property name="text">
-      <string>Recent addresses will be synced</string>
+      <string>Include this account in recent address syncing</string>
      </property>
     </widget>
    </item>
@@ -182,7 +189,7 @@
    <item>
     <widget class="QLabel" name="lTipUseOnlyMail">
      <property name="text">
-      <string>Send outgoing mail for this account only from Mail app</string>
+      <string>Send outgoing mail from this account only from Mail app</string>
      </property>
     </widget>
    </item>
@@ -222,7 +229,7 @@
       <number>0</number>
      </property>
      <widget class="QWidget" name="page">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -279,7 +286,7 @@
        <item>
         <widget class="QLabel" name="lTipPastDays">
          <property name="text">
-          <string>The number of past days of email to synchronize</string>
+          <string>The number of past days of mail to synchronize</string>
          </property>
         </widget>
        </item>
@@ -350,39 +357,29 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkSMime">
+        <widget class="QCheckBox" name="checkSMimeMessageSigning">
          <property name="text">
-          <string>Enable S/MIME</string>
+          <string>Enable S/MIME message signing</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lTipSMime">
+        <widget class="QLabel" name="lTipSMimeSigning">
          <property name="text">
-          <string>Support S/MIME for this account</string>
+          <string>Support S/MIME signing for this account.</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lHeaderMagic">
+        <widget class="QLabel" name="lTipSMimeiOS103">
          <property name="text">
-          <string>Header Magic</string>
+          <string>For versions older than iOS 10.3 and macOS 10.12.4, enable signing and encryption.</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lTipHeaderMagic">
-         <property name="text">
-          <string>The X-Apple-Config-Magic header in each EAS HTTP request</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="editHeaderMagic"/>
-       </item>
-       <item>
-        <widget class="QWidget" name="certificateOptions" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0,0">
+        <widget class="QWidget" name="signCertificateOptions" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
           <property name="leftMargin">
            <number>0</number>
           </property>
@@ -412,6 +409,38 @@
           <item>
            <widget class="QComboBox" name="comboSigningCertificate"/>
           </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkSMimeMessageEncryption">
+         <property name="text">
+          <string>Enable S/MIME message encryption</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipSMimeEncryption">
+         <property name="text">
+          <string>Support S/MIME encryption for this account</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="encryptionCertificateOptions" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
           <item>
            <widget class="QLabel" name="EncryptionCertificateTitle">
             <property name="text">
@@ -463,6 +492,23 @@
           </item>
          </layout>
         </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lHeaderMagic">
+         <property name="text">
+          <string>Header Magic</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipHeaderMagic">
+         <property name="text">
+          <string>The X-Apple-Config-Magic header in each EAS HTTP request</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editHeaderMagic"/>
        </item>
       </layout>
      </widget>

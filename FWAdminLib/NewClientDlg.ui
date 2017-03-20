@@ -354,7 +354,7 @@
    <item>
     <widget class="QGroupBox" name="groupBox_3">
      <property name="title">
-      <string>iOS device placeholders</string>
+      <string>iOS/tvOS device placeholders</string>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,0,0,1">
       <property name="spacing">

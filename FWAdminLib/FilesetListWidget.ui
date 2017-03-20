@@ -125,7 +125,7 @@
   <customwidget>
    <class>FilesetsGroupsView</class>
    <extends>QTreeView</extends>
-   <header>views/filesetsgroupsview.h</header>
+   <header>FWAdminLib/views/filesetsgroupsview.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

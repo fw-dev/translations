@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChromebookPreferencesWidget</class>
+ <widget class="QWidget" name="ChromebookPreferencesWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QGroupBox" name="serviceAccountGroup">
+     <property name="title">
+      <string>OAuth 2.0 Service Account</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="configureServiceAccountButton">
+        <property name="text">
+         <string>Configure OAuth token</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="OnlineStatus" name="serviceAccountStatusIcon"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="serviceAccountStatusLabel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Getting data...</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="synchronizeButton">
+        <property name="text">
+         <string>Synchronize</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="CircularProgressIndicator" name="syncProgress" native="true"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="syncStatusLabel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Getting data...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Chromebooks Extension</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="exportCertificateButton">
+        <property name="statusTip">
+         <string>Export the MDM Certificate in PEM format.</string>
+        </property>
+        <property name="text">
+         <string>Export Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="importCertificateLink">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;... and then &lt;a href=&quot;https://admin.google.com/AdminHome?fral=1#ServiceSettings/notab=1&amp;amp;service=shared%20device%20settings&amp;amp;subtab=certificate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;import the certificate in the Google Admin console&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="exportPolicyButton">
+        <property name="statusTip">
+         <string>Export the policy file for the Chromebooks extension.</string>
+        </property>
+        <property name="text">
+         <string>Export Policy for Extension</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="importPolicyLink">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;... and then &lt;a href=&quot;https://admin.google.com/AdminHome?fral=1#ChromeAppList:&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;import the policy in the Google Admin console&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>217</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>OnlineStatus</class>
+   <extends>QLabel</extends>
+   <header>./FileWaveGuiLib/OnlineStatus.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CircularProgressIndicator</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/circularprogressindicator.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

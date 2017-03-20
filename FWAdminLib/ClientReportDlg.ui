@@ -72,7 +72,7 @@
              </widget>
             </item>
             <item row="5" column="0" colspan="3">
-             <widget class="QLabel" name="label_3">
+             <widget class="QLabel" name="freeSpaceLbl">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -88,7 +88,7 @@
              </widget>
             </item>
             <item row="3" column="0" colspan="3">
-             <widget class="QLabel" name="label">
+             <widget class="QLabel" name="connectedLbl">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -114,7 +114,7 @@
              </widget>
             </item>
             <item row="4" column="0" colspan="3">
-             <widget class="QLabel" name="label_2">
+             <widget class="QLabel" name="fromLbl">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -130,7 +130,7 @@
              </widget>
             </item>
             <item row="6" column="0" colspan="3">
-             <widget class="QLabel" name="label_4">
+             <widget class="QLabel" name="platformLbl">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -176,7 +176,7 @@
              </widget>
             </item>
             <item row="7" column="2">
-             <widget class="QLabel" name="label_5">
+             <widget class="QLabel" name="modelLbl">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -192,7 +192,7 @@
              </widget>
             </item>
             <item row="8" column="2">
-             <widget class="QLabel" name="label_6">
+             <widget class="QLabel" name="versionLbl">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -510,9 +510,6 @@
              <property name="frameShape">
               <enum>QFrame::NoFrame</enum>
              </property>
-             <property name="autoScroll">
-              <bool>false</bool>
-             </property>
              <property name="editTriggers">
               <set>QAbstractItemView::NoEditTriggers</set>
              </property>
@@ -772,6 +769,16 @@
              <bool>true</bool>
             </property>
            </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tabUsers">
+         <attribute name="title">
+          <string>Users</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="StyledTreeView" name="users"/>
           </item>
          </layout>
         </widget>

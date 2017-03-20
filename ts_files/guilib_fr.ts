@@ -24,224 +24,226 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="14"/>
         <source>FileWave Booster Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Préférences du FileWave Booster</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="20"/>
         <source>Booster Prefs</source>
-        <translation type="unfinished"></translation>
+        <translation>Préfs Booster</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="26"/>
         <source>Booster Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom du booster:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="36"/>
         <source>Booster Location:</source>
-        <translation type="unfinished"></translation>
+        <translation>Localisation du booster:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="49"/>
         <source>Booster Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Port du booster:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="98"/>
         <source>Password:</source>
-        <translation type="unfinished">Mot de passe :</translation>
+        <translation>Mot de passe :</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="121"/>
         <source>Confirmation:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="144"/>
         <source>Number of Threads:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nombre de threads:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="155"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="160"/>
         <source>8</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="165"/>
         <source>16</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="170"/>
         <source>32</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="175"/>
         <source>64</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="180"/>
         <source>96</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="185"/>
         <source>128</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="209"/>
         <source>Debug Level:</source>
-        <translation type="unfinished">Niveau de Débogage:</translation>
+        <translation>Niveau de Débogage:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="220"/>
         <source>10</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="225"/>
         <source>99</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="230"/>
         <source>101</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="244"/>
         <source>Delete Unused Filesets:</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer les fichiers inutilisés:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="270"/>
         <source>Fileset Validation Interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalle de validation des filesets:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="304"/>
         <source>hours</source>
-        <translation type="unfinished"></translation>
+        <translation>heures</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="319"/>
         <source>Client Download Speed Limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitesse de téléchargement du client:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="353"/>
         <source>Each client will be limited to the specified download rate from this booster.  Uncheck this box to remove the download limit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chaque client sera limité à ce que ce booster spécifie.  Décochez cette case pour supprimer cette limite de téléchargement.</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="372"/>
         <source>KB/s</source>
-        <translation type="unfinished"></translation>
+        <translation>ko/s</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="390"/>
         <source>Use SSL For Loader Connections:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser SSL pour les connexions du Loader:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="78"/>
         <source>Booster Publish Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Port de publication du Booster:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="193"/>
         <source>Maximum Client Connections</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximum de connexions client</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="413"/>
         <source>Booster Server Prefs</source>
-        <translation type="unfinished"></translation>
+        <translation>Préférences du serveur pour le booster</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="442"/>
         <source>Server 4:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveur 4:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="449"/>
         <source>Server 5:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveur 5:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="456"/>
         <source>IP or DNS Address</source>
-        <translation type="unfinished">IP ou adresse DNS</translation>
+        <translation>IP ou adresse DNS</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="489"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="509"/>
         <source>Server 2:</source>
-        <translation type="unfinished"></translation>
+        <translation>Server 2:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="516"/>
         <source>Server 3:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveur 3:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="533"/>
         <source>Server 1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveur 1:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="607"/>
         <source>Subscriptions Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port de souscription</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="72"/>
         <source>Booster Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreur Booster</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="73"/>
         <source>Failed to get a valid connection to Booster %1:%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Echec lors de la connexion au booster %1:%2</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="137"/>
         <source>Password verification failed</source>
-        <translation type="unfinished"></translation>
+        <translation>La vérification a échoué</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="167"/>
         <source>Illegal Port Used: 20016</source>
-        <translation type="unfinished"></translation>
+        <translation>Port illégal utilisé: 20016</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="168"/>
         <source>Use port 20015 to connect to the FileWave Server or 20013 to connect to other Boosters. Port 20016 is reserved for the FileWave Admin</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser le port 20015 pour se connecter au serveur FileWave ou 20013 pour se connecter à un Booster. Le port 20016 est réservé pour le FileWave Admin</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="195"/>
         <source>Non-standard server ports were chosen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Des ports non standard pour le serveur ont été choisis.</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="196"/>
         <source>Use port 20015 or 20013 to connect to the FileWave Server or other Boosters. Do you want to save anyway?
 
 You may ignore this warning if you have a customized setup. </source>
-        <translation type="unfinished"></translation>
+        <translation>Utilisez le port 20015 ou 20013 pour se connecter au FileWave Server ou Booster. Voulez-vous sauvegarder?
+
+Vous pouvez ignorer cet avertissement si vous avez une installation personnalisée.</translation>
     </message>
 </context>
 <context>
@@ -249,32 +251,32 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="14"/>
         <source>Booster Status Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Moniteur de status du Booster</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="85"/>
         <source>FileWave Booster:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="110"/>
         <source>free space on root disk</source>
-        <translation type="unfinished"></translation>
+        <translation>espace disque disponible</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="117"/>
         <source>remaining to load</source>
-        <translation type="unfinished"></translation>
+        <translation>restant à charger</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="124"/>
         <source>Status:</source>
-        <translation type="unfinished">Etat:</translation>
+        <translation>Etat:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="134"/>
         <source>files remaining to load</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichiers restant à charger</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="141"/>
@@ -282,206 +284,209 @@ You may ignore this warning if you have a customized setup. </source>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="211"/>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="221"/>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="281"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="291"/>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="331"/>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="151"/>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="470"/>
         <source>Address:</source>
-        <translation type="unfinished">Adresse:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="161"/>
-        <source>1.2.3.4</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="171"/>
         <source>active connections</source>
-        <translation type="unfinished"></translation>
+        <translation>connexions actives</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="204"/>
         <source>12345</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="231"/>
-        <source>1234-12-34 12:34</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="241"/>
         <source>Launched:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lancés:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="254"/>
         <source>files boosted</source>
-        <translation type="unfinished"></translation>
+        <translation>fichiers boostés</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="261"/>
         <source>data transferred</source>
-        <translation type="unfinished"></translation>
+        <translation>données transferrées</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="268"/>
         <source>Version:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="301"/>
-        <source>1234</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="291"/>
+        <source>Connecting...</source>
+        <translation>Connexion en cours...</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="311"/>
         <source>Build:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="324"/>
         <source>127.0.0.1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="341"/>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="483"/>
         <source>Port:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="395"/>
         <source>Booster Servers:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveurs:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="420"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="430"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="440"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="450"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="460"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="496"/>
         <source>Last Contact:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dernier contact:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="509"/>
         <source>Files:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fichiers:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="522"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="535"/>
         <source>Free space:</source>
-        <translation type="unfinished"></translation>
+        <translation>Espace disponible:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="867"/>
         <source>Preferences...</source>
-        <translation type="unfinished">Préférences...</translation>
+        <translation>Préférences...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="44"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="51"/>
         <source>%1 - Booster Status Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 - Moniteur de status du Booster</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="121"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="140"/>
         <source>Password incorrect</source>
-        <translation type="unfinished"></translation>
+        <translation>Mot de passe incorrect</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="127"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="134"/>
         <source>Network Error: Booster is not running or otherwise unavailable on the network</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreur réseau: le Booster n&apos;est pas lancé ou n&apos;est pas disponible sur le réseau</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="145"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="159"/>
         <source>Waiting to reconnect...</source>
-        <translation type="unfinished"></translation>
+        <translation>En attente de reconnexion...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="154"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="168"/>
         <source>Failed to set preferences for Booster %1:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="166"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="180"/>
         <source>Reconnecting...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="179"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="192"/>
         <source>Downloading File: FW%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="182"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="195"/>
         <source>Broken Network Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="185"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="198"/>
         <source>Waiting for Server/Booster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="188"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="201"/>
         <source>File ID: %1 not found on Booster/Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="191"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="204"/>
         <source>File ID: %1 CRC error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="194"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="207"/>
         <source>Running...</source>
-        <translation type="unfinished"></translation>
+        <translation>En cours d&apos;exécution...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="251"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="252"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="253"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="254"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="255"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="256"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="257"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="258"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="259"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="260"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="262"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="263"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="264"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="265"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="266"/>
+        <source>disabled</source>
+        <translation>désactivé</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="268"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="269"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="270"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="271"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="272"/>
         <source>n.a.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="278"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="296"/>
         <source>Monitor Not Connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Moniteur non connecté</translation>
     </message>
 </context>
 <context>
@@ -494,7 +499,7 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="105"/>
         <source>Publish Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port de publication</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="159"/>
@@ -504,7 +509,7 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="241"/>
         <source>Route server messages via Boosters</source>
-        <translation type="unfinished"></translation>
+        <translation>Router les messages serveur via les Boosters</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="95"/>
@@ -557,22 +562,22 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="106"/>
         <source>ex. 20005</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="116"/>
         <source>Server Publish Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Port de publication serveur:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="189"/>
         <source>VNC Relay Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Port du relais VNC:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="213"/>
         <source>ex. 20030</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="230"/>
@@ -592,12 +597,12 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="324"/>
         <source>VNC Server Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Port du serveur VNC:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="334"/>
         <source>ex. 20031</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="126"/>
@@ -696,22 +701,22 @@ You may ignore this warning if you have a customized setup. </source>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="193"/>
         <source>0.0.0.0</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="286"/>
         <source>Server Connection:</source>
-        <translation type="unfinished"></translation>
+        <translation>Connexion serveur:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="351"/>
         <source>Last Successful Connection:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dernière connexion réussie:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="496"/>
         <source>Last Connection Attempt:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dernier essai de connexion:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="533"/>
@@ -747,32 +752,32 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="434"/>
         <source>Imaging Appliance Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Moniteur d&apos;Appliance Imaging</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="483"/>
         <source>(never)</source>
-        <translation type="unfinished"></translation>
+        <translation>(jamais)</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="488"/>
         <source>Connected (updates found)</source>
-        <translation type="unfinished"></translation>
+        <translation>Connecté (Mises à jour trouvées)</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="488"/>
         <source>Connected (no updates)</source>
-        <translation type="unfinished"></translation>
+        <translation>Connecté (pas de mise à jour)</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="491"/>
         <source>(now trying...)</source>
-        <translation type="unfinished"></translation>
+        <translation>(essai en cours...)</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="493"/>
         <source>Not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Non connecté</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="506"/>
@@ -837,12 +842,12 @@ settings for this client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="21"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="22"/>
         <source>Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="73"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="74"/>
         <source>Unable to connect.
 No running Booster found at specified address.</source>
         <translation type="unfinished"></translation>
@@ -1189,6 +1194,324 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="395"/>
         <source>Managed remote control cannot be enabled without password being configured too.</source>
+        <translation>LA prise de control à distance ne peut pas être activée sans configurer un mot de passe.</translation>
+    </message>
+</context>
+<context>
+    <name>PrefsEditorDlg</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="14"/>
+        <source>Superprefs Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="20"/>
+        <source>These preferences will be merged with the preferences on target clients.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="27"/>
+        <source>If you would like a value to remain unchanged, leave it blank.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="38"/>
+        <source>Communications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="44"/>
+        <source>Kiosk Port:</source>
+        <translation type="unfinished">Port du Kiosque:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="57"/>
+        <source>Tickle Interval:</source>
+        <translation type="unfinished">Intervalle de connexion :</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="86"/>
+        <source>Synchronize Client Name with Computer name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="106"/>
+        <source>FileWave Server Address:</source>
+        <translation type="unfinished">Adresse du serveur FileWave :</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="145"/>
+        <source>ex. 20020</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="152"/>
+        <source>Server Port:</source>
+        <translation type="unfinished">Port du serveur :</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="165"/>
+        <source>Monitor Port:</source>
+        <translation type="unfinished">Port du moniteur :</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="178"/>
+        <source>ex. 20031</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="185"/>
+        <source>VNC Relay Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="195"/>
+        <source>ex. 20010</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="218"/>
+        <source>ex. 20015</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="225"/>
+        <source>ex. 20030</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="251"/>
+        <source>seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="258"/>
+        <source>VNC Server Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="268"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="668"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="717"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="730"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="783"/>
+        <source>_</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="278"/>
+        <source>Server Publish Port:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="291"/>
+        <source>ex. 20005</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="299"/>
+        <source>Boosters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="325"/>
+        <source>Booster 3:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="367"/>
+        <source>Port</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="400"/>
+        <source>Publish Port</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="430"/>
+        <source>Booster 5:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="443"/>
+        <source>Booster 4:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="522"/>
+        <source>Booster 1:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="548"/>
+        <source>Booster 2:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="574"/>
+        <source>IP or DNS Address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="607"/>
+        <source>Route server messages via boosters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="618"/>
+        <source>Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="644"/>
+        <source>MB</source>
+        <translation type="unfinished">Mo</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="651"/>
+        <source>minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="658"/>
+        <source>Priority:</source>
+        <translation type="unfinished">Priorité:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="684"/>
+        <source>Password:</source>
+        <translation type="unfinished">Mot de passe :</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="694"/>
+        <source>Verify Password:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="753"/>
+        <source>File Check Interval:</source>
+        <translation type="unfinished">Intervalle de vérification de fichier:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="763"/>
+        <source>Free Space Margin:</source>
+        <translation type="unfinished">Marge d&apos;espace libre:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="773"/>
+        <source>Debug Level:</source>
+        <translation type="unfinished">Niveau de Débogage:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="807"/>
+        <source>Privacy</source>
+        <translation type="unfinished">Confidentialité</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="813"/>
+        <source>Personal Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="832"/>
+        <source>Location refresh interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="839"/>
+        <source>Disable personal data collection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="852"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="862"/>
+        <source>Observe Client</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="868"/>
+        <source>Prompt client for remote control access</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="891"/>
+        <source>Managed remote control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="120"/>
+        <source> </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="121"/>
+        <source>Never</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="122"/>
+        <source>5 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="123"/>
+        <source>15 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="124"/>
+        <source>30 minutes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="125"/>
+        <source>1 hour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="126"/>
+        <source>2 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="127"/>
+        <source>6 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="128"/>
+        <source>12 hours</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="129"/>
+        <source>1 day</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="179"/>
+        <source>Select an existing fwcld.newprefs.plist file or click Cancel to start with a blank one...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="254"/>
+        <source>Password verification failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="260"/>
+        <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="385"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="412"/>
+        <source>You have unsaved changes.  Are you sure you want to quit?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1197,32 +1520,32 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">Formulaire</translation>
+        <translation>Formulaire</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="20"/>
         <source>Personal Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Données personnelles</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="39"/>
         <source>Location refresh interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalle de rafraichissement de la localisation:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="46"/>
         <source>Disable personal data collection</source>
-        <translation type="unfinished"></translation>
+        <translation>Désactiver la collecte d&apos;informations personnelles</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="56"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;La collect d&apos;informations personnelles peut être désactivée au niveau de l&apos;organisation.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="66"/>
         <source>Observe Client</source>
-        <translation type="unfinished"></translation>
+        <translation>Observer le client</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="72"/>
@@ -1237,47 +1560,47 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="15"/>
         <source>Never</source>
-        <translation type="unfinished"></translation>
+        <translation>Jamais</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="16"/>
         <source>5 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="17"/>
         <source>15 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="18"/>
         <source>30 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="19"/>
         <source>1 hour</source>
-        <translation type="unfinished"></translation>
+        <translation>1 heure</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="20"/>
         <source>2 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>2 heures</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="21"/>
         <source>6 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>6 heures</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="22"/>
         <source>12 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>12 heures</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="23"/>
         <source>1 day</source>
-        <translation type="unfinished"></translation>
+        <translation>1 jour</translation>
     </message>
 </context>
 <context>
@@ -1357,7 +1680,7 @@ Please wait for the results before opening a new connection</source>
         <translation>GCM non configuré.</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="634"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="649"/>
         <source>n.a.</source>
         <comment>not applicable</comment>
         <translation></translation>
@@ -1379,12 +1702,12 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>StyledTreeView</name>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="129"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="130"/>
         <source>Resize columns</source>
         <translation>Retailler les colonnes</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="388"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="373"/>
         <source>Copy</source>
         <translation>Copier</translation>
     </message>

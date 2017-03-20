@@ -497,6 +497,20 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="siri">
+              <property name="text">
+               <string>Siri</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/Siri.png</normaloff>:/assets/restrictions/Siri.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="speech">
               <property name="text">
                <string>Dictation &amp;&amp; Speech</string>
@@ -774,7 +788,7 @@
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="title">
-       <string>Applications</string>
+       <string>Apps</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
@@ -1575,7 +1589,7 @@
      </widget>
      <widget class="QWidget" name="sharingTab">
       <attribute name="title">
-       <string>Sharing Services</string>
+       <string>Sharing</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_20">
        <item>
@@ -1769,7 +1783,7 @@
      </widget>
      <widget class="QWidget" name="desktopTab">
       <attribute name="title">
-       <string>Desktop</string>
+       <string>Functionality</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_24">
        <item>
@@ -1870,13 +1884,93 @@
           </widget>
          </item>
          <item>
-          <widget class="QCheckBox" name="allowiCloudDocumentsData">
+          <widget class="QCheckBox" name="allowSpotlightSuggestions">
            <property name="text">
-            <string>Allow iCloud documents &amp;&amp; data</string>
+            <string>Allow Spotlight Suggestions</string>
            </property>
            <property name="checked">
             <bool>true</bool>
            </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowFingerprintForUnlock">
+           <property name="text">
+            <string>Allow Touch ID to unlock device</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowUseOfiCloudPassword">
+           <property name="text">
+            <string>Allow use of iCloud password for local accounts</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowCloudDocumentSync">
+           <property name="text">
+            <string>Allow iCloud Drive</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widgetAllowiCloudDesktop" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_29">
+            <property name="leftMargin">
+             <number>18</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QCheckBox" name="allowCloudDesktopAndDocuments">
+              <property name="text">
+               <string>Allow iCloud Desktop &amp;&amp; Documents</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </widget>
          </item>
          <item>
@@ -1890,9 +1984,9 @@
           </widget>
          </item>
          <item>
-          <widget class="QCheckBox" name="allowUseOfiCloudPassword">
+          <widget class="QCheckBox" name="allowiCloudMail">
            <property name="text">
-            <string>Allow use of iCloud password for local accounts</string>
+            <string>Allow iCloud Mail</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -1900,9 +1994,69 @@
           </widget>
          </item>
          <item>
-          <widget class="QCheckBox" name="allowSpotlightSuggestions">
+          <widget class="QCheckBox" name="allowiCloudContacts">
            <property name="text">
-            <string>Allow Spotlight Suggestions</string>
+            <string>Allow iCloud Contacts</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudCalendars">
+           <property name="text">
+            <string>Allow iCloud Calendars</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudReminders">
+           <property name="text">
+            <string>Allow iCloud Reminders</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudBTMM">
+           <property name="text">
+            <string>Allow iCloud Back to My Mac</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudFMM">
+           <property name="text">
+            <string>Allow iCloud Find My Mac</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudBookmarks">
+           <property name="text">
+            <string>Allow iCloud Bookmarks</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudNotes">
+           <property name="text">
+            <string>Allow iCloud Notes</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -2165,8 +2319,8 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>140</x>
-     <y>220</y>
+     <x>155</x>
+     <y>241</y>
     </hint>
     <hint type="destinationlabel">
      <x>209</x>

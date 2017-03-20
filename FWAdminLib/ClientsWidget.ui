@@ -147,7 +147,7 @@
   <customwidget>
    <class>ClientsGroupsView</class>
    <extends>QTreeView</extends>
-   <header>views/clientsgroupsview.h</header>
+   <header>FWAdminLib/views/clientsgroupsview.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

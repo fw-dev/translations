@@ -13,11 +13,11 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0">
    <item>
     <widget class="QLabel" name="lIfLostReturnToMessage">
      <property name="text">
-      <string>&quot;If Lost, Return to...&quot; Message *</string>
+      <string>&quot;If Lost, Return to...&quot; Message</string>
      </property>
     </widget>
    </item>
@@ -29,9 +29,16 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="lTipInfoLogin">
+     <property name="text">
+      <string>Message displayed on the login window and lock screen</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QLabel" name="lAssetTagInformation">
      <property name="text">
-      <string>Asset Tag Information *</string>
+      <string>Asset Tag Information</string>
      </property>
     </widget>
    </item>
@@ -39,9 +46,9 @@
     <widget class="QLineEdit" name="editAssetTagInformation"/>
    </item>
    <item>
-    <widget class="QLabel" name="lTipInformation">
+    <widget class="QLabel" name="lTipInfoBottom">
      <property name="text">
-      <string>* Both messages display on the Login Window and Lock Screen.</string>
+      <string>Message displayed at the bottom of the login window and lock screen.</string>
      </property>
     </widget>
    </item>

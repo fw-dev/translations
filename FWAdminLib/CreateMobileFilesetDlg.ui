@@ -83,7 +83,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="toolTip">
-            <string>Create a profile fileset for iOS devices</string>
+            <string>Create a Profile Fileset for iOS devices</string>
            </property>
            <property name="text">
             <string/>
@@ -164,7 +164,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="toolTip">
-            <string>Create a fileset based on App Store application</string>
+            <string>Create a Fileset based on an App Store application</string>
            </property>
            <property name="text">
             <string/>
@@ -229,7 +229,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="toolTip">
-            <string>Create a fileset based on an Enterprise Application (.ipa file)</string>
+            <string>Create a Fileset based on an Enterprise Application (.ipa file)</string>
            </property>
            <property name="text">
             <string/>
@@ -326,7 +326,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="toolTip">
-            <string>Create a profile fileset for iOS devices</string>
+            <string>Create a Profile Fileset for iOS devices</string>
            </property>
            <property name="text">
             <string/>
@@ -447,7 +447,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="toolTip">
-            <string>Create a fileset based on Android application package</string>
+            <string>Create a Fileset based on an Android application package</string>
            </property>
            <property name="text">
             <string/>
