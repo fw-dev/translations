@@ -152,6 +152,19 @@
        <item>
         <widget class="SSLCertificateForm" name="engageCertBox" native="true"/>
        </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="tabEngageIOS">
@@ -438,6 +451,110 @@
        </item>
       </layout>
      </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Chromebooks</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QWidget" name="chromebooksBox" native="true">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="exportCertificateButton">
+            <property name="statusTip">
+             <string>Export the MDM Certificate in PEM format.</string>
+            </property>
+            <property name="text">
+             <string>Export Certificate</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="importPolicyLink">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;... and then &lt;a href=&quot;https://admin.google.com/AdminHome?fral=1#ChromeAppList:&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;import the policy in the Google Admin console&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Important: the policy file must be uploaded for the &lt;span style=&quot; font-weight:600;&quot;&gt;Engage Extension&lt;/span&gt;. Do not upload it for the Engage Application; otherwise it will not work.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="exportPolicyButton">
+            <property name="statusTip">
+             <string>Export the policy file for the Chromebooks extension.</string>
+            </property>
+            <property name="text">
+             <string>Export Policy for Extension</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="importCertificateLink">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;... and then &lt;a href=&quot;https://admin.google.com/AdminHome?fral=1#ServiceSettings/notab=1&amp;amp;service=shared%20device%20settings&amp;amp;subtab=certificate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;import the certificate in the Google Admin console&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Windows</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QGroupBox" name="appsBlacklistBox">
+         <property name="title">
+          <string>Windows Applications Blacklist</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="EngageAppsBlacklistEditor" name="blacklistEditor" native="true"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
    <item>
@@ -495,6 +612,12 @@
    <class>SSLCertificateForm</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/Preferences/sslcertificateform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>EngageAppsBlacklistEditor</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Preferences/EngageAppsBlacklistEditor.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

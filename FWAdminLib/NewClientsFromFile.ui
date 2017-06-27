@@ -139,7 +139,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QComboBox" name="theGroups"/>
+         <widget class="QComboBox" name="theGroups">
+          <property name="sizeAdjustPolicy">
+           <enum>QComboBox::AdjustToContents</enum>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="SearchLineEdit" name="searchField">

@@ -174,7 +174,7 @@
             </widget>
            </item>
            <item>
-            <widget class="QComboBox" name="mainComponent">
+            <widget class="ComponentComboBox" name="mainComponent">
              <property name="minimumSize">
               <size>
                <width>250</width>
@@ -378,6 +378,11 @@
    <extends>QWidget</extends>
    <header>FWAdminLib/inventory/InventoryFieldPicker.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ComponentComboBox</class>
+   <extends>QComboBox</extends>
+   <header>FileWaveGuiLib/componentcombobox.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -107,6 +107,9 @@
    </item>
    <item row="20" column="0" colspan="2">
     <widget class="QLineEdit" name="Retries">
+     <property name="text">
+      <string>3</string>
+     </property>
      <property name="placeholderText">
       <string/>
      </property>
@@ -129,7 +132,7 @@
    <item row="31" column="0" colspan="2">
     <widget class="QLabel" name="lTipKeySize">
      <property name="text">
-      <string>Key size in bits</string>
+      <string>Keysize in bits</string>
      </property>
     </widget>
    </item>
@@ -223,7 +226,7 @@
    <item row="8" column="0" colspan="4">
     <widget class="QLineEdit" name="Subject">
      <property name="placeholderText">
-      <string>[optional] Ex. O=Company Name, CN=Foo</string>
+      <string>[optional] Ex. O=Company Name/CN=Foo</string>
      </property>
     </widget>
    </item>
@@ -250,6 +253,9 @@
    </item>
    <item row="23" column="0" colspan="2">
     <widget class="QLineEdit" name="RetryDelay">
+     <property name="text">
+      <string>10</string>
+     </property>
      <property name="placeholderText">
       <string/>
      </property>
@@ -275,7 +281,7 @@
    <item row="13" column="0" colspan="3">
     <widget class="QLabel" name="lTipSubjectAlternateValue">
      <property name="text">
-      <string>Representaiton of a X.500 name</string>
+      <string>The value of a subject alternative name</string>
      </property>
     </widget>
    </item>
@@ -399,6 +405,9 @@
      <property name="toolTip">
       <string>At least 14 days</string>
      </property>
+     <property name="text">
+      <string>14</string>
+     </property>
      <property name="placeholderText">
       <string>At least 14 days</string>
      </property>
@@ -419,6 +428,23 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>URL</tabstop>
+  <tabstop>Name</tabstop>
+  <tabstop>Subject</tabstop>
+  <tabstop>SubjectAlternateType</tabstop>
+  <tabstop>SubjectAlternateValue</tabstop>
+  <tabstop>SubjectAlternatentPrincipal</tabstop>
+  <tabstop>Retries</tabstop>
+  <tabstop>RetryDelay</tabstop>
+  <tabstop>CertificateExpirationNotificationThreshold</tabstop>
+  <tabstop>Challenge</tabstop>
+  <tabstop>KeySize</tabstop>
+  <tabstop>DigitalSignature</tabstop>
+  <tabstop>KeyEncipherment</tabstop>
+  <tabstop>Fingerprint</tabstop>
+  <tabstop>fromCertificate</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

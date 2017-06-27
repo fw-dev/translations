@@ -72,7 +72,7 @@
        <number>1</number>
       </property>
       <item row="0" column="2">
-       <spacer name="horizontalSpacer_2">
+       <spacer name="rightSpacer">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -85,7 +85,7 @@
        </spacer>
       </item>
       <item row="0" column="1">
-       <widget class="QLabel" name="appIcon">
+       <widget class="QLabel" name="icon">
         <property name="minimumSize">
          <size>
           <width>32</width>
@@ -110,7 +110,7 @@
        </widget>
       </item>
       <item row="1" column="0" colspan="3">
-       <widget class="QLabel" name="appLabel">
+       <widget class="QLabel" name="nameField">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -132,7 +132,7 @@
        </widget>
       </item>
       <item row="0" column="0">
-       <spacer name="horizontalSpacer">
+       <spacer name="leftSpacer">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>

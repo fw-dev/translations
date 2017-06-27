@@ -2,9 +2,17 @@
 <ui version="4.0">
  <class>AppleConfiguratorDlg</class>
  <widget class="QDialog" name="AppleConfiguratorDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>600</height>
+   </rect>
+  </property>
   <property name="minimumSize">
    <size>
-    <width>800</width>
+    <width>860</width>
     <height>600</height>
    </size>
   </property>
@@ -207,6 +215,13 @@ QToolButton[text=&quot;+&quot;],[text=&quot;-&quot;] { max-height: 16; max-width
       </spacer>
      </item>
      <item>
+      <widget class="QPushButton" name="settings">
+       <property name="text">
+        <string>Settings</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="loadProfile">
        <property name="text">
         <string>Load Profile</string>
@@ -214,9 +229,12 @@ QToolButton[text=&quot;+&quot;],[text=&quot;-&quot;] { max-height: 16; max-width
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="closeButton">
+      <widget class="QPushButton" name="saveButton">
        <property name="text">
-        <string>Close</string>
+        <string>Save</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
        </property>
       </widget>
      </item>

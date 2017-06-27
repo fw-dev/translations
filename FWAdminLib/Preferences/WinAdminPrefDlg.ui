@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>997</width>
+    <width>1036</width>
     <height>736</height>
    </rect>
   </property>
@@ -306,6 +306,13 @@
                  </property>
                 </spacer>
                </item>
+               <item>
+                <widget class="QPushButton" name="resetAppleUrls">
+                 <property name="text">
+                  <string>Reset to Defaults</string>
+                 </property>
+                </widget>
+               </item>
               </layout>
              </item>
             </layout>
@@ -329,6 +336,13 @@
              </item>
              <item>
               <widget class="QLineEdit" name="leMSSUCatalog"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="resetMicrosoftUrl">
+               <property name="text">
+                <string>Reset to Defaults</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -595,15 +609,15 @@
                 <layout class="QVBoxLayout" name="verticalLayout_10">
                  <item>
                   <layout class="QGridLayout" name="gridLayout_11">
-                   <item row="1" column="0">
-                    <widget class="QLabel" name="label_11">
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_4">
                      <property name="text">
-                      <string>Expiration Date:</string>
+                      <string>Serial Number:</string>
                      </property>
                     </widget>
                    </item>
-                   <item row="0" column="1">
-                    <widget class="QLabel" name="apnInfoLineEdit">
+                   <item row="1" column="2">
+                    <widget class="QLabel" name="apnExpirationLineEdit">
                      <property name="text">
                       <string/>
                      </property>
@@ -616,14 +630,7 @@
                      </property>
                     </widget>
                    </item>
-                   <item row="2" column="0">
-                    <widget class="QLabel" name="label_29">
-                     <property name="text">
-                      <string>APN Certificate/Key:</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="2" column="1">
+                   <item row="3" column="2">
                     <layout class="QHBoxLayout" name="horizontalLayout_4">
                      <item>
                       <widget class="QLineEdit" name="apnP12LineEdit">
@@ -673,10 +680,37 @@
                      </item>
                     </layout>
                    </item>
-                   <item row="1" column="1">
-                    <widget class="QLabel" name="apnExpirationLineEdit">
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_29">
+                     <property name="text">
+                      <string>APN Certificate/Key:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLabel" name="apnInfoLineEdit">
                      <property name="text">
                       <string/>
+                     </property>
+                     <property name="textInteractionFlags">
+                      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_11">
+                     <property name="text">
+                      <string>Expiration Date:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QLabel" name="apnSerial">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="textInteractionFlags">
+                      <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
                      </property>
                     </widget>
                    </item>
@@ -696,7 +730,7 @@
             </widget>
             <widget class="QWidget" name="tabAndroid">
              <attribute name="title">
-              <string>Android</string>
+              <string>Android/Chromebooks</string>
              </attribute>
              <layout class="QVBoxLayout" name="verticalLayout_16">
               <item>
@@ -846,6 +880,11 @@
            </spacer>
           </item>
          </layout>
+        </widget>
+        <widget class="ChromebookPreferencesWidget" name="tabChromebooks">
+         <attribute name="title">
+          <string>Chromebooks</string>
+         </attribute>
         </widget>
         <widget class="QWidget" name="tabLDAP">
          <attribute name="title">
@@ -1062,6 +1101,11 @@
                  <item>
                   <property name="text">
                    <string>eDirectory</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Samba LDAP</string>
                   </property>
                  </item>
                 </widget>
@@ -2720,14 +2764,14 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
  </widget>
  <customwidgets>
   <customwidget>
-   <class>KioskCategoriesView</class>
-   <extends>QTreeView</extends>
-   <header>FileWaveGuiLib/KioskCategoriesView.h</header>
-  </customwidget>
-  <customwidget>
    <class>StyledTreeWidget</class>
    <extends>QTreeWidget</extends>
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>KioskCategoriesView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/KioskCategoriesView.h</header>
   </customwidget>
   <customwidget>
    <class>OnlineStatus</class>
@@ -2763,6 +2807,12 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
    <header>FWAdminLib/Preferences/EducationPreferencesWidget.h</header>
    <container>1</container>
   </customwidget>
+  <customwidget>
+   <class>ChromebookPreferencesWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Preferences/ChromebookPreferencesWidget.h</header>
+   <container>1</container>
+  </customwidget>
  </customwidgets>
  <tabstops>
   <tabstop>tabWidget</tabstop>
@@ -2781,7 +2831,6 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
   <tabstop>newAppleCatalogUrl</tabstop>
   <tabstop>deleteAppleCatalogUrl</tabstop>
   <tabstop>cbMSSUCatalog</tabstop>
-  <tabstop>leMSSUCatalog</tabstop>
   <tabstop>categoriesDefaults</tabstop>
   <tabstop>organizationNameLE</tabstop>
   <tabstop>organizationAddressTE</tabstop>

@@ -36,7 +36,7 @@ QProgressBar::chunk {
   <property name="unifiedTitleAndToolBarOnMac">
    <bool>true</bool>
   </property>
-  <widget class="QWidget" name="centralwidget">
+  <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
     <property name="spacing">
      <number>0</number>
@@ -58,7 +58,7 @@ QProgressBar::chunk {
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
-      <widget class="PrettySplitter" name="leftSplitter">
+      <widget class="PrettySplitter" name="categoriesOrganizationsSplitter">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
@@ -130,7 +130,7 @@ QProgressBar::chunk {
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="label">
+          <widget class="QLabel" name="organizationsLabel">
            <property name="text">
             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organizations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
@@ -140,7 +140,7 @@ QProgressBar::chunk {
           </widget>
          </item>
          <item>
-          <widget class="StyledTreeView" name="vppUsersView">
+          <widget class="StyledTreeView" name="organizationsView">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
              <horstretch>0</horstretch>
@@ -174,7 +174,7 @@ QProgressBar::chunk {
        <property name="currentIndex">
         <number>1</number>
        </property>
-       <widget class="QWidget" name="filesetView">
+       <widget class="QWidget" name="listView">
         <layout class="QVBoxLayout" name="verticalLayout">
          <property name="spacing">
           <number>0</number>
@@ -192,7 +192,7 @@ QProgressBar::chunk {
           <number>0</number>
          </property>
          <item>
-          <widget class="StyledTreeView" name="installView">
+          <widget class="StyledTreeView" name="filesetListView">
            <property name="frameShape">
             <enum>QFrame::NoFrame</enum>
            </property>
@@ -284,7 +284,7 @@ QProgressBar::chunk {
               <widget class="QWidget" name="topTenWidgetContents">
                <property name="geometry">
                 <rect>
-                 <x>0</x>
+                 <x>151</x>
                  <y>0</y>
                  <width>394</width>
                  <height>76</height>
@@ -319,7 +319,7 @@ QProgressBar::chunk {
           <number>0</number>
          </property>
          <item row="1" column="0" colspan="4">
-          <widget class="QTextBrowser" name="description">
+          <widget class="QTextBrowser" name="descriptionView">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
@@ -340,7 +340,7 @@ QProgressBar::chunk {
             <number>10</number>
            </property>
            <item row="1" column="1">
-            <widget class="QPushButton" name="appInstall">
+            <widget class="QPushButton" name="installButton">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                <horstretch>0</horstretch>
@@ -365,7 +365,7 @@ QProgressBar::chunk {
             </widget>
            </item>
            <item row="1" column="2">
-            <spacer name="horizontalSpacer_3">
+            <spacer name="installButtonSpacer">
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
              </property>
@@ -381,7 +381,7 @@ QProgressBar::chunk {
             </spacer>
            </item>
            <item row="2" column="1">
-            <widget class="QProgressBar" name="appInstallProgress">
+            <widget class="QProgressBar" name="installProgressBar">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
                <horstretch>0</horstretch>
@@ -412,23 +412,23 @@ QProgressBar::chunk {
             </widget>
            </item>
            <item row="0" column="1">
-            <spacer name="verticalSpacer">
+            <spacer name="installAreaSpacer">
              <property name="orientation">
               <enum>Qt::Vertical</enum>
              </property>
              <property name="sizeType">
-              <enum>QSizePolicy::Fixed</enum>
+              <enum>QSizePolicy::MinimumExpanding</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
-               <width>20</width>
-               <height>45</height>
+               <width>1</width>
+               <height>1</height>
               </size>
              </property>
             </spacer>
            </item>
            <item row="2" column="2">
-            <spacer name="verticalSpacer_2">
+            <spacer name="installProgressBarSpacer">
              <property name="orientation">
               <enum>Qt::Vertical</enum>
              </property>
@@ -446,16 +446,16 @@ QProgressBar::chunk {
           </layout>
          </item>
          <item row="0" column="2">
-          <layout class="QVBoxLayout" name="verticalLayout_5">
+          <layout class="QVBoxLayout" name="titleAreaLayout">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <layout class="QHBoxLayout" name="titleLayout">
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_4">
+              <layout class="QVBoxLayout" name="titleInnerLayout">
                <property name="spacing">
                 <number>0</number>
                </property>
                <item>
-                <widget class="QLabel" name="appTitle">
+                <widget class="QLabel" name="titleField">
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
@@ -484,14 +484,14 @@ QProgressBar::chunk {
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="appCategory">
+                <widget class="QLabel" name="categoryField">
                  <property name="text">
                   <string>category</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <spacer name="verticalSpacer_3">
+                <spacer name="titleSpacer">
                  <property name="orientation">
                   <enum>Qt::Vertical</enum>
                  </property>
@@ -500,8 +500,8 @@ QProgressBar::chunk {
                  </property>
                  <property name="sizeHint" stdset="0">
                   <size>
-                   <width>20</width>
-                   <height>20</height>
+                   <width>1</width>
+                   <height>1</height>
                   </size>
                  </property>
                 </spacer>
@@ -513,7 +513,7 @@ QProgressBar::chunk {
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_3">
              <item>
-              <widget class="QLabel" name="label_2">
+              <widget class="QLabel" name="statusLabel">
                <property name="minimumSize">
                 <size>
                  <width>50</width>
@@ -532,7 +532,7 @@ QProgressBar::chunk {
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="appStatus">
+              <widget class="QLabel" name="statusField">
                <property name="minimumSize">
                 <size>
                  <width>200</width>
@@ -566,9 +566,9 @@ QProgressBar::chunk {
             </layout>
            </item>
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout">
+            <layout class="QHBoxLayout" name="ratingLayout">
              <item>
-              <widget class="RatingWidget" name="ratingWidget" native="true">
+              <widget class="RatingWidget" name="rating" native="true">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
                  <horstretch>0</horstretch>
@@ -590,7 +590,7 @@ QProgressBar::chunk {
               </widget>
              </item>
              <item>
-              <spacer name="horizontalSpacer_2">
+              <spacer name="ratingSpacer">
                <property name="orientation">
                 <enum>Qt::Horizontal</enum>
                </property>
@@ -607,7 +607,7 @@ QProgressBar::chunk {
           </layout>
          </item>
          <item row="0" column="1">
-          <widget class="QWidget" name="widget" native="true">
+          <widget class="QWidget" name="iconFrame" native="true">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -619,7 +619,7 @@ QProgressBar::chunk {
              <number>0</number>
             </property>
             <item row="0" column="1">
-             <spacer name="verticalSpacer_5">
+             <spacer name="topIconSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
               </property>
@@ -632,7 +632,7 @@ QProgressBar::chunk {
              </spacer>
             </item>
             <item row="1" column="0">
-             <spacer name="horizontalSpacer_5">
+             <spacer name="leftIconSpacer">
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
@@ -645,7 +645,7 @@ QProgressBar::chunk {
              </spacer>
             </item>
             <item row="1" column="1">
-             <widget class="QLabel" name="appIcon">
+             <widget class="QLabel" name="icon">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
                 <horstretch>0</horstretch>
@@ -676,7 +676,7 @@ QProgressBar::chunk {
              </widget>
             </item>
             <item row="1" column="2">
-             <spacer name="horizontalSpacer_4">
+             <spacer name="rightIconSpacer">
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
               </property>
@@ -689,7 +689,7 @@ QProgressBar::chunk {
              </spacer>
             </item>
             <item row="2" column="1">
-             <spacer name="verticalSpacer_4">
+             <spacer name="bottomIconSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
               </property>
@@ -721,7 +721,7 @@ QProgressBar::chunk {
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar">
+  <widget class="QStatusBar" name="statusBar">
    <property name="styleSheet">
     <string notr="true">QStatusBar::item { border: 0px; }</string>
    </property>
@@ -784,12 +784,6 @@ QProgressBar::chunk {
  </widget>
  <customwidgets>
   <customwidget>
-   <class>RatingWidget</class>
-   <extends>QWidget</extends>
-   <header>FileWaveGuiLib/RatingWidget.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>PrettySplitter</class>
    <extends>QSplitter</extends>
    <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
@@ -804,6 +798,12 @@ QProgressBar::chunk {
    <class>KioskCategoriesView</class>
    <extends>QTreeView</extends>
    <header>FileWaveGuiLib/KioskCategoriesView.h</header>
+  </customwidget>
+  <customwidget>
+   <class>RatingWidget</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/RatingWidget.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>TopTenScrollArea</class>

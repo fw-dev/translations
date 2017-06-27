@@ -69,7 +69,7 @@
          <item>
           <widget class="QRadioButton" name="m_radioFullName">
            <property name="text">
-            <string>Name and password test fields</string>
+            <string>Name and password text fields</string>
            </property>
           </widget>
          </item>

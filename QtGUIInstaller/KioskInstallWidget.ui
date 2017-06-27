@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>501</width>
+    <width>506</width>
     <height>99</height>
    </rect>
   </property>
@@ -300,7 +300,7 @@ QProgressBar::chunk {
           </widget>
          </item>
          <item row="1" column="0">
-          <widget class="RatingWidget" name="ratingWidget" native="true">
+          <widget class="RatingWidget" name="rating" native="true">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
              <horstretch>0</horstretch>

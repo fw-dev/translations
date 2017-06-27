@@ -194,7 +194,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="toolTip">
-      <string>Create a fileset based on Software Update content</string>
+      <string>Create a Fileset based on Software Update content</string>
      </property>
      <property name="text">
       <string/>
@@ -248,7 +248,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="toolTip">
-      <string>Create a Profile fileset for OSX Computers</string>
+      <string>Create a Profile Fileset for macOS Computers</string>
      </property>
      <property name="text">
       <string/>
@@ -300,6 +300,9 @@
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="toolTip">
+      <string>Create an App Store Fileset for macOS Computers</string>
      </property>
      <property name="text">
       <string/>
@@ -395,7 +398,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="toolTip">
-      <string>Use Fileset Magic to for complex Installations</string>
+      <string>Use Fileset Magic for complex Installations</string>
      </property>
      <property name="text">
       <string/>

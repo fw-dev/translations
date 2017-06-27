@@ -2,14 +2,6 @@
 <ui version="4.0">
  <class>CAdminUserDlg</class>
  <widget class="QWidget" name="CAdminUserDlg">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>970</width>
-    <height>724</height>
-   </rect>
-  </property>
   <property name="windowTitle">
    <string>FileWave Administrators</string>
   </property>

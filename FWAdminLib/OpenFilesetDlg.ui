@@ -326,7 +326,7 @@ margin-bottom: 4px;
   <customwidget>
    <class>FilesetContentsFilesView</class>
    <extends>QTreeView</extends>
-   <header>views/filesetcontentsfilesview.h</header>
+   <header>FWAdminLib/views/filesetcontentsfilesview.h</header>
   </customwidget>
  </customwidgets>
  <resources>

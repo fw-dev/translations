@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>485</width>
-    <height>1260</height>
+    <width>527</width>
+    <height>1288</height>
    </rect>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
-   <item row="22" column="0">
-    <widget class="QWidget" name="certificateOptions" native="true">
+   <item row="26" column="0">
+    <widget class="QWidget" name="encryptionCertificateOptions" native="true">
      <layout class="QGridLayout" name="gridLayout_6">
       <property name="leftMargin">
        <number>0</number>
@@ -26,53 +26,71 @@
       <property name="bottomMargin">
        <number>0</number>
       </property>
-      <item row="5" column="0">
-       <widget class="QComboBox" name="comboEncryptionCertificate"/>
+      <item row="4" column="0">
+       <widget class="QLabel" name="lTip_checkEnablePerMessageSwitch">
+        <property name="text">
+         <string>Allow the user to choose whether to encrypt each message</string>
+        </property>
+       </widget>
       </item>
       <item row="3" column="0">
+       <widget class="QCheckBox" name="checkEnablePerMessageSwitch">
+        <property name="text">
+         <string>Enable Per-Message Encryption Switch</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lTipEncryptionCertificate">
+        <property name="text">
+         <string>Certificate used to decrypt messages sent to this account</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QComboBox" name="comboEncryptionCertificate"/>
+      </item>
+      <item row="0" column="0">
        <widget class="QLabel" name="EncryptionCertificateTitle">
         <property name="text">
          <string>Encryption Certificate</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="0">
+     </layout>
+    </widget>
+   </item>
+   <item row="23" column="0">
+    <widget class="QWidget" name="signCertificateOptions" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
        <widget class="QLabel" name="SigningCertificateTitle">
         <property name="text">
          <string>Signing Certificate</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="0">
-       <widget class="QComboBox" name="comboSigningCertificate"/>
-      </item>
-      <item row="1" column="0">
+      <item>
        <widget class="QLabel" name="lTipSigningCertificate">
         <property name="text">
          <string>Certificate used to sign messages sent from this account</string>
         </property>
        </widget>
       </item>
-      <item row="4" column="0">
-       <widget class="QLabel" name="lTipEncryptionCertificate">
-        <property name="text">
-         <string>Certificate used to sign messages sent from this account</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0">
-       <widget class="QCheckBox" name="checkEnablePerMessageSwitch">
-        <property name="text">
-         <string>Enable per-message encryption switch</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="0">
-       <widget class="QLabel" name="lTip_checkEnablePerMessageSwitch">
-        <property name="text">
-         <string>Allow the user to choose whether to encrypt each message</string>
-        </property>
-       </widget>
+      <item>
+       <widget class="QComboBox" name="comboSigningCertificate"/>
       </item>
      </layout>
     </widget>
@@ -127,20 +145,10 @@
      </item>
     </layout>
    </item>
-   <item row="14" column="0">
-    <widget class="QCheckBox" name="checkAllowRecentAddressesSynced">
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipAccountType">
      <property name="text">
-      <string>Allow recent addresses to be synced</string>
-     </property>
-     <property name="checked">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="7" column="0">
-    <widget class="QLabel" name="lTipUserDisplayName">
-     <property name="text">
-      <string>The display name of the user (e.g. &quot;John Appleseed&quot;)</string>
+      <string>The protocol for accessing the account</string>
      </property>
     </widget>
    </item>
@@ -151,17 +159,34 @@
      </property>
     </widget>
    </item>
-   <item row="11" column="0">
-    <widget class="QLineEdit" name="editEmailAddress">
-     <property name="placeholderText">
-      <string>[set on device]</string>
+   <item row="0" column="0">
+    <widget class="QLabel" name="lAccountDescription">
+     <property name="text">
+      <string>Account Description</string>
      </property>
     </widget>
    </item>
-   <item row="21" column="0">
-    <widget class="QLabel" name="lTipEnableSMime">
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipAccountDescription">
      <property name="text">
-      <string>Support S/MIME for this account</string>
+      <string>The display name of the account (e.g. &quot;Company Mail Account&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QCheckBox" name="checkAllowRecentAddressesSynced">
+     <property name="text">
+      <string>Allow recent addresses to be synced</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="editAccountDescription">
+     <property name="text">
+      <string>My Mail Account</string>
      </property>
     </widget>
    </item>
@@ -172,10 +197,31 @@
      </property>
     </widget>
    </item>
-   <item row="6" column="0">
-    <widget class="QLabel" name="lUserDisplayName">
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="editEmailAddress">
+     <property name="placeholderText">
+      <string>[set on device]</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lAccountType">
      <property name="text">
-      <string>User Display Name</string>
+      <string>Account Type</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="lTipUserDisplayName">
+     <property name="text">
+      <string>The display name of the user (e.g. &quot;John Appleseed&quot;)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="0">
+    <widget class="QLabel" name="lTipEnableSMimeSigning">
+     <property name="text">
+      <string>Support S/MIME signing for this account.</string>
      </property>
     </widget>
    </item>
@@ -186,6 +232,37 @@
      </property>
     </widget>
    </item>
+   <item row="24" column="0">
+    <widget class="QCheckBox" name="checkEnableSMIMEMessageEncryption">
+     <property name="text">
+      <string>Enable S/MIME message encryption</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="lEmailAddress">
+     <property name="text">
+      <string>Email Address</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QCheckBox" name="checkAllowUserMoveMessages">
+     <property name="text">
+      <string>Allow user to move messages from this account</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0">
+    <widget class="QCheckBox" name="checkEnableSMIMEMessageSigning">
+     <property name="text">
+      <string>Enable S/MIME message signing</string>
+     </property>
+    </widget>
+   </item>
    <item row="10" column="0">
     <widget class="QLabel" name="lTipEmailAddress">
      <property name="text">
@@ -193,7 +270,14 @@
      </property>
     </widget>
    </item>
-   <item row="23" column="0">
+   <item row="16" column="0">
+    <widget class="QCheckBox" name="checkUseOnlyInMail">
+     <property name="text">
+      <string>Use only in Mail</string>
+     </property>
+    </widget>
+   </item>
+   <item row="27" column="0">
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
       <number>0</number>
@@ -606,41 +690,10 @@
      </widget>
     </widget>
    </item>
-   <item row="3" column="0">
-    <widget class="QLabel" name="lAccountType">
+   <item row="6" column="0">
+    <widget class="QLabel" name="lUserDisplayName">
      <property name="text">
-      <string>Account Type</string>
-     </property>
-    </widget>
-   </item>
-   <item row="12" column="0">
-    <widget class="QCheckBox" name="checkAllowUserMoveMessages">
-     <property name="text">
-      <string>Allow user to move messages from this account</string>
-     </property>
-     <property name="checked">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="9" column="0">
-    <widget class="QLabel" name="lEmailAddress">
-     <property name="text">
-      <string>Email Address</string>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="0">
-    <widget class="QLabel" name="lTipAccountType">
-     <property name="text">
-      <string>The protocol for accessing the account</string>
-     </property>
-    </widget>
-   </item>
-   <item row="20" column="0">
-    <widget class="QCheckBox" name="checkEnableSMIME">
-     <property name="text">
-      <string>Enable S/MIME</string>
+      <string>User Display Name</string>
      </property>
     </widget>
    </item>
@@ -651,31 +704,17 @@
      </property>
     </widget>
    </item>
-   <item row="2" column="0">
-    <widget class="QLineEdit" name="editAccountDescription">
+   <item row="25" column="0">
+    <widget class="QLabel" name="lTipEnableSMimeEncryption">
      <property name="text">
-      <string>My Mail Account</string>
+      <string>Support S/MIME encryption for this account</string>
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
-    <widget class="QLabel" name="lTipAccountDescription">
+   <item row="22" column="0">
+    <widget class="QLabel" name="lTipSigning">
      <property name="text">
-      <string>The display name of the account (e.g. &quot;Company Mail Account&quot;)</string>
-     </property>
-    </widget>
-   </item>
-   <item row="16" column="0">
-    <widget class="QCheckBox" name="checkUseOnlyInMail">
-     <property name="text">
-      <string>Use only in Mail</string>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="0">
-    <widget class="QLabel" name="lAccountDescription">
-     <property name="text">
-      <string>Account Description</string>
+      <string>For versions older than iOS 10.3 and macOS 10.12.4, check signing and encryption.</string>
      </property>
     </widget>
    </item>
@@ -690,8 +729,7 @@
   <tabstop>checkAllowUserMoveMessages</tabstop>
   <tabstop>checkAllowRecentAddressesSynced</tabstop>
   <tabstop>checkUseOnlyInMail</tabstop>
-  <tabstop>checkEnableSMIME</tabstop>
-  <tabstop>comboSigningCertificate</tabstop>
+  <tabstop>checkEnableSMIMEMessageSigning</tabstop>
   <tabstop>comboEncryptionCertificate</tabstop>
   <tabstop>tabWidget</tabstop>
   <tabstop>editInMailServer</tabstop>

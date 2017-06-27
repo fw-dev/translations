@@ -2,18 +2,13 @@
 <ui version="4.0">
  <class>AdminPermissionsWidget</class>
  <widget class="QWidget" name="AdminPermissionsWidget">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>577</width>
-    <height>755</height>
-   </rect>
-  </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Permissions</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
@@ -63,7 +58,7 @@
       <item row="0" column="0">
        <widget class="QCheckBox" name="checkBoxCanAdminUsers">
         <property name="text">
-         <string>Can administer users</string>
+         <string>Can Administer Users</string>
         </property>
        </widget>
       </item>
@@ -76,13 +71,6 @@
       <string>Clients and Groups</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_4">
-      <item row="0" column="0">
-       <widget class="QCheckBox" name="checkBoxModifyClientsGroups">
-        <property name="text">
-         <string>Modify Clients/Groups</string>
-        </property>
-       </widget>
-      </item>
       <item row="0" column="1">
        <widget class="QCheckBox" name="checkBoxClientsAndGroupsSetPermissions">
         <property name="text">
@@ -94,6 +82,34 @@
        <widget class="QCheckBox" name="checkBoxResetClientUniqueId">
         <property name="text">
          <string>Clear Fileset Status</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBoxClientsAndGroupsChangeAuthUsername">
+        <property name="text">
+         <string>Change Enrollment Username</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxModifyClientsGroups">
+        <property name="text">
+         <string>Modify Clients/Groups</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxViewLocationInfo">
+        <property name="text">
+         <string>View Location Information</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBoxTurnTrackingOnOff">
+        <property name="text">
+         <string>Turn Tracking On/Off</string>
         </property>
        </widget>
       </item>
@@ -187,7 +203,7 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="0">
+      <item row="0" column="1">
        <widget class="QCheckBox" name="assignDEPProfilesCheckBox">
         <property name="text">
          <string>Assign Profiles</string>
@@ -206,7 +222,7 @@
       <item>
        <widget class="QCheckBox" name="configureDashboard">
         <property name="text">
-         <string>Configure dashboard</string>
+         <string>Configure Dashboard</string>
         </property>
        </widget>
       </item>
@@ -237,7 +253,7 @@
      <property name="sizeHint" stdset="0">
       <size>
        <width>412</width>
-       <height>13</height>
+       <height>0</height>
       </size>
      </property>
     </spacer>

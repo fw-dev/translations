@@ -59,14 +59,14 @@
       </font>
      </property>
      <property name="text">
-      <string>Hostname</string>
+      <string>macOS Server Host Name or IP Address</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="lTipHostname">
      <property name="text">
-      <string>The hostname of the macOS Server</string>
+      <string>The Host Name or IP Address of the macOS Server</string>
      </property>
     </widget>
    </item>
@@ -93,7 +93,7 @@
    <item>
     <widget class="QLabel" name="lTipUserName">
      <property name="text">
-      <string>The username of the macOS Server Account</string>
+      <string>The user name of the macOS Server Account</string>
      </property>
     </widget>
    </item>
