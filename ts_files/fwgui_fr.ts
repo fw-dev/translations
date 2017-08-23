@@ -249,7 +249,7 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="645"/>
         <source>&lt;a href=&quot;https://filewave.com/privacy&quot;%style%&gt;FileWave Privacy Policy&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="350"/>
