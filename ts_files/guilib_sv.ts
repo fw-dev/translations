@@ -1093,7 +1093,7 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>MAIN</name>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="34"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="33"/>
         <source>Some other User is modifying one of the objects involved in this operation.</source>
         <translation type="unfinished"></translation>
     </message>

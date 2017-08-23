@@ -712,14 +712,12 @@ Anyone will be able to activate selected devices after a reset !</source>
         <translation type="unfinished">-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AirPrintForm.cpp" line="97"/>
-        <location filename="../../FWAdminLib/Configurator/AirPrintForm.cpp" line="139"/>
+        <location filename="../../FWAdminLib/Configurator/AirPrintForm.cpp" line="94"/>
         <source>Yes</source>
         <translation type="unfinished">Evet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AirPrintForm.cpp" line="97"/>
-        <location filename="../../FWAdminLib/Configurator/AirPrintForm.cpp" line="139"/>
+        <location filename="../../FWAdminLib/Configurator/AirPrintForm.cpp" line="94"/>
         <source>No</source>
         <translation type="unfinished">Hayır</translation>
     </message>
