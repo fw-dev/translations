@@ -7,8 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>632</width>
-    <height>1740</height>
+    <height>2324</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>632</width>
+    <height>0</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -16,10 +28,34 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>608</width>
+       <height>0</height>
+      </size>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
      <widget class="QWidget" name="tab">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>602</width>
+        <height>0</height>
+       </size>
+      </property>
       <attribute name="title">
        <string>Functionality</string>
       </attribute>
@@ -100,7 +136,7 @@
           <item>
            <widget class="QCheckBox" name="allowClassroomObservation">
             <property name="text">
-             <string>Allow screen observation by Classroom (Supervised devices only)</string>
+             <string>Allow AirPlay and View Screen by Classroom (Supervised devices only)</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -128,10 +164,7 @@
              <item>
               <widget class="QCheckBox" name="forceUnpromptedManagedClassroomScreenObservation">
                <property name="text">
-                <string>Allow modifying the AirPlay and View Screen permission for managed</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
+                <string>Allow Classroom to perform AirPlay and View Screen without promting</string>
                </property>
               </widget>
              </item>
@@ -143,7 +176,7 @@
                <item>
                 <widget class="QLabel" name="label_7">
                  <property name="text">
-                  <string>classes (Supervised devices only)</string>
+                  <string>(Supervised devices only)</string>
                  </property>
                 </widget>
                </item>
@@ -169,6 +202,9 @@
         <widget class="QCheckBox" name="allowMusicService">
          <property name="text">
           <string>Allow Apple Music (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -256,6 +292,34 @@
          <property name="checked">
           <bool>true</bool>
          </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widgetAllowSystemAppRemoval" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <property name="leftMargin">
+           <number>18</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="allowSystemAppRemoval">
+            <property name="text">
+             <string>Allow removing system apps (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -499,6 +563,44 @@
          </property>
          <property name="checked">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowVPNCreation">
+         <property name="text">
+          <string>Allow adding VPN configurations (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceClassroomUnpromptedAppAndDeviceLock">
+         <property name="text">
+          <string>Allow Classroom to lock to an app and lock the device without prompting</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="leftMargin">
+          <number>18</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>(Supervised devices only)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceClassroomAutomaticallyJoinClasses">
+         <property name="text">
+          <string>Automatically join Classroom classes without prompting (Supervised devices only)</string>
          </property>
         </widget>
        </item>
@@ -850,6 +952,64 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowAirPrint">
+         <property name="text">
+          <string>Allow AirPrint (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="allowAirPrintSubWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <property name="leftMargin">
+           <number>18</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="forceAirPrintTrustedTLSRequirement">
+            <property name="text">
+             <string>Disallow AirPrint to destinations with untrusted certificates (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="allowAirPrintiBeaconDiscovery">
+            <property name="text">
+             <string>Allow discovery of AirPrint printers using iBeacons (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="allowAirPrintCredentialsStorage">
+            <property name="text">
+             <string>Allow storage of AirPrint credentials in Keychain (Supervised devices only)</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowPredictiveKeyboard">
          <property name="text">
           <string>Allow predictive keyboard (Supervised devices only)</string>
@@ -1151,33 +1311,7 @@
         </layout>
        </item>
        <item>
-        <widget class="QLabel" name="labelRestrictAppUsage">
-         <property name="text">
-          <string>Restrict App Usage (supervised only)</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QComboBox" name="comboBoxRestrictAppUsage">
-         <item>
-          <property name="text">
-           <string>Allow all apps</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Only allow the apps below</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Block the apps listed below</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item>
-        <widget class="ItemListWidget" name="widgetRestrictAppUsage" native="true"/>
+        <widget class="RestrictAppUsageWidget" name="widgetRestrictAppUsage" native="true"/>
        </item>
        <item>
         <spacer name="verticalSpacer_2">
@@ -1200,235 +1334,6 @@
       </attribute>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="1" column="0">
-        <widget class="QLabel" name="lTipRatingsRegion">
-         <property name="text">
-          <string>Sets the region for the ratings</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="lTipMaximumAllowedRatings">
-         <property name="text">
-          <string>Sets the maximum allowed ratings</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>Allowed content ratings</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <spacer name="horizontalSpacer_10">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>174</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="5" column="0">
-        <layout class="QFormLayout" name="formLayout">
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_4">
-           <property name="text">
-            <string>Movies:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QComboBox" name="movieRatings">
-           <property name="minimumSize">
-            <size>
-             <width>190</width>
-             <height>0</height>
-            </size>
-           </property>
-           <item>
-            <property name="text">
-             <string>Don't allow movies</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>G</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>PG</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>PG-13</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>R</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>NC-17</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>Allow all movies</string>
-            </property>
-           </item>
-          </widget>
-         </item>
-         <item row="1" column="0">
-          <widget class="QLabel" name="label_5">
-           <property name="text">
-            <string>TV Shows:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QComboBox" name="tvShowRatings">
-           <property name="minimumSize">
-            <size>
-             <width>190</width>
-             <height>0</height>
-            </size>
-           </property>
-           <item>
-            <property name="text">
-             <string>Don't allow TV Shows</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>TV-Y</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>TV-Y7</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>TV-G</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>TV-PG</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>TV-14</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>TV-MA</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>Allow all TV Shows</string>
-            </property>
-           </item>
-          </widget>
-         </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="label_6">
-           <property name="text">
-            <string>Apps:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1">
-          <widget class="QComboBox" name="appsRatings">
-           <property name="minimumSize">
-            <size>
-             <width>190</width>
-             <height>0</height>
-            </size>
-           </property>
-           <item>
-            <property name="text">
-             <string>Don't allow movies</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>G</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>PG</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>PG-13</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>R</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>NC-17</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>Allow all movies</string>
-            </property>
-           </item>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="2" column="0">
-        <widget class="QComboBox" name="ratingsRegion"/>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>Ratings region</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0" colspan="2">
-        <widget class="QCheckBox" name="allowExplicitMusic">
-         <property name="text">
-          <string>Allow playback of explicit music, podcasts &amp;&amp; iTunes U media</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="QCheckBox" name="allowBookstoreErotica">
-         <property name="text">
-          <string>Allow explicit sexual content in iBooks Store</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1">
         <spacer name="verticalSpacer_3">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -1441,6 +1346,9 @@
          </property>
         </spacer>
        </item>
+       <item row="0" column="0">
+        <widget class="RestrictionsMediaContentWidget" name="mediaContentWidget" native="true"/>
+       </item>
       </layout>
      </widget>
     </widget>
@@ -1449,9 +1357,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>ItemListWidget</class>
+   <class>RestrictAppUsageWidget</class>
    <extends>QWidget</extends>
-   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
+   <header>FWAdminLib/Configurator/RestrictAppUsageWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RestrictionsMediaContentWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/RestrictionsMediaContentWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
@@ -1502,22 +1416,6 @@
     <hint type="destinationlabel">
      <x>271</x>
      <y>74</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>allowSiri</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>siriSub</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>103</x>
-     <y>602</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>286</x>
-     <y>670</y>
     </hint>
    </hints>
   </connection>

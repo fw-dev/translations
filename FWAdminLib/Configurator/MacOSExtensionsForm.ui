@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MacOSExtensionsForm</class>
+ <widget class="QWidget" name="MacOSExtensionsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0">
+   <item>
+    <widget class="QWidget" name="widgetAlwaysVisible" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="ItemListWidget" name="itemListAllowedExtensions" native="true"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelExtensionPoints">
+        <property name="text">
+         <string>Extension Points</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxExtensionPoints">
+        <item>
+         <property name="text">
+          <string>Disallow all extension points</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Allow all extension points</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disallow some extension points</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetDisallowSomeExtensionPoints" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="checkBoxAction">
+        <property name="text">
+         <string>Action</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxAudioUnit">
+        <property name="text">
+         <string>Audio Unit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxContentBlocker">
+        <property name="text">
+         <string>Content Blocker</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxFinderSync">
+        <property name="text">
+         <string>Finder Sync</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxPhotoEditing">
+        <property name="text">
+         <string>Photo Editing</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxSafari">
+        <property name="text">
+         <string>Safari</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxShare">
+        <property name="text">
+         <string>Share</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxSharedLinks">
+        <property name="text">
+         <string>Shared Links</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxSmartCardToken">
+        <property name="text">
+         <string>Smart Card Token</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxToday">
+        <property name="text">
+         <string>Today</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxXcodeSourceEditor">
+        <property name="text">
+         <string>Xcode Source Editor</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetDisabledExtensions" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="ItemListWidget" name="itemListDisabledExtensions" native="true"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ItemListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>itemListAllowedExtensions</tabstop>
+  <tabstop>comboBoxExtensionPoints</tabstop>
+  <tabstop>checkBoxAction</tabstop>
+  <tabstop>checkBoxAudioUnit</tabstop>
+  <tabstop>checkBoxContentBlocker</tabstop>
+  <tabstop>checkBoxFinderSync</tabstop>
+  <tabstop>checkBoxPhotoEditing</tabstop>
+  <tabstop>checkBoxSafari</tabstop>
+  <tabstop>checkBoxShare</tabstop>
+  <tabstop>checkBoxSharedLinks</tabstop>
+  <tabstop>checkBoxSmartCardToken</tabstop>
+  <tabstop>checkBoxToday</tabstop>
+  <tabstop>checkBoxXcodeSourceEditor</tabstop>
+  <tabstop>itemListDisabledExtensions</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

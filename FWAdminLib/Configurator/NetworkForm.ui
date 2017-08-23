@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>497</width>
-    <height>2712</height>
+    <height>2771</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -65,7 +65,37 @@
      </item>
      <item>
       <property name="text">
-       <string>Ethernet (macOS only)</string>
+       <string>First Active Ethernet (macOS only)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Second Active Ethernet (macOS only)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Third Active Ethernet (macOS only)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>First Ethernet (macOS only)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Second Ethernet (macOS only)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Third Ethernet (macOS only)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Any Ethernet (macOS only)</string>
       </property>
      </item>
     </widget>
@@ -990,7 +1020,7 @@
                 <item>
                  <widget class="QLabel" name="lTipEAPPassword">
                   <property name="text">
-                   <string>Password for the provided username</string>
+                   <string>Password for the provided user name</string>
                   </property>
                  </widget>
                 </item>
@@ -1189,6 +1219,26 @@
              </item>
             </layout>
            </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="tlsMinVersion">
+            <property name="text">
+             <string>TLS Minimum Version</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboTlsMinVersion"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="tlsMaxVersion">
+            <property name="text">
+             <string>TLS Maximum Version</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboTlsMaxVersion"/>
           </item>
           <item>
            <spacer name="verticalSpacer_2">

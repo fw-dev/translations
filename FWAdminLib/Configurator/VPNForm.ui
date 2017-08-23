@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>493</width>
-    <height>4159</height>
+    <height>4299</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -139,7 +139,14 @@
       <item>
        <widget class="QCheckBox" name="checkAlwaysOn">
         <property name="text">
-         <string>Always-on VPN (iOS supervised only)</string>
+         <string>Always-on VPN (supervised only)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkSendAllTrafficThroughVPN">
+        <property name="text">
+         <string>Send all traffic through VPN</string>
         </property>
        </widget>
       </item>
@@ -153,7 +160,7 @@
       <item>
        <widget class="QCheckBox" name="checkUseSameTunnelConfiguration">
         <property name="text">
-         <string>Use the same tunnel configuration for Cellular and WiFi</string>
+         <string>Use the same tunnel configuration for Cellular and Wi-Fi</string>
         </property>
        </widget>
       </item>
@@ -201,7 +208,7 @@
          <item>
           <widget class="QPushButton" name="buttonTCWiFi">
            <property name="text">
-            <string>WiFi</string>
+            <string>Wi-Fi</string>
            </property>
            <property name="checkable">
             <bool>true</bool>
@@ -253,7 +260,7 @@
    <item>
     <widget class="QLabel" name="lTip_3">
      <property name="text">
-      <string>Hostname or IP address for server</string>
+      <string>Host name or IP address for server</string>
      </property>
     </widget>
    </item>
@@ -634,7 +641,7 @@
          <item>
           <widget class="QLabel" name="lTip_15">
            <property name="text">
-            <string>Authentication type for connection</string>
+            <string>User authentication type for the connection</string>
            </property>
           </widget>
          </item>
@@ -1359,38 +1366,6 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="disconnectOnIdle" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_22">
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
-      <property name="topMargin">
-       <number>0</number>
-      </property>
-      <property name="rightMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="lDisconnectOnIdle">
-        <property name="text">
-         <string>Disconnect On Idle</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTipDisconnectOnIdle">
-        <property name="text">
-         <string>Disconnect after this length of idle time</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="disconnectOnIdleCB"/>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item>
     <widget class="QWidget" name="PPTPEncryption" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_5">
       <property name="leftMargin">
@@ -1479,7 +1454,7 @@
          <string>Send All Traffic</string>
         </property>
         <property name="checked">
-         <bool>true</bool>
+         <bool>false</bool>
         </property>
        </widget>
       </item>
@@ -1560,27 +1535,6 @@
       <property name="bottomMargin">
        <number>0</number>
       </property>
-      <item row="7" column="0" colspan="2">
-       <widget class="QLabel" name="lTip_31">
-        <property name="text">
-         <string>Interval at which keepalive should be sent</string>
-        </property>
-       </widget>
-      </item>
-      <item row="9" column="0">
-       <widget class="QCheckBox" name="checkDisableRedirects">
-        <property name="text">
-         <string>Disable redirects</string>
-        </property>
-       </widget>
-      </item>
-      <item row="10" column="0">
-       <widget class="QCheckBox" name="checkDisableMobility">
-        <property name="text">
-         <string>Disable Mobility and Multlhoming</string>
-        </property>
-       </widget>
-      </item>
       <item row="4" column="0" rowspan="2" colspan="2">
        <widget class="QWidget" name="eapWidget" native="true">
         <layout class="QVBoxLayout" name="verticalLayout_30">
@@ -1845,87 +1799,7 @@
         </layout>
        </widget>
       </item>
-      <item row="11" column="0">
-       <widget class="QCheckBox" name="checkUseIPv4">
-        <property name="text">
-         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0" colspan="2">
-       <widget class="QLabel" name="lTip_30">
-        <property name="text">
-         <string>Enable extended authentication</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="checkEnableEAP">
-        <property name="text">
-         <string>Enable EAP</string>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="0">
-       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
-      </item>
-      <item row="15" column="0">
-       <spacer name="verticalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Fixed</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>10</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="6" column="0" colspan="2">
-       <widget class="QLabel" name="label_24">
-        <property name="text">
-         <string>Dead Peer Detection Interval</string>
-        </property>
-       </widget>
-      </item>
-      <item row="16" column="0" colspan="2">
-       <widget class="QTabWidget" name="tabWidget">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="currentIndex">
-         <number>0</number>
-        </property>
-        <widget class="SecurityAssociationParametersWidget" name="tabIkeSaParams">
-         <attribute name="title">
-          <string>IKE SA Params</string>
-         </attribute>
-        </widget>
-        <widget class="SecurityAssociationParametersWidget" name="tabChildSaParams">
-         <attribute name="title">
-          <string>Child SA Params</string>
-         </attribute>
-        </widget>
-       </widget>
-      </item>
-      <item row="12" column="0">
-       <widget class="QCheckBox" name="checkEnablePFS">
-        <property name="text">
-         <string>Enable perfect forward secrecy</string>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="1">
+      <item row="9" column="1">
        <spacer name="horizontalSpacer_14">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -1938,14 +1812,28 @@
         </property>
        </spacer>
       </item>
-      <item row="13" column="0">
-       <widget class="QCheckBox" name="checkEnableCertificateRevocationCheck">
+      <item row="12" column="0">
+       <widget class="QCheckBox" name="checkUseIPv4">
         <property name="text">
-         <string>Enable certificate revocation check</string>
+         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
         </property>
        </widget>
       </item>
-      <item row="14" column="0" colspan="2">
+      <item row="7" column="0" colspan="2">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>Dead Peer Detection Rate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="0">
+       <widget class="QLabel" name="labelTLSMaximumVersion">
+        <property name="text">
+         <string>TLS Maximum Version</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
        <widget class="QWidget" name="widgetNAT" native="true">
         <layout class="QVBoxLayout" name="verticalLayout_37">
          <property name="leftMargin">
@@ -1964,6 +1852,9 @@
           <widget class="QCheckBox" name="checkBoxEnableNATKeepalive">
            <property name="text">
             <string>Enable NAT keepalive while the device is asleep</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
            </property>
           </widget>
          </item>
@@ -2007,6 +1898,113 @@
          </item>
         </layout>
        </widget>
+      </item>
+      <item row="16" column="0">
+       <widget class="QComboBox" name="comboTlSMinVersion"/>
+      </item>
+      <item row="14" column="0">
+       <widget class="QCheckBox" name="checkEnableCertificateRevocationCheck">
+        <property name="text">
+         <string>Enable certificate revocation check</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QCheckBox" name="checkDisableRedirects">
+        <property name="text">
+         <string>Disable redirects</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="checkDisableMobility">
+        <property name="text">
+         <string>Disable Mobility and Multihoming</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0">
+       <widget class="QLabel" name="labelTLSMinimumVersion">
+        <property name="text">
+         <string>TLS Minimum Version</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QCheckBox" name="checkEnablePFS">
+        <property name="text">
+         <string>Enable perfect forward secrecy</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkEnableEAP">
+        <property name="text">
+         <string>Enable EAP</string>
+        </property>
+       </widget>
+      </item>
+      <item row="20" column="0">
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>10</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QLabel" name="lTip_30">
+        <property name="text">
+         <string>Enable extended authentication</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="2">
+       <widget class="QLabel" name="lTip_31">
+        <property name="text">
+         <string>Detection interval for the connection</string>
+        </property>
+       </widget>
+      </item>
+      <item row="21" column="0" colspan="2">
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="SecurityAssociationParametersWidget" name="tabIkeSaParams">
+         <attribute name="title">
+          <string>IKE SA Params</string>
+         </attribute>
+        </widget>
+        <widget class="SecurityAssociationParametersWidget" name="tabChildSaParams">
+         <attribute name="title">
+          <string>Child SA Params</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+      <item row="18" column="0">
+       <widget class="QComboBox" name="comboTlSMaxVersion"/>
       </item>
      </layout>
     </widget>
@@ -2136,14 +2134,14 @@
       <item>
        <widget class="QLabel" name="label_9">
         <property name="text">
-         <string>Server and Port</string>
+         <string>Proxy Server and Port</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="lTip_8">
         <property name="text">
-         <string>Hostname or IP address and port number for the proxy server</string>
+         <string>Host name or IP address, and port number for the proxy server</string>
         </property>
        </widget>
       </item>
@@ -2194,7 +2192,7 @@
       <item>
        <widget class="QLabel" name="lTip_9">
         <property name="text">
-         <string>Username used to connect to the proxy</string>
+         <string>User name used to connect to the proxy</string>
         </property>
        </widget>
       </item>
@@ -2211,7 +2209,7 @@
       <item>
        <widget class="QLabel" name="lTip_10">
         <property name="text">
-         <string>Password used when connecting to the proxy server</string>
+         <string>Password used to authenticate with the proxy</string>
         </property>
        </widget>
       </item>
@@ -2293,14 +2291,14 @@
       <item>
        <widget class="QCheckBox" name="checkAllowCaptiveWebsheet">
         <property name="text">
-         <string>Allow from captive websheet outside the VPN tunnel</string>
+         <string>Allow traffic from captive web sheet outside the VPN tunnel</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QCheckBox" name="checkAllowNetworkingApps">
         <property name="text">
-         <string>Allow from all captive networking apps outside the VPN tunnel</string>
+         <string>Allow traffic from all captive networking apps outside VPN tunnel</string>
         </property>
        </widget>
       </item>
@@ -2382,6 +2380,78 @@
          </item>
         </layout>
        </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="disconnectOnIdle" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_22">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lDisconnectOnIdle">
+        <property name="text">
+         <string>Disconnect On Idle</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipDisconnectOnIdle">
+        <property name="text">
+         <string>Disconnect after given time idle</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_20">
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QComboBox" name="disconnectOnIdleCB"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="disconnectOnIdleLineEdit">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>1800</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="disconnectOnIdleLabelSeconds">
+          <property name="text">
+           <string>seconds</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_22">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
       </item>
      </layout>
     </widget>

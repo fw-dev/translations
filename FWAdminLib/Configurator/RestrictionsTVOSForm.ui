@@ -7,56 +7,162 @@
     <x>0</x>
     <y>0</y>
     <width>555</width>
-    <height>222</height>
+    <height>333</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
-    <widget class="QLabel" name="labelRestrictions">
-     <property name="text">
-      <string>Restrictions</string>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
      </property>
+     <widget class="QWidget" name="functionalityTab">
+      <attribute name="title">
+       <string>Functionality</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="labelRestrictions">
+         <property name="text">
+          <string>Restrictions</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxAllowAirPlay">
+         <property name="text">
+          <string>Allow AirPlay (supervised only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxAllowControlUsingRemoteApp">
+         <property name="text">
+          <string>Allow pairing with Remote app (supervised only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxRequirePasscodeOnFirstAirPlayPairing">
+         <property name="text">
+          <string>Require passcode on first AirPlay pairing</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxAllowModifyingName">
+         <property name="text">
+          <string>Allow modifying device name (supervised only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableSiriProfanityFilter">
+         <property name="text">
+          <string>Enable Siri profanity filter (supervised only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxAllowBookstore">
+         <property name="text">
+          <string>Allow iBooks Store (supervised only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxAllowInAppPurchase">
+         <property name="text">
+          <string>Allow in-app purchase</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="RestrictAppUsageWidget" name="widgetRestrictAppUsage" native="true"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>17</width>
+           <height>114</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+      <zorder>checkBoxAllowModifyingName</zorder>
+      <zorder>checkBoxAllowControlUsingRemoteApp</zorder>
+      <zorder>checkBoxRequirePasscodeOnFirstAirPlayPairing</zorder>
+      <zorder>labelRestrictions</zorder>
+      <zorder>widgetRestrictAppUsage</zorder>
+      <zorder>checkBoxAllowAirPlay</zorder>
+      <zorder>checkBoxEnableSiriProfanityFilter</zorder>
+      <zorder>checkBoxAllowBookstore</zorder>
+      <zorder>checkBoxAllowInAppPurchase</zorder>
+     </widget>
+     <widget class="QWidget" name="mediaContentTab">
+      <attribute name="title">
+       <string>Media Content</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="RestrictionsMediaContentWidget" name="mediaContentWidget" native="true"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>248</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
     </widget>
-   </item>
-   <item>
-    <widget class="QCheckBox" name="checkBoxDisableAirPlay">
-     <property name="text">
-      <string>Disable AirPlay (supervised only)</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QCheckBox" name="checkBoxRequirePasscodeOnFirstAirPlayPairing">
-     <property name="text">
-      <string>Require passcode on first AirPlay pairing</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QCheckBox" name="checkBoxDisableControlUsingRemoteApp">
-     <property name="text">
-      <string>Disable control using Remote app (supervised only)</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <spacer name="verticalSpacer">
-     <property name="orientation">
-      <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>20</width>
-       <height>40</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RestrictAppUsageWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/RestrictAppUsageWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RestrictionsMediaContentWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/RestrictionsMediaContentWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

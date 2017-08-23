@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>464</width>
-    <height>345</height>
+    <height>403</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,6 +35,36 @@
      <property name="rightMargin">
       <number>30</number>
      </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item row="3" column="0">
+      <widget class="QLabel" name="labelPort">
+       <property name="text">
+        <string>Port:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="editPort">
+       <property name="placeholderText">
+        <string>optional</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="labelResourcePath">
+       <property name="text">
+        <string>Resource Path:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
@@ -42,6 +72,19 @@
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QListView" name="listBonjour">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
        </property>
       </widget>
      </item>
@@ -55,10 +98,24 @@
        </property>
       </widget>
      </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="editIPAddress">
+       <property name="placeholderText">
+        <string>required</string>
+       </property>
+      </widget>
+     </item>
      <item row="1" column="1">
       <widget class="QRadioButton" name="radioDiscoverable">
        <property name="text">
         <string>Discoverable</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="editResourcePath">
+       <property name="placeholderText">
+        <string>required</string>
        </property>
       </widget>
      </item>
@@ -72,34 +129,22 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="editIPAddress"/>
-     </item>
-     <item row="3" column="1">
-      <widget class="QListView" name="listBonjour">
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>140</height>
-        </size>
-       </property>
-       <property name="editTriggers">
-        <set>QAbstractItemView::NoEditTriggers</set>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QLabel" name="labelResourcePath">
+     <item row="6" column="0">
+      <widget class="QLabel" name="labelUseTLS">
        <property name="text">
-        <string>Resource path:</string>
+        <string>Use TLS:</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
-      <widget class="QLineEdit" name="editResourcePath"/>
+     <item row="6" column="1">
+      <widget class="QCheckBox" name="checkBoxUseTLS">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>
@@ -109,12 +154,21 @@
       <enum>Qt::Horizontal</enum>
      </property>
      <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>editIPAddress</tabstop>
+  <tabstop>editPort</tabstop>
+  <tabstop>listBonjour</tabstop>
+  <tabstop>editResourcePath</tabstop>
+  <tabstop>checkBoxUseTLS</tabstop>
+  <tabstop>radioUndiscoverable</tabstop>
+  <tabstop>radioDiscoverable</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

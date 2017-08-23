@@ -15,9 +15,9 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QLabel" name="label_2">
+    <widget class="QLabel" name="labelPasswords">
      <property name="text">
-      <string>Password:</string>
+      <string>Passwords</string>
      </property>
     </widget>
    </item>
@@ -76,9 +76,9 @@
     </layout>
    </item>
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="labelWhitelist">
      <property name="text">
-      <string>Whitelist : Allow only the following airplay desintations to be used (Supervised devices only)</string>
+      <string>Whitelist : Allow only the following airplay destinations to be used (Supervised devices only)</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>

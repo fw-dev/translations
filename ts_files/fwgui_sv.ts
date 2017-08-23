@@ -187,17 +187,17 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 <context>
     <name>KioskClient</name>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="221"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="223"/>
         <source>An administrator would like to take control of your machine.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="222"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="224"/>
         <source>Deny</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="223"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="225"/>
         <source>Allow</source>
         <translation type="unfinished"></translation>
     </message>

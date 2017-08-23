@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RestrictionsMediaContentWidget</class>
+ <widget class="QWidget" name="RestrictionsMediaContentWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>278</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Ratings region</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipRatingsRegion">
+     <property name="text">
+      <string>Sets the region for the ratings</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QComboBox" name="ratingsRegion"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Allowed content ratings</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipMaximumAllowedRatings">
+     <property name="text">
+      <string>Sets the maximum allowed ratings</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Movies:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="movieRatings">
+       <property name="minimumSize">
+        <size>
+         <width>190</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Don't allow movies</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>G</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PG-13</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>R</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NC-17</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Allow all movies</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>TV Shows:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="tvShowRatings">
+       <property name="minimumSize">
+        <size>
+         <width>190</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Don't allow TV Shows</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TV-Y</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TV-Y7</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TV-G</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TV-PG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TV-14</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TV-MA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Allow all TV Shows</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Apps:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="appsRatings">
+       <property name="minimumSize">
+        <size>
+         <width>190</width>
+         <height>0</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Don't allow movies</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>G</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PG-13</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>R</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>NC-17</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Allow all movies</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="1">
+    <spacer name="horizontalSpacer_10">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>398</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QCheckBox" name="allowExplicitMusic">
+     <property name="text">
+      <string>Allow playback of explicit music, podcasts &amp;&amp; iTunes U media</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="2">
+    <widget class="QCheckBox" name="allowBookstoreErotica">
+     <property name="text">
+      <string>Allow explicit sexual content in iBooks Store</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

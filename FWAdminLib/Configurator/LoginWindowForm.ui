@@ -136,7 +136,28 @@
          <item>
           <widget class="QCheckBox" name="m_checkShutdown">
            <property name="text">
-            <string>Show Shut Down button</string>
+            <string>Show the Shut Down button</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="m_checkRestart">
+           <property name="text">
+            <string>Show the Restart button</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="m_checkSleep">
+           <property name="text">
+            <string>Show the Sleep button</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="m_checkImmediateScreenLock">
+           <property name="text">
+            <string>Disable immediate Screen Lock</string>
            </property>
           </widget>
          </item>
@@ -173,6 +194,13 @@
         <widget class="QCheckBox" name="m_checkDisableAppleIDSetupDuringLogin">
          <property name="text">
           <string>Disable Apple ID setup during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableSiriSetupDuringLogin">
+         <property name="text">
+          <string>Disable Siri setup during login</string>
          </property>
         </widget>
        </item>

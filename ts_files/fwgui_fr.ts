@@ -193,17 +193,17 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
 <context>
     <name>KioskClient</name>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="221"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="223"/>
         <source>An administrator would like to take control of your machine.</source>
         <translation>Un administrateur voudrait prendre le contrôle de votre machine.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="222"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="224"/>
         <source>Deny</source>
         <translation>Refuser</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="223"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="225"/>
         <source>Allow</source>
         <translation>Autoriser</translation>
     </message>

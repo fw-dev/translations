@@ -36,14 +36,14 @@
    <item row="1" column="0" colspan="4">
     <widget class="QLabel" name="lTip_encryptionAlgorithm">
      <property name="text">
-      <string>Encryption Algorithm</string>
+      <string>Encryption algorithm to use</string>
      </property>
     </widget>
    </item>
    <item row="2" column="0" colspan="2">
     <widget class="QComboBox" name="comboEncryptionAlgorithm">
      <property name="currentIndex">
-      <number>1</number>
+      <number>3</number>
      </property>
      <item>
       <property name="text">
@@ -100,12 +100,15 @@
    <item row="4" column="0" colspan="4">
     <widget class="QLabel" name="lTip_integrityAlgorithm">
      <property name="text">
-      <string>Integrity Algorithm</string>
+      <string>Integrity algorithm to use</string>
      </property>
     </widget>
    </item>
    <item row="5" column="0" colspan="3">
     <widget class="QComboBox" name="comboIntegrityAlgorithm">
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
      <item>
       <property name="text">
        <string>SHA1-96</string>
@@ -149,27 +152,22 @@
    <item row="6" column="0" colspan="4">
     <widget class="QLabel" name="label_5">
      <property name="text">
-      <string>Diffie Hellman Group</string>
+      <string>Diffie-Hellman Group</string>
      </property>
     </widget>
    </item>
    <item row="7" column="0" colspan="4">
     <widget class="QLabel" name="lTip_diffieHellmanGroup">
      <property name="text">
-      <string>Diffie Hellman Group</string>
+      <string>Diffie-Hellman group number</string>
      </property>
     </widget>
    </item>
    <item row="8" column="0">
     <widget class="QComboBox" name="comboDiffieHellmanGroup">
      <property name="currentIndex">
-      <number>2</number>
+      <number>3</number>
      </property>
-     <item>
-      <property name="text">
-       <string>0</string>
-      </property>
-     </item>
      <item>
       <property name="text">
        <string>1</string>
@@ -243,14 +241,14 @@
    <item row="9" column="0">
     <widget class="QLabel" name="label_7">
      <property name="text">
-      <string>Lifetime</string>
+      <string>Lifetime In Minutes</string>
      </property>
     </widget>
    </item>
    <item row="10" column="0" colspan="4">
     <widget class="QLabel" name="lTip_lifetime">
      <property name="text">
-      <string>Lifetime in minutes</string>
+      <string>SA lifetime (rekey interval) in minutes</string>
      </property>
     </widget>
    </item>

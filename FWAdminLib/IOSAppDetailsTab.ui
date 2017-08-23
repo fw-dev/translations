@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>832</width>
-    <height>648</height>
+    <height>658</height>
    </rect>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
@@ -250,7 +250,7 @@
          <widget class="ManagementFlagsWidget" name="managementFlagsWidget" native="true"/>
         </item>
         <item>
-         <widget class="QWidget" name="widget" native="true">
+         <widget class="QWidget" name="widget1" native="true">
           <layout class="QVBoxLayout" name="verticalLayout_8">
            <property name="leftMargin">
             <number>0</number>
@@ -370,7 +370,7 @@
         <widget class="QWidget" name="vppPageDefault">
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QWidget" name="" native="true">
+           <widget class="QWidget" name="widget" native="true">
             <layout class="QGridLayout" name="gridLayout_3">
              <property name="spacing">
               <number>6</number>
@@ -605,7 +605,7 @@
              <string notr="true">color: red</string>
             </property>
             <property name="text">
-             <string>Note: N licences in use, therefore you can't change the associated token</string>
+             <string>N licences in use, therefore you can't change the associated token</string>
             </property>
            </widget>
           </item>
@@ -615,8 +615,18 @@
              <string notr="true">color: red</string>
             </property>
             <property name="text">
-             <string>Note: You haven't purchased any licenses for this application.
+             <string>You haven't purchased any licenses for this application.
 This fileset will fail to deploy.</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="overReservedWarning">
+            <property name="styleSheet">
+             <string notr="true">color:red</string>
+            </property>
+            <property name="text">
+             <string>You have reserved more licenses than total available. You need to adjust your reserved count.</string>
             </property>
            </widget>
           </item>

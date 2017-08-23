@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>AirPrintForm</class>
- <widget class="QWidget" name="AirPrintForm">
+ <class>SystemMigrationForm</class>
+ <widget class="QWidget" name="SystemMigrationForm">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>530</width>
-    <height>519</height>
+    <width>555</width>
+    <height>372</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_8">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0">
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="labelWindowsCustomMigrationPaths">
      <property name="text">
-      <string>Printers</string>
+      <string>Windows Custom Migration Paths</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipWindowsCustomMigrationPaths">
+     <property name="text">
+      <string>Custom path configurations for migration from Windows</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -25,68 +32,71 @@
     </widget>
    </item>
    <item>
-    <widget class="QTreeWidget" name="printerTreeWidget">
-     <property name="editTriggers">
-      <set>QAbstractItemView::NoEditTriggers</set>
+    <widget class="QTableWidget" name="tableWidgetPaths">
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
      </property>
-     <property name="showDropIndicator" stdset="0">
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <property name="showGrid">
       <bool>false</bool>
      </property>
-     <property name="alternatingRowColors">
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>110</number>
+     </attribute>
+     <attribute name="horizontalHeaderMinimumSectionSize">
+      <number>110</number>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
       <bool>true</bool>
-     </property>
-     <property name="rootIsDecorated">
+     </attribute>
+     <attribute name="verticalHeaderVisible">
       <bool>false</bool>
-     </property>
-     <property name="columnCount">
-      <number>4</number>
-     </property>
-     <attribute name="headerDefaultSectionSize">
-      <number>133</number>
      </attribute>
      <column>
       <property name="text">
-       <string>IP Address</string>
+       <string/>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>Port</string>
+       <string/>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>Resource Path</string>
+       <string/>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>Use TLS</string>
+       <string/>
       </property>
      </column>
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="topMargin">
+      <number>0</number>
+     </property>
      <item>
-      <widget class="QToolButton" name="addPrinter">
+      <widget class="QToolButton" name="toolButtonAdd">
        <property name="text">
         <string>+</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="removePrinter">
-       <property name="enabled">
-        <bool>false</bool>
-       </property>
+      <widget class="QToolButton" name="toolButtonDelete">
        <property name="text">
         <string>-</string>
        </property>
       </widget>
      </item>
      <item>
-      <spacer name="horizontalSpacer_3">
+      <spacer name="horizontalSpacer">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>

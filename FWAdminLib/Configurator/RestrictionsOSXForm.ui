@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>640</width>
-    <height>1173</height>
+    <height>1430</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -133,13 +133,13 @@
              </widget>
             </item>
             <item>
-             <widget class="QCheckBox" name="bluetooth">
+             <widget class="QCheckBox" name="accessibility">
               <property name="text">
-               <string>Bluetooth</string>
+               <string>Accessibility</string>
               </property>
               <property name="icon">
                <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/bluetooth.png</normaloff>:/assets/restrictions/bluetooth.png</iconset>
+                <normaloff>:/assets/restrictions/accessibility.png</normaloff>:/assets/restrictions/accessibility.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -154,6 +154,34 @@
               <property name="icon">
                <iconset resource="Configurator.qrc">
                 <normaloff>:/assets/restrictions/appstore.png</normaloff>:/assets/restrictions/appstore.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="bluetooth">
+              <property name="text">
+               <string>Bluetooth</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/bluetooth.png</normaloff>:/assets/restrictions/bluetooth.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="discs">
+              <property name="text">
+               <string>CDs &amp;&amp; DVDs</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/cdsAndDvds.png</normaloff>:/assets/restrictions/cdsAndDvds.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -182,20 +210,6 @@
               <property name="icon">
                <iconset resource="Configurator.qrc">
                 <normaloff>:/assets/restrictions/desktopAndScreenSaver.png</normaloff>:/assets/restrictions/desktopAndScreenSaver.png</iconset>
-              </property>
-              <property name="checked">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="discs">
-              <property name="text">
-               <string>CDs &amp;&amp; DVDs</string>
-              </property>
-              <property name="icon">
-               <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/cdsAndDvds.png</normaloff>:/assets/restrictions/cdsAndDvds.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -259,20 +273,6 @@
              </widget>
             </item>
             <item>
-             <widget class="QCheckBox" name="missionControl">
-              <property name="text">
-               <string>Mission Control</string>
-              </property>
-              <property name="icon">
-               <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/missionControl.png</normaloff>:/assets/restrictions/missionControl.png</iconset>
-              </property>
-              <property name="checked">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
              <widget class="QCheckBox" name="fibreChannel">
               <property name="text">
                <string>FibreChannel</string>
@@ -280,6 +280,20 @@
               <property name="icon">
                <iconset resource="Configurator.qrc">
                 <normaloff>:/assets/restrictions/fibreChannel.png</normaloff>:/assets/restrictions/fibreChannel.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="icloud">
+              <property name="text">
+               <string>iCloud</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/iCloud.png</normaloff>:/assets/restrictions/iCloud.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -336,6 +350,20 @@
               <property name="icon">
                <iconset resource="Configurator.qrc">
                 <normaloff>:/assets/restrictions/languageAndText.png</normaloff>:/assets/restrictions/languageAndText.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="missionControl">
+              <property name="text">
+               <string>Mission Control</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/missionControl.png</normaloff>:/assets/restrictions/missionControl.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -415,7 +443,7 @@
             <item>
              <widget class="QCheckBox" name="printScan">
               <property name="text">
-               <string>Print &amp;&amp; Scan</string>
+               <string>Printers &amp;&amp; Scanners</string>
               </property>
               <property name="icon">
                <iconset resource="Configurator.qrc">
@@ -525,6 +553,20 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="spotlight">
+              <property name="text">
+               <string>Spotlight</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/spotlight.png</normaloff>:/assets/restrictions/spotlight.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="startupDisk">
               <property name="text">
                <string>Startup Disk</string>
@@ -553,6 +595,20 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="touchID">
+              <property name="text">
+               <string>Touch ID</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/TouchId.png</normaloff>:/assets/TouchId.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="trackpad">
               <property name="text">
                <string>Trackpad</string>
@@ -567,13 +623,13 @@
              </widget>
             </item>
             <item>
-             <widget class="QCheckBox" name="accessibility">
+             <widget class="QCheckBox" name="wallet">
               <property name="text">
-               <string>Accessibility</string>
+               <string>Wallet &amp;&amp; Apple Pay</string>
               </property>
               <property name="icon">
                <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/accessibility.png</normaloff>:/assets/restrictions/accessibility.png</iconset>
+                <normaloff>:/assets/Wallet.png</normaloff>:/assets/Wallet.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -588,34 +644,6 @@
               <property name="icon">
                <iconset resource="Configurator.qrc">
                 <normaloff>:/assets/restrictions/xsan.png</normaloff>:/assets/restrictions/xsan.png</iconset>
-              </property>
-              <property name="checked">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="icloud">
-              <property name="text">
-               <string>iCloud</string>
-              </property>
-              <property name="icon">
-               <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/iCloud.png</normaloff>:/assets/restrictions/iCloud.png</iconset>
-              </property>
-              <property name="checked">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="spotlight">
-              <property name="text">
-               <string>Spotlight</string>
-              </property>
-              <property name="icon">
-               <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/spotlight.png</normaloff>:/assets/restrictions/spotlight.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
@@ -1570,6 +1598,39 @@
            </property>
           </widget>
          </item>
+         <item>
+          <spacer name="verticalSpacer_10">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiTunesFileSharing">
+           <property name="text">
+            <string>Allow iTunes File Sharing</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_allowiTunesFileSharing">
+           <property name="text">
+            <string>Allow transferring documents using iTunes</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item>
@@ -2060,6 +2121,39 @@
            </property>
            <property name="checked">
             <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_11">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowContentCaching">
+           <property name="text">
+            <string>Allow Content Caching</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
+           <property name="text">
+            <string>Defer software updates for 90 days</string>
            </property>
           </widget>
          </item>

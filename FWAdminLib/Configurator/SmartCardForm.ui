@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SmartCardForm</class>
+ <widget class="QWidget" name="SmartCardForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>268</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0">
+   <item>
+    <widget class="QCheckBox" name="checkBoxDisableSmartCard">
+     <property name="text">
+      <string>Disable Smart Card</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisableSmartCard">
+     <property name="text">
+      <string>Disable smart card for logins, authorizations and unlocking screensaver. A restart is required for this change to take effect.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBoxDisableUserPairing">
+     <property name="text">
+      <string>Disable User Pairing</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDisableUserPairing">
+     <property name="text">
+      <string>Disable users from pairing new smart cards. Existing pairings will continue to work.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBoxRestrictOneCardPerUser">
+     <property name="text">
+      <string>Restrict One Card Per User</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRestrictOneCardPerUser">
+     <property name="text">
+      <string>Restrict an user to pair only one smart card. Existing pairings will continue to work.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBoxEnableCertificateTrustValidation">
+     <property name="text">
+      <string>Enable Cetificate Trust Validation</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipEnableCertificateTrustValidation">
+     <property name="text">
+      <string>Require unexpired, system trusted certificates for smart cards to work</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

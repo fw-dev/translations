@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>508</width>
-    <height>683</height>
+    <height>740</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,17 +16,97 @@
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="18" column="1">
-      <widget class="QLabel" name="label_10">
+     <item row="11" column="1">
+      <widget class="QLabel" name="lTipMaximumAge">
        <property name="text">
-        <string>Delay after failed login attempts (macOS only)</string>
+        <string>Days after which passcode must be changed</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Maximum passcode age (1-730 days, or none)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <spacer name="horizontalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>0</width>
+           <height>18</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="passcodeHistoryField">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="maxLength">
+          <number>3</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="12" column="0">
+      <widget class="QComboBox" name="autoLockField"/>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="lTipAutoLock">
+       <property name="text">
+        <string>Longest auto-lock time available to the user</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Maximum Auto-Lock</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Passcode history (1-50 passwords, or none)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="0">
+      <widget class="QComboBox" name="gracePeriodField"/>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="lTipUniquePasswords">
+       <property name="text">
+        <string>Number of unique passwords before reuse</string>
        </property>
       </widget>
      </item>
      <item row="17" column="1">
-      <widget class="QLabel" name="lTipMaximumFailedAttempts">
+      <widget class="QLabel" name="lTipGracePeriod">
        <property name="text">
-        <string>Number of passcode entry attempts allowed before all data on device will be erased</string>
+        <string>Longest device lock grace period available to the user</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
@@ -34,13 +114,13 @@
       </widget>
      </item>
      <item row="16" column="1">
-      <widget class="QLabel" name="label_7">
+      <widget class="QLabel" name="label_6">
        <property name="text">
-        <string>Maximum number of failed attempts</string>
+        <string>Maximum grace period for device lock</string>
        </property>
       </widget>
      </item>
-     <item row="16" column="0">
+     <item row="18" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <spacer name="horizontalSpacer_9">
@@ -116,111 +196,7 @@
        </item>
       </layout>
      </item>
-     <item row="15" column="1">
-      <widget class="QLabel" name="lTipGracePeriod">
-       <property name="text">
-        <string>Amount of time the device can be locked without prompting for passcode on unlock</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="14" column="1">
-      <widget class="QLabel" name="label_6">
-       <property name="text">
-        <string>Grace period for device lock</string>
-       </property>
-      </widget>
-     </item>
-     <item row="14" column="0">
-      <widget class="QComboBox" name="gracePeriodField"/>
-     </item>
-     <item row="13" column="1">
-      <widget class="QLabel" name="lTipUniquePasswords">
-       <property name="text">
-        <string>Number of unique passwords before reuse</string>
-       </property>
-      </widget>
-     </item>
-     <item row="12" column="1">
-      <widget class="QLabel" name="label_5">
-       <property name="text">
-        <string>Passcode history (1-50 passwords, or none)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="12" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout_7">
-       <item>
-        <spacer name="horizontalSpacer_7">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>18</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="passcodeHistoryField">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>50</width>
-           <height>16777215</height>
-          </size>
-         </property>
-         <property name="maxLength">
-          <number>3</number>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item row="11" column="1">
-      <widget class="QLabel" name="lTipAutoLock">
-       <property name="text">
-        <string>Device automatically locks when time period elapses</string>
-       </property>
-      </widget>
-     </item>
-     <item row="10" column="1">
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>Auto-lock (1-5 minutes, or none)</string>
-       </property>
-      </widget>
-     </item>
      <item row="10" column="0">
-      <widget class="QComboBox" name="autoLockField"/>
-     </item>
-     <item row="9" column="1">
-      <widget class="QLabel" name="lTipMaximumAge">
-       <property name="text">
-        <string>Days after which passcode must be changed</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="1">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Maximum passcode age (1-730 days, or none)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_5">
        <item>
         <spacer name="horizontalSpacer_5">
@@ -262,21 +238,59 @@
        </item>
       </layout>
      </item>
-     <item row="7" column="1">
+     <item row="9" column="1">
       <widget class="QLabel" name="lTipMinimumComplexChars">
        <property name="text">
         <string>Smallest number of non-alphanumeric characters</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="1">
+     <item row="8" column="1">
       <widget class="QLabel" name="label_2">
        <property name="text">
         <string>Minimum number of complex characters</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="0">
+     <item row="20" column="1">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Delay after failed login attempts (macOS only)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Reset password at next user authentication (macOS only)</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Minimum passcode length</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Allow simple value</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="lTipMinimumLength">
+       <property name="text">
+        <string>Smallest number of passcode characters allowed</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
         <spacer name="horizontalSpacer_4">
@@ -322,21 +336,105 @@
        </item>
       </layout>
      </item>
-     <item row="5" column="1">
-      <widget class="QLabel" name="lTipMinimumLength">
+     <item row="19" column="1">
+      <widget class="QLabel" name="lTipMaximumFailedAttempts">
        <property name="text">
-        <string>Smallest number of passcode characters allowed</string>
+        <string>Number of passcode entry attempts allowed before all data on device will be erased (iOS) or locked (macOS)</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
-      <widget class="QLabel" name="label">
+     <item row="18" column="1">
+      <widget class="QLabel" name="label_7">
        <property name="text">
-        <string>Minimum passcode length</string>
+        <string>Maximum number of failed attempts</string>
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
+     <item row="2" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>118</width>
+           <height>13</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="requireNumericField">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="lTipAlphanumeric">
+       <property name="text">
+        <string>Require passcodes to contain at least one letter and one number</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="delayAfterFailedLoginField">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="21" column="1">
+      <widget class="QLabel" name="lTipDelayAfterMaximumNumber">
+       <property name="text">
+        <string>Delay after maximum number of failed attempts, in minutes</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Require alphanumeric value</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
         <spacer name="horizontalSpacer_3">
@@ -442,50 +540,6 @@
        </item>
       </layout>
      </item>
-     <item row="3" column="1">
-      <widget class="QLabel" name="lTipAlphanumeric">
-       <property name="text">
-        <string>Require passcodes to contain at least one letter</string>
-       </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLabel" name="label_8">
-       <property name="text">
-        <string>Require alphanumeric value</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout_6">
-       <item>
-        <spacer name="horizontalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>118</width>
-           <height>13</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="requireNumericField">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
      <item row="1" column="1">
       <widget class="QLabel" name="lTipSimpleValue">
        <property name="text">
@@ -493,13 +547,6 @@
        </property>
        <property name="wordWrap">
         <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLabel" name="label_9">
-       <property name="text">
-        <string>Allow simple value</string>
        </property>
       </widget>
      </item>
@@ -527,10 +574,20 @@
        </item>
       </layout>
      </item>
-     <item row="18" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item row="5" column="1">
+      <widget class="QLabel" name="lTipChangeAtNextAuth">
+       <property name="text">
+        <string>Reset password at next time the user tries to authenticate</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
        <item>
-        <spacer name="horizontalSpacer_6">
+        <spacer name="horizontalSpacer_8">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -543,26 +600,13 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="delayAfterFailedLoginField">
-         <property name="maximumSize">
-          <size>
-           <width>50</width>
-           <height>16777215</height>
-          </size>
+        <widget class="QCheckBox" name="changeAtNextAuth">
+         <property name="text">
+          <string/>
          </property>
         </widget>
        </item>
       </layout>
-     </item>
-     <item row="19" column="1">
-      <widget class="QLabel" name="lTipDelayAfterMaximumNumber">
-       <property name="text">
-        <string>Delay after maximum number of failed attempts, in minutes</string>
-       </property>
-       <property name="wordWrap">
-        <bool>true</bool>
-       </property>
-      </widget>
      </item>
     </layout>
    </item>
@@ -574,7 +618,7 @@
      <property name="sizeHint" stdset="0">
       <size>
        <width>20</width>
-       <height>9</height>
+       <height>40</height>
       </size>
      </property>
     </spacer>

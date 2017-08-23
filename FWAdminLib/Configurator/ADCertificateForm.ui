@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>656</width>
-    <height>749</height>
+    <height>826</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
    <item>
     <widget class="QLabel" name="descTitle">
      <property name="text">
@@ -126,6 +126,33 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="labelRSAKeySize">
+     <property name="text">
+      <string>RSA Key Size</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRSAKeySize">
+     <property name="text">
+      <string>The RSA key size for the Certificate Signing Request (CSR)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEditKeySize">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>2048</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QCheckBox" name="cbPromptForCredentials">
      <property name="text">
       <string>Prompt for credentials</string>
@@ -157,14 +184,14 @@
       <item>
        <widget class="QLabel" name="userTitle">
         <property name="text">
-         <string>Username</string>
+         <string>User name</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="lTipUsername">
         <property name="text">
-         <string>The username with which to authenticate to the certificate server</string>
+         <string>The user name with which to authenticate to the certificate server</string>
         </property>
         <property name="wordWrap">
          <bool>false</bool>
