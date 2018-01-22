@@ -164,7 +164,7 @@
              <item>
               <widget class="QCheckBox" name="forceUnpromptedManagedClassroomScreenObservation">
                <property name="text">
-                <string>Allow Classroom to perform AirPlay and View Screen without promting</string>
+                <string>Allow Classroom to perform AirPlay and View Screen without prompting</string>
                </property>
               </widget>
              </item>
@@ -655,6 +655,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowCellularPlanModification">
+         <property name="text">
+          <string>Allow modifying cellular plan settings (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowDeviceNameModification">
          <property name="text">
           <string>Allow modifying device name (Supervised devices only)</string>
@@ -668,6 +678,16 @@
         <widget class="QCheckBox" name="allowFindMyFriendsModification">
          <property name="text">
           <string>Allow modifying Find My Friends settings (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowNotificationsModification">
+         <property name="text">
+          <string>Allow modifying notification settings (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -702,7 +722,7 @@
           <item>
            <widget class="QCheckBox" name="allowFingerprintModification">
             <property name="text">
-             <string>Allow modifying Touch ID fingerprints (Supervised devices only)</string>
+             <string>Allow modifying Touch ID fingerprints / Face ID faces (Supervised devices only)</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -910,7 +930,7 @@
        <item>
         <widget class="QCheckBox" name="allowFingerprintForUnlock">
          <property name="text">
-          <string>Allow Touch ID to unlock device</string>
+          <string>Allow Touch ID / Face ID to unlock device</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -945,6 +965,16 @@
         <widget class="QCheckBox" name="forceWiFiWhitelisting">
          <property name="text">
           <string>Allow connecting to unmanaged Wi-Fi networks (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowProximitySetupToNewDevice">
+         <property name="text">
+          <string>Allow setting up nearby devices</string>
          </property>
          <property name="checked">
           <bool>true</bool>

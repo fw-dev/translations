@@ -913,7 +913,7 @@
        <item>
         <widget class="QCheckBox" name="restrictAppStoreSU">
          <property name="text">
-          <string>Restrict App Store to software updates only</string>
+          <string>Restrict App Store to MDM installed apps and software updates</string>
          </property>
         </widget>
        </item>

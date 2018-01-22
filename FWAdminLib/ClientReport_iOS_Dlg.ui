@@ -503,44 +503,7 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="StyledTreeView" name="detailsView">
-            <property name="frameShape">
-             <enum>QFrame::NoFrame</enum>
-            </property>
-            <property name="editTriggers">
-             <set>QAbstractItemView::NoEditTriggers</set>
-            </property>
-            <property name="showDropIndicator" stdset="0">
-             <bool>false</bool>
-            </property>
-            <property name="defaultDropAction">
-             <enum>Qt::IgnoreAction</enum>
-            </property>
-            <property name="alternatingRowColors">
-             <bool>true</bool>
-            </property>
-            <property name="selectionMode">
-             <enum>QAbstractItemView::ExtendedSelection</enum>
-            </property>
-            <property name="rootIsDecorated">
-             <bool>false</bool>
-            </property>
-            <property name="uniformRowHeights">
-             <bool>true</bool>
-            </property>
-            <property name="itemsExpandable">
-             <bool>false</bool>
-            </property>
-            <property name="sortingEnabled">
-             <bool>true</bool>
-            </property>
-            <property name="headerHidden">
-             <bool>true</bool>
-            </property>
-            <attribute name="headerVisible">
-             <bool>false</bool>
-            </attribute>
-           </widget>
+           <widget class="DeviceDetailsWidget" name="deviceDetails" native="true"/>
           </item>
          </layout>
         </widget>
@@ -825,8 +788,14 @@
             <property name="uniformRowHeights">
              <bool>true</bool>
             </property>
+            <property name="itemsExpandable">
+             <bool>false</bool>
+            </property>
             <property name="sortingEnabled">
              <bool>true</bool>
+            </property>
+            <property name="expandsOnDoubleClick">
+             <bool>false</bool>
             </property>
            </widget>
           </item>
@@ -854,6 +823,12 @@
    <class>PositionMapWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/Location/PositionMapWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DeviceDetailsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/devicedetailswidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

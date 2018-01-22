@@ -141,7 +141,7 @@
         <number>0</number>
        </property>
        <property name="currentIndex">
-        <number>5</number>
+        <number>0</number>
        </property>
        <widget class="DashboardContainer" name="dashboardContainer"/>
        <widget class="SmartGroupReportTabForClients" name="smartGroupReportTabForClients"/>
@@ -195,6 +195,13 @@
     <property name="title">
      <string>&amp;Assistants</string>
     </property>
+    <widget class="QMenu" name="menuCustom_Fields">
+     <property name="title">
+      <string>Custom Fields</string>
+     </property>
+     <addaction name="actionEdit_Custom_Fields"/>
+     <addaction name="actionImport_CSV"/>
+    </widget>
     <addaction name="actionFileWave_Client_Monitor"/>
     <addaction name="separator"/>
     <addaction name="actionFileset_WinMagic"/>
@@ -218,6 +225,7 @@
     <addaction name="separator"/>
     <addaction name="actionUnmanaged_devices"/>
     <addaction name="actionEmail_notifications"/>
+    <addaction name="menuCustom_Fields"/>
     <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menu_Help">
@@ -658,6 +666,19 @@
     <string>Ctrl+-</string>
    </property>
   </action>
+  <action name="actionEdit_Custom_Fields">
+   <property name="text">
+    <string>Edit Custom Fields...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+C</string>
+   </property>
+  </action>
+  <action name="actionImport_CSV">
+   <property name="text">
+    <string>Import CSV...</string>
+   </property>
+  </action>
  </widget>
  <customwidgets>
   <customwidget>
@@ -710,7 +731,7 @@
   <customwidget>
    <class>DashboardContainer</class>
    <extends>QWidget</extends>
-   <header>FWAdminLib/DashboardContainer.h</header>
+   <header>FWAdminLib/dashboard/DashboardContainer.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

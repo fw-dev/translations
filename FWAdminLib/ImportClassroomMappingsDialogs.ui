@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>381</width>
-    <height>197</height>
+    <width>382</width>
+    <height>201</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Import User/Device Mappings</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}</string>
+   <string notr="true">QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">

@@ -114,14 +114,14 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="label_4">
+    <widget class="QLabel" name="copyrightLabel">
      <property name="font">
       <font>
        <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
-      <string>Copyright © Filewave International Holding AG 2015</string>
+      <string>Copyright © Filewave International Holding AG %1</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

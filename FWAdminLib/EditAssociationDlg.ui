@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>399</width>
+    <width>456</width>
     <height>568</height>
    </rect>
   </property>
@@ -22,7 +22,7 @@
   <property name="styleSheet">
    <string notr="true">*[errorHighlight=&quot;true&quot;] { background-color: &quot;#FFAAAA&quot;;}
 QLabel#lTitle { color: &quot;grey&quot;; font-size: 22pt}
-QLabel[objectName|=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
+QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
 </string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">

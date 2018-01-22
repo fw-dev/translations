@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MacOSKernelExtensionPolicyForm</class>
+ <widget class="QWidget" name="MacOSKernelExtensionPolicyForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0">
+   <item>
+    <widget class="QLabel" name="lUserApprovedDescription">
+     <property name="text">
+      <string>Only User Approved MDM enrolled devices can be managed with this payload</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="cbAllowUserOverrides">
+     <property name="text">
+      <string>Can approve additional kernel extensions</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowUserOverrides">
+     <property name="text">
+      <string>Users can approve additional kernel extensions not explicitly allowed by configuration profiles</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lAllowedTeamIdentifiers">
+     <property name="text">
+      <string>Allowed Team Identifiers</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="StyledTreeWidget" name="twAllowedTeamIdentifiers">
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>Allowed Team Identifiers</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="hlAllowedTeamIdentifiers">
+     <item>
+      <widget class="QToolButton" name="tbAddAllowedTeamIdentifier">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="tbRemoveAllowedTeamIdentifier">
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="hsAllowedTeamIdentifiers">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="lAllowedKernelExtensions">
+     <property name="text">
+      <string>Allowed Kernel Extensions</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowedKernelExtensions">
+     <property name="text">
+      <string>Allowed Kernel Extensions column value is comma-separated list of kernel extensions identifiers</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowedKernelExtensions2">
+     <property name="text">
+      <string>For unsigned legacy kernel extensions, use an empty key for the team identifier</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="StyledTreeWidget" name="twAllowedKernelExtensions">
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>Allowed Team Identifiers</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Allowed Kernel Extensions</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="hlAllowedKernelExtensions">
+     <item>
+      <widget class="QToolButton" name="tbAddAllowedKernelExtension">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="tbRemoveAllowedKernelExtension">
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="hsAllowedKernelExtensions">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StyledTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

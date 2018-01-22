@@ -228,9 +228,9 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
-           <widget class="QCheckBox" name="users">
+           <widget class="QRadioButton" name="users">
             <property name="toolTip">
-             <string>Install this profile to all users</string>
+             <string>Install the profile for all users on the device.  This may require users to log in for the settings to be present</string>
             </property>
             <property name="text">
              <string>Users</string>
@@ -238,9 +238,9 @@
            </widget>
           </item>
           <item>
-           <widget class="QCheckBox" name="system">
+           <widget class="QRadioButton" name="system">
             <property name="toolTip">
-             <string>Install the profile to all users on the device.  This may require users to log in for the settings to be present.</string>
+             <string>Install the profile for the system</string>
             </property>
             <property name="text">
              <string>System</string>
@@ -449,22 +449,6 @@
     <hint type="destinationlabel">
      <x>204</x>
      <y>187</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>osx</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>installationBox</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>221</x>
-     <y>123</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>345</x>
-     <y>80</y>
     </hint>
    </hints>
   </connection>
