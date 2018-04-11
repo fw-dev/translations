@@ -60,6 +60,9 @@
        <string>Functionality</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_5">
+       <property name="spacing">
+        <number>6</number>
+       </property>
        <item>
         <widget class="QCheckBox" name="allowUseOfCamera">
          <property name="text">
@@ -74,7 +77,7 @@
         <widget class="QWidget" name="cameraSub" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_5">
           <property name="leftMargin">
-           <number>25</number>
+           <number>18</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -122,7 +125,7 @@
         <widget class="QWidget" name="allowScreenCaptureSub" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_10">
           <property name="leftMargin">
-           <number>25</number>
+           <number>18</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -462,7 +465,7 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_6">
           <property name="leftMargin">
-           <number>25</number>
+           <number>18</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -605,6 +608,27 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="forceClassroomRequestPermissionToLeaveClasses">
+         <property name="text">
+          <string>Require teacher permission to leave Classroom unmanaged classes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <property name="leftMargin">
+          <number>18</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>(Supervised devices only)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowEnablingRestrictions">
          <property name="text">
           <string>Allow configuring restrictions (Supervised devices only)</string>
@@ -708,7 +732,7 @@
         <widget class="QWidget" name="widgetAllowFingerprintModification" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_7">
           <property name="leftMargin">
-           <number>25</number>
+           <number>18</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -903,7 +927,7 @@
         <widget class="QWidget" name="widgetAllowDiagnosticSubmissionModification" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <property name="leftMargin">
-           <number>25</number>
+           <number>18</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -931,6 +955,16 @@
         <widget class="QCheckBox" name="allowFingerprintForUnlock">
          <property name="text">
           <string>Allow Touch ID / Face ID to unlock device</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceAuthenticationBeforeAutoFill">
+         <property name="text">
+          <string>Require Face ID authentication before AutoFill (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -974,7 +1008,7 @@
        <item>
         <widget class="QCheckBox" name="allowProximitySetupToNewDevice">
          <property name="text">
-          <string>Allow setting up nearby devices</string>
+          <string>Allow setting up new nearby devices (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1083,6 +1117,83 @@
         <widget class="QCheckBox" name="allowDefinitionLookup">
          <property name="text">
           <string>Allow keyboard definition lookup (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
+            <property name="text">
+             <string>Defer software updates for</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="enforcedSoftwareUpdateDelay">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>90</number>
+            </property>
+            <property name="value">
+             <number>30</number>
+            </property>
+            <property name="displayIntegerBase">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>day(s) (Supervised devices only)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowUSBRestrictedMode">
+         <property name="text">
+          <string>Allow USB restricted mode (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1231,7 +1342,7 @@
           <item>
            <widget class="QCheckBox" name="safariAutoFill">
             <property name="text">
-             <string>Enable autofill</string>
+             <string>Enable AutoFill</string>
             </property>
             <property name="checked">
              <bool>true</bool>

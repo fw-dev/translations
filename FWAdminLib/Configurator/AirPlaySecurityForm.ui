@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>523</width>
-    <height>206</height>
+    <height>284</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,7 +48,7 @@
    <item>
     <widget class="QLabel" name="lTipSecurity">
      <property name="text">
-      <string>Security requirements for devices that connect to Apple TV using AirPlay.</string>
+      <string>Security requirement for devices that connect to Apple TV using AirPlay.</string>
      </property>
     </widget>
    </item>
@@ -100,6 +100,16 @@
        </widget>
       </item>
      </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelNoneWarning">
+     <property name="text">
+      <string>This is supported only on tvOS 11.2 and earlier, and requires a first time on-screen passcode for tvOS 11.3 and later.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
     </widget>
    </item>
    <item>

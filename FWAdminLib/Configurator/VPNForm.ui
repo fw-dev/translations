@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>493</width>
-    <height>4299</height>
+    <height>4329</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -2286,6 +2286,16 @@
         <item row="1" column="1">
          <widget class="QComboBox" name="comboAirPrint"/>
         </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Cellular Services</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="comboCellularServices"/>
+        </item>
        </layout>
       </item>
       <item>
@@ -2333,7 +2343,7 @@
          <item>
           <widget class="QLabel" name="label_30">
            <property name="text">
-            <string>Captive Networking App Bundles Identifiers</string>
+            <string>Captive Networking App Bundle Identifiers</string>
            </property>
           </widget>
          </item>

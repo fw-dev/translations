@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>656</width>
-    <height>826</height>
+    <height>890</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
    <item>
     <widget class="QLabel" name="descTitle">
      <property name="text">
@@ -253,6 +253,20 @@
     <widget class="QLabel" name="lTipAllowAdminToExportPrivateKey">
      <property name="text">
       <string>Allow admin to export private key from the keychain</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="cbAllowAutoRenewal">
+     <property name="text">
+      <string>Allow auto-renewal</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowAutoRenewal">
+     <property name="text">
+      <string>Allow attempt to auto-renewal of the certificate</string>
      </property>
     </widget>
    </item>

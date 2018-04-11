@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1009</width>
-    <height>288</height>
+    <width>1060</width>
+    <height>310</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -318,6 +318,29 @@
        </property>
        <property name="text">
         <string>Preserve Data Plan (iOS 11+)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>10</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="disallowProximitySetup">
+       <property name="text">
+        <string>Disallow Proximity Setup (iOS 11.3+)</string>
        </property>
       </widget>
      </item>

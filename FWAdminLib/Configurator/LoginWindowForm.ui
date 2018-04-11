@@ -205,6 +205,20 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="m_checkDisablePrivacyConsentDuringLogin">
+         <property name="text">
+          <string>Disable Privacy consent window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableiCloudStorageDuringLogin">
+         <property name="text">
+          <string>Disable iCloud Storage window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="m_checkEnableConsoleLogin">
          <property name="text">
           <string>Enable &gt;console login</string>

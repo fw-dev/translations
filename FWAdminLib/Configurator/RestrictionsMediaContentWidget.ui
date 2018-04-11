@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>687</width>
-    <height>278</height>
+    <height>284</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -226,7 +226,7 @@
    <item row="6" column="0" colspan="2">
     <widget class="QCheckBox" name="allowExplicitMusic">
      <property name="text">
-      <string>Allow playback of explicit music, podcasts &amp;&amp; iTunes U media</string>
+      <string>Allow playback of explicit music, podcasts and iTunes U</string>
      </property>
      <property name="checked">
       <bool>true</bool>

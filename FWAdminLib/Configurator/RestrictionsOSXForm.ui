@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>640</width>
-    <height>1430</height>
+    <height>1563</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -904,6 +904,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowSoftwareUpdateNotifications">
+         <property name="text">
+          <string>Allow software update notifications</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="requireAdminToInstall">
          <property name="text">
           <string>Require admin password to install or update apps</string>
@@ -911,16 +921,39 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="restrictAppStoreSU">
+        <widget class="QCheckBox" name="restrictAppStoreToSUOnly">
+         <property name="text">
+          <string>Restrict App Store to software updates only</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="restrictAppStoreToMDMAppsAndSU">
          <property name="text">
           <string>Restrict App Store to MDM installed apps and software updates</string>
          </property>
         </widget>
        </item>
        <item>
+        <spacer name="verticalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>10</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
         <widget class="QCheckBox" name="restrictApps">
          <property name="text">
-          <string>Restrict which applications are allowed to launch</string>
+          <string>Restrict which apps are allowed to launch</string>
          </property>
         </widget>
        </item>
@@ -930,6 +963,18 @@
           <bool>false</bool>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_4">
             <property name="spacing">
@@ -938,14 +983,14 @@
             <item>
              <widget class="QLabel" name="label_2">
               <property name="text">
-               <string>Allow Applications:</string>
+               <string>Allow Apps:</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QLabel" name="lTip_allow_apps">
               <property name="text">
-               <string>The user can always launch these applications</string>
+               <string>The user can always launch these apps</string>
               </property>
              </widget>
             </item>
@@ -1104,21 +1149,24 @@
             </item>
            </layout>
           </item>
-          <item>
-           <spacer name="verticalSpacer_4">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>20</width>
-              <height>40</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
          </layout>
         </widget>
+       </item>
+       <item>
+        <widget class="ItemTableWidget" name="widgetASAM" native="true"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>
@@ -1922,7 +1970,7 @@
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_28">
          <property name="spacing">
-          <number>13</number>
+          <number>6</number>
          </property>
          <item>
           <widget class="QCheckBox" name="allowUseOfCamera">
@@ -2151,10 +2199,70 @@
           </widget>
          </item>
          <item>
-          <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
-           <property name="text">
-            <string>Defer software updates for 90 days</string>
-           </property>
+          <widget class="QWidget" name="widget" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
+              <property name="text">
+               <string>Defer software updates for</string>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="forceDelayedSoftwareUpdatesDelay">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>90</number>
+              </property>
+              <property name="value">
+               <number>30</number>
+              </property>
+              <property name="displayIntegerBase">
+               <number>10</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>day(s)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_9">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
           </widget>
          </item>
         </layout>
@@ -2178,6 +2286,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ItemTableWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemTableWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="Configurator.qrc"/>
  </resources>

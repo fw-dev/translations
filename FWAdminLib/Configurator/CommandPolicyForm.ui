@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>508</width>
-    <height>638</height>
+    <width>922</width>
+    <height>745</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -50,7 +50,7 @@
    <item>
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Data Roaming</string>
+      <string>Data Roaming (iOS devices only)</string>
      </property>
     </widget>
    </item>
@@ -83,7 +83,7 @@
    <item>
     <widget class="QLabel" name="label_3">
      <property name="text">
-      <string>Wallpaper</string>
+      <string>Wallpaper (iOS devices only)</string>
      </property>
     </widget>
    </item>
@@ -337,6 +337,39 @@
        </spacer>
       </item>
      </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Bluetooth (iOS 11.3+ and macOS 10.13.4+)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipBluetooth">
+     <property name="text">
+      <string>This setting takes effect even when the &quot;allow Bluetooth Modification&quot; restriction is set.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cbBluetooth">
+     <item>
+      <property name="text">
+       <string>Don't change Bluetooth</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Enable Bluetooth</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Disable Bluetooth</string>
+      </property>
+     </item>
     </widget>
    </item>
    <item>
