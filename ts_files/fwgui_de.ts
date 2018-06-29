@@ -4,33 +4,33 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="78"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="88"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="77"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="87"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="100"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="99"/>
         <source>Client Info...</source>
         <translation>Client-Informationen...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="112"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="111"/>
         <source>Available Updates: %1</source>
         <translation>Verfügbare Updates : %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="118"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
         <source>Verifying, please wait...</source>
         <translation>Verifizierung läuft, bitte warten ...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="120"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
         <source>No Kiosk Associations</source>
         <translation>Keine Kiosk-Assoziationen</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="122"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="121"/>
         <source>Install Software...</source>
         <translation>Software installieren...</translation>
     </message>

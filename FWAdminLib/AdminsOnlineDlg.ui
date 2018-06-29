@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>280</width>
+    <width>539</width>
     <height>309</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>280</width>
+    <width>0</width>
     <height>0</height>
    </size>
   </property>
@@ -29,120 +29,118 @@
    <property name="rightMargin">
     <number>0</number>
    </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
    <item>
-    <widget class="StyledTreeWidget" name="treeWidgetAdminList">
+    <widget class="ViewSearchHeader" name="searchHeader" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>128</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="itemsLabel">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="SearchLineEdit" name="searchLineEdit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="StyledTreeView" name="treeViewAdminList">
      <property name="contextMenuPolicy">
       <enum>Qt::ActionsContextMenu</enum>
      </property>
      <property name="alternatingRowColors">
-      <bool>true</bool>
+      <bool>false</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::ExtendedSelection</enum>
      </property>
      <property name="rootIsDecorated">
       <bool>false</bool>
      </property>
-     <column>
-      <property name="text">
-       <string/>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Login Name</string>
-      </property>
-     </column>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="headerStretchLastSection">
+      <bool>true</bool>
+     </attribute>
     </widget>
    </item>
    <item>
-    <layout class="QFormLayout" name="formLayout">
-     <item row="0" column="0">
-      <widget class="QLabel" name="labelName">
-       <property name="text">
-        <string>Name:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLabel" name="textName">
-       <property name="minimumSize">
-        <size>
-         <width>149</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="labelLogin">
-       <property name="text">
-        <string>Login:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLabel" name="textLogin">
-       <property name="minimumSize">
-        <size>
-         <width>149</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QLabel" name="labelEmail">
-       <property name="text">
-        <string>Email:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLabel" name="textEmail">
-       <property name="minimumSize">
-        <size>
-         <width>149</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="labelPhone">
-       <property name="text">
-        <string>Phone:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QLabel" name="textPhone">
-       <property name="minimumSize">
-        <size>
-         <width>149</width>
-         <height>0</height>
-        </size>
-       </property>
-       <property name="text">
-        <string/>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Apply|QDialogButtonBox::Close</set>
        </property>
       </widget>
      </item>
     </layout>
    </item>
   </layout>
+  <action name="actionForceLogoff">
+   <property name="text">
+    <string>Force log off</string>
+   </property>
+   <property name="toolTip">
+    <string>Force log off</string>
+   </property>
+  </action>
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledTreeWidget</class>
-   <extends>QTreeWidget</extends>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SearchLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ViewSearchHeader</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

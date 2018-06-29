@@ -331,6 +331,9 @@
                <height>0</height>
               </size>
              </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="text">
               <string>Export Current Tab</string>
              </property>
@@ -344,21 +347,11 @@
                <height>0</height>
               </size>
              </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="text">
               <string>Client Monitor</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="_remoteWipeButton">
-             <property name="minimumSize">
-              <size>
-               <width>162</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Remote Wipe...</string>
              </property>
             </widget>
            </item>
@@ -370,21 +363,11 @@
                <height>0</height>
               </size>
              </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="text">
               <string>Get Log</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="_observeClientButton">
-             <property name="minimumSize">
-              <size>
-               <width>162</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Observe Client</string>
              </property>
             </widget>
            </item>
@@ -396,8 +379,21 @@
                <height>0</height>
               </size>
              </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="text">
               <string>Verify</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="_toolsButton">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Tools</string>
              </property>
             </widget>
            </item>
@@ -835,9 +831,7 @@
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>_monitorButton</tabstop>
-  <tabstop>_remoteWipeButton</tabstop>
   <tabstop>_getLogButton</tabstop>
-  <tabstop>_observeClientButton</tabstop>
   <tabstop>_verifyButton</tabstop>
   <tabstop>_filesetsList</tabstop>
   <tabstop>_exportButton</tabstop>

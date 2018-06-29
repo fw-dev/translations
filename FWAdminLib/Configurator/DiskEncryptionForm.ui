@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiskEncryptionForm</class>
+ <widget class="QWidget" name="DiskEncryptionForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="labelNote">
+     <property name="text">
+      <string>Only MDM enrolled devices can be managed with this payload</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelDEConfiguration">
+     <property name="text">
+      <string>Disk Encryption Configuration</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipConfiguration">
+     <property name="text">
+      <string>Disk encryption configuration to use to enable FileVault 2</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="m_comboConfiguration"/>
+   </item>
+   <item>
+    <widget class="QWidget" name="m_filevaultWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QRadioButton" name="m_radioInstitutionalKey">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Institutional recovery key</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">m_fileVaultButtonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="m_radioPersonalKey">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Personal recovery key</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">m_fileVaultButtonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="m_radioInstitutionalAndPersonal">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Institutional recovery key and Personal recovery key</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">m_fileVaultButtonGroup</string>
+        </attribute>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_checkShowPersonalRecoveryKey">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="text">
+      <string>Show Recovery Key</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipShowPersonalRecoveryKey">
+     <property name="text">
+      <string>Shows personal recovery key to the user after FileVault is enabled.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_checkEscrowPersonalRecoveryKey">
+     <property name="text">
+      <string>Escrow Personal Recovery Key</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipEscrowPersonalRecoveryKey">
+     <property name="text">
+      <string>When enabled the device will encrypt the personal recovery key with the provided certificate and report it to FileWave setup. The encrypted key can be downloaded from Disk Encryption Management Assistant.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetEscrowPersonalRecoveryKey" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_12">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelEscrowLocationDescription">
+        <property name="text">
+         <string>Escrow Location Description (macOS 10.13+)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipEscrowLocationDescription">
+        <property name="text">
+         <string>Short description of where the personal recovery key will be escrowed. This message will be presented to the user when enabling FileVault.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="m_textEscrowLocationDescription">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_checkRequireUnlock">
+     <property name="text">
+      <string>Require user to unlock FileVault after hibernation</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRequireUnlock">
+     <property name="text">
+      <string>The user will be required to unlock FileVault when the computer awakes from hibernation</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_checkDontAllowFDEDisable">
+     <property name="text">
+      <string>Don't allow the user to disable FileVault</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowFDEDisable">
+     <property name="text">
+      <string>If enabled, the user will not be able to turn off disk encryption</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelMaximumBypassAttemptsAtUserLogin">
+     <property name="text">
+      <string>Maximum Bypass Attempts At User Login</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QRadioButton" name="m_radioUserNotPrompted">
+         <property name="text">
+          <string>User is not prompted for FileVault activation at log in</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QRadioButton" name="m_radioUserAlwaysPrompted">
+         <property name="text">
+          <string>User is always prompted for FileVault activation at log in</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QRadioButton" name="m_radioUserPromptedTimes">
+         <property name="text">
+          <string>User is prompted for FileVault activation</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="m_spinBoxMaximumBypassAttemptsAtUserLogin">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelTimes">
+         <property name="text">
+          <string>times</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipMaximumBypassAttemptsAtUserLogin">
+     <property name="text">
+      <string>When the user is not prompted, FileVault activation may never happen or escrowing personal recovery key to FileWave may not be allowed. Maximum number of times the user can bypass enabling FileVault before it will require to be enabled before the user can log in. Available in macOS 10.10 and later.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_checkDontAskAtUserLogout">
+     <property name="text">
+      <string>Don't Ask At User Logout</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipDontAskAtUserLogout">
+     <property name="text">
+      <string>When enabled macOS will not request enabling FileVault at user logout time. Available in macOS 10.10 and later.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="m_fileVaultButtonGroup"/>
+ </buttongroups>
+</ui>

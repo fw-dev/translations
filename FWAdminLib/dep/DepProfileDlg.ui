@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>754</width>
-    <height>792</height>
+    <width>825</width>
+    <height>663</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -176,28 +176,8 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
            <property name="bottomMargin">
             <number>0</number>
            </property>
-           <item>
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string>Support Phone Number</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="lTipPhone">
-             <property name="text">
-              <string>A support phone number for the organization.</string>
-             </property>
-             <property name="textFormat">
-              <enum>Qt::AutoText</enum>
-             </property>
-            </widget>
-           </item>
           </layout>
          </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="supportPhoneNumber"/>
         </item>
         <item>
          <widget class="QWidget" name="widget_13" native="true">
@@ -217,25 +197,8 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
            <property name="bottomMargin">
             <number>0</number>
            </property>
-           <item>
-            <widget class="QLabel" name="label_18">
-             <property name="text">
-              <string>Support Email</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="lTipEmail">
-             <property name="text">
-              <string>A support email address for the organization.</string>
-             </property>
-            </widget>
-           </item>
           </layout>
          </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="supportEmail"/>
         </item>
         <item>
          <widget class="QWidget" name="widget_7" native="true">
@@ -255,25 +218,8 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
            <property name="bottomMargin">
             <number>0</number>
            </property>
-           <item>
-            <widget class="QLabel" name="label_13">
-             <property name="text">
-              <string>Department</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="lTipDep">
-             <property name="text">
-              <string>User-defined department or location name.</string>
-             </property>
-            </widget>
-           </item>
           </layout>
          </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="department"/>
         </item>
        </layout>
       </widget>
@@ -298,6 +244,113 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
      <property name="currentIndex">
       <number>0</number>
      </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Information</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_21">
+       <item>
+        <spacer name="horizontalSpacer_10">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>218</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_26">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Support Phone Number</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipPhone">
+           <property name="text">
+            <string>A support phone number for the organization.</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::AutoText</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="supportPhoneNumber"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Support Email</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipEmail">
+           <property name="text">
+            <string>A support email address for the organization.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="supportEmail"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>Department</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipDep">
+           <property name="text">
+            <string>User-defined department or location name.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="department"/>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_15">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_11">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>217</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
      <widget class="QWidget" name="options">
       <attribute name="title">
        <string>Options</string>
@@ -1015,6 +1068,135 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
            </widget>
           </item>
           <item>
+           <widget class="QWidget" name="widget_19" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_23">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <spacer name="horizontalSpacer_18">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_27">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_7">
+                 <property name="minimumSize">
+                  <size>
+                   <width>300</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Setup Assistant Configuration (tvOS only)</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QFormLayout" name="formLayout_3">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_11">
+                   <property name="text">
+                    <string>Language:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLineEdit" name="setupAssistantLanguage">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maxLength">
+                    <number>3</number>
+                   </property>
+                   <property name="placeholderText">
+                    <string>optional (e.g. en, fr, ja, eng)</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLabel" name="label_14">
+                   <property name="text">
+                    <string>Region:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QLineEdit" name="setupAssistantRegion">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maxLength">
+                    <number>2</number>
+                   </property>
+                   <property name="placeholderText">
+                    <string>optional (e.g. US, GB, AU)</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_17">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
            <spacer name="verticalSpacer_12">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
@@ -1717,9 +1899,6 @@ Please specify the information that will be used to automatically create this ac
  <tabstops>
   <tabstop>profileName</tabstop>
   <tabstop>mdmUrl</tabstop>
-  <tabstop>supportPhoneNumber</tabstop>
-  <tabstop>supportEmail</tabstop>
-  <tabstop>department</tabstop>
   <tabstop>tabWidget</tabstop>
   <tabstop>mandatory</tabstop>
   <tabstop>supervised</tabstop>

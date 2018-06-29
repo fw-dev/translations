@@ -6,14 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>595</width>
-    <height>703</height>
+    <width>640</width>
+    <height>840</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Permissions</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
    <property name="bottomMargin">
     <number>0</number>
    </property>
@@ -73,11 +76,11 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_3">
+    <widget class="QGroupBox" name="groupBoxGeneral">
      <property name="title">
-      <string>User Administration</string>
+      <string>General</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout_3">
+     <layout class="QGridLayout" name="gridLayout_3" columnminimumwidth="0,0,0">
       <item row="0" column="0">
        <widget class="QCheckBox" name="checkBoxCanAdminUsers">
         <property name="focusPolicy">
@@ -88,6 +91,16 @@
         </property>
        </widget>
       </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBoxChangePreferences">
+        <property name="text">
+         <string>Change Preferences</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QWidget" name="widget_4" native="true"/>
+      </item>
      </layout>
     </widget>
    </item>
@@ -97,16 +110,6 @@
       <string>Clients and Groups</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_4">
-      <item row="0" column="0">
-       <widget class="QCheckBox" name="checkBoxModifyClientsGroups">
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="text">
-         <string>Modify Clients/Groups</string>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="0">
        <widget class="QCheckBox" name="checkBoxResetClientUniqueId">
         <property name="focusPolicy">
@@ -114,6 +117,16 @@
         </property>
         <property name="text">
          <string>Clear Fileset Status</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxModifyClientsGroups">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Modify Clients/Groups</string>
         </property>
        </widget>
       </item>
@@ -157,6 +170,13 @@
         </property>
        </widget>
       </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxWipeDevices">
+        <property name="text">
+         <string>Wipe Devices</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
@@ -166,33 +186,13 @@
       <string>Filesets and Groups</string>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="3" column="1">
-       <widget class="QCheckBox" name="checkBoxManageVPPCodes">
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="checkBoxFilesetsAndGroupsSetPermissions">
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="text">
-         <string>Manage VPP codes</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="checkBoxModifyFilesets">
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="text">
-         <string>Modify Filesets</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QCheckBox" name="checkBoxExportFilesetTemplate">
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="text">
-         <string>Export Fileset/Template</string>
+         <string>Set Permissions</string>
         </property>
        </widget>
       </item>
@@ -206,13 +206,33 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="2">
-       <widget class="QCheckBox" name="checkBoxFilesetsAndGroupsSetPermissions">
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBoxExportFilesetTemplate">
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="text">
-         <string>Set Permissions</string>
+         <string>Export Fileset/Template</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBoxModifyFilesets">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Modify Filesets</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="checkBoxManageVPPCodes">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Manage VPP codes</string>
         </property>
        </widget>
       </item>
@@ -224,8 +244,8 @@
      <property name="title">
       <string>Associations</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout_5">
-      <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
        <widget class="QCheckBox" name="checkBoxModifyAssociations">
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -235,7 +255,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
+      <item>
        <widget class="QCheckBox" name="approveSoftwareUpdatesCheckbox">
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -245,7 +265,7 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="0">
+      <item>
        <widget class="QCheckBox" name="checkBoxModifyImagingAssociations">
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -254,9 +274,6 @@
          <string>Modify Imaging Associations</string>
         </property>
        </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QWidget" name="widget" native="true"/>
       </item>
      </layout>
     </widget>
@@ -298,8 +315,15 @@
      <property name="title">
       <string>Dashboard</string>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="accessDashboard">
+        <property name="text">
+         <string>Access Dashboard</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
        <widget class="QCheckBox" name="configureDashboard">
         <property name="focusPolicy">
          <enum>Qt::NoFocus</enum>
@@ -308,6 +332,9 @@
          <string>Configure Dashboard</string>
         </property>
        </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QWidget" name="widget" native="true"/>
       </item>
      </layout>
     </widget>
@@ -359,6 +386,54 @@
       </item>
       <item row="0" column="2">
        <widget class="QWidget" name="widgetPlaceholder" native="true"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBoxCustomFields_2">
+     <property name="title">
+      <string>Full Disk Encryption</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="0" column="2">
+       <widget class="QWidget" name="widgetPlaceholder_2" native="true"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureFDE">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Configure Full Disk Encryption</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBoxRetrieveFDEKeys">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>Retrieve Recovery Keys</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_8">
+     <property name="title">
+      <string>Classroom</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_9">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="accessClassroom">
+        <property name="text">
+         <string>Access Classroom</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -438,7 +513,7 @@
    </item>
   </layout>
   <zorder>groupBox</zorder>
-  <zorder>groupBox_3</zorder>
+  <zorder>groupBoxGeneral</zorder>
   <zorder>groupBox_4</zorder>
   <zorder>groupBox_5</zorder>
   <zorder>groupBox_6</zorder>
@@ -447,6 +522,8 @@
   <zorder>groupBox_2</zorder>
   <zorder>groupBoxDiscovery</zorder>
   <zorder>groupBoxCustomFields</zorder>
+  <zorder>groupBoxCustomFields_2</zorder>
+  <zorder>groupBox_8</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -41,6 +41,9 @@
         <property name="text">
          <string>Getting data...</string>
         </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item row="1" column="0">
@@ -63,6 +66,9 @@
         </property>
         <property name="text">
          <string>Getting data...</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -96,6 +102,9 @@
         <property name="text">
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;... and then &lt;a href=&quot;https://admin.google.com/AdminHome?fral=1#ServiceSettings/notab=1&amp;amp;service=shared%20device%20settings&amp;amp;subtab=certificate&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;import the certificate in the Google Admin console&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item row="1" column="0">
@@ -118,6 +127,9 @@
         </property>
         <property name="text">
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;... and then &lt;a href=&quot;https://admin.google.com/AdminHome?fral=1#ChromeAppList:&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;import the policy in the Google Admin console&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
         </property>
        </widget>
       </item>

@@ -202,6 +202,13 @@
      <addaction name="actionEdit_Custom_Fields"/>
      <addaction name="actionImport_CSV"/>
     </widget>
+    <widget class="QMenu" name="menuFull_Disk_Encryption">
+     <property name="title">
+      <string>Full Disk Encryption Management</string>
+     </property>
+     <addaction name="actionFileVault_2_Assistant"/>
+     <addaction name="actionFDE_Recovery_Keys_Management"/>
+    </widget>
     <addaction name="actionFileWave_Client_Monitor"/>
     <addaction name="separator"/>
     <addaction name="actionFileset_WinMagic"/>
@@ -214,6 +221,7 @@
     <addaction name="actionManage_VPP_Users"/>
     <addaction name="actionDEP_Association_Management"/>
     <addaction name="actionActivation_Lock_Bypass_Code_Management"/>
+    <addaction name="menuFull_Disk_Encryption"/>
     <addaction name="separator"/>
     <addaction name="actionManage_Administrators"/>
     <addaction name="actionShow_Locked_Items"/>
@@ -677,6 +685,28 @@
   <action name="actionImport_CSV">
    <property name="text">
     <string>Import CSV...</string>
+   </property>
+  </action>
+  <action name="actionFileVault_2_Assistant">
+   <property name="text">
+    <string>FDE Configuration Management...</string>
+   </property>
+   <property name="toolTip">
+    <string>Disk Encryption Configurations</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+K</string>
+   </property>
+  </action>
+  <action name="actionFDE_Recovery_Keys_Management">
+   <property name="text">
+    <string>FDE Recovery Key Management...</string>
+   </property>
+   <property name="toolTip">
+    <string>FDE Recovery Key Management</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+K</string>
    </property>
   </action>
  </widget>

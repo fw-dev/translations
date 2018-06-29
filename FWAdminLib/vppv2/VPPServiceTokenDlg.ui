@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>524</width>
+    <width>536</width>
     <height>616</height>
    </rect>
   </property>
@@ -198,16 +198,12 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
-           <widget class="QLabel" name="label">
-            <property name="text">
-             <string>A fileset will be created for each item of your account.</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <widget class="QLabel" name="label_2">
             <property name="text">
-             <string>Filesets will be automatically added to the following group:</string>
+             <string>When filesets are created in License Management, they will be added to the following group: </string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -300,7 +296,7 @@
           <widget class="QLabel" name="waitLabel">
            <property name="text">
             <string>The service token is being updated.
-This may take time (several minutes to hours) if you have lots of 
+This may take time (several minutes to hours) if you have a large number of 
 users and licenses.
 Please wait until all data are fetched and added to FileWave...</string>
            </property>

@@ -6,15 +6,24 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>448</width>
-    <height>413</height>
+    <width>640</width>
+    <height>550</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Edit Report</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <property name="margin">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
     <number>0</number>
    </property>
    <item row="0" column="0">
@@ -33,28 +42,54 @@
          <widget class="QComboBox" name="type">
           <property name="minimumSize">
            <size>
-            <width>250</width>
+            <width>300</width>
             <height>0</height>
            </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>300</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="description">
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>The report will be sent to the following email addresses:</string>
+           <string>The report will be sent to the
+following email addresses:</string>
           </property>
           <property name="wordWrap">
-           <bool>true</bool>
+           <bool>false</bool>
           </property>
          </widget>
         </item>
         <item row="2" column="1">
          <widget class="QPlainTextEdit" name="addressees">
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>0</height>
+           </size>
+          </property>
           <property name="maximumSize">
            <size>
-            <width>250</width>
-            <height>60</height>
+            <width>300</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="tabChangesFocus">
@@ -73,13 +108,13 @@
          <widget class="QLineEdit" name="subject">
           <property name="minimumSize">
            <size>
-            <width>250</width>
+            <width>300</width>
             <height>0</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>250</width>
+            <width>300</width>
             <height>60</height>
            </size>
           </property>
@@ -91,7 +126,7 @@
            <string>Email content/body:</string>
           </property>
           <property name="wordWrap">
-           <bool>true</bool>
+           <bool>false</bool>
           </property>
          </widget>
         </item>
@@ -105,14 +140,14 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>250</width>
+            <width>300</width>
             <height>0</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>250</width>
-            <height>60</height>
+            <width>300</width>
+            <height>16777215</height>
            </size>
           </property>
           <property name="tabChangesFocus">
@@ -120,11 +155,69 @@
           </property>
          </widget>
         </item>
-        <item row="1" column="1">
-         <widget class="QLabel" name="description">
-          <property name="alignment">
-           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        <item row="5" column="0">
+         <widget class="QLabel" name="ownerLbl">
+          <property name="text">
+           <string>Owner:</string>
           </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QWidget" name="owner" native="true">
+          <layout class="QGridLayout" name="gridLayout_2">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="editLdapUser">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" colspan="2">
+            <widget class="QComboBox" name="comboNormalUser"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QRadioButton" name="rbLDAPUser">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="text">
+              <string>LDAP User</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QPushButton" name="ldapUserTest">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Test</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QRadioButton" name="rbNormalUser">
+             <property name="text">
+              <string>User</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
        </layout>
@@ -188,7 +281,16 @@
    </item>
    <item row="1" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <property name="margin">
+     <property name="leftMargin">
+      <number>12</number>
+     </property>
+     <property name="topMargin">
+      <number>12</number>
+     </property>
+     <property name="rightMargin">
+      <number>12</number>
+     </property>
+     <property name="bottomMargin">
       <number>12</number>
      </property>
      <item>
@@ -264,6 +366,54 @@
     <hint type="destinationlabel">
      <x>286</x>
      <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbNormalUser</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboNormalUser</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>466</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbNormalUser</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>ldapUserTest</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>513</x>
+     <y>287</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rbNormalUser</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>editLdapUser</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>432</x>
+     <y>286</y>
     </hint>
    </hints>
   </connection>
