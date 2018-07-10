@@ -181,7 +181,7 @@ QToolButton[text=&quot;+&quot;],[text=&quot;-&quot;] { max-height: 16; max-width
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please check &lt;a href=&quot;https://developer.apple.com/library/ios/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html#//apple_ref/doc/uid/TP40010206-CH1-SW4&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Apple's Configuration Profile reference&lt;/span&gt;&lt;/a&gt; for OS compatibility.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please check &lt;a href=&quot;https://help.apple.com/deployment/mdm/#/mdmf0ec4d860&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Apple's Configuration Profile reference&lt;/span&gt;&lt;/a&gt; for OS compatibility.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="openExternalLinks">
          <bool>true</bool>

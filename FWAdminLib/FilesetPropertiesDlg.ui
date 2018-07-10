@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>779</width>
+    <width>784</width>
     <height>672</height>
    </rect>
   </property>
@@ -141,7 +141,8 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>Authenticated restart for devices with Full Disk Encryption enabled if Personal Recovery Key has been escrowed</string>
+                 <string>Authenticated restart for devices with Full Disk Encryption and an escrowed Personal Recovery Key.
+MacOS 10.13+ APFS does not support the option for authenticated restart.</string>
                 </property>
                </widget>
               </item>
