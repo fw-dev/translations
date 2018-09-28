@@ -2013,6 +2013,52 @@
           </widget>
          </item>
          <item>
+          <spacer name="verticalSpacer_13">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowPasswordSharing">
+           <property name="text">
+            <string>Allow password sharing</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowPasswordAutoFill">
+           <property name="text">
+            <string>Allow password AutoFill</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowPasswordProximityRequests">
+           <property name="text">
+            <string>Allow proximity based password sharing requests</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer name="verticalSpacer_9">
            <property name="orientation">
             <enum>Qt::Vertical</enum>

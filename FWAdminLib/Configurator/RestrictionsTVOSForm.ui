@@ -69,6 +69,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="checkBoxAllowPasswordProximityRequests">
+         <property name="text">
+          <string>Allow proximity based password sharing requests (supervised only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="checkBoxEnableSiriProfanityFilter">
          <property name="text">
           <string>Enable Siri profanity filter (supervised only)</string>
@@ -121,6 +131,7 @@
       <zorder>checkBoxEnableSiriProfanityFilter</zorder>
       <zorder>checkBoxAllowBookstore</zorder>
       <zorder>checkBoxAllowInAppPurchase</zorder>
+      <zorder>checkBoxAllowPasswordProximityRequests</zorder>
      </widget>
      <widget class="QWidget" name="mediaContentTab">
       <attribute name="title">

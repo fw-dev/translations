@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>687</width>
-    <height>284</height>
+    <height>308</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -236,7 +236,7 @@
    <item row="7" column="0" colspan="2">
     <widget class="QCheckBox" name="allowBookstoreErotica">
      <property name="text">
-      <string>Allow explicit sexual content in iBooks Store</string>
+      <string>Allow explicit sexual content in Apple Books</string>
      </property>
      <property name="checked">
       <bool>true</bool>

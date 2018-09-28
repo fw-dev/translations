@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>840</height>
+    <width>674</width>
+    <height>917</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -80,7 +80,10 @@
      <property name="title">
       <string>General</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout_3" columnminimumwidth="0,0,0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="1">
+       <widget class="QWidget" name="widget_4" native="true"/>
+      </item>
       <item row="0" column="0">
        <widget class="QCheckBox" name="checkBoxCanAdminUsers">
         <property name="focusPolicy">
@@ -91,15 +94,98 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBoxPreferences">
+     <property name="title">
+      <string>Preferences</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_10">
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureChromebooksToken">
+        <property name="text">
+         <string>Configure Chromebooks</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
        <widget class="QCheckBox" name="checkBoxChangePreferences">
         <property name="text">
          <string>Change Preferences</string>
         </property>
        </widget>
       </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBoxUploadServerCertificate">
+        <property name="text">
+         <string>Upload Server Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureGcm">
+        <property name="text">
+         <string>Configure GCM</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QCheckBox" name="checkBoxConfigureClassroomCertificate">
+        <property name="text">
+         <string>Configure Classroom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="checkBoxConfigureVppTokens">
+        <property name="text">
+         <string>Configure VPP Tokens</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="checkBoxEngageMigration">
+        <property name="text">
+         <string>Engage Migration</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBoxConfigureDepAccounts">
+        <property name="text">
+         <string>Configure DEP Accounts</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="checkBoxUploadEngageCertificate">
+        <property name="text">
+         <string>Upload Engage Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBoxDownloadDepCertificate">
+        <property name="text">
+         <string>Download DEP Certificate</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="2">
-       <widget class="QWidget" name="widget_4" native="true"/>
+       <widget class="QCheckBox" name="checkBoxConfigureSisSettings">
+        <property name="text">
+         <string>Configure SIS Settings</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBoxUploadMdmMacOsClient">
+        <property name="text">
+         <string>Upload macOS MDM Client</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -524,6 +610,7 @@
   <zorder>groupBoxCustomFields</zorder>
   <zorder>groupBoxCustomFields_2</zorder>
   <zorder>groupBox_8</zorder>
+  <zorder>groupBoxPreferences</zorder>
  </widget>
  <resources/>
  <connections/>

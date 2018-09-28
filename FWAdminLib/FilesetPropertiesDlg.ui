@@ -732,17 +732,10 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
                    </property>
                   </widget>
                  </item>
-                 <item row="4" column="0">
-                  <widget class="QCheckBox" name="checkBox106x">
+                 <item row="7" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI23">
                    <property name="text">
-                    <string>10.6.x</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="5" column="0">
-                  <widget class="QCheckBox" name="checkBox107x">
-                   <property name="text">
-                    <string>10.7.x</string>
+                    <string>6.0</string>
                    </property>
                   </widget>
                  </item>
@@ -750,6 +743,27 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
                   <widget class="QCheckBox" name="checkBoxFutureCompatibility">
                    <property name="text">
                     <string>Use/install on newer OS versions</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="2">
+                  <widget class="QCheckBox" name="checkBoxSrv2016">
+                   <property name="text">
+                    <string>2016</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="5" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI21">
+                   <property name="text">
+                    <string>5.0</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="11" column="0">
+                  <widget class="QCheckBox" name="checkBox1013x">
+                   <property name="text">
+                    <string>10.13.x</string>
                    </property>
                   </widget>
                  </item>
@@ -767,13 +781,6 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
                    </property>
                   </widget>
                  </item>
-                 <item row="5" column="3">
-                  <widget class="QCheckBox" name="checkBoxAPI21">
-                   <property name="text">
-                    <string>5.0</string>
-                   </property>
-                  </widget>
-                 </item>
                  <item row="0" column="0">
                   <widget class="QLabel" name="macOSLabel">
                    <property name="text">
@@ -781,24 +788,17 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
                    </property>
                   </widget>
                  </item>
-                 <item row="11" column="0">
-                  <widget class="QCheckBox" name="checkBox1013x">
+                 <item row="9" column="3">
+                  <widget class="QCheckBox" name="checkBoxAPI25">
                    <property name="text">
-                    <string>10.13.x</string>
+                    <string>7.1</string>
                    </property>
                   </widget>
                  </item>
-                 <item row="4" column="2">
-                  <widget class="QCheckBox" name="checkBoxSrv2016">
+                 <item row="5" column="0">
+                  <widget class="QCheckBox" name="checkBox107x">
                    <property name="text">
-                    <string>2016</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="7" column="3">
-                  <widget class="QCheckBox" name="checkBoxAPI23">
-                   <property name="text">
-                    <string>6.0</string>
+                    <string>10.7.x</string>
                    </property>
                   </widget>
                  </item>
@@ -809,10 +809,17 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
                    </property>
                   </widget>
                  </item>
-                 <item row="9" column="3">
-                  <widget class="QCheckBox" name="checkBoxAPI25">
+                 <item row="4" column="0">
+                  <widget class="QCheckBox" name="checkBox106x">
                    <property name="text">
-                    <string>7.1</string>
+                    <string>10.6.x</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="12" column="0">
+                  <widget class="QCheckBox" name="checkBox1014x">
+                   <property name="text">
+                    <string>10.14.x</string>
                    </property>
                   </widget>
                  </item>

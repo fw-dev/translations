@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>600</width>
-    <height>354</height>
+    <height>371</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,7 +29,7 @@
    <item>
     <widget class="QGroupBox" name="certBox">
      <property name="title">
-      <string>HTTPS Certificate Management</string>
+      <string>SSL Certificate Management</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,1,0">
       <property name="spacing">

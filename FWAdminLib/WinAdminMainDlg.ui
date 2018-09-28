@@ -175,6 +175,7 @@
     <addaction name="actionClose_All"/>
     <addaction name="actionGet_Info"/>
     <addaction name="actionPreferences"/>
+    <addaction name="actionWeb_Console"/>
     <addaction name="separator"/>
     <addaction name="action_Quit_FileWave_WinAdmin"/>
    </widget>
@@ -707,6 +708,11 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+Alt+K</string>
+   </property>
+  </action>
+  <action name="actionWeb_Console">
+   <property name="text">
+    <string>Web Console</string>
    </property>
   </action>
  </widget>

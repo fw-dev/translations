@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>555</width>
-    <height>268</height>
+    <width>525</width>
+    <height>369</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0">
    <item>
     <widget class="QCheckBox" name="checkBoxDisableSmartCard">
      <property name="text">
@@ -28,6 +28,20 @@
      </property>
      <property name="wordWrap">
       <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBoxEnforceSmartCard">
+     <property name="text">
+      <string>Require Smart Card</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipEnforceSmartCard">
+     <property name="text">
+      <string>Require Smart Card for logins, authorizations and unlocking screensaver.</string>
      </property>
     </widget>
    </item>
@@ -76,6 +90,13 @@
      </property>
      <property name="wordWrap">
       <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBoxTokenRemovalAction">
+     <property name="text">
+      <string>Enable Screen Saver on Smart Card removal</string>
      </property>
     </widget>
    </item>

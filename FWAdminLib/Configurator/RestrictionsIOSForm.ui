@@ -580,6 +580,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="forceAutomaticDateAndTime">
+         <property name="text">
+          <string>Force automatic date and time (Supervised devices only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="forceClassroomUnpromptedAppAndDeviceLock">
          <property name="text">
           <string>Allow Classroom to lock to an app and lock the device without prompting</string>
@@ -757,26 +764,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowOpenFromManagedToUnmanaged">
-         <property name="text">
-          <string>Allow documents from managed apps in unmanaged apps</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowOpenFromUnmanagedToManaged">
-         <property name="text">
-          <string>Allow documents from unmanaged apps in managed apps</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="forceAirDropUnmanaged">
          <property name="text">
           <string>Treat AirDrop as unmanaged destination</string>
@@ -884,6 +871,40 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowOpenFromManagedToUnmanaged">
+         <property name="text">
+          <string>Allow documents from managed sources in unmanaged destinations</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowOpenFromUnmanagedToManaged">
+         <property name="text">
+          <string>Allow documents from unmanaged sources in managed destinations</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowManagedToWriteUnmanagedContacts">
+         <property name="text">
+          <string>Allow managed apps to write contacts to unmanaged contacts accounts</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowUnmanagedToReadManagedContacts">
+         <property name="text">
+          <string>Allow unmanaged apps to read contacts from managed contacts accounts</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="forceLimitAdTracking">
          <property name="text">
           <string>Force limited ad tracking</string>
@@ -962,6 +983,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowPasswordAutoFill">
+         <property name="text">
+          <string>Allow password AutoFill (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="forceAuthenticationBeforeAutoFill">
          <property name="text">
           <string>Require Face ID authentication before AutoFill (Supervised devices only)</string>
@@ -1009,6 +1040,26 @@
         <widget class="QCheckBox" name="allowProximitySetupToNewDevice">
          <property name="text">
           <string>Allow setting up new nearby devices (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPasswordProximityRequests">
+         <property name="text">
+          <string>Allow proximity based password sharing requests (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPasswordSharing">
+         <property name="text">
+          <string>Allow password sharing (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -1390,6 +1441,16 @@
             </property>
             <property name="currentIndex">
              <number>-1</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipacceptCookiesDifferentMeaning">
+            <property name="text">
+             <string>iOS 11+:</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
             </property>
            </widget>
           </item>

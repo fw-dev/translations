@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>486</width>
-    <height>238</height>
+    <height>302</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -89,10 +89,20 @@
        </item>
        <item>
         <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>3</number>
+         </property>
          <item>
           <widget class="QCheckBox" name="disallowProximitySetup">
            <property name="text">
-            <string>Disallow Proximity Setup (iOS 11.3+)</string>
+            <string>Disallow Proximity Setup</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_disallowProximitySetup">
+           <property name="text">
+            <string>Available in iOS 11.3 and later</string>
            </property>
           </widget>
          </item>
@@ -105,10 +115,17 @@
             </sizepolicy>
            </property>
            <property name="text">
-            <string>Remove Activation Lock (supervised iOS 7.1+)</string>
+            <string>Remove Activation Lock</string>
            </property>
            <property name="checked">
             <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_removeAL">
+           <property name="text">
+            <string>Available in supervised iOS 7.1 and later</string>
            </property>
           </widget>
          </item>
@@ -121,7 +138,14 @@
             </sizepolicy>
            </property>
            <property name="text">
-            <string>Preserve Data Plan (iOS 11+)</string>
+            <string>Preserve Data Plan</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_checkPreserveDataPlan">
+           <property name="text">
+            <string>Available in iOS 11 and later</string>
            </property>
           </widget>
          </item>
@@ -179,11 +203,28 @@
     </layout>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>

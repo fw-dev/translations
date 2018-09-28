@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>570</width>
-    <height>1632</height>
+    <width>572</width>
+    <height>1786</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    <item>
     <widget class="QLabel" name="lAccountName">
      <property name="text">
@@ -134,7 +134,7 @@
    <item>
     <widget class="QCheckBox" name="checkAllowMove">
      <property name="text">
-      <string>Allow messages to be moved</string>
+      <string>Allow user to move messages from this account</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -144,7 +144,7 @@
    <item>
     <widget class="QLabel" name="lTipDoNotAllowMove">
      <property name="text">
-      <string>Messages can be moved from this account to another</string>
+      <string>Messages can be moved out of this account into another</string>
      </property>
     </widget>
    </item>
@@ -194,6 +194,30 @@
     </widget>
    </item>
    <item>
+    <widget class="QCheckBox" name="checkBoxOAuth">
+     <property name="text">
+      <string>Use OAuth for authentication</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lOAuthSignInURL">
+     <property name="text">
+      <string>OAuth Sign in URL</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editOAuthSignInURL">
+     <property name="echoMode">
+      <enum>QLineEdit::Normal</enum>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QLabel" name="lPassword">
      <property name="text">
       <string>Password</string>
@@ -229,7 +253,7 @@
       <number>0</number>
      </property>
      <widget class="QWidget" name="page">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -324,7 +348,7 @@
        <item>
         <widget class="QLabel" name="lTipAuthenticationCredential">
          <property name="text">
-          <string>Credential for authentication the ActiveSync account</string>
+          <string>Credential for authenticating the ActiveSync account</string>
          </property>
         </widget>
        </item>
@@ -359,21 +383,14 @@
        <item>
         <widget class="QCheckBox" name="checkSMimeMessageSigning">
          <property name="text">
-          <string>Enable S/MIME message signing</string>
+          <string>Enable S/MIME signing</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lTipSMimeSigning">
+        <widget class="QCheckBox" name="checkBoxSMIMESigningUserOverrideable">
          <property name="text">
-          <string>Support S/MIME signing for this account.</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lTipSMimeiOS103">
-         <property name="text">
-          <string>For versions older than iOS 10.3 and macOS 10.12.4, enable signing and encryption.</string>
+          <string>Allow user to enable or disable S/MIME signing</string>
          </property>
         </widget>
        </item>
@@ -409,20 +426,41 @@
           <item>
            <widget class="QComboBox" name="comboSigningCertificate"/>
           </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxSMIMESigningCertificateUUIDUserOverrideable">
+            <property name="text">
+             <string>Allow user to modify S/MIME signing certificate</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkSMimeMessageEncryption">
+        <widget class="QCheckBox" name="checksmimeEncryptionByDefault">
          <property name="text">
-          <string>Enable S/MIME message encryption</string>
+          <string>Enable S/MIME encryption by default</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lTipSMimeEncryption">
+        <widget class="QCheckBox" name="checkBoxSMIMEEncryptByDefaultUserOverrideable">
          <property name="text">
-          <string>Support S/MIME encryption for this account</string>
+          <string>Allow user to enable or disable S/MIME encryption</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableEncryptionPerMessageSwitch">
+         <property name="text">
+          <string>Enable per-message encryption switch</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipSMimeSigning_2">
+         <property name="text">
+          <string>Allow the user to choose whether to encrypt each message</string>
          </property>
         </widget>
        </item>
@@ -459,35 +497,10 @@
            <widget class="QComboBox" name="comboEncryptionCertificate"/>
           </item>
           <item>
-           <widget class="QWidget" name="widgetEnablePerMessageEncryptionSwitch" native="true">
-            <layout class="QVBoxLayout" name="verticalLayout_5">
-             <property name="leftMargin">
-              <number>0</number>
-             </property>
-             <property name="topMargin">
-              <number>0</number>
-             </property>
-             <property name="rightMargin">
-              <number>0</number>
-             </property>
-             <property name="bottomMargin">
-              <number>0</number>
-             </property>
-             <item>
-              <widget class="QCheckBox" name="checkBoxEnablePerMessageEncryptionSwitch">
-               <property name="text">
-                <string>Enable per-message encryption switch</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="lTipAllowTheUserToChooseWhetherToEncrypt">
-               <property name="text">
-                <string>Allow the user to choose whether to encrypt each message</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
+           <widget class="QCheckBox" name="checkBoxSMIMEEncryptionCertificateUUIDUserOverrideable">
+            <property name="text">
+             <string>Allow user to modify S/MIME encryption certificate</string>
+            </property>
            </widget>
           </item>
          </layout>

@@ -219,6 +219,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="m_checkDisableChooseYourLookDuringLogin">
+         <property name="text">
+          <string>Disable Сhoose Your Look window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="m_checkEnableConsoleLogin">
          <property name="text">
           <string>Enable &gt;console login</string>

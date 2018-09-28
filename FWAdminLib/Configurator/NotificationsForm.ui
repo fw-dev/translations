@@ -70,7 +70,7 @@
    <item row="1" column="0" colspan="4">
     <widget class="QLabel" name="lTipNotificationSettings">
      <property name="text">
-      <string>Configure notification settings for each app</string>
+      <string>Configure notification settings for apps</string>
      </property>
     </widget>
    </item>
