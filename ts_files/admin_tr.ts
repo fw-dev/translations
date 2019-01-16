@@ -190,6 +190,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/activationlockbypass/ALBAssistant.cpp" line="148"/>
+        <source>Error when removing Activation Lock on selected device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/activationlockbypass/ALBAssistant.cpp" line="96"/>
         <source>Are you really sure you want to remove selected ActivationLock bypass codes ?
 There is no way to get it back !</source>
@@ -199,11 +204,6 @@ There is no way to get it back !</source>
         <location filename="../../FWAdminLib/activationlockbypass/ALBAssistant.cpp" line="109"/>
         <source>Are you really sure you want to remove ActivationLock from selected devices ?
 Anyone will be able to activate selected devices after a reset !</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/activationlockbypass/ALBAssistant.cpp" line="148"/>
-        <source>Error when removing Activation Lock on selected device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3618,7 +3618,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.ui" line="26"/>
         <source>Create New Fileset</source>
-        <translation>Yeni Fileset Yarat</translation>
+        <translation type="unfinished">Yeni Fileset Yarat</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.ui" line="86"/>
@@ -5202,7 +5202,7 @@ Current fileset uuid will be re-generated.</source>
         <translation>İçe aktarma başarısız</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="667"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="662"/>
         <source>Importing Android Package</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6045,7 +6045,7 @@ Check the log file for more details</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="196"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="419"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="416"/>
         <source>Select All (%1)</source>
         <translation>Tümünü Seç (%1)</translation>
     </message>
@@ -6080,38 +6080,28 @@ Check the log file for more details</source>
         <translation>Kullanılabilir istemci lisansınızdan daha fazla istemciyi eklemek için seçtiniz</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="336"/>
-        <source>Error creating new mobile client: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="338"/>
-        <source>Error creating new client: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="555"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="562"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="552"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="559"/>
         <source>Create VPP User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="556"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="553"/>
         <source>Another VPP tool has the ownership of the account. Go to &quot;configure tokens&quot; to take the ownership.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="563"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="560"/>
         <source>Apple services are currently not available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="570"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="567"/>
         <source>VPP user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="570"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="567"/>
         <source>Error while creating VPP users</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6126,32 +6116,42 @@ Check the log file for more details</source>
         <translation>Yeni istemci oluşturulurken hata. Lisanslı istemcilerin maksimum sayısı aşıldı.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="334"/>
+        <source>Error creating new %1client: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="335"/>
+        <source>mobile </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="400"/>
         <source>Loading...</source>
         <translation>Yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="415"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="412"/>
         <source>Refresh</source>
         <translation type="unfinished">Yenile</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="494"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="491"/>
         <source>Save</source>
         <translation>Kaydet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="497"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="494"/>
         <source>Add %1 Clients</source>
         <translation>%1 İstemci Ekle</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="499"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="496"/>
         <source>Add Clients</source>
         <translation>İstemci Ekle</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="521"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="518"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
         <translation>Değişiklikleri kaydetmediniz. Kaydetmek ister misiniz?</translation>
     </message>
@@ -6197,90 +6197,54 @@ Check the log file for more details</source>
 <context>
     <name>CNewClientSmartGroupDlg</name>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="38"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="36"/>
         <source>[required]</source>
         <translation type="unfinished">[mecburi]</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="94"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="86"/>
         <source>Modify Smart Group</source>
         <translation>Akıllı Grubu Değiştir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="96"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="88"/>
         <source>Create New Smart Group</source>
         <translation>Yeni Akıllı Grup Yarat</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="123"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="115"/>
         <source>Please define the inventory query that you have added.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="146"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="138"/>
         <source>updating</source>
         <translation>güncelleniyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="148"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="140"/>
         <source>creating</source>
         <translation>yaratılıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="185"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="177"/>
         <source>Error %1 the Smart Group. The name &apos;%2&apos; is already used</source>
         <translation>Akıllı Grup %1 hatası. %2 adı zaten kullanımda</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="189"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="181"/>
         <source>Error %1 the Smart Group. The maximum number of licensed clients has been exceeded.</source>
         <translation>Akıllı Grup %1 hatası. Lisanslı istemcilerin maksimum sayısı aşıldı.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="193"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="185"/>
         <source>Error %1 Smart Group: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="205"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="197"/>
         <source>There was an error storing the filter in the database</source>
         <translation>Veri tabanına filtre depolanırken hata oluştu</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="238"/>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="267"/>
-        <source>Parent Smart group deleted</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="239"/>
-        <source>A parent group of the smart group you were editing has been removed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="243"/>
-        <source>Smart group deleted</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="244"/>
-        <source>The smart group you were editing has been removed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="268"/>
-        <source>Permissions to a parent group of the smart group you were editing has been removed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="273"/>
-        <source>Smart group permissions changed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="274"/>
-        <source>You no longer have permission to edit this smart group.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6777,7 +6741,7 @@ O değerleri kalıcı olarak silmek istediğiniziden emin misiniz: %1?</translat
         <translation>Modeli Güncelle</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="41"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="40"/>
         <source>Insufficient Activation Code !
 
 Updating will not be possible until your license code supports your client or mobile load.
@@ -6791,32 +6755,32 @@ Chromebook licenses used: %5, total: %6.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="56"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="55"/>
         <source>Update license code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="64"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="63"/>
         <source>Can&apos;t update Server Model
 
 Server cannot be updated until all file uploads are completed.</source>
         <translation>Sunucu Modeli güncellenemiyor. Tüm dosya yüklemeleri tamamlanmadan sunucu güncellenemez. </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="73"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="72"/>
         <source>Can&apos;t update Server Model
 
 Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="84"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="83"/>
         <source>The mobile portion of your license expired on: %1.
 Desktop data only will be updated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="89"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="88"/>
         <source>Do you really wish to update the FileWave server model?</source>
         <translation>Tuğra sunucu modelini güncellemek istediğinizden emin misiniz?</translation>
     </message>
@@ -6831,7 +6795,7 @@ Desktop data only will be updated.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdmin.cpp" line="244"/>
         <source>Cannot Connect. Too many Admins already connected.</source>
-        <translation type="unfinished">Bağlanılamıyor. Çok fazla Admin zaten bağlı.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdmin.cpp" line="246"/>
@@ -7254,14 +7218,14 @@ Note: caps lock is on...</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="486"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="487"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="488"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3742"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3725"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="499"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1748"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2559"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1723"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2534"/>
         <source>OK</source>
         <translation type="unfinished">Tamam</translation>
     </message>
@@ -7278,58 +7242,52 @@ Note: caps lock is on...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="870"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="867"/>
         <source>Clients</source>
         <translation>İstemciler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="877"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="874"/>
         <source>Filesets</source>
         <translation>Fileset&apos;ler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="884"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="881"/>
         <source>Associations</source>
         <translation>İlişkilendirmeler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="907"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="904"/>
         <source>iOS Inventory</source>
         <translation>IOS Envanteri</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="915"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="912"/>
         <source>License Management</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="929"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="926"/>
         <source>Inventory Queries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1013"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1010"/>
         <source>Uploading %1 files...</source>
         <translation>%1 dosya yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1013"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1010"/>
         <source>Uploading %1 file...</source>
         <translation>%1 dosya yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1030"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1027"/>
         <source>The upload of fileset %1 to the server has failed.</source>
         <translation>Fileset %1 sunucuya yüklenirken hata oluştu.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1048"/>
-        <source>Failed to acquire data from the FileWave Server.
-%1 will now quit.</source>
-        <translation>Tuğra Sunucudan veri alınırken hata oluştu. %1 sonlandırılacak.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1063"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1054"/>
         <source>Insufficient Activation Code found!
 
 Please enter your Activation Code.</source>
@@ -7338,261 +7296,261 @@ Please enter your Activation Code.</source>
 Lütfen Aktivasyon Kodunuzu girin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1085"/>
-        <source>You have changed the number of mobile licenses available. Please re-login to the admin to achive proper functionality. The admin will now quit.</source>
-        <translation>Kullanılabilir mobil lisans sayısını değiştirdiniz. Uygun işlevselliğe erişmek için lütfen admin arayüzüne tekrar girin. Admin oturumu şimdi sonlandırılacak.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1264"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1239"/>
         <source>Sorry, you do not have permission to change preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1265"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1240"/>
         <source>FileWave Admin</source>
         <translation type="unfinished">Tuğra Admin</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1286"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1261"/>
         <source>Preferences Locked</source>
         <translation>Tercihler Kilitli</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1287"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1262"/>
         <source>Another administrator is currently editing the preferences.  Please try again later.</source>
         <translation>Bir başka administratör şu anda tercihleri düzenliyor. Lütfen daha sonra tekrar deneyin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1289"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3496"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1264"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3479"/>
         <source>Show Locked Items</source>
         <translation>Kilitli Öğeleri Göster</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1577"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1587"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1552"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1562"/>
         <source>Manage Administrators</source>
         <translation type="unfinished">Administratörleri Yönet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1578"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1553"/>
         <source>Releasing the lock on the Manage Administrator dialog failed: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1588"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1563"/>
         <source>Another administrator is currently editing the manage administrator dialog. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1635"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1657"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1610"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1632"/>
         <source>Full Disk Encryption Assistant</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1636"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1611"/>
         <source>Another administrator is currently editing the disk encryption configurations. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1658"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1633"/>
         <source>Another administrator is currently using the disk encryption recovery keys dialog. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1916"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1891"/>
         <source>Failed to duplicate AppStore Application, deleting duplicate fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2299"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2365"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2382"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2389"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2397"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2274"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2340"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2357"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2364"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2372"/>
         <source>Smart Group Report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2300"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2275"/>
         <source>Smart Group has been deleted, report cannot be refreshed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2366"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2341"/>
         <source>Couldn&apos;t fetch Smart Group &quot;%1&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2383"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2358"/>
         <source>Smart Group &quot;%1&quot; contains no inventory query, no report can be generated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2390"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2365"/>
         <source>Smart Group &quot;%1&quot; has no clones, no report can be generated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2398"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2373"/>
         <source>Smart Group &quot;%1&quot; contains more than one inventory query, which is unsupported.
 
 Only the report for the first query is shown.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2411"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2386"/>
         <source>%1 (revision %2)</source>
         <translation type="unfinished">%1.%2.%3 (revizyon %4) {1 ?} {2)?}</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2431"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2406"/>
         <source>Chromebooks %1/%2, </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2477"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2452"/>
         <source>No MDM license installed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2510"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2485"/>
         <source> (Warning: APN certificate will expire in %1 days)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2525"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2500"/>
         <source>APN%1 needs %2 configuration
 (see Mobile/%3 and root certificates in preferences)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2535"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2510"/>
         <source>MDM service not running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2540"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2515"/>
         <source>Incorrect MDM service version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2568"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2543"/>
         <source>API key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2571"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2546"/>
         <source>Project Number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2577"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2552"/>
         <source>GCM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2581"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2556"/>
         <source>Google Notifications needs %1 configuration
 (see Mobile/Android and root certificates in preferences)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2589"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2590"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2564"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2565"/>
         <source>
 (# of mobile clients exceeds license limit)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2643"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2618"/>
         <source>Service OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2643"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2618"/>
         <source>Service not running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3197"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3173"/>
         <source>Software Update feature is disabled. Please change the preferences if you wish to use it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3202"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3178"/>
         <source>The Software Update feature is not available in the Small Business Edition.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3470"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3475"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3453"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3458"/>
         <source>Scheduled Reports</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3471"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3454"/>
         <source>Releasing the lock on the Scheduled Reports dialog failed: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3476"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3459"/>
         <source>Another administrator is currently editing the Scheduled Reports. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3704"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3687"/>
         <source>Web Admin configuration get failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3705"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3688"/>
         <source>Failed to get Web Admin configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3718"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3701"/>
         <source>Web Admin Url open failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3719"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3702"/>
         <source>Failed to open Web Admin Url.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3493"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3476"/>
         <source>Custom Fields Locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3494"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3199"/>
+        <source>Adding files with url cannot be done via drag and drop, use Import File instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3477"/>
         <source>Another administrator is currently editing the custom fields.  Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3672"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3655"/>
         <source>Custom Fields usages update failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3673"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3656"/>
         <source>Failed to update Custom Fields usages. This information will be updated on the next model update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3688"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3671"/>
         <source>Disk Encryption configuration usages update failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3689"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3672"/>
         <source>Failed to update Disk Encryption configuration usages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1532"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1507"/>
         <source>Loading server logfile...</source>
         <translation>Sunucu log dosyası yükleniyor...</translation>
     </message>
@@ -7602,61 +7560,61 @@ Only the report for the first query is shown.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="812"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3528"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="809"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3511"/>
         <source>Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="891"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="888"/>
         <source>Imaging</source>
         <translation type="unfinished">İmaj Alınıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="898"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="895"/>
         <source>Classroom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="922"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="919"/>
         <source>Boosters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1375"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1350"/>
         <source>Cannot set permissions on a &apos;partial&apos; fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1375"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1350"/>
         <source>This is a &apos;partial&apos; fileset and cannot be modified.
 
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1608"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1583"/>
         <source>Feature Restricted</source>
         <translation>Özellik Kısıtlı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1609"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1584"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
         <translation>Özellik Kısıtlı: Bu özellik geçerli lisans yapılandırmanızda kullanılamaz. Lisansınızı yükseltmek için Tuğra ile iletişime geçin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1714"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1689"/>
         <source>Error Reverting to the Last Model.
 Check the server log files for details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1724"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1699"/>
         <source>Server is Low on Disk Space!</source>
         <translation>Sunucu Disk Alanı Düşük!</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1726"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1701"/>
         <source>The server is low on free disk space.
 Once the available disk space on the server drops to less than 10 MB, the server will stop accepting data from the FileWave Admin, e.g. fileset/folder imports will fail.
 Please fix this critical problem as soon as possible.</source>
@@ -7665,12 +7623,12 @@ Sunucu diskindeki kullanılabilir alan 10 MB altına düşütüğüne, sunucu Tu
 Lütfen bu kritik sorunu mümkün olduğunca çabuk çözün.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1746"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1721"/>
         <source>No connection. Certain features require an inventory connection, please investigate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1843"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1818"/>
         <source>A REVERT MODEL has been performed!
 
 When any user performs a revert model, you must
@@ -7680,179 +7638,179 @@ log out and log back into the FileWave™ system.</source>
 Herhangi bir kullanıcı Modele Dön&apos;ü çalıştırdığında, otorumu kapatmalı ve Tuğra sistemine tekrar girmelisiniz.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1874"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1849"/>
         <source>Cannot duplicate a &apos;partial&apos; fileset</source>
         <translation>Fileset&apos;in bir kısmı çoğaltılamıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1875"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1850"/>
         <source>This is a &apos;partial&apos; fileset and cannot be duplicated.
 
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1916"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1891"/>
         <source>Duplicate Failed</source>
         <translation>Çoğaltma Hatası</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2026"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2001"/>
         <source>Cannot open report for a &apos;partial&apos; fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2026"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2048"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2076"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2001"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2023"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2051"/>
         <source>This is a &apos;partial&apos; fileset and cannot be opened.
 
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2048"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2023"/>
         <source>Cannot open properties for a &apos;partial&apos; fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2057"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2086"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2135"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2032"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2061"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2110"/>
         <source>Unable to lock/reserve the fileset - please try again</source>
         <translation>Fileset kilitlenemiyor/korunamıyor - lütfen yeniden deneyin</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2076"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2051"/>
         <source>Cannot open scripts for a &apos;partial&apos; fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2126"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2101"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>Fileset&apos;in bir kısmı dışa aktarılamıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2126"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2101"/>
         <source>This is a &apos;partial&apos; fileset and cannot be exported.
 
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2145"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2120"/>
         <source>Some of the Filesets you are trying to export are in use by other users.</source>
         <translation>Dışa aktarmaya çalıştığınız bazı Fileset&apos;ler diğer kullanıcılar tarafından kullanımda.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2155"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2130"/>
         <source>You don&apos;t have access to export Filesets.</source>
         <translation>Fileset&apos;leri dışa aktarmak için erişiminiz yok.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2161"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2136"/>
         <source>You don&apos;t have access to export Profiles as a fileset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2166"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2141"/>
         <source>FileWave Fileset (*.fileset)</source>
         <translation>Tuğra Fileset (*.fileset)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2168"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2143"/>
         <source>FileWave Template (*.fwtemplate)</source>
         <translation>Tuğra Şablon (*.fwtemplate)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2170"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2145"/>
         <source>FileWave Fileset (*.fileset);;FileWave Template(*.fwtemplate)</source>
         <translation>Tuğra Fileset (*.fileset);;Tuğra Şablon(*.fwtemplate)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2185"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2160"/>
         <source>Save As</source>
         <translation>Farklı Kaydet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2427"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2402"/>
         <source>Licenses Used/Total: </source>
         <translation>Kullanımda/Toplam Lisanslar:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2428"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2403"/>
         <source>Computers %1/%2, </source>
         <translation>Bilgisayarlar %1/%2, </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2429"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2404"/>
         <source>Mobile %1/%2, </source>
         <translation>Mobil %1/%2, </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2433"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2408"/>
         <source>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </source>
         <translation>&lt;a href=&quot;foobar&quot;&gt;%1 Model No: %2&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2443"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2418"/>
         <source>Files are still being uploaded to the server.</source>
         <translation>Dosyalar hala sunucuya yükleniyor.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2444"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2419"/>
         <source>Do you really want to close the application?</source>
         <translation>Uygulamayı kapatmak istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2498"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2473"/>
         <source>APN%1 OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2506"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2481"/>
         <source>APN%1 certificate has expired! Model update will fail until certificate is renewed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2520"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2495"/>
         <source>APN</source>
         <translation>APN</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2526"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2582"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2501"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2557"/>
         <source> and </source>
         <translation>ve</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2522"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2574"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2497"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2549"/>
         <source>Root Certificate</source>
         <translation>Kök Sertifika</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3085"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3061"/>
         <source>Model Update in Progress...</source>
         <translation>Model Güncelleme devam ediyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3087"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3063"/>
         <source>Model Updating</source>
         <translation>Model Güncelleniyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3110"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3086"/>
         <source>Model Revert in Progress...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3112"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3088"/>
         <source>Model Reverting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3310"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3294"/>
         <source>Invalid Patch Installer</source>
         <translation>Geçersiz Yama Yükleyici</translation>
     </message>
@@ -7907,7 +7865,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="69"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2729"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2720"/>
         <source>These settings are stored on the server, and will be the same across all administrators.</source>
         <translation>Bu ayarlar sunucuda depolanır ve tüm administratörler için geçerlidir.</translation>
     </message>
@@ -7922,34 +7880,34 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>KB/s</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2732"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2723"/>
         <source>Apple Software Updates</source>
         <translation>Apple Yazılım Güncellemeleri</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="946"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1417"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2371"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2519"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2673"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2764"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2912"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="978"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1408"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2362"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2510"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2664"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2755"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2903"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="959"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1424"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2390"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2535"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2689"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2780"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2923"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="991"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1415"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2381"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2526"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2680"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2771"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2914"/>
         <source>-</source>
         <translation>-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2812"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2803"/>
         <source>Microsoft Windows Updates</source>
         <translation>Microsoft Windows Güncellemeleri</translation>
     </message>
@@ -7986,152 +7944,167 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="548"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="540"/>
+        <source>Device un-enrollment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="546"/>
+        <source>Remove MDM profile for devices removed from FileWave model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="559"/>
+        <source>Devices removed from FileWave will require a new enrollment to be managed ; it may be required to wipe the device to start enrollment again, depending on device restrictions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="580"/>
         <source>Android/Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="664"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="696"/>
         <source>Checking package...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="671"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="703"/>
         <source>Use for initial enrollment only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="842"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="874"/>
         <source>Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="909"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="941"/>
         <source>Name</source>
         <translation>İsim</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="914"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="946"/>
         <source>Host</source>
         <translation>Host</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="919"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="951"/>
         <source>Type</source>
         <translation>Tür</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="924"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="956"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="979"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1011"/>
         <source>Synchronize Now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="988"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1020"/>
         <source>LDAP Server Details</source>
         <translation>LDAP Sunucu Detayları</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1115"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1147"/>
         <source>LDAPS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1120"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1152"/>
         <source>STARTSSL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1167"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1035"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1189"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1030"/>
         <source>Samba LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1233"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1255"/>
         <source>Change Limit (%):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1128"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1346"/>
         <source>Check Server Certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1481"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1472"/>
         <source>Minimum delay (in minutes) between license assignment and Install Application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1525"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1516"/>
         <source>Preferred license distribution model to use for new associations: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1944"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1935"/>
         <source>Refresh every (minutes):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1983"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1974"/>
         <source>Refresh all Smart Groups Now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1999"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1990"/>
         <source>iOS Inventory</source>
         <translation type="unfinished">IOS Envanteri</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2079"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2070"/>
         <source>LDAP Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2085"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2076"/>
         <source>Clear value if there is no match between client and LDAP user or computer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2585"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2649"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2576"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2640"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1152"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1026"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1174"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1021"/>
         <source>Active Directory</source>
         <translation>Active Directory</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1157"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1029"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1179"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1024"/>
         <source>Open Directory</source>
         <translation>Open Directory</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1162"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1032"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1184"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1027"/>
         <source>eDirectory</source>
         <translation>eDirectory</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1250"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1265"/>
         <source>Enable Automatic Group updates for this LDAP</source>
         <translation>Bu LDAP için Otomatik Grup Güncellemelerini etkinleştir  </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2873"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2864"/>
         <source>Revert to Defaults</source>
         <translation>Varsayılanlara Dön</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1444"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1435"/>
         <source>Change Icon</source>
         <translation>İkon Değiştir</translation>
     </message>
@@ -8141,19 +8114,19 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>Mobil</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="726"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="758"/>
         <source>Shared Key:</source>
         <translation>Paylaşılan Anahtar:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="831"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="863"/>
         <source>Generate new key on Save</source>
         <translation>Yeni anahtar üret ve Kaydet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="779"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1092"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2130"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="811"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1124"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2121"/>
         <source>Port:</source>
         <translation>Port:</translation>
     </message>
@@ -8168,12 +8141,12 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2748"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2739"/>
         <source>Apple catalog urls</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2821"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2812"/>
         <source>Microsoft Catalog URL: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -8184,7 +8157,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="333"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1058"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1090"/>
         <source>Name:</source>
         <translation type="unfinished">Ad:</translation>
     </message>
@@ -8244,74 +8217,74 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>APN Sertifika/Anahtar Çifti Yükle</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="540"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="619"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="572"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="651"/>
         <source>Ignore status notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="554"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="586"/>
         <source>Google Cloud Messaging (Notifications)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="563"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="595"/>
         <source>Retrieving GCM configuration...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="583"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="615"/>
         <source>Configure GCM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="593"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="625"/>
         <source>Override FileWave server configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="602"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="634"/>
         <source>Public DNS hostname:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="609"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="641"/>
         <source>By default, MDM and FileWave servers are on the same host</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="710"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="742"/>
         <source>MDM Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="789"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="821"/>
         <source>Server Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="847"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1110"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="879"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1142"/>
         <source>LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="858"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="890"/>
         <source>Authentication server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="875"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="907"/>
         <source>use it for extraction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1028"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1060"/>
         <source>LDAP features are not enabled with a Small Business Edition license</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1075"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1107"/>
         <source>Host / IP:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8321,751 +8294,745 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="640"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="672"/>
         <source>macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="657"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="689"/>
         <source>Upload macOS client package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1138"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1160"/>
         <source>Server Type:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1175"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1197"/>
         <source>Base DN:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1192"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1214"/>
         <source>LDAP User DN:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1209"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1231"/>
         <source>LDAP User Password:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1223"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1245"/>
         <source>Refresh Interval (sec):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1243"/>
-        <source>Remove missing items after:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1262"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1277"/>
         <source>Test Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1355"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1463"/>
-        <source>consecutive missing extractions.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1383"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1374"/>
         <source>Kiosk</source>
         <translation type="unfinished">Kiosk</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1392"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1383"/>
         <source>Categories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1454"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1445"/>
         <source>VPP &amp;&amp; DEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1460"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1451"/>
         <source>Volume Purchase Program</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1714"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1705"/>
         <source>No tokens are configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1753"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1838"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1744"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1829"/>
         <source>Synchronize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1629"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1737"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1795"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1620"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1728"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1786"/>
         <source>Last Sync: (N/A)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1727"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1718"/>
         <source>Configure tokens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1668"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1659"/>
         <source>LDAP synchronization:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1575"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1566"/>
         <source>Synchronize with LDAP every:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1600"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1591"/>
         <source> hour(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1651"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1642"/>
         <source>Automatically associate users via their email address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1658"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1649"/>
         <source>Send invite emails to newly registered LDAP users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1704"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1695"/>
         <source>Configure email invitation template</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1766"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2584"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2598"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1757"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2575"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2589"/>
         <source>Device Enrollment Program</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1811"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1802"/>
         <source>Download certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1831"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1822"/>
         <source>Determining status...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1821"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1812"/>
         <source>Configure accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1878"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1869"/>
         <source>Inventory</source>
         <translation>Envanter</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1884"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1875"/>
         <source>Inventory Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1912"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1903"/>
         <source>Inventory and MDM are using the same server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2005"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1996"/>
         <source>Device Inventory Poll Interval (hours):</source>
         <translation>Cihaz Envanter Sorgu Sıklığı (saat):</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2018"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2009"/>
         <source>How often IOS devices will be polled for Inventory information</source>
         <translation>IOS cihazlar envanter bilgisi için ne sıklıkta sorgulanacak</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2047"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2038"/>
         <source>Devices that have not checked in for this time interval will display as Red</source>
         <translation>Bu zaman aralığında bildirim yapmayan cihazlar Kırmızı renk ile gösterilir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1938"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1929"/>
         <source>Smart Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="719"/>
         <source>Refresh all Smart Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2096"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2087"/>
         <source>Mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2102"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2093"/>
         <source>Settings</source>
         <translation type="unfinished">Ayarlar</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2113"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2104"/>
         <source>Host:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2150"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2141"/>
         <source>Use TLS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2157"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2148"/>
         <source>User name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2174"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2165"/>
         <source>User password:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2194"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2185"/>
         <source>Send from (email address):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2230"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2221"/>
         <source>Send test mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2239"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2230"/>
         <source>Keep in mind that the email server needs to possibly handle thousands of emails (e.g &lt;a href=&quot;https://postmarkapp.com&quot;&gt;Postmark&lt;/a&gt; or &lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2269"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2260"/>
         <source>Education</source>
         <translation type="unfinished">Eğitim</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2274"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2265"/>
         <source>Imaging</source>
         <translation type="unfinished">İmaj Alınıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2297"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2288"/>
         <source>Editor</source>
         <translation>Editör</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2303"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2294"/>
         <source>The following extensions may be edited with the built-in text editor.</source>
         <translation>Aşağıdaki uzantılar yerleşik metin editörü ile düzenlenebilir.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2313"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2304"/>
         <source>To edit a file, open a fileset, select a file, and click Edit Text</source>
         <translation>Bir dosyayı düzenlemek için, bir Fileset açın, bir dosya seçin, Metin Düzenle&apos;ye tıklayın</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2445"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2436"/>
         <source>Proxies</source>
         <translation>Proxies</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2501"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2492"/>
         <source>Server Proxy Credentials</source>
         <translation>Sunucu Proxy Kimlik Bilgileri</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1102"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2575"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2639"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1134"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2566"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2630"/>
         <source>Protocol</source>
         <translation>Protokol</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2580"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2644"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2571"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2635"/>
         <source>Host Name</source>
         <translation>Host Name</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2590"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2654"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2581"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2645"/>
         <source>User Name</source>
         <translation>Kullanıcı Adı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2595"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2659"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2586"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2650"/>
         <source>Password</source>
         <translation>Şifre</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2558"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2712"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2549"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2703"/>
         <source>Test</source>
         <translation>Test</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2034"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2025"/>
         <source>Device Not Checked-In Notification (days):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2323"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2314"/>
         <source>Text Editor Extensions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2419"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2800"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2831"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2410"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2791"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2822"/>
         <source>Reset to Defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2458"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2449"/>
         <source>Proxy Authentication Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2465"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2456"/>
         <source>These settings are used to provide authentication values for already configured system proxies.  The protocol, host and port values are used to determine which system proxy a particular username and password combination applies to.
 
 By default, the FileWave Admin will use the same proxy settings as the server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2611"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2602"/>
         <source>Admin Proxy Credentials Override</source>
         <translation>Admin Proxy Kullanıcı Bilgileri (Override) </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2723"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2714"/>
         <source>Software Update</source>
         <translation type="unfinished">Yazılım Güncelleme</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2915"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2906"/>
         <source>Creates a new LDAP server configuration</source>
         <translation>Yeni bir LDAP sunucu yapılandırması yaratır</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2926"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2917"/>
         <source>Deletes the selected LDAP servers from the preferences</source>
         <translation>Seçili LDAP sunucuları tercihlerden siler </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="363"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="362"/>
         <source>FileWave Server</source>
         <translation>Tuğra Sunucu</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="417"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="415"/>
         <source>Server</source>
         <translation type="unfinished">Sunucu</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="418"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="416"/>
         <source>Re-generating the MDM server&apos;s SSL certificate will require that all existing managed mobile devices re-enroll with the FileWave server.
 Please enter your credentials to continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="420"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="418"/>
         <source>All managed mobile devices not trusting the new certificate will not be able to contact FileWave server and will require re-enrollment. Make sure the certificate is globally signed or already trusted by all devices.
 Please enter your credentials to continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="426"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="424"/>
         <source>You do not have permission to change the FileWave Server certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="504"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="502"/>
         <source>You do not have permission to download the DEP certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="509"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="507"/>
         <source>You do not have permission to configure DEP accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="514"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="512"/>
         <source>You do not have permission to upload macOS client package to MDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="586"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="581"/>
         <source>You do not have permission to configure VPP service tokens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="665"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="666"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="660"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="661"/>
         <source> (full sync)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="768"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="770"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="763"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="765"/>
         <source>Proxy Test Failed</source>
         <translation>Proxy Testi Başarısız </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="770"/>
-        <source>There was an error in the request</source>
-        <translation>İstekte bir hata vardı</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="772"/>
-        <source>Proxy Test Success</source>
-        <translation>Proxy Testi Başarılı</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="772"/>
-        <source>The request succeeded!</source>
-        <translation>İstek başarılı!</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="969"/>
-        <source>No Key (Not Secure)</source>
-        <translation>Anahtar Yok (Güvenli Değil)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1132"/>
-        <source>Reopen Admin</source>
-        <translation>Admin&apos;i yeniden açın</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1132"/>
-        <source>In order to reflect the change in ownership lookups, you will need to quit the Admin and log in again.</source>
-        <translatorcomment>* ownership lookup</translatorcomment>
-        <translation>Sahiplik başvurularında yaptığınız değişikliklerin geçerli olması için Admi oturumunu kapatıp yeniden açmalısınız. </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1140"/>
-        <source>Auto Logout Interval Too Short</source>
-        <translation>Otomatik Oturum Kapatma Aralığı Çok Kısa</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1140"/>
-        <source>Your chosen Auto Logout Interval was too short. It has been set to 10 minutes.</source>
-        <translation>Seçtiğiniz Otomatik Oturumdan Çıkma aralığı çok kısa. 10 dakikaya ayarlandı.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1521"/>
-        <source>Feature Restricted</source>
-        <translation>Özellik Kısıtlı</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1522"/>
-        <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
-        <translation>Özellik Kısıtlı: Bu özellik geçerli lisans yapılandırmanızla kullanılamaz. Lisansınızı yükseltmek için TuğraYönetimi ile iletişime geçin.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1067"/>
-        <source>None</source>
-        <translation type="unfinished">Hiçbiri</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1297"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2943"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2957"/>
-        <source>LDAP authentication</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1502"/>
-        <source>Inventory service not online</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1509"/>
-        <source>Checking LDAP connection...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1622"/>
-        <source>Certificated Creation Error</source>
-        <translatorcomment>* certificate vs. certificated - what is certificated creation</translatorcomment>
-        <translation>Sertifikalı Yaratma Hatası</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1622"/>
-        <source>Failed to set certificate: %1</source>
-        <translation>Sertifika kurulum hatası: %1</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1629"/>
-        <source>Restarting Apache...</source>
-        <translation>Apache yeniden başlatılıyor...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1657"/>
-        <source>A new certificate has been created but Apache failed to restart due to a timeout. Please restart the Apache server.</source>
-        <translation>Yeni bir sertifika yaratıldı ancak zaman aşımı nedeniyle Apache yeniden başlatılamadı. Lütfen Apache sunucuyu yeniden başlatın.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1660"/>
-        <source>A new certificate has been created but Apache failed to restart. Please restart the Apache server.</source>
-        <translation>Yeni bir sertifika yaratıldı ancak Apache yeniden başlatılamadı. Lütfen Apache sunucuyu yeniden başlatın.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1666"/>
-        <source>Certificated created</source>
-        <translation>Sertifikalı Yaratıldı</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1776"/>
-        <source>APN Certificate/Key (*%1)</source>
-        <translation>APN Sertifika/Anahtar (*%1)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2039"/>
-        <source>MDM</source>
-        <comment>MDM Server</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="305"/>
-        <source>Assign to User</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="306"/>
-        <source>Assign to Device</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="382"/>
-        <source>All Servers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="383"/>
-        <source>Selected Server</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="384"/>
-        <source>LDAP Custom Fields Only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="616"/>
-        <source>Security Warning</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="616"/>
-        <source>Not checking the server certificate validity is going to expose your system to attacks.
-Are you sure you want to continue?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="694"/>
-        <source>You removed the LDAP Authentication Server. &lt;br/&gt;&lt;br/&gt; Configured LDAP group accounts are not valid anymore.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="697"/>
-        <source>You changed the LDAP Authentication Server. &lt;br/&gt;&lt;br/&gt; Configured LDAP group accounts are not valid anymore.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="725"/>
-        <source>The request to refresh all Smart Groups has been sent</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="768"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="763"/>
         <source>There was an error in the request to check the proxy.
 
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1459"/>
-        <source>consecutive missing extractions. Items will be immediately removed.</source>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="765"/>
+        <source>There was an error in the request</source>
+        <translation>İstekte bir hata vardı</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="767"/>
+        <source>Proxy Test Success</source>
+        <translation>Proxy Testi Başarılı</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="767"/>
+        <source>The request succeeded!</source>
+        <translation>İstek başarılı!</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="964"/>
+        <source>No Key (Not Secure)</source>
+        <translation>Anahtar Yok (Güvenli Değil)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1127"/>
+        <source>Reopen Admin</source>
+        <translation>Admin&apos;i yeniden açın</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1127"/>
+        <source>In order to reflect the change in ownership lookups, you will need to quit the Admin and log in again.</source>
+        <translatorcomment>* ownership lookup</translatorcomment>
+        <translation>Sahiplik başvurularında yaptığınız değişikliklerin geçerli olması için Admi oturumunu kapatıp yeniden açmalısınız. </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1135"/>
+        <source>Auto Logout Interval Too Short</source>
+        <translation>Otomatik Oturum Kapatma Aralığı Çok Kısa</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1135"/>
+        <source>Your chosen Auto Logout Interval was too short. It has been set to 10 minutes.</source>
+        <translation>Seçtiğiniz Otomatik Oturumdan Çıkma aralığı çok kısa. 10 dakikaya ayarlandı.</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1501"/>
+        <source>Feature Restricted</source>
+        <translation>Özellik Kısıtlı</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1502"/>
+        <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
+        <translation>Özellik Kısıtlı: Bu özellik geçerli lisans yapılandırmanızla kullanılamaz. Lisansınızı yükseltmek için TuğraYönetimi ile iletişime geçin.</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1062"/>
+        <source>None</source>
+        <translation type="unfinished">Hiçbiri</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1294"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2934"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2948"/>
+        <source>LDAP authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1776"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1482"/>
+        <source>Inventory service not online</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1489"/>
+        <source>Checking LDAP connection...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1602"/>
+        <source>Certificated Creation Error</source>
+        <translatorcomment>* certificate vs. certificated - what is certificated creation</translatorcomment>
+        <translation>Sertifikalı Yaratma Hatası</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1602"/>
+        <source>Failed to set certificate: %1</source>
+        <translation>Sertifika kurulum hatası: %1</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1646"/>
+        <source>Certificated created</source>
+        <translation>Sertifikalı Yaratıldı</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1756"/>
+        <source>APN Certificate/Key (*%1)</source>
+        <translation>APN Sertifika/Anahtar (*%1)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2021"/>
+        <source>MDM</source>
+        <comment>MDM Server</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="304"/>
+        <source>Assign to User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="305"/>
+        <source>Assign to Device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="381"/>
+        <source>All Servers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="382"/>
+        <source>Selected Server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="383"/>
+        <source>LDAP Custom Fields Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="611"/>
+        <source>Security Warning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="611"/>
+        <source>Not checking the server certificate validity is going to expose your system to attacks.
+Are you sure you want to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="689"/>
+        <source>You removed the LDAP Authentication Server. &lt;br/&gt;&lt;br/&gt; Configured LDAP group accounts are not valid anymore.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="692"/>
+        <source>You changed the LDAP Authentication Server. &lt;br/&gt;&lt;br/&gt; Configured LDAP group accounts are not valid anymore.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="720"/>
+        <source>The request to refresh all Smart Groups has been sent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1294"/>
+        <source>Please restart the Apache server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1609"/>
+        <source>Restarting Apache...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1633"/>
+        <source>A new certificate and private key has been successfully uploaded. Please restart the Apache server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1637"/>
+        <source>A new certificate has been created but Apache failed to restart due to a timeout. Please restart the Apache server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1640"/>
+        <source>A new certificate has been created but Apache failed to restart. Please restart the Apache server.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1756"/>
         <source>Select an Apple Push Notification Certificate/Key pair for MDM (*%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1839"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1821"/>
         <source>You do not have permission to configure GCM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1960"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1942"/>
         <source>The extension %1 already exists.
 Please use another extension.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2041"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2023"/>
         <source>Engage</source>
         <comment>Engage Server</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2044"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2026"/>
         <source>The shared secret key used for communication between Filewave Admin and %1 was not yet created. Do you really want to close this dialog?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2051"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2033"/>
         <source>Generate shared key(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2115"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2097"/>
         <source>The new shared key could not be set on the MDM Server: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2133"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2115"/>
         <source>Setup Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2133"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2115"/>
         <source>The new shared key could not be set on the Engage Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2150"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2132"/>
         <source>Imaging Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2150"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2132"/>
         <source>The new shared key could not be set on Imaging Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2174"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2156"/>
         <source>Kiosk categories reset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2175"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2157"/>
         <source>Kiosk categories will be reset to default.
 Continue ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2246"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2228"/>
         <source>Email preferences test</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2246"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2228"/>
         <source>Please enter a mail address where to send the test e-mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2265"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2272"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2247"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2254"/>
         <source>Email settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2266"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2248"/>
         <source>Test email has been successfully sent to %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2273"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2255"/>
         <source>Could not send test email, reason:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2644"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2635"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2713"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2704"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2760"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2751"/>
         <source>MDM for macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2808"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2799"/>
         <source>Error Scheduling Custom Fields Extraction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2814"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2847"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2805"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2838"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2842"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2833"/>
         <source>Error scheduling synchronization for server &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2843"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2834"/>
         <source>Error scheduling synchronization for all servers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2849"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2840"/>
         <source>Synchronization for server &apos;%1&apos; successfully scheduled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2850"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2841"/>
         <source>Synchronization for all servers successfully scheduled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2857"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2848"/>
         <source>Clearing the LDAP user cache failed: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2886"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2877"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Package not available, MDM for macOS will not work.&lt;/font&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2943"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2934"/>
         <source>Failed to test changes in LDAP authentication configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2957"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2948"/>
         <source>Failed to apply new configuration for LDAP authentication: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2968"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2959"/>
         <source>Apache was previously configured to use LDAP for device enrollment.
 FileWave can update Apache configuration to match your LDAP settings.
 Do you wish to keep existing settings or apply the new configuration?
@@ -9073,220 +9040,210 @@ Do you wish to keep existing settings or apply the new configuration?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2972"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2963"/>
         <source>Specialized configurations have to be edited manually.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2973"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2964"/>
         <source>Keep Previous</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2974"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2965"/>
         <source>Apply New</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2992"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2996"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2983"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2987"/>
         <source>Missing field error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2992"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2983"/>
         <source>LDAP Server Host/IP is mandatory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2996"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2987"/>
         <source>LDAP Server Base DN is mandatory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1297"/>
-        <source>Please restart the Apache server.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2768"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2759"/>
         <source>Upload FileWave Client Package for MDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2774"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2765"/>
         <source>This doesn&apos;t seem to be a FileWave Client package.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2779"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2770"/>
         <source>Unable to determine the package version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2815"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2806"/>
         <source>Custom field extraction successfully scheduled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2870"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2861"/>
         <source>Could not upload FileWave Client package for MDM:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2873"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2864"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Error while uploading package.&lt;/font&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2877"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2868"/>
         <source>Success !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2877"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2868"/>
         <source>FileWave Client package successfully uploaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2892"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2883"/>
         <source>Package available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2894"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2885"/>
         <source>Package version %1 available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2703"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2694"/>
         <source>Sync with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2638"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2629"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2648"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2639"/>
         <source>Never synchronized.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2510"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2501"/>
         <source>Connected successfully!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2515"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2506"/>
         <source>Failed to connect to ldap server %1. %2
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2571"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2562"/>
         <source>%n token(s) configured</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2573"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2564"/>
         <source>No tokens configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2614"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2605"/>
         <source>Getting DEP certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2614"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2628"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2605"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2619"/>
         <source>An error occurred while saving the file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2619"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2610"/>
         <source>Save DEP Certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2621"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2612"/>
         <source>Certificate (*.pem)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2628"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2619"/>
         <source>Saving DEP certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2711"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2774"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2779"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2807"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2840"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2857"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2868"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2702"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2765"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2770"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2798"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2831"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2848"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2859"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2704"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2695"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1649"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1629"/>
         <source>A new certificate and private key has been successfully uploaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1653"/>
-        <source>A new certificate and private key has been successfully uploaded. Please restart the Apache server.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1903"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1885"/>
         <source>%1 Uploaded Failed</source>
         <translatorcomment>* is this mean %1 uploaded then failed ?</translatorcomment>
         <translation>%1 Yükleme Hatalı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1920"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1902"/>
         <source>.extension</source>
         <translatorcomment>* extension is &quot;uzantı&quot; but im not sure that i should translate this.</translatorcomment>
         <translation>.uzantı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2035"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2017"/>
         <source>Shared secret key not created.</source>
         <translation>Paylaşılan gizli anahtar yaratılamadı.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2049"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2031"/>
         <source>Cancel</source>
         <translation>İptal</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2050"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2032"/>
         <source>Close dialog</source>
         <translation>İletişim kutusunu kapat</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2112"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2094"/>
         <source>MDM Failure</source>
         <translation>MDM Başarısız</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2160"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2142"/>
         <source>Failed to Save Preferences</source>
         <translation>Tercihlerin Kaydında Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2163"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2145"/>
         <source>Failure Saving Preferences to Server.</source>
         <translation>Tercihler Sunucuya Kaydedilirken Hata Oluştu.</translation>
     </message>
@@ -10894,22 +10851,22 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1654"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1653"/>
         <source>Cannot create an association between %1 and %2 as the fileset is incomplete!</source>
         <translation>Fileset tamamlanmadığından %1 ve %2 arasında ilişkilendirme yaratamıyorum!</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1671"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1670"/>
         <source>You need to select at most a single imaging fileset so that the imaging association(s) can be created.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1988"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1986"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1988"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1986"/>
         <source>Error while removing mobile clients: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10917,17 +10874,17 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
 <context>
     <name>ClientsGroupsModelForVPP</name>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="441"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="461"/>
         <source>Exists for other tokens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="464"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="484"/>
         <source>Association Status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="466"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="486"/>
         <source>LDAP User Name</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11107,7 +11064,7 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="100"/>
         <source>Lock Device</source>
-        <translation>Cihazı Kilitle</translation>
+        <translation type="unfinished">Cihazı Kilitle</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="101"/>
@@ -11387,6 +11344,13 @@ FileWave will not be able to clear it without a WiFi connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="394"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.
+
+Do you want to open the Client Monitor anyway?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="485"/>
         <source>Sorry, you may not make direct associations to group clones.  Please make the association to the original group.</source>
         <translation>Üzgünüz, grup klonlarına doğrudan ilişkilendirme yapamazsınız. Lütfen ilişkilendirmeyi orjinal gruba yapın.</translation>
@@ -11550,13 +11514,6 @@ Bu işlem geri alınamaz!</translation>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="135"/>
         <source>Search clients or groups...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="394"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.
-
-Do you want to open the Client Monitor anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13817,14 +13774,19 @@ All values for this field will be wiped.</source>
         <translation type="unfinished">-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="178"/>
-        <source>Duplicate</source>
-        <translation type="unfinished">Çoğalt</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="307"/>
         <source>No custom fields</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="370"/>
+        <source>Try to search for something else or clear the search filter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="178"/>
+        <source>Duplicate</source>
+        <translation type="unfinished">Çoğalt</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="317"/>
@@ -13834,11 +13796,6 @@ All values for this field will be wiped.</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="360"/>
         <source>No matches found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsDialog.ui" line="370"/>
-        <source>Try to search for something else or clear the search filter.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14346,22 +14303,22 @@ Please retry once editing is done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="680"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="684"/>
         <source>Sync with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="681"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="685"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="688"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="692"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="690"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="694"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -19098,12 +19055,12 @@ Please trust the server certificate such that you can use it with Configurator.<
 <context>
     <name>FWAdminClient</name>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="265"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="268"/>
         <source>Logging out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="266"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="269"/>
         <source>Logging out failed: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -19171,12 +19128,6 @@ Please trust the server certificate such that you can use it with Configurator.<
         <translation type="unfinished">Durum</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="18"/>
-        <source>Activation Lock Bypass Code status, can be : &quot;Unknown&quot;, &quot;Retrieved&quot;, &quot;Removed&quot;, or &quot;Wiped&quot;.</source>
-        <comment>field status description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="19"/>
         <source>Last Update</source>
         <comment>field last_update display name</comment>
@@ -19204,6 +19155,12 @@ Please trust the server certificate such that you can use it with Configurator.<
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="14"/>
         <source>The hardware model of the client.</source>
         <comment>field product_name description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="18"/>
+        <source>Activation Lock Bypass Code status, can be : &quot;Unknown&quot;, &quot;Retrieved&quot;, &quot;Removed&quot;, or &quot;Wiped&quot;.</source>
+        <comment>field status description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19252,6 +19209,12 @@ Please trust the server certificate such that you can use it with Configurator.<
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="30"/>
+        <source>Whether FileWave Client is locked from getting new model versions.</source>
+        <comment>field filewave_client_locked description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="24"/>
         <source>The registration ID returned during Google Cloud Messaging (Notification system) registration process.</source>
         <comment>field gcm_registration_id description</comment>
@@ -19267,12 +19230,6 @@ Please trust the server certificate such that you can use it with Configurator.<
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="28"/>
         <source>Version number of the FileWave Client.</source>
         <comment>field filewave_client_version description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="30"/>
-        <source>Whether FileWave Client is locked from getting new model versions.</source>
-        <comment>field filewave_client_locked description</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21733,6 +21690,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="437"/>
+        <source>Whether FileWave Client is locked from getting new model versions.</source>
+        <comment>field filewave_client_locked description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="429"/>
         <source>Manufacturer of the client machine.</source>
         <comment>field device_manufacturer description</comment>
@@ -21754,12 +21717,6 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="435"/>
         <source>Version number of the FileWave Client.</source>
         <comment>field filewave_client_version description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="437"/>
-        <source>Whether FileWave Client is locked from getting new model versions.</source>
-        <comment>field filewave_client_locked description</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -22390,6 +22347,16 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1509"/>
+        <source>Retrieved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1510"/>
+        <source>Retrieved Empty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1464"/>
         <source>Enterprise iOS App Fileset</source>
         <translation type="unfinished"></translation>
@@ -22617,16 +22584,6 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1508"/>
         <source>Retired</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1509"/>
-        <source>Retrieved</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1510"/>
-        <source>Retrieved Empty</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28989,7 +28946,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="576"/>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="580"/>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="645"/>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2091"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2088"/>
         <source>Replace</source>
         <translation>Değiştir</translation>
     </message>
@@ -29010,83 +28967,88 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <translation>%1 adında bir klasör hedefte zaten var. Değiştirmek istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1236"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="687"/>
+        <source>Adding files with url cannot be done via drag and drop, use Import File instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1241"/>
         <source>Name</source>
         <translation>Ad</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1240"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1245"/>
         <source>In Folder</source>
         <translatorcomment>? might be wrong</translatorcomment>
         <translation>Bulunduğu Klasör</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1242"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1247"/>
         <source>Size</source>
         <translation>Boyut</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1244"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1249"/>
         <source>Access</source>
         <translation>Erişim</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1246"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1251"/>
         <source>User</source>
         <translation>Kullanıcı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1248"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1253"/>
         <source>Group</source>
         <translation>Grup</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1250"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1255"/>
         <source>Verification</source>
         <translation>Doğrulama</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1252"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1257"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1254"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1259"/>
         <source>Modification Date</source>
         <translation>Değiştirilme Tarihi</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1256"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1261"/>
         <source>Comment</source>
         <translation>Açıklama</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1258"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1263"/>
         <source>Creation Date</source>
         <translation>Yaratılma Tarihi</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1260"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1265"/>
         <source>File Type</source>
         <translation>Dosya Türü</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1262"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1267"/>
         <source>Creator</source>
         <translation>Yaratıcısı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1367"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1372"/>
         <source>root</source>
         <translation>root</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1378"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1383"/>
         <source>wheel</source>
         <translation>disk</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1459"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1460"/>
         <source>This name is already used by an item in this location!</source>
         <translation>Bu ad buradaki bir öğe tarafından zaten kullanılıyor!</translation>
     </message>
@@ -29106,61 +29068,61 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <translation>Bu Fileset</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2063"/>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2109"/>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2121"/>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2132"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2060"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2106"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2118"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2129"/>
         <source>Move Folder</source>
         <translation>Klasör Taşı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2064"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2061"/>
         <source>Can&apos;t replace a file with a folder</source>
         <translation>Bir dosya bir klasörle değiştirilemez</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2075"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2072"/>
         <source>Move File</source>
         <translation>Dosya Taşı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2076"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2073"/>
         <source>Can&apos;t replace a folder with a file</source>
         <translation>Bir klasör bir dosya ile değiştirilemez</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2088"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2085"/>
         <source>Move Item</source>
         <translation>Öğe Taşı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2089"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2086"/>
         <source>A file with this name already exists in this location. Do you wish to replace it?</source>
         <translation>Bu isimde bir dosya burada zaten var. Değiştirmek ister misiniz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2110"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2107"/>
         <source>Do you want to move the folder &quot;%1&quot; to another fileset?</source>
         <translation>&quot;%1&quot; Klasörünü başka bir Fileset&apos;e taşımak ister misiniz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2112"/>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2135"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2109"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2132"/>
         <source>Move</source>
         <translation>Taşı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2122"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2119"/>
         <source>A folder with the name &quot;%1&quot; already exists in this location. Do you wish to merge the contents?</source>
         <translation>%1 adında bir klasör burada zaten var. İçeriklerini birleştirmek istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2124"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2121"/>
         <source>Merge</source>
         <translation>Birleştir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2133"/>
+        <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2130"/>
         <source>Do you want to move the folder &quot;%1&quot; to the folder &quot;%2&quot;?</source>
         <translation>&quot;%1&quot; klasörünü %2 klasörüne taşımak ister misiniz?</translation>
     </message>
@@ -29306,150 +29268,150 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="49"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="52"/>
         <source>Filter Filesets</source>
         <translation type="unfinished">Fileset&apos;leri filtrele</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="66"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="69"/>
         <source>New Desktop Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="71"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="74"/>
         <source>New Fileset Group...</source>
         <translation type="unfinished">Yeni Fileset Grubu...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="78"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="81"/>
         <source>New Mobile Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="79"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="82"/>
         <source>New Mobile Fileset</source>
         <translation type="unfinished">Yeni Mobil Fileset</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="80"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="83"/>
         <source>Ctrl+Shift+W</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="86"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="89"/>
         <source>New Imaging Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="94"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="97"/>
         <source>New Association</source>
         <translation type="unfinished">Yeni İlişkilendirme</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="98"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="101"/>
         <source>Export</source>
         <translation type="unfinished">Dışa Aktar</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="99"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="102"/>
         <source>Export the selected Fileset</source>
         <translation type="unfinished">Seçilen Fileset&apos;i dışa aktar</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="102"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="105"/>
         <source>Report</source>
         <translation type="unfinished">Raporla</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="105"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="108"/>
         <source>Properties</source>
         <translation type="unfinished">Özellikler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="106"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="109"/>
         <source>Set verification, requirements, and Imaging settings for the selected Fileset.</source>
         <translation type="unfinished">Seçilen Fileset için doğrulama, gereksinimler ve imaj alma ayarlarını yap.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="109"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="112"/>
         <source>Scripts</source>
         <translation type="unfinished">Scriptler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="110"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="113"/>
         <source>Set scripts for the selected Fileset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="113"/>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="351"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="116"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="354"/>
         <source>Take Control</source>
         <translation type="unfinished">Kontrol Et</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="119"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="122"/>
         <source>Tools</source>
         <translation type="unfinished">Araçlar</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="213"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="216"/>
         <source>Filesets Export</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="346"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="349"/>
         <source>Release Control</source>
         <translation type="unfinished">Kontrolü Serbest Bırak</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="357"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="360"/>
         <source>Locked</source>
         <translation type="unfinished">Kilitli</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="440"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="443"/>
         <source>Cannot create an association for %1 as the fileset is incomplete!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="502"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="505"/>
         <source>One of the selected groups is used for automatically created Managed Distribution Filesets.
 Are you sure you want to delete the group?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="503"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="506"/>
         <source>All the filesets within groups will be deleted as well.
 Managed Distribution Filesets will be created in the root group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="508"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="511"/>
         <source>Do you really wish to delete the selected filesets and/or fileset groups?</source>
         <translation type="unfinished">Seçili Filesetleri ve/veya Fileset gruplarını silmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="509"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="512"/>
         <source>All the filesets within groups will be deleted as well.</source>
         <translation type="unfinished">Grupların içindeki tüm Fileset&apos;ler de silinecek.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="525"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="528"/>
         <source>Do you really wish to delete the fileset &quot;%1&quot;?</source>
         <translation type="unfinished">%1 adlı Fileset&apos;i silmek istediğinizden emin misiniz? </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="529"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="532"/>
         <source>Do you really wish to delete the fileset group &quot;%1&quot;?</source>
         <translation type="unfinished">%1 adlı Fileset Grubunu silmek istediğinizden emin misiniz? </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="530"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="533"/>
         <source>All the filesets within the group will be deleted as well.</source>
         <translation type="unfinished">Grupların içindeki tüm Fileset&apos;ler de silinecek.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="536"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="539"/>
         <source>Delete</source>
         <translation type="unfinished">Sil</translation>
     </message>
@@ -29901,32 +29863,32 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</source
         <translation>Ayrıntılar</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="401"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="402"/>
         <source>Fileset Name: %1</source>
         <translation>Fileset Adı: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="446"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="447"/>
         <source>No category selected. Please select one.</source>
         <translation>Seçili kategori yok. Lütfen bir tane seçin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1112"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1114"/>
         <source>Customize the User Message</source>
         <translation>Kullanıcı Mesajını özelleştir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1113"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1115"/>
         <source>Set the text that will appear on the user&apos;s screen during this Fileset&apos;s activation:</source>
         <translation>Bu Fileset&apos;in aktivasyonu sırasında kullanıcının ekranında görünecek metni ayarla:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1139"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1141"/>
         <source>Reset to defaults</source>
         <translation>Varsayılanlara Ayarla</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1139"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1141"/>
         <source>An error occurred when trying to retrieve information from iTunes. Please make sure your internet connection is up and running.</source>
         <translation>iTunes&apos;tan bilgi almaya çalışırken hata oluştu. Lütfen internet bağlantınızı kontrol edin.</translation>
     </message>
@@ -31241,124 +31203,124 @@ This fileset will fail to deploy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="40"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="44"/>
         <source>Manage VPP Codes</source>
         <translation>VPP kodlarını yönet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="216"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="236"/>
         <source>Title:</source>
         <translation>Başlık:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="168"/>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="218"/>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="270"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="177"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="238"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="290"/>
         <source>Version:</source>
         <translation>Versiyon:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="132"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="141"/>
         <source>Bundle size is %1 bytes (%2 bytes expected).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="166"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="175"/>
         <source>Author:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="170"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="179"/>
         <source>Size:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="172"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="181"/>
         <source>Kind:</source>
         <translation type="unfinished">Tür:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="220"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="240"/>
         <source>Subtitle:</source>
         <translation>Alt Başlık:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="222"/>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="280"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="242"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="300"/>
         <source>Bundle Size:</source>
         <translation>Paket Boyutu:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="227"/>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="286"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="247"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="306"/>
         <source>Languages:</source>
         <translation>Diller:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="268"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="288"/>
         <source>Developer:</source>
         <translation>Geliştirici:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="272"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="292"/>
         <source>Genre:</source>
         <translation>Tür:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="276"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="296"/>
         <source>Release Date:</source>
         <translation>Yayın Tarihi:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="307"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="327"/>
         <source>&lt;a href=&apos;%1&apos;&gt;App Store Link%2&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="528"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="547"/>
         <source>None</source>
         <translation type="unfinished">Hiçbiri</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="619"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="648"/>
         <source>Note: %n licence(s) in use, therefore you can&apos;t change the associated token</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="443"/>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="462"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="460"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="481"/>
         <source>Updating Fileset %1</source>
         <translation>Fileset %1 güncelleniyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="58"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="64"/>
         <source>Standard Quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="59"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="65"/>
         <source>High Quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="476"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="495"/>
         <source>Error Updating Media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="485"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="504"/>
         <source>Media Updated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="493"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="512"/>
         <source>Error Updating App</source>
         <translation>Uygulama Güncellenemedi</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="506"/>
+        <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="525"/>
         <source>App Updated</source>
         <translation>Uygulama Güncellendi</translation>
     </message>
@@ -33112,18 +33074,18 @@ message</source>
 <context>
     <name>InventoryPreview</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="134"/>
+        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="124"/>
         <source>Remove all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="140"/>
-        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="165"/>
+        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="130"/>
+        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="155"/>
         <source>Remove %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="146"/>
+        <location filename="../../FWAdminLib/inventory/InventoryPreview.cpp" line="136"/>
         <source>Clear</source>
         <translation type="unfinished">Temizle</translation>
     </message>
@@ -35767,7 +35729,7 @@ located on the client computer:
 <context>
     <name>NetworkForm</name>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="802"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="828"/>
         <source>Certificate Common Name</source>
         <translation>Sertifika Yaygın Adı</translation>
     </message>
@@ -35823,9 +35785,9 @@ located on the client computer:
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="114"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="831"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="933"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="938"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="857"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="959"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="964"/>
         <source>None</source>
         <translation>Hiçbiri</translation>
     </message>
@@ -35866,13 +35828,13 @@ located on the client computer:
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="314"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1331"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1341"/>
         <source>+</source>
         <translation type="unfinished">+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="321"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1344"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1354"/>
         <source>-</source>
         <translation type="unfinished">-</translation>
     </message>
@@ -35944,7 +35906,7 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="559"/>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="615"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1016"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1026"/>
         <source>Password</source>
         <translation type="unfinished">Şifre</translation>
     </message>
@@ -35964,7 +35926,17 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="674"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="660"/>
+        <source>Setup Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="667"/>
+        <source>Type of connection mode (macOS only)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="684"/>
         <source>Network Security Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36039,124 +36011,119 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="660"/>
-        <source>Use as a Login Window configuration (macOS only)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="667"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="677"/>
         <source>User logs in to authenticate the Mac to the network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="681"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="691"/>
         <source>Configuration settings for 802.1X network authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="704"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="714"/>
         <source>Protocols</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="710"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="720"/>
         <source>Accepted EAP Types</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="717"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="727"/>
         <source>Authentication protocols supported on target network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="726"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="736"/>
         <source>LEAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="733"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="743"/>
         <source>TLS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="740"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="750"/>
         <source>PEAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="747"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1202"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="757"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1212"/>
         <source>EAP-SIM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="754"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="824"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="764"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="834"/>
         <source>EAP-FAST</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="774"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="784"/>
         <source>EAP-AKA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="781"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="791"/>
         <source>TTLS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="946"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="956"/>
         <source>Authenticate with the target&apos;s machine directory credentials</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="977"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="987"/>
         <source>User name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="984"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="994"/>
         <source>User name for connection to the network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1023"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1033"/>
         <source>Password for the provided user name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1226"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1236"/>
         <source>TLS Minimum Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1236"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1246"/>
         <source>TLS Maximum Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1401"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1411"/>
         <source>Restrict Fast Lane QoS Marking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1443"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1453"/>
         <source>Allow QoS marking for built-in audio/video apps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="994"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1004"/>
         <source>Use Per-Connection Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1064"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1074"/>
         <source>Identity Certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="831"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="841"/>
         <source>Configuration of Protected Access Credential (PAC)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36166,42 +36133,42 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="858"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="868"/>
         <source>Use PAC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="865"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="875"/>
         <source>Provision PAC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="872"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="882"/>
         <source>Provision PAC Anonymously</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="914"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="924"/>
         <source>Use Two Factor Authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="939"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="949"/>
         <source>Use Directory Authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1071"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1081"/>
         <source>Credentials for connection to the network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1105"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1115"/>
         <source>Inner Authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1112"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1122"/>
         <source>Authentication protocol (for use only with TTLS)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36226,47 +36193,47 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1167"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1177"/>
         <source>Outer Identity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1184"/>
         <source>Externally visible identification (for TTLS, PEAP, and EAP-FAST)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1209"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1219"/>
         <source>Allow Two RANDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1216"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1226"/>
         <source>Allow authenticating to server providing only two RAND values</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1260"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1270"/>
         <source>Trust</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1266"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1276"/>
         <source>Trusted Certificates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1273"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1283"/>
         <source>Certificates trusted/expected for authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1290"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1300"/>
         <source>Trusted Server Certificate Names</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1297"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1307"/>
         <source>Certificate names expected from authentication server</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36311,27 +36278,42 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="834"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="135"/>
+        <source>User</source>
+        <translation type="unfinished">Kullanıcı</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="136"/>
+        <source>System</source>
+        <translation type="unfinished">Sistem</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="137"/>
+        <source>Login Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="860"/>
         <source>WEP</source>
         <translation>WEP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="836"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="862"/>
         <source>WPA / WPA2 Personal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="838"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="864"/>
         <source>WPA2 Personal (iOS8 or later except Apple TV)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="843"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="869"/>
         <source>Dynamic WEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="840"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="866"/>
         <source>Any (Personal)</source>
         <translation>Any (Personal)</translation>
     </message>
@@ -36341,17 +36323,17 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="845"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="871"/>
         <source>WPA / WPA2 Enterprise</source>
         <translation>WPA / WPA2 Enterprise</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="847"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="873"/>
         <source>WPA2 Enterprise (iOS8 or later except Apple TV)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="849"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="875"/>
         <source>Any (Enterprise)</source>
         <translation>Any (Enterprise)</translation>
     </message>
@@ -38312,7 +38294,7 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="437"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="439"/>
         <source>This app already has a configuration.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -38754,262 +38736,262 @@ Modified profiles will be redeployed.</source>
 %1 şimdi sonlandırılacak.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="296"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="299"/>
         <source>The name %1 is already in use</source>
         <translation>%1 adı zaten kullanılıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="299"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="302"/>
         <source>Error creating new fileset</source>
         <translation>Yeni Fileset yaratırken hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="298"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="301"/>
         <source>Error %1 returned from server</source>
         <translation>Sunucudan %1 hatası döndü</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="342"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="345"/>
         <source>Creating new fileset from folder...</source>
         <translation type="unfinished">Klasörden yeni Fileset yaratılıyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="452"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3430"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="455"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3446"/>
         <source>Adding files to upload queue...</source>
         <translation type="unfinished">Dosyalar yükleme kuyruğuna ekleniyor... </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="753"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="756"/>
         <source>Importing Flat Package</source>
         <translation type="unfinished">Flat PAckage İçe Aktarılıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="862"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="865"/>
         <source>Importing MSI Installer</source>
         <translation type="unfinished">MSI Kurulum Dosyası İçe Aktarılıyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1329"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1332"/>
         <source>Error: Sending request packet.
 Try Again.</source>
         <translation>Hata: İstek paketi gönderme
 Yeniden Deneyin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1354"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1362"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1357"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1365"/>
         <source>Building Fileset Containers...</source>
         <translation>Fileset Taşıyıcısı Oluşturuluyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1366"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1369"/>
         <source>Building Smart Filters...</source>
         <translation>Akıllı Filtreler Oluşturuluyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1369"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1372"/>
         <source>Building User Manifests...</source>
         <translatorcomment>? manifest - list</translatorcomment>
         <translation>Kullanıcı Listeleri Oluşturuluyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1372"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1375"/>
         <source>Remove Deleted Files...</source>
         <translation>Silinen Dosyaları Kaldır...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1375"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1378"/>
         <source>Moving New Files...</source>
         <translation>Yeni Dosyalar Taşınıyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1378"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1381"/>
         <source>Backing Up Previous Model...</source>
         <translation>Önceki Modelin Yedeği Alınıyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1381"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1384"/>
         <source>Updating MDM Server...</source>
         <translation>MDM Sunucu Güncelleniyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1384"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1387"/>
         <source>An integrity error in the DB was detected</source>
         <translation>Veri Tabanında bütünlük hatası algılandı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1387"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1390"/>
         <source>Updating Inventory information...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1390"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1393"/>
         <source>Manage Archived clients...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1393"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1396"/>
         <source>Synchronizing Mobile User data...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1396"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1399"/>
         <source>Synchronizing Clients data...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1399"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1402"/>
         <source>Sending Fileset data to Inventory...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1402"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1405"/>
         <source>Build internal data required for Model Update...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1412"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1415"/>
         <source>Model Updated Successfully</source>
         <translation>Model Başarıyla Güncellendi</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1422"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1438"/>
         <source>Update Unsuccessful.  Make sure that other Administrators have released control of each window.</source>
         <translation>Güncelleme Başarısız. Diğer Administratörlerin her pencerenin kontrolünü bıraktıklarından emin olun.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1426"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1442"/>
         <source>Update Unsuccessful.  Permission denied.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1429"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1445"/>
         <source>Update Unsuccessful.  There are still locks held by other administrators so model update cannot safely continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1432"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1448"/>
         <source>Update Unsuccessful.  The license has either expired or been revoked - please contact FileWave support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1435"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1451"/>
         <source>Update Unsuccessful.  Your license is not valid for this version of the software - please contact FileWave support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1438"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1454"/>
         <source>Update Unsuccessful.   Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1443"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1459"/>
         <source>Update Unsuccessful.  Error building Filesets, check server log for details.</source>
         <translation>Güncelleme Başarısız. Fileset&apos;ler oluşturulurken hata, ayrıntı için sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1446"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1462"/>
         <source>Update Unsuccessful.  Error building smart filters, check server log for details.</source>
         <translation>Güncelleme Başarısız. Akıllı filtreler oluşturulurken hata, ayrıntı için sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1449"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1465"/>
         <source>Update Unsuccessful.  Error building user manifests, check server log for details.</source>
         <translation>Güncelleme Başarısız. Kullanıcı listeleri oluşturulurken hata, ayrıntı için sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1452"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1468"/>
         <source>Update Unsuccessful.  Error deleting obsolete files, check server log for details.</source>
         <translation>Güncelleme Başarısız. Eski dosyalar silinirken hata, ayrıntı için sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1455"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1471"/>
         <source>Update Unsuccessful.  Error moving files, check server log for details.</source>
         <translation>Güncelleme Başarısız. Dosyalar taşınırken hata, ayrıntı için sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1460"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1476"/>
         <source>Update Unsuccessful.  The APN certificate is not valid.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1463"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1479"/>
         <source>Update Unsuccessful.  Error due to missing Profile Filesets files, check server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1466"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1482"/>
         <source>Update Unsuccessful.  Error while updating mobile devices, check mdm server log for details.</source>
         <translation>Güncelleme Başarısız. Mobil cihazlar güncellenirken hata, ayrıntı için mdm sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1471"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1487"/>
         <source>Update Unsuccessful.  Error while updating Inventory information, check server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1474"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1490"/>
         <source>Update Unsuccessful.  Error while preparing notifications for Android devices, check server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1477"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1493"/>
         <source>Update Unsuccessful.  Error while updating Archive state, check server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1480"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1496"/>
         <source>Update Unsuccessful.  Error while synchronizing mobile user data, check server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1483"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1499"/>
         <source>Update Unsuccessful.  A chromebook sync is in progress. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1485"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1502"/>
         <source>Update Unsuccessful. Check the server log for details.</source>
         <translation>Güncelleme Başarısız.Ayrıntı için sunucu loglarını kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1572"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1590"/>
         <source>You do not have delete privilages on %1 selected item(s)</source>
         <translation>%1 seçili öğe(ler) için silme izniniz yok</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2040"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2058"/>
         <source>Error sending request to the server, check the log file for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2050"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2068"/>
         <source>Revert Unsuccessful. Permission denied.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2053"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2071"/>
         <source>Revert Unsuccessful. There are still locks held by other administrators so model revert cannot safely continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2056"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2074"/>
         <source>Revert Unsuccessful. The license has either expired or been revoked - please contact FileWave support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2059"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2077"/>
         <source>Revert Unsuccessful. Your license is not valid for this version of the software - please contact FileWave support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2062"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2080"/>
         <source>Revert Unsuccessful. Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2067"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2085"/>
         <source>Revert Unsuccessful. Check the server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -39023,193 +39005,193 @@ Please enter your Activation Code</source>
 Lütfen Aktivasyon Kodunuzu girin</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2105"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2123"/>
         <source>Failed to create the server log file: %1</source>
         <translation>Sunucu log dosyası yaratılırken hata: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2131"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2149"/>
         <source>Server Log</source>
         <translation>Sunucu Log&apos;u</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2140"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2158"/>
         <source>Sorry, but getting the %1 log file failed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2353"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2371"/>
         <source>Merging folders, please wait...</source>
         <translation>Klasörler birleştiriliyor, lütfen bekleyin...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2358"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2376"/>
         <source>Merging</source>
         <translation>Birleştiriliyor</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2486"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2504"/>
         <source>Would you like to replace the file %1?</source>
         <translatorcomment>? replace with what?</translatorcomment>
         <translation>%1 dosyasını değiştirmek ister misiniz?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2487"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2505"/>
         <source>Replace</source>
         <translation>Değiştir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2488"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2506"/>
         <source>Skip</source>
         <translation>Atla</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2489"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2507"/>
         <source>Replace All</source>
         <translation>Tümünü Değiştir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2874"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2892"/>
         <source>%1 can&apos;t be renamed because it is a predefined folder.</source>
         <translation>%1 yeniden adlandırılamıyor çünkü ön tanımlı bir klasör.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2887"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2905"/>
         <source>A folder named %1 already exists in this location.</source>
         <translation>Bu konumda %1 adlı bir klasör zaten var.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3244"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3260"/>
         <source>Illegal admin request.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3246"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3262"/>
         <source>Unknown admin session</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3248"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3264"/>
         <source>Admin busy: action already in progress.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3250"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3266"/>
         <source>Permission denied.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3252"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3268"/>
         <source>Lock or unlock command failed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3254"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3270"/>
         <source>Revert model occured.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3256"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3272"/>
         <source>Invalid CRC.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3258"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3274"/>
         <source>Expired or invalid license.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3260"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3276"/>
         <source>Not enough disk space.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3262"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3278"/>
         <source>Invalid license version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3264"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3280"/>
         <source>Unknown admin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3266"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3282"/>
         <source>Invalid mobile association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3268"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3284"/>
         <source>One of the parameters of the request is wrong.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3270"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3286"/>
         <source>The same item (or an item with the same name) already exists.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3272"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3288"/>
         <source>Item not found.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3274"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3290"/>
         <source>Too many clients.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3276"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3292"/>
         <source>Fileset is not complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3278"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3294"/>
         <source>The group is not a smart group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3280"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3296"/>
         <source>Invalid Fileset container</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3282"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3298"/>
         <source>Database Exception occured.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3284"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3300"/>
         <source>MDM server is not local.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3286"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3302"/>
         <source>Restarting apache timed out.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3288"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3304"/>
         <source>Inventory server seems to be offline.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3290"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3306"/>
         <source>One of the parameters is invalid.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3293"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3309"/>
         <source>Internal error (%1).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3350"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3366"/>
         <source>Creating new imaging fileset from folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3412"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3428"/>
         <source>Adding files &amp; folders to upload queue...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -39543,7 +39525,7 @@ FileWave Admin will now quit.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkPayload.h" line="97"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkPayload.h" line="260"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkPayload.h" line="266"/>
         <source>Network</source>
         <translation type="unfinished"></translation>
     </message>
@@ -40146,12 +40128,12 @@ Books and Apps requiring a license won&apos;t be deployed until your registratio
         <translation type="unfinished">nesne</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1312"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1287"/>
         <source>Server fingerprint change detected !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1312"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1287"/>
         <source>FileWave detected that the server fingerprint changed.
 
 This can happen for instance, if you copied over the server database recently.
@@ -40180,19 +40162,19 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
         <translation type="unfinished">Program Dosyaları ve Kullanıcılar klasörleri taranıyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="588"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="591"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1835"/>
         <source>Scanning for Files/Folders...</source>
         <translation type="unfinished">Dosyalar/Klasörler taranıyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="611"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="614"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1852"/>
         <source>Creating Files/Folders on Server...</source>
         <translation type="unfinished">Sunucuda Dosyalar/Klasörler yaratılıyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="699"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="702"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1882"/>
         <source>Preparing files for upload...</source>
         <translation type="unfinished">Dosyalar yüklemek için hazırlanıyor... </translation>
@@ -40960,7 +40942,7 @@ FileWave Admin will now quit.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/QueryBuilder.ui" line="232"/>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="301"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="300"/>
         <source>Fields</source>
         <translation type="unfinished"></translation>
     </message>
@@ -40975,65 +40957,65 @@ FileWave Admin will now quit.</source>
         <translation type="unfinished">-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="75"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="74"/>
         <source>QueryBuilder - new query</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="106"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="105"/>
         <source>Preview tab is unavailable as the criteria is invalid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="295"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="294"/>
         <source>Fields (required)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="379"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="378"/>
         <source>QueryBuilder - %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="384"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="383"/>
         <source>%1 row(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="394"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="393"/>
         <source>Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="395"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="394"/>
         <source>This query has empty criteria. All clients containing data for the selected component(s) will be returned. Do you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="406"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="405"/>
         <source>Invalid query ; please check:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="409"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="408"/>
         <source>
 - query name is required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="413"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="412"/>
         <source>
 - at least one field to be displayed is required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="417"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="416"/>
         <source>
 - one or more criteria is invalid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="419"/>
+        <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="418"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
@@ -44872,6 +44854,11 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
         <translation>Alt üyelere yay</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/SetItemPermissionsDlg.ui" line="130"/>
+        <source>Note: Propagation applies automatically recursively to children when &quot;no permissions&quot; is selected. This will not be visible by editing the permissions for children of those nodes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.ui" line="72"/>
         <source>Rights</source>
         <translation>Haklar</translation>
@@ -46424,6 +46411,61 @@ User Home?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="54"/>
+        <source>L2TP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="59"/>
+        <source>PPTP (iOS 9 and OS X 10.11 and earlier)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="64"/>
+        <source>IPsec (Cisco)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="69"/>
+        <source>Cisco AnyConnect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="74"/>
+        <source>Juniper SSL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="79"/>
+        <source>F5 SSL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="84"/>
+        <source>SonicWALL Mobile Connect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="89"/>
+        <source>Aruba VIA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="94"/>
+        <source>Check Point Mobile VPN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="99"/>
+        <source>IKEv2 (iOS only)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="104"/>
+        <source>Custom SSL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="295"/>
         <source>FQDN, UserFQDN, Address or ASN1DN remote identifier</source>
         <translation type="unfinished"></translation>
@@ -46540,6 +46582,16 @@ User Home?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2412"/>
+        <source>Disconnect On Idle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2419"/>
+        <source>Disconnect after given time idle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="674"/>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="818"/>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="862"/>
@@ -46547,61 +46599,6 @@ User Home?</source>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2205"/>
         <source>Password</source>
         <translation type="unfinished">Şifre</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="54"/>
-        <source>L2TP</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="59"/>
-        <source>PPTP (iOS 9 and OS X 10.11 and earlier)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="64"/>
-        <source>IPsec (Cisco)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="69"/>
-        <source>Cisco AnyConnect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="74"/>
-        <source>Juniper SSL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="79"/>
-        <source>F5 SSL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="84"/>
-        <source>SonicWALL Mobile Connect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="89"/>
-        <source>Aruba VIA</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="94"/>
-        <source>Check Point Mobile VPN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="99"/>
-        <source>IKEv2 (iOS only)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="104"/>
-        <source>Custom SSL</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="142"/>
@@ -46858,16 +46855,6 @@ User Home?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2412"/>
-        <source>Disconnect On Idle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2419"/>
-        <source>Disconnect after given time idle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2440"/>
         <source>1800</source>
         <translation type="unfinished">1800</translation>
@@ -46895,11 +46882,6 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1386"/>
         <source>Encryption Level</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1393"/>
-        <source>Level of data encryption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -47036,6 +47018,11 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1854"/>
         <source>Enable NAT keepalive while the device is asleep</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1393"/>
+        <source>Level of data encryption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -47415,77 +47402,77 @@ You can make it available to other administrators using the Manage Administrator
 <context>
     <name>VPPServiceTokensModel</name>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="585"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="605"/>
         <source>Id</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="586"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="606"/>
         <source>Token Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="587"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="607"/>
         <source>Organization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="588"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="608"/>
         <source>Expiration Date</source>
         <translation type="unfinished">Bitiş Tarihi</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="589"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="609"/>
         <source>Department</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="590"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="610"/>
         <source>Owner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="591"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="611"/>
         <source>Email</source>
         <translation type="unfinished">Email</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="592"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="612"/>
         <source>Token</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="593"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="613"/>
         <source>Group for auto create filesets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="594"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="614"/>
         <source>Fileset Count</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="595"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="615"/>
         <source>Is Owner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="596"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="616"/>
         <source>App Store locale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="683"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="703"/>
         <source>N/A</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="687"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="707"/>
         <source>Yes</source>
         <translation type="unfinished">Evet</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="691"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="711"/>
         <source>No</source>
         <translation type="unfinished">Hayır</translation>
     </message>
@@ -47736,27 +47723,27 @@ Please check MDM log for more details.</source>
 <context>
     <name>VPPUserDeviceModel</name>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="234"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="236"/>
         <source>Id</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="235"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="237"/>
         <source>Device ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="236"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="238"/>
         <source>Device name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="237"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="239"/>
         <source>Client name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="238"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="240"/>
         <source>VPP Client User ID</source>
         <translation type="unfinished"></translation>
     </message>
@@ -47764,57 +47751,57 @@ Please check MDM log for more details.</source>
 <context>
     <name>VPPUserModel</name>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="57"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="58"/>
         <source>Id</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="58"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="59"/>
         <source>VPP Client User ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="59"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="60"/>
         <source>LDAP username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="60"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="61"/>
         <source>First Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="61"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="62"/>
         <source>Last Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="62"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="63"/>
         <source>Email address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="63"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="64"/>
         <source>iTunes ID hash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="64"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="65"/>
         <source>Status</source>
         <translation type="unfinished">Durum</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="65"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="66"/>
         <source>User Id</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="66"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="67"/>
         <source>First Registration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="67"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="68"/>
         <source>Invite Url</source>
         <translation type="unfinished"></translation>
     </message>
@@ -47906,160 +47893,160 @@ Please check MDM log for more details.</source>
 <context>
     <name>VPPv2UsersDlg</name>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="43"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="44"/>
         <source>Show Archived Clients</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="81"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="152"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="82"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="153"/>
         <source>All</source>
         <translation type="unfinished">Tümü</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="82"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="83"/>
         <source>Without any VPP user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="83"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="84"/>
         <source>Without a VPP user for current token</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="153"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="154"/>
         <source>Associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="154"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="155"/>
         <source>Registered</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="202"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="203"/>
         <source>Email not configured in preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="222"/>
         <source>Assign user(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="262"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="263"/>
         <source>%1 Users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="264"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="265"/>
         <source>%1 of %2 Users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="274"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="275"/>
         <source>%1 Associations</source>
         <translation type="unfinished">İlişkilendirme %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="290"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="291"/>
         <source>%1 of %2 Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="301"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="302"/>
         <source>%1 Devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="304"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="305"/>
         <source>%1 of %2 Devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="535"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="556"/>
         <source>Retire VPP user(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="536"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="557"/>
         <source>Are you sure you want to retire selected user(s) ?
 All licenses assigned to the user(s) will be dissociated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="557"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="564"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="578"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="585"/>
         <source>Retire VPP User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="558"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="590"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="579"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="611"/>
         <source>Another VPP tool has the ownership of the account. Go to &quot;configure tokens&quot; to take the ownership.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="565"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="597"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="586"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="618"/>
         <source>Apple services are currently not available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="572"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="593"/>
         <source>Error trying to retire the user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="589"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="596"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="610"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="617"/>
         <source>Create VPP User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="604"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="625"/>
         <source>Error while creating VPP user(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="626"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="647"/>
         <source>Error trying to create associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="634"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="655"/>
         <source>Error trying to deleted associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="736"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="865"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="757"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="886"/>
         <source>Error trying to send invite url mail(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="740"/>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="874"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="761"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="895"/>
         <source>Invitation urls</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="741"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="762"/>
         <source>Invitation url(s) emails have been scheduled successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="875"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="896"/>
         <source>Invitation url(s) emails have been successfully scheduled to be sent.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="915"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="936"/>
         <source> (full sync)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="989"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="1010"/>
         <source>Failed to send Invite Command</source>
         <translation type="unfinished"></translation>
     </message>

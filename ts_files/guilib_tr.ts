@@ -173,6 +173,14 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>FileWave Server Address:</source>
+        <translation type="obsolete">Tuğra Sunucu Adresi:</translation>
+    </message>
+    <message>
+        <source>Port:</source>
+        <translation type="obsolete">Port:</translation>
+    </message>
+    <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="387"/>
         <source>Booster Server Prefs</source>
         <translation type="unfinished"></translation>
@@ -365,6 +373,14 @@ You may ignore this warning if you have a customized setup. </source>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="483"/>
         <source>Port:</source>
         <translation type="unfinished">Port:</translation>
+    </message>
+    <message>
+        <source>Server Port:</source>
+        <translation type="obsolete">Sunucu Portu:</translation>
+    </message>
+    <message>
+        <source>20443</source>
+        <translation type="obsolete">20443</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="395"/>
@@ -724,7 +740,7 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="209"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="207"/>
         <source>0.0.0.0</source>
         <translation type="unfinished">0.0.0.0</translation>
     </message>
@@ -759,18 +775,18 @@ You may ignore this warning if you have a customized setup. </source>
         <translation>Tercihler...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="288"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="524"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="286"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="522"/>
         <source>[disconnected]</source>
         <translation>[bağlantı yok]</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="298"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="296"/>
         <source>Getting Client Prefs...</source>
         <translation>İstemci Tercihleri Alınıyor...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="452"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="450"/>
         <source>%1 - Client Monitor</source>
         <translation>%1 - İstemci Ekranı</translation>
     </message>
@@ -783,47 +799,47 @@ You may ignore this warning if you have a customized setup. </source>
         <translation type="vanished"> (%1.%2.%3)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="450"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="448"/>
         <source>Imaging Appliance Monitor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="497"/>
         <source>(never)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="504"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
         <source>Connected (updates found)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="504"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
         <source>Connected (no updates)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="507"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="505"/>
         <source>(now trying...)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="509"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="507"/>
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="522"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="520"/>
         <source>Can&apos;t connect to client...</source>
         <translation>İstemciye bağlanılamıyor...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="591"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="589"/>
         <source>The verify command has been sent to the client</source>
         <translation>Doğrulama komutu istemciye iletildi</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="593"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="591"/>
         <source>Failed to send the verify message to this client</source>
         <translation>Doğrulama komutu bu istemciye gönderilemedi</translation>
     </message>

@@ -535,6 +535,38 @@
                </widget>
               </item>
               <item>
+               <widget class="QGroupBox" name="groupBox_3">
+                <property name="title">
+                 <string>Device un-enrollment</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <item>
+                  <widget class="QCheckBox" name="removeMDMProfileCheckBox">
+                   <property name="text">
+                    <string>Remove MDM profile for devices removed from FileWave model</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>Devices removed from FileWave will require a new enrollment to be managed ; it may be required to wipe the device to start enrollment again, depending on device restrictions.</string>
+                   </property>
+                   <property name="wordWrap">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
                <widget class="QCheckBox" name="ignoreAPNStatusNotifications">
                 <property name="text">
                  <string>Ignore status notifications</string>
