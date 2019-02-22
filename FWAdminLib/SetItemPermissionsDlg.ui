@@ -124,6 +124,16 @@
      </item>
     </layout>
    </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Note: Propagation applies automatically recursively to children when &quot;no permissions&quot; is selected. This will not be visible by editing the permissions for children of those nodes.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <customwidgets>
