@@ -1259,7 +1259,7 @@ Anyone will be able to activate selected devices after a reset !</source>
     <message>
         <location filename="../../FWAdminLib/AppStore.cpp" line="51"/>
         <source>Track Explicitness</source>
-        <translation type="unfinished">トラック明示性</translation>
+        <translation>トラック明示性</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AppStore.cpp" line="52"/>
@@ -4881,7 +4881,7 @@ This change can affect other Filesets that share the same folders.</source>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="856"/>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="862"/>
         <source>Release Control</source>
-        <translation>リリースコントロール</translation>
+        <translation>制御をはずす</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="861"/>
@@ -4893,7 +4893,7 @@ This change can affect other Filesets that share the same folders.</source>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="873"/>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="943"/>
         <source>Take Control (Cmd-t)</source>
-        <translation>コントロールを取得（Cmd- t)</translation>
+        <translation>制御するl (Cmd-t)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="867"/>
@@ -4908,7 +4908,7 @@ This change can affect other Filesets that share the same folders.</source>
     <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="874"/>
         <source>Take Control</source>
-        <translation>コントロールを取得</translation>
+        <translation>制御する</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.cpp" line="875"/>
@@ -6517,7 +6517,7 @@ Reason: %1</source>
         <location filename="../../FWAdminLib/OpenFilesetDlg.ui" line="263"/>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="914"/>
         <source>Take Control</source>
-        <translation>コントロールを取得</translation>
+        <translation>制御する</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.ui" line="266"/>
@@ -6638,12 +6638,12 @@ This cannot be undone.</source>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="907"/>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="908"/>
         <source>Release Control</source>
-        <translation>リリースコントロール</translation>
+        <translation>制御をはずす</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="913"/>
         <source>Take Control (Cmd-t)</source>
-        <translation>コントロールを取得（Cmd- t)</translation>
+        <translation>制御するl (Cmd-t)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="1058"/>
@@ -8917,7 +8917,7 @@ Are you sure you want to continue?</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1646"/>
         <source>Certificated created</source>
-        <translation type="unfinished">認証された</translation>
+        <translation>認証された</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1756"/>
@@ -9412,12 +9412,12 @@ FileWaveはLDAP構成に合うようにApache設定を更新することがで�
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="27"/>
         <source>The description of the calendar subscription</source>
-        <translation type="unfinished">カレンダー購読の説明</translation>
+        <translation>カレンダー購読の説明</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="34"/>
         <source>My Subscribed Calendar</source>
-        <translation type="unfinished">購読済みカレンダー</translation>
+        <translation>購読済カレンダー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="41"/>
@@ -9437,7 +9437,7 @@ FileWaveはLDAP構成に合うようにApache設定を更新することがで�
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="69"/>
         <source>The username for this subscription</source>
-        <translation type="unfinished">この購読のユーザー名</translation>
+        <translation>この購読のユーザー名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="83"/>
@@ -9447,7 +9447,7 @@ FileWaveはLDAP構成に合うようにApache設定を更新することがで�
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="90"/>
         <source>The password for this subscription</source>
-        <translation type="unfinished">この購読のパスワード</translation>
+        <translation>この購読のパスワード</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CalendarSubscriptionForm.ui" line="107"/>
@@ -9865,17 +9865,17 @@ FileWaveはLDAP構成に合うようにApache設定を更新することがで�
     <message>
         <location filename="../../FWAdminLib/ChooseSoftwareUpdateLocales.ui" line="14"/>
         <source>Choose Localizations</source>
-        <translation type="unfinished">ローカライズ選択</translation>
+        <translation>ローカライズ選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ChooseSoftwareUpdateLocales.ui" line="23"/>
         <source>Choose the localizations to be included in this Fileset:</source>
-        <translation type="unfinished">このファイルセットに含まれるローカライズを選択:</translation>
+        <translation>このファイルセットに含まれるローカライズを選択:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ChooseSoftwareUpdateLocales.cpp" line="30"/>
         <source>Unknown (%2)</source>
-        <translation type="unfinished">不明 (%2)</translation>
+        <translation>不明 (%2)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ChooseSoftwareUpdateLocales.cpp" line="34"/>
@@ -10290,7 +10290,7 @@ For security reasons, FileWave does not keep a copy of your private key. Therefo
     <message numerus="yes">
         <location filename="../../FWAdminLib/Preferences/ClassroomCertificatesDialog.cpp" line="253"/>
         <source>Are you sure you want to renew the selected certificate(s)?&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;red&quot;&gt;After the certificate is renewed please make sure that students log out of their shared iPads and log back in, otherwise their student status is not correctly displayed within the teacher&apos;s Classroom app&lt;/font&gt;</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>選択した証明書を更新しますか？&lt;br/&gt;&lt;br/&gt;&lt;font color=&quot;red&quot;&gt;証明書の更新後は、生徒は共有iPadからログアウトして再度ログインするようにしてください。そうしないと、生徒のステータスが教師のClassroomアプリ内に正しく表示されません&lt;/font&gt;</numerusform>
         </translation>
     </message>
@@ -10302,7 +10302,7 @@ For security reasons, FileWave does not keep a copy of your private key. Therefo
     <message numerus="yes">
         <location filename="../../FWAdminLib/Preferences/ClassroomCertificatesDialog.cpp" line="288"/>
         <source>Are you sure you want to revoke the selected certificate(s)?</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>選択した証明書を失効させますか？</numerusform>
         </translation>
     </message>
@@ -11445,7 +11445,7 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="124"/>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1540"/>
         <source>Take Control</source>
-        <translation type="unfinished">コントロールを得る</translation>
+        <translation>制御する</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="128"/>
@@ -11747,7 +11747,7 @@ This cannot be undone!</source>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1535"/>
         <source>Release Control</source>
-        <translation>リリースコントロール</translation>
+        <translation>制御をはずす</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1546"/>
@@ -15584,7 +15584,7 @@ PEMおよびDER形式の証明書のみ許可されています。</translation>
     <message>
         <location filename="../../FWAdminLib/Configurator/DirectoryForm.ui" line="375"/>
         <source>Administrative</source>
-        <translation type="unfinished">管理</translation>
+        <translation>管理</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DirectoryForm.ui" line="381"/>
@@ -15690,7 +15690,7 @@ PEMおよびDER形式の証明書のみ許可されています。</translation>
     <message>
         <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.ui" line="143"/>
         <source>Aggressiveness:</source>
-        <translation type="unfinished">アグレッシブ:</translation>
+        <translation>アグレッシブ:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.ui" line="181"/>
@@ -22486,7 +22486,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1459"/>
         <source>Discovery Crashed</source>
-        <translation type="unfinished">検出クラッシュ</translation>
+        <translation>クラッシュを検出</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1460"/>
@@ -22521,7 +22521,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1466"/>
         <source>FDE not supported</source>
-        <translation type="unfinished">FDE未サポート</translation>
+        <translation>FDE未サポート</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1467"/>
@@ -22586,7 +22586,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1479"/>
         <source>Install command sent</source>
-        <translation type="unfinished">インストールコマンドを送信</translation>
+        <translation>インストールコマンドを送信しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1480"/>
@@ -22616,7 +22616,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1485"/>
         <source>Missing</source>
-        <translation type="unfinished"></translation>
+        <translation>見つからない</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1486"/>
@@ -22746,7 +22746,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1511"/>
         <source>SHIPPED</source>
-        <translation type="unfinished">SHIPPED</translation>
+        <translation>出荷済</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1512"/>
@@ -22816,7 +22816,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1525"/>
         <source>dev</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1526"/>
@@ -22988,7 +22988,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1370"/>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1409"/>
         <source>is</source>
-        <translation type="unfinished">より</translation>
+        <translation>&#x3000;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1371"/>
@@ -25878,7 +25878,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="957"/>
         <source>Is Current</source>
         <comment>field current display name</comment>
-        <translation type="unfinished">使用中</translation>
+        <translation>使用中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="958"/>
@@ -26052,13 +26052,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="985"/>
         <source>Since Modified Token for Users</source>
         <comment>field since_modified_token_for_users display name</comment>
-        <translation type="unfinished">ユーザーのための修正トークン以降</translation>
+        <translation>ユーザートークンを修正した以降</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="986"/>
         <source>The last sinceModifiedToken value for users.</source>
         <comment>field since_modified_token_for_users description</comment>
-        <translation type="unfinished">ユーザーの最後のsinceModifiedTokenの値。</translation>
+        <translation>ユーザーの最後のsinceModifiedTokenの値。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="987"/>
@@ -26076,13 +26076,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="989"/>
         <source>Since Modified Token for Licenses</source>
         <comment>field since_modified_token_for_licenses display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンストークンを修正した以降</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="990"/>
         <source>The last sinceModifiedToken value for licenses.</source>
         <comment>field since_modified_token_for_licenses description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンスの最後のsinceModifiedTokenの値。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="991"/>
@@ -26667,13 +26667,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1087"/>
         <source>Since Modified Token for License</source>
         <comment>field since_modified_token_for_license display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンストークンを修正した以降</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1088"/>
         <source>The last sinceModifiedToken value for licenses.</source>
         <comment>field since_modified_token_for_license description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンスの最後のsinceModifiedTokenの値。</translation>
     </message>
 </context>
 <context>
@@ -26802,13 +26802,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1109"/>
         <source>Retired Count</source>
         <comment>field retiredCount display name</comment>
-        <translation type="unfinished">失効数</translation>
+        <translation>失効数</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1110"/>
         <source>How many licenses have been retired</source>
         <comment>field retiredCount description</comment>
-        <translation type="unfinished">ライセンスを失効した数</translation>
+        <translation>失効したライセンスを数</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1111"/>
@@ -26820,13 +26820,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1112"/>
         <source>Since Modified Token for License</source>
         <comment>field since_modified_token_for_license display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンストークンを修正した以降</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1113"/>
         <source>The last sinceModifiedToken value for licenses.</source>
         <comment>field since_modified_token_for_license description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンスの最後のsinceModifiedTokenの値。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1114"/>
@@ -27192,43 +27192,43 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1174"/>
         <source>The license status.</source>
         <comment>field status description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンスのステータス。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1175"/>
         <source>Last Date Used</source>
         <comment>field dateUsed display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>最終使用日</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1176"/>
         <source>The last date this license was used.</source>
         <comment>field dateUsed description</comment>
-        <translation type="unfinished"></translation>
+        <translation>このライセンスを最後に使用した日。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1177"/>
         <source>Assignment Time</source>
         <comment>field assignment_time display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>割り当て時間</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1178"/>
         <source>asset</source>
         <comment>field asset display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>資産</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1179"/>
         <source>Device Serial Number</source>
         <comment>field serialNumber display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>デバイスシリアルナンバー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1180"/>
         <source>The Serial Number of the device, when the license is assigned to a device.</source>
         <comment>field serialNumber description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ライセンスがデバイスに割り当てられている場合のデバイスのシリアルナンバー。</translation>
     </message>
 </context>
 <context>
@@ -27846,7 +27846,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1274"/>
         <source>Update status code, can be : &quot;Required&quot;, &quot;Installed&quot;, &quot;Error&quot;.</source>
         <comment>field status description</comment>
-        <translation type="unfinished">アップデートステータスコード。「要求済」、「インストール済」、「エラー」のいずれかです。</translation>
+        <translation>アップデートステータスコード。「要求済」、「インストール済」、「エラー」のいずれかです。</translation>
     </message>
 </context>
 <context>
@@ -27915,7 +27915,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1285"/>
         <source>staff status</source>
         <comment>field is_staff display name</comment>
-        <translation type="unfinished">スタッフステータス</translation>
+        <translation>スタッフステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1286"/>
@@ -27975,7 +27975,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1295"/>
         <source>base DN</source>
         <comment>field base_dn display name</comment>
-        <translation type="unfinished">ベース DN</translation>
+        <translation>ベース DN</translation>
     </message>
 </context>
 <context>
@@ -29512,7 +29512,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="116"/>
         <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="354"/>
         <source>Take Control</source>
-        <translation>コントロールする</translation>
+        <translation>制御する</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="122"/>
@@ -29527,7 +29527,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="349"/>
         <source>Release Control</source>
-        <translation>リリースコントロール</translation>
+        <translation>制御をはずす</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="360"/>
@@ -31019,12 +31019,12 @@ Server returned : %1</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/GeneralForm.ui" line="99"/>
         <source>Consent</source>
-        <translation type="unfinished">同意</translation>
+        <translation>同意</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/GeneralForm.ui" line="106"/>
         <source>Consent Text Description</source>
-        <translation type="unfinished">同意テキスト説明</translation>
+        <translation>同意テキスト説明</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/GeneralForm.ui" line="132"/>
@@ -31308,7 +31308,7 @@ Server returned : %1</source>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.ui" line="390"/>
         <source>Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>品質</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.ui" line="430"/>
@@ -31377,17 +31377,17 @@ This fileset will fail to deploy.</source>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="64"/>
         <source>Standard Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>標準品質</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="65"/>
         <source>High Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>高品質</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="141"/>
         <source>Bundle size is %1 bytes (%2 bytes expected).</source>
-        <translation type="unfinished">バンドルサイズは %1 バイトです（%2 バイト予約）。</translation>
+        <translation>バンドルサイズは %1 バイトです（%2 バイト予約済）。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.cpp" line="175"/>
@@ -32078,17 +32078,17 @@ Could not decode uploaded data.</source>
     <message>
         <location filename="../../FWAdminLib/IOSVPPCodeManagementWidget.cpp" line="1173"/>
         <source>Unredeem Codes</source>
-        <translation type="unfinished">コードを引き換えない</translation>
+        <translation>コードを引き換えない</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSVPPCodeManagementWidget.cpp" line="1173"/>
         <source>Are you sure you want to unredeem the selected codes?</source>
-        <translation type="unfinished">選択したコードを引き替えないですか？</translation>
+        <translation>選択したコードを引き替えますか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSVPPCodeManagementWidget.cpp" line="1174"/>
         <source>Unredeem</source>
-        <translation type="unfinished">引き替えない</translation>
+        <translation>引き替えない</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSVPPCodeManagementWidget.cpp" line="1201"/>
@@ -33828,7 +33828,7 @@ Data needs to be reloaded</source>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseEditorWidget.ui" line="113"/>
         <source>(or less) remain</source>
-        <translation type="unfinished">日残り</translation>
+        <translation>(以下)残り</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseEditorWidget.ui" line="146"/>
@@ -33989,7 +33989,7 @@ Your changes will be lost.</source>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="17"/>
         <source>Form</source>
-        <translation type="unfinished">フォーム</translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="42"/>
@@ -39137,7 +39137,7 @@ Modified profiles will be redeployed.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="11"/>
         <source>First available</source>
-        <translation type="unfinished">最初に利用可能</translation>
+        <translation>最初に利用可能</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="12"/>
@@ -39152,7 +39152,7 @@ Modified profiles will be redeployed.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="14"/>
         <source>Sticky available</source>
-        <translation type="unfinished"></translation>
+        <translation>付箋あり</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="15"/>
@@ -40932,15 +40932,15 @@ Please enter your Activation Code</source>
     <message numerus="yes">
         <location filename="../../FWAdminLib/ServiceStatus.cpp" line="79"/>
         <source>%n expiring</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%n 期限切れ</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../../FWAdminLib/ServiceStatus.cpp" line="84"/>
         <source>%n expired</source>
-        <translation type="unfinished">
-            <numerusform>%n expiring</numerusform>
+        <translation>
+            <numerusform>%n 期限切れ</numerusform>
         </translation>
     </message>
     <message>
@@ -44137,7 +44137,7 @@ When any user performs a revert model, you must log out and log back into the Fi
     <message>
         <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="232"/>
         <source>Allow user to unlock the Mac using an Apple Watch</source>
-        <translation type="unfinished">ユーザーがApple Watchを使ってMacのロックを解除することを許可する</translation>
+        <translation>ユーザーがApple Watchを使ってMacのロックを解除することを許可する</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="260"/>
@@ -47047,7 +47047,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1825"/>
         <source>Dead Peer Detection Rate</source>
-        <translation type="unfinished">デッドピア検出率</translation>
+        <translation>デッドピア検出率</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1832"/>
@@ -47087,7 +47087,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1922"/>
         <source>Disable Mobility and Multihoming</source>
-        <translation type="unfinished">モビリティとマルチホームを無効にする</translation>
+        <translation>モバイルとマルチホームを無効にする</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1929"/>
@@ -47097,7 +47097,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1939"/>
         <source>Enable perfect forward secrecy</source>
-        <translation type="unfinished">完全な前方秘密を有効にする</translation>
+        <translation>PFS(Perfect Forward Secrecy)を有効にする</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1949"/>
@@ -47117,12 +47117,12 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="1996"/>
         <source>IKE SA Params</source>
-        <translation type="unfinished">IKE SA Params</translation>
+        <translation>IKE SAパラメーター</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2001"/>
         <source>Child SA Params</source>
-        <translation type="unfinished">子 SA Params</translation>
+        <translation>子 SA パラメーター</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2030"/>
@@ -47212,7 +47212,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2346"/>
         <source>Captive Networking App Bundle Identifiers</source>
-        <translation type="unfinished">キャプティブネットワーキングアプリバンドルID</translation>
+        <translation>キャプティブネットワークアプリバンドル識別子</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2353"/>
@@ -47307,7 +47307,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="154"/>
         <source>Drop traffic</source>
-        <translation type="unfinished"></translation>
+        <translation>落ちたトラフィック</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="182"/>
@@ -47322,7 +47322,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="188"/>
         <source>DNS supplemental match domains</source>
-        <translation type="unfinished">DNS補足一致ドメイン</translation>
+        <translation>DNS補足一致ドメイン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="1643"/>
@@ -47332,7 +47332,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="1687"/>
         <source>key</source>
-        <translation type="unfinished">キー</translation>
+        <translation>キー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="1687"/>
@@ -47342,7 +47342,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="1699"/>
         <source>Untitled</source>
-        <translation type="unfinished">無題</translation>
+        <translation>無題</translation>
     </message>
 </context>
 <context>
@@ -47408,12 +47408,12 @@ Usage count concerns iOS 7+ or macOS 10.9+ devices only.</source>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPLicenseDlg.ui" line="147"/>
         <source>Warning when:</source>
-        <translation type="unfinished">警告:</translation>
+        <translation>警告:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPLicenseDlg.ui" line="165"/>
         <source>(or less) remain</source>
-        <translation type="unfinished">（以下）残り</translation>
+        <translation>（以下）残り</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPLicenseDlg.ui" line="180"/>
@@ -49329,7 +49329,7 @@ All licenses assigned to the user(s) will be dissociated.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdminStatusWidget.ui" line="245"/>
         <source>Licensed Mobiles:</source>
-        <translation type="unfinished">ライセンス済モバイル:</translation>
+        <translation>ライセンス済モバイル:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminStatusWidget.ui" line="255"/>
@@ -49401,13 +49401,13 @@ All licenses assigned to the user(s) will be dissociated.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdminStatusWidget.cpp" line="99"/>
         <source>n.a.</source>
-        <translation>利用不可</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminStatusWidget.cpp" line="108"/>
         <location filename="../../FWAdminLib/WinAdminStatusWidget.cpp" line="114"/>
         <source>Perpetual (does not expire)</source>
-        <translation type="unfinished"></translation>
+        <translation>永久 (期限なし)</translation>
     </message>
 </context>
 <context>
