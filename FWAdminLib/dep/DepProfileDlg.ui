@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>825</width>
-    <height>663</height>
+    <width>889</width>
+    <height>662</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -241,6 +241,9 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    </item>
    <item>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -1423,158 +1426,188 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
       <attribute name="title">
        <string>Account</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_21">
+      <layout class="QVBoxLayout" name="verticalLayout_20">
        <item>
-        <widget class="QCheckBox" name="localAccountCheckBox">
-         <property name="text">
-          <string>Local Account Setup</string>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>macOS Account Setup Assistant Options</string>
          </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QWidget" name="standardUserWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout_20">
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
+         <layout class="QVBoxLayout" name="verticalLayout_33">
           <item>
-           <widget class="QCheckBox" name="createAsStandardUserCheckBox">
+           <widget class="QCheckBox" name="localAccountCheckBox">
             <property name="text">
-             <string>Create primary account as a standard user</string>
+             <string>Prompt user to create an account of type:</string>
             </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="localAccountWidget" native="true">
+            <layout class="QVBoxLayout" name="localAccountLayout">
+             <property name="leftMargin">
+              <number>12</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="localAccountStandardRadio">
+               <property name="text">
+                <string>Standard</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="localAccountAdministratorRadio">
+               <property name="text">
+                <string>Administrator</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </widget>
           </item>
          </layout>
         </widget>
        </item>
        <item>
-        <widget class="QWidget" name="adminAccountWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout_19">
-          <property name="topMargin">
-           <number>0</number>
-          </property>
-          <property name="bottomMargin">
-           <number>0</number>
-          </property>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Managed macOS Administrator Account</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_35">
           <item>
-           <widget class="QLabel" name="lTipLabel">
+           <widget class="QCheckBox" name="managedAccountCheckBox">
             <property name="text">
-             <string>macOS also requires creation of an administrator account during setup.
-Please specify the information that will be used to automatically create this account.</string>
+             <string>Create managed macOS Administrator Account</string>
             </property>
            </widget>
           </item>
           <item>
-           <layout class="QFormLayout" name="formLayout">
-            <item row="0" column="0">
-             <widget class="QLabel" name="label_22">
-              <property name="text">
-               <string>Full Name:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QLineEdit" name="fullNameEdit">
-              <property name="minimumSize">
-               <size>
-                <width>400</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="placeholderText">
-               <string>optional</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QLabel" name="label_23">
-              <property name="text">
-               <string>Account Name:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="1">
-             <widget class="QLineEdit" name="accountEdit">
-              <property name="minimumSize">
-               <size>
-                <width>400</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="placeholderText">
-               <string>required</string>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="0">
-             <widget class="QLabel" name="label_24">
-              <property name="text">
-               <string>Password:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="1">
-             <widget class="QLineEdit" name="passwordEdit">
-              <property name="minimumSize">
-               <size>
-                <width>400</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="echoMode">
-               <enum>QLineEdit::Password</enum>
-              </property>
-              <property name="placeholderText">
-               <string>required</string>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="0">
-             <widget class="QLabel" name="label_25">
-              <property name="text">
-               <string>Verify:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="1">
-             <widget class="QLineEdit" name="verifyPasswordEdit">
-              <property name="minimumSize">
-               <size>
-                <width>400</width>
-                <height>0</height>
-               </size>
-              </property>
-              <property name="echoMode">
-               <enum>QLineEdit::Password</enum>
-              </property>
-              <property name="placeholderText">
-               <string>required</string>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="1">
-             <widget class="QLabel" name="passwordsDontMatchLabel">
-              <property name="text">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; color:#ff0000;&quot;&gt;Provided passwords don't match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <widget class="QCheckBox" name="showUserCheckBox">
-            <property name="text">
-             <string>Show administrator account in Users &amp;&amp; Groups</string>
-            </property>
+           <widget class="QWidget" name="managedAccountWidget" native="true">
+            <layout class="QVBoxLayout" name="managedAccountLayout">
+             <property name="leftMargin">
+              <number>12</number>
+             </property>
+             <item>
+              <layout class="QFormLayout" name="formLayout">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_22">
+                 <property name="text">
+                  <string>Full Name:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="fullNameEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>400</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>optional</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_23">
+                 <property name="text">
+                  <string>Account Name:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="accountEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>400</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>required</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_24">
+                 <property name="text">
+                  <string>Password:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QLineEdit" name="passwordEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>400</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="echoMode">
+                  <enum>QLineEdit::Password</enum>
+                 </property>
+                 <property name="placeholderText">
+                  <string>required</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_25">
+                 <property name="text">
+                  <string>Verify:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="verifyPasswordEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>400</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="echoMode">
+                  <enum>QLineEdit::Password</enum>
+                 </property>
+                 <property name="placeholderText">
+                  <string>required</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLabel" name="passwordsDontMatchLabel">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; color:#ff0000;&quot;&gt;Provided passwords don't match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="showManagedAccountCheckBox">
+               <property name="text">
+                <string>Show administrator account in Users &amp;&amp; Groups</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
            </widget>
           </item>
          </layout>
@@ -1949,48 +1982,20 @@ Please specify the information that will be used to automatically create this ac
               </layout>
              </item>
              <item>
-              <widget class="QLabel" name="lTipNaming_2">
+              <widget class="QLabel" name="lTipNaming_4">
                <property name="text">
-                <string>Use %SerialNumber% to include device serial number.</string>
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use any inventory, custom, or LDAP attribute to include their values. &lt;a href=&quot;https://kb.filewave.com/display/KB/Parameterized+Profile&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;See full list&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="textFormat">
+                <enum>Qt::RichText</enum>
+               </property>
+               <property name="openExternalLinks">
+                <bool>true</bool>
+               </property>
+               <property name="textInteractionFlags">
+                <set>Qt::TextBrowserInteraction</set>
                </property>
               </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="lTipNaming_3">
-               <property name="text">
-                <string>Use %AuthUsername% to include auth username.</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_11">
-               <item>
-                <widget class="QLabel" name="label_16">
-                 <property name="text">
-                  <string>Example:</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="namingExample">
-                 <property name="minimumSize">
-                  <size>
-                   <width>300</width>
-                   <height>0</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="wordWrap">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-              </layout>
              </item>
             </layout>
            </widget>
@@ -2023,6 +2028,213 @@ Please specify the information that will be used to automatically create this ac
           </size>
          </property>
         </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabActivationLockSettings">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <attribute name="title">
+       <string>Activation Lock Settings</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_28">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_29">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_24">
+           <item>
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>Activation Lock Configuration:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="cmbboxActivationLock">
+             <property name="minimumSize">
+              <size>
+               <width>200</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="minimumContentsLength">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_19">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QStackedWidget" name="ALStackedWidget">
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="page">
+            <layout class="QVBoxLayout" name="verticalLayout_30">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="lTipDisabledActivationLock">
+               <property name="text">
+                <string>Application Lock is not enabled ; enabling &quot;Find My iPhone&quot; is not allowed.</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_17">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>320</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_2">
+            <layout class="QVBoxLayout" name="verticalLayout_31">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QCheckBox" name="chkboxAllowActivationLockIfBypassCodeIsAvailable">
+               <property name="text">
+                <string>Allow Activation Lock only if Bypass Code is available</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipICloudActivationLock">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My iPhone&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_18">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_3">
+            <layout class="QVBoxLayout" name="verticalLayout_32">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="lTipDEPActivationLock">
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Device is locked against DEP-server manager Apple ID.&lt;br/&gt;A Bypass Code will be escrowed and can be used to disable Activation Lock.&lt;br/&gt;This requires Apple School Manager or Apple Business Manager.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_25">
+               <property name="spacing">
+                <number>6</number>
+               </property>
+               <property name="sizeConstraint">
+                <enum>QLayout::SetDefaultConstraint</enum>
+               </property>
+               <item>
+                <widget class="QLabel" name="lblLostMessage">
+                 <property name="text">
+                  <string>Lost Message:</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="txtboxLostMessage">
+                 <property name="minimumSize">
+                  <size>
+                   <width>200</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipLostMessage">
+               <property name="text">
+                <string>Lost message is transmitted to Apple and may be displayed on lost devices. Please refer to Apple's documentation.</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_16">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>271</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
        </item>
       </layout>
      </widget>
@@ -2065,7 +2277,7 @@ Please specify the information that will be used to automatically create this ac
       <item>
        <widget class="QLabel" name="readOnlyProfile">
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; color:#ff0000;&quot;&gt;This profile is already associated ; only naming options can be modified.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-style:italic; color:#ff0000;&quot;&gt;This profile is already associated; only Device Naming and Activation Lock Settings can be modified.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
@@ -2110,12 +2322,10 @@ Please specify the information that will be used to automatically create this ac
   <tabstop>removable</tabstop>
   <tabstop>pairing</tabstop>
   <tabstop>localAccountCheckBox</tabstop>
-  <tabstop>createAsStandardUserCheckBox</tabstop>
   <tabstop>fullNameEdit</tabstop>
   <tabstop>accountEdit</tabstop>
   <tabstop>passwordEdit</tabstop>
   <tabstop>verifyPasswordEdit</tabstop>
-  <tabstop>showUserCheckBox</tabstop>
   <tabstop>anchorCertsView</tabstop>
   <tabstop>addAnchorCert</tabstop>
   <tabstop>removeAnchorCert</tabstop>

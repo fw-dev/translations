@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>493</width>
-    <height>4474</height>
+    <width>602</width>
+    <height>5281</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,63 +48,7 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_6">
      <item>
-      <widget class="QComboBox" name="connectionTypeCombo">
-       <item>
-        <property name="text">
-         <string>L2TP</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>PPTP (iOS 9 and OS X 10.11 and earlier)</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>IPsec (Cisco)</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Cisco AnyConnect</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Juniper SSL</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>F5 SSL</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>SonicWALL Mobile Connect</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Aruba VIA</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Check Point Mobile VPN</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>IKEv2 (iOS only)</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Custom SSL</string>
-        </property>
-       </item>
-      </widget>
+      <widget class="QComboBox" name="connectionTypeCombo"/>
      </item>
      <item>
       <spacer name="horizontalSpacer">
@@ -251,6 +195,41 @@
     </widget>
    </item>
    <item>
+    <widget class="QWidget" name="identifier" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_17">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>Identifier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_26">
+        <property name="text">
+         <string>Identifier for the custom SSL VPN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="identifierLE"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <widget class="QLabel" name="label_3">
      <property name="text">
       <string>Server</string>
@@ -389,41 +368,6 @@
       </item>
       <item>
        <widget class="QLineEdit" name="groupLE"/>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item>
-    <widget class="QWidget" name="identifier" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_17">
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
-      <property name="topMargin">
-       <number>0</number>
-      </property>
-      <property name="rightMargin">
-       <number>0</number>
-      </property>
-      <property name="bottomMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="label_20">
-        <property name="text">
-         <string>Identifier</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTip_26">
-        <property name="text">
-         <string>Identifier for the custom SSL VPN</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="identifierLE"/>
       </item>
      </layout>
     </widget>
@@ -582,7 +526,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_19">
+       <widget class="QLabel" name="labelLoginGroupOrDomain">
         <property name="text">
          <string>Login Group or Domain</string>
         </property>
@@ -591,7 +535,7 @@
       <item>
        <widget class="QLabel" name="lTip_25">
         <property name="text">
-         <string>Login Group or Domain for authenticating the connection</string>
+         <string>Login Group or Domain for the connection</string>
         </property>
        </widget>
       </item>
@@ -857,7 +801,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="label_6">
+          <widget class="QLabel" name="labelPassword">
            <property name="text">
             <string>Password</string>
            </property>
@@ -899,7 +843,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_15">
+       <widget class="QLabel" name="labelMachineAuthentication">
         <property name="text">
          <string>Machine Authentication</string>
         </property>
@@ -1183,7 +1127,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_21">
+       <widget class="QLabel" name="labelSharedSecret">
         <property name="text">
          <string>Shared Secret</string>
         </property>
@@ -1268,6 +1212,109 @@
           </widget>
          </item>
         </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="PPTPEncryption" native="true">
+     <layout class="QVBoxLayout" name="verticalLayoutEncryptionLevel">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Encryption Level</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_12">
+        <property name="text">
+         <string>Level of data encryption applied to the connection</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QComboBox" name="encryptionLevelCB">
+          <item>
+           <property name="text">
+            <string>None</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Automatic</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Maximum (128-bit)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_11">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="sendAllTraffic" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_14">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="sendAllTrafficCheckBox">
+        <property name="text">
+         <string>Send All Traffic</string>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_6">
+        <property name="text">
+         <string>Routes all network traffic through the VPN connection</string>
+        </property>
        </widget>
       </item>
      </layout>
@@ -1367,10 +1414,7 @@
    </item>
    <item>
     <widget class="QWidget" name="vpnOnDemandRulesConfigurationWidget" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_39">
-      <property name="spacing">
-       <number>0</number>
-      </property>
+     <layout class="QVBoxLayout" name="verticalLayoutVPNOnDemandRulesConfiguration">
       <property name="leftMargin">
        <number>0</number>
       </property>
@@ -1384,9 +1428,16 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_35">
+       <widget class="QLabel" name="labelOnDemandRulesConfiguration">
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;On Demand Rules Configuration XML &lt;br/&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Rules to determine when and how an on-demand VPN should be used&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>On Demand Rules Configuration XML</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_OnDemandRulesConfiguration">
+        <property name="text">
+         <string>Rules to determine when and how an on-demand VPN should be used</string>
         </property>
        </widget>
       </item>
@@ -1416,8 +1467,15 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="PPTPEncryption" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_5">
+    <widget class="QCheckBox" name="vpnOnDemandMatchApp">
+     <property name="text">
+      <string>Enable VPN on Demand match App</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="providerType" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_44" stretch="0,0,0">
       <property name="leftMargin">
        <number>0</number>
       </property>
@@ -1431,42 +1489,37 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_13">
+       <widget class="QLabel" name="labelProviderType">
         <property name="text">
-         <string>Encryption Level</string>
+         <string>Provider type</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="lTip_12">
+       <widget class="QLabel" name="lTip_39">
         <property name="text">
-         <string>Level of data encryption</string>
+         <string>Layer of the tunnel traffic</string>
         </property>
        </widget>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <layout class="QHBoxLayout" name="horizontalLayout_21" stretch="0,0">
         <item>
-         <widget class="QComboBox" name="encryptionLevelCB">
+         <widget class="QComboBox" name="providerTypeCombo">
           <item>
            <property name="text">
-            <string>None</string>
+            <string>app-proxy</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>Automatic</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>Maximum (128-bit)</string>
+            <string>packet-tunnel</string>
            </property>
           </item>
          </widget>
         </item>
         <item>
-         <spacer name="horizontalSpacer_11">
+         <spacer name="horizontalSpacer_23">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
           </property>
@@ -1484,8 +1537,8 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="sendAllTraffic" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_14">
+    <widget class="QWidget" name="safariDomainsWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_40">
       <property name="leftMargin">
        <number>0</number>
       </property>
@@ -1499,21 +1552,52 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QCheckBox" name="sendAllTrafficCheckBox">
+       <widget class="QLabel" name="label_36">
         <property name="text">
-         <string>Send All Traffic</string>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
+         <string>Safari domains</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="lTip_6">
+       <widget class="QLabel" name="lTip_29">
         <property name="text">
-         <string>Routes all network traffic through the VPN connection</string>
+         <string>Domains that should trigger this VPN connection in Safari</string>
         </property>
        </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="safariDomainsList"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_22">
+        <item>
+         <widget class="QToolButton" name="btnAddSafariDomain">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="btnRemoveSafariDomain">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_24">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
       </item>
      </layout>
     </widget>
@@ -2060,6 +2144,147 @@
     </widget>
    </item>
    <item>
+    <widget class="QWidget" name="appIdentifierWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_42">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="gen4AutoLoginSecurityGroupsWidget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayoutGen4AutoLoginSecurityGroups">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_39">
+           <property name="text">
+            <string>Gen4AutoLoginSecurityGroups</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_41">
+           <property name="text">
+            <string>Security group as provided by iBoss</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="gen4AutoLoginSecurityGroupsLE"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_37">
+        <property name="text">
+         <string>App Identifier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_40">
+        <property name="text">
+         <string>iBoss application identifier from app store</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="appIdentifierLE">
+        <property name="text">
+         <string>com.iboss.ibossPerAppProxyClientiOS</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="webSecurityKeyWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_43">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_40">
+        <property name="text">
+         <string>WebSecurityKey</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_42">
+        <property name="text">
+         <string>Security key as provided by iBoss</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="webSecurityKeyLE"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="computerOverrideUserWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_45">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="checkComputerOverrideUser">
+        <property name="text">
+         <string>ComputerOverrideUser</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_43">
+        <property name="text">
+         <string>ComputerOverrideUser setting as provided by iBoss</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <widget class="QWidget" name="proxyWidget" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_27">
       <property name="leftMargin">
@@ -2216,19 +2441,6 @@
            </size>
           </property>
          </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
         </item>
        </layout>
       </item>
@@ -2459,14 +2671,14 @@
       <item>
        <widget class="QLabel" name="lDisconnectOnIdle">
         <property name="text">
-         <string>Disconnect On Idle</string>
+         <string>Disconnect on Idle</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="lTipDisconnectOnIdle">
         <property name="text">
-         <string>Disconnect after given time idle</string>
+         <string>Disconnect after given idle time</string>
         </property>
        </widget>
       </item>

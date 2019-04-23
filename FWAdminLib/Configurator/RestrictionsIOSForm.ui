@@ -520,6 +520,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowSiriServerLogging">
+         <property name="text">
+          <string>Allow server-side logging of Siri commands</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowBookstore">
          <property name="text">
           <string>Allow iBookStore (Supervised devices only)</string>
@@ -638,7 +648,7 @@
        <item>
         <widget class="QCheckBox" name="allowEnablingRestrictions">
          <property name="text">
-          <string>Allow configuring restrictions (Supervised devices only)</string>
+          <string>Allow configuring Restrictions / Screen Time (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -649,6 +659,16 @@
         <widget class="QCheckBox" name="allowWallpaperModification">
          <property name="text">
           <string>Allow modifying Wallpaper (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowPersonalHotspotModification">
+         <property name="text">
+          <string>Allow modifying Personal Hotspot settings (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -692,6 +712,13 @@
          </property>
          <property name="checked">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowESIMModification">
+         <property name="text">
+          <string>Allow modifying eSIM settings (Supervised devices only)</string>
          </property>
         </widget>
        </item>

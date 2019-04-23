@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>674</width>
-    <height>917</height>
+    <width>981</width>
+    <height>1067</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -103,69 +103,6 @@
       <string>Preferences</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_10">
-      <item row="2" column="0">
-       <widget class="QCheckBox" name="checkBoxConfigureChromebooksToken">
-        <property name="text">
-         <string>Configure Chromebooks</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QCheckBox" name="checkBoxChangePreferences">
-        <property name="text">
-         <string>Change Preferences</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="checkBoxUploadServerCertificate">
-        <property name="text">
-         <string>Upload Server Certificate</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <widget class="QCheckBox" name="checkBoxConfigureGcm">
-        <property name="text">
-         <string>Configure GCM</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="2">
-       <widget class="QCheckBox" name="checkBoxConfigureClassroomCertificate">
-        <property name="text">
-         <string>Configure Classroom</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QCheckBox" name="checkBoxConfigureVppTokens">
-        <property name="text">
-         <string>Configure VPP Tokens</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="2">
-       <widget class="QCheckBox" name="checkBoxEngageMigration">
-        <property name="text">
-         <string>Engage Migration</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <widget class="QCheckBox" name="checkBoxConfigureDepAccounts">
-        <property name="text">
-         <string>Configure DEP Accounts</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="QCheckBox" name="checkBoxUploadEngageCertificate">
-        <property name="text">
-         <string>Upload Engage Certificate</string>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="1">
        <widget class="QCheckBox" name="checkBoxDownloadDepCertificate">
         <property name="text">
@@ -180,6 +117,13 @@
         </property>
        </widget>
       </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxChangePreferences">
+        <property name="text">
+         <string>Change Preferences</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="1">
        <widget class="QCheckBox" name="checkBoxUploadMdmMacOsClient">
         <property name="text">
@@ -187,11 +131,74 @@
         </property>
        </widget>
       </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxUploadServerCertificate">
+        <property name="text">
+         <string>Upload Server Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureChromebooksToken">
+        <property name="text">
+         <string>Configure Chromebooks</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="checkBoxConfigureVppTokens">
+        <property name="text">
+         <string>Configure VPP Tokens</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="checkBoxUploadEngageCertificate">
+        <property name="text">
+         <string>Upload Engage Certificate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="checkBoxEngageMigration">
+        <property name="text">
+         <string>Engage Migration</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureServerSettings">
+        <property name="text">
+         <string>Configure Server Settings</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBoxConfigureDepAccounts">
+        <property name="text">
+         <string>Configure DEP Accounts</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QCheckBox" name="checkBoxConfigureClassroomCertificate">
+        <property name="text">
+         <string>Configure Classroom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureFcm">
+        <property name="text">
+         <string>Configure Google Firebase</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_4">
+    <widget class="QGroupBox" name="groupBoxClientsAndGroups">
      <property name="title">
       <string>Clients and Groups</string>
      </property>
@@ -267,7 +274,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_5">
+    <widget class="QGroupBox" name="groupBoxFilesetsAndGroups">
      <property name="title">
       <string>Filesets and Groups</string>
      </property>
@@ -326,7 +333,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_6">
+    <widget class="QGroupBox" name="groupBoxAssociations">
      <property name="title">
       <string>Associations</string>
      </property>
@@ -365,7 +372,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_7">
+    <widget class="QGroupBox" name="groupBoxDEP">
      <property name="title">
       <string>DEP</string>
      </property>
@@ -386,7 +393,7 @@
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="text">
-         <string>Assign Profiles</string>
+         <string>Assign Profiles, Modify Rules</string>
         </property>
        </widget>
       </item>
@@ -397,7 +404,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_2">
+    <widget class="QGroupBox" name="groupBoxDashboard">
      <property name="title">
       <string>Dashboard</string>
      </property>
@@ -421,6 +428,22 @@
       </item>
       <item row="0" column="2">
        <widget class="QWidget" name="widget" native="true"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBoxBoosters">
+     <property name="title">
+      <string>Boosters</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="checkBoxEnrollAndRemoveBoosters">
+        <property name="text">
+         <string>Enroll and Remove Boosters</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -477,7 +500,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBoxCustomFields_2">
+    <widget class="QGroupBox" name="groupBoxFullDiskEncryption">
      <property name="title">
       <string>Full Disk Encryption</string>
      </property>
@@ -509,7 +532,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox_8">
+    <widget class="QGroupBox" name="groupBoxClassroom">
      <property name="title">
       <string>Classroom</string>
      </property>
@@ -518,6 +541,35 @@
        <widget class="QCheckBox" name="accessClassroom">
         <property name="text">
          <string>Access Classroom</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBoxActivationLock">
+     <property name="title">
+      <string>Activation Lock</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_11">
+      <item row="2" column="2">
+       <widget class="QWidget" name="widget_5" native="true"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxConfigureActivationLock">
+        <property name="text">
+         <string>Manage Activation Lock Bypass Codes</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBoxConfigureGlobalActivationLock">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="text">
+         <string>Configure Default Activation Lock Settings</string>
         </property>
        </widget>
       </item>
@@ -600,17 +652,19 @@
   </layout>
   <zorder>groupBox</zorder>
   <zorder>groupBoxGeneral</zorder>
-  <zorder>groupBox_4</zorder>
-  <zorder>groupBox_5</zorder>
-  <zorder>groupBox_6</zorder>
-  <zorder>groupBox_7</zorder>
+  <zorder>groupBoxClientsAndGroups</zorder>
+  <zorder>groupBoxFilesetsAndGroups</zorder>
+  <zorder>groupBoxAssociations</zorder>
+  <zorder>groupBoxDEP</zorder>
   <zorder>selectAll</zorder>
-  <zorder>groupBox_2</zorder>
+  <zorder>groupBoxDashboard</zorder>
   <zorder>groupBoxDiscovery</zorder>
   <zorder>groupBoxCustomFields</zorder>
-  <zorder>groupBoxCustomFields_2</zorder>
-  <zorder>groupBox_8</zorder>
+  <zorder>groupBoxFullDiskEncryption</zorder>
+  <zorder>groupBoxClassroom</zorder>
   <zorder>groupBoxPreferences</zorder>
+  <zorder>groupBoxBoosters</zorder>
+  <zorder>groupBoxActivationLock</zorder>
  </widget>
  <resources/>
  <connections/>

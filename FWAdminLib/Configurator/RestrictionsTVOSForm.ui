@@ -7,8 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>555</width>
-    <height>333</height>
+    <height>354</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>555</width>
+    <height>0</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -16,10 +28,34 @@
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
     <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>531</width>
+       <height>0</height>
+      </size>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
      <widget class="QWidget" name="functionalityTab">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>525</width>
+        <height>0</height>
+       </size>
+      </property>
       <attribute name="title">
        <string>Functionality</string>
       </attribute>
@@ -34,7 +70,7 @@
        <item>
         <widget class="QCheckBox" name="checkBoxAllowAirPlay">
          <property name="text">
-          <string>Allow AirPlay (supervised only)</string>
+          <string>Allow AirPlay (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -44,7 +80,7 @@
        <item>
         <widget class="QCheckBox" name="checkBoxAllowControlUsingRemoteApp">
          <property name="text">
-          <string>Allow pairing with Remote app (supervised only)</string>
+          <string>Allow pairing with Remote app (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -61,7 +97,7 @@
        <item>
         <widget class="QCheckBox" name="checkBoxAllowModifyingName">
          <property name="text">
-          <string>Allow modifying device name (supervised only)</string>
+          <string>Allow modifying device name (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -71,7 +107,7 @@
        <item>
         <widget class="QCheckBox" name="checkBoxAllowPasswordProximityRequests">
          <property name="text">
-          <string>Allow proximity based password sharing requests (supervised only)</string>
+          <string>Allow proximity based password sharing requests (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -81,14 +117,14 @@
        <item>
         <widget class="QCheckBox" name="checkBoxEnableSiriProfanityFilter">
          <property name="text">
-          <string>Enable Siri profanity filter (supervised only)</string>
+          <string>Enable Siri profanity filter (Supervised devices only)</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="checkBoxAllowBookstore">
          <property name="text">
-          <string>Allow iBooks Store (supervised only)</string>
+          <string>Allow iBooks Store (Supervised devices only)</string>
          </property>
          <property name="checked">
           <bool>true</bool>
@@ -106,6 +142,86 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="checkBoxForceAutomaticDateAndTime">
+         <property name="text">
+          <string>Force automatic date and time (Supervised devices only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="checkBoxForceDelayedSoftwareUpdates">
+            <property name="text">
+             <string>Defer software updates for</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="spinBoxEnforcedSoftwareUpdateDelay">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>90</number>
+            </property>
+            <property name="value">
+             <number>30</number>
+            </property>
+            <property name="displayIntegerBase">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>day(s) (Supervised devices only)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="RestrictAppUsageWidget" name="widgetRestrictAppUsage" native="true"/>
        </item>
        <item>
@@ -116,7 +232,7 @@
          <property name="sizeHint" stdset="0">
           <size>
            <width>17</width>
-           <height>114</height>
+           <height>35</height>
           </size>
          </property>
         </spacer>
@@ -132,6 +248,8 @@
       <zorder>checkBoxAllowBookstore</zorder>
       <zorder>checkBoxAllowInAppPurchase</zorder>
       <zorder>checkBoxAllowPasswordProximityRequests</zorder>
+      <zorder>checkBoxForceAutomaticDateAndTime</zorder>
+      <zorder>widget</zorder>
      </widget>
      <widget class="QWidget" name="mediaContentTab">
       <attribute name="title">

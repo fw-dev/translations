@@ -2075,6 +2075,118 @@
           </spacer>
          </item>
          <item>
+          <widget class="QCheckBox" name="allowsScreenshotScreenRecording">
+           <property name="text">
+            <string>Allow screenshots and screen recording</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widgetAllowAirPlay" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_30">
+            <property name="leftMargin">
+             <number>18</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QCheckBox" name="allowAirPlay">
+              <property name="text">
+               <string>Allow AirPlay, View Screen by Classroom, and Screen Sharing</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widgetAllowClassroomAirPlay" native="true">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_31">
+               <property name="leftMargin">
+                <number>18</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="allowClassroomAirPlay">
+                 <property name="enabled">
+                  <bool>true</bool>
+                 </property>
+                 <property name="text">
+                  <string>Allow Classroom to perform AirPlay and View Screen without prompting</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowClassroomLock">
+           <property name="text">
+            <string>Allow Classroom to lock the device without prompting</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="automaticallyJoinClassroom">
+           <property name="text">
+            <string>Automatically join Classroom classes without prompting</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="requireTeacherPermissionToLeave">
+           <property name="text">
+            <string>Require teacher permission to leave Classroom unmanaged classes</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_14">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
           <widget class="QCheckBox" name="allowUseOfiCloudPassword">
            <property name="text">
             <string>Allow use of iCloud password for local accounts</string>

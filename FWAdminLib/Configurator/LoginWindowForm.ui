@@ -226,6 +226,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="m_checkDisableTrueToneDuringLogin">
+         <property name="text">
+          <string>Disable True Tone Display window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="m_checkEnableConsoleLogin">
          <property name="text">
           <string>Enable &gt;console login</string>

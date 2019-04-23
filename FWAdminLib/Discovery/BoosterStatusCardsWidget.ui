@@ -68,6 +68,13 @@
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QCheckBox" name="checkBoxFilterWithoutCert">
+           <property name="text">
+            <string>Without Valid Certificate</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>

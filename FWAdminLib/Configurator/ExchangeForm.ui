@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>572</width>
+    <width>573</width>
     <height>1786</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
    <item>
     <widget class="QLabel" name="lAccountName">
      <property name="text">
@@ -132,68 +132,6 @@
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="checkAllowMove">
-     <property name="text">
-      <string>Allow user to move messages from this account</string>
-     </property>
-     <property name="checked">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipDoNotAllowMove">
-     <property name="text">
-      <string>Messages can be moved out of this account into another</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QCheckBox" name="checkSyncRecentAddress">
-     <property name="text">
-      <string>Allow recent addresses to be synced</string>
-     </property>
-     <property name="checked">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipRecentAddressesSync">
-     <property name="text">
-      <string>Include this account in recent address syncing</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QCheckBox" name="checkBoxAllowMailDrop">
-     <property name="text">
-      <string>Allow Mail Drop</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipAllowMailDrop">
-     <property name="text">
-      <string>Allow Mail Drop for this account</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QCheckBox" name="checkUseOnlyMail">
-     <property name="text">
-      <string>Use Only in Mail</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipUseOnlyMail">
-     <property name="text">
-      <string>Send outgoing mail from this account only from Mail app</string>
-     </property>
-    </widget>
-   </item>
-   <item>
     <widget class="QCheckBox" name="checkBoxOAuth">
      <property name="text">
       <string>Use OAuth for authentication</string>
@@ -242,6 +180,79 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="lAuthenticationCredentialName">
+     <property name="text">
+      <string>Authentication Credential Name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAuthenticationName">
+     <property name="text">
+      <string>Name or description for ActiveSync</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editAuthCredentialName"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="lAuthenticationCredential">
+     <property name="text">
+      <string>Authentication Credential</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAuthenticationCredential">
+     <property name="text">
+      <string>Credential for authenticating the ActiveSync account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboCredential">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lAuthenticationCredentialPassphrase">
+     <property name="text">
+      <string>Authentication Credential Passphrase</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAuthenticationCredentialPassphrase">
+     <property name="text">
+      <string>The device will prompt the user for the passphrase if not given</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="editAuthCredentialPassphrase">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBoxAllowMailDrop">
+     <property name="text">
+      <string>Allow Mail Drop</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowMailDrop">
+     <property name="text">
+      <string>Allow Mail Drop for this account</string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QStackedWidget" name="specificOptions">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -253,7 +264,7 @@
       <number>0</number>
      </property>
      <widget class="QWidget" name="page">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -266,6 +277,54 @@
        <property name="bottomMargin">
         <number>0</number>
        </property>
+       <item>
+        <widget class="QCheckBox" name="checkAllowMove">
+         <property name="text">
+          <string>Allow user to move messages from this account</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipDoNotAllowMove">
+         <property name="text">
+          <string>Messages can be moved out of this account into another</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkSyncRecentAddress">
+         <property name="text">
+          <string>Allow recent addresses to be synced</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipRecentAddressesSync">
+         <property name="text">
+          <string>Include this account in recent address syncing</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkUseOnlyMail">
+         <property name="text">
+          <string>Use Only in Mail</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipUseOnlyMail">
+         <property name="text">
+          <string>Send outgoing mail from this account only from Mail app</string>
+         </property>
+        </widget>
+       </item>
        <item>
         <widget class="QLabel" name="lHost">
          <property name="text">
@@ -318,65 +377,6 @@
         <widget class="QComboBox" name="comboPastDays">
          <property name="currentIndex">
           <number>-1</number>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lAuthenticationCredentialName">
-         <property name="text">
-          <string>Authentication Credential Name</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lTipAuthenticationName">
-         <property name="text">
-          <string>Name or description for ActiveSync</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="editAuthCredentialName"/>
-       </item>
-       <item>
-        <widget class="QLabel" name="lAuthenticationCredential">
-         <property name="text">
-          <string>Authentication Credential</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lTipAuthenticationCredential">
-         <property name="text">
-          <string>Credential for authenticating the ActiveSync account</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QComboBox" name="comboCredential">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lAuthenticationCredentialPassphrase">
-         <property name="text">
-          <string>Authentication Credential Passphrase</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lTipAuthenticationCredentialPassphrase">
-         <property name="text">
-          <string>The device will prompt the user for the passphrase if not given</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="editAuthCredentialPassphrase">
-         <property name="echoMode">
-          <enum>QLineEdit::Password</enum>
          </property>
         </widget>
        </item>
@@ -522,6 +522,23 @@
        </item>
        <item>
         <widget class="QLineEdit" name="editHeaderMagic"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="CommunicationServiceRulesTitle">
+         <property name="text">
+          <string>Communication Service Rules</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipCommunicationServiceRules">
+         <property name="text">
+          <string>Default app to be used when calling contacts from this account</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
        </item>
       </layout>
      </widget>
@@ -699,23 +716,6 @@
       </layout>
      </widget>
     </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="CommunicationServiceRulesTitle">
-     <property name="text">
-      <string>Communication Service Rules</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipCommunicationServiceRules">
-     <property name="text">
-      <string>Default app to be used when calling contacts from this account</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
    </item>
    <item>
     <spacer name="verticalSpacer_2">

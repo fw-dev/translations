@@ -29,7 +29,7 @@
    <item>
     <widget class="QLabel" name="labelRestrictAppUsage">
      <property name="text">
-      <string>Restrict App Usage (supervised only)</string>
+      <string>Restrict App Usage (Supervised devices only)</string>
      </property>
     </widget>
    </item>

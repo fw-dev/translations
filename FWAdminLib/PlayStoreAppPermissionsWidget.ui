@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlayStoreAppPermissionsWidget</class>
+ <widget class="QWidget" name="PlayStoreAppPermissionsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Play Store App Configurator</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="lbl_title_appDefaultPermission">
+         <property name="text">
+          <string>App Default Permission</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="frm_appDefaultPermission"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTip_desc_appDefaultPermission">
+         <property name="text">
+          <string>The default action devices will take when an app requests a permission.   Changes made here affect solely this application and take precedence over the policy default permission, the app default permission (dropdown above), and policy-wide permission grants.</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout"/>
+   </item>
+   <item>
+    <widget class="AndroidPermissionsWidget" name="permissions" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AndroidPermissionsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/AndroidPermissionsWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

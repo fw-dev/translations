@@ -92,9 +92,6 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="1" colspan="2">
-      <widget class="QLineEdit" name="lineEditAddress"/>
-     </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_3">
        <property name="text">
@@ -121,12 +118,8 @@
        </property>
       </widget>
      </item>
-     <item row="3" column="1">
-      <widget class="QCheckBox" name="cbSSL">
-       <property name="text">
-        <string>SSL</string>
-       </property>
-      </widget>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEditAddress"/>
      </item>
     </layout>
    </item>
@@ -150,11 +143,8 @@
   <tabstop>bonjourView</tabstop>
   <tabstop>lineEditAddress</tabstop>
   <tabstop>spinBoxPort</tabstop>
-  <tabstop>cbSSL</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources>
-  <include location="QtBoosterMonitor.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

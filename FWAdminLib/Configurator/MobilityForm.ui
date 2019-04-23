@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>537</width>
-    <height>589</height>
+    <height>618</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -86,6 +86,36 @@
            </property>
            <property name="text">
             <string>Show &quot;Don't ask me again&quot; checkbox                        </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_24">
+         <item>
+          <spacer name="horizontalSpacer_13">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>13</width>
+             <height>13</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="bypassSecureTokenCB">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Bypass SecureToken dialog</string>
            </property>
           </widget>
          </item>
@@ -1145,11 +1175,12 @@
   <tabstop>createMobileAccountCB</tabstop>
   <tabstop>requireConfirmationCB</tabstop>
   <tabstop>showDontAskCB</tabstop>
+  <tabstop>bypassSecureTokenCB</tabstop>
   <tabstop>networkHomeRB</tabstop>
   <tabstop>localHomeRB</tabstop>
   <tabstop>encryptContentCB</tabstop>
-  <tabstop>requireComputerMasterPasswordRB</tabstop>
   <tabstop>userComputerMasterPasswordRB</tabstop>
+  <tabstop>requireComputerMasterPasswordRB</tabstop>
   <tabstop>restrictSizeCB</tabstop>
   <tabstop>toFixedSizeRB</tabstop>
   <tabstop>toFixedSizeLE</tabstop>
@@ -1177,7 +1208,6 @@
   <tabstop>prefSkipItemAddTB</tabstop>
   <tabstop>prefSkipItemRemoveTB</tabstop>
   <tabstop>prefMergeWithUserCB</tabstop>
-  <tabstop>homeAtLoginCB</tabstop>
   <tabstop>homeAtLogoutCB</tabstop>
   <tabstop>homeInTheBackgroundCB</tabstop>
   <tabstop>homeManuallyCB</tabstop>
@@ -1192,6 +1222,7 @@
   <tabstop>rulesOptionsEveryRB</tabstop>
   <tabstop>syncInBackgroudLE</tabstop>
   <tabstop>showStatusInMenuBarCB</tabstop>
+  <tabstop>homeAtLoginCB</tabstop>
  </tabstops>
  <resources/>
  <connections/>

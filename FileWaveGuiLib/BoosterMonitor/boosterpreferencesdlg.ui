@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>622</width>
-    <height>736</height>
+    <width>624</width>
+    <height>772</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -136,6 +136,53 @@
        </widget>
       </item>
       <item row="6" column="0">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>FileWave Server Address:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="lineEditServer"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_22">
+        <property name="text">
+         <string>Inventory port:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QSpinBox" name="spinBoxPortServer">
+          <property name="maximum">
+           <number>65535</number>
+          </property>
+          <property name="value">
+           <number>20443</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="8" column="0">
        <widget class="QLabel" name="label_4">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
@@ -151,7 +198,7 @@
         </property>
        </widget>
       </item>
-      <item row="6" column="1">
+      <item row="8" column="1">
        <widget class="QComboBox" name="comboBoxThreads">
         <item>
          <property name="text">
@@ -190,17 +237,17 @@
         </item>
        </widget>
       </item>
-      <item row="7" column="0">
+      <item row="9" column="0">
        <widget class="QLabel" name="label_20">
         <property name="text">
          <string>Maximum Client Connections</string>
         </property>
        </widget>
       </item>
-      <item row="7" column="1">
+      <item row="9" column="1">
        <widget class="QLineEdit" name="maxClientConnections"/>
       </item>
-      <item row="8" column="0">
+      <item row="10" column="0">
        <widget class="QLabel" name="label_7">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
@@ -216,7 +263,7 @@
         </property>
        </widget>
       </item>
-      <item row="8" column="1">
+      <item row="10" column="1">
        <widget class="QComboBox" name="comboBoxDebugLevel">
         <item>
          <property name="text">
@@ -235,7 +282,7 @@
         </item>
        </widget>
       </item>
-      <item row="9" column="0">
+      <item row="11" column="0">
        <widget class="QLabel" name="label_8">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
@@ -251,7 +298,7 @@
         </property>
        </widget>
       </item>
-      <item row="9" column="1">
+      <item row="11" column="1">
        <widget class="QCheckBox" name="checkBoxDeleteUnusedFilesets">
         <property name="text">
          <string/>
@@ -261,7 +308,7 @@
         </property>
        </widget>
       </item>
-      <item row="10" column="0">
+      <item row="12" column="0">
        <widget class="QLabel" name="label_14">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
@@ -277,7 +324,7 @@
         </property>
        </widget>
       </item>
-      <item row="10" column="1">
+      <item row="12" column="1">
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
          <widget class="QSpinBox" name="spinBoxFilesetValidationInterval">
@@ -310,7 +357,7 @@
         </item>
        </layout>
       </item>
-      <item row="11" column="0">
+      <item row="13" column="0">
        <widget class="QLabel" name="label_19">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
@@ -326,7 +373,7 @@
         </property>
        </widget>
       </item>
-      <item row="11" column="1">
+      <item row="13" column="1">
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
          <widget class="QCheckBox" name="bandwidthCheckbox">
@@ -386,19 +433,45 @@
      <property name="title">
       <string>Booster Server Prefs</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0" columnstretch="0,0,0,0,0,0,0">
-      <item row="4" column="2">
-       <widget class="QLineEdit" name="lineEditServer4"/>
-      </item>
-      <item row="2" column="3">
-       <widget class="QSpinBox" name="spinBoxPort2">
+     <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0,0" columnstretch="0,0,0,0,0,0,0">
+      <item row="6" column="3">
+       <widget class="QSpinBox" name="spinBoxPort5">
         <property name="maximum">
          <number>65535</number>
         </property>
        </widget>
       </item>
-      <item row="2" column="0">
+      <item row="5" column="2">
+       <widget class="QLineEdit" name="lineEditServer4"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLineEdit" name="lineEditServer2"/>
+      </item>
+      <item row="3" column="0">
        <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="3">
+       <widget class="QSpinBox" name="spinBoxPort3">
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="6">
+       <spacer name="horizontalSpacer_2">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -410,17 +483,26 @@
         </property>
        </spacer>
       </item>
-      <item row="4" column="1">
-       <widget class="QLabel" name="label_12">
-        <property name="text">
-         <string>Server 4:</string>
-        </property>
-       </widget>
+      <item row="4" column="2">
+       <widget class="QLineEdit" name="lineEditServer3"/>
       </item>
-      <item row="5" column="1">
+      <item row="6" column="1">
        <widget class="QLabel" name="label_13">
         <property name="text">
          <string>Server 5:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Server 2:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
         </property>
        </widget>
       </item>
@@ -434,28 +516,18 @@
         </property>
        </widget>
       </item>
-      <item row="3" column="6">
-       <spacer name="horizontalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+      <item row="5" column="1">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Server 4:</string>
         </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="5" column="2">
-       <widget class="QLineEdit" name="lineEditServer5"/>
-      </item>
-      <item row="4" column="3">
-       <widget class="QSpinBox" name="spinBoxPort4">
-        <property name="maximum">
-         <number>65535</number>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
         </property>
        </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLineEdit" name="lineEditServer5"/>
       </item>
       <item row="0" column="3">
        <widget class="QLabel" name="label_3">
@@ -467,88 +539,41 @@
         </property>
        </widget>
       </item>
-      <item row="3" column="3">
-       <widget class="QSpinBox" name="spinBoxPort3">
+      <item row="5" column="3">
+       <widget class="QSpinBox" name="spinBoxPort4">
         <property name="maximum">
          <number>65535</number>
         </property>
        </widget>
       </item>
-      <item row="3" column="2">
-       <widget class="QLineEdit" name="lineEditServer3"/>
-      </item>
-      <item row="2" column="1">
-       <widget class="QLabel" name="label_10">
-        <property name="text">
-         <string>Server 2:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
+      <item row="4" column="1">
        <widget class="QLabel" name="label_11">
         <property name="text">
          <string>Server 3:</string>
         </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
        </widget>
       </item>
-      <item row="5" column="3">
-       <widget class="QSpinBox" name="spinBoxPort5">
+      <item row="3" column="3">
+       <widget class="QSpinBox" name="spinBoxPort2">
         <property name="maximum">
          <number>65535</number>
         </property>
        </widget>
       </item>
-      <item row="2" column="2">
-       <widget class="QLineEdit" name="lineEditServer2"/>
-      </item>
-      <item row="1" column="1">
-       <widget class="QLabel" name="label_9">
-        <property name="text">
-         <string>Server 1:</string>
+      <item row="3" column="4">
+       <widget class="QSpinBox" name="spinBoxSubsPort2">
+        <property name="enabled">
+         <bool>false</bool>
         </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="QLineEdit" name="lineEditServer1"/>
-      </item>
-      <item row="1" column="3">
-       <widget class="QSpinBox" name="spinBoxPort1">
         <property name="maximum">
          <number>65535</number>
         </property>
        </widget>
       </item>
       <item row="5" column="5">
-       <widget class="BonjourServiceView" name="bonjourView5">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="5">
-       <widget class="BonjourServiceView" name="bonjourView3">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="5">
-       <widget class="BonjourServiceView" name="bonjourView1">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="5">
        <widget class="BonjourServiceView" name="bonjourView4">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -558,20 +583,30 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="5">
+      <item row="2" column="3">
+       <widget class="QSpinBox" name="spinBoxPort1">
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="QSpinBox" name="spinBoxSubsPort3">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="maximum">
+         <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5">
        <widget class="BonjourServiceView" name="bonjourView2">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="4">
-       <widget class="QSpinBox" name="spinBoxSubsPort1">
-        <property name="maximum">
-         <number>65535</number>
         </property>
        </widget>
       </item>
@@ -582,27 +617,50 @@
         </property>
        </widget>
       </item>
+      <item row="2" column="5">
+       <widget class="BonjourServiceView" name="bonjourView1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
       <item row="2" column="4">
-       <widget class="QSpinBox" name="spinBoxSubsPort2">
+       <widget class="QSpinBox" name="spinBoxSubsPort1">
         <property name="enabled">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="maximum">
          <number>65535</number>
         </property>
        </widget>
       </item>
-      <item row="3" column="4">
-       <widget class="QSpinBox" name="spinBoxSubsPort3">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="maximum">
-         <number>65535</number>
+      <item row="4" column="5">
+       <widget class="BonjourServiceView" name="bonjourView3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
        </widget>
       </item>
-      <item row="4" column="4">
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Server 1:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="lineEditServer1"/>
+      </item>
+      <item row="5" column="4">
        <widget class="QSpinBox" name="spinBoxSubsPort4">
         <property name="enabled">
          <bool>false</bool>
@@ -612,13 +670,23 @@
         </property>
        </widget>
       </item>
-      <item row="5" column="4">
+      <item row="6" column="4">
        <widget class="QSpinBox" name="spinBoxSubsPort5">
         <property name="enabled">
          <bool>false</bool>
         </property>
         <property name="maximum">
          <number>65535</number>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="5">
+       <widget class="BonjourServiceView" name="bonjourView5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
        </widget>
       </item>
@@ -648,6 +716,8 @@
   <tabstop>spinBox_BoosterPublishPort</tabstop>
   <tabstop>lineEditPassword</tabstop>
   <tabstop>lineEditPasswordConfirmation</tabstop>
+  <tabstop>lineEditServer</tabstop>
+  <tabstop>spinBoxPortServer</tabstop>
   <tabstop>comboBoxThreads</tabstop>
   <tabstop>maxClientConnections</tabstop>
   <tabstop>comboBoxDebugLevel</tabstop>

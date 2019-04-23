@@ -1454,7 +1454,151 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
         <number>0</number>
        </property>
        <item>
-        <widget class="PListEditor" name="iosConfig" native="true"/>
+        <widget class="QWidget" name="iosConfigWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <widget class="PListEditor" name="iosConfig" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBoxPerAppVPN">
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2" columnstretch="0,0,0">
+             <item row="0" column="0">
+              <widget class="QLabel" name="labelPerAppVPNPayload">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Per-App VPN:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QComboBox" name="comboBoxPerAppVPNPayload">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>250</width>
+                 <height>0</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="3">
+              <widget class="QLabel" name="labelPerAppVPNNote1">
+               <property name="text">
+                <string>*This App should be managed in order to use Per-App VPN</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="3">
+              <widget class="QLabel" name="labelPerAppVPNNote2">
+               <property name="text">
+                <string>*Make sure that selected Per-App VPN payload is deployed to your device</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabPlayStoreApp_Configuration">
+      <attribute name="title">
+       <string>Configuration</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="layoutPlayStoreAppConfiguration">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="PlayStoreAppConfigurator" name="playStoreAppConfigurationWidget" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabPlayStoreApp_Permissions">
+      <attribute name="title">
+       <string>Permissions</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="layoutPlayStoreAppPermission">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="PlayStoreAppPermissionsWidget" name="playStoreAppPermissionsWidget" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabPlayStoreApp_ManagedProperties">
+      <attribute name="title">
+       <string>Managed Properties</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="layoutPlayStoreAppManagedProperties">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="PlayStoreAppManagedPropertiesWidget" name="playStoreAppManagedPropertiesWidget" native="true"/>
        </item>
       </layout>
      </widget>
@@ -1502,6 +1646,24 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
    <class>RichTextEditor</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/RichTextEditor.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PlayStoreAppConfigurator</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/PlayStoreAppConfigurator.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PlayStoreAppPermissionsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/PlayStoreAppPermissionsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PlayStoreAppManagedPropertiesWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/PlayStoreAppManagedPropertiesWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

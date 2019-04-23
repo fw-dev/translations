@@ -40,7 +40,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
         <x>0</x>
         <y>0</y>
         <width>541</width>
-        <height>793</height>
+        <height>1669</height>
        </rect>
       </property>
       <property name="palette">
@@ -121,7 +121,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
           <item>
            <widget class="QLabel" name="lTipInventoryQueries">
             <property name="text">
-             <string>The following inventory queries are using this custom field:</string>
+             <string>The following inventory queries are using selected custom field(s):</string>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -165,6 +165,11 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
             </property>
             <column>
              <property name="text">
+              <string>Custom Field</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
               <string>Inventory Query</string>
              </property>
             </column>
@@ -186,7 +191,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
           <item>
            <widget class="QLabel" name="lTipSmartGroups">
             <property name="text">
-             <string>The following smart groups contain inventory queries in their criteria that are using this custom field:</string>
+             <string>The following smart groups contain inventory queries in their criteria that are using selected custom field(s):</string>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -224,6 +229,11 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
             </property>
             <column>
              <property name="text">
+              <string>Custom Field</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
               <string>Smart Group</string>
              </property>
             </column>
@@ -250,7 +260,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
           <item>
            <widget class="QLabel" name="lTipFilesets">
             <property name="text">
-             <string>The following filesets are using this custom field either in profiles or scripts:</string>
+             <string>The following filesets are using selected custom field(s) either in profiles or scripts:</string>
             </property>
             <property name="wordWrap">
              <bool>true</bool>
@@ -288,12 +298,209 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
             </property>
             <column>
              <property name="text">
+              <string>Custom Field</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
               <string>Fileset Name</string>
              </property>
             </column>
             <column>
              <property name="text">
               <string>Affected Clients</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="licenseDefinitionsContainer" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="lSectionLicenseDefinitions">
+            <property name="text">
+             <string>License Definitions</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipLicenseDefinitions">
+            <property name="text">
+             <string>The following license definitions are using selected custom field(s):</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="licenseDefinitions">
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="showDropIndicator" stdset="0">
+             <bool>false</bool>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="rootIsDecorated">
+             <bool>false</bool>
+            </property>
+            <property name="itemsExpandable">
+             <bool>false</bool>
+            </property>
+            <property name="sortingEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="allColumnsShowFocus">
+             <bool>true</bool>
+            </property>
+            <property name="expandsOnDoubleClick">
+             <bool>false</bool>
+            </property>
+            <column>
+             <property name="text">
+              <string>Custom Field</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>License Definition</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="depProfilesContainer" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLabel" name="lSectionDepProfiles">
+            <property name="text">
+             <string>DEP Profiles</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipDepProfiles">
+            <property name="text">
+             <string>The following DEP profiles are using selected custom field(s):</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="depProfiles">
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="showDropIndicator" stdset="0">
+             <bool>false</bool>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="rootIsDecorated">
+             <bool>false</bool>
+            </property>
+            <property name="itemsExpandable">
+             <bool>false</bool>
+            </property>
+            <property name="sortingEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="allColumnsShowFocus">
+             <bool>true</bool>
+            </property>
+            <property name="expandsOnDoubleClick">
+             <bool>false</bool>
+            </property>
+            <column>
+             <property name="text">
+              <string>Custom Field</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>DEP Profile</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="depRulesContainer" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QLabel" name="lSectionDepRules">
+            <property name="text">
+             <string>DEP Rules</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipDepRules">
+            <property name="text">
+             <string>The following DEP auto assignment rules are using selected custom field(s):</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="depRules">
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="showDropIndicator" stdset="0">
+             <bool>false</bool>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="rootIsDecorated">
+             <bool>false</bool>
+            </property>
+            <property name="itemsExpandable">
+             <bool>false</bool>
+            </property>
+            <property name="sortingEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="allColumnsShowFocus">
+             <bool>true</bool>
+            </property>
+            <property name="expandsOnDoubleClick">
+             <bool>false</bool>
+            </property>
+            <column>
+             <property name="text">
+              <string>Custom Field</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>DEP Rule</string>
              </property>
             </column>
            </widget>

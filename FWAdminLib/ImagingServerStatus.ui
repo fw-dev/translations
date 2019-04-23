@@ -15,19 +15,12 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0,0,0">
-     <item row="7" column="0">
-      <widget class="QLabel" name="labelCertificate">
-       <property name="text">
-        <string>FileWave server certificate:</string>
-       </property>
-      </widget>
+    <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0,0,0,0">
+     <item row="2" column="1">
+      <widget class="OnlineStatus" name="osNBI"/>
      </item>
-     <item row="3" column="1">
-      <widget class="OnlineStatus" name="osInventory"/>
-     </item>
-     <item row="3" column="2">
-      <widget class="QLabel" name="lbInventory">
+     <item row="1" column="2">
+      <widget class="QLabel" name="lbClientStatus">
        <property name="sizePolicy">
         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
          <horstretch>0</horstretch>
@@ -39,20 +32,10 @@
        </property>
       </widget>
      </item>
-     <item row="5" column="0">
-      <widget class="QLabel" name="label_5">
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>Imaging admin settings:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="OnlineStatus" name="osNBI"/>
-     </item>
-     <item row="6" column="0">
-      <widget class="QLabel" name="label_6">
-       <property name="text">
-        <string>Pending Windows images:</string>
+        <string>FileWave server settings:</string>
        </property>
       </widget>
      </item>
@@ -63,18 +46,42 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="QLabel" name="label_4">
+     <item row="6" column="2">
+      <widget class="QLabel" name="lbWindows">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="text">
-        <string>FileWave server settings:</string>
+        <string/>
        </property>
       </widget>
      </item>
-     <item row="5" column="1">
-      <widget class="OnlineStatus" name="osAdmin"/>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Version match:</string>
+       </property>
+      </widget>
      </item>
-     <item row="2" column="2">
-      <widget class="QLabel" name="lbNBI">
+     <item row="8" column="0">
+      <widget class="QLabel" name="labelIVSCertificate">
+       <property name="text">
+        <string>Imaging server certificate:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="labelCertificate">
+       <property name="text">
+        <string>FileWave server certificate:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLabel" name="lbServerCertificate">
        <property name="sizePolicy">
         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
          <horstretch>0</horstretch>
@@ -93,8 +100,8 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="2">
-      <widget class="QLabel" name="lbClientStatus">
+     <item row="4" column="2">
+      <widget class="QLabel" name="lbServer">
        <property name="sizePolicy">
         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
          <horstretch>0</horstretch>
@@ -106,18 +113,50 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="OnlineStatus" name="osClientStatus"/>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_3">
+     <item row="3" column="2">
+      <widget class="QLabel" name="lbInventory">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="text">
-        <string>Inventory settings:</string>
+        <string/>
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
-      <widget class="OnlineStatus" name="osServer"/>
+     <item row="2" column="2">
+      <widget class="QLabel" name="lbNBI">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="OnlineStatus" name="osVersion"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="OnlineStatus" name="osAdmin"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="OnlineStatus" name="osClientStatus"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Imaging admin settings:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="OnlineStatus" name="osInventory"/>
      </item>
      <item row="5" column="2">
       <widget class="QLabel" name="lbAdmin">
@@ -132,21 +171,25 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="2">
-      <widget class="QLabel" name="lbServer">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
+     <item row="6" column="1">
+      <widget class="OnlineStatus" name="osWindows"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="OnlineStatus" name="osServer"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_3">
        <property name="text">
-        <string/>
+        <string>Inventory settings:</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="1">
-      <widget class="OnlineStatus" name="osWindows"/>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Pending Windows images:</string>
+       </property>
+      </widget>
      </item>
      <item row="0" column="2">
       <widget class="QLabel" name="lbVersion">
@@ -155,44 +198,28 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="label_7">
-       <property name="text">
-        <string>Version match:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="OnlineStatus" name="osVersion"/>
-     </item>
-     <item row="6" column="2">
-      <widget class="QLabel" name="lbWindows">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="2">
-      <widget class="QLabel" name="lbServerCertificate">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
      <item row="7" column="1">
       <widget class="OnlineStatus" name="osServerCertificate">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="OnlineStatus" name="osIVSCertificate">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLabel" name="lbIVSCertificate">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="text">
         <string/>
        </property>

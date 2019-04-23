@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1059</width>
-    <height>629</height>
+    <height>648</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -146,8 +146,8 @@
       <item>
        <widget class="QLabel" name="label_7">
         <property name="text">
-         <string>Forcing a user to log out is useful for shared iPad using iOS 9 because applications can only be deployed when there is no user logged in.
-Starting from iOS 10 applications can be deployed when user is logged in.</string>
+         <string>Installing applications on iOS 9 or updating iOS (all versions) require no logged in user.
+When checked, all users will be logged out and apps or iOS update checks will be performed.</string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>
@@ -338,7 +338,7 @@ Starting from iOS 10 applications can be deployed when user is logged in.</strin
             </sizepolicy>
            </property>
            <property name="text">
-            <string>The Apple Classrom app caches images, you will have to reset the cache if your students' pictures have changed.
+            <string>The Apple Classroom app caches images, you will have to reset the cache if your students' pictures have changed.
 Resetting the image cache will also cause the education profile to be redeployed. </string>
            </property>
            <property name="wordWrap">

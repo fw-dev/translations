@@ -4,37 +4,37 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="20"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="21"/>
         <source>FileWave</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="21"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="22"/>
         <source>filewave.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="22"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="23"/>
         <source>SuperPrefs Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="30"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="31"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="31"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Ctrl+W</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>About %1</source>
         <translation type="unfinished"></translation>
     </message>

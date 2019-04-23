@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>922</width>
-    <height>745</height>
+    <height>782</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -370,6 +370,86 @@
        <string>Disable Bluetooth</string>
       </property>
      </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Remote Desktop (macOS 10.14.4+)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRemoveDesktop">
+     <property name="text">
+      <string>Command to enable or disable Remote Desktop is sent when the profile is deployed.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cbRemoteDesktop">
+     <item>
+      <property name="text">
+       <string>Don't change Remote Desktop</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Enable Remote Desktop</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Disable Remote Desktop</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>15</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="ckDisableRemoteDesktopOnRemove">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Disable Remote Desktop when fileset is removed</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
    <item>

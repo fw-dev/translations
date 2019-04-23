@@ -100,17 +100,17 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="17"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="18"/>
         <source>FileWave</source>
         <translation>FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="18"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
         <source>filewave.com</source>
         <translation>filewave.com</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
         <source>FileWave Client Assistant</source>
         <translation>FileWave クライアントアシスタント</translation>
     </message>

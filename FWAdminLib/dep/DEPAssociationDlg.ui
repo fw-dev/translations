@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>991</width>
-    <height>631</height>
+    <width>1097</width>
+    <height>532</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -76,34 +76,37 @@
             </widget>
            </item>
            <item>
-            <spacer name="horizontalSpacer_3">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>40</width>
-               <height>20</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-           <item>
-            <widget class="QLabel" name="label">
+            <widget class="QLabel" name="accountsLabel">
              <property name="text">
               <string>Accounts</string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QComboBox" name="depAccountCombo">
-             <property name="minimumSize">
-              <size>
-               <width>150</width>
-               <height>0</height>
-              </size>
+            <widget class="QComboBox" name="depAccountCombo"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="autoAssignmentLabel">
+             <property name="text">
+              <string>Auto-assignment</string>
              </property>
             </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="autoAssignmentCombo"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>10</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
            </item>
            <item>
             <widget class="QLabel" name="deviceCount">
@@ -139,6 +142,9 @@
         </item>
         <item>
          <widget class="StyledTreeView" name="deviceView">
+          <property name="contextMenuPolicy">
+           <enum>Qt::CustomContextMenu</enum>
+          </property>
           <property name="frameShape">
            <enum>QFrame::NoFrame</enum>
           </property>
@@ -162,6 +168,9 @@
         <item>
          <widget class="QWidget" name="deviceToolBar" native="true">
           <layout class="QHBoxLayout" name="deviceNumberBox">
+           <property name="spacing">
+            <number>4</number>
+           </property>
            <property name="leftMargin">
             <number>4</number>
            </property>
@@ -196,6 +205,26 @@
               </size>
              </property>
             </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="editAssignmentRulesButton">
+             <property name="text">
+              <string>Edit Assignment Rules</string>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="applyAssignmentRulesButton">
+             <property name="text">
+              <string>Apply Assignment Rules</string>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+            </widget>
            </item>
           </layout>
          </widget>
@@ -561,6 +590,9 @@
            <property name="autoDefault">
             <bool>false</bool>
            </property>
+           <property name="default">
+            <bool>true</bool>
+           </property>
           </widget>
          </item>
         </layout>
@@ -573,21 +605,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledTreeView</class>
-   <extends>QTreeView</extends>
-   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
-  </customwidget>
-  <customwidget>
-   <class>PrettySplitter</class>
-   <extends>QSplitter</extends>
-   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>CircularProgressIndicator</class>
    <extends>QWidget</extends>
    <header>FileWaveGuiLib/circularprogressindicator.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
   <customwidget>
    <class>SearchLineEdit</class>
@@ -598,6 +624,12 @@
    <class>ViewSearchHeader</class>
    <extends>QWidget</extends>
    <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PrettySplitter</class>
+   <extends>QSplitter</extends>
+   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

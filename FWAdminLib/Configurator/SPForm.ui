@@ -294,114 +294,79 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_7">
        <item>
-        <widget class="QCheckBox" name="checkBoxEnableFirewall">
+        <widget class="QCheckBox" name="checkBoxManageFirewallSettings">
          <property name="text">
-          <string>Enable Firewall</string>
+          <string>Manage Firewall Settings</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QWidget" name="widgetEnableFirewall" native="true">
+        <widget class="QWidget" name="widgetManageFirewallSettings" native="true">
          <layout class="QVBoxLayout" name="verticalLayout_8">
           <property name="leftMargin">
            <number>20</number>
           </property>
           <item>
-           <widget class="QCheckBox" name="checkBoxBlockAllIncomingConnections">
+           <widget class="QRadioButton" name="radioButtonFirewallEnabled">
             <property name="text">
-             <string>Block all incoming connections</string>
+             <string>Enable Firewall</string>
             </property>
            </widget>
           </item>
           <item>
-           <layout class="QVBoxLayout" name="verticalLayout_10">
-            <property name="leftMargin">
-             <number>20</number>
+           <widget class="QRadioButton" name="radioButtonFirewallDisabled">
+            <property name="text">
+             <string>Disable Firewall</string>
             </property>
-            <item>
-             <widget class="QLabel" name="lTipBlocksAllIncomingConnections">
-              <property name="text">
-               <string>Blocks all incoming connections except those required for basic Internet services, such as DHCP, Bonjour, and IPSec</string>
-              </property>
-              <property name="wordWrap">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-           </layout>
+           </widget>
           </item>
           <item>
-           <widget class="QWidget" name="widgetBlockAllIncomingConnections" native="true">
-            <layout class="QVBoxLayout" name="verticalLayout_9">
+           <spacer name="verticalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>5</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetEnabledFirewallSettings" native="true">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
              <property name="leftMargin">
               <number>0</number>
              </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
              <item>
-              <widget class="QLabel" name="labelAppSpecific">
+              <widget class="QCheckBox" name="checkBoxBlockAllIncomingConnections">
                <property name="text">
-                <string>App Specific Incoming Connection Settings</string>
+                <string>Block all incoming connections</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="StyledTreeWidget" name="treeWidgetAllowApp">
-               <property name="indentation">
-                <number>0</number>
-               </property>
-               <column>
-                <property name="text">
-                 <string>Allow App</string>
-                </property>
-               </column>
-              </widget>
-             </item>
-             <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_2">
-               <item>
-                <widget class="QToolButton" name="toolButtonAddApp">
-                 <property name="text">
-                  <string>+</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QToolButton" name="toolButtonRemoveApp">
-                 <property name="text">
-                  <string>-</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <spacer name="horizontalSpacer">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>40</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-              </layout>
-             </item>
-             <item>
-              <widget class="QCheckBox" name="checkBoxEnableStealthMode">
-               <property name="text">
-                <string>Enable stealth mode</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_11">
+              <layout class="QVBoxLayout" name="verticalLayout_10">
                <property name="leftMargin">
                 <number>20</number>
                </property>
                <item>
-                <widget class="QLabel" name="lTipDontRespondTo">
+                <widget class="QLabel" name="lTipBlocksAllIncomingConnections">
                  <property name="text">
-                  <string>Don't respond to or acknowledge attempts to access this computer from the network by test applications using ICMP, such as Ping</string>
+                  <string>Blocks all incoming connections except those required for basic Internet services, such as DHCP, Bonjour, and IPSec</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -409,6 +374,89 @@
                 </widget>
                </item>
               </layout>
+             </item>
+             <item>
+              <widget class="QWidget" name="widgetBlockAllIncomingConnections" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="labelAppSpecific">
+                  <property name="text">
+                   <string>App Specific Incoming Connection Settings</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="StyledTreeWidget" name="treeWidgetAllowApp">
+                  <property name="indentation">
+                   <number>0</number>
+                  </property>
+                  <column>
+                   <property name="text">
+                    <string>Allow App</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_2">
+                  <item>
+                   <widget class="QToolButton" name="toolButtonAddApp">
+                    <property name="text">
+                     <string>+</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QToolButton" name="toolButtonRemoveApp">
+                    <property name="text">
+                     <string>-</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBoxEnableStealthMode">
+                  <property name="text">
+                   <string>Enable stealth mode</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <property name="leftMargin">
+                   <number>20</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="lTipDontRespondTo">
+                    <property name="text">
+                     <string>Don't respond to or acknowledge attempts to access this computer from the network by test applications using ICMP, such as Ping</string>
+                    </property>
+                    <property name="wordWrap">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -436,9 +484,6 @@
        <string>Privacy</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
-       <item>
-        <widget class="ItemListWidget" name="privacyControlListWidget"/>
-       </item>
        <item>
         <widget class="QCheckBox" name="diagAndUsageCb">
          <property name="text">
@@ -487,11 +532,6 @@ crash data and statistics with app developers</string>
    <class>StyledTreeWidget</class>
    <extends>QTreeWidget</extends>
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
-  </customwidget>
-  <customwidget>
-   <class>ItemListWidget</class>
-   <extends>QListView</extends>
-   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
