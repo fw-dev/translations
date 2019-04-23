@@ -157,6 +157,14 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>FileWave Server Address:</source>
+        <translation type="obsolete">Server-address:</translation>
+    </message>
+    <message>
+        <source>Port:</source>
+        <translation type="obsolete">Port:</translation>
+    </message>
+    <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="387"/>
         <source>Booster Server Prefs</source>
         <translation type="unfinished"></translation>
@@ -349,6 +357,14 @@ You may ignore this warning if you have a customized setup. </source>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="483"/>
         <source>Port:</source>
         <translation type="unfinished">Port:</translation>
+    </message>
+    <message>
+        <source>Server Port:</source>
+        <translation type="obsolete">Server-port:</translation>
+    </message>
+    <message>
+        <source>20443</source>
+        <translation type="obsolete">20443</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="395"/>
