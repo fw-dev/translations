@@ -1366,6 +1366,56 @@
     </widget>
    </item>
    <item>
+    <widget class="QWidget" name="vpnOnDemandRulesConfigurationWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_39">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_35">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;On Demand Rules Configuration XML &lt;br/&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Rules to determine when and how an on-demand VPN should be used&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="editOnDemandRulesXML">
+        <property name="acceptRichText">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="vpnOnDemandXMLErrorLabel">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel { color : red; }</string>
+        </property>
+        <property name="text">
+         <string>The input XML is not a valid PList</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <widget class="QWidget" name="PPTPEncryption" native="true">
      <layout class="QVBoxLayout" name="verticalLayout_5">
       <property name="leftMargin">
