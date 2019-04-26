@@ -93,7 +93,7 @@
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.ui" line="760"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cet appareil est verrouillé par votre administrateur. Le Kiosque n&apos;est pas accessible pour l&apos;instant.</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.ui" line="818"/>
@@ -254,12 +254,12 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="664"/>
         <source>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;FileWave Privacy Policy&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;Politique de confidentialité FileWave&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="696"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cet appareil est verrouillé par votre administrateur. Le Kiosque n&apos;est pas accessible pour l&apos;instant.</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="369"/>
@@ -485,7 +485,7 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
         <source>Software installed on your system requires %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 est requis par un logiciel installé sur votre système</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="435"/>
