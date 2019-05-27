@@ -744,7 +744,7 @@
   <action name="actionCreate_Play_Store_Fileset">
    <property name="icon">
     <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-     <normaloff>:/Android_Playstore_Fileset_svg</normaloff>:/Android_Playstore_Fileset_svg</iconset>
+     <normaloff>:/IDI_ICON_FILESET_PLAYSTORE</normaloff>:/IDI_ICON_FILESET_PLAYSTORE</iconset>
    </property>
    <property name="text">
     <string>Create Play Store Fileset</string>

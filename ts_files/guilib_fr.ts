@@ -1102,7 +1102,7 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>MAIN</name>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="75"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="77"/>
         <source>Some other User is modifying one of the objects involved in this operation.</source>
         <translation>Un autre utilisateur est en train de modifier un des objets concernés par cette opération.</translation>
     </message>
