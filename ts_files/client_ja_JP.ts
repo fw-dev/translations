@@ -73,7 +73,7 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="3141"/>
         <source>Fileset revision (or dependency of) %1 not found on server</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン（またはその依存関係） %1 がサーバー上に見つかりません</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="3470"/>
