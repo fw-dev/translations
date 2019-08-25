@@ -64,12 +64,12 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="141"/>
         <source>FileWave Server Address:</source>
-        <translation>FileWaveサーバーアドレス:</translation>
+        <translation type="unfinished">FileWaveサーバーアドレス:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="154"/>
         <source>Inventory port:</source>
-        <translation>インベントリーポート:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="194"/>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="142"/>
         <source>FileWave Server Address cannot be empty</source>
-        <translation>FileWaveサーバーアドレスは空にできません</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="176"/>
@@ -349,7 +349,7 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="133"/>
         <source>Server Address:</source>
-        <translation>サーバーアドレス:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="143"/>
@@ -366,17 +366,17 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="307"/>
         <source>Server Port:</source>
-        <translation>サーバーポート:</translation>
+        <translation type="unfinished">サーバーポート:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="331"/>
         <source>20443</source>
-        <translation>20443</translation>
+        <translation type="unfinished">20443</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="395"/>
         <source>rejected client requests</source>
-        <translation>拒否されたクライアントリクエスト</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="449"/>
@@ -1634,7 +1634,7 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/Translator.cpp" line="8"/>
         <source>FCM correctly configured.</source>
-        <translation>FCMは正しく構成されています。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/Translator.cpp" line="10"/>
@@ -1654,7 +1654,7 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/Translator.cpp" line="16"/>
         <source>FCM not configured.</source>
-        <translation>FCMは構成されていません。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GCM not configured.</source>
