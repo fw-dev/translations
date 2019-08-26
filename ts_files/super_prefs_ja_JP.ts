@@ -16,7 +16,7 @@
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="23"/>
         <source>SuperPrefs Editor</source>
-        <translation>環境設定エディター</translation>
+        <translation>SuperPrefsエディター</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="31"/>

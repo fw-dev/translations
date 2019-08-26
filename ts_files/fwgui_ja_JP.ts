@@ -93,7 +93,7 @@
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.ui" line="760"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデバイスは現在管理者によってロックされています。 セルフサービスキオスクは利用できません。</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.ui" line="818"/>
@@ -319,12 +319,12 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="664"/>
         <source>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;FileWave Privacy Policy&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;https://filewave.com/help/privacy&quot;&gt;%style% FileWaveプライバシーポリシー&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="696"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデバイスは現在管理者によってロックされています。 セルフサービスキオスクは利用できません。</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="44"/>
@@ -485,7 +485,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
         <source>Software installed on your system requires %1</source>
-        <translation type="unfinished"></translation>
+        <translation>システムにインストールされているソフトウェアには %1 が必要です</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="435"/>
@@ -618,7 +618,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="150"/>
         <source>for</source>
-        <translation>　</translation>
+        <translation>&#x3000;</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="186"/>
