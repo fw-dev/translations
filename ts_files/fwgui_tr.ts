@@ -48,17 +48,17 @@
         <translation>Önemli bir sistem yazılımı bilgisayarınıza yüklendi...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="51"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="57"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
         <translation>Bilgisayarınızı kapatmayın. Kurulum tamamlandığında otomatik olarak yeniden başlatılacak.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="64"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="73"/>
         <source>Do not use the start menu.</source>
         <translation>Başlat menüsünü kullanmayın.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="74"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="89"/>
         <source>Activating Fileset(s)...</source>
         <translation>Fileset(ler) aktive ediliyor...</translation>
     </message>
@@ -585,42 +585,42 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>Önemli bir Sistem Yazılımı bilgisayarınıza yüklendi...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="45"/>
         <source>Please save your work and exit all programs.</source>
         <translation>Lütfen çalışmanızı kaydedin ve tüm programlardan çıkın.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="46"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="58"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation>Aşağıdaki uygulamalar bu kurulumun yerleşmesine engel oluyor.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="101"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="119"/>
         <source>Quit Application</source>
         <translation>Uygulamadan Çık</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="114"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="132"/>
         <source>Quit All</source>
         <translation>Tümünden Çık</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="137"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="155"/>
         <source>Delay</source>
         <translation>Bekle</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="150"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="168"/>
         <source>for</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="201"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="219"/>
         <source>[Reboot deadline information...]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="186"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="204"/>
         <source>Start Installation</source>
         <translation>Kuruluma Başla</translation>
     </message>

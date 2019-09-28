@@ -48,17 +48,17 @@
         <translation>Un logiciel système est en cours d&apos;installation sur votre ordinateur...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="51"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="57"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
         <translation>N&apos;éteignez pas votre ordinateur. Il redémarrera automatiquement après l&apos;installation.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="64"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="73"/>
         <source>Do not use the start menu.</source>
         <translation>N&apos;utilisez pas le menu de démarrage.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="74"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="89"/>
         <source>Activating Fileset(s)...</source>
         <translation>Activation du/des fileset(s)...</translation>
     </message>
@@ -591,42 +591,42 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
         <translation>Une mise à jour importante du système doit être installée sur cet ordinateur...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="45"/>
         <source>Please save your work and exit all programs.</source>
         <translation>Veuillez sauvegarder tout travail en cours et quitter tous les programmes.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="46"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="58"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation>Les applications suivantes empêchent l&apos;installation de s&apos;exécuter.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="101"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="119"/>
         <source>Quit Application</source>
         <translation>Quitter l&apos;application</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="114"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="132"/>
         <source>Quit All</source>
         <translation>Quitter toutes les applications</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="137"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="155"/>
         <source>Delay</source>
         <translation>Retarder</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="150"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="168"/>
         <source>for</source>
         <translation>pendant</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="201"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="219"/>
         <source>[Reboot deadline information...]</source>
         <translation>Informations sur la date limite de redémarrage</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="186"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="204"/>
         <source>Start Installation</source>
         <translation>Démarrer l&apos;installation</translation>
     </message>

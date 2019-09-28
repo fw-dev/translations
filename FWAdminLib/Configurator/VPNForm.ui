@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>602</width>
-    <height>5281</height>
+    <height>5367</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1491,7 +1491,7 @@
       <item>
        <widget class="QLabel" name="labelProviderType">
         <property name="text">
-         <string>Provider type</string>
+         <string>Provider Type</string>
         </property>
        </widget>
       </item>
@@ -1554,7 +1554,7 @@
       <item>
        <widget class="QLabel" name="label_36">
         <property name="text">
-         <string>Safari domains</string>
+         <string>Safari Domains</string>
         </property>
        </widget>
       </item>
@@ -2795,6 +2795,41 @@
       </size>
      </property>
     </spacer>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetProviderBundleIdentifier" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelProviderBundleIdentifier">
+        <property name="text">
+         <string>Provider Bundle Identifier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipProviderBundleIdentifier">
+        <property name="text">
+         <string>Provider to use for this configuration</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditProviderBundleIdentifier"/>
+      </item>
+     </layout>
+    </widget>
    </item>
   </layout>
  </widget>

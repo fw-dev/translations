@@ -7,19 +7,44 @@
     <x>0</x>
     <y>0</y>
     <width>742</width>
-    <height>309</height>
+    <height>377</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>New Client From Server</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
    <item>
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string/>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <property name="leftMargin">
+      <number>8</number>
      </property>
-    </widget>
+     <property name="topMargin">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
    <item>
     <widget class="StyledTreeView" name="m_listClients">
@@ -45,29 +70,26 @@
    </item>
    <item>
     <widget class="QWidget" name="controls" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_2">
+     <layout class="QVBoxLayout" name="verticalLayout">
       <property name="spacing">
        <number>0</number>
       </property>
       <property name="leftMargin">
-       <number>0</number>
+       <number>4</number>
       </property>
       <property name="topMargin">
-       <number>0</number>
+       <number>4</number>
       </property>
       <property name="rightMargin">
-       <number>0</number>
+       <number>4</number>
       </property>
       <property name="bottomMargin">
-       <number>0</number>
+       <number>4</number>
       </property>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <property name="spacing">
-         <number>7</number>
-        </property>
-        <property name="rightMargin">
-         <number>0</number>
+         <number>6</number>
         </property>
         <item>
          <widget class="QPushButton" name="selectAllPB">
@@ -84,13 +106,6 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="updatePB">
-          <property name="text">
-           <string>Update</string>
-          </property>
-         </widget>
-        </item>
-        <item>
          <spacer name="horizontalSpacer">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
@@ -103,12 +118,22 @@
           </property>
          </spacer>
         </item>
+        <item>
+         <widget class="QPushButton" name="updatePB">
+          <property name="text">
+           <string>Update</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <property name="spacing">
-         <number>7</number>
+         <number>6</number>
+        </property>
+        <property name="leftMargin">
+         <number>8</number>
         </property>
         <item>
          <widget class="QLabel" name="label_2">
@@ -122,11 +147,11 @@
         </item>
         <item>
          <widget class="SearchLineEdit" name="searchField">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
           </property>
          </widget>
         </item>
@@ -134,6 +159,9 @@
          <spacer name="horizontalSpacer_2">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -143,28 +171,12 @@
           </property>
          </spacer>
         </item>
-        <item>
-         <widget class="QPushButton" name="addClientsButton">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="shortcut">
-           <string>Return</string>
-          </property>
-         </widget>
-        </item>
        </layout>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <property name="spacing">
-         <number>7</number>
+         <number>6</number>
         </property>
         <property name="leftMargin">
          <number>6</number>
@@ -195,6 +207,69 @@
           </property>
          </widget>
         </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="solveConflictButton">
+          <property name="text">
+           <string>Solve Conflict</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="cancelButton">
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="addClientsButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="shortcut">
+           <string>Return</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
      </layout>
@@ -214,6 +289,18 @@
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>m_listClients</tabstop>
+  <tabstop>selectAllPB</tabstop>
+  <tabstop>clearPB</tabstop>
+  <tabstop>updatePB</tabstop>
+  <tabstop>theGroups</tabstop>
+  <tabstop>searchField</tabstop>
+  <tabstop>autoAddClientsCB</tabstop>
+  <tabstop>solveConflictButton</tabstop>
+  <tabstop>cancelButton</tabstop>
+  <tabstop>addClientsButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

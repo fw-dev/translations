@@ -591,7 +591,7 @@ For Apple TV software 6, the device must be connected over Ethernet.</string>
       <attribute name="title">
        <string>Mass Enrollment</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_21">
+      <layout class="QVBoxLayout" name="verticalLayout_32">
        <item>
         <widget class="QLabel" name="label_3">
          <property name="text">
@@ -622,71 +622,129 @@ Note: Supervising your devices is highly recommended.</string>
         </spacer>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_11">
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <layout class="QVBoxLayout" name="verticalLayout_30">
            <item>
-            <layout class="QVBoxLayout" name="verticalLayout_12">
+            <layout class="QHBoxLayout" name="horizontalLayout_22">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_9">
-               <item>
-                <widget class="QPushButton" name="enrollmentProfilePB">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="icon">
-                  <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
-                   <normaloff>:/IDI_ICON_APPLE_CONFIGURATOR</normaloff>:/IDI_ICON_APPLE_CONFIGURATOR</iconset>
-                 </property>
-                 <property name="iconSize">
-                  <size>
-                   <width>32</width>
-                   <height>32</height>
-                  </size>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_18">
-               <property name="minimumSize">
-                <size>
-                 <width>160</width>
-                 <height>0</height>
-                </size>
+              <widget class="QPushButton" name="massEnrollmentCertificateButton">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
                </property>
                <property name="text">
-                <string>Download MDM Enrollment Profile</string>
+                <string/>
                </property>
-               <property name="alignment">
-                <set>Qt::AlignCenter</set>
+               <property name="icon">
+                <iconset resource="Configurator/Configurator.qrc">
+                 <normaloff>:/assets/Credentials.png</normaloff>:/assets/Credentials.png</iconset>
                </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_12">
-               <property name="minimumSize">
+               <property name="iconSize">
                 <size>
-                 <width>160</width>
-                 <height>0</height>
+                 <width>32</width>
+                 <height>32</height>
                 </size>
-               </property>
-               <property name="text">
-                <string>Select when asked for profiles to install.</string>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignCenter</set>
                </property>
               </widget>
              </item>
             </layout>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_39">
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Download Server Certificate Profile</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_40">
+             <property name="text">
+              <string>If your server certificate is
+self-signed, install that profile first.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_31">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <item>
+              <widget class="QPushButton" name="enrollmentProfilePB">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+                 <normaloff>:/IDI_ICON_APPLE_CONFIGURATOR</normaloff>:/IDI_ICON_APPLE_CONFIGURATOR</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>32</width>
+                 <height>32</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_18">
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Download MDM Enrollment Profile</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_12">
+             <property name="minimumSize">
+              <size>
+               <width>160</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Select when asked for
+profiles to install.</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
@@ -699,8 +757,8 @@ Note: Supervising your devices is highly recommended.</string>
   </layout>
  </widget>
  <resources>
-  <include location="Configurator/Configurator.qrc"/>
   <include location="../FileWaveGuiLib/GuiLib.qrc"/>
+  <include location="Configurator/Configurator.qrc"/>
  </resources>
  <connections/>
 </ui>

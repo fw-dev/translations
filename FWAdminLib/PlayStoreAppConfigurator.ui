@@ -56,8 +56,7 @@
  * Preinstalled - automatically installed; user can remove it
  * Force installed - automatically installed; user cannot remove it
  * Blocked - blocked from installation, even if otherwise available; if the app was installed under a previous policy, it will be uninstalled
- * Available - available to install at users behest
- * Required for setup - automatically installed; user cannot remove it; will prevent setup from completion until installation is complete</string>
+ * Available - available to install at users behest</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

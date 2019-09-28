@@ -48,17 +48,17 @@
         <translation>Wichtige System-Updates werden auf ihrem Computer installiert...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="51"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="57"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
         <translation>Schalten Sie ihren Computer nicht aus. Er wird nach Abschluss der Installation automatisch neu gestartet.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="64"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="73"/>
         <source>Do not use the start menu.</source>
         <translation>Benutzen Sie bitte das Start Menü zur Zeit nicht.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="74"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="89"/>
         <source>Activating Fileset(s)...</source>
         <translation>Fileset(s) wird/werden aktiviert...</translation>
     </message>
@@ -592,42 +592,42 @@ ihrem iTunes-Konto anzumelden. </translation>
         <translation>Wichtige System-Updates sollen auf ihrem Computer installiert werden...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="45"/>
         <source>Please save your work and exit all programs.</source>
         <translation>Bitte speichern Sie alle offenen Dokumente ab und beenden Sie alle Programme. </translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="46"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="58"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation>Die folgenden Applikationen behindern den Anfang der Installation.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="101"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="119"/>
         <source>Quit Application</source>
         <translation>Programm beenden</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="114"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="132"/>
         <source>Quit All</source>
         <translation>Alle Programme beenden</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="137"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="155"/>
         <source>Delay</source>
         <translation>Verschieben</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="150"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="168"/>
         <source>for</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="201"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="219"/>
         <source>[Reboot deadline information...]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="186"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="204"/>
         <source>Start Installation</source>
         <translation>Installation beginnen</translation>
     </message>
