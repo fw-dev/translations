@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>555</width>
-    <height>354</height>
+    <height>373</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -149,6 +149,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="checkBoxAllowDeviceSleep">
+         <property name="text">
+          <string>Allow device sleep (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QWidget" name="widget" native="true">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -250,6 +260,7 @@
       <zorder>checkBoxAllowPasswordProximityRequests</zorder>
       <zorder>checkBoxForceAutomaticDateAndTime</zorder>
       <zorder>widget</zorder>
+      <zorder>checkBoxAllowDeviceSleep</zorder>
      </widget>
      <widget class="QWidget" name="mediaContentTab">
       <attribute name="title">

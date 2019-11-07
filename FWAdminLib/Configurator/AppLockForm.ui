@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>564</width>
-    <height>461</height>
+    <height>494</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -145,6 +145,13 @@
         </property>
        </widget>
       </item>
+      <item row="7" column="1">
+       <widget class="QCheckBox" name="EnableVoiceControl">
+        <property name="text">
+         <string>Enable Voice Control</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
@@ -179,6 +186,13 @@
        <widget class="QCheckBox" name="AssistiveTouch">
         <property name="text">
          <string>Assistive Touch</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="VoiceControl">
+        <property name="text">
+         <string>Voice Control</string>
         </property>
        </widget>
       </item>

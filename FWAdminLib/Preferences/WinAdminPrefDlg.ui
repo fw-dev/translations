@@ -1533,7 +1533,7 @@
           <item>
            <widget class="QGroupBox" name="tokenGroupBox">
             <property name="title">
-             <string>Volume Purchase Program</string>
+             <string>Volume Purchase Program - Apps and Books</string>
             </property>
             <layout class="QGridLayout" name="gridLayout">
              <item row="3" column="0" colspan="4">
@@ -1839,7 +1839,7 @@
           <item>
            <widget class="QGroupBox" name="groupBox_4">
             <property name="title">
-             <string>Device Enrollment Program</string>
+             <string>Device Enrollment Program - Apple School Manager and Apple Business Manager</string>
             </property>
             <layout class="QGridLayout" name="gridLayout_6">
              <item row="2" column="1">

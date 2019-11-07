@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>792</width>
-    <height>503</height>
+    <height>351</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -167,6 +167,13 @@
          </size>
         </property>
        </spacer>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="configureEMMDefaultPolicyButton">
+        <property name="text">
+         <string>Configure Default Policy</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>

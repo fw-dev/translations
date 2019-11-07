@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>922</width>
-    <height>782</height>
+    <height>933</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -406,7 +406,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="" native="true">
+    <widget class="QWidget" name="widget" native="true">
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <property name="spacing">
        <number>0</number>
@@ -450,6 +450,27 @@
        </widget>
       </item>
      </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelRefreshCellularPlan">
+     <property name="text">
+      <string>Refresh Cellular Plan (iOS 13.0+)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRefreshCellularPlan">
+     <property name="text">
+      <string>The carrier's eSIM server URL to query.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEditeSIMServerURL">
+     <property name="placeholderText">
+      <string>http://example.server.com</string>
+     </property>
     </widget>
    </item>
    <item>

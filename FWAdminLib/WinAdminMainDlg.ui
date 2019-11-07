@@ -217,7 +217,6 @@
     <addaction name="actionImaging"/>
     <addaction name="separator"/>
     <addaction name="actionEnroll_Android_Device"/>
-    <addaction name="actionAndroid_Default_Policy_Editor"/>
     <addaction name="actionCreate_Play_Store_Fileset"/>
     <addaction name="separator"/>
     <addaction name="actionEnroll_Mobile_Device"/>
@@ -728,17 +727,6 @@
    </property>
    <property name="shortcut">
     <string>Meta+Ctrl+A</string>
-   </property>
-  </action>
-  <action name="actionAndroid_Default_Policy_Editor">
-   <property name="text">
-    <string>Android Default Policy &amp;Editor</string>
-   </property>
-   <property name="toolTip">
-    <string>Customize the default (base) policy applied to all organization devices.</string>
-   </property>
-   <property name="shortcut">
-    <string>Meta+Ctrl+E</string>
    </property>
   </action>
   <action name="actionCreate_Play_Store_Fileset">

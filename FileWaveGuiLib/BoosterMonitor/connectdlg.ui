@@ -73,14 +73,7 @@
       </widget>
      </item>
      <item row="0" column="2">
-      <widget class="BonjourServiceView" name="bonjourView">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-      </widget>
+      <widget class="BonjourServiceView" name="bonjourView"/>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="label_2">

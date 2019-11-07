@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>632</width>
-    <height>643</height>
+    <height>729</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -236,6 +236,30 @@
          </property>
          <property name="wordWrap">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="0">
+        <widget class="QCheckBox" name="checkBoxAllowCacheDelete">
+         <property name="text">
+          <string>Remove content from the cache when the system needs disk space for other apps</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="0">
+        <widget class="QCheckBox" name="checkBoxDisplayAlerts">
+         <property name="text">
+          <string>Display status alerts</string>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="0">
+        <widget class="QCheckBox" name="checkBoxKeepAwake">
+         <property name="text">
+          <string>Prevent the computer from sleeping while caching is on</string>
          </property>
         </widget>
        </item>
@@ -473,9 +497,21 @@
   </customwidget>
  </customwidgets>
  <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>checkBoxAutoActivateCaching</tabstop>
+  <tabstop>comboBoxCachedContentTypes</tabstop>
+  <tabstop>lineEditMaxCacheSize</tabstop>
   <tabstop>lineEditDataPath</tabstop>
+  <tabstop>spinBoxPort</tabstop>
   <tabstop>checkBoxShareInternetConnection</tabstop>
   <tabstop>checkBoxLogClientDetails</tabstop>
+  <tabstop>checkBoxAllowCacheDelete</tabstop>
+  <tabstop>checkBoxDisplayAlerts</tabstop>
+  <tabstop>checkBoxKeepAwake</tabstop>
+  <tabstop>comboBoxLocalNetworks</tabstop>
+  <tabstop>comboBoxCacheContent</tabstop>
+  <tabstop>comboBoxShareContent</tabstop>
+  <tabstop>comboBoxParentSelectionPolicy</tabstop>
  </tabstops>
  <resources/>
  <connections/>
