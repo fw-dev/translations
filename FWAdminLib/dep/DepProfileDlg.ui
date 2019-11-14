@@ -2139,28 +2139,15 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_29">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_24">
-           <item>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="1">
             <widget class="QLabel" name="label_15">
              <property name="text">
               <string>Activation Lock Configuration:</string>
              </property>
             </widget>
            </item>
-           <item>
-            <widget class="QComboBox" name="cmbboxActivationLock">
-             <property name="minimumSize">
-              <size>
-               <width>200</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="minimumContentsLength">
-              <number>0</number>
-             </property>
-            </widget>
-           </item>
-           <item>
+           <item row="0" column="3">
             <spacer name="horizontalSpacer_19">
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
@@ -2173,6 +2160,29 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
              </property>
             </spacer>
            </item>
+           <item row="0" column="2">
+            <widget class="QComboBox" name="cmbboxActivationLock">
+             <property name="minimumSize">
+              <size>
+               <width>200</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="minimumContentsLength">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" colspan="3">
+            <widget class="QLabel" name="lTipDisabledActivationLock_2">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activation Lock is supported on iOS devices, and devices with T2 Chips (&lt;a href=&quot;https://support.apple.com/HT208862&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://support.apple.com/HT208862&lt;/span&gt;&lt;/a&gt;) running macOS 10.15+.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="openExternalLinks">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
          <item>
@@ -2181,7 +2191,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
             <number>0</number>
            </property>
            <widget class="QWidget" name="page">
-            <layout class="QVBoxLayout" name="verticalLayout_30">
+            <layout class="QVBoxLayout" name="verticalLayout_19">
              <property name="leftMargin">
               <number>0</number>
              </property>
@@ -2197,7 +2207,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
              <item>
               <widget class="QLabel" name="lTipDisabledActivationLock">
                <property name="text">
-                <string>Application Lock is not enabled ; enabling &quot;Find My iPhone&quot; is not allowed.</string>
+                <string>Activation Lock is not enabled ; enabling &quot;Find My&quot; is not allowed.</string>
                </property>
               </widget>
              </item>
@@ -2240,7 +2250,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
              <item>
               <widget class="QLabel" name="lTipICloudActivationLock">
                <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My iPhone&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                </property>
               </widget>
              </item>
