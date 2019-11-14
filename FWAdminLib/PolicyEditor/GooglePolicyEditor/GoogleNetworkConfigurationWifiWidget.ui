@@ -297,9 +297,26 @@
     </widget>
    </item>
    <item>
+    <layout class="QHBoxLayout" name="hl_showPassphrase">
+     <item>
+      <widget class="QCheckBox" name="frm_showPassphrase">
+       <property name="toolTip">
+        <string>Reveal or obfuscate the passphrase characters.</string>
+       </property>
+       <property name="text">
+        <string>Show passphrase</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
     <widget class="QLineEdit" name="frm_Passphrase">
      <property name="text">
       <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
      </property>
      <property name="placeholderText">
       <string>[passphrase]</string>

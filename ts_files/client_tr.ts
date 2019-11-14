@@ -44,89 +44,89 @@
         <translation>Dosyaların Doğrulanması Tamamlandı...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1330"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1350"/>
         <source>Downloading User Manifest</source>
         <translation>Kullanıcı Manifestosu İndiriliyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1383"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1403"/>
         <source>Downloading Smart Filter Manifests</source>
         <translation>Akıllı Filtre Manifestoları İndiriliyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1431"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1449"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1708"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1451"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1469"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1728"/>
         <source>Running</source>
         <translation>Çalışıyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3099"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3117"/>
         <source>Waiting for Booster - filesetID: %1</source>
         <translation>Booster bekleniyor - filesetID: %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3446"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3464"/>
         <source>Downloading Fileset Container (ID %1)</source>
         <translation>Fileset Taşıyıcısı İndiriliyor (ID %1)</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3566"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3584"/>
         <source>Downloading fileset %1 of %2</source>
         <translation>%1/%2 Fileset indiriliyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3554"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3572"/>
         <source>The Hard Disk is Full...Cannot download new Filesets.</source>
         <translation>Sabit Disk Dolu... Yeni Fileset&apos;ler indirilemiyor.</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1356"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1376"/>
         <source>Downloading Imaging Manifest</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3118"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3136"/>
         <source>Fileset (or dependency of) %1 not found on server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3448"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3466"/>
         <source>Processing requirements of fileset %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3605"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3623"/>
         <source>Activating %1</source>
         <translation>%1 Aktive ediliyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3615"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3633"/>
         <source>Activating fileset %1 of %2</source>
         <translation>%1/%2 Fileset aktive ediliyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3720"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3738"/>
         <source>Installing Software...</source>
         <translation>Yazılım Yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3799"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3817"/>
         <source> Installation Failed</source>
         <translation>Kurulum Başarısız</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3807"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3825"/>
         <source> Installation Successfully</source>
         <translation>Kurulum Başarılı</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4164"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4180"/>
         <source>Updating fileset %1 to new version</source>
         <translation>Fileset %1 yeni versiyona güncelleniyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4687"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4703"/>
         <source>
 **************************
 **FileWave Client Status**
@@ -140,7 +140,7 @@ User ID: %1
 Kullanıcı ID: %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4692"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4708"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -153,7 +153,7 @@ Envanterdeki Fileset&apos;ler:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4707"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4723"/>
         <source>
 Worklist:
 
@@ -162,17 +162,17 @@ Worklist:
 İş listesi:</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4717"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4733"/>
         <source>&lt;still unknown&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4822"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4838"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation>Bu bilgisayar, içindeki veriler bir kez silinince kapatılacak</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4823"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4839"/>
         <source>Executing Remote Wipe</source>
         <translation>Uzaktan Silme Çalıştırılıyor</translation>
     </message>
@@ -244,28 +244,28 @@ Worklist:
 <context>
     <name>FW::MainController</name>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="228"/>
+        <location filename="../../QtClient/MainController.cpp" line="229"/>
         <source>Client is archived.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="233"/>
+        <location filename="../../QtClient/MainController.cpp" line="234"/>
         <source>Running...</source>
         <translation>Çalışıyor...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="238"/>
+        <location filename="../../QtClient/MainController.cpp" line="239"/>
         <source>Installing %1</source>
         <translation>%1 Kuruluyor</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="243"/>
-        <location filename="../../QtClient/MainController.cpp" line="342"/>
+        <location filename="../../QtClient/MainController.cpp" line="244"/>
+        <location filename="../../QtClient/MainController.cpp" line="343"/>
         <source>Blocked by local restriction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="358"/>
+        <location filename="../../QtClient/MainController.cpp" line="359"/>
         <source>Connecting to FW Server...</source>
         <translation>Tuğra Sunucusuna Bağlanılıyor...</translation>
     </message>
@@ -302,7 +302,7 @@ Worklist:
 <context>
     <name>KioskServerController</name>
     <message>
-        <location filename="../../QtClient/kiosk/KioskServerController.cpp" line="351"/>
+        <location filename="../../QtClient/kiosk/KioskServerController.cpp" line="349"/>
         <source>Installing Software...</source>
         <translation>Yazılım Yükleniyor...</translation>
     </message>

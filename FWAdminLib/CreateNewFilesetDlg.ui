@@ -20,6 +20,21 @@
    <string>Create New Fileset</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>25</number>
+   </property>
+   <property name="topMargin">
+    <number>25</number>
+   </property>
+   <property name="rightMargin">
+    <number>25</number>
+   </property>
+   <property name="bottomMargin">
+    <number>25</number>
+   </property>
+   <property name="horizontalSpacing">
+    <number>30</number>
+   </property>
    <item row="0" column="0">
     <widget class="QPushButton" name="createFilesetFromFolderPB">
      <property name="sizePolicy">
@@ -27,6 +42,12 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
@@ -57,6 +78,12 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
      </property>
@@ -85,6 +112,12 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
@@ -190,6 +223,12 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
      </property>
@@ -243,6 +282,12 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
@@ -298,6 +343,12 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
      </property>
@@ -339,6 +390,12 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
@@ -394,6 +451,12 @@
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
+     </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>
      </property>
@@ -447,6 +510,12 @@
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>90</height>
+      </size>
      </property>
      <property name="focusPolicy">
       <enum>Qt::NoFocus</enum>

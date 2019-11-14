@@ -10,12 +10,6 @@
     <height>181</height>
    </rect>
   </property>
-  <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-    <horstretch>0</horstretch>
-    <verstretch>0</verstretch>
-   </sizepolicy>
-  </property>
   <property name="minimumSize">
    <size>
     <width>598</width>
@@ -35,6 +29,9 @@
    <bool>true</bool>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>30</number>
+   </property>
    <item>
     <widget class="QLabel" name="titleLabel">
      <property name="text">
@@ -44,7 +41,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="wordWrap">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -60,7 +57,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="wordWrap">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -76,7 +73,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="wordWrap">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
@@ -92,7 +89,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="wordWrap">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>

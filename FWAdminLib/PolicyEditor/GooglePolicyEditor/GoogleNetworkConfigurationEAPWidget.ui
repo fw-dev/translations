@@ -38,7 +38,7 @@
    <item>
     <widget class="QLabel" name="lbl_title_Outer">
      <property name="text">
-      <string>Extensable Authentication Protocol (EAP)</string>
+      <string>Extensible Authentication Protocol (EAP)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -508,9 +508,26 @@
     </widget>
    </item>
    <item>
+    <layout class="QHBoxLayout" name="hl_showPassword">
+     <item>
+      <widget class="QCheckBox" name="frm_showPassword">
+       <property name="toolTip">
+        <string>Reveal or obfuscate the passcode characters.</string>
+       </property>
+       <property name="text">
+        <string>Show password</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
     <widget class="QLineEdit" name="frm_Password">
      <property name="inputMask">
       <string notr="true"/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
      </property>
     </widget>
    </item>

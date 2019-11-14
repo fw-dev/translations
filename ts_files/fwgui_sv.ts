@@ -38,27 +38,27 @@
 <context>
     <name>InstallerStatusDialog</name>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="26"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="20"/>
         <source>FileWave Installer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="41"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="38"/>
         <source>Important system software is now being installed on your computer...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="57"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="54"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="73"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
         <source>Do not use the start menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="89"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
         <source>Activating Fileset(s)...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -575,102 +575,102 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 <context>
     <name>QuitRunningProcessDialog</name>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="20"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="14"/>
         <source>Quit All Running Processes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="32"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="26"/>
         <source>Important System Software is to be installed on this computer...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="45"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
         <source>Please save your work and exit all programs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="58"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="52"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="119"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="113"/>
         <source>Quit Application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="132"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="126"/>
         <source>Quit All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="155"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="149"/>
         <source>Delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="168"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="162"/>
         <source>for</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="204"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
         <source>Start Installation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="219"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="213"/>
         <source>[Reboot deadline information...]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="99"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="104"/>
         <source>%1 programs active</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="118"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="179"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
         <source>You can delay installation until: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="183"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="188"/>
         <source>This update is now mandatory and cannot be delayed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="204"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
         <source>15 Minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="205"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
         <source>30 Minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="206"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
         <source>1 Hour</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="207"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>2 Hours</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="215"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
         <source>deadline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="216"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="221"/>
         <source>till</source>
         <translation type="unfinished"></translation>
     </message>
