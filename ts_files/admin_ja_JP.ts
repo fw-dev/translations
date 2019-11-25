@@ -1135,206 +1135,196 @@ DEPプロファイルを使用してDEPデバイスのアクティベーショ�
     <name>AndroidDefaultPolicyEditorDlg</name>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="23"/>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="44"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="50"/>
         <source>Android Default Policy Editor</source>
         <translation>Androidデフォルトポリシーエディター</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="53"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="59"/>
         <source>Customize default policy</source>
         <translation>デフォルトポリシーをカスタマイズ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="107"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="133"/>
         <source>Default Application Permission</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="122"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="148"/>
         <source>The policy for granting permission requests to apps.  For example, if an application would like access to the camera, this sets the default action taken by the device operating system: prompt user, automatically grant the permission, or deny the application access.</source>
         <translation>アプリへの許可要求を与えるためのポリシー。  たとえば、アプリがカメラへのアクセスを希望する場合、これはデバイスのオペレーティングシステムが実行するデフォルトのアクションを設定します: ユーザーに確認、自動的に許可、またはアプリアクセスを拒否。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="159"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="185"/>
         <source>Android Factory Reset Protection</source>
         <translation type="unfinished">Androidファクトリーリセット保護</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="229"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="255"/>
         <source>To add Factory Reset Protection, use the plus button (below) to add a valid Gmail or G-Suite account email.  This account will be required to recover a device that has been wiped.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="261"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="287"/>
         <source>Add a Factory Reset Protection email address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="293"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="319"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Warning: email not configured in &lt;a href=&quot;#&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;preferences&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="325"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="351"/>
         <source>Configure FRP Email Template</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="418"/>
-        <source>RefreshTokenData</source>
-        <translation>トークンデータをリフレッシュ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="421"/>
-        <source>Ctrl+R</source>
-        <translation>Ctrl+R</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="31"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="35"/>
         <source>Unspecified</source>
         <translation>未指定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="31"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="35"/>
         <source>Policy not specified.  If no policy is specified for a permission at any level, then the default choice is &quot;prompt&quot;.</source>
         <translation>ポリシーが指定されていません。  どのレベルの許可に対してもポリシーが指定されていない場合、デフォルトの選択は「プロンプト」です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="32"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="36"/>
         <source>Prompt</source>
         <translation>プロンプト</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="32"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="36"/>
         <source>Prompt the user to grant a permission.</source>
         <translation>ユーザーに許可を与えるように促す。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="33"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="37"/>
         <source>Grant</source>
         <translation>許可</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="33"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="37"/>
         <source>Automatically grant a permission</source>
         <translation>自動的に許可</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="34"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="38"/>
         <source>Deny</source>
         <translation>拒否</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="34"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="38"/>
         <source>Automatically deny a permission</source>
         <translation>自動的に拒否</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="68"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="72"/>
         <source>Awaiting response from server; if you see this tooltip, the server has taken far too long to respond -- please check the log for errors.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="139"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="150"/>
         <source>Unexpected error while validating email connection parameters.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="165"/>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="514"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="176"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="528"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="255"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="266"/>
         <source>some_email@example.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="258"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="269"/>
         <source>Queue Verification Email</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="293"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="304"/>
         <source>(!) %1 (Email sent upon dialog save; reopen dialog to paste token.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="295"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="306"/>
         <source>Address has not yet been verified; save dialog to send verification email.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="319"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="330"/>
         <source>[verification token for %1]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="322"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="333"/>
         <source>Confirm Email</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="356"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="367"/>
         <source>Incorrect token</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="357"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="368"/>
         <source>The token was not valid.  Server said (%1):
 
 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="370"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="381"/>
         <source>Address confirmed valid.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="410"/>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="416"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="421"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="427"/>
         <source>Confirm FRP Email Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="415"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="426"/>
         <source>Yes, remove it!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="417"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="428"/>
         <source>%1
 
 Please confirm intention to remove this address from the list of Factory Reset Protection emails.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="424"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="435"/>
         <source>%1 (removed when dialog saved)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="426"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="437"/>
         <source>Address will be removed when dialog saved.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="390"/>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="519"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="394"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="533"/>
         <source>Note: Policy not in sync with Google; use Update Model.</source>
         <translation>注意： ポリシーがGoogleと同期していません; 「モデルを更新」を使用してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="520"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="534"/>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="540"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="554"/>
         <source>Unable to get list of base policies.  
 
 Server said (%1): %2</source>
@@ -1343,7 +1333,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="548"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="562"/>
         <source>Forbidden!  Unable to get list of base policies from server.
 
 Server said (%1): %2</source>
@@ -1352,7 +1342,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="556"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="570"/>
         <source>Server error; unable to get list of base policies.
 
 Server said (%1): %2</source>
@@ -1361,43 +1351,43 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="563"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="577"/>
         <source>Unknown response from server.  Base policy list unavailable.  Please consult the server logs or contact your FileWave administrator for help.</source>
         <translation>サーバーからの応答が不明です。  基本ポリシーリストは利用できません。  サーバーログを調べるか、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="576"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="590"/>
         <source>The server responded successfully, but did not return any policies.  Please try again.  If the problem persists, please contact your FileWave Administrator for help.</source>
         <translation>サーバーは応答しましたが、ポリシーを返しませんでした。  やり直してください。 問題が解決しない場合は、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="596"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="610"/>
         <source>The server responded with an ill-formed message.  If this problem persists, please contact your FileWave Administrator for help.</source>
         <translation>サーバーが不正な形式のメッセージを応答しました。  問題が解決しない場合は、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="644"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="658"/>
         <source>Unable to save email template.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="669"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="683"/>
         <source>Error removing FRP email.  Please check the FileWave logs for more informaiton.  Unremoved emails:
 
   %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="687"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="701"/>
         <source>Unable to send EMM Factory Reset Protection verification emails.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="725"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="739"/>
         <source>Unable to save policy.  
 
 Server said (%1): %2</source>
@@ -1406,7 +1396,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="733"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="747"/>
         <source>Forbidden!  Unable to save policy to server.
 
 Server said (%1): %2</source>
@@ -1415,7 +1405,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="741"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="755"/>
         <source>Server error; unable to save policy.
 
 Server said (%1): %2</source>
@@ -1424,7 +1414,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="748"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="762"/>
         <source>Unknown response from server; policy likely not saved.  Please consult the server logs or contact your FileWave administrator for help.</source>
         <translation>サーバーからの応答が不明です。  ポリシーが保存されていない可能性があります。  サーバーログを調べるか、FileWave管理者に連絡してください。</translation>
     </message>
@@ -1536,12 +1526,12 @@ Server said (%1): %2</source>
         <translation>サインアップ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="245"/>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="254"/>
         <source>Unenroll Enterprise</source>
         <translation>エンタープライズを登録削除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="271"/>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="280"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;﻿Unenrolling this enterprise from FileWave is a two-step process:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove the enterprise from the Project via the &lt;a href=&quot;https://play.google.com/work/adminsettings&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Play for Work&lt;/span&gt;&lt;/a&gt; console﻿. &lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once the enterprise is removed upstream, this button will remove from FileWave all Android devices managed via the Android Management API. Note: this button will not succeed as long as the enterprise is still accessible upstream.&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FileWaveからこのエンタープライズをアンエンロールする2段階のプロセス:&lt;/p&gt;
 &lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
@@ -1549,22 +1539,22 @@ Server said (%1): %2</source>
 &lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;エンタープライズがアップストリームから削除されると、Android Management APIによって管理されているすべてのAndroidデバイスをFileWaveから削除します。 注：エンタープライズがまだアップストリームにアクセス可能である限り、このボタンは成功しません。&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="294"/>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="306"/>
         <source>Unlink Enterprise</source>
         <translation>エンタープライズのリンク解除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="324"/>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="336"/>
         <source>Re-enable Enterprise</source>
         <translation>エンタープライズの再有化</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="341"/>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="353"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;We have detected an issue with your enterprise. To prevent errant requests, it has been disabled. You may either re-enable your enterprise or unlink it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;エンタープライズに問題が見つかりました。 誤ったリクエストを防ぐために無効にしています。 エンタープライズを再度有効にするか、リンク解除することができます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="352"/>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.ui" line="364"/>
         <source>Re-Enable Enterprise</source>
         <translation>エンタープライズの再有効化</translation>
     </message>
@@ -1657,6 +1647,11 @@ Server said (%1): %2</source>
         <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.cpp" line="450"/>
         <source>Invalid service account token.</source>
         <translation>無効なサービスアカウントトークンです。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.cpp" line="469"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to finalize your enterprise setup. Please leave this dialog open until directed to close it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/AndroidServiceAccountPrefsDlg.cpp" line="481"/>
@@ -3865,7 +3860,7 @@ Check the log file for more details</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="171"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="540"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="541"/>
         <source>Not connected</source>
         <translation>未接続</translation>
     </message>
@@ -4010,93 +4005,93 @@ Check the log file for more details</source>
         <translation>ユーザーアカウントをロック解除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="474"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="475"/>
         <source>View script output</source>
         <translation>スクリプト出力を表示</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="487"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="488"/>
         <source>Reveal Fileset</source>
         <translation>ファイルセットを表示</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="583"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="584"/>
         <source>The verify command has been sent to the client</source>
         <translation>検証コマンドはクライアントに送信されました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="584"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="585"/>
         <source>Failed to send the verify message to this client</source>
         <translation>このクライアントへの検証メッセージ送信に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="596"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="597"/>
         <source>Tracking has been enabled for this device, but no valid position has been received.</source>
         <translation>このデバイスの追跡は有効になっていますが、有効な位置が受信されていません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="597"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="598"/>
         <source>Sorry, you don&apos;t have permission to view location information for devices.</source>
         <translation>デバイスの位置情報を参照する権限がありません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="645"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="646"/>
         <source>This client has not yet connected</source>
         <translation>このクライアントは、まだ接続されていません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="673"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="674"/>
         <source>Loading...</source>
         <translation>ロード...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="675"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="676"/>
         <source>%1 Association(s)</source>
         <translation>%1 アソシエーション</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="753"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="754"/>
         <source>Fileset with dependencies selected! Do you want to reinstall dependencies as well?</source>
         <translation>依存関係にあるファイルセットが選択されました。依存関係も再インストールしますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="803"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="804"/>
         <source>%1 - %2</source>
         <translation>%1 - %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1055"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1056"/>
         <source>Failed to download the institutional recovery key: %1</source>
         <translation>組織の回復キーのダウンロードに失敗しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1057"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1070"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1058"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1071"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1068"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1069"/>
         <source>Failed to retrieve the personal recovery key: %1</source>
         <translation>個人用回復キーの取得に失敗しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1087"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1088"/>
         <source>Save the institutional recovery key</source>
         <translation>組織の回復キーを保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1089"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1090"/>
         <source>P12 Files (*.p12)</source>
         <translation>P12 ファイル (*.p12)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1094"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1095"/>
         <source>Save failed</source>
         <translation>保存に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1095"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1096"/>
         <source>Could not open file &quot;%1&quot; for writing</source>
         <translation>書き込み用にファイル &quot;%1&quot; を開けませんでした</translation>
     </message>
@@ -6994,40 +6989,35 @@ Check the log file for more details</source>
 <context>
     <name>CNewClientGroupDlg</name>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="20"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="14"/>
         <source>Create New Client</source>
         <translation>新規クライアントを作成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="59"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="53"/>
         <source>Please enter the name and the optional comment for the new client:</source>
         <translation>新規クライアントの名前とオプションのコメントをを入力してください:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="93"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="87"/>
         <source>Name:</source>
         <translation>名前:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="103"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="97"/>
         <source>Comment:</source>
         <translation>コメント:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="122"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="116"/>
         <source>If you want to image a client machine before installing the FileWave Client on it, please make sure you enter its MAC address (for Microsoft Windows imaging) or Serial Number (for Apple Mac imaging) below.</source>
         <translatorcomment>&#x3000;</translatorcomment>
         <translation>FileWaveクライアントをインストールする前にクライアントマシンをイメージしたい場合、以下にMACアドレス(Microsoft Windows イメージ)または、シリアルナンバー(Apple Mac イメージ)を入力してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="135"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="129"/>
         <source>Windows MAC address (xx:xx:xx:xx:xx:xx) or Mac serial number (XXXXXXXXXXXX)</source>
         <translation>Windows MACアドレス (xx:xx:xx:xx:xx:xx) または Mac シリアルナンバー (XXXXXXXXXXXX)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.ui" line="196"/>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Please enter valid Mac serial number or Windows MAC Address ! Use (xx:xx:xx:xx:xx:xx) for Windows MAC address or (XXXXXXXXXXXX) for Mac serial number.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;存在するMacシリアルナンバーまたはWindowsMACアドレスを入力してください。Windows MACアドレスには (xx:xx:xx:xx:xx:xx)または、Macシリアルナンバー(XXXXXXXXXXXX)を使用します。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -7301,27 +7291,33 @@ Reason: %1</source>
 <context>
     <name>CNewSingleClientDlg</name>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="83"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="59"/>
+        <source>Please enter valid Mac serial number or Windows MAC Address !
+Use (xx:xx:xx:xx:xx:xx) for Windows MAC address or (XXXXXXXXXXXX) for Mac serial number.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="85"/>
         <source>Unable to determine the correct parent for the new client.</source>
         <translation>新規クライアントの親を決定できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="87"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="89"/>
         <source>No name given to the new client.</source>
         <translation>新規クライアントの名前がありません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="91"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="93"/>
         <source>Error creating new client. The name %1 is already used!</source>
         <translation>新規クライアント作成でエラーが発生しました。名前 %1 は既に使用されています!</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="96"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="98"/>
         <source>Error creating new client. The maximum number of licensed clients has been exceeded.</source>
         <translation>新規クライアント作成でエラーが発生しました。ライセンスされたクライアントの最大数を超えました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="100"/>
+        <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="102"/>
         <source>Error creating new client %1</source>
         <translation>新規クライアント作成でエラーが発生しました: %1</translation>
     </message>
@@ -16828,21 +16824,6 @@ Are you sure ?</source>
         <translation>アカウント</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2179"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activation Lock is supported on iOS devices, and devices with T2 Chips (&lt;a href=&quot;https://support.apple.com/HT208862&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://support.apple.com/HT208862&lt;/span&gt;&lt;/a&gt;) running macOS 10.15+.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2210"/>
-        <source>Activation Lock is not enabled ; enabling &quot;Find My&quot; is not allowed.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2253"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1439"/>
         <source>Prompt user to create an account of type:</source>
         <translation>タイプのアカウントの作成を促す:</translation>
@@ -16881,6 +16862,21 @@ Are you sure ?</source>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2146"/>
         <source>Activation Lock Configuration:</source>
         <translation>アクティベーションロック構成:</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2179"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activation Lock is supported on iOS devices, and devices with T2 Chips (&lt;a href=&quot;https://support.apple.com/HT208862&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://support.apple.com/HT208862&lt;/span&gt;&lt;/a&gt;) running macOS 10.15+.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2210"/>
+        <source>Activation Lock is not enabled ; enabling &quot;Find My&quot; is not allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2253"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="2246"/>
@@ -20374,154 +20370,159 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
 <context>
     <name>EnrollAndroidDeviceDlg</name>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="17"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="23"/>
         <source>Enroll Android Device</source>
         <translation>Androidデバイスをエンロール</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="66"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="71"/>
         <source>Available Enrollment Tokens: -</source>
         <translation>利用可能なエンロールトークン: -</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="81"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="86"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="88"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="93"/>
         <source>-</source>
         <translation>-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="133"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="164"/>
         <source>QR Code</source>
         <translation>QRコード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="145"/>
-        <source>Selected Token Details</source>
-        <translation>洗濯したトークンの詳細</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="170"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="191"/>
         <source>No token selected.</source>
         <translation>トークンが選択されていません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="180"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="214"/>
         <source>Select a token ...</source>
         <translation>トークンを選択...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="191"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="231"/>
         <source>Details</source>
         <translation>詳細</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="208"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="248"/>
         <source>&amp;Enterprise</source>
         <translation>エンタープライズ(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="221"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="261"/>
         <source>Base &amp;Policy</source>
         <translation>基本ポリシー(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="234"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="274"/>
         <source>&amp;Reusable</source>
         <translation>再利用可能(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="250"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="253"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="290"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="293"/>
         <source>Allow code to be reused until it expires.</source>
         <translation>期限が切れるまでコードの再利用を許可します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="256"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="296"/>
         <source>&amp;Multiple enrollments</source>
         <translation>複数エンロール(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="266"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="269"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="306"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="309"/>
         <source>Code may only be used by a single device.</source>
         <translation>コードは単一のデバイスでのみ使用できます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="272"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="312"/>
         <source>&amp;Single-use only</source>
         <translation>シングルユースのみ(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="282"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="285"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="322"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="325"/>
         <source>Tokens can be valid for as little as 1 minute or as long as 30 days.</source>
         <translation>トークンは、最短1分間、または最長30日間有効です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="288"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="328"/>
         <source>&amp;Duration</source>
         <translation>期間(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="300"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="303"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="319"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="322"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="340"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="343"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="359"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="362"/>
         <source>The maximum duration is 30 days, 720 hours, or 43200 minutes.</source>
         <translation>最長期間は30日、720時間、または43200分です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="326"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="366"/>
         <source>Minutes</source>
         <translation>分</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="331"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="371"/>
         <source>Hours</source>
         <translation>時</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="336"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="376"/>
         <source>Days</source>
         <translation>日</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="346"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="386"/>
         <source>&amp;Comment</source>
         <translation>コメント(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="356"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="396"/>
         <source>Expires</source>
         <translation>有効期限</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="403"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="203"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="443"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="204"/>
         <source>&amp;Create</source>
         <translation>作成(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="420"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="459"/>
         <source>RefreshTokenData</source>
         <translation>RefreshTokenData</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="423"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.ui" line="462"/>
         <source>Ctrl+R</source>
         <translation>Ctrl+R</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="242"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="89"/>
+        <source>Token not yet generated; use form in Details tab to create.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="90"/>
+        <source>---</source>
+        <translation type="unfinished">---</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="243"/>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="377"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="378"/>
         <source>Unable to update token.  Server said (%1):
 
 %2</source>
@@ -20530,14 +20531,14 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="409"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="521"/>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="750"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="410"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="522"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="751"/>
         <source>Available Enrollment Tokens: %1</source>
         <translation>利用可能な登録トークン: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="423"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="424"/>
         <source>Unable to create token: forbidden.  Do you need to get your FileWave Admin to add this user to the appropriate service account, enterprise, or policy?  Specific server message (%1):
 
 %2</source>
@@ -20546,7 +20547,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="433"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="434"/>
         <source>Unable to create token.  Server said (%1):
 
 %2</source>
@@ -20555,7 +20556,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="441"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="442"/>
         <source>Server error while creating token.  Server said (%1):
 
 %2</source>
@@ -20564,12 +20565,12 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="448"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="449"/>
         <source>Unknown response from server.  Please consult the server logs or contact your FileWave administrator for help.</source>
         <translation>サーバーからの応答が不明です。  サーバーログを調べるか、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="515"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="516"/>
         <source>Unable to delete token.  Server said (%1):
 
 %2</source>
@@ -20578,7 +20579,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="555"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="556"/>
         <source>Unable to get list of enterprises.  Without any enterprises, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
@@ -20587,7 +20588,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="563"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="564"/>
         <source>Forbidden!  Unable to get list of registered enterprises from server.  Note: Without at least one valid enterprise, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
@@ -20596,7 +20597,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="571"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="572"/>
         <source>Server error; unable to get list of enterprises.  Without any enterprises, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
@@ -20605,12 +20606,12 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="578"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="579"/>
         <source>Unknown response from server.  Enterprise list unavailable.  Please consult the server logs or contact your FileWave administrator for help.  (Note that without any valid enterprises, you will not be able to create tokens.)</source>
         <translation>サーバーからの応答が不明です。  エンタープライズリストが利用できません。  サーバーログを調べるか、FileWave管理者に連絡してください。  （有効なエンタープライズがなければ、トークンを作成できません。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="623"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="624"/>
         <source>Unable to get list of policies.  Without any policies, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
@@ -20619,7 +20620,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="631"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="632"/>
         <source>Forbidden!  Unable to get list of registered policies from server.  Note: Without at least one policy, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
@@ -20628,7 +20629,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="639"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="640"/>
         <source>Server error; unable to get list of policies.  Without any policies, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
@@ -20637,12 +20638,12 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="646"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="647"/>
         <source>Unknown response from server.  Policy list unavailable.  Please consult the server logs or contact your FileWave administrator for help.  (Note that without any policies, you will not be able to create tokens.)</source>
         <translation>サーバーからの応答が不明です。  ポリシーリストが利用できません。  サーバーログを調べるか、FileWave管理者に連絡してください。 （ポリシーがないとトークンを作成できません。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="711"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="712"/>
         <source>Forbidden!  Unable to get list of existing enrollment tokens.
 
 Server said (%1): %2</source>
@@ -20651,7 +20652,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="719"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="720"/>
         <source>Unable to get list of existing enrollment tokens.
 
 Server said (%1): %2</source>
@@ -20660,7 +20661,7 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="727"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="728"/>
         <source>Server error; unable to get list of existing enrollment tokens.
 
 Server said (%1): %2</source>
@@ -20669,19 +20670,14 @@ Server said (%1): %2</source>
 サーバー (%1): %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="734"/>
+        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="735"/>
         <source>Unknown response from server.  Enrollment token list unavailable.  Please consult the server logs or contact your FileWave administrator for help.</source>
         <translation>サーバーからの応答が不明です。  エンロールトークンリストは利用できません。  サーバーログを調べるか、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="761"/>
-        <source>Select a token from the table, or create a new one.</source>
-        <translation>テーブルからトークンを選択するか、新しいトークンを作成します。</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="762"/>
-        <source>No token selected ...</source>
-        <translation>トークンが選択されていません ...</translation>
+        <source>Select or create a token.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -33679,7 +33675,7 @@ Server said (%1): %2.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="187"/>
-        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="296"/>
+        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="299"/>
         <source>Modified</source>
         <translation>修正済</translation>
     </message>
@@ -33694,22 +33690,22 @@ Server said (%1): %2.</source>
         <translation>VPPトークン</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="406"/>
+        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="409"/>
         <source>fileset</source>
         <translation>ファイルセット</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="411"/>
+        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="414"/>
         <source>fileset group</source>
         <translation>ファイルセットグループ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="437"/>
+        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="440"/>
         <source>Could not rename %1</source>
         <translation>%1 を名前変更できませんでした</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="437"/>
+        <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="440"/>
         <source>Could not rename %1: a %1 with the same name already exists.</source>
         <translation>%1 を名前変更できませんでした: 同じ名前の %1 が既に存在します。</translation>
     </message>
@@ -34816,46 +34812,46 @@ Affected payload: %1</source>
         <translation type="unfinished">フォーム</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="32"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="44"/>
         <source>Password</source>
         <translation type="unfinished">パスワード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="46"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="380"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="58"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="392"/>
         <source>Days Until Wipe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="68"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="402"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="80"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="414"/>
         <source>After this many days of noncompliance, the device will be wiped. Must be greater than the previous setting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="127"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="302"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="139"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="314"/>
         <source>Days Until Block</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="146"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="321"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="158"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="333"/>
         <source>After this many days of noncompliance, access to sensitive apps will be blocked. Minimum 0.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="205"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="217"/>
         <source>Enforce device compliance with an associated Password Policy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="229"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="241"/>
         <source>Keyguard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="243"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.ui" line="255"/>
         <source>Enforce device compliance with the keyguard setting within a Dedicated Device Policy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35970,7 +35966,7 @@ Please make sure the file is present and not corrupted.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSFilesetReportDlg.ui" line="97"/>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="118"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="122"/>
         <source>Loading...</source>
         <translation>ロード...</translation>
     </message>
@@ -35990,46 +35986,46 @@ Please make sure the file is present and not corrupted.</source>
         <translation>すべて</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="113"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="117"/>
         <source>%1 Device(s)</source>
         <translation>
             <numerusform>%1デバイス</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="132"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="136"/>
         <source>Refresh</source>
         <translation>リフレッシュ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="180"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="184"/>
         <source>Fileset(s) will be uninstalled and then reinstalled.</source>
         <translation>ファイルセットがアンインストールされてから再インストールされます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="182"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="186"/>
         <source>&lt;B&gt;Warning:&lt;/B&gt;&lt;BR/&gt;User data stored on the device will be removed causing data loss if the application is not using iCloud storage.&lt;BR/&gt;Removing Wifi profile can cause device losing connectivity to MDM server.</source>
         <translation>&lt;B&gt;警告:&lt;/B&gt;&lt;BR/&gt;アプリがiCloudストレージを使用していない場合、デバイスに保存されているユーザーデータは削除され、データが失われます。&lt;BR/&gt;Wi-Fiプロファイルを削除すると、デバイスがMDMサーバーへの接続を失う可能性があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="183"/>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="267"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="187"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="271"/>
         <source>Force reinstall</source>
         <translation>強制再インストール</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="184"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="188"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="233"/>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="238"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="237"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="242"/>
         <source>Reinstall Filesets</source>
         <translation>ファイルセット再インストール</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="233"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="237"/>
         <source>An error occurred while reinstalling filesets:
 
 %1</source>
@@ -36038,12 +36034,12 @@ Please make sure the file is present and not corrupted.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="238"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="242"/>
         <source>Commands to reinstall fileset(s) have been sent to device(s).</source>
         <translation>ファイルセットを再インストールするためのコマンドがデバイスに送信されました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/IOSFilesetReportDlg.cpp" line="249"/>
         <source>Mobile Fileset Report - %1 Items.txt</source>
         <translation type="unfinished"></translation>
     </message>
@@ -40453,13 +40449,13 @@ located on the client computer:
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="314"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1341"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1362"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="321"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1354"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1375"/>
         <source>-</source>
         <translation>+</translation>
     </message>
@@ -40556,7 +40552,7 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="559"/>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="615"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1026"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1047"/>
         <source>Password</source>
         <translation>パスワード</translation>
     </message>
@@ -40581,219 +40577,219 @@ located on the client computer:
         <translation>ワイヤレスネットワークのパスワード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="660"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="663"/>
         <source>Setup Mode</source>
         <translation>セットアップモード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="667"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="670"/>
         <source>Type of connection mode (macOS only)</source>
         <translation>接続モードの種類（macOSのみ）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="677"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="698"/>
         <source>User logs in to authenticate the Mac to the network</source>
         <translation>ユーザーがログインしてMacをネットワークに認証させる</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="684"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="705"/>
         <source>Network Security Settings</source>
         <translation>ネットワークセキュリティ設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="691"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="712"/>
         <source>Configuration settings for 802.1X network authentication</source>
         <translation>802.1Xネットワーク認証の設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="714"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="735"/>
         <source>Protocols</source>
         <translation>プロトコル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="720"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="741"/>
         <source>Accepted EAP Types</source>
         <translation>EAPの種類</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="727"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="748"/>
         <source>Authentication protocols supported on target network</source>
         <translation>ターゲットネットワークでサポートされている認証プロトコル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="736"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="757"/>
         <source>LEAP</source>
         <translation>LEAP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="743"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="764"/>
         <source>TLS</source>
         <translation>TLS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="750"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="771"/>
         <source>PEAP</source>
         <translation>PEAP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="757"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1212"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="778"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1233"/>
         <source>EAP-SIM</source>
         <translation>EAP-SIM</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="764"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="834"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="785"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="855"/>
         <source>EAP-FAST</source>
         <translation>EAP-FAST</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="784"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="805"/>
         <source>EAP-AKA</source>
         <translation>EAP-AKA</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="791"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="812"/>
         <source>TTLS</source>
         <translation>TTLS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="841"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="862"/>
         <source>Configuration of Protected Access Credential (PAC)</source>
         <translation>Protected Access Credential（PAC）の設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="868"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="889"/>
         <source>Use PAC</source>
         <translation>PACを使用する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="875"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="896"/>
         <source>Provision PAC</source>
         <translation>Provision PAC</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="882"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="903"/>
         <source>Provision PAC Anonymously</source>
         <translation>Provision PAC Anonymously</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="924"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="945"/>
         <source>Use Two Factor Authentication</source>
         <translation>2ファクタ認証を使用する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="949"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="970"/>
         <source>Use Directory Authentication</source>
         <translation>ディレクトリー認証を使用する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="956"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="977"/>
         <source>Authenticate with the target&apos;s machine directory credentials</source>
         <translation>ターゲットのマシンディレクトリ認証情報で認証する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="987"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1008"/>
         <source>User name</source>
         <translation>ユーザー名</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="994"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1015"/>
         <source>User name for connection to the network</source>
         <translation>ネットワークに接続するためのユーザー名</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1004"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1025"/>
         <source>Use Per-Connection Password</source>
         <translation>接続ごとのパスワードを使用する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1033"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1054"/>
         <source>Password for the provided user name</source>
         <translation>提供されたユーザー名のパスワード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1074"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1095"/>
         <source>Identity Certificate</source>
         <translation>ID証明書</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1081"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1102"/>
         <source>Credentials for connection to the network</source>
         <translation>ネットワークに接続するための資格情報</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1115"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1136"/>
         <source>Inner Authentication</source>
         <translation>内部認証</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1122"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1143"/>
         <source>Authentication protocol (for use only with TTLS)</source>
         <translation>認証プロトコル（TTLS専用）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1177"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1198"/>
         <source>Outer Identity</source>
         <translation>外部識別</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1184"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1205"/>
         <source>Externally visible identification (for TTLS, PEAP, and EAP-FAST)</source>
         <translation>外部から見える識別情報（TTLS、PEAP、およびEAP-FAST用）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1219"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1240"/>
         <source>Allow Two RANDs</source>
         <translation>2RAND値を許可する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1226"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1247"/>
         <source>Allow authenticating to server providing only two RAND values</source>
         <translation>2つのRAND値のみを提供するサーバーへの認証を許可する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1236"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1257"/>
         <source>TLS Minimum Version</source>
         <translation>最小TLSバージョン</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1246"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1267"/>
         <source>TLS Maximum Version</source>
         <translation>最大TLSバージョン</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1270"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1291"/>
         <source>Trust</source>
         <translation>信頼</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1276"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1297"/>
         <source>Trusted Certificates</source>
         <translation>信頼できる証明書</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1283"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1304"/>
         <source>Certificates trusted/expected for authentication</source>
         <translation>認証に対して信頼されている/予期されている証明書</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1300"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1321"/>
         <source>Trusted Server Certificate Names</source>
         <translation>信頼できるサーバー証明書の名前</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1307"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1328"/>
         <source>Certificate names expected from authentication server</source>
         <translation>認証サーバーから予期される証明書名</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1411"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1432"/>
         <source>Restrict Fast Lane QoS Marking</source>
         <translation>Fast Lane QoSマーキングを制限する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1453"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.ui" line="1474"/>
         <source>Allow QoS marking for built-in audio/video apps</source>
         <translation>内蔵のオーディオ/ビデオアプリにQoSマーキングを許可する</translation>
     </message>
@@ -40829,9 +40825,9 @@ located on the client computer:
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="114"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="858"/>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="968"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="863"/>
         <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="973"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="978"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
@@ -40891,57 +40887,57 @@ located on the client computer:
         <translation>ログインウィンドウ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="829"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="834"/>
         <source>Certificate Common Name</source>
         <translation>証明書共通名</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="861"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="866"/>
         <source>WEP</source>
         <translation>WEP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="863"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="868"/>
         <source>WPA / WPA2 Personal</source>
         <translation>WPA / WPA2 パーソナル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="865"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="870"/>
         <source>WPA2 Personal</source>
         <translation type="unfinished">WPA3パーソナル {2 ?}</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="876"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="881"/>
         <source>WPA2 Enterprise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="878"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="883"/>
         <source>WPA3 Enterprise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="867"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="872"/>
         <source>WPA3 Personal</source>
         <translation>WPA3パーソナル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="869"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="874"/>
         <source>Any (Personal)</source>
         <translation>Any (パーソナル)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="872"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="877"/>
         <source>Dynamic WEP</source>
         <translation>ダイナミックWEP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="874"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="879"/>
         <source>WPA / WPA2 Enterprise</source>
         <translation>WPA / WPA2エンタープライズ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="880"/>
+        <location filename="../../FWAdminLib/Configurator/NetworkForm.cpp" line="885"/>
         <source>Any (Enterprise)</source>
         <translation>Any (エンタープライズ)</translation>
     </message>
@@ -50196,18 +50192,16 @@ small to run as fast as possible.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="900"/>
-        <source>Verification Scripts are executed after postflight scripts and everytime a fileset
-is verified, just after the verification is completed.</source>
-        <translation>検証スクリプトは、ポストフライトスクリプト後、および検証が完了した直後に
-ファイルセットが検証されるたびに実行されます。</translation>
+        <source>Verification Scripts occur after postflight scripts and only execute when a Fileset is verified.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="903"/>
+        <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="902"/>
         <source>Pre-Uninstallation Scripts are executed just before starting the inactivation of a fileset.</source>
         <translation>アンインストール前スクリプトは、ファイルセットのインアクティブ化を開始する直前に実行されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="905"/>
+        <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="904"/>
         <source>Post-Uninstallation Scripts are executed right after inactivating a fileset. At this
 stage, the only files of the fileset that remain on disk are the post-uninstallation
 scripts. They are deleted when the execution of the last script finishes.</source>
@@ -50216,7 +50210,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
 だけです。最後のスクリプトの実行が終了すると、それらは削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="921"/>
+        <location filename="../../FWAdminLib/models/ScriptsModel.cpp" line="920"/>
         <source>Permission denied to modify scripts</source>
         <translation>スクリプトを修正する権限が拒否されました</translation>
     </message>

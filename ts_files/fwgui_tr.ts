@@ -71,37 +71,37 @@
         <translation>Tuğra Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="164"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="161"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organizations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="508"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="505"/>
         <source>title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="518"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="515"/>
         <source>category</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="559"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="556"/>
         <source>Status: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="760"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="757"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="818"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="815"/>
         <source>Back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="830"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="827"/>
         <source>Forward</source>
         <translation type="unfinished"></translation>
     </message>
@@ -216,107 +216,107 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished">Tuğra Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="222"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="219"/>
         <source>Last Successful Connection:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="236"/>
         <source>Server Connection:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="352"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="349"/>
         <source>Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="528"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="525"/>
         <source>Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="558"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="555"/>
         <source>Boosters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="630"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="627"/>
         <source>Last Connection Attempt:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="664"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="661"/>
         <source>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;FileWave Privacy Policy&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="696"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="693"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="369"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="366"/>
         <source>File Check Interval:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="335"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="332"/>
         <source>Platform:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="453"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="450"/>
         <source>Model Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="417"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="414"/>
         <source>Tickle Interval:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="606"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="603"/>
         <source>FileWave Server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="299"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="296"/>
         <source>Status:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="147"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="144"/>
         <source>SSL:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="275"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="272"/>
         <source>Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="592"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="589"/>
         <source>1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="285"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="282"/>
         <source>2.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="309"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="306"/>
         <source>3.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="261"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="258"/>
         <source>4.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="439"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="436"/>
         <source>5.</source>
         <translation type="unfinished"></translation>
     </message>
