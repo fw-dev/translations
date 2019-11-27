@@ -7852,12 +7852,12 @@ Once the certificate is trusted in your keychain you will be able to log in to y
 証明書がキーチェーンで信頼されると、FileWaveサーバーに直接ログインできます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="613"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="617"/>
         <source>Failed to add the certificate to the keychain.</source>
         <translation>キーチェーンへの証明書の追加に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="629"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="633"/>
         <source>Failed to add the certificate to the certificate store.</source>
         <translation>証明書ストアへの証明書の追加に失敗しました。</translation>
     </message>

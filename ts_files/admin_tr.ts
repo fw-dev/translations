@@ -7804,12 +7804,12 @@ Once the certificate is trusted in your keychain you will be able to log in to y
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="613"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="617"/>
         <source>Failed to add the certificate to the keychain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="629"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="633"/>
         <source>Failed to add the certificate to the certificate store.</source>
         <translation type="unfinished"></translation>
     </message>
