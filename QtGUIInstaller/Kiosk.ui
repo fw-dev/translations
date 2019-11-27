@@ -33,9 +33,6 @@ QProgressBar::chunk {
                                 stop: 0.5 #e3e3e3, stop: 1.0 #efefef);*/
 }</string>
   </property>
-  <property name="unifiedTitleAndToolBarOnMac">
-   <bool>true</bool>
-  </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
     <property name="spacing">
@@ -833,6 +830,12 @@ QProgressBar::chunk {
  </widget>
  <customwidgets>
   <customwidget>
+   <class>RatingWidget</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/RatingWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
    <class>StyledTreeView</class>
    <extends>QTreeView</extends>
    <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
@@ -841,12 +844,6 @@ QProgressBar::chunk {
    <class>PrettySplitter</class>
    <extends>QSplitter</extends>
    <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
-   <class>RatingWidget</class>
-   <extends>QWidget</extends>
-   <header>FileWaveGuiLib/RatingWidget.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

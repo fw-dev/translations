@@ -13,10 +13,16 @@
     <height>500</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
    <string>Enroll Android Device</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2">
+  <layout class="QHBoxLayout" name="hl_mainLayout">
    <property name="leftMargin">
     <number>0</number>
    </property>
@@ -30,388 +36,421 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="PrettySplitter" name="splitter">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
+    <widget class="QWidget" name="tableContainer" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
-     <property name="handleWidth">
-      <number>0</number>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
      </property>
-     <widget class="QWidget" name="tableContainer" native="true">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>100</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QLabel" name="tokensLabel">
+     <property name="maximumSize">
+      <size>
+       <width>695</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="vl_table">
+      <item>
+       <widget class="QLabel" name="tokensLabel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+          <horstretch>50</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Available Enrollment Tokens: -</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="StyledTreeView" name="tokensTable" native="true"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="hl_createDeleteButtons">
+        <item>
+         <widget class="QToolButton" name="createEnrollmentToken">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="deleteEnrollmentToken">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="hs_createDeleteButtons">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>622</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="itemContainer" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <layout class="QVBoxLayout" name="vl_tokenDetails">
+      <item>
+       <widget class="QTabWidget" name="tab_tokenDetailsContainer">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>432</width>
+          <height>470</height>
+         </size>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="tab_qrCode">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-           <horstretch>50</horstretch>
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
-         <property name="text">
-          <string>Available Enrollment Tokens: -</string>
+         <property name="minimumSize">
+          <size>
+           <width>384</width>
+           <height>384</height>
+          </size>
          </property>
-         <property name="alignment">
-          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-         </property>
+         <attribute name="title">
+          <string>QR Code</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="vl_qrcode">
+          <item>
+           <widget class="QLabel" name="tokenQRCode">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>384</width>
+              <height>384</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>384</width>
+              <height>384</height>
+             </size>
+            </property>
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>No token selected.</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="textInteractionFlags">
+             <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="tokenDetails">
+            <property name="font">
+             <font>
+              <family>Courier New</family>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select a token ...</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
-       </item>
-       <item>
-        <widget class="StyledTreeView" name="tokensTable" native="true"/>
-       </item>
-       <item>
-        <layout class="QHBoxLayout" name="horizontalLayout">
-         <item>
-          <widget class="QToolButton" name="createEnrollmentToken">
-           <property name="text">
-            <string>+</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QToolButton" name="deleteEnrollmentToken">
-           <property name="text">
-            <string>-</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="horizontalSpacer">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>622</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-        </layout>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="itemContainer" native="true">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>100</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
-       <item>
-        <widget class="QTabWidget" name="tab_tokenDetailsContainer">
-         <property name="currentIndex">
-          <number>1</number>
+        <widget class="QWidget" name="tab_tokenDetails">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <widget class="QWidget" name="tab_qrCode">
-          <attribute name="title">
-           <string>QR Code</string>
-          </attribute>
-          <layout class="QVBoxLayout" name="verticalLayout_4">
-           <item alignment="Qt::AlignHCenter">
-            <widget class="QLabel" name="tokenDetailsLabel">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
-               <horstretch>50</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="text">
-              <string>Selected Token Details</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="tokenQRCode">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="minimumSize">
-              <size>
-               <width>200</width>
-               <height>200</height>
-              </size>
-             </property>
-             <property name="autoFillBackground">
-              <bool>true</bool>
-             </property>
-             <property name="text">
-              <string>No token selected.</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="tokenDetails">
-             <property name="text">
-              <string>Select a token ...</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-         <widget class="QWidget" name="tab_tokenDetails">
-          <attribute name="title">
-           <string>Details</string>
-          </attribute>
-          <layout class="QVBoxLayout" name="verticalLayout_5">
-           <property name="leftMargin">
-            <number>0</number>
-           </property>
-           <property name="rightMargin">
-            <number>0</number>
-           </property>
-           <property name="bottomMargin">
-            <number>0</number>
-           </property>
-           <item>
-            <layout class="QFormLayout" name="formLayout">
-             <item row="0" column="0">
-              <widget class="QLabel" name="form_enterpriseLabel">
-               <property name="text">
-                <string>&amp;Enterprise</string>
-               </property>
-               <property name="buddy">
-                <cstring>form_enterpriseChoice</cstring>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="1">
-              <widget class="QComboBox" name="form_enterpriseChoice"/>
-             </item>
-             <item row="1" column="0">
-              <widget class="QLabel" name="form_policyLabel">
-               <property name="text">
-                <string>Base &amp;Policy</string>
-               </property>
-               <property name="buddy">
-                <cstring>form_policyChoice</cstring>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="1">
-              <widget class="QComboBox" name="form_policyChoice"/>
-             </item>
-             <item row="2" column="0">
-              <widget class="QLabel" name="form_reuseLabel">
-               <property name="text">
-                <string>&amp;Reusable</string>
-               </property>
-               <property name="buddy">
-                <cstring>form_reuseOptions</cstring>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="1">
-              <widget class="QGroupBox" name="form_reuseOptions">
-               <property name="title">
-                <string/>
-               </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_2">
-                <item>
-                 <widget class="QRadioButton" name="form_multipleEnrollment">
-                  <property name="toolTip">
-                   <string>Allow code to be reused until it expires.</string>
-                  </property>
-                  <property name="statusTip">
-                   <string>Allow code to be reused until it expires.</string>
-                  </property>
-                  <property name="text">
-                   <string>&amp;Multiple enrollments</string>
-                  </property>
-                  <property name="checked">
-                   <bool>true</bool>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QRadioButton" name="form_singleUseOnly">
-                  <property name="toolTip">
-                   <string>Code may only be used by a single device.</string>
-                  </property>
-                  <property name="statusTip">
-                   <string>Code may only be used by a single device.</string>
-                  </property>
-                  <property name="text">
-                   <string>&amp;Single-use only</string>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-             <item row="3" column="0">
-              <widget class="QLabel" name="form_durationLabel">
-               <property name="toolTip">
-                <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
-               </property>
-               <property name="statusTip">
-                <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
-               </property>
-               <property name="text">
-                <string>&amp;Duration</string>
-               </property>
-               <property name="buddy">
-                <cstring>form_duration</cstring>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1">
-              <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <attribute name="title">
+          <string>Details</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="vl_tokenDetails">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <layout class="QFormLayout" name="formLayout">
+            <item row="0" column="0">
+             <widget class="QLabel" name="form_enterpriseLabel">
+              <property name="text">
+               <string>&amp;Enterprise</string>
+              </property>
+              <property name="buddy">
+               <cstring>form_enterpriseChoice</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="form_enterpriseChoice"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="form_policyLabel">
+              <property name="text">
+               <string>Base &amp;Policy</string>
+              </property>
+              <property name="buddy">
+               <cstring>form_policyChoice</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="form_policyChoice"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="form_reuseLabel">
+              <property name="text">
+               <string>&amp;Reusable</string>
+              </property>
+              <property name="buddy">
+               <cstring>form_reuseOptions</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QGroupBox" name="form_reuseOptions">
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QHBoxLayout" name="hl_multipleEnrollment">
                <item>
-                <widget class="QSpinBox" name="form_duration">
+                <widget class="QRadioButton" name="form_multipleEnrollment">
                  <property name="toolTip">
-                  <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                  <string>Allow code to be reused until it expires.</string>
                  </property>
                  <property name="statusTip">
-                  <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                  <string>Allow code to be reused until it expires.</string>
                  </property>
-                 <property name="minimum">
-                  <number>1</number>
+                 <property name="text">
+                  <string>&amp;Multiple enrollments</string>
                  </property>
-                 <property name="maximum">
-                  <number>43200</number>
-                 </property>
-                 <property name="value">
-                  <number>30</number>
+                 <property name="checked">
+                  <bool>true</bool>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QComboBox" name="form_durationUnitsChoice">
+                <widget class="QRadioButton" name="form_singleUseOnly">
                  <property name="toolTip">
-                  <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                  <string>Code may only be used by a single device.</string>
                  </property>
                  <property name="statusTip">
-                  <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                  <string>Code may only be used by a single device.</string>
                  </property>
-                 <item>
-                  <property name="text">
-                   <string>Minutes</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Hours</string>
-                  </property>
-                 </item>
-                 <item>
-                  <property name="text">
-                   <string>Days</string>
-                  </property>
-                 </item>
+                 <property name="text">
+                  <string>&amp;Single-use only</string>
+                 </property>
                 </widget>
                </item>
               </layout>
-             </item>
-             <item row="5" column="0">
-              <widget class="QLabel" name="form_commentLabel">
-               <property name="text">
-                <string>&amp;Comment</string>
-               </property>
-               <property name="buddy">
-                <cstring>form_comment</cstring>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="0">
-              <widget class="QLabel" name="form_expiresLabel">
-               <property name="text">
-                <string>Expires</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="1">
-              <widget class="QLabel" name="form_expiresValueLabel">
-               <property name="text">
-                <string/>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="1">
-              <widget class="QPlainTextEdit" name="form_comment"/>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <spacer name="verticalSpacer_2">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>40</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
-             <item>
-              <spacer name="horizontalSpacer_2">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item>
-              <widget class="QPushButton" name="form_tokenSave">
-               <property name="text">
-                <string>&amp;Create</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-          </layout>
-         </widget>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="form_durationLabel">
+              <property name="toolTip">
+               <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
+              </property>
+              <property name="statusTip">
+               <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
+              </property>
+              <property name="text">
+               <string>&amp;Duration</string>
+              </property>
+              <property name="buddy">
+               <cstring>form_duration</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <layout class="QHBoxLayout" name="hl_duration">
+              <item>
+               <widget class="QSpinBox" name="form_duration">
+                <property name="toolTip">
+                 <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                </property>
+                <property name="statusTip">
+                 <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>43200</number>
+                </property>
+                <property name="value">
+                 <number>30</number>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="form_durationUnitsChoice">
+                <property name="toolTip">
+                 <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                </property>
+                <property name="statusTip">
+                 <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Minutes</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Hours</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Days</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="form_commentLabel">
+              <property name="text">
+               <string>&amp;Comment</string>
+              </property>
+              <property name="buddy">
+               <cstring>form_comment</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="form_expiresLabel">
+              <property name="text">
+               <string>Expires</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="form_expiresValueLabel">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QPlainTextEdit" name="form_comment"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="vs_form">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="hl_save">
+            <item>
+             <spacer name="hs_save">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="form_tokenSave">
+              <property name="text">
+               <string>&amp;Create</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
         </widget>
-       </item>
-      </layout>
-     </widget>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
   </layout>
@@ -425,12 +464,6 @@
   </action>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>PrettySplitter</class>
-   <extends>QSplitter</extends>
-   <header>FileWaveGuiLib/prettysplitter/prettysplitter.h</header>
-   <container>1</container>
-  </customwidget>
   <customwidget>
    <class>StyledTreeView</class>
    <extends>QWidget</extends>

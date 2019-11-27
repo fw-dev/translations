@@ -73,7 +73,7 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="3136"/>
         <source>Fileset (or dependency of) %1 not found on server</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット（または依存関係） %1 はサーバーにありません</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="3464"/>
@@ -210,7 +210,7 @@ Worklist:
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1554"/>
         <source>Making Fileset %1 passive</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット %1 をパッシブにします</translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1626"/>
