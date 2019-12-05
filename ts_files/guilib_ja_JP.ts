@@ -1037,22 +1037,22 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="25"/>
         <source>[Email body]</source>
-        <translation type="unfinished"></translation>
+        <translation>[メール本文]</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="32"/>
         <source>[Subject line]</source>
-        <translation type="unfinished"></translation>
+        <translation>[件名]</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="45"/>
         <source>Subject:</source>
-        <translation type="unfinished"></translation>
+        <translation>件名：</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="64"/>
         <source>Body:</source>
-        <translation type="unfinished"></translation>
+        <translation>本文：</translation>
     </message>
 </context>
 <context>
