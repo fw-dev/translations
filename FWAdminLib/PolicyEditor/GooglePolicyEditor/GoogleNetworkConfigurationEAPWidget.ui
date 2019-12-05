@@ -121,38 +121,6 @@
     <widget class="QComboBox" name="frm_Inner"/>
    </item>
    <item>
-    <widget class="QLabel" name="lbl_title_TLSVersionMax">
-     <property name="text">
-      <string>Maximum TLS Version</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTip_desc_TLSVersionMax">
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="text">
-      <string>Normally the protocol will auto-negotiate the TLS version.  However, this restriction may be required when connecting to access points with buggy TLS implementations.</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-     <property name="textInteractionFlags">
-      <set>Qt::TextBrowserInteraction</set>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QComboBox" name="frm_TLSVersionMax"/>
-   </item>
-   <item>
     <widget class="QTabWidget" name="tab_Identity">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Minimum">

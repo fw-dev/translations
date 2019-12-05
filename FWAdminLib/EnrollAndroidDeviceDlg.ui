@@ -129,7 +129,7 @@
      <property name="autoFillBackground">
       <bool>false</bool>
      </property>
-     <layout class="QVBoxLayout" name="vl_tokenDetails">
+     <layout class="QVBoxLayout" name="vl_itemContainer">
       <item>
        <widget class="QTabWidget" name="tab_tokenDetailsContainer">
         <property name="sizePolicy">
