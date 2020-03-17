@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SingleSignOnExtensionsForm</class>
+ <widget class="QWidget" name="SingleSignOnExtensionsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>693</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="7" column="0">
+    <widget class="ItemListWidget" name="urlsWidget" native="true"/>
+   </item>
+   <item row="11" column="0">
+    <widget class="ItemListWidget" name="domainsWidget" native="true"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QWidget" name="realmWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="realmTitle">
+        <property name="text">
+         <string>Realm</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipRealm">
+        <property name="text">
+         <string>Properly capitalized realm name for the credential</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="realmField">
+        <property name="echoMode">
+         <enum>QLineEdit::Normal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QWidget" name="typeWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="typeTitle">
+        <property name="text">
+         <string>Sign-on Type</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButtonTypeCredential">
+        <property name="text">
+         <string>Credential</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButtonTypeRedirect">
+        <property name="text">
+         <string>Redirect</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="PListEditor" name="customConfigurationEditor" native="true"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="teamIdentifierField"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lTipExtensionIdentifier">
+     <property name="text">
+      <string>Bundle identifier of the app extension that performs the single sign-on</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="extensionIdentifierField"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="teamIdentifierTitle">
+     <property name="text">
+      <string>Team Identifier</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="extensionIdentifierTitle">
+     <property name="text">
+      <string>Extension Identifier</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lTipTeamIdentifier">
+     <property name="text">
+      <string>Team identifier of the app extension that performs the single sign-on</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ItemListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PListEditor</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/PListEditor.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>extensionIdentifierField</tabstop>
+  <tabstop>teamIdentifierField</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

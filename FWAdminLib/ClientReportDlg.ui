@@ -731,6 +731,43 @@
           </item>
          </layout>
         </widget>
+        <widget class="QWidget" name="tabEMMPolicy">
+         <attribute name="title">
+          <string>Installed Policy</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="vl_emmInstalledPolicy">
+          <item>
+           <widget class="QTextEdit" name="emmInstalledPolicy">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+             </font>
+            </property>
+            <property name="undoRedoEnabled">
+             <bool>false</bool>
+            </property>
+            <property name="lineWrapMode">
+             <enum>QTextEdit::NoWrap</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="acceptRichText">
+             <bool>false</bool>
+            </property>
+            <property name="cursorWidth">
+             <number>0</number>
+            </property>
+            <property name="textInteractionFlags">
+             <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+            </property>
+            <property name="placeholderText">
+             <string>Loading installed policy for device ...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
         <widget class="QWidget" name="tabUsers">
          <attribute name="title">
           <string>Users</string>

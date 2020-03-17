@@ -7,14 +7,8 @@
     <x>0</x>
     <y>0</y>
     <width>556</width>
-    <height>406</height>
+    <height>422</height>
    </rect>
-  </property>
-  <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
-    <horstretch>0</horstretch>
-    <verstretch>0</verstretch>
-   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>Quit All Running Processes</string>
@@ -31,6 +25,12 @@
      <property name="text">
       <string>Important System Software is to be installed on this computer...</string>
      </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
     </widget>
    </item>
    <item>
@@ -38,12 +38,24 @@
      <property name="text">
       <string>Please save your work and exit all programs.</string>
      </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="label_3">
      <property name="text">
       <string>The following applications are preventing this installation from taking place.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -199,6 +211,12 @@
        </property>
        <property name="text">
         <string>[Reboot deadline information...]</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
        </property>
       </widget>
      </item>

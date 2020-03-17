@@ -38,27 +38,27 @@
 <context>
     <name>InstallerStatusDialog</name>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="26"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="20"/>
         <source>FileWave Installer</source>
         <translation>Installeur FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="41"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="38"/>
         <source>Important system software is now being installed on your computer...</source>
         <translation>Un logiciel système est en cours d&apos;installation sur votre ordinateur...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="57"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="54"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
         <translation>N&apos;éteignez pas votre ordinateur. Il redémarrera automatiquement après l&apos;installation.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="73"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
         <source>Do not use the start menu.</source>
         <translation>N&apos;utilisez pas le menu de démarrage.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="89"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
         <source>Activating Fileset(s)...</source>
         <translation>Activation du/des fileset(s)...</translation>
     </message>
@@ -71,37 +71,37 @@
         <translation>Kiosque FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="164"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="161"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organizations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organisations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="508"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="505"/>
         <source>title</source>
         <translation>Titre</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="518"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="515"/>
         <source>category</source>
         <translation>catégorie</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="559"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="556"/>
         <source>Status: </source>
         <translation>Statut :</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="760"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="757"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
         <translation>Cet appareil est verrouillé par votre administrateur. Le Kiosque n&apos;est pas accessible pour l&apos;instant.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="818"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="815"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="830"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="827"/>
         <source>Forward</source>
         <translation>Avance</translation>
     </message>
@@ -222,107 +222,107 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
         <translation>Kiosque FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="222"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="219"/>
         <source>Last Successful Connection:</source>
         <translation>Dernière connexion réussie:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="236"/>
         <source>Server Connection:</source>
         <translation>Connexion Serveur:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="352"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="349"/>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="528"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="525"/>
         <source>Name:</source>
         <translation>Nom:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="558"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="555"/>
         <source>Boosters</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="630"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="627"/>
         <source>Last Connection Attempt:</source>
         <translation>Dernière tentative de connexion:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="664"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="661"/>
         <source>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;FileWave Privacy Policy&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;Politique de confidentialité FileWave&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="696"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="693"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
         <translation>Cet appareil est verrouillé par votre administrateur. Le Kiosque n&apos;est pas accessible pour l&apos;instant.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="369"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="366"/>
         <source>File Check Interval:</source>
         <translation>Intervalle de vérificiation:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="335"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="332"/>
         <source>Platform:</source>
         <translation>Plateforme:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="453"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="450"/>
         <source>Model Version:</source>
         <translation>Version du modèle:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="417"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="414"/>
         <source>Tickle Interval:</source>
         <translation>Intervalle tickle:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="606"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="603"/>
         <source>FileWave Server:</source>
         <translation>Serveur FileWave:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="299"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="296"/>
         <source>Status:</source>
         <translation>Statut:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="147"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="144"/>
         <source>SSL:</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="275"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="272"/>
         <source>Version:</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="592"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="589"/>
         <source>1.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="285"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="282"/>
         <source>2.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="309"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="306"/>
         <source>3.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="261"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="258"/>
         <source>4.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="439"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="436"/>
         <source>5.</source>
         <translation></translation>
     </message>
@@ -581,102 +581,102 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
 <context>
     <name>QuitRunningProcessDialog</name>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="20"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="14"/>
         <source>Quit All Running Processes</source>
         <translation>Terminer tous les processus en cours d&apos;exécution</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="32"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="26"/>
         <source>Important System Software is to be installed on this computer...</source>
         <translation>Une mise à jour importante du système doit être installée sur cet ordinateur...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="45"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
         <source>Please save your work and exit all programs.</source>
         <translation>Veuillez sauvegarder tout travail en cours et quitter tous les programmes.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="58"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="52"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation>Les applications suivantes empêchent l&apos;installation de s&apos;exécuter.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="119"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="113"/>
         <source>Quit Application</source>
         <translation>Quitter l&apos;application</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="132"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="126"/>
         <source>Quit All</source>
         <translation>Quitter toutes les applications</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="155"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="149"/>
         <source>Delay</source>
         <translation>Retarder</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="168"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="162"/>
         <source>for</source>
         <translation>pendant</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="219"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="213"/>
         <source>[Reboot deadline information...]</source>
         <translation>Informations sur la date limite de redémarrage</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="204"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
         <source>Start Installation</source>
         <translation>Démarrer l&apos;installation</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="179"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
         <source>You can delay installation until: %1.</source>
         <translation>Vous pouvez retarder l&apos;installation jusqu&apos;à: %1.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="183"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="188"/>
         <source>This update is now mandatory and cannot be delayed.</source>
         <translation>Cette mise à jour est obligatoire et ne peut pas être retardée.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="204"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
         <source>15 Minutes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="205"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
         <source>30 Minutes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="206"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
         <source>1 Hour</source>
         <translation>1 Heure</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="207"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>2 Hours</source>
         <translation>2 Heures</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="215"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
         <source>deadline</source>
         <translation>date limite</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="216"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="221"/>
         <source>till</source>
         <translation>jusqu&apos;à</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="99"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="104"/>
         <source>%1 programs active</source>
         <translation>%1 programme(s) actif(s)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="118"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation>L&apos;installation débutera automatiquement dans %1 secondes...</translation>
     </message>

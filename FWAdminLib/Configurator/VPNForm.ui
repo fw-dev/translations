@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>602</width>
-    <height>5367</height>
+    <height>5765</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -225,6 +225,59 @@
       </item>
       <item>
        <widget class="QLineEdit" name="identifierLE"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetIncludeAllNetworks" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_40">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="checkIncludeAllNetworks">
+        <property name="text">
+         <string>Route all traffic through the VPN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetExcludeLocalNetworks" native="true">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_39">
+         <property name="leftMargin">
+          <number>18</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkExcludeLocalNetworks">
+           <property name="text">
+            <string>Exclude local network traffic from VPN</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -1537,70 +1590,16 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="safariDomainsWidget" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_40">
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
-      <property name="topMargin">
-       <number>0</number>
-      </property>
-      <property name="rightMargin">
-       <number>0</number>
-      </property>
-      <property name="bottomMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="label_36">
-        <property name="text">
-         <string>Safari Domains</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="lTip_29">
-        <property name="text">
-         <string>Domains that should trigger this VPN connection in Safari</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QListWidget" name="safariDomainsList"/>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_22">
-        <item>
-         <widget class="QToolButton" name="btnAddSafariDomain">
-          <property name="text">
-           <string>+</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QToolButton" name="btnRemoveSafariDomain">
-          <property name="text">
-           <string>-</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_24">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </widget>
+    <widget class="ItemListWidget" name="safariDomainsWidget" native="true"/>
+   </item>
+   <item>
+    <widget class="ItemListWidget" name="calendarDomainsWidget" native="true"/>
+   </item>
+   <item>
+    <widget class="ItemListWidget" name="contactsDomainsWidget" native="true"/>
+   </item>
+   <item>
+    <widget class="ItemListWidget" name="mailDomainsWidget" native="true"/>
    </item>
    <item>
     <widget class="QWidget" name="ikev2CertificateInfoWidget" native="true">

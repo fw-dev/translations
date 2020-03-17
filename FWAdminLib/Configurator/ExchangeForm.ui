@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>573</width>
-    <height>1786</height>
+    <height>2181</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0">
    <item>
     <widget class="QLabel" name="lAccountName">
      <property name="text">
@@ -139,20 +139,41 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="lOAuthSignInURL">
-     <property name="text">
-      <string>OAuth Sign in URL</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="editOAuthSignInURL">
-     <property name="echoMode">
-      <enum>QLineEdit::Normal</enum>
-     </property>
-     <property name="placeholderText">
-      <string/>
-     </property>
+    <widget class="QWidget" name="oauthBlock" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="lOAuthSignInURL">
+        <property name="text">
+         <string>OAuth Sign in URL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editOAuthSignInURL"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="lOAuthTokenRequestURL">
+        <property name="text">
+         <string>OAuth Token Request URL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="editOAuthTokenRequestURL"/>
+      </item>
+     </layout>
     </widget>
    </item>
    <item>
@@ -264,7 +285,7 @@
       <number>0</number>
      </property>
      <widget class="QWidget" name="page">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0">
        <property name="leftMargin">
         <number>0</number>
        </property>
@@ -333,10 +354,51 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="lTipHost">
-         <property name="text">
-          <string>Microsoft Exchange Server</string>
-         </property>
+        <widget class="QWidget" name="hostTipsBlock" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="lTipHost">
+            <property name="text">
+             <string>Microsoft Exchange Server</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipHostRequired">
+            <property name="text">
+             <string>(required before iOS 13)</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>1</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -540,6 +602,155 @@
        <item>
         <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
        </item>
+       <item>
+        <widget class="QWidget" name="servicesBlock" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <property name="spacing">
+           <number>-1</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="EnabledServicesTitle">
+            <property name="text">
+             <string>Enabled Services</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipEnabledServices">
+            <property name="text">
+             <string>Enabled services for this account. At least one of them should be enabled</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxEnableMail">
+            <property name="text">
+             <string>Mail</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxEnableContacts">
+            <property name="text">
+             <string>Contacts</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxEnableCalendars">
+            <property name="text">
+             <string>Calendars</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxEnableReminders">
+            <property name="text">
+             <string>Reminders</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBoxEnableNotes">
+            <property name="text">
+             <string>Notes</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="AccountModificationTitle">
+         <property name="text">
+          <string>Account Modification</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipAccountModification">
+         <property name="text">
+          <string>Allow users to modify the state of the following services</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableMailUserOverridable">
+         <property name="text">
+          <string>Mail</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableContactsUserOverridable">
+         <property name="text">
+          <string>Contacts</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableCalendarsUserOverridable">
+         <property name="text">
+          <string>Calendars</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableRemindersUserOverridable">
+         <property name="text">
+          <string>Reminders</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBoxEnableNotesUserOverridable">
+         <property name="text">
+          <string>Notes</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="page_2">
@@ -740,6 +951,48 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>editAccountDescription</tabstop>
+  <tabstop>comboConnectionType</tabstop>
+  <tabstop>editDomain</tabstop>
+  <tabstop>editUser</tabstop>
+  <tabstop>editEmail</tabstop>
+  <tabstop>checkBoxOAuth</tabstop>
+  <tabstop>editPassword</tabstop>
+  <tabstop>editAuthCredentialName</tabstop>
+  <tabstop>comboCredential</tabstop>
+  <tabstop>editAuthCredentialPassphrase</tabstop>
+  <tabstop>checkBoxAllowMailDrop</tabstop>
+  <tabstop>checkAllowMove</tabstop>
+  <tabstop>checkSyncRecentAddress</tabstop>
+  <tabstop>checkUseOnlyMail</tabstop>
+  <tabstop>editHost</tabstop>
+  <tabstop>checkUseSSL</tabstop>
+  <tabstop>comboPastDays</tabstop>
+  <tabstop>checkSMimeMessageSigning</tabstop>
+  <tabstop>checkBoxSMIMESigningUserOverrideable</tabstop>
+  <tabstop>comboSigningCertificate</tabstop>
+  <tabstop>checkBoxSMIMESigningCertificateUUIDUserOverrideable</tabstop>
+  <tabstop>checksmimeEncryptionByDefault</tabstop>
+  <tabstop>checkBoxSMIMEEncryptByDefaultUserOverrideable</tabstop>
+  <tabstop>checkBoxEnableEncryptionPerMessageSwitch</tabstop>
+  <tabstop>comboEncryptionCertificate</tabstop>
+  <tabstop>checkBoxSMIMEEncryptionCertificateUUIDUserOverrideable</tabstop>
+  <tabstop>editHeaderMagic</tabstop>
+  <tabstop>checkBoxEnableMailUserOverridable</tabstop>
+  <tabstop>checkBoxEnableContactsUserOverridable</tabstop>
+  <tabstop>checkBoxEnableCalendarsUserOverridable</tabstop>
+  <tabstop>checkBoxEnableRemindersUserOverridable</tabstop>
+  <tabstop>checkBoxEnableNotesUserOverridable</tabstop>
+  <tabstop>editInternalESHost</tabstop>
+  <tabstop>editInternalESPort</tabstop>
+  <tabstop>editInternalESPath</tabstop>
+  <tabstop>checkInternalESSSL</tabstop>
+  <tabstop>editExternalESHost</tabstop>
+  <tabstop>editExternalESPort</tabstop>
+  <tabstop>editExternalESPath</tabstop>
+  <tabstop>checkExternalESSSL</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

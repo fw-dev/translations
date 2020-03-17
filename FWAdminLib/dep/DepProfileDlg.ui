@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>889</width>
-    <height>662</height>
+    <width>908</width>
+    <height>889</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1430,7 +1430,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
        <item>
         <widget class="QGroupBox" name="groupBox">
          <property name="title">
-          <string>macOS Account Setup Assistant Options</string>
+          <string>MacOS Primary Account Setup</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_33">
           <item>
@@ -1469,6 +1469,103 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
               <widget class="QRadioButton" name="localAccountAdministratorRadio">
                <property name="text">
                 <string>Administrator</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="cbPrefillAccountNames">
+               <property name="text">
+                <string>Pre-fill primary account full name and account name</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="cbUseDeviceOwnerAccount">
+               <property name="text">
+                <string>Use device owner's details to pre-fill primary account full name and account name</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="prefilledAccountGroup" native="true">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <layout class="QFormLayout" name="formLayout_4">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_26">
+                  <property name="text">
+                   <string>Full Name:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="primaryFullNameEdit">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="placeholderText">
+                   <string>optional</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLabel" name="label_27">
+                  <property name="text">
+                   <string>Account Name:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QLineEdit" name="primaryAccountEdit">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="placeholderText">
+                   <string>required</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="cbLockPrimaryAccountInfo">
+               <property name="text">
+                <string>Allow user to modify primary account full name and account name</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
                </property>
               </widget>
              </item>
@@ -2042,28 +2139,15 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_29">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_24">
-           <item>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="1">
             <widget class="QLabel" name="label_15">
              <property name="text">
               <string>Activation Lock Configuration:</string>
              </property>
             </widget>
            </item>
-           <item>
-            <widget class="QComboBox" name="cmbboxActivationLock">
-             <property name="minimumSize">
-              <size>
-               <width>200</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="minimumContentsLength">
-              <number>0</number>
-             </property>
-            </widget>
-           </item>
-           <item>
+           <item row="0" column="3">
             <spacer name="horizontalSpacer_19">
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
@@ -2076,6 +2160,29 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
              </property>
             </spacer>
            </item>
+           <item row="0" column="2">
+            <widget class="QComboBox" name="cmbboxActivationLock">
+             <property name="minimumSize">
+              <size>
+               <width>200</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="minimumContentsLength">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" colspan="3">
+            <widget class="QLabel" name="lTipDisabledActivationLock_2">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activation Lock is supported on iOS devices, and devices with T2 Chips (&lt;a href=&quot;https://support.apple.com/HT208862&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://support.apple.com/HT208862&lt;/span&gt;&lt;/a&gt;) running macOS 10.15+.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="openExternalLinks">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
           </layout>
          </item>
          <item>
@@ -2084,7 +2191,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
             <number>0</number>
            </property>
            <widget class="QWidget" name="page">
-            <layout class="QVBoxLayout" name="verticalLayout_30">
+            <layout class="QVBoxLayout" name="verticalLayout_19">
              <property name="leftMargin">
               <number>0</number>
              </property>
@@ -2100,7 +2207,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
              <item>
               <widget class="QLabel" name="lTipDisabledActivationLock">
                <property name="text">
-                <string>Application Lock is not enabled ; enabling &quot;Find My iPhone&quot; is not allowed.</string>
+                <string>Activation Lock is not enabled ; enabling &quot;Find My&quot; is not allowed.</string>
                </property>
               </widget>
              </item>
@@ -2143,7 +2250,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
              <item>
               <widget class="QLabel" name="lTipICloudActivationLock">
                <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My iPhone&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The device will be locked against logged-in iCloud Apple ID if &amp;quot;Find My&amp;quot; is enabled.&lt;br/&gt;A Bypass Code may be escrowed and can be used to disable Activation Lock.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                </property>
               </widget>
              </item>
@@ -2317,21 +2424,47 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
   <tabstop>profileName</tabstop>
   <tabstop>mdmUrl</tabstop>
   <tabstop>tabWidget</tabstop>
+  <tabstop>supportPhoneNumber</tabstop>
+  <tabstop>supportEmail</tabstop>
+  <tabstop>department</tabstop>
   <tabstop>mandatory</tabstop>
   <tabstop>supervised</tabstop>
   <tabstop>removable</tabstop>
   <tabstop>pairing</tabstop>
+  <tabstop>automaticAdvance</tabstop>
+  <tabstop>is_multi_user</tabstop>
+  <tabstop>maximumResidentUsers</tabstop>
+  <tabstop>allButton</tabstop>
+  <tabstop>noneButton</tabstop>
+  <tabstop>setupAssistantLanguage</tabstop>
+  <tabstop>setupAssistantRegion</tabstop>
   <tabstop>localAccountCheckBox</tabstop>
+  <tabstop>localAccountStandardRadio</tabstop>
+  <tabstop>localAccountAdministratorRadio</tabstop>
+  <tabstop>cbPrefillAccountNames</tabstop>
+  <tabstop>cbUseDeviceOwnerAccount</tabstop>
+  <tabstop>primaryFullNameEdit</tabstop>
+  <tabstop>primaryAccountEdit</tabstop>
+  <tabstop>cbLockPrimaryAccountInfo</tabstop>
+  <tabstop>managedAccountCheckBox</tabstop>
   <tabstop>fullNameEdit</tabstop>
   <tabstop>accountEdit</tabstop>
   <tabstop>passwordEdit</tabstop>
   <tabstop>verifyPasswordEdit</tabstop>
+  <tabstop>showManagedAccountCheckBox</tabstop>
   <tabstop>anchorCertsView</tabstop>
   <tabstop>addAnchorCert</tabstop>
   <tabstop>removeAnchorCert</tabstop>
   <tabstop>supervisingCertsView</tabstop>
   <tabstop>addSupervisingCert</tabstop>
   <tabstop>removeSupervisingCert</tabstop>
+  <tabstop>namingPolicyNewDevices</tabstop>
+  <tabstop>npExistingDevicesSameUser</tabstop>
+  <tabstop>npExistingDevicesNewUser</tabstop>
+  <tabstop>lineEditNamingTemplate</tabstop>
+  <tabstop>cmbboxActivationLock</tabstop>
+  <tabstop>chkboxAllowActivationLockIfBypassCodeIsAvailable</tabstop>
+  <tabstop>txtboxLostMessage</tabstop>
  </tabstops>
  <resources>
   <include location="../../FileWaveGuiLib/lockbutton/lockbutton.qrc"/>
@@ -2344,8 +2477,8 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>743</x>
-     <y>794</y>
+     <x>895</x>
+     <y>883</y>
     </hint>
     <hint type="destinationlabel">
      <x>541</x>
@@ -2360,12 +2493,44 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>743</x>
-     <y>794</y>
+     <x>895</x>
+     <y>883</y>
     </hint>
     <hint type="destinationlabel">
      <x>541</x>
      <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbPrefillAccountNames</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>cbUseDeviceOwnerAccount</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>95</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>95</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbPrefillAccountNames</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>cbLockPrimaryAccountInfo</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>114</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>113</x>
+     <y>402</y>
     </hint>
    </hints>
   </connection>

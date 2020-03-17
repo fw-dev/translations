@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>489</width>
-    <height>798</height>
+    <width>595</width>
+    <height>900</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
@@ -30,7 +30,7 @@
      <item>
       <layout class="QFormLayout" name="formLayout">
        <item row="0" column="0">
-        <widget class="QLabel" name="label_2">
+        <widget class="QLabel" name="labelDockSize">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
            <horstretch>0</horstretch>
@@ -42,152 +42,8 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="1">
-        <layout class="QHBoxLayout" name="horizontalLayout_5">
-         <property name="spacing">
-          <number>25</number>
-         </property>
-         <item>
-          <widget class="QLabel" name="lTipsmall">
-           <property name="minimumSize">
-            <size>
-             <width>50</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>Small</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QSlider" name="dockSizeSlider">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>150</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="minimum">
-            <number>16</number>
-           </property>
-           <property name="maximum">
-            <number>128</number>
-           </property>
-           <property name="value">
-            <number>64</number>
-           </property>
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="invertedAppearance">
-            <bool>false</bool>
-           </property>
-           <property name="invertedControls">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="lTipLarge">
-           <property name="minimumSize">
-            <size>
-             <width>50</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>Large</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item row="1" column="0">
-        <widget class="QCheckBox" name="magnificationCheckBox">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string>Magnification: </string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <layout class="QHBoxLayout" name="horizontalLayout_6">
-         <property name="spacing">
-          <number>25</number>
-         </property>
-         <item>
-          <widget class="QLabel" name="lTipMin">
-           <property name="minimumSize">
-            <size>
-             <width>50</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>Min</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QSlider" name="magnificationSlider">
-           <property name="enabled">
-            <bool>false</bool>
-           </property>
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
-           <property name="minimumSize">
-            <size>
-             <width>150</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="minimum">
-            <number>16</number>
-           </property>
-           <property name="maximum">
-            <number>128</number>
-           </property>
-           <property name="value">
-            <number>64</number>
-           </property>
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="lTipMax">
-           <property name="minimumSize">
-            <size>
-             <width>50</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>Max</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
        <item row="2" column="0">
-        <widget class="QLabel" name="label_3">
+        <widget class="QLabel" name="labelPosition">
          <property name="text">
           <string>Postition:</string>
          </property>
@@ -251,10 +107,215 @@
          </item>
         </widget>
        </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="labelPreferTabs">
+         <property name="text">
+          <string>Prefer tabs when opening documents:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="windowTabbingComboBox">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>Always</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>In Full Screen Only</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Manually</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="tileSizeComboBox">
+         <property name="currentIndex">
+          <number>5</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>10</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="labelMagnification">
+         <property name="text">
+          <string>Magnification: </string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="magnificationComboBox">
+         <item>
+          <property name="text">
+           <string>None</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>10</string>
+          </property>
+         </item>
+        </widget>
+       </item>
       </layout>
      </item>
      <item>
       <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>5</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QCheckBox" name="dblClickBehaviorCheckBox">
+       <property name="text">
+        <string>Double-click a window's title bar to</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="dblClickBehaviorComboBox">
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>minimize</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>zoom</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacerDblClick">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
@@ -271,14 +332,14 @@
    <item>
     <widget class="QCheckBox" name="minimizeWindowCheckBox">
      <property name="text">
-      <string>Minimize window into application icon</string>
+      <string>Minimize window into app icon</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="animateApplicationsCheckBox">
      <property name="text">
-      <string>Animate opening applications</string>
+      <string>Animate opening apps</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -301,21 +362,34 @@
    <item>
     <widget class="QCheckBox" name="showIndicatorCheckBox">
      <property name="text">
-      <string>Show indicator lights for open applications</string>
+      <string>Show indicators for open apps</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="showRecentAppsCheckBox">
+     <property name="text">
+      <string>Show recent apps in Dock</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="label_7">
      <property name="text">
-      <string>Dock Applications</string>
+      <string>Dock Apps</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="lTip_2">
      <property name="text">
-      <string>The applications that will appear in the user's dock</string>
+      <string>The apps that will appear in the user's dock</string>
      </property>
     </widget>
    </item>
@@ -474,6 +548,16 @@
     </widget>
    </item>
    <item>
+    <widget class="QCheckBox" name="allowModifyingItemsInDockCheckBox">
+     <property name="text">
+      <string>Allow modifying Items in Dock</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QLabel" name="label_10">
      <property name="text">
       <string>Add other folders:</string>
@@ -483,22 +567,6 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>10</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item>
       <widget class="QCheckBox" name="myApplicationsCheckbox">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -507,9 +575,25 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>My Applications  </string>
+        <string>My Apps  </string>
        </property>
       </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>10</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
      </item>
      <item>
       <widget class="QCheckBox" name="documentsCheckbox">
@@ -523,6 +607,19 @@
         <string>Documents  </string>
        </property>
       </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacerDocuments">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
      </item>
      <item>
       <widget class="QCheckBox" name="networkHomeCheckbox">
@@ -568,17 +665,18 @@
   </layout>
  </widget>
  <tabstops>
-  <tabstop>dockSizeSlider</tabstop>
-  <tabstop>magnificationCheckBox</tabstop>
-  <tabstop>magnificationSlider</tabstop>
   <tabstop>leftRadioButton</tabstop>
   <tabstop>bottomRadioButton</tabstop>
   <tabstop>rightRadioButton</tabstop>
   <tabstop>minimizeComboBox</tabstop>
+  <tabstop>windowTabbingComboBox</tabstop>
+  <tabstop>dblClickBehaviorCheckBox</tabstop>
+  <tabstop>dblClickBehaviorComboBox</tabstop>
   <tabstop>minimizeWindowCheckBox</tabstop>
   <tabstop>animateApplicationsCheckBox</tabstop>
   <tabstop>autoHideCheckBox</tabstop>
   <tabstop>showIndicatorCheckBox</tabstop>
+  <tabstop>showRecentAppsCheckBox</tabstop>
   <tabstop>appList</tabstop>
   <tabstop>appPlusButton</tabstop>
   <tabstop>appMinusButton</tabstop>
@@ -586,6 +684,7 @@
   <tabstop>folderPlusButton</tabstop>
   <tabstop>folderMinusButton</tabstop>
   <tabstop>mergeCheckbox</tabstop>
+  <tabstop>allowModifyingItemsInDockCheckBox</tabstop>
   <tabstop>myApplicationsCheckbox</tabstop>
   <tabstop>documentsCheckbox</tabstop>
   <tabstop>networkHomeCheckbox</tabstop>

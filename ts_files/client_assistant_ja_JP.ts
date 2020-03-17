@@ -32,62 +32,62 @@
 <context>
     <name>AssistantDlg</name>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="20"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="14"/>
         <source>FileWave Client Installer Assistant</source>
         <translation>FileWaveクライアントインストーラーアシスタント</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="43"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="37"/>
         <source>Welcome to the FileWave Client Setup Assistant</source>
         <translation>FileWaveクライアント設定アシスタントへようこそ</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="53"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="47"/>
         <source>Please enter the initial preferences for this Client</source>
         <translation>このクライアントの初期設定を入力してください</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="76"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="70"/>
         <source>Address:</source>
         <translation>アドレス:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="83"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="77"/>
         <source>Port:</source>
         <translation>ポート:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="96"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="90"/>
         <source>Server:</source>
         <translation>サーバー:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="129"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="123"/>
         <source>Booster:</source>
         <translation>ブースター:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="206"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="200"/>
         <source>Use Computer Name for Client Name</source>
         <translation>クライアント名にコンピューター名を使用する</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="254"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="248"/>
         <source>Client Name:</source>
         <translation>クライアント名:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="277"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="271"/>
         <source>Client Password:</source>
         <translation>クライアントパスワード:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="303"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="297"/>
         <source>Confirm Password:</source>
         <translation>確認パスワード:</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.ui" line="349"/>
+        <location filename="../../QtClientAssistant/assistantdlg.ui" line="343"/>
         <source>Edit Custom Data...</source>
         <translation>カスタムデータを編集...</translation>
     </message>

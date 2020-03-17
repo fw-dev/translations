@@ -11,13 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Edit VPP service tokens</string>
+   <string>Edit Apps and Books server tokens</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QGroupBox" name="serviceTokenGrp">
      <property name="title">
-      <string>VPP tokens</string>
+      <string>Apps and Books server tokens</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <property name="spacing">
@@ -92,7 +92,7 @@
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;VPP service tokens can be downloaded on your &lt;a href=&quot;https://vpp.itunes.apple.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Volume Purchase Program Store&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Warning: changing these settings will have an impact on VPP filesets for macOS and iOS and may affect application deployment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Server tokens can be downloaded in Apps and Books section of &lt;a href=&quot;https://school.apple.com&quot;&gt;Apple School Manager&lt;/a&gt; or &lt;a href=&quot;https://business.apple.com&quot;&gt;Apple Business Manager&lt;/a&gt; Settings.&lt;/p&gt;&lt;p&gt;Warning: changing these settings will have an impact on VPP filesets for macOS and iOS and may affect application deployment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>

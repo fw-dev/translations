@@ -157,14 +157,7 @@
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="BonjourServiceView" name="bonjourView">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-      </widget>
+      <widget class="BonjourServiceView" name="bonjourView"/>
      </item>
      <item row="10" column="2">
       <widget class="QLabel" name="commSec1LA">
@@ -350,7 +343,7 @@
   <customwidget>
    <class>BonjourServiceView</class>
    <extends>QPushButton</extends>
-   <header>bonjour/bonjourserviceview.h</header>
+   <header>FileWaveGuiLib/bonjour/bonjourserviceview.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>

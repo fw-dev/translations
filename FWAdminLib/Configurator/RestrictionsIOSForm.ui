@@ -733,16 +733,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="allowFindMyFriendsModification">
-         <property name="text">
-          <string>Allow modifying Find My Friends settings (Supervised devices only)</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="allowNotificationsModification">
          <property name="text">
           <string>Allow modifying notification settings (Supervised devices only)</string>
@@ -788,6 +778,19 @@
            </widget>
           </item>
          </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceWiFiPowerOn">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>Force Wi-Fi power on (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
         </widget>
        </item>
        <item>
@@ -888,6 +891,46 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowFindMyFriends">
+         <property name="text">
+          <string>Find My Friends (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowFindMyDevice">
+         <property name="text">
+          <string>Find My Devices (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowFindMyFriendsModification">
+         <property name="text">
+          <string>Allow modifying Find My Friends settings (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowUSBRestrictedMode">
+         <property name="text">
+          <string>Allow USB restricted mode (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowHostPairing">
          <property name="text">
           <string>Allow pairing with non-Configurator hosts (Supervised devices only)</string>
@@ -932,12 +975,22 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="forceLimitAdTracking">
+        <widget class="QCheckBox" name="allowFilesUSBDriveAccess">
          <property name="text">
-          <string>Force limited ad tracking</string>
+          <string>Allow USB drive access in Files app (Supervised devices only)</string>
          </property>
          <property name="checked">
-          <bool>false</bool>
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowFilesNetworkDriveAccess">
+         <property name="text">
+          <string>Allow network drive access in Files app (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -945,6 +998,16 @@
         <widget class="QCheckBox" name="forceEncryptedBackup">
          <property name="text">
           <string>Force encrypted backups</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceLimitAdTracking">
+         <property name="text">
+          <string>Force limited ad tracking</string>
          </property>
          <property name="checked">
           <bool>false</bool>
@@ -1202,6 +1265,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowContinuousPathKeyboard">
+         <property name="text">
+          <string>Allow QuickPath typing (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QWidget" name="widget" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_8">
           <property name="leftMargin">
@@ -1266,16 +1339,6 @@
            </spacer>
           </item>
          </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="allowUSBRestrictedMode">
-         <property name="text">
-          <string>Allow USB restricted mode (Supervised devices only)</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
         </widget>
        </item>
        <item>

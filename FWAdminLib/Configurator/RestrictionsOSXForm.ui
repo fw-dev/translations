@@ -175,6 +175,20 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="classroom">
+              <property name="text">
+               <string>Classroom</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/classroom.jpg</normaloff>:/assets/restrictions/classroom.jpg</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="discs">
               <property name="text">
                <string>CDs &amp;&amp; DVDs</string>
@@ -1665,7 +1679,7 @@
          <item>
           <widget class="QCheckBox" name="allowiTunesFileSharing">
            <property name="text">
-            <string>Allow iTunes File Sharing</string>
+            <string>Allow File Transfer using Finder or iTunes</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -1675,7 +1689,7 @@
          <item>
           <widget class="QLabel" name="lTip_allowiTunesFileSharing">
            <property name="text">
-            <string>Allow transferring documents using iTunes</string>
+            <string>Allow transferring documents to and from iOS and iPadOS devices using Finder or iTunes</string>
            </property>
           </widget>
          </item>
@@ -2003,9 +2017,39 @@
           </widget>
          </item>
          <item>
+          <widget class="QCheckBox" name="allowLookUp">
+           <property name="text">
+            <string>Allow Look Up</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowDictation">
+           <property name="text">
+            <string>Allow Dictation</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QCheckBox" name="allowFingerprintForUnlock">
            <property name="text">
             <string>Allow Touch ID to unlock device</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowHandoff">
+           <property name="text">
+            <string>Allow Handoff</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -2314,6 +2358,16 @@
           <widget class="QCheckBox" name="allowiCloudBookmarks">
            <property name="text">
             <string>Allow iCloud Bookmarks</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowiCloudPhotos">
+           <property name="text">
+            <string>Allow iCloud Photos</string>
            </property>
            <property name="checked">
             <bool>true</bool>

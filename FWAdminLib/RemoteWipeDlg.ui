@@ -10,12 +10,6 @@
     <height>302</height>
    </rect>
   </property>
-  <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-    <horstretch>0</horstretch>
-    <verstretch>0</verstretch>
-   </sizepolicy>
-  </property>
   <property name="windowTitle">
    <string>Remote Wipe</string>
   </property>
@@ -125,7 +119,7 @@
          <item>
           <widget class="QLabel" name="lTip_removeAL">
            <property name="text">
-            <string>Available in supervised iOS 7.1 and later</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Available in supervised iOS 7.1+ and Mac with T2 security chip&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
          </item>
