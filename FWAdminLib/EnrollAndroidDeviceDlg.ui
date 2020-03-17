@@ -129,7 +129,7 @@
      <property name="autoFillBackground">
       <bool>false</bool>
      </property>
-     <layout class="QVBoxLayout" name="vl_tokenDetails">
+     <layout class="QVBoxLayout" name="vl_itemContainer">
       <item>
        <widget class="QTabWidget" name="tab_tokenDetailsContainer">
         <property name="sizePolicy">
@@ -317,20 +317,31 @@
              </widget>
             </item>
             <item row="3" column="0">
-             <widget class="QLabel" name="form_durationLabel">
-              <property name="toolTip">
-               <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
-              </property>
-              <property name="statusTip">
-               <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
-              </property>
-              <property name="text">
-               <string>&amp;Duration</string>
-              </property>
-              <property name="buddy">
-               <cstring>form_duration</cstring>
-              </property>
-             </widget>
+             <layout class="QHBoxLayout" name="hl_lblDuration">
+              <item>
+               <widget class="QLabel" name="form_durationLabel">
+                <property name="toolTip">
+                 <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
+                </property>
+                <property name="statusTip">
+                 <string>Tokens can be valid for as little as 1 minute or as long as 30 days.</string>
+                </property>
+                <property name="text">
+                 <string>&amp;Duration</string>
+                </property>
+                <property name="buddy">
+                 <cstring>form_duration</cstring>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="form_expiresLabel">
+                <property name="text">
+                 <string>Expires</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </item>
             <item row="3" column="1">
              <layout class="QHBoxLayout" name="hl_duration">
@@ -378,7 +389,27 @@
                 </item>
                </widget>
               </item>
+              <item>
+               <widget class="QLabel" name="form_expiresValueLabel">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
              </layout>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="form_wifiLabel">
+              <property name="toolTip">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WiFi information encoded into QR code. &lt;span style=&quot; font-style:italic;&quot;&gt;Note that this encoding is client side and not transmitted to Google.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="text">
+               <string>WiFi Profile</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QComboBox" name="form_wifi"/>
             </item>
             <item row="5" column="0">
              <widget class="QLabel" name="form_commentLabel">
@@ -387,20 +418,6 @@
               </property>
               <property name="buddy">
                <cstring>form_comment</cstring>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="0">
-             <widget class="QLabel" name="form_expiresLabel">
-              <property name="text">
-               <string>Expires</string>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="1">
-             <widget class="QLabel" name="form_expiresValueLabel">
-              <property name="text">
-               <string/>
               </property>
              </widget>
             </item>

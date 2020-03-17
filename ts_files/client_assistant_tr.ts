@@ -92,7 +92,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="222"/>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="237"/>
         <source>The password and confirmation don&apos;t match -- please try again.</source>
         <translation>Şifre ve doğrulaması eşleşmiyor -- lütfen tekrar deneyin.</translation>
     </message>

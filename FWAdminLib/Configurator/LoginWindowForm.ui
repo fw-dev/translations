@@ -191,23 +191,16 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="m_checkDisableAppleIDSetupDuringLogin">
-         <property name="text">
-          <string>Disable Apple ID setup during login</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="m_checkDisableSiriSetupDuringLogin">
-         <property name="text">
-          <string>Disable Siri setup during login</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="m_checkDisablePrivacyConsentDuringLogin">
          <property name="text">
           <string>Disable Privacy consent window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableAppleIDSetupDuringLogin">
+         <property name="text">
+          <string>Disable Apple ID setup during login</string>
          </property>
         </widget>
        </item>
@@ -219,9 +212,9 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="m_checkDisableChooseYourLookDuringLogin">
+        <widget class="QCheckBox" name="m_checkDisableSiriSetupDuringLogin">
          <property name="text">
-          <string>Disable Сhoose Your Look window during login</string>
+          <string>Disable Siri setup during login</string>
          </property>
         </widget>
        </item>
@@ -229,6 +222,27 @@
         <widget class="QCheckBox" name="m_checkDisableTrueToneDuringLogin">
          <property name="text">
           <string>Disable True Tone Display window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableScreenTimeDuringLogin">
+         <property name="text">
+          <string>Disable Screen Time window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableChooseYourLookDuringLogin">
+         <property name="text">
+          <string>Disable Сhoose Your Look window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableTouchIdSetupDuringLogin">
+         <property name="text">
+          <string>Disable Touch ID setup during login</string>
          </property>
         </widget>
        </item>

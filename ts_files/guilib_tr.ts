@@ -232,42 +232,42 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="70"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="71"/>
         <source>Booster Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="71"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="72"/>
         <source>Failed to get a valid connection to Booster %1:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="136"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="137"/>
         <source>Password verification failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="142"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="143"/>
         <source>FileWave Server Address cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="176"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="177"/>
         <source>Illegal Port Used: 20016</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="177"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="178"/>
         <source>Use port 20015 to connect to the FileWave Server or 20013 to connect to other Boosters. Port 20016 is reserved for the FileWave Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="204"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="205"/>
         <source>Non-standard server ports were chosen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="205"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="206"/>
         <source>Use port 20015 or 20013 to connect to the FileWave Server or other Boosters. Do you want to save anyway?
 
 You may ignore this warning if you have a customized setup. </source>
@@ -1172,7 +1172,12 @@ Please wait for the results before opening a new connection</source>
     <name>MAIN</name>
     <message>
         <location filename="../../FileWaveGuiLib/GUITools.cpp" line="77"/>
-        <source>Some other User is modifying one of the objects involved in this operation.</source>
+        <source>Another user is modifying one of the objects involved in this operation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
+        <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

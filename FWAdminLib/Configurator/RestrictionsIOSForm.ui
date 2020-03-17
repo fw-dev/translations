@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>632</width>
-    <height>2324</height>
+    <height>3051</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -593,6 +593,13 @@
         <widget class="QCheckBox" name="forceAutomaticDateAndTime">
          <property name="text">
           <string>Force automatic date and time (Supervised devices only)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowSharedDeviceTemporarySession">
+         <property name="text">
+          <string>Allow Shared iPad Temporary Session</string>
          </property>
         </widget>
        </item>
@@ -1504,6 +1511,13 @@
             </property>
             <property name="checked">
              <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="allowDeprecatedWebKitTLS">
+            <property name="text">
+             <string>Allow accessing web sites using TLS 1.0 and 1.1</string>
             </property>
            </widget>
           </item>
