@@ -43,22 +43,22 @@
         <translation>Installeur FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="38"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="35"/>
         <source>Important system software is now being installed on your computer...</source>
         <translation>Un logiciel système est en cours d&apos;installation sur votre ordinateur...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="54"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="51"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
         <translation>N&apos;éteignez pas votre ordinateur. Il redémarrera automatiquement après l&apos;installation.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
         <source>Do not use the start menu.</source>
         <translation>N&apos;utilisez pas le menu de démarrage.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
         <source>Activating Fileset(s)...</source>
         <translation>Activation du/des fileset(s)...</translation>
     </message>
@@ -627,6 +627,7 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
         <source>Start Installation</source>
         <translation>Démarrer l&apos;installation</translation>
     </message>
@@ -671,7 +672,13 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
         <translation>jusqu&apos;à</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="104"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
+        <source>At least one applications is preventing this installation from taking place.
+Do you want to quit all applications before starting the installation?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
         <source>%1 programs active</source>
         <translation>%1 programme(s) actif(s)</translation>
     </message>
