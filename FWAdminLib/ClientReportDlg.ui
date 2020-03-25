@@ -637,6 +637,28 @@
           </item>
          </layout>
         </widget>
+        <widget class="QWidget" name="chromeFieldsTab">
+         <attribute name="title">
+          <string>Chromebook Data</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="vl_chromeFieldsTab">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="NotationalChromebookFieldsWidget" name="chromeFields" native="true"/>
+          </item>
+         </layout>
+        </widget>
         <widget class="QWidget" name="commandsTab">
          <attribute name="title">
           <string>Command History</string>
@@ -809,7 +831,7 @@
          <attribute name="title">
           <string>Users</string>
          </attribute>
-         <layout class="QVBoxLayout" name="verticalLayout_6">
+         <layout class="QVBoxLayout" name="vl_tabUsers">
           <item>
            <widget class="StyledTreeView" name="users">
             <property name="frameShape">
@@ -899,6 +921,12 @@
    <class>DeviceDetailsWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/devicedetailswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NotationalChromebookFieldsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/notationalchromebookfields.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
