@@ -685,7 +685,8 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
         <source>At least one applications is preventing this installation from taking place.
 Do you want to quit all applications before starting the installation?</source>
-        <translation type="unfinished"></translation>
+        <translation>少なくとも1つのアプリがこのインストールの実行を妨げています。
+インストールを開始する前にすべてのアプリを終了しますか？</translation>
     </message>
 </context>
 <context>
