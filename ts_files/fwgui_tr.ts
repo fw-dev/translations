@@ -4,35 +4,35 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="77"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="87"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="75"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="85"/>
         <source>FileWave Kiosk</source>
-        <translation>Tuğra Kiosk</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="99"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="97"/>
         <source>Client Info...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="111"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="109"/>
         <source>Available Updates: %1</source>
-        <translation>Hazır Güncellemeler: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="115"/>
         <source>Verifying, please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
         <source>No Kiosk Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="121"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
         <source>Install Software...</source>
-        <translation>Yazılım Yükle...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -40,27 +40,27 @@
     <message>
         <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="20"/>
         <source>FileWave Installer</source>
-        <translation>Tuğra Yükleyici</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="35"/>
         <source>Important system software is now being installed on your computer...</source>
-        <translation>Önemli bir sistem yazılımı bilgisayarınıza yüklendi...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="51"/>
         <source>Do not shut down your computer.  It will automatically reboot when the installation is complete.</source>
-        <translation>Bilgisayarınızı kapatmayın. Kurulum tamamlandığında otomatik olarak yeniden başlatılacak.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
         <source>Do not use the start menu.</source>
-        <translation>Başlat menüsünü kullanmayın.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
         <source>Activating Fileset(s)...</source>
-        <translation>Fileset(ler) aktive ediliyor...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -68,7 +68,7 @@
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.ui" line="14"/>
         <source>FileWave Kiosk</source>
-        <translation>Tuğra Kiosk</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.ui" line="161"/>
@@ -115,12 +115,12 @@
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="84"/>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="380"/>
         <source>Uninstall</source>
-        <translation>Kaldır</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="86"/>
         <source>Reinstall</source>
-        <translation>Yeniden Kur</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="93"/>
@@ -130,22 +130,22 @@
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="260"/>
         <source>Search...</source>
-        <translation>Ara...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="265"/>
         <source>All Items</source>
-        <translation>Tüm öğeler</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="266"/>
         <source>Installed</source>
-        <translation>Kuruldu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="267"/>
         <source>Not Installed</source>
-        <translation>Kurulmadı</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="374"/>
@@ -186,7 +186,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="817"/>
         <source>%1 Item%2</source>
-        <translation>Öğe %1/%2</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -211,9 +211,14 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <name>KioskClientInfo</name>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="14"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="253"/>
         <source>FileWave Kiosk</source>
-        <translation type="unfinished">Tuğra Kiosk</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="144"/>
+        <source>SSL:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="219"/>
@@ -226,8 +231,58 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="258"/>
+        <source>4.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="272"/>
+        <source>Version:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="282"/>
+        <source>2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="296"/>
+        <source>Status:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="306"/>
+        <source>3.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="332"/>
+        <source>Platform:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="349"/>
         <source>Address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="366"/>
+        <source>File Check Interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="414"/>
+        <source>Tickle Interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="436"/>
+        <source>5.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="450"/>
+        <source>Model Version:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -238,6 +293,16 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="555"/>
         <source>Boosters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="589"/>
+        <source>1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="603"/>
+        <source>FileWave Server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -256,138 +321,73 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="366"/>
-        <source>File Check Interval:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="332"/>
-        <source>Platform:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="450"/>
-        <source>Model Version:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="414"/>
-        <source>Tickle Interval:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="603"/>
-        <source>FileWave Server:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="296"/>
-        <source>Status:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="144"/>
-        <source>SSL:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="272"/>
-        <source>Version:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="589"/>
-        <source>1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="282"/>
-        <source>2.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="306"/>
-        <source>3.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="258"/>
-        <source>4.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="436"/>
-        <source>5.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="44"/>
         <source>Verify</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="127"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
         <source>%1 sec</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="128"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
         <source>%1 min</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="136"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="131"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="138"/>
         <source>%1:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="132"/>
         <source>True</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="140"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="142"/>
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="213"/>
         <source>[disconnected]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="228"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="230"/>
         <source>(never)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="232"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="234"/>
         <source>(now trying...)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
         <source>Connected (updates found)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
         <source>Connected (no updates)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="241"/>
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="247"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
         <source>Device setup verification started successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
         <source>Could not start verification ; please contact your administrator.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -397,22 +397,27 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="20"/>
         <source>FileWave Kiosk</source>
-        <translation>Tuğra Kiosk</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="61"/>
         <source>icon</source>
-        <translation>ikon</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="116"/>
         <source>Title (Fileset Name)</source>
-        <translation>Başlık (Fileset Adı)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="138"/>
         <source>Fileset Category</source>
-        <translation>Fileset Kategorisi</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="212"/>
+        <source>Some long text</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="350"/>
@@ -426,14 +431,9 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="212"/>
-        <source>Some long text</source>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="222"/>
+        <source>More</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="327"/>
-        <source>Uninstall</source>
-        <translation type="unfinished">Kaldır</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="314"/>
@@ -447,19 +447,19 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="222"/>
-        <source>More</source>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="327"/>
+        <source>Uninstall</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="417"/>
         <source>Not Installed</source>
-        <translation>Kurulmadı</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="420"/>
         <source>Queued for Installation</source>
-        <translation>Kurulum İçin Sırayada</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="423"/>
@@ -469,12 +469,12 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="426"/>
         <source>Downloading...</source>
-        <translation>İndiriliyor...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="429"/>
         <source>Installing...</source>
-        <translation>Kuruluyor...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
@@ -484,22 +484,22 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="435"/>
         <source>Installed</source>
-        <translation>Kuruldu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="438"/>
         <source>Uninstalling...</source>
-        <translation>Kaldırılıyor...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="441"/>
         <source>Reinstalling...</source>
-        <translation>Tekrar Kuruluyor...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="444"/>
         <source>Install Failed</source>
-        <translation>Kurulum Başarısız</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="447"/>
@@ -569,7 +569,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="488"/>
         <source>Unknown</source>
-        <translation>Belirsiz</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -577,41 +577,47 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="14"/>
         <source>Quit All Running Processes</source>
-        <translation>Çalışan Tüm İşlemlerden Çıkın</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="26"/>
         <source>Important System Software is to be installed on this computer...</source>
-        <translation>Önemli bir Sistem Yazılımı bilgisayarınıza yüklendi...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="39"/>
         <source>Please save your work and exit all programs.</source>
-        <translation>Lütfen çalışmanızı kaydedin ve tüm programlardan çıkın.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="52"/>
         <source>The following applications are preventing this installation from taking place.</source>
-        <translation>Aşağıdaki uygulamalar bu kurulumun yerleşmesine engel oluyor.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="113"/>
         <source>Quit Application</source>
-        <translation>Uygulamadan Çık</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="126"/>
         <source>Quit All</source>
-        <translation>Tümünden Çık</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="149"/>
         <source>Delay</source>
-        <translation>Bekle</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="162"/>
         <source>for</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
+        <source>Start Installation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -620,10 +626,14 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
-        <source>Start Installation</source>
-        <translation>Kuruluma Başla</translation>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
+        <source>%1 programs active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
+        <source>Installation will begin automatically in %1 seconds...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
@@ -638,22 +648,22 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
         <source>15 Minutes</source>
-        <translation>15 Dakika</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
         <source>30 Minutes</source>
-        <translation>30 Dakika</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
         <source>1 Hour</source>
-        <translation>1 Saat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>2 Hours</source>
-        <translation>2 Saat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
@@ -671,23 +681,13 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 Do you want to quit all applications before starting the installation?</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
-        <source>%1 programs active</source>
-        <translation>%1 program aktif</translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
-        <source>Installation will begin automatically in %1 seconds...</source>
-        <translation>Kurulum %1 saniye içinde otomatik olarak başlayacak...</translation>
-    </message>
 </context>
 <context>
     <name>TopTenScrollArea</name>
     <message>
         <location filename="../../QtGUIInstaller/TopTenScrollArea.cpp" line="29"/>
         <source>Top Downloads</source>
-        <translation>En çok İndirilenler</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

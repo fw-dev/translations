@@ -947,7 +947,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
            <item row="4" column="2">
             <widget class="QLabel" name="label_28">
              <property name="text">
-              <string>Maximum number of users</string>
+              <string>Number of Users</string>
              </property>
             </widget>
            </item>
@@ -957,6 +957,12 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
               <widget class="QSpinBox" name="maximumResidentUsers">
                <property name="minimum">
                 <number>1</number>
+               </property>
+               <property name="maximum">
+                <number>32</number>
+               </property>
+               <property name="value">
+                <number>5</number>
                </property>
               </widget>
              </item>
@@ -1011,6 +1017,27 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
               </size>
              </property>
             </spacer>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLabel" name="lTipResidentUser">
+             <property name="minimumSize">
+              <size>
+               <width>350</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>As of iPadOS 13.4, the maximum number of users will always be 32 ; the number of resident users can be set here or later with Command Policy Profile.</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
