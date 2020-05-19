@@ -611,9 +611,6 @@
             <property name="frameShape">
              <enum>QFrame::NoFrame</enum>
             </property>
-            <property name="editTriggers">
-             <set>QAbstractItemView::NoEditTriggers</set>
-            </property>
             <property name="showDropIndicator" stdset="0">
              <bool>false</bool>
             </property>
@@ -629,9 +626,9 @@
             <property name="uniformRowHeights">
              <bool>true</bool>
             </property>
-            <property name="sortingEnabled">
+            <attribute name="headerShowSortIndicator" stdset="0">
              <bool>true</bool>
-            </property>
+            </attribute>
            </widget>
           </item>
          </layout>

@@ -3712,8 +3712,9 @@ Do you wish to do it now?</source>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="846"/>
         <source>Error checking LDAP group on the server:
-%1</source>
-        <translation type="unfinished"></translation>
+ %1</source>
+        <translation>サーバーのLDAPグループをチェック中にエラーが発生しました：
+ %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="932"/>
@@ -16252,8 +16253,8 @@ Please retry once editing is done.</source>
     <name>DEPAssociationDlg</name>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="342"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="376"/>
         <source>DEP Associations</source>
         <translation>DEPアソシエーション</translation>
     </message>
@@ -16324,71 +16325,71 @@ Please retry once editing is done.</source>
         <translation>同期</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="204"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="202"/>
         <source>Exclude</source>
         <translation>除外する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="209"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="207"/>
         <source>Include</source>
         <translation>含む</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="214"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="220"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="212"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="218"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="722"/>
         <source>All</source>
         <translation>すべて</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="213"/>
         <source>Excluded</source>
         <translation>除外した</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="214"/>
         <source>Included</source>
         <translation>含めた</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="219"/>
         <source>iOS only</source>
         <translation>iOSのみ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="220"/>
         <source>macOS only</source>
         <translation>mac0Sのみ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
         <source>tvOS only</source>
         <translation>tvOSのみ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="243"/>
         <source>View</source>
         <translation>ビュー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="311"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="309"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="452"/>
         <source>Exclude device(s) from automatic assignment</source>
         <translation>自動割り当てからデバイスを除外する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="315"/>
         <source>Removing DEP Associations</source>
         <translation>DEPアソシエーションを削除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="316"/>
         <source>Are you sure you want to remove the selected %1 association(s)?</source>
         <translation>選択した %1 アソシエーションを削除してもよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="322"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="320"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="463"/>
         <source>You can define if corresponding devices will be:
 - excluded from automatic rules (checked);
 - included in automatic rules process (unchecked);
@@ -16401,169 +16402,169 @@ Please retry once editing is done.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="342"/>
         <source>An error occurred while deleting associations:
 %1</source>
         <translation>アソシエーションの削除中にエラーが発生しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="376"/>
         <source>An error occurred while creating associations:
 %1</source>
         <translation>アソシエーションの作成中にエラーが発生しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="449"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="447"/>
         <source>Profile is used in rules</source>
         <translation>プロファイルは規則で使用されています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="448"/>
         <source>Profile &quot;%1&quot; is used in assignment rules. Are you sure you want to remove it?</source>
         <translation>プロファイル &quot;%1&quot; は割り当て規則で使用されています。 削除してよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="458"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="456"/>
         <source>Profile is associated to devices</source>
         <translation>プロファイルはデバイスに関連付けられています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="457"/>
         <source>Profile &quot;%1&quot; is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation>プロファイル &quot;%1&quot; は %2 デバイスに割り当てられています。詳細を確認してください。 削除してよろしいですか？ プロファイルアソシエーションも削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="461"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
         <source>Profile is used in rules and associated to devices</source>
         <translation>プロファイルは規則で使用され、デバイスに関連付けられています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="460"/>
         <source>Profile &quot;%1&quot; is used in assignment rules and is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation>プロファイル &quot;%1&quot; が割り当て規則で使用され、 %2 デバイスに割り当てられています。詳細を確認してください。 削除してよろしいですか？ プロファイルの関連付けも削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="590"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="746"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="523"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="535"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="588"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="744"/>
         <source>DEP Profile</source>
         <translation>DEPプロファイル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="590"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="523"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="588"/>
         <source>An error occurred while retrieving information about profile:
 %1</source>
         <translation>プロファイル情報を取得中にエラーが発生しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="535"/>
         <source>Failed to delete DEP profile:
 %1</source>
         <translation>DEPプロファイルの削除に失敗しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="628"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="626"/>
         <source>Failed to get DEP auto-assignment rules: error %1 %2</source>
         <translation>DEP自動割り当て規則を取得できませんでした: エラー %1 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="660"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="658"/>
         <source>Replace existing associations</source>
         <translation>既存のアソシエーションを置き換える</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="663"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="687"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="661"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="685"/>
         <source>Assign DEP profiles automatically</source>
         <translation>DEPプロファイルを自動的に割り当てる</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="664"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="662"/>
         <source>%1 devices(s) will now be associated to a DEP profile if they match a profile assignment rule.</source>
         <translation>プロファイル割り当て規則に一致すると、%1 デバイスがDEPプロファイルに関連付けられます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="688"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="686"/>
         <source>Failed to assign DEP profiles matching rules: error %1 %2</source>
         <translation>規則に一致するDEPプロファイルを割り当てることができませんでした: エラー %1 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="719"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="717"/>
         <source>DEP Accounts</source>
         <translation>DEPアカウント</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="719"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="717"/>
         <source>Retrieving DEP accounts failed:
 %1</source>
         <translation>DEPアカウントの取得に失敗しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="747"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="745"/>
         <source>Sending DEP profile failed:
 %1</source>
         <translation>DEPプロファイルの送信に失敗しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="811"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="809"/>
         <source>Automatic assignment rules</source>
         <translation>自動割り当て規則</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="834"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="832"/>
         <source>DEP Device Automatic Assignment</source>
         <translation>DEPデバイスの自動割り当て</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="835"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="833"/>
         <source>Failed to set whether devices should be excluded from automatic assignment: %1</source>
         <translation>デバイスを自動割り当てから除外するかどうかを設定できませんでした: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="845"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="843"/>
         <source> (full sync)</source>
         <translation> (完全同期)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="900"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="898"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation>エラー: 最終同期日を取得できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="906"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="904"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation>DEP Webサービスとの最終同期成功: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="910"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="908"/>
         <source>Never synchronized.</source>
         <translation>同期していません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="951"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="949"/>
         <source>Sync with Apple</source>
         <translation>Appleと同期</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="952"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="950"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation>DEPデータがAppleと同期しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="959"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="957"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="961"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="959"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation>1つ以上のDEPアカウントを同期できませんでした。</translation>
     </message>
@@ -16571,7 +16572,7 @@ Please retry once editing is done.</source>
 <context>
     <name>DEPAssociationModel</name>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="131"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="129"/>
         <source>Profile Name</source>
         <translation>プロファイル名</translation>
     </message>
@@ -36423,111 +36424,6 @@ Affected payload: %1</source>
     </message>
 </context>
 <context>
-    <name>GooglePolicyEditor</name>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="9"/>
-        <source>General</source>
-        <comment>Payload General name</comment>
-        <translation type="unfinished">一般</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="10"/>
-        <source>Configure Google EMM-managed device behavior</source>
-        <comment>Payload General description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="11"/>
-        <source>Certificates</source>
-        <comment>Payload Certificates name</comment>
-        <translation type="unfinished">証明書</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="12"/>
-        <source>Configure certificate for network configuration purposes.</source>
-        <comment>Payload Certificates description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="13"/>
-        <source>Network</source>
-        <comment>Payload Network name</comment>
-        <translation type="unfinished">ネットワーク</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="14"/>
-        <source>Configure network settings.</source>
-        <comment>Payload Network description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="15"/>
-        <source>Restrictions</source>
-        <comment>Separator Restrictions</comment>
-        <translation type="unfinished">制限</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="16"/>
-        <source>Compliance Policy</source>
-        <comment>Payload Compliance Policy name</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="17"/>
-        <source>Configure timeline for disabling/wiping devices when they are out of compliance</source>
-        <comment>Payload Compliance Policy description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="18"/>
-        <source>Password Policy</source>
-        <comment>Payload Password Policy name</comment>
-        <translation type="unfinished">パスワードポリシー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="19"/>
-        <source>Set password constraints, like minimum number of characters, symbols, number of failed passwords before device wipe, etc.</source>
-        <comment>Payload Password Policy description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="20"/>
-        <source>Device Restrictions</source>
-        <comment>Payload Device Restrictions name</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="21"/>
-        <source>Restrict access to device functionality</source>
-        <comment>Payload Device Restrictions description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="22"/>
-        <source>Permission Grants</source>
-        <comment>Payload Permission Grants name</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="23"/>
-        <source>Set device-wide permission policies.</source>
-        <comment>Payload Permission Grants description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="24"/>
-        <source>Dedicated Device</source>
-        <comment>Payload Dedicated Device name</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="25"/>
-        <source>Select a pinned app for a dedicated device.</source>
-        <comment>Payload Dedicated Device description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>GooglePolicyGeneralForm</name>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePolicyGeneralForm.ui" line="20"/>
@@ -38804,68 +38700,68 @@ Internal name: %2</source>
         <translation>インベントリークエリの総数: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="157"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="158"/>
         <source>Create new group</source>
         <translation>新規グループを作成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="158"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="159"/>
         <source>Name of the new group:</source>
         <translation>新規グループの名前:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="172"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="173"/>
         <source>Confirm removal</source>
         <translation>削除確認</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="173"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="174"/>
         <source>Are you sure you want to delete this query?</source>
         <translation>このクエリを削除しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="174"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="175"/>
         <source>Are you sure you want to delete this group?</source>
         <translation>このグループを削除しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="261"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="262"/>
         <source>Edit group</source>
         <translation>グループを編集</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="262"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="263"/>
         <source>Name of the group:</source>
         <translation>グループの名前:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="305"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="306"/>
         <source> copy</source>
         <translation> コピー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="349"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="350"/>
         <source>Inventory server error</source>
         <translation>インベントリーサーバーエラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="389"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="390"/>
         <source>Query list Export</source>
         <translation>クエリリストをエクスポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="411"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="412"/>
         <source>Run</source>
         <translation>実行</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="413"/>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="418"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="414"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="419"/>
         <source>Edit</source>
         <translation>編集</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="414"/>
+        <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="415"/>
         <source>Duplicate</source>
         <translation>複製</translation>
     </message>
@@ -44004,36 +43900,6 @@ Server said (%1): %2</source>
         <location filename="../../FWAdminLib/PolicyEditor/PolicyEditor.ui" line="79"/>
         <source>show only configured</source>
         <translation>構成のみ表示</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="4"/>
-        <source>General</source>
-        <comment>Payload General name</comment>
-        <translation type="unfinished">一般</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="5"/>
-        <source>Configure how FileWave clients behave with those policies</source>
-        <comment>Payload General description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="6"/>
-        <source>Restrictions</source>
-        <comment>Separator Restrictions</comment>
-        <translation type="unfinished">制限</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="7"/>
-        <source>Blocker Script</source>
-        <comment>Payload Blocker Script name</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="8"/>
-        <source>Use blocker script to block fileset deployment on clients</source>
-        <comment>Payload Blocker Script description</comment>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -51125,57 +50991,62 @@ When any user performs a revert model, you must log out and log back into the Fi
         <translation>一般 (macOSのみ)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="57"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="42"/>
+        <source>Gatekeeper</source>
+        <translation>ゲートキーパー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="49"/>
         <source>Allow apps downloaded from:</source>
         <translation>次からダウンロードしたアプリを許可する:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="64"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="56"/>
         <source>Mac App Store</source>
         <translation>Mac App Store</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="74"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="66"/>
         <source>Mac App Store and identified developers</source>
         <translation>Mac App Store と 特定のデベロッパー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="84"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="73"/>
         <source>Anywhere</source>
         <translation>どこでも</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="110"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="96"/>
         <source>Do not allow user to override Gatekeeper setting</source>
         <translation>ユーザーがGatekeeperの設定を上書きできないようにする</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="117"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="103"/>
         <source>Prevents the user from temporarily overriding the Gatekeeper setting by control-clicking to install any app</source>
         <translation>ユーザーがCtrlキーを押しながらクリックしてアプリをインストールすることによって、Gatekeeperの設定を一時的に上書きしないようにします</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="162"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="148"/>
         <source>Allow user to change password</source>
         <translation>ユーザーがパスワードを変更するのを許可する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="185"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="171"/>
         <source>Require password</source>
         <translation>パスワードを要求</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="198"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="184"/>
         <source>after sleep or screen saver begins</source>
         <translation>スリープかスクリーンセーバーが始まった後</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="215"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="201"/>
         <source>Allow user to set lock message</source>
         <translation>ユーザーにロックメッセージの設定を許可する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="246"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="218"/>
         <source>Disable automatic login</source>
         <translation>自動ログインを無効にする</translation>
     </message>
@@ -51185,87 +51056,82 @@ When any user performs a revert model, you must log out and log back into the Fi
         <translation>ユーザーがApple Watchを使ってMacのロックを解除することを許可する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="42"/>
-        <source>Configure Gatekeeper Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="274"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="260"/>
         <source>FileVault (macOS only)</source>
         <translation>FileVault (macOSのみ)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="280"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="266"/>
         <source>Use Disk Encryption payload instead</source>
         <translation>代わりにフルディスク暗号化ペイロードを使用する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="307"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="293"/>
         <source>Firewall</source>
         <translation>ファイヤーウォール</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="313"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="299"/>
         <source>Manage Firewall Settings</source>
         <translation>ファイアウォール設定を管理</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="326"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="312"/>
         <source>Enable Firewall</source>
         <translation>ファイアウォールを有効にする</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="333"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="319"/>
         <source>Disable Firewall</source>
         <translation>ファイアウォールを無効にする</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="371"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="357"/>
         <source>Block all incoming connections</source>
         <translation>すべての着信接続をブロックする</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="383"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="369"/>
         <source>Blocks all incoming connections except those required for basic Internet services, such as DHCP, Bonjour, and IPSec</source>
         <translation>DHCP、Bonjour、IPSecなど、基本的なインターネットサービスに必要なもの以外のすべての着信通信をブロックします</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="401"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="387"/>
         <source>App Specific Incoming Connection Settings</source>
         <translation>アプリ固有の着信通信設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="412"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="398"/>
         <source>Allow App</source>
         <translation>アプリを許可</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="422"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="408"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="429"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="415"/>
         <source>-</source>
         <translation>-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="451"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="437"/>
         <source>Enable stealth mode</source>
         <translation>ステルスモードを有効にする</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="463"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="449"/>
         <source>Don&apos;t respond to or acknowledge attempts to access this computer from the network by test applications using ICMP, such as Ping</source>
         <translation>PingなどのICMPを使用したテストアプリケーションによるネットワークからこのコンピューターへのアクセスに応答したり、承認したりしません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="498"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="484"/>
         <source>Privacy</source>
         <translation>プライバシー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="504"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="490"/>
         <source>Allow sending diagnostic and usage data to Apple, and sharing
 crash data and statistics with app developers</source>
         <translation>診断と使用状況のデータをアップルに送信し、クラッシュデータと
@@ -51312,12 +51178,12 @@ crash data and statistics with app developers</source>
         <translation>8 時間</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.cpp" line="305"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.cpp" line="301"/>
         <source>Adding Allowed App</source>
         <translation>許可されたアプリを追加する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/SPForm.cpp" line="305"/>
+        <location filename="../../FWAdminLib/Configurator/SPForm.cpp" line="301"/>
         <source>Bundle Identifier</source>
         <translation>バンドル識別子</translation>
     </message>
@@ -55537,7 +55403,7 @@ All licenses assigned to the user(s) will be dissociated.</source>
         <translation> (完全同期)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="1009"/>
+        <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="1011"/>
         <source>Failed to send Invite Command</source>
         <translation>招待コマンドの送信に失敗しました</translation>
     </message>
