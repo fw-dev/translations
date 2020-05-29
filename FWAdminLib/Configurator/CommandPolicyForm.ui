@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>922</width>
-    <height>1084</height>
+    <width>833</width>
+    <height>1236</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -78,6 +78,13 @@
        <string>Disable Data Roaming</string>
       </property>
      </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
     </widget>
    </item>
    <item>
@@ -264,79 +271,10 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="label_4">
-     <property name="text">
-      <string>Lock Screen Grace Period (Shared iPad only)</string>
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
      </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipLockScreen">
-     <property name="text">
-      <string>This setting defines the number of seconds the screen must be locked before unlock attempts will require the device passcode. The command is valid for Shared iPad only. Any changes to a less restrictive value will not take effect until the user logs out.</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QWidget" name="widget_2" native="true">
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <property name="spacing">
-       <number>0</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
-      <property name="topMargin">
-       <number>0</number>
-      </property>
-      <property name="rightMargin">
-       <number>0</number>
-      </property>
-      <property name="bottomMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QSpinBox" name="lockScreenGracePeriod">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="specialValueText">
-         <string>Not set</string>
-        </property>
-        <property name="suffix">
-         <string> seconds</string>
-        </property>
-        <property name="minimum">
-         <number>-1</number>
-        </property>
-        <property name="maximum">
-         <number>3600</number>
-        </property>
-        <property name="value">
-         <number>-1</number>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <spacer name="horizontalSpacer_4">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-     </layout>
     </widget>
    </item>
    <item>
@@ -474,22 +412,32 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="labelQuotaSize">
-     <property name="text">
-      <string>Quota Size (Shared iPad only)</string>
+    <widget class="Line" name="line_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="lTipQuotaSize">
+    <widget class="QLabel" name="label_4">
      <property name="text">
-      <string>Limits how much storage user can have.</string>
+      <string>Lock Screen Grace Period (Shared iPad only)</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="widgetQuotaSize" native="true">
-     <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <widget class="QLabel" name="lTipLockScreen">
+     <property name="text">
+      <string>This setting defines the number of seconds the screen must be locked before unlock attempts will require the device passcode. The command is valid for Shared iPad only. Any changes to a less restrictive value will not take effect until the user logs out.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
       <property name="spacing">
        <number>0</number>
       </property>
@@ -506,38 +454,32 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QSpinBox" name="quotaSize">
+       <widget class="QSpinBox" name="lockScreenGracePeriod">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
-        <property name="minimumSize">
-         <size>
-          <width>110</width>
-          <height>0</height>
-         </size>
-        </property>
         <property name="specialValueText">
          <string>Not set</string>
         </property>
         <property name="suffix">
-         <string> MB</string>
+         <string> seconds</string>
         </property>
         <property name="minimum">
-         <number>2047</number>
+         <number>-1</number>
         </property>
         <property name="maximum">
-         <number>30720</number>
+         <number>3600</number>
         </property>
-        <property name="singleStep">
-         <number>1</number>
+        <property name="value">
+         <number>-1</number>
         </property>
        </widget>
       </item>
       <item>
-       <spacer name="horizontalSpacerQuotaSize">
+       <spacer name="horizontalSpacer_4">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -553,37 +495,45 @@
     </widget>
    </item>
    <item>
-    <widget class="QWidget" name="residentUser" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_3">
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
-      <property name="topMargin">
-       <number>0</number>
-      </property>
-      <property name="rightMargin">
-       <number>0</number>
-      </property>
-      <property name="bottomMargin">
-       <number>0</number>
-      </property>
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>Shared iPad User Space</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipSharediPadUserSpace">
+     <property name="minimumSize">
+      <size>
+       <width>600</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use the following settings to configure user space ; read &lt;a href=&quot;https://support.apple.com/guide/mdm/prepare-shared-ipad-mdm71124b400/1/web/1&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;Apple's documentation&lt;/span&gt;&lt;/a&gt; for more details.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="userSpace" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
       <item>
-       <widget class="QLabel" name="labelResidentUsers">
+       <widget class="QLabel" name="labelQuotaSize">
         <property name="text">
-         <string>Resident Users (Shared iPad only)</string>
+         <string>Quota Size (Shared iPad only)</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="lTipResidentUsers">
+       <widget class="QLabel" name="lTipQuotaSize">
         <property name="text">
-         <string>Number of users for a Shared iPad.</string>
+         <string>Limits how much storage user can have.</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="widgetResidentUsers" native="true">
-        <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <widget class="QWidget" name="widgetQuotaSize" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
          <property name="spacing">
           <number>0</number>
          </property>
@@ -600,7 +550,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QSpinBox" name="residentUsers">
+          <widget class="QSpinBox" name="quotaSize">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -616,16 +566,22 @@
            <property name="specialValueText">
             <string>Not set</string>
            </property>
+           <property name="suffix">
+            <string> MB</string>
+           </property>
            <property name="minimum">
-            <number>0</number>
+            <number>2047</number>
            </property>
            <property name="maximum">
-            <number>32</number>
+            <number>30720</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
            </property>
           </widget>
          </item>
          <item>
-          <spacer name="horizontalSpacerResidentUsers">
+          <spacer name="horizontalSpacerQuotaSize">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -638,6 +594,117 @@
           </spacer>
          </item>
         </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="residentUser" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labelResidentUsers">
+           <property name="text">
+            <string>Resident Users (Shared iPad only)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipResidentUsers">
+           <property name="text">
+            <string>Number of users for a Shared iPad.</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widgetResidentUsers" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QSpinBox" name="residentUsers">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>110</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="specialValueText">
+               <string>Not set</string>
+              </property>
+              <property name="minimum">
+               <number>0</number>
+              </property>
+              <property name="maximum">
+               <number>32</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacerResidentUsers">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipLogOff">
+        <property name="text">
+         <string>These settings can only be applied when there is no user data on the device. Use the following setting to log off user and delete resident data automatically. To avoid data loss, resident data will not be deleted if not synchronized with iCloud yet.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="cbRemoveUserData">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Log-off users and remove user data if required.</string>
+        </property>
        </widget>
       </item>
      </layout>
