@@ -3868,7 +3868,7 @@ Check the log file for more details</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="171"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="588"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="591"/>
         <source>Not connected</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4028,127 +4028,159 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="487"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="490"/>
         <source>Content Caching Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="522"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="525"/>
         <source>View script output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="535"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="538"/>
         <source>Reveal Fileset</source>
         <translation type="unfinished">Fileset&apos;i Göster</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="631"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="634"/>
         <source>The verify command has been sent to the client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="632"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="635"/>
         <source>Failed to send the verify message to this client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="644"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="647"/>
         <source>Tracking has been enabled for this device, but no valid position has been received.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="645"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="648"/>
         <source>Sorry, you don&apos;t have permission to view location information for devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="693"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="696"/>
         <source>This client has not yet connected</source>
         <translation>Bu istemci henüz bağlanmadı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="721"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="724"/>
         <source>Loading...</source>
         <translation>Yükleniyor...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="723"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="726"/>
         <source>%1 Association(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="801"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="809"/>
+        <source>Dependent fileset selected! Please select an independent fileset.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="826"/>
+        <source>and</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="834"/>
+        <source>Dependency selected! Do you want to install top level fileset(s) %1 instead?</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="880"/>
         <source>Fileset with dependencies selected! Do you want to reinstall dependencies as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="851"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="939"/>
         <source>%1 - %2</source>
         <translation type="unfinished">%1 - %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1076"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1164"/>
         <source>Wipe device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1077"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1165"/>
         <source>This Chromebook device will be deprovisioned immediately.
 
 You must still wipe it manually.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1086"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1172"/>
+        <source>Upgraded to a different model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1173"/>
+        <source>Retired (resold, donated, etc)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1174"/>
+        <source>Replaced with same model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1180"/>
         <source>Deprovision reason:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1101"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1195"/>
         <source>Deprovision failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1101"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1195"/>
         <source>Failed to deprovision device.
 
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1135"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1229"/>
         <source>Failed to download the institutional recovery key: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1137"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1150"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1231"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1244"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1148"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1242"/>
         <source>Failed to retrieve the personal recovery key: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1167"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1261"/>
         <source>Save the institutional recovery key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1169"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1263"/>
         <source>P12 Files (*.p12)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1268"/>
         <source>Save failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1175"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1269"/>
         <source>Could not open file &quot;%1&quot; for writing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35601,49 +35633,134 @@ Affected payload: %1</source>
 <context>
     <name>GoogleDeviceRestrictionsForm</name>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="54"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="75"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="83"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="24"/>
+        <source>Allow use of camera.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="26"/>
+        <source>Allow use of device debugging features.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="27"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even when allowed, debugging features are not automatically enabled; users must &lt;a href=&quot;https://developer.android.com/studio/debug/dev-options&quot;&gt;&lt;span style=&quot;text-decoration: underline; color:#007af4;&quot;&gt;enable them manually&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="28"/>
+        <source>Allow user to initiate a factory reset of the device.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="29"/>
+        <source>If factory reset is enabled, a user may manually initiate a device reset.  If disabled, a device reset (or &quot;wipe&quot;) must be done by a FileWave administrator.  The global policy default is &quot;disabled.&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="30"/>
+        <source>Allow user to install packages from unknown sources.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="31"/>
+        <source>Whether the user may enable the &quot;Unknown Sources&quot; setting, allowing installation of apps from unknown sources.  This is popularly known as &quot;side-loading.&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="32"/>
+        <source>Location accuracy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="33"/>
+        <source>Specify the location accuracy mode of devices.  High Accuracy uses the GPS and WiFi to determine a devices location, while Sensors will strictly utilize the GPS and Battery Saving the WiFi.  N.B. Users can change device location settings regardless of the choice made here; this is a per-model-update one-time change.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="34"/>
+        <source>Play Store Mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="35"/>
+        <source>Allow users to install from the Play Store only the associated apps (Whitelist), or all apps from the Play Store except those associated and set to the &apos;Blocked&apos; install type (Blacklist).  In Whitelist mode, apps that are not in a device&apos;s policy will be uninstalled.  The API default is &quot;Whitelist.&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="36"/>
+        <source>Allow location sharing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="37"/>
+        <source>Allow users to configure location sharing preferences.  The Android global default is &quot;allowed.&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="38"/>
+        <source>Allow user to boot to safe mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="39"/>
+        <source>Much like &quot;Safe Mode&quot; for desktop operating systems, safe mode for Android is a minimal, known-working environment.  Booting into safe mode is generally used as a debugging measure.  In the case of an EMM controlled device, it also enables a user to bypass a factory reset restriction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="40"/>
+        <source>Allow user to add WiFi networks.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="41"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WARNING: Disable this with &lt;span style=&quot;font-weight:600;&quot;&gt;caution&lt;/span&gt;.  If there is no network connection available and users cannot add one, the affected devices become very difficult to administer.  Before disabling users&apos; ability to add their own WiFi networks, ensure that the devices have a (tested) backup WiFi connection.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="73"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="94"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="102"/>
         <source>Unspecified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="55"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="74"/>
         <source>Allowed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="56"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="75"/>
         <source>Disallowed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="76"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="95"/>
         <source>High Accuracy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="77"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="96"/>
         <source>Sensors Only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="78"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="97"/>
         <source>Battery Saving</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="79"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="98"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="84"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="103"/>
         <source>Blacklist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="85"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="104"/>
         <source>Whitelist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35677,7 +35794,7 @@ Affected payload: %1</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="142"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="309"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="330"/>
         <source>Server Identification</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35688,7 +35805,7 @@ Affected payload: %1</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="193"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="314"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="335"/>
         <source>Client Identification</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35758,7 +35875,77 @@ Affected payload: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="20"/>
+        <source>EAP-AKA (Authentication and Key Agreement)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="21"/>
+        <source>EAP-TLS (Transport Layer Security)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="22"/>
+        <source>EAP-TTLS (Tunneled Transport Layer Security)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="23"/>
+        <source>EAP-SIM (Subscriber Identity Module)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="24"/>
+        <source>PEAP (Protected EAP)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="27"/>
+        <source>Automatic</source>
+        <translation type="unfinished">Otomatik</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="28"/>
+        <source>MSCHAP (Microsoft&apos;s Challenge-Handshake Authentication Protocol)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="29"/>
+        <source>MSCHAPv2 (Microsoft&apos;s Challenge-Handshake Authentication Protocol, version 2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="30"/>
+        <source>PAP (Password Authentication Protocol)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="31"/>
+        <source>CHAP (Challenge-Handshake Authentication Protocol)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="32"/>
+        <source>GTC (Generic Token Card)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="35"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="36"/>
+        <source>No</source>
+        <translation type="unfinished">Hayır</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="37"/>
+        <source>Yes</source>
+        <translation type="unfinished">Evet</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="58"/>
         <source>None</source>
         <translation type="unfinished">Hiçbiri</translation>
     </message>
@@ -35894,22 +36081,72 @@ Affected payload: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="26"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="13"/>
+        <source>None</source>
+        <translation type="unfinished">Hiçbiri</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="13"/>
+        <source>The network is an &apos;open network&apos; for which there is no encryption and there are no credentials.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="14"/>
+        <source>WEP-PSK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="14"/>
+        <source>The network utilizes Wireless Encryption Privacy encryption standard, and authenticates users by means of a Pre-Shared Key.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="15"/>
+        <source>WEP-8021X</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="15"/>
+        <source>The network utilizes Wireless Encryption Privacy encryption standard and EAP extensions for user authentication.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="16"/>
+        <source>WPA1/2/3-PSK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="16"/>
+        <source>The network utilizes Wireless Protected Access encryption standard and authenticates users by means of a Pre-Shared Key.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="17"/>
+        <source>WPA-EAP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="17"/>
+        <source>The network utilizes Wireless Protected Access encryption standard and EAP extensions for user authentication.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="34"/>
         <source>An SSID specified in hexadecimal may only use hexadecimal characters (0-9, a-f) and may be no longer than 64 characters (32 bytes).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="31"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="39"/>
         <source>An SSID specified in UTF-8; limited by RFC spec to 32 ASCII characters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="45"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="53"/>
         <source>For WEP-PSK, Android only supports 40-bit (10-digit) or 104-bit (26-digit) passphrase lengths.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="49"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="57"/>
         <source>WPA-PSK passphrases must be between 8 and 63 characters in length..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35987,27 +36224,232 @@ Affected payload: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="15"/>
+        <source>Automatic</source>
+        <translation type="unfinished">Otomatik</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="15"/>
+        <source>Password requirements are applied to the work profile for work profile devices and the whole device for fully managed or dedicated devices.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="16"/>
+        <source>Device</source>
+        <translation type="unfinished">Cihaz</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="16"/>
+        <source>Password requirements are only applied to the device.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="17"/>
+        <source>Profile</source>
+        <translation type="unfinished">Profil</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="17"/>
+        <source>Password requirements are only applied to the work profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="21"/>
+        <source>No requirements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="21"/>
+        <source>There are no password requirements.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="22"/>
+        <source>Weak biometric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="22"/>
+        <source>The device must be secured with a low-security biometric recognition technology, at minimum.  This includes technologies that can recognize the identity of an individual that are roughly equivalent to a 3-digit PIN (false detection is less than 1 in 1,000).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="23"/>
+        <source>Password required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="23"/>
+        <source>A password is required, but there are no restrictions on what the password must contain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="24"/>
+        <source>Numeric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="24"/>
+        <source>The password must contain numeric characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="25"/>
+        <source>Numeric, non-repeating</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="25"/>
+        <source>The password must contain numeric characters with no repeating (4444) or ordered (1234, 4321, 2468) sequences.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="26"/>
+        <source>Alphabetic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="26"/>
+        <source>The password must contain alphabetic (or symbol) characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="27"/>
+        <source>Alphanumeric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="27"/>
+        <source>The password must contain both numeric and alphabetic (or symbol) characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="28"/>
+        <source>Complex</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="28"/>
+        <source>The password must contain at least a letter, a numerical digit and a special symbol.  Other password constraints, for example, passwordMinimumLetters are enforced.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="31"/>
+        <source>Unspecified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="31"/>
+        <source>Defaults to &quot;Device Default Timeout&quot; (handled upstream).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="32"/>
+        <source>Device Default Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="32"/>
+        <source>Utilize the device&apos;s default timeout period.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="33"/>
+        <source>Every Day</source>
+        <translation type="unfinished">Her Gün</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="33"/>
+        <source>Set the timeout period to 24 hours.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="36"/>
+        <source>Number of incorrect device-unlock passwords that can be entered before a device is wiped.  A value of 0 means there is no restriction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="37"/>
+        <source>A duration after which a password must be changed.  A value of 0 means that passwords do not expire.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="38"/>
+        <source>The length of the password history.  After setting this field, the user won&apos;t be able to enter a new password that is the same as any password in the history.  A value of 0 means there is no restriction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="39"/>
+        <source>The minimum allowed password length.  A value of 0 means there is no restriction.  Only enforced when Password Quality is &apos;Numeric&apos;, &apos;Numeric, non-repeating&apos;, &apos;Alphabetic&apos;, &apos;Alphanumeric&apos;, or &apos;Complex&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="40"/>
+        <source>Minimum number of letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="41"/>
+        <source>Minimum number of lower case letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="42"/>
+        <source>Minimum number of non-letter characters (numerical digits or symbols) required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="43"/>
+        <source>Minimum number of numerical digits required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="44"/>
-        <source>Years</source>
+        <source>Minimum number of symbols required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="45"/>
-        <source>Months</source>
+        <source>Minimum number of upper case letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="46"/>
+        <source>The &quot;Password Quality&quot; choice sets the restrictions an Android device will enforce.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="47"/>
+        <source>Apply this password policy at the device level, strictly to the work profile, or let the API decide by context.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="48"/>
+        <source>The length of time between strong authentication interactions (e.g., password, PIN, pattern).  Users may utilize any enabled authentication method to unlock the device or work profile until timeout.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="82"/>
+        <source>Years</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="83"/>
+        <source>Months</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="84"/>
         <source>Days</source>
         <translation type="unfinished">Günler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="47"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="85"/>
         <source>Hours</source>
         <translation type="unfinished">Saatler</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="48"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="86"/>
         <source>Minutes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -45987,7 +46429,6 @@ FileWave Admin will now quit.</source>
         <location filename="../../FWAdminLib/Configurator/AirPlaySecurityForm.cpp" line="29"/>
         <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="78"/>
         <location filename="../../FWAdminLib/models/devicedetailsmodel.cpp" line="53"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="28"/>
         <source>None</source>
         <translation type="unfinished">Hiçbiri</translation>
     </message>
@@ -46971,122 +47412,6 @@ FileWave Admin will now quit.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="34"/>
-        <source>EAP-AKA (Authentication and Key Agreement)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="35"/>
-        <source>EAP-TLS (Transport Layer Security)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="36"/>
-        <source>EAP-TTLS (Tunneled Transport Layer Security)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="37"/>
-        <source>EAP-SIM (Subscriber Identity Module)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="38"/>
-        <source>PEAP (Protected EAP)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="41"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="16"/>
-        <source>Automatic</source>
-        <translation type="unfinished">Otomatik</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="42"/>
-        <source>MSCHAP (Microsoft&apos;s Challenge-Handshake Authentication Protocol)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="43"/>
-        <source>MSCHAPv2 (Microsoft&apos;s Challenge-Handshake Authentication Protocol, version 2)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="44"/>
-        <source>PAP (Password Authentication Protocol)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="45"/>
-        <source>CHAP (Challenge-Handshake Authentication Protocol)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="46"/>
-        <source>GTC (Generic Token Card)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="49"/>
-        <source>Default</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="50"/>
-        <source>No</source>
-        <translation type="unfinished">Hayır</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.h" line="51"/>
-        <source>Yes</source>
-        <translation type="unfinished">Evet</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="28"/>
-        <source>The network is an &apos;open network&apos; for which there is no encryption and there are no credentials.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="29"/>
-        <source>WEP-PSK</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="29"/>
-        <source>The network utilizes Wireless Encryption Privacy encryption standard, and authenticates users by means of a Pre-Shared Key.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="30"/>
-        <source>WEP-8021X</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="30"/>
-        <source>The network utilizes Wireless Encryption Privacy encryption standard and EAP extensions for user authentication.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="31"/>
-        <source>WPA1/2/3-PSK</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="31"/>
-        <source>The network utilizes Wireless Protected Access encryption standard and authenticates users by means of a Pre-Shared Key.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="32"/>
-        <source>WPA-EAP</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.h" line="32"/>
-        <source>The network utilizes Wireless Protected Access encryption standard and EAP extensions for user authentication.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/PolicyEditor/PolicyEditorTools.cpp" line="133"/>
         <location filename="../../FWAdminLib/PolicyEditor/PolicyEditorTools.cpp" line="141"/>
         <source>Policy</source>
@@ -47117,326 +47442,6 @@ FileWave Admin will now quit.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/SingleSignOnExtensionsPayload.h" line="17"/>
         <source>com.apple.extensiblesso</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.h" line="37"/>
-        <source>Password Policy</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceComplianceWidget.h" line="37"/>
-        <source>Require password compliance.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="13"/>
-        <source>Allow use of camera.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="15"/>
-        <source>Allow use of device debugging features.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="16"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even when allowed, debugging features are not automatically enabled; users must &lt;a href=&quot;https://developer.android.com/studio/debug/dev-options&quot;&gt;&lt;span style=&quot;text-decoration: underline; color:#007af4;&quot;&gt;enable them manually&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="17"/>
-        <source>Allow user to initiate a factory reset of the device.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="18"/>
-        <source>If factory reset is enabled, a user may manually initiate a device reset.  If disabled, a device reset (or &quot;wipe&quot;) must be done by a FileWave administrator.  The global policy default is &quot;disabled.&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="19"/>
-        <source>Allow user to install packages from unknown sources.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="20"/>
-        <source>Whether the user may enable the &quot;Unknown Sources&quot; setting, allowing installation of apps from unknown sources.  This is popularly known as &quot;side-loading.&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="21"/>
-        <source>Location accuracy.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="22"/>
-        <source>Specify the location accuracy mode of devices.  High Accuracy uses the GPS and WiFi to determine a devices location, while Sensors will strictly utilize the GPS and Battery Saving the WiFi.  N.B. Users can change device location settings regardless of the choice made here; this is a per-model-update one-time change.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="23"/>
-        <source>Play Store Mode.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="24"/>
-        <source>Allow users to install from the Play Store only the associated apps (Whitelist), or all apps from the Play Store except those associated and set to the &apos;Blocked&apos; install type (Blacklist).  In Whitelist mode, apps that are not in a device&apos;s policy will be uninstalled.  The API default is &quot;Whitelist.&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="25"/>
-        <source>Allow location sharing.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="26"/>
-        <source>Allow users to configure location sharing preferences.  The Android global default is &quot;allowed.&quot;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="27"/>
-        <source>Allow user to boot to safe mode.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="28"/>
-        <source>Much like &quot;Safe Mode&quot; for desktop operating systems, safe mode for Android is a minimal, known-working environment.  Booting into safe mode is generally used as a debugging measure.  In the case of an EMM controlled device, it also enables a user to bypass a factory reset restriction.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="29"/>
-        <source>Allow user to add WiFi networks.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.h" line="30"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WARNING: Disable this with &lt;span style=&quot;font-weight:600;&quot;&gt;caution&lt;/span&gt;.  If there is no network connection available and users cannot add one, the affected devices become very difficult to administer.  Before disabling users&apos; ability to add their own WiFi networks, ensure that the devices have a (tested) backup WiFi connection.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.h" line="23"/>
-        <source>Upgraded to a different model</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.h" line="24"/>
-        <source>Retired (resold, donated, etc)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.h" line="25"/>
-        <source>Replaced with same model</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="16"/>
-        <source>Password requirements are applied to the work profile for work profile devices and the whole device for fully managed or dedicated devices.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="17"/>
-        <source>Device</source>
-        <translation type="unfinished">Cihaz</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="17"/>
-        <source>Password requirements are only applied to the device.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="18"/>
-        <source>Profile</source>
-        <translation type="unfinished">Profil</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="18"/>
-        <source>Password requirements are only applied to the work profile</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="22"/>
-        <source>No requirements</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="22"/>
-        <source>There are no password requirements.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="23"/>
-        <source>Weak biometric</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="23"/>
-        <source>The device must be secured with a low-security biometric recognition technology, at minimum.  This includes technologies that can recognize the identity of an individual that are roughly equivalent to a 3-digit PIN (false detection is less than 1 in 1,000).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="24"/>
-        <source>Password required</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="24"/>
-        <source>A password is required, but there are no restrictions on what the password must contain.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="25"/>
-        <source>Numeric</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="25"/>
-        <source>The password must contain numeric characters.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="26"/>
-        <source>Numeric, non-repeating</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="26"/>
-        <source>The password must contain numeric characters with no repeating (4444) or ordered (1234, 4321, 2468) sequences.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="27"/>
-        <source>Alphabetic</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="27"/>
-        <source>The password must contain alphabetic (or symbol) characters.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="28"/>
-        <source>Alphanumeric</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="28"/>
-        <source>The password must contain both numeric and alphabetic (or symbol) characters.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="29"/>
-        <source>Complex</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="29"/>
-        <source>The password must contain at least a letter, a numerical digit and a special symbol.  Other password constraints, for example, passwordMinimumLetters are enforced.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="32"/>
-        <source>Unspecified</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="32"/>
-        <source>Defaults to &quot;Device Default Timeout&quot; (handled upstream).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="33"/>
-        <source>Device Default Timeout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="33"/>
-        <source>Utilize the device&apos;s default timeout period.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="34"/>
-        <source>Every Day</source>
-        <translation type="unfinished">Her Gün</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="34"/>
-        <source>Set the timeout period to 24 hours.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="37"/>
-        <source>Number of incorrect device-unlock passwords that can be entered before a device is wiped.  A value of 0 means there is no restriction.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="38"/>
-        <source>A duration after which a password must be changed.  A value of 0 means that passwords do not expire.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="39"/>
-        <source>The length of the password history.  After setting this field, the user won&apos;t be able to enter a new password that is the same as any password in the history.  A value of 0 means there is no restriction.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="40"/>
-        <source>The minimum allowed password length.  A value of 0 means there is no restriction.  Only enforced when Password Quality is &apos;Numeric&apos;, &apos;Numeric, non-repeating&apos;, &apos;Alphabetic&apos;, &apos;Alphanumeric&apos;, or &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="41"/>
-        <source>Minimum number of letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="42"/>
-        <source>Minimum number of lower case letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="43"/>
-        <source>Minimum number of non-letter characters (numerical digits or symbols) required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="44"/>
-        <source>Minimum number of numerical digits required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="45"/>
-        <source>Minimum number of symbols required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="46"/>
-        <source>Minimum number of upper case letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="47"/>
-        <source>The &quot;Password Quality&quot; choice sets the restrictions an Android device will enforce.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="48"/>
-        <source>Apply this password policy at the device level, strictly to the work profile, or let the API decide by context.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.h" line="49"/>
-        <source>The length of time between strong authentication interactions (e.g., password, PIN, pattern).  Users may utilize any enabled authentication method to unlock the device or work profile until timeout.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/notationalchromebookfieldsmodel.cpp" line="56"/>
-        <source>Pending Model Update</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/notationalchromebookfieldsmodel.cpp" line="57"/>
-        <source>Up to Date</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -52155,27 +52160,28 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="192"/>
+        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="190"/>
+        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="196"/>
         <source>Last Sync: N/A</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="199"/>
+        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="202"/>
         <source>, Failed: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="201"/>
+        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="204"/>
         <source>Last Sync: %1%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="209"/>
+        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="212"/>
         <source>SIS Integration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="238"/>
+        <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="241"/>
         <source>Synchronizing Data with %1...</source>
         <translation type="unfinished"></translation>
     </message>
