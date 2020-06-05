@@ -1129,12 +1129,12 @@ Please wait for the results before opening a new connection</source>
         <translation type="vanished">Un autre utilisateur est en train de modifier un des objets concernés par cette opération.</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="77"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
         <source>Another user is modifying one of the objects involved in this operation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="80"/>
         <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
         <translation type="unfinished"></translation>
     </message>
