@@ -4,33 +4,33 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="77"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="87"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="75"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="85"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="99"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="97"/>
         <source>Client Info...</source>
         <translation>クライアント情報...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="111"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="109"/>
         <source>Available Updates: %1</source>
         <translation>利用可能なアップデート: %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="115"/>
         <source>Verifying, please wait...</source>
         <translation>検証します。しばらくお待ちください...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
         <source>No Kiosk Associations</source>
         <translation>Kioskアソシエーションはありません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="121"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
         <source>Install Software...</source>
         <translation>ソフトウェアをインストール...</translation>
     </message>
@@ -38,12 +38,12 @@
 <context>
     <name>InstallerStatusDialog</name>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="26"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="20"/>
         <source>FileWave Installer</source>
         <translation>FileWaveインストーラー</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="41"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="35"/>
         <source>Important system software is now being installed on your computer...</source>
         <translation>重要なシステムソフトウェアがコンピューターにインストールされています...</translation>
     </message>
@@ -53,12 +53,12 @@
         <translation>コンピューターをシャットダウンしないでください。  インストールが完了すると自動的に再起動します。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="64"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
         <source>Do not use the start menu.</source>
         <translation>スタートメニューを使用しないでください。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="74"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
         <source>Activating Fileset(s)...</source>
         <translation>ファイルセットをアクティベートします...</translation>
     </message>
@@ -71,37 +71,37 @@
         <translation>FileWave Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="164"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="161"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Organizations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;組織&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="508"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="505"/>
         <source>title</source>
         <translation>タイトル</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="518"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="515"/>
         <source>category</source>
         <translation>カテゴリー</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="559"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="556"/>
         <source>Status: </source>
         <translation>ステータス: </translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="760"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="757"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデバイスは現在管理者によってロックされています。 セルフサービスキオスクは利用できません。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="818"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="815"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.ui" line="830"/>
+        <location filename="../../QtGUIInstaller/Kiosk.ui" line="827"/>
         <source>Forward</source>
         <translation>進む</translation>
     </message>
@@ -217,114 +217,114 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <name>KioskClientInfo</name>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="14"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="253"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="147"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="144"/>
         <source>SSL:</source>
         <translation>SSL:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="222"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="219"/>
         <source>Last Successful Connection:</source>
         <translation>最終接続:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="236"/>
         <source>Server Connection:</source>
         <translation>サーバー接続:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="261"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="258"/>
         <source>4.</source>
         <translation>4.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="275"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="272"/>
         <source>Version:</source>
         <translation>バージョン:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="285"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="282"/>
         <source>2.</source>
         <translation>2.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="299"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="296"/>
         <source>Status:</source>
         <translation>ステータス:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="309"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="306"/>
         <source>3.</source>
         <translation>3.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="335"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="332"/>
         <source>Platform:</source>
         <translation>プラットフォーム:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="352"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="349"/>
         <source>Address:</source>
         <translation>アドレス:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="369"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="366"/>
         <source>File Check Interval:</source>
         <translation>ファイル確認インターバル:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="417"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="414"/>
         <source>Tickle Interval:</source>
         <translation>Tickleインターバル:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="439"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="436"/>
         <source>5.</source>
         <translation>5.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="453"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="450"/>
         <source>Model Version:</source>
         <translation>モデルバージョン:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="528"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="525"/>
         <source>Name:</source>
         <translation>名前:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="558"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="555"/>
         <source>Boosters</source>
         <translation>ブースター</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="592"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="589"/>
         <source>1.</source>
         <translation>1.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="606"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="603"/>
         <source>FileWave Server:</source>
         <translation>FileWaveサーバー:</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="630"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="627"/>
         <source>Last Connection Attempt:</source>
         <translation>最終接続試行：</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="664"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="661"/>
         <source>&lt;a href=&quot;https://filewave.com/help/privacy&quot;%style%&gt;FileWave Privacy Policy&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;https://filewave.com/help/privacy&quot;&gt;%style% FileWaveプライバシーポリシー&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="696"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="693"/>
         <source>This device is currently locked by your administrator. Self-Service Kiosk is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>このデバイスは現在管理者によってロックされています。 セルフサービスキオスクは利用できません。</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="44"/>
@@ -332,68 +332,68 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>検証</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="127"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
         <source>%1 sec</source>
         <translation>%1 秒</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="128"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
         <source>%1 min</source>
         <translation>%1 分</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="136"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="131"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="138"/>
         <source>%1:%2</source>
         <translation>%1:%2</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="132"/>
         <source>True</source>
         <translation>True</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="140"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="142"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="213"/>
         <source>[disconnected]</source>
         <translation>[切断]</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="228"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="230"/>
         <source>(never)</source>
         <translation>(なし)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="232"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="234"/>
         <source>(now trying...)</source>
         <translation>（只今試行中...)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
         <source>Connected (updates found)</source>
         <translation>接続 (アップデートあり)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
         <source>Connected (no updates)</source>
         <translation>接続 (アップデートなし)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="241"/>
         <source>Not connected</source>
         <translation>未接続</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="247"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
         <source>Device setup verification started successfully.</source>
         <translation>デバイス設定の確認が開始されました。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
         <source>Could not start verification ; please contact your administrator.</source>
         <translation>確認を開始できませんでした。 管理者に連絡してください。</translation>
     </message>
@@ -485,7 +485,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
         <source>Software installed on your system requires %1</source>
-        <translation type="unfinished"></translation>
+        <translation>システムにインストールされているソフトウェアには %1 が必要です</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="435"/>
@@ -581,12 +581,12 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 <context>
     <name>QuitRunningProcessDialog</name>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="20"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="14"/>
         <source>Quit All Running Processes</source>
         <translation>すべての実行中プロセスを終了</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="32"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="26"/>
         <source>Important System Software is to be installed on this computer...</source>
         <translation>重要なシステムソフトウェアは、このコンピューターにインストールされます...</translation>
     </message>
@@ -596,89 +596,97 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>作業を保存してすべてのプログラムを終了してください。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="46"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="52"/>
         <source>The following applications are preventing this installation from taking place.</source>
         <translation>以下のアプリがこのインストールの実行を妨げています。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="101"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="113"/>
         <source>Quit Application</source>
         <translation>アプリを終了</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="114"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="126"/>
         <source>Quit All</source>
         <translation>すべて終了</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="137"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="149"/>
         <source>Delay</source>
         <translation>遅らせる</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="150"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="162"/>
         <source>for</source>
-        <translation>　</translation>
+        <translation>&#x3000;</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="186"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
         <source>Start Installation</source>
         <translation>インストール開始</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="201"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="213"/>
         <source>[Reboot deadline information...]</source>
         <translation>[リブート期限情報...]</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="99"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
         <source>%1 programs active</source>
         <translation>%1 プログラムがアクティブ</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="118"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation>インストールはn %1秒後に自動的に始まります...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="179"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
         <source>You can delay installation until: %1.</source>
         <translation>%1までインストールを遅らせることができます。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="183"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="188"/>
         <source>This update is now mandatory and cannot be delayed.</source>
         <translation>この更新は現在必須であり、遅らせることはできません。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="204"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
         <source>15 Minutes</source>
         <translation>15 分</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="205"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
         <source>30 Minutes</source>
         <translation>30 分</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="206"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
         <source>1 Hour</source>
         <translation>1 時間</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="207"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>2 Hours</source>
         <translation>2 時間</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="215"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
         <source>deadline</source>
         <translation>期限</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="216"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="221"/>
         <source>till</source>
         <translation>まで</translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
+        <source>At least one applications is preventing this installation from taking place.
+Do you want to quit all applications before starting the installation?</source>
+        <translation>少なくとも1つのアプリがこのインストールの実行を妨げています。
+インストールを開始する前にすべてのアプリを終了しますか？</translation>
     </message>
 </context>
 <context>
