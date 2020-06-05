@@ -4110,39 +4110,33 @@ Check the log file for more details</source>
         <translation>%1 アソシエーション（配布）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="809"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="795"/>
         <source>Dependent fileset selected! Please select an independent fileset.</source>
         <translation>依存ファイルセットが選択されました！独立ファイルセットを選択してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="826"/>
-        <source>and</source>
-        <translation>と</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="834"/>
-        <source>Dependency selected! Do you want to install top level fileset(s) %1 instead?</source>
-        <translation>
-            <numerusform>依存関係が選択されました！代わりにトップレベルファイルセット %1 をインストールしますか?</numerusform>
-        </translation>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="802"/>
+        <source>Dependency selected! Do you want to install the following top level fileset(s) instead?
+</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="880"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="867"/>
         <source>Fileset with dependencies selected! Do you want to reinstall dependencies as well?</source>
         <translation>依存関係にあるファイルセットが選択されました。依存関係も再インストールしますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="939"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="927"/>
         <source>%1 - %2</source>
         <translation>%1 - %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1164"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1152"/>
         <source>Wipe device</source>
         <translation>デバイスをワイプ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1165"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1153"/>
         <source>This Chromebook device will be deprovisioned immediately.
 
 You must still wipe it manually.</source>
@@ -4151,32 +4145,32 @@ You must still wipe it manually.</source>
 それでも手動でワイプする必要があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1172"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1160"/>
         <source>Upgraded to a different model</source>
         <translation>別モデルにアップグレード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1173"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1161"/>
         <source>Retired (resold, donated, etc)</source>
         <translation>リタイア（転売、寄付など）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1162"/>
         <source>Replaced with same model</source>
         <translation>同じモデルに置き換え</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1180"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1168"/>
         <source>Deprovision reason:</source>
         <translation>プロビジョニング解除理由：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1195"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1183"/>
         <source>Deprovision failed</source>
         <translation>プロビジョニングに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1195"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1183"/>
         <source>Failed to deprovision device.
 
 %1</source>
@@ -4185,38 +4179,38 @@ You must still wipe it manually.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1229"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1217"/>
         <source>Failed to download the institutional recovery key: %1</source>
         <translation>組織の回復キーのダウンロードに失敗しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1231"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1244"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1219"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1232"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1242"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1230"/>
         <source>Failed to retrieve the personal recovery key: %1</source>
         <translation>個人用回復キーの取得に失敗しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1261"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1249"/>
         <source>Save the institutional recovery key</source>
         <translation>組織の回復キーを保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1263"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1251"/>
         <source>P12 Files (*.p12)</source>
         <translation>P12 ファイル (*.p12)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1268"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1256"/>
         <source>Save failed</source>
         <translation>保存に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1269"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1257"/>
         <source>Could not open file &quot;%1&quot; for writing</source>
         <translation>書き込み用にファイル &quot;%1&quot; を開けませんでした</translation>
     </message>
@@ -7665,12 +7659,10 @@ This cannot be undone.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="1224"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.
-
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation>これは「部分的な」ファイルセットであり、開くことができません。
-
-部分的なファイルセットは、現在アップロード中か、完全にアップロードされなかったファイルセットです。</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8387,6 +8379,13 @@ Please enter your Activation Code.</source>
         <translation>[部分的な]ファイルセットに権限を設定できません</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1399"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1561"/>
         <source>Loading server logfile...</source>
         <translation>サーバーログファイルをロードします...</translation>
@@ -8477,6 +8476,13 @@ log out and log back into the FileWave™ system.</source>
         <translation>&apos;部分的な’ファイルセットを複製できません</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1903"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1947"/>
         <source>Duplicate Failed</source>
         <translation>複製に失敗しました</translation>
@@ -8490,6 +8496,15 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2059"/>
         <source>Cannot open report for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットを開けません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2059"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2081"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2113"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2081"/>
@@ -8517,44 +8532,6 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="584"/>
         <source>Firebase Cloud Messaging requires configuration in preferences</source>
         <translation>Firebase Cloud Messagingは環境設定で構成が必要です</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1399"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation>これは「部分的な」ファイルセットであり、変更できません。
-
-部分的なファイルセットは、現在アップロード中か、完全にアップロードされなかったファイルセットです。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1903"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation>これは「部分的な」ファイルセットであり、複製できません。
-
-部分的なファイルセットは、現在アップロード中か、完全にアップロードされなかったファイルセットです。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2059"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2081"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2113"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation>これは「部分的な」ファイルセットであり、開けません。
-
-部分的なファイルセットは、現在アップロード中か、完全にアップロードされなかったファイルセットです。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2163"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be exported.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation>これは「部分的な」ファイルセットであり、エクスポートできません。
-
-部分的なファイルセットは、現在アップロード中か、完全にアップロードされなかったファイルセットです。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2182"/>
@@ -8749,6 +8726,13 @@ Only the report for the first query is shown.</source>
 (see Mobile/Android and root certificates in preferences)</source>
         <translation>Google Notification は %1 構成が必要です。
 （環境設定のモバイル / Android とルート証明書を参照してください)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2163"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be exported.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2634"/>
@@ -9890,6 +9874,13 @@ Are you sure you want to continue?</source>
         <translation>プロキシテストに失敗しました</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="854"/>
+        <source>There was an error in the request to check the proxy.<byte value="xd"/>
+
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="856"/>
         <source>There was an error in the request</source>
         <translation>リクエストエラー</translation>
@@ -9985,15 +9976,6 @@ Are you sure you want to continue?</source>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1395"/>
         <source>Please restart web services.</source>
         <translation>Webサービスを再起動してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="854"/>
-        <source>There was an error in the request to check the proxy.
-
-%1</source>
-        <translation>プロキシ・チェック・リクエストにエラーがありました。
-
-%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1562"/>
@@ -12205,7 +12187,7 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation>OUの移動に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2285"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2287"/>
         <source>Inventory: Error while loading list of custom fields: %1
 %2</source>
         <translation>インベントリー：カスタムフィールドリストの読込み中にエラーが発生しました： %1
@@ -12222,12 +12204,12 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation>イメージングアソシエーション（配布）を作成できるようにするには、最大で1つのイメージングファイルセットを選択する必要があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2234"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2236"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2234"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2236"/>
         <source>Error while removing mobile clients: %1</source>
         <translation>モバイルクライアント %1 を削除中にエラーが発生しました</translation>
     </message>
@@ -12958,15 +12940,6 @@ FileWave will not be able to clear it without a WiFi connection</source>
 FileWaveはWi-Fi接続なしでクリアすることはできません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="640"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation>FileWaveサーバーは、このクライアントのIPアドレスを認識していません。おそらくまだ接続できていません。
-
-それでもクライアントモニタを開きますか？</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1386"/>
         <source>Android client %1 and all its clones</source>
         <translation>Androidクライアント %1 とそのすべてのクローン</translation>
@@ -13148,6 +13121,13 @@ Failed FileWave IDs: %4</source>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="466"/>
         <source>Something went wrong. Server said (%1):</source>
         <translation>問題が発生しました。 サーバー (%1)：</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="640"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+
+Do you want to open the Client Monitor anyway?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="756"/>
@@ -38140,47 +38120,52 @@ The code itself is just:
         <translation>イメージアソシエーション（配布）結果</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="41"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="85"/>
         <source>Confirm</source>
         <translation>確認</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="54"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="98"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="79"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="116"/>
+        <source>Note that assigning an image or a driver pack to a group only assigns the image/driver pack to the devices in this group at this particular moment. It is not a dynamic association.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="81"/>
         <source>The following %1 %2 will be imaged:</source>
         <translation>次の %1 %2 をイメージングします：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="80"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="82"/>
         <source>The following %1 %2 won&apos;t be imaged (an imaging association already exists):</source>
         <translation>次の %1 %2 はイメージングされません（イメージアソシエーション（配布）は既に存在します）：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="81"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="83"/>
         <source>The following %1 %2 won&apos;t be imaged (an imaging association is required to associate the driver):</source>
         <translation>次の %1 %2 はイメージングされません（イメージアソシエーション（配布）はドライバーを関連付けるために必要です）：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="122"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="129"/>
         <source>Master image</source>
         <translation>マスターイメージ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="127"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="134"/>
         <source>&lt;Unknown&gt;</source>
         <translation>&lt;不明&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="136"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="143"/>
         <source>items</source>
         <translation>項目</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="137"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="144"/>
         <source>item</source>
         <translation>項目</translation>
     </message>
