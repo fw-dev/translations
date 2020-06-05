@@ -6,7 +6,7 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="463"/>
         <source>Checking for new model version</source>
-        <translation>新しいモデルのバージョンを確認します</translation>
+        <translation>新しい情報（モデル）のバージョンを確認します</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="486"/>
@@ -158,7 +158,9 @@ Filesets in Inventory:
         <source>Filesets not meeting requirements:
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>要件を満たしていないファイルセット：
+
+</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4773"/>
