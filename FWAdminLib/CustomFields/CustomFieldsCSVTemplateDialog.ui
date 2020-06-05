@@ -67,7 +67,7 @@
          </property>
          <item>
           <widget class="ViewSearchHeader" name="header" native="true">
-           <layout class="QHBoxLayout" name="headerLayout">
+           <layout class="QHBoxLayout" name="_2">
             <item>
              <widget class="QLabel" name="label">
               <property name="sizePolicy">

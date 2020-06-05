@@ -1037,22 +1037,22 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="25"/>
         <source>[Email body]</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="32"/>
         <source>[Subject line]</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="45"/>
         <source>Subject:</source>
-        <translation>件名：</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="64"/>
         <source>Body:</source>
-        <translation>本文：</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1120,14 +1120,14 @@ Please wait for the results before opening a new connection</source>
         <translation type="vanished">他のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="77"/>
         <source>Another user is modifying one of the objects involved in this operation.</source>
-        <translation>別のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="80"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
         <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
-        <translation>このリクエストを処理中にデータベースエラーが発生しました。詳細は、サーバーログ（fwxadmin.log）を確認してください。</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
