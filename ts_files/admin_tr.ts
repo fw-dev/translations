@@ -4078,109 +4078,103 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="809"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="795"/>
         <source>Dependent fileset selected! Please select an independent fileset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="826"/>
-        <source>and</source>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="802"/>
+        <source>Dependency selected! Do you want to install the following top level fileset(s) instead?
+</source>
         <translation type="unfinished"></translation>
     </message>
-    <message numerus="yes">
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="834"/>
-        <source>Dependency selected! Do you want to install top level fileset(s) %1 instead?</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
-    </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="880"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="867"/>
         <source>Fileset with dependencies selected! Do you want to reinstall dependencies as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="939"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="927"/>
         <source>%1 - %2</source>
         <translation type="unfinished">%1 - %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1164"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1152"/>
         <source>Wipe device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1165"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1153"/>
         <source>This Chromebook device will be deprovisioned immediately.
 
 You must still wipe it manually.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1172"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1160"/>
         <source>Upgraded to a different model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1173"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1161"/>
         <source>Retired (resold, donated, etc)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1162"/>
         <source>Replaced with same model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1180"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1168"/>
         <source>Deprovision reason:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1195"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1183"/>
         <source>Deprovision failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1195"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1183"/>
         <source>Failed to deprovision device.
 
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1229"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1217"/>
         <source>Failed to download the institutional recovery key: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1231"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1244"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1219"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1232"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1242"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1230"/>
         <source>Failed to retrieve the personal recovery key: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1261"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1249"/>
         <source>Save the institutional recovery key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1263"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1251"/>
         <source>P12 Files (*.p12)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1268"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1256"/>
         <source>Save failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1269"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1257"/>
         <source>Could not open file &quot;%1&quot; for writing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12058,7 +12052,7 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2285"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2287"/>
         <source>Inventory: Error while loading list of custom fields: %1
 %2</source>
         <translation type="unfinished"></translation>
@@ -12074,12 +12068,12 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2234"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2236"/>
         <source>Error</source>
         <translation type="unfinished">Hata</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2234"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2236"/>
         <source>Error while removing mobile clients: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -37714,47 +37708,52 @@ Kodun kendisi sadece:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="41"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="85"/>
         <source>Confirm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="54"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="98"/>
         <source>Cancel</source>
         <translation type="unfinished">İptal</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="79"/>
-        <source>The following %1 %2 will be imaged:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="80"/>
-        <source>The following %1 %2 won&apos;t be imaged (an imaging association already exists):</source>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="116"/>
+        <source>Note that assigning an image or a driver pack to a group only assigns the image/driver pack to the devices in this group at this particular moment. It is not a dynamic association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="81"/>
+        <source>The following %1 %2 will be imaged:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="82"/>
+        <source>The following %1 %2 won&apos;t be imaged (an imaging association already exists):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="83"/>
         <source>The following %1 %2 won&apos;t be imaged (an imaging association is required to associate the driver):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="122"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="129"/>
         <source>Master image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="127"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="134"/>
         <source>&lt;Unknown&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="136"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="143"/>
         <source>items</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="137"/>
+        <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="144"/>
         <source>item</source>
         <translation type="unfinished"></translation>
     </message>
