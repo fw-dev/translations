@@ -4,33 +4,33 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="75"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="85"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="77"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="87"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="97"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="99"/>
         <source>Client Info...</source>
         <translation>クライアント情報...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="109"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="111"/>
         <source>Available Updates: %1</source>
         <translation>利用可能なアップデート: %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="115"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
         <source>Verifying, please wait...</source>
         <translation>検証します。しばらくお待ちください...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
         <source>No Kiosk Associations</source>
         <translation>Kioskアソシエーションはありません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="119"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="121"/>
         <source>Install Software...</source>
         <translation>ソフトウェアをインストール...</translation>
     </message>
@@ -217,7 +217,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <name>KioskClientInfo</name>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="14"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="253"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
@@ -332,68 +332,68 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>検証</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="127"/>
         <source>%1 sec</source>
         <translation>%1 秒</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="128"/>
         <source>%1 min</source>
         <translation>%1 分</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="131"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="138"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="136"/>
         <source>%1:%2</source>
         <translation>%1:%2</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="132"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
         <source>True</source>
         <translation>True</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="142"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="140"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="213"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="211"/>
         <source>[disconnected]</source>
         <translation>[切断]</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="230"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="228"/>
         <source>(never)</source>
         <translation>(なし)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="234"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="232"/>
         <source>(now trying...)</source>
         <translation>（只今試行中...)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
         <source>Connected (updates found)</source>
         <translation>接続 (アップデートあり)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
         <source>Connected (no updates)</source>
         <translation>接続 (アップデートなし)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="241"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
         <source>Not connected</source>
         <translation>未接続</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="247"/>
         <source>Device setup verification started successfully.</source>
         <translation>デバイス設定の確認が開始されました。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
         <source>Could not start verification ; please contact your administrator.</source>
         <translation>確認を開始できませんでした。 管理者に連絡してください。</translation>
     </message>
@@ -685,8 +685,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
         <source>At least one applications is preventing this installation from taking place.
 Do you want to quit all applications before starting the installation?</source>
-        <translation>少なくとも1つのアプリがこのインストールの実行を妨げています。
-インストールを開始する前にすべてのアプリを終了しますか？</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

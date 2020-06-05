@@ -37,55 +37,41 @@
         <number>5</number>
        </property>
        <item>
-        <widget class="QGroupBox" name="GKSettings">
-         <property name="title">
-          <string>Configure Gatekeeper Settings</string>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Gatekeeper</string>
          </property>
-         <property name="flat">
-          <bool>true</bool>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTipGateKeeper">
+         <property name="text">
+          <string>Allow apps downloaded from:</string>
          </property>
-         <property name="checkable">
-          <bool>true</bool>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="GKMacAppStore">
+         <property name="text">
+          <string>Mac App Store</string>
          </property>
          <property name="checked">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_6">
-          <item>
-           <widget class="QLabel" name="lTipGateKeeper">
-            <property name="text">
-             <string>Allow apps downloaded from:</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QRadioButton" name="GKMacAppStore">
-            <property name="text">
-             <string>Mac App Store</string>
-            </property>
-            <property name="checked">
-             <bool>false</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QRadioButton" name="GKMacAppStoreIdentDev">
-            <property name="text">
-             <string>Mac App Store and identified developers</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QRadioButton" name="GKAnywhere">
-            <property name="text">
-             <string>Anywhere</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="GKMacAppStoreIdentDev">
+         <property name="text">
+          <string>Mac App Store and identified developers</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="GKAnywhere">
+         <property name="text">
+          <string>Anywhere</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -227,9 +213,9 @@
             <number>5</number>
            </property>
            <item>
-            <widget class="QCheckBox" name="checkBoxAllowUserToUnlockMacUsingWatch">
+            <widget class="QCheckBox" name="disableAutomaticLoginCb">
              <property name="text">
-              <string>Allow user to unlock the Mac using an Apple Watch</string>
+              <string>Disable automatic login</string>
              </property>
              <property name="checked">
               <bool>true</bool>
@@ -241,9 +227,9 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_6">
            <item>
-            <widget class="QCheckBox" name="disableAutomaticLoginCb">
+            <widget class="QCheckBox" name="checkBoxAllowUserToUnlockMacUsingWatch">
              <property name="text">
-              <string>Disable automatic login</string>
+              <string>Allow user to unlock the Mac using an Apple Watch</string>
              </property>
              <property name="checked">
               <bool>true</bool>

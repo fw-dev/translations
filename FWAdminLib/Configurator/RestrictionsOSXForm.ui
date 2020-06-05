@@ -483,20 +483,6 @@
              </widget>
             </item>
             <item>
-             <widget class="QCheckBox" name="screentime">
-              <property name="text">
-               <string>Screen Time</string>
-              </property>
-              <property name="icon">
-               <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/screentime.png</normaloff>:/assets/restrictions/screentime.png</iconset>
-              </property>
-              <property name="checked">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
              <widget class="QCheckBox" name="securityPrivacy">
               <property name="text">
                <string>Security &amp;&amp; Privacy</string>
@@ -518,20 +504,6 @@
               <property name="icon">
                <iconset resource="Configurator.qrc">
                 <normaloff>:/assets/restrictions/sharing.png</normaloff>:/assets/restrictions/sharing.png</iconset>
-              </property>
-              <property name="checked">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="sidecar">
-              <property name="text">
-               <string>Sidecar</string>
-              </property>
-              <property name="icon">
-               <iconset resource="Configurator.qrc">
-                <normaloff>:/assets/restrictions/sidecar.png</normaloff>:/assets/restrictions/sidecar.png</iconset>
               </property>
               <property name="checked">
                <bool>true</bool>
