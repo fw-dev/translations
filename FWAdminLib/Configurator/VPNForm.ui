@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>602</width>
-    <height>5765</height>
+    <height>5878</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -252,6 +252,13 @@
        </widget>
       </item>
       <item>
+       <widget class="QLabel" name="lTipIncludeAllNetworks">
+        <property name="text">
+         <string>Routes all network traffic through the VPN connection</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QWidget" name="widgetExcludeLocalNetworks" native="true">
         <property name="enabled">
          <bool>false</bool>
@@ -272,7 +279,14 @@
          <item>
           <widget class="QCheckBox" name="checkExcludeLocalNetworks">
            <property name="text">
-            <string>Exclude local network traffic from VPN</string>
+            <string>Exclude Local Networks</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipExcludeLocalNetworks">
+           <property name="text">
+            <string>Traffic destined for the local network will not go through the VPN connection</string>
            </property>
           </widget>
          </item>
@@ -1549,9 +1563,9 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="lTip_39">
+       <widget class="QLabel" name="lTipProviderType">
         <property name="text">
-         <string>Layer of the tunnel traffic</string>
+         <string>Tunnel traffic at Application or IP layer</string>
         </property>
        </widget>
       </item>
@@ -1561,12 +1575,12 @@
          <widget class="QComboBox" name="providerTypeCombo">
           <item>
            <property name="text">
-            <string>app-proxy</string>
+            <string>Packet Tunnel</string>
            </property>
           </item>
           <item>
            <property name="text">
-            <string>packet-tunnel</string>
+            <string>App Proxy</string>
            </property>
           </item>
          </widget>
@@ -2820,12 +2834,47 @@
       <item>
        <widget class="QLabel" name="lTipProviderBundleIdentifier">
         <property name="text">
-         <string>Provider to use for this configuration</string>
+         <string>Bundle identifier of the provider to use for this configuration</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLineEdit" name="lineEditProviderBundleIdentifier"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetProviderDesignatedRequirement" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_41">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelProviderDesignatedRequirement">
+        <property name="text">
+         <string>Provider Designated Requirement</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipProviderDesignatedRequirement">
+        <property name="text">
+         <string>Required if VPN provider is a System Extension</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditProviderDesignatedRequirement"/>
       </item>
      </layout>
     </widget>

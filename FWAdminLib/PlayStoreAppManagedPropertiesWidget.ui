@@ -24,13 +24,13 @@
     <number>3</number>
    </property>
    <property name="leftMargin">
-    <number>0</number>
+    <number>9</number>
    </property>
    <property name="topMargin">
     <number>0</number>
    </property>
    <property name="rightMargin">
-    <number>0</number>
+    <number>9</number>
    </property>
    <property name="bottomMargin">
     <number>9</number>
@@ -99,24 +99,18 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>400</width>
-        <height>85</height>
+        <width>382</width>
+        <height>68</height>
        </rect>
       </property>
-      <layout class="QFormLayout" name="formLayout">
-       <property name="fieldGrowthPolicy">
-        <enum>QFormLayout::ExpandingFieldsGrow</enum>
-       </property>
-       <property name="labelAlignment">
-        <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
-       </property>
-       <property name="verticalSpacing">
-        <number>3</number>
-       </property>
+      <layout class="QVBoxLayout" name="mcMainLayout">
        <property name="topMargin">
         <number>3</number>
        </property>
        <property name="bottomMargin">
+        <number>3</number>
+       </property>
+       <property name="verticalSpacing" stdset="0">
         <number>3</number>
        </property>
       </layout>

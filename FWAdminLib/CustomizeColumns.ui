@@ -109,6 +109,13 @@
       </widget>
      </item>
      <item>
+      <widget class="QPushButton" name="addInventoryFieldButton">
+       <property name="text">
+        <string>Add Inventory Field</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="removeButton">
        <property name="text">
         <string>Remove</string>

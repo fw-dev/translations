@@ -664,6 +664,34 @@
               </property>
              </widget>
             </item>
+            <item>
+             <widget class="QCheckBox" name="appleID">
+              <property name="text">
+               <string>Apple ID</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/appleid.png</normaloff>:/assets/restrictions/appleid.png</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="familySharing">
+              <property name="text">
+               <string>Family Sharing</string>
+              </property>
+              <property name="icon">
+               <iconset resource="Configurator.qrc">
+                <normaloff>:/assets/restrictions/familysharing.jpeg</normaloff>:/assets/restrictions/familysharing.jpeg</iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
            </layout>
           </widget>
          </item>
@@ -914,6 +942,13 @@
          </property>
          <property name="checked">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowDeprecatedWebKitTLS">
+         <property name="text">
+          <string>Allow accessing web sites using TLS 1.0 and 1.1</string>
          </property>
         </widget>
        </item>

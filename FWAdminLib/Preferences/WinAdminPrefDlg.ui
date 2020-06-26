@@ -375,61 +375,71 @@
            <widget class="QLineEdit" name="organizationNameLE"/>
           </item>
           <item row="2" column="0">
+           <widget class="QLabel" name="label_311">
+            <property name="text">
+             <string>Short Name:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="organizationShortNameLE"/>
+          </item>
+          <item row="3" column="0">
            <widget class="QLabel" name="label_36">
             <property name="text">
              <string>Address:</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
+          <item row="3" column="1">
            <widget class="QPlainTextEdit" name="organizationAddressTE"/>
           </item>
-          <item row="3" column="0">
+          <item row="4" column="0">
            <widget class="QLabel" name="label_43">
             <property name="text">
              <string>Phone Number:</string>
             </property>
            </widget>
           </item>
-          <item row="3" column="1">
+          <item row="4" column="1">
            <widget class="QLineEdit" name="organizationPhoneLE">
             <property name="placeholderText">
              <string>Can be displayed on missing devices</string>
             </property>
            </widget>
           </item>
-          <item row="4" column="0">
+          <item row="5" column="0">
            <widget class="QLabel" name="label_44">
             <property name="text">
              <string>Email Address:</string>
             </property>
            </widget>
           </item>
-          <item row="4" column="1">
+          <item row="5" column="1">
            <widget class="QLineEdit" name="organizationEmailLE"/>
           </item>
-          <item row="6" column="1">
+          <item row="7" column="1">
            <widget class="QLineEdit" name="organizationLostModeFootnote">
             <property name="placeholderText">
              <string>Can be displayed on missing devices</string>
             </property>
            </widget>
           </item>
-          <item row="5" column="1">
+          <item row="6" column="1">
            <widget class="QLineEdit" name="organizationLostModeMessage">
             <property name="placeholderText">
              <string>Can be displayed on missing devices</string>
             </property>
            </widget>
           </item>
-          <item row="5" column="0">
+          <item row="6" column="0">
            <widget class="QLabel" name="label_5">
             <property name="text">
              <string>Lost mode message:</string>
             </property>
            </widget>
           </item>
-          <item row="6" column="0">
+          <item row="7" column="0">
            <widget class="QLabel" name="label_12">
             <property name="text">
              <string>Lost mode footnote</string>
@@ -3060,6 +3070,7 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
   <tabstop>bandwidthSpinbox</tabstop>
   <tabstop>categoriesDefaults</tabstop>
   <tabstop>organizationNameLE</tabstop>
+  <tabstop>organizationShortNameLE</tabstop>
   <tabstop>organizationAddressTE</tabstop>
   <tabstop>organizationPhoneLE</tabstop>
   <tabstop>organizationEmailLE</tabstop>

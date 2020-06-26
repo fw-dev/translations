@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>922</width>
-    <height>933</height>
+    <height>1084</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -474,6 +474,176 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="labelQuotaSize">
+     <property name="text">
+      <string>Quota Size (Shared iPad only)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipQuotaSize">
+     <property name="text">
+      <string>Limits how much storage user can have.</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widgetQuotaSize" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QSpinBox" name="quotaSize">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>110</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="specialValueText">
+         <string>Not set</string>
+        </property>
+        <property name="suffix">
+         <string> MB</string>
+        </property>
+        <property name="minimum">
+         <number>2047</number>
+        </property>
+        <property name="maximum">
+         <number>30720</number>
+        </property>
+        <property name="singleStep">
+         <number>1</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacerQuotaSize">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="residentUser" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelResidentUsers">
+        <property name="text">
+         <string>Resident Users (Shared iPad only)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipResidentUsers">
+        <property name="text">
+         <string>Number of users for a Shared iPad.</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetResidentUsers" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QSpinBox" name="residentUsers">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="specialValueText">
+            <string>Not set</string>
+           </property>
+           <property name="minimum">
+            <number>0</number>
+           </property>
+           <property name="maximum">
+            <number>32</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacerResidentUsers">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -488,6 +658,18 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>cbVoiceRoaming</tabstop>
+  <tabstop>cbDataRoaming</tabstop>
+  <tabstop>cbWallpaper</tabstop>
+  <tabstop>browseWallpaper</tabstop>
+  <tabstop>lockScreenGracePeriod</tabstop>
+  <tabstop>cbBluetooth</tabstop>
+  <tabstop>cbRemoteDesktop</tabstop>
+  <tabstop>ckDisableRemoteDesktopOnRemove</tabstop>
+  <tabstop>lineEditeSIMServerURL</tabstop>
+  <tabstop>quotaSize</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

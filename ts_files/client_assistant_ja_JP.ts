@@ -92,7 +92,7 @@
         <translation>カスタムデータを編集...</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="222"/>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="224"/>
         <source>The password and confirmation don&apos;t match -- please try again.</source>
         <translation>パスワードと確認が一致しません - 再実行してください。</translation>
     </message>

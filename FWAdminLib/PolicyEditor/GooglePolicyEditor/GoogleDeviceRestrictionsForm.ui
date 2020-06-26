@@ -162,7 +162,7 @@
       </layout>
      </item>
      <item row="5" column="0">
-      <widget class="QComboBox" name="frm_safeBootEnabled">
+      <widget class="QComboBox" name="frm_playStoreMode">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -172,6 +172,29 @@
       </widget>
      </item>
      <item row="5" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout_playStoreMode">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <widget class="QLabel" name="lbl_title_playStoreMode"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTip_lbl_desc_playStoreMode"/>
+       </item>
+      </layout>
+     </item>
+     <item row="6" column="0">
+      <widget class="QComboBox" name="frm_safeBootEnabled">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
       <layout class="QVBoxLayout" name="verticalLayout_safeBootEnabled">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>
@@ -184,7 +207,7 @@
        </item>
       </layout>
      </item>
-     <item row="6" column="0">
+     <item row="7" column="0">
       <widget class="QComboBox" name="frm_installUnknownSourcesAllowed">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -194,7 +217,7 @@
        </property>
       </widget>
      </item>
-     <item row="6" column="1">
+     <item row="7" column="1">
       <layout class="QVBoxLayout" name="verticalLayout_unknownSources">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>
@@ -207,7 +230,7 @@
        </item>
       </layout>
      </item>
-     <item row="7" column="0">
+     <item row="8" column="0">
       <widget class="QComboBox" name="frm_wifiConfigEnabled">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -217,7 +240,7 @@
        </property>
       </widget>
      </item>
-     <item row="7" column="1">
+     <item row="8" column="1">
       <layout class="QVBoxLayout" name="verticalLayout_wifiConfigDisabled">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>

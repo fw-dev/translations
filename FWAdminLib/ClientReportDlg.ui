@@ -637,6 +637,28 @@
           </item>
          </layout>
         </widget>
+        <widget class="QWidget" name="chromeFieldsTab">
+         <attribute name="title">
+          <string>Chromebook Data</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="vl_chromeFieldsTab">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="NotationalChromebookFieldsWidget" name="chromeFields" native="true"/>
+          </item>
+         </layout>
+        </widget>
         <widget class="QWidget" name="commandsTab">
          <attribute name="title">
           <string>Command History</string>
@@ -768,11 +790,48 @@
           </item>
          </layout>
         </widget>
+        <widget class="QWidget" name="tabContentCachingInfo">
+         <attribute name="title">
+          <string>Content Caching Information</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="vl_contentCachingInfo">
+          <item>
+           <widget class="QTextEdit" name="contentCachingInfo">
+            <property name="font">
+             <font>
+              <family>Courier</family>
+             </font>
+            </property>
+            <property name="undoRedoEnabled">
+             <bool>false</bool>
+            </property>
+            <property name="lineWrapMode">
+             <enum>QTextEdit::NoWrap</enum>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="acceptRichText">
+             <bool>false</bool>
+            </property>
+            <property name="cursorWidth">
+             <number>0</number>
+            </property>
+            <property name="textInteractionFlags">
+             <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+            </property>
+            <property name="placeholderText">
+             <string>Loading content caching information for device ...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
         <widget class="QWidget" name="tabUsers">
          <attribute name="title">
           <string>Users</string>
          </attribute>
-         <layout class="QVBoxLayout" name="verticalLayout_6">
+         <layout class="QVBoxLayout" name="vl_tabUsers">
           <item>
            <widget class="StyledTreeView" name="users">
             <property name="frameShape">
@@ -862,6 +921,12 @@
    <class>DeviceDetailsWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/devicedetailswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>NotationalChromebookFieldsWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/notationalchromebookfields.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
