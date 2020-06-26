@@ -19,22 +19,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="31"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>Ctrl+W</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="35"/>
         <source>About %1</source>
         <translation type="unfinished"></translation>
     </message>

@@ -582,6 +582,22 @@
                </widget>
               </item>
               <item>
+               <widget class="QGroupBox" name="groupBox_5">
+                <property name="title">
+                 <string>User Enrollment</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_18">
+                 <item>
+                  <widget class="QCheckBox" name="enableUserEnrollmentCheckBox">
+                   <property name="text">
+                    <string>Enable User Enrollment</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
                <widget class="QGroupBox" name="groupBox_3">
                 <property name="title">
                  <string>Device un-enrollment</string>
@@ -607,6 +623,13 @@
                    </property>
                    <property name="wordWrap">
                     <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="removeUserEnrollmentMDMProfileLabel">
+                   <property name="text">
+                    <string/>
                    </property>
                   </widget>
                  </item>
@@ -1614,6 +1637,13 @@
                 </item>
                 <item>
                  <widget class="QComboBox" name="distributionModelCombo"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_distributionmodel_automatic_hint">
+                  <property name="text">
+                   <string>Assign to Device if possible, otherwise to User</string>
+                  </property>
+                 </widget>
                 </item>
                 <item>
                  <spacer name="horizontalSpacer_25">

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>FilesetDependencyChooser</class>
- <widget class="QDialog" name="FilesetDependencyChooser">
+ <class>AssociationRevisionsDialog</class>
+ <widget class="QWidget" name="AssociationRevisionsDialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>427</width>
-    <height>326</height>
+    <width>700</width>
+    <height>493</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Choose a dependency fileset</string>
+   <string>Association Revisions</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
@@ -30,38 +30,40 @@
     <number>0</number>
    </property>
    <item>
-    <widget class="ViewSearchHeader" name="widget" native="true">
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>194</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item>
-       <widget class="SearchLineEdit" name="searchEdit"/>
-      </item>
-     </layout>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Please select the fileset revision to associate.</string>
+     </property>
+     <property name="margin">
+      <number>9</number>
+     </property>
     </widget>
    </item>
    <item>
-    <widget class="StyledTreeView" name="filesetView"/>
+    <widget class="AssociationRevisionsWidget" name="revisionsWidget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <property name="rightMargin">
-      <number>5</number>
-     </property>
-     <property name="bottomMargin">
-      <number>5</number>
-     </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
      <item>
       <widget class="QDialogButtonBox" name="buttonBox">
        <property name="orientation">
@@ -78,19 +80,9 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>StyledTreeView</class>
-   <extends>QTreeView</extends>
-   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
-  </customwidget>
-  <customwidget>
-   <class>SearchLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
-  </customwidget>
-  <customwidget>
-   <class>ViewSearchHeader</class>
+   <class>AssociationRevisionsWidget</class>
    <extends>QWidget</extends>
-   <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
+   <header>FWAdminLib/AssociationRevisionsWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
@@ -99,7 +91,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
-   <receiver>FilesetDependencyChooser</receiver>
+   <receiver>AssociationRevisionsDialog</receiver>
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -115,7 +107,7 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>FilesetDependencyChooser</receiver>
+   <receiver>AssociationRevisionsDialog</receiver>
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">

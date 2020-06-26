@@ -34,6 +34,10 @@
      <number>0</number>
     </property>
     <item>
+
+    <widget class="FilesetRevisionsHeader" name="revisions" native="true"/>
+    </item>
+    <item>
      <widget class="ViewSearchHeader" name="widget" native="true">
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
@@ -310,6 +314,12 @@ margin-bottom: 4px;
    <class>ViewSearchHeader</class>
    <extends>QWidget</extends>
    <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
+   <container>1</container> 
+  </customwidget>
+  <customwidget>
+   <class>FilesetRevisionsHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/FilesetRevisionsHeader.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

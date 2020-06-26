@@ -53,12 +53,12 @@
         <translation>N&apos;éteignez pas votre ordinateur. Il redémarrera automatiquement après l&apos;installation.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
         <source>Do not use the start menu.</source>
         <translation>N&apos;utilisez pas le menu de démarrage.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
         <source>Activating Fileset(s)...</source>
         <translation>Activation du/des fileset(s)...</translation>
     </message>
@@ -675,7 +675,8 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
         <source>At least one applications is preventing this installation from taking place.
 Do you want to quit all applications before starting the installation?</source>
-        <translation type="unfinished"></translation>
+        <translation>Une ou plusieurs applications empêche l&apos;installation de démarrer.
+Voulez-vous quitter toutes les applications avant de démarrer l&apos;installation ?</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>

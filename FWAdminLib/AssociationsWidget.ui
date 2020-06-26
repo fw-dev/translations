@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>952</width>
+    <width>1030</width>
     <height>237</height>
    </rect>
   </property>
@@ -61,6 +61,16 @@
       </item>
       <item>
        <widget class="QComboBox" name="licenseDistributionCombo"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>From Deployment:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="deploymentCombo"/>
       </item>
       <item>
        <spacer name="searchSpacer">

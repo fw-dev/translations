@@ -142,6 +142,13 @@
       <string>Android Service Account</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_3">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="configureEMMDefaultPolicyButton">
+        <property name="text">
+         <string>Configure Default Policy</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="0">
        <widget class="QPushButton" name="configureAndroidServiceAccountButton">
         <property name="sizePolicy">
@@ -152,6 +159,13 @@
         </property>
         <property name="text">
          <string>Configure Service Account</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="configureZeroTouchButton">
+        <property name="text">
+         <string>Configure Zero Touch</string>
         </property>
        </widget>
       </item>
@@ -167,13 +181,6 @@
          </size>
         </property>
        </spacer>
-      </item>
-      <item row="1" column="0">
-       <widget class="QPushButton" name="configureEMMDefaultPolicyButton">
-        <property name="text">
-         <string>Configure Default Policy</string>
-        </property>
-       </widget>
       </item>
      </layout>
     </widget>
@@ -206,6 +213,15 @@
    <header>./FileWaveGuiLib/OnlineStatus.h</header>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>configureServiceAccountButton</tabstop>
+  <tabstop>synchronizeButton</tabstop>
+  <tabstop>exportCertificateButton</tabstop>
+  <tabstop>exportPolicyButton</tabstop>
+  <tabstop>configureAndroidServiceAccountButton</tabstop>
+  <tabstop>configureEMMDefaultPolicyButton</tabstop>
+  <tabstop>configureZeroTouchButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

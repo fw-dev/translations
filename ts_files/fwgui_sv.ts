@@ -53,12 +53,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
         <source>Do not use the start menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
         <source>Activating Fileset(s)...</source>
         <translation type="unfinished"></translation>
     </message>

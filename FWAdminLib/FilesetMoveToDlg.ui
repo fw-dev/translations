@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CFilesetReportDlg</class>
- <widget class="QWidget" name="CFilesetReportDlg">
+ <class>FilesetMoveToDlg</class>
+ <widget class="QWidget" name="FilesetMoveToDlg">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>562</width>
-    <height>335</height>
+    <width>824</width>
+    <height>436</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Fileset Report</string>
+   <string>Move selected users to...</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
@@ -31,20 +31,7 @@
    </property>
    <item>
     <widget class="ViewSearchHeader" name="widget" native="true">
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <property name="bottomMargin">
-       <number>0</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="labelRevision">
-        <property name="text">
-         <string>Revision:</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QComboBox" name="comboBoxRevisions"/>
-      </item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
        <spacer name="horizontalSpacer">
         <property name="orientation">
@@ -52,14 +39,14 @@
         </property>
         <property name="sizeHint" stdset="0">
          <size>
-          <width>40</width>
+          <width>366</width>
           <height>20</height>
          </size>
         </property>
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="_numClientsField">
+       <widget class="QLabel" name="itemsLabel">
         <property name="text">
          <string/>
         </property>
@@ -69,16 +56,13 @@
        </widget>
       </item>
       <item>
-       <widget class="SearchLineEdit" name="searchED"/>
+       <widget class="SearchLineEdit" name="searchLineEdit"/>
       </item>
      </layout>
     </widget>
    </item>
    <item>
-    <widget class="StyledTreeView" name="listClients">
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
+    <widget class="StyledTreeView" name="view">
      <property name="editTriggers">
       <set>QAbstractItemView::NoEditTriggers</set>
      </property>
@@ -86,10 +70,7 @@
       <bool>true</bool>
      </property>
      <property name="selectionMode">
-      <enum>QAbstractItemView::ExtendedSelection</enum>
-     </property>
-     <property name="rootIsDecorated">
-      <bool>false</bool>
+      <enum>QAbstractItemView::SingleSelection</enum>
      </property>
      <property name="sortingEnabled">
       <bool>true</bool>
@@ -97,9 +78,9 @@
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
      <property name="spacing">
-      <number>8</number>
+      <number>16</number>
      </property>
      <property name="leftMargin">
       <number>12</number>
@@ -114,29 +95,6 @@
       <number>12</number>
      </property>
      <item>
-      <widget class="QPushButton" name="updatePB">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="text">
-        <string>Loading...</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="installerLogPB">
-       <property name="enabled">
-        <bool>false</bool>
-       </property>
-       <property name="text">
-        <string>Installer Log</string>
-       </property>
-      </widget>
-     </item>
-     <item>
       <spacer name="horizontalSpacer_2">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -150,16 +108,26 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="exportPB">
+      <widget class="QPushButton" name="cancelButton">
        <property name="text">
-        <string>Export</string>
+        <string>Cancel</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="reinstallPB">
+      <widget class="QPushButton" name="moveToRootButton">
        <property name="text">
-        <string>Reinstall on Selected Clients</string>
+        <string>Move to (root)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="okButton">
+       <property name="text">
+        <string>OK</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -168,11 +136,6 @@
   </layout>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>StyledTreeView</class>
-   <extends>QTreeView</extends>
-   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
-  </customwidget>
   <customwidget>
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
@@ -184,7 +147,19 @@
    <header>FileWaveGuiLib/searchheader/ViewSearchHeader.h</header>
    <container>1</container>
   </customwidget>
+  <customwidget>
+   <class>StyledTreeView</class>
+   <extends>QTreeView</extends>
+   <header>FileWaveGuiLib/styledviews/styledtreeview.h</header>
+  </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>searchLineEdit</tabstop>
+  <tabstop>view</tabstop>
+  <tabstop>cancelButton</tabstop>
+  <tabstop>moveToRootButton</tabstop>
+  <tabstop>okButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

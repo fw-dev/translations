@@ -119,26 +119,6 @@
      </property>
     </widget>
    </item>
-   <item row="5" column="0">
-    <widget class="QLabel" name="opPriorityLA">
-     <property name="text">
-      <string>Priority:</string>
-     </property>
-    </widget>
-   </item>
-   <item row="5" column="1">
-    <widget class="QSpinBox" name="opPrioritySB">
-     <property name="minimum">
-      <number>-20</number>
-     </property>
-     <property name="maximum">
-      <number>20</number>
-     </property>
-     <property name="value">
-      <number>2</number>
-     </property>
-    </widget>
-   </item>
   </layout>
  </widget>
  <tabstops>
@@ -147,7 +127,6 @@
   <tabstop>freeSpaceSB</tabstop>
   <tabstop>opPasswordED</tabstop>
   <tabstop>opPassword2ED</tabstop>
-  <tabstop>opPrioritySB</tabstop>
  </tabstops>
  <resources/>
  <connections/>

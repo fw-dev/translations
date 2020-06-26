@@ -19,22 +19,22 @@
         <translation>SuperPrefs Editörü </translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="31"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>File</source>
         <translation>Dosya</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Close</source>
         <translation>Kapat</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="35"/>
         <source>About %1</source>
         <translatorcomment>?</translatorcomment>
         <translation>%1 Hakkında</translation>

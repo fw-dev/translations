@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>624</width>
-    <height>772</height>
+    <height>776</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -41,7 +41,7 @@
        <widget class="QLineEdit" name="lineEditBoosterLocation"/>
       </item>
       <item row="2" column="0">
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="labelBoosterPort">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -76,7 +76,7 @@
        </widget>
       </item>
       <item row="3" column="0">
-       <widget class="QLabel" name="label_18">
+       <widget class="QLabel" name="labelBoosterPublishPort">
         <property name="text">
          <string>Booster Publish Port:</string>
         </property>
@@ -84,6 +84,9 @@
       </item>
       <item row="3" column="1">
        <widget class="QSpinBox" name="spinBox_BoosterPublishPort">
+        <property name="minimum">
+         <number>1024</number>
+        </property>
         <property name="maximum">
          <number>65535</number>
         </property>
@@ -149,7 +152,7 @@
        <widget class="QLineEdit" name="lineEditServer"/>
       </item>
       <item row="7" column="0">
-       <widget class="QLabel" name="label_22">
+       <widget class="QLabel" name="labelInventoryPort">
         <property name="text">
          <string>Inventory port:</string>
         </property>
@@ -159,6 +162,9 @@
        <layout class="QHBoxLayout" name="horizontalLayout_4">
         <item>
          <widget class="QSpinBox" name="spinBoxPortServer">
+          <property name="minimum">
+           <number>1024</number>
+          </property>
           <property name="maximum">
            <number>65535</number>
           </property>
@@ -238,14 +244,11 @@
        </widget>
       </item>
       <item row="9" column="0">
-       <widget class="QLabel" name="label_20">
+       <widget class="QLabel" name="labelMaximumClientConnections">
         <property name="text">
-         <string>Maximum Client Connections</string>
+         <string>Maximum Client Connections:</string>
         </property>
        </widget>
-      </item>
-      <item row="9" column="1">
-       <widget class="QLineEdit" name="maxClientConnections"/>
       </item>
       <item row="10" column="0">
        <widget class="QLabel" name="label_7">
@@ -309,7 +312,7 @@
        </widget>
       </item>
       <item row="12" column="0">
-       <widget class="QLabel" name="label_14">
+       <widget class="QLabel" name="labelFilesetValidationInterval">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -358,7 +361,7 @@
        </layout>
       </item>
       <item row="13" column="0">
-       <widget class="QLabel" name="label_19">
+       <widget class="QLabel" name="labelDownloadSpeedLimit">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -422,6 +425,30 @@
            <string>KB/s</string>
           </property>
          </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="9" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QSpinBox" name="maxClientConnections">
+          <property name="maximum">
+           <number>100000</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
         </item>
        </layout>
       </item>
@@ -687,7 +714,6 @@
   <tabstop>lineEditServer</tabstop>
   <tabstop>spinBoxPortServer</tabstop>
   <tabstop>comboBoxThreads</tabstop>
-  <tabstop>maxClientConnections</tabstop>
   <tabstop>comboBoxDebugLevel</tabstop>
   <tabstop>checkBoxDeleteUnusedFilesets</tabstop>
   <tabstop>spinBoxFilesetValidationInterval</tabstop>

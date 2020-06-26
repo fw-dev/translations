@@ -53,12 +53,12 @@
         <translation>Schalten Sie ihren Computer nicht aus. Er wird nach Abschluss der Installation automatisch neu gestartet.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
         <source>Do not use the start menu.</source>
         <translation>Benutzen Sie bitte das Start Menü zur Zeit nicht.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
         <source>Activating Fileset(s)...</source>
         <translation>Fileset(s) wird/werden aktiviert...</translation>
     </message>

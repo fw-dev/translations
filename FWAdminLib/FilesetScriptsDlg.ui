@@ -42,6 +42,9 @@
     <number>0</number>
    </property>
    <item>
+    <widget class="FilesetRevisionsHeader" name="revisions" native="true"/>
+   </item>
+   <item>
     <widget class="ViewSearchHeader" name="headerWidget" native="true">
      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1,0,1">
       <property name="leftMargin">
@@ -226,6 +229,12 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>FilesetRevisionsHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/FilesetRevisionsHeader.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
@@ -233,7 +242,7 @@
   <customwidget>
    <class>ScriptsView</class>
    <extends>QTreeView</extends>
-   <header>views/ScriptsView.h</header>
+   <header>FWAdminLib/views/ScriptsView.h</header>
   </customwidget>
   <customwidget>
    <class>ViewSearchHeader</class>

@@ -19,22 +19,22 @@
         <translation>SuperPrefsエディター</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="31"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>File</source>
         <translation>ファイル</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
-        <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
+        <location filename="../../QtSuperPrefsEditor/main.cpp" line="35"/>
         <source>About %1</source>
         <translation>%1 について</translation>
     </message>

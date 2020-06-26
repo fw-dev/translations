@@ -27,6 +27,9 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
+    <widget class="FilesetRevisionsHeader" name="revisions" native="true"/>
+   </item>
+   <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="tabShape">
       <enum>QTabWidget::Rounded</enum>
@@ -1672,6 +1675,12 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</string
    <class>PlayStoreAppPermissionsWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/PlayStoreAppPermissionsWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FilesetRevisionsHeader</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/FilesetRevisionsHeader.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>

@@ -273,7 +273,12 @@
             <number>12</number>
            </property>
            <item row="0" column="0">
-            <widget class="QLabel" name="previewinfo">
+            <widget class="QLabel" name="fieldspreviewinfo">
+             <property name="font">
+              <font>
+               <italic>true</italic>
+              </font>
+             </property>
              <property name="text">
               <string>Drop here the fields you want to see in the query report ; change column order by moving column header.</string>
              </property>
@@ -327,10 +332,93 @@
               </spacer>
              </item>
              <item>
-              <widget class="CircularProgressIndicator" name="progress" native="true"/>
+              <widget class="CircularProgressIndicator" name="fieldsProgress" native="true"/>
              </item>
              <item>
-              <widget class="QLabel" name="rowCount">
+              <widget class="QLabel" name="fieldsRowCount">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="clients">
+          <attribute name="title">
+           <string>Clients</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <property name="leftMargin">
+            <number>12</number>
+           </property>
+           <property name="topMargin">
+            <number>12</number>
+           </property>
+           <property name="rightMargin">
+            <number>12</number>
+           </property>
+           <property name="bottomMargin">
+            <number>12</number>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="clientspreviewinfo">
+             <property name="font">
+              <font>
+               <italic>true</italic>
+              </font>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clones of these clients will be in created Smart Group. &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=34537736&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;See explanation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="openExternalLinks">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="InventoryPreview" name="displayClients">
+             <property name="rootIsDecorated">
+              <bool>false</bool>
+             </property>
+             <property name="uniformRowHeights">
+              <bool>true</bool>
+             </property>
+             <attribute name="headerCascadingSectionResizes">
+              <bool>true</bool>
+             </attribute>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="topMargin">
+              <number>8</number>
+             </property>
+             <property name="bottomMargin">
+              <number>8</number>
+             </property>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="CircularProgressIndicator" name="clientsProgress" native="true"/>
+             </item>
+             <item>
+              <widget class="QLabel" name="clientsRowCount">
                <property name="text">
                 <string/>
                </property>

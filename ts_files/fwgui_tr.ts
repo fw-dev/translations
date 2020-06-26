@@ -53,12 +53,12 @@
         <translation>Bilgisayarınızı kapatmayın. Kurulum tamamlandığında otomatik olarak yeniden başlatılacak.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="67"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="70"/>
         <source>Do not use the start menu.</source>
         <translation>Başlat menüsünü kullanmayın.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="83"/>
+        <location filename="../../QtGUIInstaller/InstallerStatusDialog.ui" line="86"/>
         <source>Activating Fileset(s)...</source>
         <translation>Fileset(ler) aktive ediliyor...</translation>
     </message>
