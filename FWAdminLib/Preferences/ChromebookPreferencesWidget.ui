@@ -137,38 +137,11 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="androidServiceAccountGroup">
+    <widget class="QGroupBox" name="EMMEnterpriseGroup">
      <property name="title">
-      <string>Android Service Account</string>
+      <string>EMM Configuration</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_3">
-      <item row="1" column="0">
-       <widget class="QPushButton" name="configureEMMDefaultPolicyButton">
-        <property name="text">
-         <string>Configure Default Policy</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QPushButton" name="configureAndroidServiceAccountButton">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>Configure Service Account</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <widget class="QPushButton" name="configureZeroTouchButton">
-        <property name="text">
-         <string>Configure Zero Touch</string>
-        </property>
-       </widget>
-      </item>
       <item row="0" column="1">
        <spacer name="horizontalSpacer">
         <property name="orientation">
@@ -181,6 +154,26 @@
          </size>
         </property>
        </spacer>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="configureEMMEnterpriseButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Configure Enterprise</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="configureEMMDefaultPolicyButton">
+        <property name="text">
+         <string>Configure Default Policy</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -218,9 +211,8 @@
   <tabstop>synchronizeButton</tabstop>
   <tabstop>exportCertificateButton</tabstop>
   <tabstop>exportPolicyButton</tabstop>
-  <tabstop>configureAndroidServiceAccountButton</tabstop>
+  <tabstop>configureEMMEnterpriseButton</tabstop>
   <tabstop>configureEMMDefaultPolicyButton</tabstop>
-  <tabstop>configureZeroTouchButton</tabstop>
  </tabstops>
  <resources/>
  <connections/>
