@@ -152,7 +152,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Specify a display name for this enterprise.  Google will generate an enterprise ID; this field will be the &quot;human friendly&quot; version for reference in FileWave.</string>
+      <string>Specify a display name for this enterprise. This field will be the &quot;human friendly&quot; version for reference in FileWave.</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -241,6 +241,28 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="lTip_emmServiceAccount_status">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse|Qt::TextBrowserInteraction|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+   </item>
+   <item>
     <layout class="QHBoxLayout" name="hl_copyZeroTouchConf">
      <item>
       <widget class="QPushButton" name="btn_copyZeroTouchConf">
@@ -262,7 +284,33 @@
        </property>
       </spacer>
      </item>
+     <item>
+      <widget class="QPushButton" name="btn_toggleEMMServiceAccount">
+       <property name="text">
+        <string>Disable EMM Service Account</string>
+       </property>
+      </widget>
+     </item>
     </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTip_desc_emmServiceAccount">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::TextBrowserInteraction</set>
+     </property>
+    </widget>
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -301,7 +349,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;﻿Unenrolling this enterprise from FileWave is a two-step process:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove the enterprise from the Project via the &lt;a href=&quot;https://play.google.com/work/adminsettings&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Play for Work&lt;/span&gt;&lt;/a&gt; console﻿. &lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once the enterprise is removed upstream, this button will remove from FileWave all Android devices managed via the Android Management API. Note: this button will not succeed as long as the enterprise is still accessible upstream.&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Unenrolling this enterprise from FileWave is a two-step process:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove the enterprise from the Project via the &lt;a href=&quot;https://play.google.com/work/adminsettings&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Play for Work&lt;/span&gt;&lt;/a&gt; console﻿. &lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once the enterprise is removed upstream, this button will remove from FileWave all Android devices managed via the Android Management API. Note: this button will not succeed as long as the enterprise is still accessible upstream.&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="textFormat">
         <enum>Qt::RichText</enum>
@@ -438,8 +486,8 @@
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>257</x>
-     <y>390</y>
+     <x>266</x>
+     <y>710</y>
     </hint>
     <hint type="destinationlabel">
      <x>157</x>
@@ -454,8 +502,8 @@
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>325</x>
-     <y>390</y>
+     <x>334</x>
+     <y>710</y>
     </hint>
     <hint type="destinationlabel">
      <x>286</x>
