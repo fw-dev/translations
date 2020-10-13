@@ -96,7 +96,7 @@
            <item>
             <widget class="QLabel" name="label_2">
              <property name="text">
-              <string>Enter the name of an app or its bundle identifier and press Next to continue.</string>
+              <string>Select an app or enter its bundle identifier and press Next to continue.</string>
              </property>
              <property name="wordWrap">
               <bool>true</bool>

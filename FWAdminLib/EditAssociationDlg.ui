@@ -154,7 +154,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
          <property name="title">
           <string>Timing</string>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_3">
+         <layout class="QVBoxLayout" name="verticalLayoutTiming">
           <property name="leftMargin">
            <number>9</number>
           </property>
@@ -379,7 +379,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
       <attribute name="title">
        <string>License Distribution</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
+      <layout class="QVBoxLayout" name="verticalLayoutLicense">
        <item>
         <widget class="QLabel" name="label_4">
          <property name="text">
@@ -546,7 +546,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
       <attribute name="title">
        <string>Revisions</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
+      <layout class="QVBoxLayout" name="verticalLayoutRevision">
        <property name="leftMargin">
         <number>3</number>
        </property>

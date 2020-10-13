@@ -396,6 +396,20 @@
        </widget>
       </item>
       <item>
+       <widget class="QCheckBox" name="checkBoxDisableAssociationMACRandomization">
+        <property name="text">
+         <string>Disable Association MAC Address Randomization</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipDisableAssociationMACRandomization">
+        <property name="text">
+         <string>Disables MAC address randomization while associated with this Wi-Fi network</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QLabel" name="lProxySetup">
         <property name="text">
          <string>Proxy Setup</string>
@@ -1018,6 +1032,13 @@
              </item>
              <item>
               <widget class="QLineEdit" name="editEAPUsername"/>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipEAPUsername2">
+               <property name="text">
+                <string>Optional if profile sent via User Channel, required for System Channel</string>
+               </property>
+              </widget>
              </item>
              <item>
               <widget class="QCheckBox" name="checkPerConnection">

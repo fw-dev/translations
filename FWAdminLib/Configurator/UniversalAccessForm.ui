@@ -27,7 +27,7 @@
      </property>
      <widget class="QWidget" name="seeing">
       <attribute name="title">
-       <string>Seeing</string>
+       <string>Vision</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
@@ -41,7 +41,7 @@
             <item row="0" column="0">
              <widget class="QLabel" name="label_9">
               <property name="text">
-               <string>Enable Zoom via Scroll Wheel:</string>
+               <string>Enable Zoom via ScrollWheel:</string>
               </property>
              </widget>
             </item>
@@ -300,7 +300,7 @@
        <item>
         <widget class="QGroupBox" name="groupBox_6">
          <property name="title">
-          <string>Voice Over Options</string>
+          <string>VoiceOver Options</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_10">
           <item>
