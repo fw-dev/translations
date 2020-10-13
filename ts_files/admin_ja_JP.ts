@@ -758,22 +758,22 @@ DEPプロファイルを使用してDEPデバイスのアクティベーショ�
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="137"/>
         <source>Configure User Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメントを構成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="207"/>
         <source>Modify EMM Service Account</source>
-        <translation type="unfinished"></translation>
+        <translation>EMMサービスアカウントを修正</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="388"/>
         <source>Expose On Dashboard</source>
-        <translation type="unfinished"></translation>
+        <translation>ダッシュボードに露出</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="398"/>
         <source>Google</source>
-        <translation></translation>
+        <translation>Google</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="404"/>
@@ -903,7 +903,7 @@ DEPプロファイルを使用してDEPデバイスのアクティベーショ�
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.cpp" line="188"/>
         <source>Depends on &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; に依存</translation>
     </message>
 </context>
 <context>
@@ -1216,6 +1216,12 @@ DEPプロファイルを使用してDEPデバイスのアクティベーショ�
         <translation>アプリへの許可要求を与えるためのポリシー。  たとえば、アプリがカメラへのアクセスを希望する場合、これはデバイスのオペレーティングシステムが実行するデフォルトのアクションを設定します: ユーザーに確認、自動的に許可、またはアプリアクセスを拒否。</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="394"/>
+        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="529"/>
+        <source>Note: Policy not in sync with Google; use Update Model.</source>
+        <translation>注意：ポリシーがGoogleと同期していません。「情報（モデル）を更新」をクリックしてください。</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="35"/>
         <source>Unspecified</source>
         <translation>未指定</translation>
@@ -1353,12 +1359,6 @@ Please confirm intention to remove this address from the list of Factory Reset P
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="433"/>
         <source>Address will be removed when dialog saved.</source>
         <translation>ダイアログを保存するとメールアドレスが削除されます。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="394"/>
-        <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="529"/>
-        <source>Note: Policy not in sync with Google; use Update Model.</source>
-        <translation>注意：ポリシーがGoogleと同期していません。「情報（モデル）を更新」をクリックしてください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="530"/>
@@ -1786,7 +1786,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/AppStore.cpp" line="53"/>
         <source>Features</source>
-        <translation type="unfinished"></translation>
+        <translation>機能</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AppStore.cpp" line="54"/>
@@ -2074,7 +2074,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="285"/>
         <source>Use this section to define settings for calendar subscriptions.</source>
-        <translation></translation>
+        <translation>このセクションを使ってカレンダー購読の設定を定義します。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
@@ -2305,12 +2305,12 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="148"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="148"/>
         <source>Another user is editing the selected profile</source>
-        <translation type="unfinished"></translation>
+        <translation>別のユーザーが選択したプロファイルを編集中です</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
@@ -2629,22 +2629,22 @@ Note: the profile will not be signed and disk encryption payloads will be remove
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsDialog.ui" line="14"/>
         <source>Association Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsDialog.ui" line="35"/>
         <source>Please select the fileset revision to associate.</source>
-        <translation type="unfinished"></translation>
+        <translation>関連付けするファイルセットリビジョンを選択してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsDialog.cpp" line="24"/>
         <source>Fileset Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsDialog.cpp" line="24"/>
         <source>Failed to create the association</source>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーションの作成に失敗しました</translation>
     </message>
 </context>
 <context>
@@ -2652,22 +2652,22 @@ Note: the profile will not be signed and disk encryption payloads will be remove
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsModel.cpp" line="44"/>
         <source>Fileset</source>
-        <translation type="unfinished">ファイルセット</translation>
+        <translation>ファイルセット</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsModel.cpp" line="46"/>
         <source>Fileset path</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイセットパス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsModel.cpp" line="48"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsModel.cpp" line="77"/>
         <source>&lt;default&gt; (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;デフォルト&gt; (%1)</translation>
     </message>
 </context>
 <context>
@@ -2675,12 +2675,12 @@ Note: the profile will not be signed and disk encryption payloads will be remove
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsWidget.ui" line="20"/>
         <source>Form</source>
-        <translation type="unfinished">フォーム</translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationRevisionsWidget.ui" line="46"/>
         <source>Set Default Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョンを設定</translation>
     </message>
 </context>
 <context>
@@ -2718,7 +2718,7 @@ Note: the profile will not be signed and disk encryption payloads will be remove
     <message>
         <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="63"/>
         <source>Automatic</source>
-        <translation type="unfinished">自動</translation>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
@@ -2823,7 +2823,7 @@ This cannot be undone.</source>
     <message>
         <location filename="../../FWAdminLib/AssociationsWidget.ui" line="68"/>
         <source>From Deployment:</source>
-        <translation type="unfinished"></translation>
+        <translation>配布から:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationsWidget.cpp" line="26"/>
@@ -2853,7 +2853,7 @@ This cannot be undone.</source>
     <message>
         <location filename="../../FWAdminLib/AssociationsWidget.cpp" line="33"/>
         <source>Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationsWidget.cpp" line="34"/>
@@ -2914,7 +2914,7 @@ This cannot be undone.</source>
     <message>
         <location filename="../../FWAdminLib/AssociationsWidget.cpp" line="52"/>
         <source>Automatic</source>
-        <translation type="unfinished">自動</translation>
+        <translation>自動</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AssociationsWidget.cpp" line="55"/>
@@ -3267,7 +3267,7 @@ This cannot be undone.</source>
     <message>
         <location filename="../../FWAdminLib/Discovery/BoosterStatusModel.cpp" line="193"/>
         <source> (Timed Out)</source>
-        <translation> (タイムアウト)</translation>
+        <translation>(タイムアウト)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Discovery/BoosterStatusModel.cpp" line="199"/>
@@ -3784,7 +3784,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/ClientMoveToDlg.cpp" line="120"/>
         <source>Add Smart Group to...</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループを追加...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientMoveToDlg.cpp" line="182"/>
@@ -3858,7 +3858,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="229"/>
         <source>Enrollment Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>エンロールタイプ:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="317"/>
@@ -4069,7 +4069,8 @@ Check the log file for more details</source>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="829"/>
         <source>Dependency selected! Do you want to install the following top level fileset(s) instead?
 </source>
-        <translation type="unfinished"></translation>
+        <translation>代わりに次のトップレベルのファイルセットをインストールしますか？
+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="894"/>
@@ -4343,7 +4344,7 @@ You must still wipe it manually.</source>
     <message>
         <location filename="../../FWAdminLib/ClientReport_iOS_Dlg.ui" line="199"/>
         <source>Enrollment Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>エンロールタイプ:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReport_iOS_Dlg.ui" line="355"/>
@@ -5024,7 +5025,7 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="95"/>
         <source>Timing and Options</source>
-        <translation type="unfinished"></translation>
+        <translation>タイミングとオプション</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="119"/>
@@ -5034,12 +5035,12 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="132"/>
         <source>Options</source>
-        <translation type="unfinished">オプション</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="145"/>
         <source>Expose to Dashboard</source>
-        <translation type="unfinished"></translation>
+        <translation>ダッシュボードへ露出</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="380"/>
@@ -5074,12 +5075,12 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="485"/>
         <source>Automatic</source>
-        <translation type="unfinished">自動</translation>
+        <translation>自動</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="513"/>
         <source>Assign to Device if possible, otherwise to User</source>
-        <translation type="unfinished"></translation>
+        <translation>可能であればデバイスへ、そうでなければユーザーへ割り当て</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="536"/>
@@ -5089,7 +5090,7 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="547"/>
         <source>Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditAssociationDlg.ui" line="138"/>
@@ -5214,7 +5215,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/ExportFilesetDlg.cpp" line="35"/>
         <source>Export Fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットをエクスポート</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ExportFilesetDlg.cpp" line="43"/>
@@ -5308,72 +5309,72 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="73"/>
         <source>Move %1 to...</source>
-        <translation type="unfinished">%1 を移動します...</translation>
+        <translation>%1 を移動します...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="76"/>
         <source>Move selected filesets/groups to...</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したファイルセット/グループを移動...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="155"/>
         <source>%1 of %2 Groups</source>
-        <translation type="unfinished">%1 / %2 グループ</translation>
+        <translation>%1 / %2 グループ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="164"/>
         <source>%1 Groups</source>
-        <translation type="unfinished">%1 グループ</translation>
+        <translation>%1 グループ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="202"/>
         <source>You don&apos;t have permission to move to this group.</source>
-        <translation type="unfinished"></translation>
+        <translation>このグループを移動する権限がありません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="206"/>
         <source>Objects are locked by another admin.</source>
-        <translation type="unfinished"></translation>
+        <translation>オブジェクトは別の管理者によりロックされています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="262"/>
         <source>&lt;font color = green&gt;&lt;b&gt;Successfully moved %1 of %2 object(s) to %3&lt;/b&gt;&lt;/font color&gt;&lt;br&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;font color = green&gt;&lt;b&gt;%2 オブジェクトのうち %1 の %3 への移動に成功&lt;/b&gt;&lt;/font color&gt;&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="269"/>
         <source>&lt;b&gt;Moved:&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished">&lt;b&gt;移動:&lt;/b&gt;&lt;br&gt;</translation>
+        <translation>&lt;b&gt;移動:&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="286"/>
         <source>&lt;font color = red&gt;&lt;b&gt;Failed to move %1 of %2 object(s) to %4&lt;/b&gt;&lt;/font color&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;font color = red&gt;&lt;b&gt;%2 のオブジェクトのうち %1 の %4 への移動に失敗&lt;/b&gt;&lt;/font color&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="293"/>
         <source>&lt;br&gt;&lt;b&gt;Failed to move:&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br&gt;&lt;b&gt;移動に失敗:&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="300"/>
         <source>&lt;br&gt;&lt;b&gt;You don&apos;t have permission to move these items:&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br&gt;&lt;b&gt;これらの項目を移動する権限がありません:&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="307"/>
         <source>&lt;br&gt;&lt;b&gt;The following items are already in the target group:&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br&gt;&lt;b&gt;次の項目はすでに対象グループに含まれています:&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="314"/>
         <source>&lt;br&gt;&lt;b&gt;%1 item(s) were deleted.&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br&gt;&lt;b&gt;%1 の項目が削除されています。&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="318"/>
         <source> Moving operation statistics</source>
-        <translation type="unfinished"> 移動の操作の統計</translation>
+        <translation>移動の操作の統計</translation>
     </message>
 </context>
 <context>
@@ -5387,7 +5388,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/FilesetReportDlg.ui" line="41"/>
         <source>Revision:</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetReportDlg.ui" line="125"/>
@@ -5414,7 +5415,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="65"/>
         <source>All revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="72"/>
@@ -5645,12 +5646,12 @@ Continue?</source>
     <message>
         <location filename="../../FWAdminLib/GetInfoACLDlg.cpp" line="482"/>
         <source> - Deny</source>
-        <translation> - 拒否</translation>
+        <translation>- 拒否</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/GetInfoACLDlg.cpp" line="484"/>
         <source> - Allow</source>
-        <translation> - 許可</translation>
+        <translation>- 許可</translation>
     </message>
 </context>
 <context>
@@ -6096,7 +6097,7 @@ This change can affect other Filesets that share the same folders.</source>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="104"/>
         <source>cancelButton</source>
-        <translation></translation>
+        <translation>キャンセルボタン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="122"/>
@@ -6106,7 +6107,7 @@ This change can affect other Filesets that share the same folders.</source>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="125"/>
         <source>Processing revisions of importing Fileset...</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットのインポートのリビジョンを処理...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="129"/>
@@ -6264,6 +6265,46 @@ Current fileset uuid will be re-generated.</source>
 <context>
     <name>CMyPropertyPage10</name>
     <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1104"/>
+        <source>Please enter a name for the fileset.</source>
+        <translation>ファイルセットの名前を入力してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1119"/>
+        <source>Please enter a destination path.</source>
+        <translation>あて先パスを入力してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1131"/>
+        <source>Couldn&apos;t create the fileset in the path specified. Try again?</source>
+        <translation>指定されたパスにファイルセットを作成できません。再試行しますか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1177"/>
+        <source>Please enter a name in the box.</source>
+        <translation>ボックスに名前を入力してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1201"/>
+        <source>Save As</source>
+        <translation>別名保存</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1201"/>
+        <source>FileWave Fileset (*.fileset);;All Files (*.*)</source>
+        <translation>FileWaveファイルセット (*.fileset);;すべてのファイル (*.*)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1233"/>
+        <source>Feature Restricted</source>
+        <translation>機能制限</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1234"/>
+        <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
+        <translation>機能制限:  この機能は現在のライセンス構成では利用できません。ライセンスをアップグレードするためにFileWaveに連絡してください。</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage10.ui" line="14"/>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1008"/>
         <source>Save or Export Fileset</source>
@@ -6309,49 +6350,29 @@ Current fileset uuid will be re-generated.</source>
         <source>path</source>
         <translation>パス</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1104"/>
-        <source>Please enter a name for the fileset.</source>
-        <translation>ファイルセットの名前を入力してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1119"/>
-        <source>Please enter a destination path.</source>
-        <translation>あて先パスを入力してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1131"/>
-        <source>Couldn&apos;t create the fileset in the path specified. Try again?</source>
-        <translation>指定されたパスにファイルセットを作成できません。再試行しますか？</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1177"/>
-        <source>Please enter a name in the box.</source>
-        <translation>ボックスに名前を入力してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1201"/>
-        <source>Save As</source>
-        <translation>別名保存</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1201"/>
-        <source>FileWave Fileset (*.fileset);;All Files (*.*)</source>
-        <translation>FileWaveファイルセット (*.fileset);;すべてのファイル (*.*)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1233"/>
-        <source>Feature Restricted</source>
-        <translation>機能制限</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1234"/>
-        <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
-        <translation>機能制限:  この機能は現在のライセンス構成では利用できません。ライセンスをアップグレードするためにFileWaveに連絡してください。</translation>
-    </message>
 </context>
 <context>
     <name>CMyPropertyPage11</name>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1302"/>
+        <source>Merging to Fileset %1</source>
+        <translation>ファイルセット %1 にマージ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1304"/>
+        <source>Creating Fileset %1</source>
+        <translation>ファイルセット %1 を作成</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1320"/>
+        <source>Confirmation</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1320"/>
+        <source>Are you sure you want to cancel?</source>
+        <translation>本当にキャンセルしますか？</translation>
+    </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage11.ui" line="14"/>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1281"/>
@@ -6378,45 +6399,9 @@ Current fileset uuid will be re-generated.</source>
         <source>Esc</source>
         <translation>エスケープ</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1302"/>
-        <source>Merging to Fileset %1</source>
-        <translation>ファイルセット %1 にマージ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1304"/>
-        <source>Creating Fileset %1</source>
-        <translation>ファイルセット %1 を作成</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1320"/>
-        <source>Confirmation</source>
-        <translation>確認</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1320"/>
-        <source>Are you sure you want to cancel?</source>
-        <translation>本当にキャンセルしますか？</translation>
-    </message>
 </context>
 <context>
     <name>CMyPropertyPage12</name>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage12.ui" line="13"/>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1352"/>
-        <source>Fileset Complete</source>
-        <translation>ファイルセット完成</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage12.ui" line="19"/>
-        <source>Description</source>
-        <translation>説明</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage12.ui" line="26"/>
-        <source>Static</source>
-        <translation>スタティック</translation>
-    </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1370"/>
         <source>Creation of Fileset has been canceled.</source>
@@ -6432,17 +6417,17 @@ Current fileset uuid will be re-generated.</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1375"/>
         <source> was successfully sent to the FileWave Server.</source>
-        <translation> FileWaveサーバーへ送信しました。</translation>
+        <translation>FileWaveサーバーへ送信しました。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1377"/>
         <source> was successfully merged and sent to the FileWave Server.</source>
-        <translation> マージし、FileWaveサーバーへ送信しました。</translation>
+        <translation>マージし、FileWaveサーバーへ送信しました。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1379"/>
         <source> was successfully saved to disk.</source>
-        <translation> ディスクへ保存しました。</translation>
+        <translation>ディスクへ保存しました。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1384"/>
@@ -6469,6 +6454,22 @@ Current fileset uuid will be re-generated.</source>
         <source>Could not open %1</source>
         <translation>%1 を開けません</translation>
     </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage12.ui" line="13"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1352"/>
+        <source>Fileset Complete</source>
+        <translation>ファイルセット完成</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage12.ui" line="19"/>
+        <source>Description</source>
+        <translation>説明</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage12.ui" line="26"/>
+        <source>Static</source>
+        <translation>スタティック</translation>
+    </message>
 </context>
 <context>
     <name>CMyPropertyPage2</name>
@@ -6488,6 +6489,16 @@ going to install the software on.</source>
 </context>
 <context>
     <name>CMyPropertyPage3</name>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="247"/>
+        <source>Program Files, Program Data and Users</source>
+        <translation>Program Files、Program Data と Users</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="262"/>
+        <source>Click &quot;%1&quot; to start the snapshot process.</source>
+        <translation>スナップショットプロセスを開始するには、 &quot;%1&quot; をクリックしてください。</translation>
+    </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage3.ui" line="14"/>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="220"/>
@@ -6584,44 +6595,9 @@ going to install the software on.</source>
         <source>Click Continue to start the snapshot process.</source>
         <translation>スナップショットプロセスを開始するには、続行 をクリックしてください。</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="247"/>
-        <source>Program Files, Program Data and Users</source>
-        <translation>Program Files、Program Data と Users</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="262"/>
-        <source>Click &quot;%1&quot; to start the snapshot process.</source>
-        <translation>スナップショットプロセスを開始するには、 &quot;%1&quot; をクリックしてください。</translation>
-    </message>
 </context>
 <context>
     <name>CMyPropertyPage4</name>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="13"/>
-        <source>Scan Progress</source>
-        <translation>スキャン進捗</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="19"/>
-        <source>Description</source>
-        <translation>説明</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="26"/>
-        <source>Detail</source>
-        <translation>詳細</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="42"/>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="45"/>
-        <source>Esc</source>
-        <translation>エスケープ</translation>
-    </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="328"/>
         <source>Scanning...</source>
@@ -6651,6 +6627,31 @@ going to install the software on.</source>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="391"/>
         <source>Are you sure you want to cancel?</source>
         <translation>本当にキャンセルしますか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="13"/>
+        <source>Scan Progress</source>
+        <translation>スキャン進捗</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="19"/>
+        <source>Description</source>
+        <translation>説明</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="26"/>
+        <source>Detail</source>
+        <translation>詳細</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="42"/>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage4.ui" line="45"/>
+        <source>Esc</source>
+        <translation>エスケープ</translation>
     </message>
 </context>
 <context>
@@ -6683,6 +6684,16 @@ Filesetマジックアシスタントを終了し後で「ファイルセット�
 <context>
     <name>CMyPropertyPage6</name>
     <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="480"/>
+        <source>Please select a snapshot.</source>
+        <translation>スナップショットを選択してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="519"/>
+        <source>The disk this snapshot has been taken from no longer exists.  Check if disk is mounted.</source>
+        <translation>このスナップショットの作成元のディスクは存在しません。ディスクがマウントされいるか確認してください。</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage6.ui" line="14"/>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="438"/>
         <source>Create Fileset from Snapshot of Volume</source>
@@ -6695,19 +6706,24 @@ installed the software.</source>
         <translation>ソフトウェアをインポートした
 ディスクドライブを選択してください。</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="480"/>
-        <source>Please select a snapshot.</source>
-        <translation>スナップショットを選択してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="519"/>
-        <source>The disk this snapshot has been taken from no longer exists.  Check if disk is mounted.</source>
-        <translation>このスナップショットの作成元のディスクは存在しません。ディスクがマウントされいるか確認してください。</translation>
-    </message>
 </context>
 <context>
     <name>CMyPropertyPage7</name>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="544"/>
+        <source>Scanning for Differences...</source>
+        <translation>差異をスキャン...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="577"/>
+        <source>Confirmation</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="577"/>
+        <source>Are you sure you want to cancel?</source>
+        <translation>本当にキャンセルしますか？</translation>
+    </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="13"/>
         <source>Scan Progress</source>
@@ -6733,24 +6749,24 @@ installed the software.</source>
         <source>Esc</source>
         <translation>エスケープ</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="544"/>
-        <source>Scanning for Differences...</source>
-        <translation>差異をスキャン...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="577"/>
-        <source>Confirmation</source>
-        <translation>確認</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="577"/>
-        <source>Are you sure you want to cancel?</source>
-        <translation>本当にキャンセルしますか？</translation>
-    </message>
 </context>
 <context>
     <name>CMyPropertyPage8</name>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="710"/>
+        <source>Modified</source>
+        <translation>修正</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="715"/>
+        <source>Added</source>
+        <translation>追加済</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="721"/>
+        <source>Deleted</source>
+        <translation>削除済</translation>
+    </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage8.ui" line="14"/>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="613"/>
@@ -6789,24 +6805,34 @@ When you are done click Continue.</source>
         <source>Modification Date</source>
         <translation>修正日</translation>
     </message>
+</context>
+<context>
+    <name>CMyPropertyPage9</name>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="710"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="819"/>
+        <source>Registry Comparison Results</source>
+        <translation>レジストリ比較結果</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="868"/>
+        <source>(Default)</source>
+        <translation>(デフォルト)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="898"/>
         <source>Modified</source>
         <translation>修正</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="715"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="902"/>
         <source>Added</source>
         <translation>追加済</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="721"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="908"/>
         <source>Deleted</source>
         <translation>削除済</translation>
     </message>
-</context>
-<context>
-    <name>CMyPropertyPage9</name>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage9.ui" line="14"/>
         <source>Comparison Results</source>
@@ -6838,31 +6864,6 @@ When you are done click Continue.</source>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage9.ui" line="50"/>
         <source>Data</source>
         <translation>データ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="819"/>
-        <source>Registry Comparison Results</source>
-        <translation>レジストリ比較結果</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="868"/>
-        <source>(Default)</source>
-        <translation>(デフォルト)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="898"/>
-        <source>Modified</source>
-        <translation>修正</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="902"/>
-        <source>Added</source>
-        <translation>追加済</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="908"/>
-        <source>Deleted</source>
-        <translation>削除済</translation>
     </message>
 </context>
 <context>
@@ -7248,12 +7249,12 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="135"/>
         <source>Smart Group for Deployment</source>
-        <translation type="unfinished"></translation>
+        <translation>配布用スマートグループ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="197"/>
         <source>duplicating</source>
-        <translation type="unfinished"></translation>
+        <translation>複製中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="232"/>
@@ -7379,7 +7380,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="115"/>
         <source> and </source>
-        <translation> そして </translation>
+        <translation>そして </translation>
     </message>
     <message numerus="yes">
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="117"/>
@@ -7392,7 +7393,7 @@ Check the log file for more details</source>
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="119"/>
         <source> client(s) were skipped.</source>
         <translation>
-            <numerusform> クライアントはスキップされました。</numerusform>
+            <numerusform>クライアントはスキップされました。</numerusform>
         </translation>
     </message>
     <message>
@@ -7455,12 +7456,12 @@ Reason: %1</source>
     <message>
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="293"/>
         <source>Error creating new client(s). This client name is already used.</source>
-        <translation type="unfinished"></translation>
+        <translation>このクライアント名は既に使用されています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="297"/>
         <source>Error creating new client(s). This serial or MAC is already used.</source>
-        <translation type="unfinished"></translation>
+        <translation>このシリアル番号またはMACアドレスは既に使用されています。</translation>
     </message>
     <message numerus="yes">
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="301"/>
@@ -7528,7 +7529,7 @@ WindowsのMACアドレスには（xx:xx:xx:xx:xx:xx）を、Macのシリアル�
     <message>
         <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="98"/>
         <source>Error creating new client. The serial number or MAC address %1 is already used.</source>
-        <translation type="unfinished"></translation>
+        <translation>このシリアル番号またはMACアドレス %1 は既に使用されています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientGroupDlg.cpp" line="103"/>
@@ -8202,7 +8203,7 @@ p,.li [ white-space: pre-wrap:
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="112"/>
         <source>Fileset Magic</source>
-        <translation></translation>
+        <translation>ファイルセットマジック</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="156"/>
@@ -8214,13 +8215,13 @@ p,.li [ white-space: pre-wrap:
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="167"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="189"/>
         <source> -- Clear this list ---</source>
-        <translation> -- このリストをクリアする ---</translation>
+        <translation>-- このリストをクリアする ---</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="197"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="301"/>
         <source> - </source>
-        <translation> - </translation>
+        <translation>- </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="340"/>
@@ -8332,7 +8333,7 @@ Verify the address and make sure your server is up and running.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="532"/>
         <source>Server Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>サーバー警告</translation>
     </message>
 </context>
 <context>
@@ -8358,14 +8359,14 @@ Verify the address and make sure your server is up and running.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="495"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="496"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="497"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3954"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3964"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="508"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="840"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2487"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2497"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -8377,73 +8378,73 @@ Verify the address and make sure your server is up and running.</source>
         <translation>MDMサーバーは環境設定で構成が必要です</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="862"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3643"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="872"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3653"/>
         <source>Dashboard</source>
         <translation>ダッシュボード</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="920"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="930"/>
         <source>Clients</source>
         <translation>クライアント</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="927"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="937"/>
         <source>Filesets</source>
         <translation>ファイルセット</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="934"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="944"/>
         <source>Associations</source>
         <translation>アソシエーション（配布）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="941"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="951"/>
         <source>Imaging</source>
         <translation>イメージング</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="948"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="958"/>
         <source>Classroom</source>
         <translation>クラスルーム</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="957"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="967"/>
         <source>iOS Inventory</source>
         <translation>iOSインベントリー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="965"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="975"/>
         <source>License Management</source>
         <translation>ライセンス管理</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="972"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="982"/>
         <source>Boosters</source>
         <translation>ブースター</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="979"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="989"/>
         <source>Inventory Queries</source>
         <translation>インベントリークエリ（情報検索）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1065"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1075"/>
         <source>Uploading %1 files...</source>
         <translation>%1 ファイルをアップロード...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1065"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1075"/>
         <source>Uploading %1 file...</source>
         <translation>%1 ファイルをアップロード...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1082"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1092"/>
         <source>The upload of fileset %1 to the server has failed.</source>
         <translation>ファイルセット %1 のサーバーへのアップロードに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1112"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1122"/>
         <source>Insufficient Activation Code found!
 
 Please enter your Activation Code.</source>
@@ -8452,81 +8453,74 @@ Please enter your Activation Code.</source>
 アクティベーションコードを入力してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1307"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1317"/>
         <source>Sorry, you do not have permission to change preferences</source>
         <translation>環境設定を変更する権限がありません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1308"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1318"/>
         <source>FileWave Admin</source>
         <translation>FileWave Admin</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1317"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1327"/>
         <source>Preferences Locked</source>
         <translation>環境設定はロックされています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1318"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1328"/>
         <source>Another administrator is currently editing the preferences.  Please try again later.</source>
         <translation>現在別の管理者が環境設定を編集しています。  後で再実行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1320"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3608"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1330"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3618"/>
         <source>Show Locked Items</source>
         <translation>ロックされた項目を表示</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1418"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1428"/>
         <source>Cannot set permissions on a &apos;partial&apos; fileset</source>
         <translation>[部分的な]ファイルセットに権限を設定できません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1418"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1580"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1590"/>
         <source>Loading server logfile...</source>
         <translation>サーバーログファイルをロードします...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1619"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1629"/>
         <source>Manage Administrators</source>
         <translation>管理者を管理</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1620"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1630"/>
         <source>Another administrator is currently editing the manage administrator dialog. Please try again later.</source>
         <translation>別の管理者が「管理者を管理」ダイアログで編集しています。後で再実行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1644"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1654"/>
         <source>Feature Restricted</source>
         <translation>機能制限</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1645"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1655"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
         <translation>機能制限:  この機能は現在のライセンス構成では利用できません。ライセンスをアップグレードするためにFileWaveに連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1661"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1679"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1671"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1689"/>
         <source>Full Disk Encryption Assistant</source>
         <translation>フルディスク暗号化アシスタント</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1662"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1672"/>
         <source>Another administrator is currently editing the disk encryption configurations. Please try again later.</source>
         <translation>別の管理者がディスク暗号化構成を編集しています。 後で再実行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1680"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1690"/>
         <source>Another administrator is currently using the disk encryption recovery keys dialog. Please try again later.</source>
         <translation>別の管理者がディスク暗号化回復キーダイアログを使用しています。後で再実行してください。</translation>
     </message>
@@ -8536,7 +8530,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>接続がありません。特定の機能にはインベントリーコネクションが必要です。調査してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1799"/>
         <source>A REVERT MODEL has been performed!
 
 When any user performs a revert model, you must
@@ -8548,65 +8542,49 @@ log out and log back into the FileWave™ system.</source>
 ログアウトしてシステムにログインし直す必要があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1821"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1831"/>
         <source>Cannot duplicate a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な’ファイルセットを複製できません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1822"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1830"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1840"/>
         <source>Error while duplicating fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットを複製中にエラーが発生しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1875"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1885"/>
         <source>Duplicate Failed</source>
         <translation>複製に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1875"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1885"/>
         <source>Failed to duplicate AppStore Application, deleting duplicate fileset</source>
         <translation>App Storeアプリの複製に失敗しました。複製ファイルセットを削除します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1987"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1997"/>
         <source>Cannot open report for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットを開けません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1987"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2009"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2037"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2009"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2019"/>
         <source>Cannot open properties for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットのプロパティを開けません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2019"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2044"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2089"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2029"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2054"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2099"/>
         <source>Unable to lock/reserve the fileset - please try again</source>
         <translation>ファイルセットをロック/予約できません - 再試行してください</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2037"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2047"/>
         <source>Cannot open scripts for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットのスクリプトを開けません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2082"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2092"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットをエクスポートできません</translation>
     </message>
@@ -8616,383 +8594,417 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>Firebase Cloud Messagingは環境設定で構成が必要です</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2099"/>
-        <source>You don&apos;t have access to export Filesets.</source>
-        <translation>ファイルセットをエクスポートする権限がありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2105"/>
-        <source>You don&apos;t have access to export Profiles as a fileset.</source>
-        <translation>ファイルセットプロファイルをエクスポートする権限がありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2110"/>
-        <source>FileWave Fileset (*.fileset)</source>
-        <translation>filewaveファイルセット (*..fileset)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2112"/>
-        <source>FileWave Template (*.fwtemplate)</source>
-        <translation>FileWave テンプレート (*.fwtemplate)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2114"/>
-        <source>FileWave Fileset (*.fileset);;FileWave Template(*.fwtemplate)</source>
-        <translation>FileWave ファイルセット (*.fileset);;FileWave テンプレート (*.fwtemplate)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2144"/>
-        <source>Save As</source>
-        <translation>別名保存</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2261"/>
-        <source>Smart Group Report</source>
-        <translation>スマートグループレポート</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2262"/>
-        <source>Smart Group has been deleted, report cannot be refreshed.</source>
-        <translation>スマートグループは削除されました、レポートは更新できません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2337"/>
-        <source>%1 (revision %2)</source>
-        <translation>%1 (リビジョン %2)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2353"/>
-        <source>Licenses Used/Total: </source>
-        <translation>ライセンス 使用中／合計: </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2354"/>
-        <source>Computers %1/%2, </source>
-        <translation>コンピューター %1 / %2, </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2355"/>
-        <source>Mobile %1/%2, </source>
-        <translation>モバイル %1 / %2, </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2357"/>
-        <source>Chromebooks %1/%2, </source>
-        <translation>Chromebook %1 / %2, </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2359"/>
-        <source>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </source>
-        <translation>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2371"/>
-        <source>Files are still being uploaded to the server.</source>
-        <translation>ファイルはサーバーにアップロード中です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2372"/>
-        <source>Do you really want to close the application?</source>
-        <translation>本当にアプリをクローズしますか?</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2405"/>
-        <source>No MDM license installed</source>
-        <translation>MDMライセンスがインストールされていません</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2426"/>
-        <source>APN%1 OK</source>
-        <translation>APN %1 OK</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2434"/>
-        <source>APN%1 certificate has expired! Model update will fail until certificate is renewed</source>
-        <translation>APN %1 証明書の期限が切れました！証明書が更新されるまで「情報（モデル）を更新」は失敗します</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2438"/>
-        <source> (Warning: APN certificate will expire in %1 days)</source>
-        <translation> (警告; APN証明書は %1 日)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2448"/>
-        <source>APN</source>
-        <translation>APN</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2450"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2502"/>
-        <source>Root Certificate</source>
-        <translation>ルート証明書</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2453"/>
-        <source>APN%1 needs %2 configuration
-(see Mobile/%3 and root certificates in preferences)</source>
-        <translation>APN %1 は %2 構成が必要です。
-（環境設定のモバイル / %3 と ルート証明書を参照)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2454"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2510"/>
-        <source> and </source>
-        <translation> と </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2463"/>
-        <source>MDM service not running</source>
-        <translation>MDMサービスは起動していません</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2468"/>
-        <source>Incorrect MDM service version</source>
-        <translation>MDMサーバーのバージョンが誤っています</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2496"/>
-        <source>API key</source>
-        <translation>APIキー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2499"/>
-        <source>Project Number</source>
-        <translation>プロジェクトナンバー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2505"/>
-        <source>FCM</source>
-        <translation>FCM</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3161"/>
-        <source>%1 import</source>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="844"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="850"/>
+        <source>Disconnected (Connecting...)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3162"/>
-        <source>Do you want to create new fileset or to add revisions to exisiting fileset %1?</source>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="846"/>
+        <source>Connected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3164"/>
-        <source>Create new</source>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1428"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3166"/>
-        <source>Add revisions to existing</source>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1832"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3237"/>
-        <source>Importing package</source>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1997"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2019"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2047"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3238"/>
-        <source>Unable to import package, target fileset %1 is locked.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3304"/>
-        <source>Importing folder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3305"/>
-        <source>Unable to import folder, target fileset %1 is locked.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3345"/>
-        <source>Importing fileset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3346"/>
-        <source>Unable to import fileset, target fileset %1 is locked.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3606"/>
-        <source>Another administrator is currently editing the custom fields or related data. Please try again later.</source>
-        <translation>現在別の管理者がカスタムフィールドまたは関連するデータを編集しています。 後ほど再試行してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2509"/>
-        <source>Google Notifications needs %1 configuration
-(see Mobile/Android and root certificates in preferences)</source>
-        <translation>Google Notification は %1 構成が必要です。
-（環境設定のモバイル / Android とルート証明書を参照してください)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2082"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2092"/>
         <source>This is a &apos;partial&apos; fileset and cannot be exported.<byte value="xd"/>
 <byte value="xd"/>
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2109"/>
+        <source>You don&apos;t have access to export Filesets.</source>
+        <translation>ファイルセットをエクスポートする権限がありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2115"/>
+        <source>You don&apos;t have access to export Profiles as a fileset.</source>
+        <translation>ファイルセットプロファイルをエクスポートする権限がありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2120"/>
+        <source>FileWave Fileset (*.fileset)</source>
+        <translation>filewaveファイルセット (*..fileset)</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2122"/>
+        <source>FileWave Template (*.fwtemplate)</source>
+        <translation>FileWave テンプレート (*.fwtemplate)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2124"/>
+        <source>FileWave Fileset (*.fileset);;FileWave Template(*.fwtemplate)</source>
+        <translation>FileWave ファイルセット (*.fileset);;FileWave テンプレート (*.fwtemplate)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2154"/>
+        <source>Save As</source>
+        <translation>別名保存</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2271"/>
+        <source>Smart Group Report</source>
+        <translation>スマートグループレポート</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2272"/>
+        <source>Smart Group has been deleted, report cannot be refreshed.</source>
+        <translation>スマートグループは削除されました、レポートは更新できません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2347"/>
+        <source>%1 (revision %2)</source>
+        <translation>%1 (リビジョン %2)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2363"/>
+        <source>Licenses Used/Total: </source>
+        <translation>ライセンス 使用中／合計: </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2364"/>
+        <source>Computers %1/%2, </source>
+        <translation>コンピューター %1 / %2, </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2365"/>
+        <source>Mobile %1/%2, </source>
+        <translation>モバイル %1 / %2, </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2367"/>
+        <source>Chromebooks %1/%2, </source>
+        <translation>Chromebook %1 / %2, </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2369"/>
+        <source>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </source>
+        <translation>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2381"/>
+        <source>Files are still being uploaded to the server.</source>
+        <translation>ファイルはサーバーにアップロード中です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2382"/>
+        <source>Do you really want to close the application?</source>
+        <translation>本当にアプリをクローズしますか?</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2415"/>
+        <source>No MDM license installed</source>
+        <translation>MDMライセンスがインストールされていません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2436"/>
+        <source>APN%1 OK</source>
+        <translation>APN %1 OK</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2444"/>
+        <source>APN%1 certificate has expired! Model update will fail until certificate is renewed</source>
+        <translation>APN %1 証明書の期限が切れました！証明書が更新されるまで「情報（モデル）を更新」は失敗します</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2448"/>
+        <source> (Warning: APN certificate will expire in %1 days)</source>
+        <translation>(警告; APN証明書は %1 日)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2458"/>
+        <source>APN</source>
+        <translation>APN</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2460"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2512"/>
+        <source>Root Certificate</source>
+        <translation>ルート証明書</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2463"/>
+        <source>APN%1 needs %2 configuration
+(see Mobile/%3 and root certificates in preferences)</source>
+        <translation>APN %1 は %2 構成が必要です。
+（環境設定のモバイル / %3 と ルート証明書を参照)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2464"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2520"/>
+        <source> and </source>
+        <translation>と </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2473"/>
+        <source>MDM service not running</source>
+        <translation>MDMサービスは起動していません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2478"/>
+        <source>Incorrect MDM service version</source>
+        <translation>MDMサーバーのバージョンが誤っています</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2506"/>
+        <source>API key</source>
+        <translation>APIキー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2509"/>
+        <source>Project Number</source>
+        <translation>プロジェクトナンバー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2515"/>
+        <source>FCM</source>
+        <translation>FCM</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3171"/>
+        <source>%1 import</source>
+        <translation>%1 インポート</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3172"/>
+        <source>Do you want to create new fileset or to add revisions to exisiting fileset %1?</source>
+        <translation>新規ファイルセットを作成するかリビジョンを既存のファイルセット %1 に追加しますか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3174"/>
+        <source>Create new</source>
+        <translation>新規作成</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3176"/>
+        <source>Add revisions to existing</source>
+        <translation>リビジョンを既存のものに追加</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3247"/>
+        <source>Importing package</source>
+        <translation>パッケージのインポート中</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3248"/>
+        <source>Unable to import package, target fileset %1 is locked.</source>
+        <translation>パッケージをインポートできません。対象ファイルセット %1 がロックされています。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3314"/>
+        <source>Importing folder</source>
+        <translation>フォルダーのインポート中</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3315"/>
+        <source>Unable to import folder, target fileset %1 is locked.</source>
+        <translation>フォルダーをインポートできません。対象ファイルセット %1 がロックされています。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3355"/>
+        <source>Importing fileset</source>
+        <translation>ファイルセットのインポート中</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3356"/>
+        <source>Unable to import fileset, target fileset %1 is locked.</source>
+        <translation>ファイルセットをインポートできません。対象ファイルセット %1 がロックされています。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3616"/>
+        <source>Another administrator is currently editing the custom fields or related data. Please try again later.</source>
+        <translation>現在別の管理者がカスタムフィールドまたは関連するデータを編集しています。 後ほど再試行してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2519"/>
+        <source>Google Notifications needs %1 configuration
+(see Mobile/Android and root certificates in preferences)</source>
+        <translation>Google Notification は %1 構成が必要です。
+（環境設定のモバイル / Android とルート証明書を参照してください)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2132"/>
         <source>Export Fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットをエクスポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2123"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2133"/>
         <source>Please select Fileset Revisions to export.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンを選択してエクスポートしてください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2517"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2518"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2527"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2528"/>
         <source>
 (# of mobile clients exceeds license limit)</source>
         <translation>
 (# モバイルクライアントの数はライセンス制限を超えています)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2571"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2581"/>
         <source>Service OK</source>
         <translation>サービス OK</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2571"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2581"/>
         <source>Service not running</source>
         <translation>サービスは起動していません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2993"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3003"/>
         <source>Model Update in Progress...</source>
         <translation>情報（モデル）を更新中...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2995"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3005"/>
         <source>Model Updating</source>
         <translation>情報（モデル）更新中</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3018"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3028"/>
         <source>Model Revert in Progress...</source>
         <translation>情報（モデル）を元に戻す...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3020"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3030"/>
         <source>Model Reverting</source>
         <translation>情報（モデル）を元に戻す</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3131"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3141"/>
         <source>Software Update feature is disabled. Please change the preferences if you wish to use it.</source>
         <translation>ソフトウェアアップデート機能は無効です。 使用する場合は、環境設定を変更してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3136"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3146"/>
         <source>The Software Update feature is not available in the Small Business Edition.</source>
         <translation>ソフトウェアアップデート機能はスモールビジネスエディションでは無効です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3144"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3154"/>
         <source>Software Updates</source>
         <translation>ソフトウェアアップデート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3145"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3155"/>
         <source>Another administrator is currently editing the Software Updates dialog. Please try again later.</source>
         <translation>現在別の管理者がソフトウェアアップデートダイアログを編集しています。後ほど再試行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3377"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3387"/>
         <source>Adding files with url cannot be done via drag and drop, use Import File instead.</source>
         <translation>URLでファイルを追加はドラッグアンドドロップでは実行できません。 代わりにファイルをインポートを使用してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3248"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3258"/>
         <source>Invalid Patch Installer</source>
         <translation>パッチインストーラーは無効です</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3575"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3585"/>
         <source>Scheduled Reports</source>
         <translation>スケジュールされたレポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3576"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3586"/>
         <source>Another administrator is currently editing the Scheduled Reports. Please try again later.</source>
         <translation>別の管理者が現在スケジュールされたレポートを編集しています。後で再実行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3605"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3615"/>
         <source>Custom Fields Locked</source>
         <translation>カスタムフィールドはロックされています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3821"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3831"/>
         <source>Custom Fields usages update failed</source>
         <translation>カスタムフィールド使用状況の更新に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3822"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3832"/>
         <source>Failed to update Custom Fields usages. This information will be updated on the next model update.</source>
         <translation>カスタムフィールド使用状況の更新に失敗しました。この情報は次の「情報（モデル）を更新」で更新されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3837"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3847"/>
         <source>Disk Encryption configuration usages update failed</source>
         <translation>ディスク暗号化構成使用法のアップデートに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3838"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3848"/>
         <source>Failed to update Disk Encryption configuration usages.</source>
         <translation>ディスク暗号化構成使用法のアップデートに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3853"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3863"/>
         <source>Per-App VPN payload update failed</source>
         <translation>アプリごとのVPNペイロード更新失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3854"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3864"/>
         <source>Failed to add or update Per-App VPN payload.</source>
         <translation>アプリごとのVPNペイロードを追加または更新できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3869"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3879"/>
         <source>Per-App VPN payloads and usages update failed</source>
         <translation>アプリごとのVPNペイロードと使用状況の更新失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3870"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3880"/>
         <source>Failed to update Per-App VPN payloads and usages.</source>
         <translation>アプリごとのVPNペイロードと使用量を更新できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3885"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3895"/>
         <source>Per-App VPN payload usages update failed</source>
         <translation>アプリごとのVPNペイロード使用量の更新失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3886"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3896"/>
         <source>Failed to update Per-App VPN payload usages.</source>
         <translation>アプリごとのVPNペイロード使用量を更新できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3901"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3911"/>
         <source>Web Admin configuration get failed</source>
         <translation>Web Admin 構成の取得に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3902"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3912"/>
         <source>Failed to get Web Admin configuration.</source>
         <translation>Web Admin 構成の取得に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3915"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3925"/>
         <source>Web Admin Url open failed</source>
         <translation>Web Admin URL オープンに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3916"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3926"/>
         <source>Failed to open Web Admin Url.</source>
         <translation>Web Admin URL オープンに失敗しました。</translation>
     </message>
@@ -9186,12 +9198,12 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="587"/>
         <source>User Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメント</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="593"/>
         <source>Enable User Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメントを有効にします</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="603"/>
@@ -9453,7 +9465,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1644"/>
         <source>Assign to Device if possible, otherwise to User</source>
-        <translation type="unfinished"></translation>
+        <translation>可能であればデバイスへ、そうでなければユーザーへ割り当て</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1882"/>
@@ -9545,7 +9557,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1716"/>
         <source> hour(s)</source>
-        <translation> 時間</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1745"/>
@@ -9589,12 +9601,6 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1954"/>
         <source>Synchronize</source>
         <translation>同期</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2865"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2879"/>
-        <source>Device Enrollment Program</source>
-        <translation>Device Enrollment Program</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1927"/>
@@ -9858,6 +9864,12 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
         <translation>選択したLDAPサーバーを環境設定から削除</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2865"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2879"/>
+        <source>Device Enrollment Program</source>
+        <translation>Device Enrollment Program</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="308"/>
         <source>Assign to User</source>
         <translation>ユーザーに割り当て</translation>
@@ -9952,7 +9964,7 @@ Are you sure you want to continue?</source>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="762"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="763"/>
         <source> (full sync)</source>
-        <translation> (完全同期)</translation>
+        <translation>(完全同期)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="791"/>
@@ -9979,13 +9991,6 @@ Are you sure you want to continue?</source>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="867"/>
         <source>Proxy Test Failed</source>
         <translation>プロキシテストに失敗しました</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
-        <source>There was an error in the request to check the proxy.<byte value="xd"/>
-
-%1</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="867"/>
@@ -10087,16 +10092,23 @@ Are you sure you want to continue?</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="310"/>
         <source>Automatic</source>
-        <translation type="unfinished">自動</translation>
+        <translation>自動</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="581"/>
         <source>You do not have permission to enable/disable User Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメントを有効/無効にする権限がありません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="586"/>
         <source>User Enrolled devices removed from FileWave model will always be instructed to remove MDM profile.</source>
+        <translation>FileWaveモデルから削除したユーザーエンロール済みのデバイスは常にMDMプロファイルを削除するよう指示されます。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
+        <source>There was an error in the request to check the proxy.<byte value="xd"/>
+
+%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10579,7 +10591,7 @@ FileWaveはLDAP構成に合うようにApache設定を更新することがで�
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3278"/>
         <source>LDAP Server Base DN is mandatory.</source>
-        <translation></translation>
+        <translation>LDAPサーバーベースDNは必須です。</translation>
     </message>
 </context>
 <context>
@@ -11209,7 +11221,7 @@ A leading period can be used to match subdomains, but a domain matching rule mus
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookOAuthTokenPrefsDlg.cpp" line="9"/>
         <source>Continuing will delete your Chrome Service Account information.&lt;br/&gt;&lt;br/&gt;All Chromebook and Organizational Unit data fetched from this account will be deleted from FileWave as well.&lt;br/&gt;&lt;br/&gt;Do you wish to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>続行するとChromeサービスアカウント情報が削除されます。&lt;br/&gt;&lt;br/&gt;このアカウントから取得されたすべてのChromebookと組織単位についてもFileWaveから削除されます。&lt;br/&gt;&lt;br/&gt;続行してもよろしいですか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookOAuthTokenPrefsDlg.cpp" line="14"/>
@@ -11290,12 +11302,12 @@ A leading period can be used to match subdomains, but a domain matching rule mus
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.ui" line="148"/>
         <source>EMM Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>EMM構成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.ui" line="160"/>
         <source>Configure Enterprise</source>
-        <translation type="unfinished"></translation>
+        <translation>エンタープライズを構成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.ui" line="180"/>
@@ -11325,7 +11337,7 @@ A leading period can be used to match subdomains, but a domain matching rule mus
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.cpp" line="233"/>
         <source>You do not have permission to configure Chromebook OAuth Tokens</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromebook OAuthトークンを構成する権限がありません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.cpp" line="241"/>
@@ -11371,7 +11383,7 @@ A leading period can be used to match subdomains, but a domain matching rule mus
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.cpp" line="295"/>
         <source>filewave_chromebook_settings.txt</source>
         <translatorcomment>filewave_chromebook_settings.txt</translatorcomment>
-        <translation></translation>
+        <translation>filewave_chromebook_settings.txt</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.cpp" line="296"/>
@@ -11963,17 +11975,17 @@ Do you want to proceed with certificate generation now?</source>
     <message>
         <location filename="../../FWAdminLib/models/clientreportmodel.cpp" line="232"/>
         <source>Fileset ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientreportmodel.cpp" line="233"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientreportmodel.cpp" line="234"/>
         <source>Revision ID</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientreportmodel.cpp" line="235"/>
@@ -12188,12 +12200,12 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="906"/>
         <source>Failed to change serial number or MAC address. Make sure it is not already used by another client.</source>
-        <translation type="unfinished"></translation>
+        <translation>別のクライアントによって既に使用されていないことを確認してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="910"/>
         <source>Failed to change name to %1. Make sure it is not already used by another client.</source>
-        <translation type="unfinished"></translation>
+        <translation>別のクライアントによって既に使用されていないことを確認してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1575"/>
@@ -12411,7 +12423,7 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="83"/>
         <source>Duplicate Smart Group...</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループを複製...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="84"/>
@@ -12681,23 +12693,23 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1771"/>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1777"/>
         <source> (%1 Clones)</source>
-        <translation> (%1 クローン)</translation>
+        <translation>(%1 クローン)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1771"/>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1777"/>
         <source> (%1 Clone)</source>
-        <translation> (%1 クローン)</translation>
+        <translation>(%1 クローン)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1774"/>
         <source> %1 Groups</source>
-        <translation> %1 グループ</translation>
+        <translation>%1 グループ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1774"/>
         <source> %1 Group</source>
-        <translation> %1 グループ</translation>
+        <translation>%1 グループ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1781"/>
@@ -12974,6 +12986,13 @@ FileWave will not be able to clear it without a WiFi connection</source>
 FileWaveはWi-Fi接続なしでクリアすることはできません</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="644"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+
+Do you want to open the Client Monitor anyway?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1390"/>
         <source>Android client %1 and all its clones</source>
         <translation>Androidクライアント %1 とそのすべてのクローン</translation>
@@ -13157,13 +13176,6 @@ Failed FileWave IDs: %4</source>
         <translation>問題が発生しました。 サーバー (%1)：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="644"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="760"/>
         <source>Sorry, you may not make direct associations to group clones.  Please make the association to the original group.</source>
         <translation>グループクローンに直接関連付けることはできません。  元のグループに関連付けてください。</translation>
@@ -13278,12 +13290,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="987"/>
         <source>Edit Smart Group</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループを編集</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="988"/>
         <source>Another administrator is currently editing the the selected smart group. Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>後でもう一度試してみてください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1008"/>
@@ -13373,7 +13385,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1302"/>
         <source> Moving operation statistics</source>
-        <translation> 移動の操作の統計</translation>
+        <translation>移動の操作の統計</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1370"/>
@@ -13431,12 +13443,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1452"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checked&amp;#x2011;in&amp;nbsp;Clients&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;クライアント&amp;#x2011;チェック済み&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1452"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enrolled&amp;nbsp;Mobile&amp;nbsp;Devices&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;エンロール済みモバイルデバイス&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1490"/>
@@ -13750,7 +13762,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_factory.cpp" line="90"/>
         <source>Error while exporting a fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットをエクスポート中にエラーが発生しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_factory.cpp" line="92"/>
@@ -13760,7 +13772,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_factory.cpp" line="94"/>
         <source>Error while creating an association</source>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）を作成中にエラーが発生しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_factory.cpp" line="134"/>
@@ -13925,7 +13937,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="468"/>
         <source> seconds</source>
-        <translation> 秒</translation>
+        <translation>秒</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="693"/>
@@ -13961,7 +13973,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="308"/>
         <source>Disable Bluetooth</source>
-        <translation></translation>
+        <translation>Bluetoothを無効にする</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="316"/>
@@ -14006,7 +14018,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="410"/>
         <source>http://example.server.com</source>
-        <translation></translation>
+        <translation>http://example.server.com</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="500"/>
@@ -14031,7 +14043,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="570"/>
         <source> MB</source>
-        <translation></translation>
+        <translation>MB</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="617"/>
@@ -14069,7 +14081,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_deletefileset.cpp" line="47"/>
         <source>Fileset with id or name of &apos;%1&apos; could not be deleted.</source>
-        <translation type="unfinished"></translation>
+        <translation>IDまたは名前 &apos;%1&apos; のファイルセットを削除することができませんでした。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_deletefileset.cpp" line="52"/>
@@ -14133,12 +14145,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="224"/>
         <source>Unable to find the fileset revision by the given --revision value: %1 from --exportFileset: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="272"/>
         <source>Fileset with id or name of &apos;%1&apos; does not exist</source>
-        <translation type="unfinished">IDまたは名前 &apos;%1&apos; のファイルセットは存在しません</translation>
+        <translation>IDまたは名前 &apos;%1&apos; のファイルセットを削除することができませんでした。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="286"/>
@@ -14159,7 +14171,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="354"/>
         <source>Unable to import revision, fileset ID is invalid or not specified, error code is: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="377"/>
@@ -14167,7 +14179,7 @@ Do you want to open the Client Monitor anyway?</source>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="499"/>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="557"/>
         <source>Unable to import fileset revision, fileset with ID %1 not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンをインポートできません。ID %1 のファイルセットが見つかりません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="382"/>
@@ -14175,7 +14187,7 @@ Do you want to open the Client Monitor anyway?</source>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="504"/>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="562"/>
         <source>Unable to import fileset revision, revision with name &apos;%1&apos; already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンをインポートできません。名前 &apos;%1&apos; のリビジョンは既に存在します。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="391"/>
@@ -14183,7 +14195,7 @@ Do you want to open the Client Monitor anyway?</source>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="513"/>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="571"/>
         <source>Unable to import fileset revision, fileset %1 is locked.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンをインポートできません。ファイルセット %1 はロックされています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="404"/>
@@ -14195,7 +14207,7 @@ Do you want to open the Client Monitor anyway?</source>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="481"/>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="540"/>
         <source>Unable to import fileset revision, the --fileset parameter is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンをインポートできません。--ファイルセットのパラメーターが欠けています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="462"/>
@@ -14225,12 +14237,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="596"/>
         <source>RESULT: revisions were added to existing fileset with ID %1 and name &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>結果: リビジョンがID %1 と名前 &apos;%2&apos; の既存のファイルセットへ追加されました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="598"/>
         <source>RESULT: a new revision with ID %1 was created with a name &apos;%2&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>結果:ID %1 の新規リビジョンが名前 &apos;%2&apos; により作成されました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_importfileset.cpp" line="608"/>
@@ -14340,12 +14352,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="84"/>
         <source>Multiple revision names cannot be specified when creating an association</source>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）作成時に複数のリビジョン名を指定することはできません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="96"/>
         <source>The license distribution model is not valid. It must be &quot;user&quot;, &quot;device&quot; or &quot;auto&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは&quot;ユーザー&quot;、&quot;デバイス&quot;または&quot;自動&quot;とする必要があります。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="145"/>
@@ -14370,27 +14382,27 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="191"/>
         <source> (license assigned to user)</source>
-        <translation> (ユーザーに割り当てられたライセンス)</translation>
+        <translation>(ユーザーに割り当てられたライセンス)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="194"/>
         <source> (license assigned to device)</source>
-        <translation> (デバイスに割り当てられたライセンス)</translation>
+        <translation>(デバイスに割り当てられたライセンス)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="197"/>
         <source> (license assigned to device if possible, otherwise to user)</source>
-        <translation type="unfinished"></translation>
+        <translation>(ライセンスは可能であればデバイスへ、そうでなければユーザーへ割り当てられます)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="208"/>
         <source>Create Association fails: Cannot create association to fileset group with revision specified</source>
-        <translation type="unfinished"></translation>
+        <translation>指定されたリビジョンによるファイルセットグループに対するアソシエーション（配布）を作成できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="220"/>
         <source>Unable to find the fileset revision %1 in fileset %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット %2 においてファイルセットリビジョン %1 を見つけることができません </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="231"/>
@@ -14459,12 +14471,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_properties.cpp" line="79"/>
         <source>Fileset %1 does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット %1 が存在しません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_properties.cpp" line="93"/>
         <source>Unable to find the fileset revision %1 in fileset %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット %2 においてファイルセットリビジョン %1 を見つけることができません</translation>
     </message>
 </context>
 <context>
@@ -14912,7 +14924,7 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/CreateIOSAppOnMDM.h" line="43"/>
         <source>Universal App - </source>
-        <translation type="unfinished"></translation>
+        <translation>ユニバーサルアプリ - </translation>
     </message>
 </context>
 <context>
@@ -15233,7 +15245,7 @@ Do you want to remove all existing associations to clients?</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldDetailsWidget.cpp" line="137"/>
         <source> and </source>
-        <translation> と </translation>
+        <translation>と </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldDetailsWidget.cpp" line="139"/>
@@ -16184,7 +16196,7 @@ All values for this field will be wiped.</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesDlg.cpp" line="34"/>
         <source>Edit Custom Field Values</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタムフィールド値を編集</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesDlg.cpp" line="84"/>
@@ -16209,12 +16221,12 @@ All values for this field will be wiped.</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesDlg.cpp" line="147"/>
         <source>Model Update Required</source>
-        <translation type="unfinished"></translation>
+        <translation>モデルの更新が必要です</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesDlg.cpp" line="148"/>
         <source>Changes to annotated fields will be submitted to GSuite at the next model update.</source>
-        <translation type="unfinished"></translation>
+        <translation>次回のモデル更新時に注釈付きフィールドへの変更がGSuiteへ送信されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesDlg.cpp" line="159"/>
@@ -16267,7 +16279,7 @@ All values for this field will be wiped.</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesModel.cpp" line="144"/>
         <source> (restricted)</source>
-        <translation> (制限)</translation>
+        <translation>(制限)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesModel.cpp" line="159"/>
@@ -16651,7 +16663,7 @@ Please retry once editing is done.</source>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
         <source>Another user is editing the selected profile</source>
-        <translation type="unfinished"></translation>
+        <translation>別のユーザーが選択したプロファイルを編集中です</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="633"/>
@@ -16716,7 +16728,7 @@ Please retry once editing is done.</source>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="850"/>
         <source> (full sync)</source>
-        <translation> (完全同期)</translation>
+        <translation>(完全同期)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="905"/>
@@ -17171,6 +17183,291 @@ Are you sure ?</source>
 </context>
 <context>
     <name>DepProfileDlg</name>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="140"/>
+        <source>Privacy</source>
+        <translation>プライバシー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="141"/>
+        <source>Location Services</source>
+        <translation>位置情報サービス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="142"/>
+        <source>Siri</source>
+        <translation>Siri</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="143"/>
+        <source>Apple ID</source>
+        <translation>Apple ID</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="144"/>
+        <source>Terms and Conditions</source>
+        <translation>規約と条件</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="145"/>
+        <source>App Analytics</source>
+        <translation>アプリ分析</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="149"/>
+        <source>Set Up as New or Restore</source>
+        <translation>新規またはリストアとしてセットアップ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="150"/>
+        <source>Apple Pay</source>
+        <translation>Apple Pay</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="151"/>
+        <source>True Tone Display</source>
+        <translation>True Tone ディスプレイ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="156"/>
+        <source>Passcode Lock</source>
+        <translation>パスコードロック</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="157"/>
+        <source>Move from Android</source>
+        <translation>Androidから移動</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="158"/>
+        <source>Apple Watch</source>
+        <translation>Apple Watch</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="153"/>
+        <source>Screen Time</source>
+        <translation>スクリーンタイム</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="148"/>
+        <source>Touch ID / Face ID</source>
+        <translation>Touch ID / Face ID</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="152"/>
+        <source>Appearance</source>
+        <translation>外観</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="159"/>
+        <source>Keep Your Device Up to Date</source>
+        <translation>デバイスを最新の状態に保つ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="160"/>
+        <source>iMessage &amp;&amp; FaceTime</source>
+        <translation>iMessage と FaceTime</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="162"/>
+        <source>Home Button</source>
+        <translation>ホームボタン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="163"/>
+        <source>Display Zoom</source>
+        <translation>ディスプレイズーム</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="164"/>
+        <source>New Feature Highlights</source>
+        <translation>新機能のハイライト</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="165"/>
+        <source>Keyboard Selection</source>
+        <translation>Keyboard Selection</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="174"/>
+        <source>Set Up Your Apple TV</source>
+        <translation>Apple TV セットアップ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="175"/>
+        <source>Sign In to Your TV Provider</source>
+        <translation>TVプロバイダにサインイン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="176"/>
+        <source>Where is the Apple TV?</source>
+        <translation>Apple TVはどこですか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="177"/>
+        <source>One Home Screen For Every Apple TV</source>
+        <translation>すべてのApple TVに1つのホームスクリーン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="178"/>
+        <source>See the World</source>
+        <translation>世界を見る</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="182"/>
+        <source>iCloud Diagnostics</source>
+        <translation>iCloud診断</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="166"/>
+        <source>Set Up Cellular</source>
+        <translation>モバイル通信サービスを設定</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="168"/>
+        <source>Transfer Data</source>
+        <translation>データ転送</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="169"/>
+        <source>Welcome</source>
+        <translation>ようこそ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="170"/>
+        <source>Express Language</source>
+        <translation>簡易言語</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="171"/>
+        <source>Preferred Language</source>
+        <translation>優先する言語</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="181"/>
+        <source>iCloud Desktop and Documents</source>
+        <translation>iCloudデスクトップとドキュメント</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="183"/>
+        <source>FileVault</source>
+        <translation>FileVault</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="184"/>
+        <source>Registration</source>
+        <translation>登録</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="253"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="263"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="274"/>
+        <source>Do Not Rename</source>
+        <translation>名前変更できません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="254"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="265"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="276"/>
+        <source>Rename Using the Name Template</source>
+        <translation>名前テンプレートを使用して名前を変更</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="264"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="275"/>
+        <source>Rename Using the FileWave Client Name</source>
+        <translation>FileWave クライアント名を使用して名前を変更</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="363"/>
+        <source>Select a DER or PEM encoded certificate to add.</source>
+        <translation>追加するDERまたはPEMエンコード証明書を選択してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="364"/>
+        <source>Certificates (*.cer *.crt *.pem *.pkcs)</source>
+        <translation>証明書 (*.cer *.crt *.pem *.pkcs)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="369"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="375"/>
+        <source>Loading a certificate</source>
+        <translation>証明書をロード</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="369"/>
+        <source>The file %1 could not be opened for read: %2</source>
+        <translation>ファイル %1 を読み取り用に開くことができませんでした: %2</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="375"/>
+        <source>The certificate could not be loaded.
+Only Pem and Der formatted certificates are allowed.</source>
+        <translation>証明書をロードできませんでした。
+PEMおよびDER形式の証明書のみ許可されています。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="422"/>
+        <source>A DEP Profile requires a name.</source>
+        <translation>DEPプロファイルには名前が必要です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="429"/>
+        <source>The account name needs at least one alphabetic character.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="433"/>
+        <source>You need to enter a name for the Primary Account.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="448"/>
+        <source>Account creation requires a user account name.</source>
+        <translation>アカウントの作成にはユーザーアカウント名が必要です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="460"/>
+        <source>Provided passwords for user account don&apos;t match</source>
+        <translation>ユーザーアカウントのパスワードが一致しません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="467"/>
+        <source>Account creation requires an user&apos;s password.</source>
+        <translation>アカウント作成にはユーザーのパスワードが必要です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="478"/>
+        <source>Device naming requires a template.</source>
+        <translation>デバイスの命名にはテンプレートが必要です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="846"/>
+        <source>Disabled</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="848"/>
+        <source>iCloud</source>
+        <translation>iCloud</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="849"/>
+        <source>ASM/ABM (Organization)</source>
+        <translation>ASM/ABM （組織）</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="868"/>
+        <source>Activation Lock</source>
+        <translation>アクティベーションロック</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="868"/>
+        <source>Shared iPads do not support iCloud Activation Lock.
+Changing to ASM/ABM Activation Lock.</source>
+        <translation>共有iPadはiCloudアクティベーションロックをサポートしていません。
+ASM / ABMアクティベーションロックへ変更しています。</translation>
+    </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="14"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="422"/>
@@ -17646,291 +17943,6 @@ Are you sure ?</source>
         <source>Template:</source>
         <translation>テンプレート:</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="140"/>
-        <source>Privacy</source>
-        <translation>プライバシー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="141"/>
-        <source>Location Services</source>
-        <translation>位置情報サービス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="142"/>
-        <source>Siri</source>
-        <translation>Siri</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="143"/>
-        <source>Apple ID</source>
-        <translation>Apple ID</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="144"/>
-        <source>Terms and Conditions</source>
-        <translation>規約と条件</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="145"/>
-        <source>App Analytics</source>
-        <translation>アプリ分析</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="149"/>
-        <source>Set Up as New or Restore</source>
-        <translation>新規またはリストアとしてセットアップ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="150"/>
-        <source>Apple Pay</source>
-        <translation>Apple Pay</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="151"/>
-        <source>True Tone Display</source>
-        <translation>True Tone ディスプレイ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="156"/>
-        <source>Passcode Lock</source>
-        <translation>パスコードロック</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="157"/>
-        <source>Move from Android</source>
-        <translation>Androidから移動</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="158"/>
-        <source>Apple Watch</source>
-        <translation>Apple Watch</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="153"/>
-        <source>Screen Time</source>
-        <translation>スクリーンタイム</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="148"/>
-        <source>Touch ID / Face ID</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="152"/>
-        <source>Appearance</source>
-        <translation>外観</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="159"/>
-        <source>Keep Your Device Up to Date</source>
-        <translation>デバイスを最新の状態に保つ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="160"/>
-        <source>iMessage &amp;&amp; FaceTime</source>
-        <translation>iMessage と FaceTime</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="162"/>
-        <source>Home Button</source>
-        <translation>ホームボタン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="163"/>
-        <source>Display Zoom</source>
-        <translation>ディスプレイズーム</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="164"/>
-        <source>New Feature Highlights</source>
-        <translation>新機能のハイライト</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="165"/>
-        <source>Keyboard Selection</source>
-        <translation>Keyboard Selection</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="174"/>
-        <source>Set Up Your Apple TV</source>
-        <translation>Apple TV セットアップ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="175"/>
-        <source>Sign In to Your TV Provider</source>
-        <translation>TVプロバイダにサインイン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="176"/>
-        <source>Where is the Apple TV?</source>
-        <translation>Apple TVはどこですか？</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="177"/>
-        <source>One Home Screen For Every Apple TV</source>
-        <translation>すべてのApple TVに1つのホームスクリーン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="178"/>
-        <source>See the World</source>
-        <translation>世界を見る</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="182"/>
-        <source>iCloud Diagnostics</source>
-        <translation>iCloud診断</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="166"/>
-        <source>Set Up Cellular</source>
-        <translation>モバイル通信サービスを設定</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="168"/>
-        <source>Transfer Data</source>
-        <translation>データ転送</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="169"/>
-        <source>Welcome</source>
-        <translation>ようこそ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="170"/>
-        <source>Express Language</source>
-        <translation>簡易言語</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="171"/>
-        <source>Preferred Language</source>
-        <translation>優先する言語</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="181"/>
-        <source>iCloud Desktop and Documents</source>
-        <translation>iCloudデスクトップとドキュメント</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="183"/>
-        <source>FileVault</source>
-        <translation>FileVault</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="184"/>
-        <source>Registration</source>
-        <translation>登録</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="253"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="263"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="274"/>
-        <source>Do Not Rename</source>
-        <translation>名前変更できません</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="254"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="265"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="276"/>
-        <source>Rename Using the Name Template</source>
-        <translation>名前テンプレートを使用して名前を変更</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="264"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="275"/>
-        <source>Rename Using the FileWave Client Name</source>
-        <translation>FileWave クライアント名を使用して名前を変更</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="363"/>
-        <source>Select a DER or PEM encoded certificate to add.</source>
-        <translation>追加するDERまたはPEMエンコード証明書を選択してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="364"/>
-        <source>Certificates (*.cer *.crt *.pem *.pkcs)</source>
-        <translation>証明書 (*.cer *.crt *.pem *.pkcs)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="369"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="375"/>
-        <source>Loading a certificate</source>
-        <translation>証明書をロード</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="369"/>
-        <source>The file %1 could not be opened for read: %2</source>
-        <translation>ファイル %1 を読み取り用に開くことができませんでした: %2</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="375"/>
-        <source>The certificate could not be loaded.
-Only Pem and Der formatted certificates are allowed.</source>
-        <translation>証明書をロードできませんでした。
-PEMおよびDER形式の証明書のみ許可されています。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="422"/>
-        <source>A DEP Profile requires a name.</source>
-        <translation>DEPプロファイルには名前が必要です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="429"/>
-        <source>The account name needs at least one alphabetic character.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="433"/>
-        <source>You need to enter a name for the Primary Account.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="448"/>
-        <source>Account creation requires a user account name.</source>
-        <translation>アカウントの作成にはユーザーアカウント名が必要です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="460"/>
-        <source>Provided passwords for user account don&apos;t match</source>
-        <translation>ユーザーアカウントのパスワードが一致しません</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="467"/>
-        <source>Account creation requires an user&apos;s password.</source>
-        <translation>アカウント作成にはユーザーのパスワードが必要です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="478"/>
-        <source>Device naming requires a template.</source>
-        <translation>デバイスの命名にはテンプレートが必要です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="846"/>
-        <source>Disabled</source>
-        <translation>無効</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="848"/>
-        <source>iCloud</source>
-        <translation>iCloud</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="849"/>
-        <source>ASM/ABM (Organization)</source>
-        <translation>ASM/ABM （組織）</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="868"/>
-        <source>Activation Lock</source>
-        <translation>アクティベーションロック</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="868"/>
-        <source>Shared iPads do not support iCloud Activation Lock.
-Changing to ASM/ABM Activation Lock.</source>
-        <translation>共有iPadはiCloudアクティベーションロックをサポートしていません。
-ASM / ABMアクティベーションロックへ変更しています。</translation>
-    </message>
 </context>
 <context>
     <name>DependencyFilesetDeleteDialog</name>
@@ -17972,7 +17984,7 @@ ASM / ABMアクティベーションロックへ変更しています。</transl
     <message>
         <location filename="../../FWAdminLib/DependencyFilesetDeleteDialog.cpp" line="24"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/DependencyFilesetDeleteDialog.cpp" line="128"/>
@@ -18054,7 +18066,7 @@ ASM / ABMアクティベーションロックへ変更しています。</transl
     <message>
         <location filename="../../FWAdminLib/DeviceLockDlg.ui" line="85"/>
         <source>123456</source>
-        <translation></translation>
+        <translation>123456</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/DeviceLockDlg.ui" line="95"/>
@@ -18850,61 +18862,61 @@ ASM / ABMアクティベーションロックへ変更しています。</transl
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="152"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="218"/>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="157"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="223"/>
         <source>2</source>
-        <translation></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="162"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="228"/>
         <source>3</source>
-        <translation></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="167"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="233"/>
         <source>4</source>
-        <translation></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="172"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="238"/>
         <source>5</source>
-        <translation></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="177"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="243"/>
         <source>6</source>
-        <translation></translation>
+        <translation>6</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="182"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="248"/>
         <source>7</source>
-        <translation></translation>
+        <translation>7</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="187"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="253"/>
         <source>8</source>
-        <translation></translation>
+        <translation>8</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="192"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="258"/>
         <source>9</source>
-        <translation></translation>
+        <translation>9</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="197"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="263"/>
         <source>10</source>
-        <translation></translation>
+        <translation>10</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="213"/>
@@ -18970,13 +18982,13 @@ ASM / ABMアクティベーションロックへ変更しています。</transl
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="426"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="508"/>
         <source>+</source>
-        <translation></translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="439"/>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="521"/>
         <source>-</source>
-        <translation></translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DockDisplayForm.ui" line="461"/>
@@ -19319,104 +19331,104 @@ ASM / ABMアクティベーションロックへ変更しています。</transl
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="20"/>
         <source>Set Up an Android Management Enterprise</source>
-        <translation type="unfinished">Androidエンタープライズ管理をセットアップ</translation>
+        <translation>Android Management Enterpriseをセットアップ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="38"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To utilize the Android Management API functionality, upload the service account JSON file provided to you by your FileWave representative.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Android Management API機能を利用するには、FileWave担当者から提供されたサービスアカウントJSONファイルをアップロードします。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Android Management API機能を利用するため、FileWave担当者から提供されたサービスアカウントJSONファイルをアップロードしてください。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="62"/>
         <source>Account:</source>
-        <translation type="unfinished">アカウント:</translation>
+        <translation>アカウント:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="87"/>
         <source>Unspecified</source>
-        <translation type="unfinished">未指定</translation>
+        <translation>未指定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="120"/>
         <source>Choose File</source>
-        <translation type="unfinished">ファイルを選択</translation>
+        <translation>ファイルを選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="140"/>
         <source>Upload</source>
-        <translation type="unfinished">アップロード</translation>
+        <translation>アップロード</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="155"/>
         <source>Specify a display name for this enterprise. This field will be the &quot;human friendly&quot; version for reference in FileWave.</source>
-        <translation type="unfinished"></translation>
+        <translation>このフィールドはFileWaveでの参照用の「わかりやすい」バージョンとなります。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="352"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Unenrolling this enterprise from FileWave is a two-step process:&lt;/p&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove the enterprise from the Project via the &lt;a href=&quot;https://play.google.com/work/adminsettings&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Play for Work&lt;/span&gt;&lt;/a&gt; console﻿. &lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once the enterprise is removed upstream, this button will remove from FileWave all Android devices managed via the Android Management API. Note: this button will not succeed as long as the enterprise is still accessible upstream.&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>注: このボタンはエンタープライズがアップストリームで依然アクセス可能であるかぎり成功しません。&lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="179"/>
         <source>Enterprise Name</source>
-        <translation type="unfinished">エンタープライズ名</translation>
+        <translation>エンタープライズ名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="215"/>
         <source>Sign Up</source>
-        <translation type="unfinished">サインアップ</translation>
+        <translation>サインアップ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="270"/>
         <source>Copy ZeroTouch Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>ゼロタッチ構成をコピー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="290"/>
         <source>Disable EMM Service Account</source>
-        <translation type="unfinished"></translation>
+        <translation>EMMサービスアカウントを無効にする</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="326"/>
         <source>Unenroll Enterprise</source>
-        <translation type="unfinished">エンタープライズをアンエンロール</translation>
+        <translation>エンタープライズをアンエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="378"/>
         <source>Unlink Enterprise</source>
-        <translation type="unfinished">エンタープライズのリンク解除</translation>
+        <translation>エンタープライズをリンク解除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="408"/>
         <source>Re-enable Enterprise</source>
-        <translation type="unfinished">エンタープライズの再有化</translation>
+        <translation>エンタープライズを再有効化</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="428"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;We have detected an issue with your enterprise. To prevent errant requests, it has been disabled. You may either re-enable your enterprise or unlink it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;エンタープライズに問題が見つかりました。 誤ったリクエストを防ぐために無効にしています。 エンタープライズを再度有効にするか、リンク解除することができます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;エンタープライズに問題が見つかりました。 誤ったリクエストを防ぐために無効にしています。 エンタープライズを再度有効にするか、リンク解除することができます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="442"/>
         <source>Re-Enable Enterprise</source>
-        <translation type="unfinished">エンタープライズの再有効化</translation>
+        <translation>エンタープライズを再有効化</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="119"/>
         <source>Google Service Account (*%1)</source>
-        <translation type="unfinished">Googleサービスアカウント (*%1)</translation>
+        <translation>Googleサービスアカウント (*%1)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="119"/>
         <source>Select a Google Service Account file (*%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Googleサービスアカウントファイル (*%1) を選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="202"/>
         <source>Unable to get list of service accounts.
 
 Server said (%1): %2</source>
-        <translation type="unfinished">サービスアカウントリストを取得できません。
+        <translation>サービスアカウントリストを取得できません。
 
 サーバー (%1): %2</translation>
     </message>
@@ -19425,58 +19437,58 @@ Server said (%1): %2</source>
         <source>Unable to toggle state of EMM Service Account.  Server said (%1):
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="252"/>
         <source>Confirm Re-Enable of Enterprise</source>
-        <translation type="unfinished">エンタープライズの再有効化を確認</translation>
+        <translation>エンタープライズの再有効化を確認</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="253"/>
         <source>Android EMM functionality will resume if you have verified that the problem has been resolved.</source>
-        <translation type="unfinished">問題が解決したことを確認すると、Android EMM機能は再開されます。</translation>
+        <translation>問題が解決したことを確認すると、Android EMM機能は再開されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="254"/>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="288"/>
         <source>Please enter your password to confirm.</source>
-        <translation type="unfinished"></translation>
+        <translation>確認用パスワードを入力してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="286"/>
         <source>Confirm Enterprise Removal</source>
-        <translation type="unfinished">エンタープライズの削除を確認</translation>
+        <translation>エンタープライズの削除を確認</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="287"/>
         <source>All Android EMM devices will be removed from FileWave&apos;s database.</source>
-        <translation type="unfinished">すべてのAndroid EMMデバイスはFileWaveのデータベースから削除されます。</translation>
+        <translation>すべてのAndroid EMMデバイスはFileWaveのデータベースから削除されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="316"/>
         <source>FileWave successfully unenrolled from enterprise: %1 (%2)</source>
-        <translation type="unfinished">FileWaveはエンタープライズからエンロール解除されました: %1 (%2)</translation>
+        <translation>FileWaveはエンタープライズからアンエンロールされました: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="321"/>
         <source>Unable to remove enterprise: %1 (%2) - HTTP %3.  If this is not expected, please contact your FileWave administrator.</source>
-        <translation type="unfinished">エンタープライズを削除できません： %1 (%2) - HTTP %3.  予期しないエラーの場合は、FileWave管理者に連絡してください。</translation>
+        <translation>エンタープライズを削除できません： %1 (%2) - HTTP %3.  予期しないエラーの場合は、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="367"/>
         <source>Enterprise still exists and is accessible.  The upstream connection must be broken (see step 1 in instructions above button) before FileWave will remove EMM devices.</source>
-        <translation type="unfinished">エンタープライズはまだ存在しアクセス可能です。  FileWaveがEMMデバイスを削除する前に、アップストリーム接続が切断されている必要があります（上記の手順の手順1を参照）。</translation>
+        <translation>エンタープライズはまだ存在しアクセス可能です。  FileWaveがEMMデバイスを削除する前に、アップストリーム接続が解除されている必要があります（ボタンの上の手順1を参照）。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="374"/>
         <source>Unable to confirm that upstream enterprise is gone.  Not removing enterprise from FileWave.  If this is unexpected, please contact your FileWave administrator.</source>
-        <translation type="unfinished">アップストリームのエンタープライズがなくなったことを確認できません。  FileWaveからエンタープライズを削除しません。  予想外の場合は、FileWave管理者に連絡してください。</translation>
+        <translation>アップストリームのエンタープライズがなくなったことを確認できません。  FileWaveからエンタープライズを削除しません。これが想定外の場合は、FileWave管理者に連絡してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="440"/>
         <source>To unenroll the enterprise from FileWave, please remove the upstream enterprise.</source>
-        <translation type="unfinished">エンタープライズをFileWaveからアンエンロールするには、上位のエンタープライズを削除してください。</translation>
+        <translation>エンタープライズをFileWaveからアンエンロールするには、アップストリームのエンタープライズを削除してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="450"/>
@@ -19484,51 +19496,51 @@ Server said (%1): %2</source>
         <source>Unable to get list of enterprises.
 
 Server said (%1): %2</source>
-        <translation type="unfinished">エンタープライズリストを取得できません。
+        <translation>エンタープライズリストを取得できません。
 
 サーバー (%1): %2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="465"/>
         <source>Copy Zero Touch Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>ゼロタッチ構成をコピー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="469"/>
         <source>Zero Touch configuration (JSON) copied to clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>ゼロタッチ構成（JSON）がクリップボードにコピーされています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="470"/>
         <source>Paste this JSON content into the DPC Extra field of a configuration within your organization&apos;s &lt;a href=&quot;https://partner.android.com/zerotouch&quot; title=&quot;https://partner.android.com/zerotouch&quot;&gt;ZeroTouch Portal&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>このJSONコンテンツを組織の&lt;a href=&quot;https://partner.android.com/zerotouch&quot; title=&quot;https://partner.android.com/zerotouch&quot;&gt;ゼロタッチポータル&lt;/a&gt;内の構成のDPC追加フィールドに貼り付けてください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="477"/>
         <source>There is no Zero Touch configuration to copy.</source>
-        <translation type="unfinished"></translation>
+        <translation>コピーするゼロタッチ構成が存在しません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="517"/>
         <source>To unenroll the enterprise from FileWave, please remove the upstream enterprise from.</source>
-        <translation type="unfinished">FileWaveからエンタープライズをアンエンロールするには、アップストリームのエンタープライズを削除してください。</translation>
+        <translation>エンタープライズをFileWaveからアンエンロールするには、アップストリームのエンタープライズを削除してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="559"/>
         <source>Invalid service account token.</source>
-        <translation type="unfinished">無効なサービスアカウントトークンです。</translation>
+        <translation>無効なサービスアカウントトークンです。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="579"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to finalize your enterprise setup. Please leave this dialog open until directed to close it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;エンタープライズの設定を完了するには、 &lt;a href=&quot;%1&quot;&gt;ここをクリック&lt;/a&gt; してください。このダイアログは、閉じるように指示されるまで開いたままにしてください。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;エンタープライズの設定を完了するには、 &lt;a href=&quot;%1&quot;&gt;ここをクリック&lt;/a&gt; してください。このダイアログは、閉じるように指示されるまで開いたままにしてください。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="591"/>
         <source>Unable to get signup link.
 
 Server said (%1): %2</source>
-        <translation type="unfinished">サインアップリンクが取得できません。
+        <translation>サインアップリンクを取得できません。
 
 サーバー (%1): %2</translation>
     </message>
@@ -19679,62 +19691,62 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="20"/>
         <source>New Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>新規ファイルセットリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="52"/>
         <source>Comment:</source>
-        <translation type="unfinished">コメント:</translation>
+        <translation>コメント:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="59"/>
         <source>Required</source>
-        <translation type="unfinished">要求</translation>
+        <translation>必須</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="66"/>
         <source>Name:</source>
-        <translation type="unfinished">名前:</translation>
+        <translation>名前:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="80"/>
         <source>Empty revision</source>
-        <translation type="unfinished"></translation>
+        <translation>空のリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="94"/>
         <source>Duplicate existing revision:</source>
-        <translation type="unfinished"></translation>
+        <translation>既存のリビジョンを複製:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="111"/>
         <source>Duplicate everything</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてを複製</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="116"/>
         <source>Duplicate properties only</source>
-        <translation type="unfinished"></translation>
+        <translation>プロパティのみを複製</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="121"/>
         <source>Duplicate content only</source>
-        <translation type="unfinished"></translation>
+        <translation>コンテンツのみを複製</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="148"/>
         <source>Another revision with the same revision name exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>同一のリビジョン名の別のリビジョンが存在しています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.ui" line="155"/>
         <source>Revision name is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン名が必要です。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditFilesetRevisionDlg.cpp" line="63"/>
         <source>Edit Fileset Revision %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン %1 を編集</translation>
     </message>
 </context>
 <context>
@@ -19999,7 +20011,7 @@ Server said (%1): %2</source>
         <location filename="../../FWAdminLib/Configurator/EmailForm.ui" line="511"/>
         <location filename="../../FWAdminLib/Configurator/EmailForm.ui" line="655"/>
         <source>Retrieve incoming mail through secure socket layer</source>
-        <translation></translation>
+        <translation>セキュアソケットレイヤーを通じて受信メールを取得</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/EmailForm.ui" line="535"/>
@@ -20531,7 +20543,7 @@ All your changes will be lost.</source>
     <message>
         <location filename="../../FWAdminLib/EnergySaverPolicyWidget.ui" line="14"/>
         <source>Form</source>
-        <translation></translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnergySaverPolicyWidget.ui" line="30"/>
@@ -21451,7 +21463,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="252"/>
         <source>---</source>
-        <translation></translation>
+        <translation>---</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="421"/>
@@ -21670,7 +21682,7 @@ LDAP Authentication is recommended to automatically create a User - Device relat
     <message>
         <location filename="../../FWAdminLib/EnrollDeviceDlg.ui" line="210"/>
         <source>User Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメント</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollDeviceDlg.ui" line="216"/>
@@ -21679,12 +21691,12 @@ LDAP Authentication is recommended to automatically create a User - Device relat
 Send the User Enrollment URL or Web Clip to direct them to the FileWave MDM User Enrollment page.
 
 LDAP Authentication is recommended to automatically create a User - Device relationship.</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーとデバイスの関係を自動作成するためLDAP認証が推奨されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollDeviceDlg.ui" line="355"/>
         <source>User Enrollment URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメントURL:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollDeviceDlg.ui" line="393"/>
@@ -21964,7 +21976,7 @@ Configuratorで使用できるようにサーバー証明書を信頼してく�
     <message>
         <location filename="../../FWAdminLib/ExecutionControl/EnvironmentEditor.ui" line="74"/>
         <source>+</source>
-        <translation></translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ExecutionControl/EnvironmentEditor.ui" line="93"/>
@@ -22759,34 +22771,34 @@ Server returned : %1</source>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1248"/>
         <source>Failed to move Filesets/Groups: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1256"/>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3309"/>
         <source>Some of the selected items cannot be moved</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したアイテムの一部を移動できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1338"/>
         <source>Failed to delete Filesets/Groups: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1346"/>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1920"/>
         <source>Some of the selected items cannot be deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したアイテムの一部を削除できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1912"/>
         <source>Failed to delete User/Clone/Groups: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3301"/>
         <source>Failed to move Devices/Groups: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
 </context>
 <context>
@@ -23232,7 +23244,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="71"/>
         <source>Upstream Enterprise Definition</source>
         <comment>field upstream_definition display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>アップストリームのエンタープライズの定義</translation>
     </message>
 </context>
 <context>
@@ -23794,103 +23806,103 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="162"/>
         <source>Association Status</source>
         <comment>component AssociationStatus display name</comment>
-        <translation type="unfinished">アソシエーション（配布）の状態</translation>
+        <translation>アソシエーション（配布）のステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="163"/>
         <source>Associations information and status</source>
         <comment>component AssociationStatus description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）情報とステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="164"/>
         <source>ID</source>
         <comment>field association_id display name</comment>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="165"/>
         <source>Association Name</source>
         <comment>field name display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="166"/>
         <source>Association Name</source>
         <comment>field name description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="167"/>
         <source>Is Kiosk</source>
         <comment>field is_kiosk display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kioskです</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="168"/>
         <source>If true, association is kiosk</source>
         <comment>field is_kiosk description</comment>
-        <translation type="unfinished"></translation>
+        <translation>そうであればアソシエーション（配布）はkioskです</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="169"/>
         <source>Client [Group] Name</source>
         <comment>field user_group_name display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>クライアント [グループ] 名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="170"/>
         <source>Name of the targeted &lt;client/clone/client group&gt; in association</source>
         <comment>field user_group_name description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）における対象&lt;クライアント/クローン/クライアントグループ&gt;の名前</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="171"/>
         <source>Fileset [Group] Name</source>
         <comment>field fileset_group_name display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット [グループ] 名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="172"/>
         <source>Name of the targeted &lt;fileset/fileset group&gt; in association</source>
         <comment>field fileset_group_name description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）における対象&lt;ファイルセット/ファイルセットグループ&gt;の名前</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="173"/>
         <source>Status</source>
         <comment>field status display name</comment>
-        <translation type="unfinished">ステータス</translation>
+        <translation>ステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="174"/>
         <source>Detailed status of Association</source>
         <comment>field status description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）の詳細なステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="175"/>
         <source>Deployment Status</source>
         <comment>field deployment_status display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>配布ステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="176"/>
         <source>Deployment status of Association</source>
         <comment>field deployment_status description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）の配布ステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="177"/>
         <source>Exposed on Dashboard</source>
         <comment>field is_exposed_on_dashboard display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ダッシュボードに露出</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="178"/>
         <source>If true, association status is exposed on Dashboard</source>
         <comment>field is_exposed_on_dashboard description</comment>
-        <translation type="unfinished"></translation>
+        <translation>そうであれば、アソシエーション（配布）がダッシュボードに露出されます</translation>
     </message>
 </context>
 <context>
@@ -24265,7 +24277,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="244"/>
         <source>Order number of the booster.</source>
         <comment>field order_number description</comment>
-        <translation></translation>
+        <translation>ブースターの注文番号。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="235"/>
@@ -24758,13 +24770,13 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="320"/>
         <source>Enrollment Username</source>
         <comment>field auth_username display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>エンロールユーザー名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="335"/>
         <source>Device state - Tracked, Archived, Missing, Untracked, Disabled.</source>
         <comment>field state description</comment>
-        <translation type="unfinished"></translation>
+        <translation>デバイス状態 - 追跡済み、アーカイブ済み、欠落、追跡解除、無効。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="321"/>
@@ -25078,25 +25090,25 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="370"/>
         <source>User Enrollment Managed Apple ID</source>
         <comment>field user_enrollment_managed_apple_id display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロール管理Apple ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="371"/>
         <source>Managed Apple ID used to enroll this device with User Enrollment.</source>
         <comment>field user_enrollment_managed_apple_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールによりこのデバイスをエンロールするために利用される管理Apple ID。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="372"/>
         <source>Enrollment Type</source>
         <comment>field device_enrollment_strategy display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>エンロールタイプ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="373"/>
         <source>The enrollment type indicates how the device was enrolled.</source>
         <comment>field device_enrollment_strategy description</comment>
-        <translation type="unfinished"></translation>
+        <translation>エンロールタイプはデバイスがどうエンロールされたかを示すものです。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="374"/>
@@ -25868,7 +25880,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="487"/>
         <source> token</source>
         <comment>field _token display name</comment>
-        <translation> トークン</translation>
+        <translation>トークン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="488"/>
@@ -26450,7 +26462,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="583"/>
         <source> If true, tells the device to configure for Shared iPad. Default is false. Devices that do not meet the Shared iPad minimum requirements will not honor this command.</source>
         <comment>field is_multi_user description</comment>
-        <translation> trueの場合、デバイスに共有iPad用に構成するように指示します。 デフォルトはfalseです。共有iPadの最小要件を満たしていないデバイスは、このコマンドを受け入れません。</translation>
+        <translation>trueの場合、デバイスに共有iPad用に構成するように指示します。 デフォルトはfalseです。共有iPadの最小要件を満たしていないデバイスは、このコマンドを受け入れません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="584"/>
@@ -27247,42 +27259,42 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1697"/>
         <source>Download of dependency fileset failure</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係ファイルセットのダウンロード失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1698"/>
         <source>Downloaded</source>
-        <translation type="unfinished"></translation>
+        <translation>ダンロード完了</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1699"/>
         <source>Downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロード中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1762"/>
         <source>Not Imported</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートされていません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1763"/>
         <source>Not a VPP application</source>
-        <translation type="unfinished"></translation>
+        <translation>VPPアプリケーションではありません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1764"/>
         <source>Not available</source>
-        <translation type="unfinished"></translation>
+        <translation>利用できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1765"/>
         <source>Not enough Mac App Store VPP license</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac App Store VPPライセンスが不足しています</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1766"/>
         <source>Not installed: client is inventory only</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールされていません: クライアントはインベントリーのみ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1771"/>
@@ -27307,17 +27319,17 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1658"/>
         <source>Activating</source>
-        <translation type="unfinished"></translation>
+        <translation>アクティブ化中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1659"/>
         <source>Activation of dependency fileset failure</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係ファイルセットのアクティブ化失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1671"/>
         <source>Available in Kiosk</source>
-        <translation type="unfinished"></translation>
+        <translation>Kioskで利用可能</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1673"/>
@@ -27327,7 +27339,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1674"/>
         <source>Booster/Server disk full</source>
-        <translation type="unfinished"></translation>
+        <translation>ブースター/サーバーディスクの空き容量が不足しています</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1675"/>
@@ -27337,7 +27349,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1676"/>
         <source>Can&apos;t download from server</source>
-        <translation type="unfinished"></translation>
+        <translation>サーバーからダウンロードできません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1677"/>
@@ -27382,7 +27394,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1685"/>
         <source>DEP Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>DEPエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1686"/>
@@ -27407,7 +27419,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1690"/>
         <source>Delete files of a dependency fileset failed</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係ファイルセットのファイルの削除に失敗しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1691"/>
@@ -27417,7 +27429,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1692"/>
         <source>Dependency fileset failed</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係ファイルセットの失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1693"/>
@@ -27432,7 +27444,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1695"/>
         <source>Disk full</source>
-        <translation type="unfinished"></translation>
+        <translation>ディスク空き容量が不足しています</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1696"/>
@@ -27467,17 +27479,17 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1705"/>
         <source>Enrollment via APK</source>
-        <translation type="unfinished"></translation>
+        <translation>APK経由でエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1706"/>
         <source>Enrollment via EMM_API</source>
-        <translation type="unfinished"></translation>
+        <translation>EMM_API経由でエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1707"/>
         <source>Enrollment via fwcld</source>
-        <translation type="unfinished"></translation>
+        <translation>fwcld経由でエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1708"/>
@@ -27497,7 +27509,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1711"/>
         <source>FDE supported</source>
-        <translation></translation>
+        <translation>FDEサポートあり</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1712"/>
@@ -27512,7 +27524,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1714"/>
         <source>Failed CRC validation</source>
-        <translation type="unfinished"></translation>
+        <translation>CRC検証に失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1715"/>
@@ -27537,12 +27549,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1719"/>
         <source>Fileset install failed, a more recent version is installed</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットのインストールに失敗しました。これより新しいバージョンがインストール済みです</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1720"/>
         <source>Generic Error</source>
-        <translation type="unfinished"></translation>
+        <translation>一般的エラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1721"/>
@@ -27552,7 +27564,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1722"/>
         <source>Handled via MDM</source>
-        <translation type="unfinished"></translation>
+        <translation>MDM経由で処理</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1723"/>
@@ -27572,17 +27584,17 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1726"/>
         <source>Idle</source>
-        <translation type="unfinished"></translation>
+        <translation>アイドル</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1727"/>
         <source>Imported</source>
-        <translation type="unfinished">インポート</translation>
+        <translation>インポート済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1728"/>
         <source>Importing</source>
-        <translation type="unfinished">インポート</translation>
+        <translation>インポート中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1729"/>
@@ -27602,37 +27614,37 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1732"/>
         <source>Install failed</source>
-        <translation type="unfinished"></translation>
+        <translation>インストール失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1733"/>
         <source>Installation cancelled by the user</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーによりインストールがキャンセルされました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1734"/>
         <source>Installed</source>
-        <translation type="unfinished">インストール済</translation>
+        <translation>インストール済</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1735"/>
         <source>Installed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールに成功</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1736"/>
         <source>Installed via Mac App Store</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac App Store経由でインストール済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1737"/>
         <source>Installer running now</source>
-        <translation type="unfinished"></translation>
+        <translation>現在インストーラー実行中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1738"/>
         <source>Installing via Mac App Store (can take some time)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac App Store経由でインストール中（若干時間がかかる可能性あり）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1739"/>
@@ -27682,17 +27694,17 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1748"/>
         <source>Mac App Store license associated</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac App Storeライセンスが関連付け済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1749"/>
         <source>Mac App Store license fatal error</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac App Storeライセンスの深刻なエラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1750"/>
         <source>Make files passive of a dependency fileset failed</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係ファイルセットに対しファイルをパッシブにすることに失敗しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1751"/>
@@ -27722,22 +27734,22 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1756"/>
         <source>Network error</source>
-        <translation type="unfinished">ネットワークエラー</translation>
+        <translation>ネットワークエラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1757"/>
         <source>No VPP license associated to this fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>このファイルセットに関連付けられたVPPライセンスは存在しません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1758"/>
         <source>No VPP token associated to this fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>このファイルセットに関連付けられたVPPトークンは存在しません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1759"/>
         <source>No VPP user for this application&apos;s VPP token associated to the device</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイスに関連付けられたこのアプリケーションのVPPトークンのVPPユーザーは存在しません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1760"/>
@@ -27762,12 +27774,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1769"/>
         <source>OTA Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>OTAエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1770"/>
         <source>Passive</source>
-        <translation type="unfinished"></translation>
+        <translation>パッシブ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1772"/>
@@ -27797,7 +27809,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1777"/>
         <source>Presumed DEP Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>再開されたDEPエンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1778"/>
@@ -27807,7 +27819,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1779"/>
         <source>Profile installation failure</source>
-        <translation type="unfinished"></translation>
+        <translation>プロファイルのインストール失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1780"/>
@@ -27847,7 +27859,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1787"/>
         <source>Remote wipe executed</source>
-        <translation type="unfinished"></translation>
+        <translation>リモートワイプ実行済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1788"/>
@@ -27862,32 +27874,32 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1790"/>
         <source>Requirements met</source>
-        <translation type="unfinished"></translation>
+        <translation>要件に合致</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1791"/>
         <source>Requirements not met: architecture</source>
-        <translation type="unfinished"></translation>
+        <translation>要件に合致しません: アーキテクチャー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1792"/>
         <source>Requirements not met: insufficient memory</source>
-        <translation type="unfinished"></translation>
+        <translation>要件に合致しません: メモリ不足</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1793"/>
         <source>Requirements not met: script</source>
-        <translation type="unfinished"></translation>
+        <translation>要件に合致しません: スクリプト</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1794"/>
         <source>Requirements not met: system version</source>
-        <translation type="unfinished"></translation>
+        <translation>要件に合致しません: システムバージョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1795"/>
         <source>Requirements not met: will not retry</source>
-        <translation type="unfinished"></translation>
+        <translation>要件に合致しません: 再試行しません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1796"/>
@@ -27917,12 +27929,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1801"/>
         <source>Script execution failure</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリプト実行に失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1802"/>
         <source>Skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>スキップ済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1803"/>
@@ -27952,7 +27964,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1808"/>
         <source>Tracked</source>
-        <translation type="unfinished"></translation>
+        <translation>追跡済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1809"/>
@@ -27967,17 +27979,17 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1811"/>
         <source>Uninstall failed</source>
-        <translation type="unfinished"></translation>
+        <translation>アンインストールに失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1812"/>
         <source>Uninstaller running now</source>
-        <translation type="unfinished"></translation>
+        <translation>アンインストールを現在実行中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1813"/>
         <source>Universal</source>
-        <translation type="unfinished"></translation>
+        <translation>ユニバーサル</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1814"/>
@@ -27987,32 +27999,32 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1815"/>
         <source>Unknown error</source>
-        <translation type="unfinished"></translation>
+        <translation>不明なエラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1816"/>
         <source>Untracked</source>
-        <translation type="unfinished"></translation>
+        <translation>追跡解除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1817"/>
         <source>Update of dependency fileset failure</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係ファイルセットのアップデート失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1818"/>
         <source>User Enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーエンロールメント</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1819"/>
         <source>User approved enrollment</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー承認エンロール</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1820"/>
         <source>User needs to accept the invite to the organization with a valid iTunes account</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーは有効なiTunesアカウントにより組織への招待を承諾する必要があります</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1821"/>
@@ -28022,37 +28034,37 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1822"/>
         <source>VPP license for asset can not be assigned to a device</source>
-        <translation type="unfinished"></translation>
+        <translation>アセットのVPPライセンスをデバイスに割り当てることができません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1823"/>
         <source>VPP user is retired</source>
-        <translation type="unfinished"></translation>
+        <translation>VPPユーザーがリタイヤしています</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1824"/>
         <source>Waiting for booster</source>
-        <translation type="unfinished"></translation>
+        <translation>ブースターの待機中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1825"/>
         <source>Waiting for higher priority filesets</source>
-        <translation type="unfinished"></translation>
+        <translation>高い優先度のファイルセットの待機中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1826"/>
         <source>Waiting for user to log in</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーのログインの待機中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1827"/>
         <source>Waiting for user to log out</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーのログアウトの待機中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1828"/>
         <source>Waiting for user to log out to install dependency</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーがログアウトして依存関係をインストールするのを待っています</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1829"/>
@@ -28082,7 +28094,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1834"/>
         <source>completed</source>
-        <translation type="unfinished"></translation>
+        <translation>完了</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1835"/>
@@ -28097,7 +28109,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1837"/>
         <source>error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1838"/>
@@ -28162,7 +28174,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1850"/>
         <source>remaining</source>
-        <translation type="unfinished"></translation>
+        <translation>残り</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1851"/>
@@ -28197,7 +28209,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1857"/>
         <source>warning</source>
-        <translation type="unfinished"></translation>
+        <translation>警告</translation>
     </message>
 </context>
 <context>
@@ -28304,7 +28316,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1592"/>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1631"/>
         <source>is</source>
-        <translation>&#x3000;</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1593"/>
@@ -28548,25 +28560,25 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="712"/>
         <source>Revision ID</source>
         <comment>field revision_id display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="713"/>
         <source>The fileset revision identifier.</source>
         <comment>field revision_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンの識別子。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="714"/>
         <source>Revision Name</source>
         <comment>field revision_name display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="715"/>
         <source>The fileset revision name.</source>
         <comment>field revision_name description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン名。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="716"/>
@@ -31490,7 +31502,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1189"/>
         <source> token</source>
         <comment>field _token display name</comment>
-        <translation> トークン</translation>
+        <translation>トークン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1190"/>
@@ -31901,7 +31913,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1257"/>
         <source>The platform this license is for (iOS, OSX, Universal) or Book).</source>
         <comment>field platform description</comment>
-        <translation type="unfinished"></translation>
+        <translation>このライセンスが対象とするプラットフォーム（iOS、OSX、ユニバーサルまたはブック）。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1258"/>
@@ -32530,7 +32542,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1361"/>
         <source>The platform this license is for (iOS, OSX, Universal) or Book).</source>
         <comment>field platform description</comment>
-        <translation type="unfinished"></translation>
+        <translation>このライセンスが対象とするプラットフォーム（iOS、OSX、ユニバーサルまたはブック）。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1362"/>
@@ -32883,7 +32895,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1419"/>
         <source>Managed Apple Id - for Education accounts or User Enrollment.</source>
         <comment>field managed_apple_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>管理Apple ID - 教育用アカウントまたはユーザーエンロールメント対象。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1420"/>
@@ -33330,49 +33342,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1485"/>
         <source>Creation Date</source>
         <comment>field creation_date display name</comment>
-        <translation type="unfinished">作成日</translation>
+        <translation>作成日</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1486"/>
         <source>Date update has been created.</source>
         <comment>field creation_date description</comment>
-        <translation type="unfinished"></translation>
+        <translation>日付アップデートが作成されました。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1487"/>
         <source>Metadata</source>
         <comment>field metadata display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>メタデータ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1488"/>
         <source>Auxiliary information about the Update</source>
         <comment>field metadata description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アップデートに関する補足情報</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1489"/>
         <source>Import Error</source>
         <comment>field import_error display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>インポートのエラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1490"/>
         <source>Last Error importing the packages</source>
         <comment>field import_error description</comment>
-        <translation type="unfinished"></translation>
+        <translation>パッケージのインポートに関する前回のエラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1491"/>
         <source>Update Status</source>
         <comment>field import_status display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>アップデートのステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1492"/>
         <source>Status of the import of the update packages</source>
         <comment>field import_status description</comment>
-        <translation type="unfinished"></translation>
+        <translation>アップデートパッケージのインポートのステータス</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1493"/>
@@ -33704,12 +33716,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1276"/>
         <source>Selected fileset for merge was not found</source>
-        <translation type="unfinished"></translation>
+        <translation>結合用に選択したファイルセットが見つかりませんでした</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1300"/>
         <source>Information about revisions is not valid for fileset: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1328"/>
@@ -33717,17 +33729,17 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1370"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1414"/>
         <source>Import Fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットをインポート</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1329"/>
         <source>Please select Fileset Revisions to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポートするファイルセットリビジョンを選択してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1415"/>
         <source>Please select which Fileset Revision will be default after import.</source>
-        <translation type="unfinished"></translation>
+        <translation>インポート後にデフォルトとなるファイルセットリビジョンを選択してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1453"/>
@@ -33737,22 +33749,22 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1454"/>
         <source>Adding revisions to existing fileset...</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンを既存のファイルセットへ追加中...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1568"/>
         <source>Cannot set default revision</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョンを設定できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1579"/>
         <source>Fileset Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1580"/>
         <source>Error while saving revision list for fileset %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1597"/>
@@ -33762,18 +33774,18 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1608"/>
         <source>Creating files and folders on server for revision...</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン用にサーバーでファイルとフォルダーの作成中...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1609"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1692"/>
         <source>Revision &apos;%1&apos; (ID %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン &apos;%1&apos; (ID %2)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1691"/>
         <source>Importing files for revision...</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン用ファイルをインポート中...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1620"/>
@@ -33784,23 +33796,23 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1240"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="2161"/>
         <source>The source/destination path &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">転送元/転送先パス &apos;%1&apos; が存在しません。</translation>
+        <translation>ソース/出力先パス &apos;%1&apos; が存在しません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1243"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="2164"/>
         <source>The fileset file &apos;%1&apos; is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットファイル &apos;%1&apos; は無効です。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1353"/>
         <source>Unable to import fileset revision, revision &apos;%1&apos; already exists in target fileset &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンがインポートできません。リビジョン &apos;%1&apos; は対象ファイルセット &apos;%2&apos; に既に存在しています。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1369"/>
         <source>Revision &apos;%1&apos; doesn&apos;t exist in fileset &apos;%2&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン &apos;%1&apos; がファイルセット &apos;%2&apos; に存在していません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/FWModernImportExport.cpp" line="1620"/>
@@ -34047,7 +34059,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/models/filesearchmodel.cpp" line="45"/>
         <source>Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン</translation>
     </message>
 </context>
 <context>
@@ -34224,7 +34236,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="362"/>
         <source> and </source>
-        <translation> と </translation>
+        <translation>と </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="366"/>
@@ -34234,7 +34246,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="369"/>
         <source> &lt;a href=&quot;%1&quot; style=&quot;text-decoration: none&quot;&gt;[details]&lt;/a&gt;</source>
-        <translation> &lt;a href=&quot;%1&quot; style=&quot;text-decoration: none&quot;&gt;[詳細]&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;%1&quot; style=&quot;text-decoration: none&quot;&gt;[詳細]&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="430"/>
@@ -34854,17 +34866,17 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1503"/>
         <source>Would you like to rename this folder in only this revision or in all filesets?</source>
-        <translation type="unfinished"></translation>
+        <translation>このフォルダーの名前をこのリビジョンのみ、またはすべてのファイルセットにおいて変更しますか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1506"/>
         <source>Only this revision</source>
-        <translation type="unfinished"></translation>
+        <translation>このリビジョンのみ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="1507"/>
         <source>All filesets</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのファイルセット</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="2070"/>
@@ -35005,13 +35017,13 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <location filename="../../FWAdminLib/FilesetDependenciesWidget.cpp" line="45"/>
         <location filename="../../FWAdminLib/FilesetDependenciesWidget.cpp" line="63"/>
         <source>Fileset name</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット名</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetDependenciesWidget.cpp" line="45"/>
         <location filename="../../FWAdminLib/FilesetDependenciesWidget.cpp" line="63"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetDependenciesWidget.cpp" line="68"/>
@@ -35246,22 +35258,22 @@ Managed Distribution Filesets will be created in the root group.</source>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.ui" line="14"/>
         <source>Move selected users to...</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したユーザーを移動...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.ui" line="113"/>
         <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.ui" line="120"/>
         <source>Move to (root)</source>
-        <translation type="unfinished"></translation>
+        <translation>移動（ルート）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.ui" line="127"/>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -35735,7 +35747,7 @@ MacOS 10.1以降のAPFSは認証済み再起動のオプションをサポート
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="153"/>
         <source>Configuration (iOS only)</source>
-        <translation type="unfinished"></translation>
+        <translation>構成（iOS限定）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="390"/>
@@ -35786,7 +35798,7 @@ Server said (%1): %2.</source>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1108"/>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1353"/>
         <source>Cannot save Fileset Dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットの依存関係を保存できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1231"/>
@@ -35819,27 +35831,27 @@ Server said (%1): %2.</source>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionChooserDialog.ui" line="14"/>
         <source>Select Fileset Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンを選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionChooserDialog.ui" line="35"/>
         <source>Please select fileset revisions.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンを選択してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionChooserDialog.ui" line="53"/>
         <source>Select All</source>
-        <translation type="unfinished">すべて選択</translation>
+        <translation>すべて選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionChooserDialog.ui" line="60"/>
         <source>Select Default</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトを選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionChooserDialog.cpp" line="152"/>
         <source>At least one of the revisions should be selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>少なくともリビジョンの一つを選択する必要があります。</translation>
     </message>
 </context>
 <context>
@@ -35847,12 +35859,12 @@ Server said (%1): %2.</source>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDefaultChooserDialog.ui" line="20"/>
         <source>Select Fileset Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンを選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDefaultChooserDialog.ui" line="50"/>
         <source>Please select default revision.</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョンを選択してください。</translation>
     </message>
 </context>
 <context>
@@ -35860,78 +35872,78 @@ Server said (%1): %2.</source>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="26"/>
         <source>Confirmation</source>
-        <translation type="unfinished">確認</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="50"/>
         <source>This revision is the default one.
 Please choose a new default revision:</source>
-        <translation type="unfinished"></translation>
+        <translation>新たなデフォルトのリビジョンを選択してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="111"/>
         <source>This revision has some associations.</source>
-        <translation type="unfinished"></translation>
+        <translation>このリビジョンには一定のアソシエーション（配布）があります。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="131"/>
         <source>Delete associations of this revision</source>
-        <translation type="unfinished"></translation>
+        <translation>このリビジョンのアソシエーション（配布）を削除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="148"/>
         <source>Assign associations to another revision:</source>
-        <translation type="unfinished"></translation>
+        <translation>アソシエーション（配布）を別のリビジョンへ割り当て:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="253"/>
         <source>This revision has some filesets depending on it. &lt;a href=&quot;#&quot; style=&quot;text-decoration: none&quot;&gt;[details]&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;#&quot; style=&quot;text-decoration: none&quot;&gt;[詳細]&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="264"/>
         <source>Delete dependencies</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係を削除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.ui" line="275"/>
         <source>Replace dependencies with another revision:</source>
-        <translation type="unfinished"></translation>
+        <translation>依存関係を別のリビジョンと置き換え:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="19"/>
         <source>Delete Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンを削除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="72"/>
         <source>All %1 associations will be deleted.</source>
-        <translation type="unfinished"></translation>
+        <translation>すべての %1 アソシエーション（配布）が削除されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="82"/>
         <source>%1 will be deleted from all dependencies.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 がすべての依存関係から削除されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="153"/>
         <source>This is the default revision so all associations assigned to default revision will be assigned to the new default revision and all %1 associations will be assigned to %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>これはデフォルトのリビジョンであるため、デフォルトのリビジョンに割り当てられたすべてのアソシエーション（配布）は新規のデフォルトのリビジョンへ割り当てられ、すべての %1 アソシエーション（配布）は %2 へ割り当てられます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="156"/>
         <source>All %1 associations will be assigned to %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>すべての %1 アソシエーション（配布）は %2 へ割り当てられます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="167"/>
         <source>This is the default revision so all dependents of default revision will depend on the new default revision and all %1 dependents will depend on %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>これはデフォルトのリビジョンであるため、デフォルトのリビジョンのすべての依存関係は新規のデフォルトのリビジョンに依存することとなり、すべての %1 依存関係が %2 に依存することになります。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionDeletionConfirmationDlg.cpp" line="170"/>
         <source>All %1 dependents will depend on %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>すべての %1 依存関係は %2 に依存することになります。</translation>
     </message>
 </context>
 <context>
@@ -35939,7 +35951,7 @@ Please choose a new default revision:</source>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionItemDelegate.cpp" line="62"/>
         <source>&lt;default&gt; (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;デフォルト&gt; (%1)</translation>
     </message>
 </context>
 <context>
@@ -35947,22 +35959,22 @@ Please choose a new default revision:</source>
     <message>
         <location filename="../../FWAdminLib/models/FilesetRevisionModel.cpp" line="98"/>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/FilesetRevisionModel.cpp" line="100"/>
         <source>Comment</source>
-        <translation type="unfinished">コメント</translation>
+        <translation>コメント</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/FilesetRevisionModel.cpp" line="102"/>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/FilesetRevisionModel.cpp" line="272"/>
         <source>&lt;new&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;新規&gt;</translation>
     </message>
 </context>
 <context>
@@ -35970,12 +35982,12 @@ Please choose a new default revision:</source>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionsHeader.cpp" line="28"/>
         <source>Revision:</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionsHeader.cpp" line="32"/>
         <source>Manage Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンを管理</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionsHeader.cpp" line="186"/>
@@ -36044,23 +36056,24 @@ Please choose a new default revision:</source>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="179"/>
         <source>Fileset not available anymore</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットが利用できなくなりました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="180"/>
         <source>The fileset is not available anymore. The dialog will close now.</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイアログが閉じます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="202"/>
         <source>Error saving the scripts</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリプト保存エラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="203"/>
         <source>%1
 Do you want to close the dialog?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+このダイアログを閉じますか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="240"/>
@@ -36115,7 +36128,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="515"/>
         <source>Switching the current revision will save the scripts for it.</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のリビジョンを切り替えるとそのスクリプトが保存されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetScriptsDlg.cpp" line="584"/>
@@ -36151,12 +36164,12 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="191"/>
         <source>Default Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="193"/>
         <source>Revision Count</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンのカウント</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="195"/>
@@ -36176,7 +36189,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="201"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetsgroupsmodel.cpp" line="203"/>
@@ -36250,7 +36263,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/views/filesetsgroupsview.cpp" line="169"/>
         <source>Move To...</source>
-        <translation type="unfinished">移動...</translation>
+        <translation>移動...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/filesetsgroupsview.cpp" line="170"/>
@@ -36275,7 +36288,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/views/filesetsgroupsview.cpp" line="174"/>
         <source>Create Association(s)...</source>
-        <translation type="unfinished">アソシエーション（配布）を生成...</translation>
+        <translation>アソシエーション（配布）を作成...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/filesetsgroupsview.cpp" line="175"/>
@@ -36544,7 +36557,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="49"/>
         <source>Notes</source>
-        <translation></translation>
+        <translation>注</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="50"/>
@@ -37472,7 +37485,7 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="26"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is a device restriction; if disallowed here, then the specific application policies and permission grants lose&amp;nbsp;&amp;#x2011;&amp;nbsp;the camera will be disabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;これはデバイスの制約です。ここで禁止された場合、特定のアプリケーションポリシーと権限が失われます。&amp;#x2011;&amp;nbsp;カメラが無効になります。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="27"/>
@@ -37714,27 +37727,27 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="20"/>
         <source>EAP-AKA (Authentication and Key Agreement)</source>
-        <translation></translation>
+        <translation>EAP-AKA（認証および鍵共有）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="21"/>
         <source>EAP-TLS (Transport Layer Security)</source>
-        <translation></translation>
+        <translation>EAP-TLS（トランスポート層セキュリティ）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="22"/>
         <source>EAP-TTLS (Tunneled Transport Layer Security)</source>
-        <translation></translation>
+        <translation>EAP-TTLS（トンネル型トランスポート層セキュリティ）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="23"/>
         <source>EAP-SIM (Subscriber Identity Module)</source>
-        <translation></translation>
+        <translation>EAP-SIM（加入者識別モジュール）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="24"/>
         <source>PEAP (Protected EAP)</source>
-        <translation></translation>
+        <translation>PEAP（保護EAP）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.cpp" line="27"/>
@@ -37930,7 +37943,7 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="14"/>
         <source>WEP-PSK</source>
-        <translation></translation>
+        <translation>WEP-PSK</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="14"/>
@@ -37940,7 +37953,7 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="15"/>
         <source>WEP-8021X</source>
-        <translation></translation>
+        <translation>WEP-8021X</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="15"/>
@@ -37950,7 +37963,7 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="16"/>
         <source>WPA1/2/3-PSK</source>
-        <translation></translation>
+        <translation>WPA1/2/3-PSK</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="16"/>
@@ -37960,7 +37973,7 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="17"/>
         <source>WPA-EAP</source>
-        <translation></translation>
+        <translation>WPA-EAP</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.cpp" line="17"/>
@@ -37993,107 +38006,107 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="14"/>
         <source>OAuth Service Account Token - FileWave</source>
-        <translation type="unfinished">OAuth サービスアカウントトークン - FileWave</translation>
+        <translation>OAuthサービスアカウントトークン - FileWave</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="22"/>
         <source>Delegated Username:</source>
-        <translation type="unfinished">デリゲートユーザー名:</translation>
+        <translation>デリゲートユーザー名:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="38"/>
         <source>Service Account Token:</source>
-        <translation type="unfinished">サービスアカウントトークン:</translation>
+        <translation>サービスアカウントトークン:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="51"/>
         <source>Not Configured</source>
-        <translation type="unfinished">未構成</translation>
+        <translation>未構成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="58"/>
         <source>Import the service account OAuth token.</source>
-        <translation type="unfinished">サービスアカウントOAuthトークンをインポートします。</translation>
+        <translation>サービスアカウントOAuthトークンをインポートします。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="61"/>
         <source>Import</source>
-        <translation type="unfinished">インポート</translation>
+        <translation>インポート</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="68"/>
         <source>Clear the service account OAuth token.</source>
-        <translation type="unfinished">サービスアカウントOAuthトークンをクリアします。</translation>
+        <translation>サービスアカウントOAuthトークンを消去します。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="71"/>
         <source>Clear</source>
-        <translation type="unfinished">クリア</translation>
+        <translation>クリア</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="91"/>
         <source>Email address of the delegated username.</source>
-        <translation type="unfinished">デリゲートユーザー名のメールアドレス。</translation>
+        <translation>デリゲートユーザー名のメールアドレス。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.ui" line="94"/>
         <source>user@gmail.com</source>
-        <translation type="unfinished">user@gmail.com</translation>
+        <translation>user@gmail.com</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="62"/>
         <source>Configuration failed</source>
-        <translation type="unfinished">構成に失敗しました</translation>
+        <translation>構成に失敗しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="117"/>
         <source>Import Service Account OAuth Token</source>
-        <translation type="unfinished">サービスアカウントOAuthトークンをインポート</translation>
+        <translation>サービスアカウントOAuthトークンをインポート</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="118"/>
         <source>chromeapi.json</source>
-        <translation type="unfinished">chromeapi.json</translation>
+        <translation>chromeapi.json</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="119"/>
         <source>OAuth 2.0 Service Account Token (*.json)</source>
-        <translation type="unfinished">OAuth 2.0 サービスアカウントトークン (*.json)</translation>
+        <translation>OAuth 2.0サービスアカウントトークン (*.json)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="138"/>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="148"/>
         <source>Import failed</source>
-        <translation type="unfinished">インポートに失敗しました</translation>
+        <translation>インポート失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="138"/>
         <source>An error occurred while reading the file:
 %1</source>
-        <translation type="unfinished">ファイルを読込み中にエラーが発生しました。
+        <translation>ファイルを読込み中にエラーが発生しました:
 %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="148"/>
         <source>The selected file is not a valid JSON file:
 %1</source>
-        <translation type="unfinished">選択したファイルは有効なJSONファイルでありません。
+        <translation>選択したファイルは有効なJSONファイルでありません:
 %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="224"/>
         <source>Not configured</source>
-        <translation type="unfinished">未構成</translation>
+        <translation>未構成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="225"/>
         <source>Invalid token</source>
-        <translation type="unfinished">無効なトークン</translation>
+        <translation>無効なトークン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/GoogleOAuthTokenPrefsDlg.cpp" line="226"/>
         <source>Token set</source>
-        <translation type="unfinished">トークンを設定</translation>
+        <translation>トークン設定済み</translation>
     </message>
 </context>
 <context>
@@ -38665,12 +38678,12 @@ Affected payload: %1</source>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.ui" line="568"/>
         <source>Other Filesets reserve: </source>
-        <translation type="unfinished"></translation>
+        <translation>その他のファイルセット予約: </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.ui" line="599"/>
         <source>Other dynamic quota Filesets use: </source>
-        <translation type="unfinished"></translation>
+        <translation>その他のダイナミッククォータのファイルセットの使用: </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/IOSAppDetailsTab.ui" line="640"/>
@@ -39670,7 +39683,7 @@ The code itself is just:
     <message>
         <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.ui" line="116"/>
         <source>Note that assigning an image or a driver pack to a group only assigns the image/driver pack to the devices in this group at this particular moment. It is not a dynamic association.</source>
-        <translation type="unfinished"></translation>
+        <translation>これはダイナミックなアソシエーション（配布）ではありません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImagingAssociationsResultDlg.cpp" line="79"/>
@@ -40373,6 +40386,43 @@ Please try again in a few seconds.</source>
 <context>
     <name>ImportMappingsDialog</name>
     <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="21"/>
+        <source>Download template</source>
+        <translation>テンプレートをダウンロード</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="57"/>
+        <source>Open association file</source>
+        <translation>アソシエーション（配布）ファイルを開く</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="59"/>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="71"/>
+        <source>Comma Separated Values files (*.csv)</source>
+        <translation>コンマ区切り値ファイル (*.csv)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="70"/>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="81"/>
+        <source>Save template</source>
+        <translation>テンプレートを保存</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="81"/>
+        <source>Template successfully saved</source>
+        <translation>テンプレートを保存しました</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="85"/>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="85"/>
+        <source>Can&apos;t save template to the file: %1</source>
+        <translation>テンプレートをファイルに保存できません: %1</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.ui" line="14"/>
         <source>Import User/Device Mappings</source>
         <translation>ユーザー/デバイスマッピングをインポート</translation>
@@ -40413,43 +40463,6 @@ Please try again in a few seconds.</source>
 message</source>
         <translation>メッセージ
 メッセージ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="21"/>
-        <source>Download template</source>
-        <translation>テンプレートをダウンロード</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="57"/>
-        <source>Open association file</source>
-        <translation>アソシエーション（配布）ファイルを開く</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="59"/>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="71"/>
-        <source>Comma Separated Values files (*.csv)</source>
-        <translation>コンマ区切り値ファイル (*.csv)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="70"/>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="81"/>
-        <source>Save template</source>
-        <translation>テンプレートを保存</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="81"/>
-        <source>Template successfully saved</source>
-        <translation>テンプレートを保存しました</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="85"/>
-        <source>Error</source>
-        <translation>エラー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="85"/>
-        <source>Can&apos;t save template to the file: %1</source>
-        <translation>テンプレートをファイルに保存できません: %1</translation>
     </message>
 </context>
 <context>
@@ -40618,7 +40631,7 @@ message</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryExpressionWidget.ui" line="38"/>
         <source>Not</source>
-        <translation></translation>
+        <translation>禁止</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryExpressionWidget.ui" line="60"/>
@@ -40773,7 +40786,7 @@ Internal name: %2</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryTab.cpp" line="43"/>
         <source>Create Smart Group</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループを作成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryTab.cpp" line="282"/>
@@ -40841,23 +40854,23 @@ Internal name: %2</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="296"/>
         <source>Selected query is currently being saved. Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>後でもう一度試してみてください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="336"/>
         <source> copy</source>
-        <translation> コピー</translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="295"/>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="308"/>
         <source>Edit Query</source>
-        <translation type="unfinished">クエリを編集</translation>
+        <translation>クエリを編集</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="309"/>
         <source>Another administrator is currently editing the selected query. Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>後でもう一度試してみてください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="385"/>
@@ -40888,17 +40901,17 @@ Internal name: %2</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="480"/>
         <source>Create Smart Group</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループを作成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="546"/>
         <source>Smart Group creation</source>
-        <translation type="unfinished"></translation>
+        <translation>スマートグループ作成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="547"/>
         <source>Smart groups made from inventory queries must use a &quot;device&quot; main component.</source>
-        <translation type="unfinished"></translation>
+        <translation>インベントリークエリから作成されたスマートグループは「デバイス」のメインコンポーネントを使用する必要があります。</translation>
     </message>
 </context>
 <context>
@@ -40919,24 +40932,24 @@ Internal name: %2</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultView.cpp" line="99"/>
         <source>Error on the view</source>
-        <translation type="unfinished">ビューでエラーが発生しました</translation>
+        <translation>ビューでエラーが発生しました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultView.cpp" line="162"/>
         <source>Query changed</source>
-        <translation type="unfinished">クエリは変更されました</translation>
+        <translation>クエリが変更されました</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultView.cpp" line="162"/>
         <source>The query has changed on the server.
 Data needs to be reloaded</source>
-        <translation type="unfinished">サーバー上でクエリが変更されました。
+        <translation>サーバー上でクエリが変更されました。
 データをリロードする必要があります</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultView.cpp" line="247"/>
         <source>Reveal Client</source>
-        <translation type="unfinished"></translation>
+        <translation>クライアントを表示</translation>
     </message>
 </context>
 <context>
@@ -40944,22 +40957,22 @@ Data needs to be reloaded</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultWidget.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">フォーム</translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="36"/>
         <source>Search results...</source>
-        <translation type="unfinished"></translation>
+        <translation>検索結果...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="105"/>
         <source>Total number of inventory query results: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="107"/>
         <source>Total number of inventory query results: %1 of %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2</translation>
     </message>
 </context>
 <context>
@@ -41231,7 +41244,7 @@ Data needs to be reloaded</source>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseDefinitionModel.cpp" line="132"/>
         <source>None (dynamic quota)</source>
-        <translation type="unfinished"></translation>
+        <translation>なし（ダイナミッククォータ）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseDefinitionModel.cpp" line="136"/>
@@ -41472,26 +41485,6 @@ Your changes will be lost.</source>
 <context>
     <name>LicenseTabWidget</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="17"/>
-        <source>Form</source>
-        <translation>フォーム</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="42"/>
-        <source>License Management</source>
-        <translation>ライセンス管理</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="66"/>
-        <source>Licenses</source>
-        <translation>ライセンス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="73"/>
-        <source>Requiring Attention</source>
-        <translation>警告</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="56"/>
         <source>New License...</source>
         <translation>新規ライセンス...</translation>
@@ -41600,7 +41593,9 @@ Your changes will be lost.</source>
 %1 new fileset(s) for these licenses will be created on the next sync with the VPP service
 
 Note that you will have to do a Model Update to be able to use them in associations.</source>
-        <translation type="unfinished"></translation>
+        <translation>これらのライセンスの %1 新規ファイルセットはVPPサービスにより次回の同期化において作成されます
+
+アソシエーション（配布）で利用できるようにするためモデル更新を実行する必要があることに注意してください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="317"/>
@@ -41611,7 +41606,7 @@ Would you like to create %1 new fileset(s) for these licenses now ?
 Note that you will have to do a Model Update to be able to use them in associations.
 
 It might take a few seconds before the filesets appear in the fileset tab.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットがファイルセットタブに表示されるまで数秒かかることがあります。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="380"/>
@@ -41658,17 +41653,17 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="563"/>
         <source> copy</source>
-        <translation> コピー</translation>
+        <translation>コピー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="597"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="597"/>
         <source>Error creating fileset(s) from the selected licenses</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したライセンスからのファイルセット作成中のエラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="608"/>
@@ -41710,6 +41705,26 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
         <source>Synchronization not possible: %1</source>
         <translation>同期できません: %1</translation>
     </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="17"/>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="42"/>
+        <source>License Management</source>
+        <translation>ライセンス管理</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="66"/>
+        <source>Licenses</source>
+        <translation>ライセンス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/LicenseTabWidget.ui" line="73"/>
+        <source>Requiring Attention</source>
+        <translation>警告</translation>
+    </message>
 </context>
 <context>
     <name>LockEventTracker</name>
@@ -41726,7 +41741,7 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="154"/>
         <source> - ID: %1</source>
-        <translation> - ID: %1</translation>
+        <translation>- ID: %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="186"/>
@@ -41837,27 +41852,27 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="282"/>
         <source>DEP Profiles</source>
-        <translation type="unfinished">DEPプロファイル</translation>
+        <translation>DEPプロファイル</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="286"/>
         <source>Deployments</source>
-        <translation type="unfinished"></translation>
+        <translation>配布</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="288"/>
         <source>Fileset Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="290"/>
         <source>Fileset Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットグループ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="296"/>
         <source>Inventory Queries</source>
-        <translation type="unfinished">インベントリークエリ（情報検索）</translation>
+        <translation>インベントリークエリ（情報検索）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="321"/>
@@ -42024,6 +42039,11 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
 <context>
     <name>LoginItemsMountDialog</name>
     <message>
+        <location filename="../../FWAdminLib/Configurator/LoginItemsForm.cpp" line="24"/>
+        <source>Add</source>
+        <translation>追加</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Configurator/LoginItemsMount.ui" line="20"/>
         <location filename="../../FWAdminLib/Configurator/LoginItemsMount.ui" line="26"/>
         <source>Add Mount Point</source>
@@ -42073,11 +42093,6 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
         <location filename="../../FWAdminLib/Configurator/LoginItemsMount.ui" line="104"/>
         <source>[optional]</source>
         <translation>[オプション]</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/LoginItemsForm.cpp" line="24"/>
-        <source>Add</source>
-        <translation>追加</translation>
     </message>
 </context>
 <context>
@@ -42309,7 +42324,7 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="301"/>
         <source>Set computer name to computer record name</source>
-        <translation></translation>
+        <translation>コンピューター名をコンピューター記録名に設定します</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="308"/>
@@ -42751,119 +42766,119 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.ui" line="14"/>
         <source>Fileset Revision Management</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン管理</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.ui" line="53"/>
         <source>+</source>
-        <translation type="unfinished">+</translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.ui" line="60"/>
         <source>-</source>
-        <translation type="unfinished"></translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.ui" line="70"/>
         <source>Edit</source>
-        <translation type="unfinished">編集</translation>
+        <translation>編集</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.ui" line="80"/>
         <source>Set as default</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトとして設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="70"/>
         <source>Save</source>
-        <translation type="unfinished">保存</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="103"/>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="137"/>
         <source>Fileset Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョン</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="104"/>
         <source>You have unsaved changes. Would you like to save them?</source>
-        <translation type="unfinished"></translation>
+        <translation>これらを保存しますか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="127"/>
         <source>Cannot set default revision</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョンを設定できません</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="128"/>
         <source>Cannot change the default revision:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="138"/>
         <source>Error while saving revision list for fileset %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="200"/>
         <source>Delete Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットリビジョンを削除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="201"/>
         <source>Do you really want to delete the selected Fileset Revision?</source>
-        <translation type="unfinished"></translation>
+        <translation>選択したファイルセットリビジョンを削除してもよろしいですか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="251"/>
         <source>The default revision is used </source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョンが使用されています </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="253"/>
         <source>in 1 association</source>
-        <translation type="unfinished"></translation>
+        <translation>1 アソシエーション（配布）中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="255"/>
         <source>in %1 associations</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 アソシエーション（配布）中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="257"/>
         <source> and </source>
-        <translation type="unfinished"></translation>
+        <translation>および </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="259"/>
         <source>as a dependency of 1 fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>1 ファイルセットの依存関係として</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="261"/>
         <source>as a dependency of %1 filesets</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ファイルセットの依存関係として</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="262"/>
         <source>, are you sure you want to change the default revision?</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルトのリビジョンを変更してもよろしいですか？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="264"/>
         <source>Set revision as default</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンをデフォルトとして設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="333"/>
         <source>Error</source>
-        <translation type="unfinished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="333"/>
         <source>New name for revision is not unique</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンの新規名称が固有のものでありません</translation>
     </message>
 </context>
 <context>
@@ -42936,7 +42951,7 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/ManagedPolicyDlg.ui" line="160"/>
         <source>Fileset Name:</source>
-        <translation></translation>
+        <translation>ファイルセット名:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManagedPolicyDlg.ui" line="179"/>
@@ -44220,36 +44235,36 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="393"/>
         <source>Create New Association(s)</source>
-        <translation type="unfinished">新規アソシエーション（配布）を作成</translation>
+        <translation>新規アソシエーション（配布）を作成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="407"/>
         <source>Choose Revision(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンを選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="508"/>
         <source>Successfully created %1 associations between:
 %2 AND %3</source>
-        <translation type="unfinished">次の間に %1 アソシエーション（配布）を作成しました:
+        <translation>次の間に %1 アソシエーション（配布）を作成しました:
 %2 と %3</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="515"/>
         <source>At least one of the assocations between %1 AND %2 already existed. The others were created successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>その他のものが作成されました。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="520"/>
         <source>An error occurred when trying to create the associations between:
 %2 AND %3</source>
-        <translation type="unfinished">次の間のアソシエーション（配布）作成時にエラーが発生しました:
+        <translation>次の間のアソシエーション（配布）作成時にエラーが発生しました:
 %2 と %3</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="556"/>
         <source>There is another Create Assocation(s) dialog already running. Do you wish to close it?</source>
-        <translation type="unfinished"></translation>
+        <translation>閉じてもよろしいですか？</translation>
     </message>
 </context>
 <context>
@@ -44350,7 +44365,7 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="353"/>
         <source>Select Revisions</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョンを選択</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewAssociationDlg.cpp" line="355"/>
@@ -44444,7 +44459,7 @@ located on the client computer:
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDetails.cpp" line="22"/>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDetails.cpp" line="35"/>
         <source>Serial/MAC</source>
-        <translation type="unfinished">シリアル/MAC</translation>
+        <translation>シリアル/MAC</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDetails.cpp" line="23"/>
@@ -44551,13 +44566,13 @@ located on the client computer:
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="119"/>
         <source>There is already a client named &quot;%1&quot;.
 As the client name must be unique, please resolve the conflict for these clients:</source>
-        <translation type="unfinished"></translation>
+        <translation>クライアント名は固有のものでなければならないため、これらのクライアントの競合を解消してください:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="125"/>
         <source>The device identifier of the new client &quot;%1&quot; is already used by an existing client: &quot;%2&quot;.
 As the device identifier must be unique, please resolve the conflict for these clients:</source>
-        <translation type="unfinished"></translation>
+        <translation>デバイス識別子は固有のものでなければならないため、これらのクライアントの競合を解消してください:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="128"/>
@@ -44568,12 +44583,12 @@ As the device identifier must be unique, please resolve the conflict for these c
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="131"/>
         <source>The serial number or MAC address of the new client &quot;%1&quot; (%2) is already used by an existing client: &quot;%3&quot;.
 As the serial number or MAC address must be unique, please resolve the conflict for these clients:</source>
-        <translation type="unfinished"></translation>
+        <translation>シリアル番号またはMACアドレスは固有のものでなければならないため、これらのクライアントの競合を解消してください:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="135"/>
         <source>Select this option if you want to refuse the client for now. You can fix the serial number or MAC address and re-enroll it later.</source>
-        <translation type="unfinished"></translation>
+        <translation>シリアル番号またはMACアドレスを修正し、あとで再度エンロールすることができます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="146"/>
@@ -44611,7 +44626,7 @@ As the serial number or MAC address must be unique, please resolve the conflict 
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="62"/>
         <source>Serial/MAC</source>
-        <translation type="unfinished">シリアル/MAC</translation>
+        <translation>シリアル/MAC</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="63"/>
@@ -44759,7 +44774,7 @@ As the serial number or MAC address must be unique, please resolve the conflict 
     <message>
         <location filename="../../FWAdminLib/models/newmobiledevicesmodel.cpp" line="21"/>
         <source>Enrollment Type</source>
-        <translation type="unfinished"></translation>
+        <translation>エンロールタイプ</translation>
     </message>
 </context>
 <context>
@@ -45828,7 +45843,7 @@ As the serial number or MAC address must be unique, please resolve the conflict 
         <location filename="../../FWAdminLib/Configurator/PerAppVPNForm.cpp" line="23"/>
         <location filename="../../FWAdminLib/Configurator/PerAppVPNForm.cpp" line="26"/>
         <source>www.example.com</source>
-        <translation></translation>
+        <translation>www.example.com</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PerAppVPNForm.cpp" line="18"/>
@@ -45893,52 +45908,52 @@ As the serial number or MAC address must be unique, please resolve the conflict 
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="23"/>
         <source>Unspecified</source>
-        <translation type="unfinished">未指定</translation>
+        <translation>未指定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="23"/>
         <source>Unspecified. Defaults to Available.</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可に対するデフォルトです。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="24"/>
         <source>Preinstalled</source>
-        <translation type="unfinished"></translation>
+        <translation>事前インストール済み。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="24"/>
         <source>The app is automatically installed and can be removed by the user.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアプリは自動的にインストールされたものであり、ユーザーは削除することができます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="25"/>
         <source>Force installed</source>
-        <translation type="unfinished"></translation>
+        <translation>強制インストール済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="25"/>
         <source>The app is automatically installed and cannot be removed by the user.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアプリは自動的にインストールされたものであり、ユーザーは削除することができません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="26"/>
         <source>Blocked</source>
-        <translation type="unfinished"></translation>
+        <translation>ブロック済み</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="26"/>
         <source>The app is blocked and cannot be installed. If the app was installed under a previous policy, it will be uninstalled.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアプリが過去のポリシーによりインストールされたものである場合、アンインストールされます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="27"/>
         <source>Available</source>
-        <translation type="unfinished">利用可能</translation>
+        <translation>利用可能</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="27"/>
         <source>The app is available to install.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアプリはインストール可能です。</translation>
     </message>
 </context>
 <context>
@@ -46198,7 +46213,7 @@ Server said (%1): %2</source>
         <source>Server error; FileWave was unable to negotiate a Play Store instance with Google.  Please try reopening this Play Store window.
 
 Server said (%1): %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="346"/>
@@ -46251,16 +46266,6 @@ Server said (%1): %2</source>
 <context>
     <name>PolicyEditor</name>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/PolicyEditor.ui" line="14"/>
-        <source>PolicyEditor</source>
-        <translation>ポリシーエディター</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/PolicyEditor.ui" line="79"/>
-        <source>show only configured</source>
-        <translation>構成済のみ表示</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="4"/>
         <source>FileWave Policy Editor</source>
         <comment>FileWave Policy Editor editor title</comment>
@@ -46295,6 +46300,16 @@ Server said (%1): %2</source>
         <source>Use blocker script to block fileset deployment on clients</source>
         <comment>Payload Blocker Script description</comment>
         <translation>ブロッカースクリプトを使用してクライアントでファイルセットの配布をブロックします</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/PolicyEditor.ui" line="14"/>
+        <source>PolicyEditor</source>
+        <translation>ポリシーエディター</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/PolicyEditor.ui" line="79"/>
+        <source>show only configured</source>
+        <translation>構成済のみ表示</translation>
     </message>
 </context>
 <context>
@@ -46546,6 +46561,21 @@ Server said (%1): %2</source>
 <context>
     <name>PrinterForm</name>
     <message>
+        <location filename="../../FWAdminLib/Configurator/PrinterForm.cpp" line="26"/>
+        <source>None</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrinterForm.cpp" line="166"/>
+        <source>Adding Printers</source>
+        <translation>プリンターを追加します</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrinterForm.cpp" line="166"/>
+        <source>Sorry but this is only supported on OSX</source>
+        <translation>OSXでのみでサポートされています</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Configurator/PrinterForm.ui" line="17"/>
         <source>Printer List</source>
         <translation>プリンターリスト</translation>
@@ -46643,22 +46673,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrinterForm.ui" line="305"/>
         <source>Font Size:</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/PrinterForm.cpp" line="26"/>
-        <source>None</source>
-        <translation>なし</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/PrinterForm.cpp" line="166"/>
-        <source>Adding Printers</source>
-        <translation>プリンターを追加します</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/PrinterForm.cpp" line="166"/>
-        <source>Sorry but this is only supported on OSX</source>
-        <translation>OSXでのみでサポートされています</translation>
+        <translation>フォントサイズ:</translation>
     </message>
 </context>
 <context>
@@ -46795,7 +46810,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/PrinterPolicyWidget.cpp" line="191"/>
         <source> is configured correctly</source>
-        <translation> 正しく構成されています</translation>
+        <translation>正しく構成されています</translation>
     </message>
 </context>
 <context>
@@ -47476,6 +47491,912 @@ Modified profiles will be redeployed.</source>
 <context>
     <name>QObject</name>
     <message>
+        <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="76"/>
+        <source>&lt;default&gt;</source>
+        <translation>&lt;デフォルト&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="78"/>
+        <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="86"/>
+        <source>&lt;multiple&gt;</source>
+        <translation>&lt;複数&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="268"/>
+        <source>The FileWave Admin has been forcefully logged out - please log in again.
+FileWave Admin will now quit.</source>
+        <translation>FileWave Adminは強制的にログアウトされました - 再度ログインしてください。
+FileWave Adminは終了します。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1366"/>
+        <source>Server fingerprint change detected !</source>
+        <translation>サーバーのフィンガープリントの変更が検出されました!</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1366"/>
+        <source>FileWave detected that the server fingerprint changed.
+
+This can happen for instance, if you copied over the server database recently.
+
+Do you want to validate the new fingerprint and proceed to model update ?</source>
+        <translation>FileWaveは、サーバーのフィンガープリントの変更を検出しました。
+
+たとえば、最近サーバーデータベースを上書きコピーした場合、これが発生する可能性があります。
+
+新しいフィンガープリントを検証して情報（モデル）を更新しますか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/command_line/command_newfileset.cpp" line="49"/>
+        <source>Fileset ID: %1 %2, Size: %3, Name: %4, Parent: %5</source>
+        <translation>ファイルセットID: %1 %2、サイズ: %3、名前: %4、親: %5</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="12"/>
+        <source>First available</source>
+        <translation>最初に利用可能</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="13"/>
+        <source>Random</source>
+        <translation>ランダム</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="14"/>
+        <source>Round robin</source>
+        <translation>ラウンドロビン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="15"/>
+        <source>Sticky available</source>
+        <translation>付箋あり</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="16"/>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="20"/>
+        <source>All content</source>
+        <translation>全てのコンテンツ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="21"/>
+        <source>Only Shared Content</source>
+        <translation>共有コンテンツのみ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="22"/>
+        <source>Only iCloud Content</source>
+        <translation>iCloudコンテンツのみ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="26"/>
+        <source>devices using the same public IP address</source>
+        <translation>同じパブリックIPアドレスを使用しているデバイス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="27"/>
+        <source>devices using the same local networks</source>
+        <translation>同じローカルネットワークを使用しているデバイス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="28"/>
+        <source>devices using custom local networks</source>
+        <translation>カスタムローカルネットワークを使用しているデバイス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="29"/>
+        <source>devices using custom local networks with fallback</source>
+        <translation>フォールバックを使用してカスタムローカルネットワークを使用するデバイス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="33"/>
+        <source>content caches using the same public IP address</source>
+        <translation>同じパブリックIPアドレスを使用するコンテンツキャッシュ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="34"/>
+        <source>content caches using the same local networks</source>
+        <translation>同じローカルネットワークを使用するコンテンツキャッシュ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="35"/>
+        <source>content caches using custom local networks</source>
+        <translation>カスタムローカルネットワークを使用したコンテンツキャッシュ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="39"/>
+        <source>use one public IP address</source>
+        <translation>1つのパブリックIPアドレスを使用</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="40"/>
+        <source>use custom public IP addresses</source>
+        <translation>カスタムパブリックIPアドレスを使用</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsCSVImportDialog.cpp" line="110"/>
+        <source>The following column(s) are invalid and will be skipped: %1.</source>
+        <translation>
+            <numerusform>次の列は無効であるためスキップされます: %1。</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsCSVImportDialog.cpp" line="114"/>
+        <source>%n client(s) have warning(s). Only valid data will be imported.</source>
+        <translation>
+            <numerusform>%nクライアントに警告があります。有効なデータのみがインポートされます。</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsModelTasks.cpp" line="160"/>
+        <source>Inventory: Error while loading list of custom fields: %1
+%2</source>
+        <translation>インベントリー: カスタムフィールドのリストをロード中にエラーが発生しました: %1
+%2</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsModelTasks.cpp" line="176"/>
+        <source>Custom fields definition is invalid.</source>
+        <translation>カスタムフィールドの定義が無効です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CustomFields/CustomFieldsModelTasks.cpp" line="196"/>
+        <source>Inventory: Error while saving list of custom fields: %1
+%2</source>
+        <translation>インベントリー: カスタムフィールドのリストを保存中にエラーが発生しました: %1
+%2</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="11"/>
+        <source>New Item</source>
+        <translation>新規項目</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="12"/>
+        <source>Item</source>
+        <translation>項目</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="15"/>
+        <source>Array</source>
+        <translation>配列</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="16"/>
+        <source>Dictionary</source>
+        <translation>辞書</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="17"/>
+        <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="293"/>
+        <source>Boolean</source>
+        <translation>ブーリアン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="18"/>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="19"/>
+        <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="289"/>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="20"/>
+        <source>Number</source>
+        <translation>数字</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="21"/>
+        <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="283"/>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyForm.cpp" line="16"/>
+        <source>Add Item</source>
+        <translation>項目を追加</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/DNSProxyForm.cpp" line="17"/>
+        <source>Add Child</source>
+        <translation>子を追加</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/devicedetailsmodel.cpp" line="49"/>
+        <source>GSM</source>
+        <translation>GSM</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/devicedetailsmodel.cpp" line="50"/>
+        <source>CDMA</source>
+        <translation>CDMA</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="16"/>
+        <source>Paranoid scan (slowest)</source>
+        <translation>パラノイドスキャン (最も遅い)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="17"/>
+        <source>Sneaky scan</source>
+        <translation>スニーキースキャン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="18"/>
+        <source>Polite scan</source>
+        <translation>ポライトスキャン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="19"/>
+        <source>Normal scan</source>
+        <translation>通常スキャン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="20"/>
+        <source>Aggressive scan</source>
+        <translation>積極的スキャン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="21"/>
+        <source>Insane scan (fastest)</source>
+        <translation>凄いスキャン (最も早い)</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="221"/>
+        <source>Connection to the FileWave Server terminated due to an idle timeout.
+%1 will now quit.</source>
+        <translation>アイドルタイムアウトのため、FileWaveサーバーへの接続を終了しました。
+%1 は終了します。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="298"/>
+        <source>Error creating new fileset</source>
+        <translation>新規ファイルセットの作成に失敗しました</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="333"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="568"/>
+        <source>Creating new fileset from folder...</source>
+        <translation>フォルダーから新規ファイルセットの作成に失敗しました...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="384"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="590"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3668"/>
+        <source>Adding files to upload queue...</source>
+        <translation>アップロードキューにファイルを追加します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="793"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="898"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1836"/>
+        <source>Scanning for Files/Folders...</source>
+        <translation>ファイル/フォルダーをスキャンします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="817"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="921"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1853"/>
+        <source>Creating Files/Folders on Server...</source>
+        <translation>サーバーにファイル/フォルダを作成します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="844"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="974"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1883"/>
+        <source>Preparing files for upload...</source>
+        <translation>アップロード用のファイルを準備します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="711"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1014"/>
+        <source>Importing Flat Package</source>
+        <translation>フラットパッケージをインポート</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="296"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1232"/>
+        <source>%1 Error %2 returned from server</source>
+        <translation>%1 エラー %2 がサーバーから返されました</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1119"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1171"/>
+        <source>Importing MSI Installer</source>
+        <translation>MSIインストーラーをインポート</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1234"/>
+        <source>Error creating new fileset group</source>
+        <translation>新規ファイルセットグループの作成中にエラーが発生しました</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1632"/>
+        <source>Error: Sending request packet.
+Try Again.</source>
+        <translation>エラー: リクエストパケット送信。
+再試行してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1657"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1665"/>
+        <source>Building Fileset Containers...</source>
+        <translation>ファイルセットコンテナをビルドします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1669"/>
+        <source>Building Smart Filters...</source>
+        <translation>スマートファイルセットをビルドします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1672"/>
+        <source>Building User Manifests...</source>
+        <translation>ユーザーマニフェストをビルドします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1675"/>
+        <source>Remove Deleted Files...</source>
+        <translation>削除済ファイルを削除します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1678"/>
+        <source>Moving New Files...</source>
+        <translation>新規ファイルを移動します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1681"/>
+        <source>Moving Temporary Files...</source>
+        <translation>テンポラリーファイルを移動します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1684"/>
+        <source>Backing Up Previous Model...</source>
+        <translation>以前の情報（モデル）をバックアップします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1687"/>
+        <source>Updating MDM Server...</source>
+        <translation>MDMサーバーをアップデートします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1690"/>
+        <source>Updating EMM Server...</source>
+        <translation>EMMサーバーをアップデートします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1693"/>
+        <source>An integrity error in the DB was detected</source>
+        <translation>DBの整合性エラーが検出されました</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1696"/>
+        <source>Updating Inventory information...</source>
+        <translation>インベントリー情報をアップデートします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1699"/>
+        <source>Manage Archived clients...</source>
+        <translation>アーカイブされたクライアントを管理します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1702"/>
+        <source>Synchronizing Mobile User data...</source>
+        <translation>モバイルユーザーデータを同期します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1705"/>
+        <source>Synchronizing Clients data...</source>
+        <translation>クライアントデータを同期します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1708"/>
+        <source>Sending Fileset data to Inventory...</source>
+        <translation>ファイルセットデータをインベントリーに送信します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1711"/>
+        <source>Build internal data required for Model Update...</source>
+        <translation>情報（モデル）を更新に必要な内部データをビルドします...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1714"/>
+        <source>Sending queued Chromebook move request upstream...</source>
+        <translation>キューに入れられたChromebook移動リクエストをアップストリームに送信します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1720"/>
+        <source>Processing pending Chromebook notational field modifications...</source>
+        <translation>保留中のChromebook表記フィールドの変更を処理します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1730"/>
+        <source>Model Updated Successfully</source>
+        <translation>情報（モデル）を更新しました</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1753"/>
+        <source>Update Unsuccessful.  Make sure that other Administrators have released control of each window.</source>
+        <translation>更新に失敗しました。  他の管理者が各ウィンドウの制御を解放したことを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1757"/>
+        <source>Update Unsuccessful.  Permission denied.</source>
+        <translation>更新に失敗しました。  権限がありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1760"/>
+        <source>Update Unsuccessful.  There are still locks held by other administrators so model update cannot safely continue.</source>
+        <translation>更新に失敗しました。  他の管理者がロックしているため、情報（モデル）を更新を続行できません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1763"/>
+        <source>Update Unsuccessful.  The license has either expired or been revoked - please contact FileWave support.</source>
+        <translation>更新に失敗しました。  ライセンスの有効期限が切れているか取り消されています - FileWaveサポートに連絡してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1766"/>
+        <source>Update Unsuccessful.  Your license is not valid for this version of the software - please contact FileWave support.</source>
+        <translation>更新に失敗しました。  ご使用のライセンスは、このバージョンのソフトウェアには無効です - FileWaveサポートに連絡してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1769"/>
+        <source>Update Unsuccessful.   Inventory server is offline, certain features require an inventory connection, please investigate.</source>
+        <translation>更新に失敗しました。   インベントリ-サーバがオフラインです。特定の機能ではインベントリ-接続が必要です。調査してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1777"/>
+        <source>Update Unsuccessful.  Error building Filesets, check server log for details.</source>
+        <translation>更新に失敗しました。  ファイルセットのビルドでエラーが発生しました。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1780"/>
+        <source>Update Unsuccessful.  Error building smart filters, check server log for details.</source>
+        <translation>更新に失敗しました。  スマートフィルターのビルドでエラーが発生しました。詳細はサーバログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1783"/>
+        <source>Update Unsuccessful.  Error building user manifests, check server log for details.</source>
+        <translation>更新に失敗しました。  ユーザーマニフェストのビルドでエラーが発生しました。詳細はサーバーログで確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1786"/>
+        <source>Update Unsuccessful.  Error deleting obsolete files, check server log for details.</source>
+        <translation>更新に失敗しました。  古いファイルの削除中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1789"/>
+        <source>Update Unsuccessful.  Error moving files, check server log for details.</source>
+        <translation>更新に失敗しました。  ファイルの移動中にエラーが発生しました。詳細はサーバーログで確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1797"/>
+        <source>Update Unsuccessful.  The APN certificate is not valid.</source>
+        <translation>更新に失敗しました。  APN証明書が無効です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1800"/>
+        <source>Update Unsuccessful.  Error due to missing Profile Filesets files, check server log for details.</source>
+        <translation>更新に失敗しました。  プロファイルファイルセットのファイルがないためエラーが発生しました。詳細はサーバーログで確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1803"/>
+        <source>Update Unsuccessful.  Error while updating mobile devices, check mdm server log for details.</source>
+        <translation>更新に失敗しました。  モバイルデバイスのアップデートでエラーが発生しました。詳細はMDMサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1807"/>
+        <source>Update Unsuccessful.  Error while updating Android EMM devices; check server log for details.</source>
+        <translation>更新に失敗しました。  Android EMMデバイスのアップデート中にエラーが発生しました;  詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1811"/>
+        <source>Update Unsuccessful.  Error while updating Inventory information, check server log for details.</source>
+        <translation>更新に失敗しました。  インベントリー情報のアップデートでエラーが発生しました。詳細はサーバーログで確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1814"/>
+        <source>Update Unsuccessful.  Error while preparing notifications for Android devices, check server log for details.</source>
+        <translation>更新に失敗しました。  Androidデバイスの通知を準備中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1817"/>
+        <source>Update Unsuccessful.  Error while updating Archive state, check server log for details.</source>
+        <translation>更新に失敗しました。  アーカイブのアップデートでエラーが発生しました。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1820"/>
+        <source>Update Unsuccessful.  Error while synchronizing mobile user data, check server log for details.</source>
+        <translation>更新に失敗しました。  モバイルユーザーデータの同期中にエラーが発生しました。詳細はサーバーログで確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1823"/>
+        <source>Update Unsuccessful.  A chromebook sync is in progress. Please try again later.</source>
+        <translation>更新に失敗しました。  Chromebookが同期中です。 後で再実行してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1829"/>
+        <source>Update Unsuccessful. Check the server log for details.</source>
+        <translation>更新に失敗しました。 詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1903"/>
+        <source>You do not have delete privileges on at least 1 item</source>
+        <translation>最低1つのアイテムを削除する権限がありません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1717"/>
+        <source>Sending OU management requests upstream.  Given upstream API constraints, this may take some time; please be patient.</source>
+        <translation>OU管理要求をアップストリームに送信します。  アップストリームAPIの制約により、時間がかかる場合があります。しばらくお待ちください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1772"/>
+        <source>Update Unsuccessful.   Update process is already running.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1792"/>
+        <source>Update Unsuccessful.  Error moving temporary files, check server log for details.</source>
+        <translation>更新できませんでした。  テンポラリーファイルの移動中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1826"/>
+        <source>Update Unsuccessful.  Error while executing outstanding GSuite OU operations; check server logs for details.</source>
+        <translation>更新できませんでした。  未解決のGSuite OU操作の実行中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2333"/>
+        <source>Error sending request to the server, check the log file for details.</source>
+        <translation>サーバーへリクエスト送信中にエラーが発生しました。詳細はログファイルを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2343"/>
+        <source>Revert Unsuccessful. Permission denied.</source>
+        <translation>元に戻せません。権限がありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2346"/>
+        <source>Revert Unsuccessful. There are still locks held by other administrators so model revert cannot safely continue.</source>
+        <translation>元に戻せません。他の管理者がロックしているため、情報（モデル）を元に戻すことはできません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2349"/>
+        <source>Revert Unsuccessful. The license has either expired or been revoked - please contact FileWave support.</source>
+        <translation>元に戻せません。ライセンスの有効期限が切れているか取り消されています -  FileWaveサポートに連絡してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2352"/>
+        <source>Revert Unsuccessful. Your license is not valid for this version of the software - please contact FileWave support.</source>
+        <translation>元に戻せません。ご使用のライセンスは、このバージョンのソフトウェアには無効です -  FileWaveサポートに連絡してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2355"/>
+        <source>Revert Unsuccessful. Inventory server is offline, certain features require an inventory connection, please investigate.</source>
+        <translation>元に戻せません。インベントリーサーバがオフラインです。特定の機能にはインベントリー接続が必要です。調査してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2360"/>
+        <source>Revert Unsuccessful. Check the server log for details.</source>
+        <translation>元に戻せません。詳細はサーバーログを確認してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2398"/>
+        <source>Failed to create the server log file: %1</source>
+        <translation>サーバーログファイルの作成に失敗しました: %1</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2424"/>
+        <source>Server Log</source>
+        <translation>サーバーログ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2433"/>
+        <source>Sorry, but getting the %1 log file failed.</source>
+        <translation>%1 ログファイルの取得に失敗しました。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2634"/>
+        <source>Merging folders, please wait...</source>
+        <translation>フォルダーをマージします。しばらくお待ちください...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2639"/>
+        <source>Merging</source>
+        <translation>マージ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2770"/>
+        <source>Would you like to replace the file %1?</source>
+        <translation>ファイル %1 を置換しますか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2771"/>
+        <source>Replace</source>
+        <translation>置換</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2772"/>
+        <source>Skip</source>
+        <translation>スキップ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2773"/>
+        <source>Replace All</source>
+        <translation>すべて置換</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3140"/>
+        <source>%1 can&apos;t be renamed because it is a predefined folder.</source>
+        <translation>%1 は定義済みのフォルダーのため名前を変更できません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3153"/>
+        <source>A folder named %1 already exists in this location.</source>
+        <translation>%1 という名前のフォルダーがこの場所に既に存在します。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3504"/>
+        <source>Illegal admin request.</source>
+        <translation>不正なアドミンリクエスト。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3506"/>
+        <source>Unknown admin session</source>
+        <translation>不明なアドミンセッション</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3508"/>
+        <source>Admin busy: action already in progress.</source>
+        <translation>アドミンビジー: アクションはすでに実行中です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3510"/>
+        <source>Permission denied.</source>
+        <translation>権限がありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3512"/>
+        <source>Lock or unlock command failed.</source>
+        <translation>配布停止または配布停止解除コマンドが失敗しました。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3514"/>
+        <source>Model update running.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3516"/>
+        <source>Revert model occured.</source>
+        <translation>情報（モデル）を元に戻されました。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3518"/>
+        <source>Invalid CRC.</source>
+        <translation>無効なCRC。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3520"/>
+        <source>Expired or invalid license.</source>
+        <translation>有効期限が切れているか無効なライセンス。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3522"/>
+        <source>Not enough disk space.</source>
+        <translation>十分なディスク容量がありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3524"/>
+        <source>Invalid license version.</source>
+        <translation>無効なライセンスバージョン。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3526"/>
+        <source>Unknown admin.</source>
+        <translation>不明なアドミン。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3528"/>
+        <source>Invalid mobile association.</source>
+        <translation>無効なモバイルアソシエーション（配布）。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3530"/>
+        <source>One of the parameters of the request is wrong.</source>
+        <translation>陸戦型ガンダムのひとつのパラメーターが誤っています。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3532"/>
+        <source>The same item (or an item with the same name) already exists.</source>
+        <translation>同じ項目（または同じ名前の項目）がすでに存在します。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3534"/>
+        <source>Item not found.</source>
+        <translation>項目が見つかりません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3536"/>
+        <source>Too many clients.</source>
+        <translation>クライアントが多すぎます。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3538"/>
+        <source>Fileset is not complete.</source>
+        <translation>ファイルセットは完全ではありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3540"/>
+        <source>The group is not a smart group.</source>
+        <translation>グループはスマートグループではありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3542"/>
+        <source>The smart group cannot be deleted/modified because is managed by a deployment.</source>
+        <translation>スマートグループは、配布により管理されているため削除/修正できません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3544"/>
+        <source>Invalid Fileset container</source>
+        <translation>無効なファイルセットコンテナ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3546"/>
+        <source>Database Exception occured.</source>
+        <translation>データベース例外が発生しました。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3548"/>
+        <source>MDM server is not local.</source>
+        <translation>MDMサーバーはローカルでありません。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3550"/>
+        <source>Restarting apache timed out.</source>
+        <translation>Apacheの再起動がタイムアウト。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3552"/>
+        <source>Inventory server seems to be offline.</source>
+        <translation>インベントリーサーバーがオフラインのようです。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3554"/>
+        <source>One of the parameters is invalid.</source>
+        <translation>パラメーターのひとつが無効です。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3557"/>
+        <source>Internal error (%1).</source>
+        <translation>内部エラーr (%1)。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3601"/>
+        <source>Creating new imaging fileset from folder...</source>
+        <translation>フォルダーから新規イメージファイルを作成します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3649"/>
+        <source>Adding files &amp; folders to upload queue...</source>
+        <translation>ファイルとフォルダーをアップロードキューに追加します...</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="80"/>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="91"/>
+        <source>File Error</source>
+        <translation>ファイルエラー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="81"/>
+        <source>Failed to open a temporary file!</source>
+        <translation>テンポラリーファイルを開くのに失敗しました!</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="92"/>
+        <source>Failed to open the file: %1</source>
+        <translation>ファイルを開くのに失敗しました: %1</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="224"/>
+        <source>File exists - FileWave</source>
+        <translation>ファイルの存在 - FileWave</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="226"/>
+        <source>A file by the same name and path already exists in the fileset. Would you like to overwrite it?</source>
+        <translation>同じ名前とパスのファイルがすでにファイルセットに存在します。上書きしますか？</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="227"/>
+        <source>Overwrite</source>
+        <translation>上書き</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="228"/>
+        <source>Abort</source>
+        <translation>について</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/views/filesetsgroupsview.cpp" line="29"/>
+        <source>&lt;no revisions&gt;</source>
+        <translation>&lt;リビジョンなし&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="70"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXPayload.cpp" line="73"/>
+        <source>App Store</source>
+        <translation>App Store</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="71"/>
+        <source>Apple Arcade</source>
+        <translation>Apple Arcade</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="72"/>
+        <source>Computers</source>
+        <translation>コンピューター</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="73"/>
+        <source>Movies</source>
+        <translation>映画</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="74"/>
+        <source>Music</source>
+        <translation>ミュージック</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="75"/>
+        <source>Photos</source>
+        <translation>写真</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="76"/>
+        <source>Podcasts</source>
+        <translation>Podcasts</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="77"/>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="78"/>
+        <source>Settings</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="79"/>
+        <source>TV</source>
+        <translation>TV</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="80"/>
+        <source>TV Shows</source>
+        <translation>TV番組</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/mountedvolumesmodel.cpp" line="36"/>
+        <source>Removable Disk</source>
+        <translation>リムーバブルディスク</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/mountedvolumesmodel.cpp" line="39"/>
+        <source>CD Drive</source>
+        <translation>CDドライブ</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/models/mountedvolumesmodel.cpp" line="42"/>
+        <source>Local Disk</source>
+        <translation>ローカルディスク</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/command_line/command.cpp" line="31"/>
         <source>Create new fileset group failed when trying to create a group called &apos;%1&apos;</source>
         <translation>&apos;%1&apos; グループ作成時、新規ファイルセットグループの作成に失敗しました</translation>
@@ -47484,11 +48405,6 @@ Modified profiles will be redeployed.</source>
         <location filename="../../FWAdminLib/command_line/command_clientsgroups.cpp" line="29"/>
         <source>Client ID: %1 (%2), Name: %3, Parent ID: %4</source>
         <translation>クライアントID: %1 (%2)、名前: %3、親ID: %4</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/command_line/command_newfileset.cpp" line="49"/>
-        <source>Fileset ID: %1 %2, Size: %3, Name: %4, Parent: %5</source>
-        <translation>ファイルセットID: %1 %2、サイズ: %3、名前: %4、親: %5</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ADCertificatePayload.h" line="14"/>
@@ -47681,91 +48597,6 @@ Modified profiles will be redeployed.</source>
         <translation>連絡先</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="12"/>
-        <source>First available</source>
-        <translation>最初に利用可能</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="13"/>
-        <source>Random</source>
-        <translation>ランダム</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="14"/>
-        <source>Round robin</source>
-        <translation>ラウンドロビン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="15"/>
-        <source>Sticky available</source>
-        <translation>付箋あり</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="16"/>
-        <source>Hash</source>
-        <translation>ハッシュ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="20"/>
-        <source>All content</source>
-        <translation>全てのコンテンツ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="21"/>
-        <source>Only Shared Content</source>
-        <translation>共有コンテンツのみ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="22"/>
-        <source>Only iCloud Content</source>
-        <translation>iCloudコンテンツのみ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="26"/>
-        <source>devices using the same public IP address</source>
-        <translation>同じパブリックIPアドレスを使用しているデバイス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="27"/>
-        <source>devices using the same local networks</source>
-        <translation>同じローカルネットワークを使用しているデバイス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="28"/>
-        <source>devices using custom local networks</source>
-        <translation>カスタムローカルネットワークを使用しているデバイス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="29"/>
-        <source>devices using custom local networks with fallback</source>
-        <translation>フォールバックを使用してカスタムローカルネットワークを使用するデバイス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="33"/>
-        <source>content caches using the same public IP address</source>
-        <translation>同じパブリックIPアドレスを使用するコンテンツキャッシュ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="34"/>
-        <source>content caches using the same local networks</source>
-        <translation>同じローカルネットワークを使用するコンテンツキャッシュ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="35"/>
-        <source>content caches using custom local networks</source>
-        <translation>カスタムローカルネットワークを使用したコンテンツキャッシュ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="39"/>
-        <source>use one public IP address</source>
-        <translation>1つのパブリックIPアドレスを使用</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="40"/>
-        <source>use custom public IP addresses</source>
-        <translation>カスタムパブリックIPアドレスを使用</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingPayload.h" line="16"/>
         <source>Content Caching</source>
         <translation>コンテンツキャッシュ</translation>
@@ -47828,64 +48659,6 @@ Modified profiles will be redeployed.</source>
         <location filename="../../FWAdminLib/Configurator/DiskEncryptionPayloads.h" line="143"/>
         <source>Disk Encryption</source>
         <translation>ディスク暗号化</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="11"/>
-        <source>New Item</source>
-        <translation>新規項目</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="12"/>
-        <source>Item</source>
-        <translation>項目</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="15"/>
-        <source>Array</source>
-        <translation>配列</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="16"/>
-        <source>Dictionary</source>
-        <translation>辞書</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="17"/>
-        <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="293"/>
-        <source>Boolean</source>
-        <translation>ブーリアン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="18"/>
-        <source>Data</source>
-        <translation>データ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="19"/>
-        <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="289"/>
-        <source>Date</source>
-        <translation>日付</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="20"/>
-        <source>Number</source>
-        <translation>数字</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyConfigurationModel.cpp" line="21"/>
-        <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="283"/>
-        <source>String</source>
-        <translation>文字列</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyForm.cpp" line="16"/>
-        <source>Add Item</source>
-        <translation>項目を追加</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/DNSProxyForm.cpp" line="17"/>
-        <source>Add Child</source>
-        <translation>子を追加</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DNSProxyPayload.h" line="15"/>
@@ -47983,62 +48756,6 @@ Modified profiles will be redeployed.</source>
         <location filename="../../FWAdminLib/Configurator/ExchangePayload.h" line="19"/>
         <source>Exchange</source>
         <translation>Exchange</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="70"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXPayload.cpp" line="73"/>
-        <source>App Store</source>
-        <translation>App Store</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="71"/>
-        <source>Apple Arcade</source>
-        <translation>Apple Arcade</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="72"/>
-        <source>Computers</source>
-        <translation>コンピューター</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="73"/>
-        <source>Movies</source>
-        <translation>映画</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="74"/>
-        <source>Music</source>
-        <translation>ミュージック</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="75"/>
-        <source>Photos</source>
-        <translation>写真</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="76"/>
-        <source>Podcasts</source>
-        <translation>Podcasts</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="77"/>
-        <source>Search</source>
-        <translation>検索</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="78"/>
-        <source>Settings</source>
-        <translation>設定</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="79"/>
-        <source>TV</source>
-        <translation>TV</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/FindAppForm.cpp" line="80"/>
-        <source>TV Shows</source>
-        <translation>TV番組</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/FinderPayload.h" line="14"/>
@@ -48612,39 +49329,6 @@ Modified profiles will be redeployed.</source>
         <source>Xsan</source>
         <translation>Xsan</translation>
     </message>
-    <message numerus="yes">
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsCSVImportDialog.cpp" line="110"/>
-        <source>The following column(s) are invalid and will be skipped: %1.</source>
-        <translation>
-            <numerusform>次の列は無効であるためスキップされます: %1。</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsCSVImportDialog.cpp" line="114"/>
-        <source>%n client(s) have warning(s). Only valid data will be imported.</source>
-        <translation>
-            <numerusform>%nクライアントに警告があります。有効なデータのみがインポートされます。</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsModelTasks.cpp" line="160"/>
-        <source>Inventory: Error while loading list of custom fields: %1
-%2</source>
-        <translation>インベントリー: カスタムフィールドのリストをロード中にエラーが発生しました: %1
-%2</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsModelTasks.cpp" line="176"/>
-        <source>Custom fields definition is invalid.</source>
-        <translation>カスタムフィールドの定義が無効です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/CustomFields/CustomFieldsModelTasks.cpp" line="196"/>
-        <source>Inventory: Error while saving list of custom fields: %1
-%2</source>
-        <translation>インベントリー: カスタムフィールドのリストを保存中にエラーが発生しました: %1
-%2</translation>
-    </message>
     <message>
         <location filename="../../FWAdminLib/dep/DEPProfileModel.cpp" line="70"/>
         <source>ID</source>
@@ -48681,36 +49365,6 @@ Modified profiles will be redeployed.</source>
         <translation>アクティブ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="16"/>
-        <source>Paranoid scan (slowest)</source>
-        <translation>パラノイドスキャン (最も遅い)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="17"/>
-        <source>Sneaky scan</source>
-        <translation>スニーキースキャン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="18"/>
-        <source>Polite scan</source>
-        <translation>ポライトスキャン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="19"/>
-        <source>Normal scan</source>
-        <translation>通常スキャン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="20"/>
-        <source>Aggressive scan</source>
-        <translation>積極的スキャン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Discovery/DiscoveryConfigurationDlg.cpp" line="21"/>
-        <source>Insane scan (fastest)</source>
-        <translation>凄いスキャン (最も早い)</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="426"/>
         <source>Self Healing</source>
         <comment>FilesetContentsContainer</comment>
@@ -48738,13 +49392,13 @@ Modified profiles will be redeployed.</source>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="443"/>
         <source> (Never Overwrite)</source>
         <comment>FilesetContentsContainer</comment>
-        <translation> (決して上書きしない)</translation>
+        <translation>(決して上書きしない)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="445"/>
         <source> (Only Overwrite Older)</source>
         <comment>FilesetContentsContainer</comment>
-        <translation> (古いもののみ上書き)</translation>
+        <translation>(古いもののみ上書き)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="773"/>
@@ -48773,583 +49427,10 @@ Modified profiles will be redeployed.</source>
         <translation>&lt;未承認&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="80"/>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="91"/>
-        <source>File Error</source>
-        <translation>ファイルエラー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="81"/>
-        <source>Failed to open a temporary file!</source>
-        <translation>テンポラリーファイルを開くのに失敗しました!</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="92"/>
-        <source>Failed to open the file: %1</source>
-        <translation>ファイルを開くのに失敗しました: %1</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="224"/>
-        <source>File exists - FileWave</source>
-        <translation>ファイルの存在 - FileWave</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="226"/>
-        <source>A file by the same name and path already exists in the fileset. Would you like to overwrite it?</source>
-        <translation>同じ名前とパスのファイルがすでにファイルセットに存在します。上書きしますか？</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="227"/>
-        <source>Overwrite</source>
-        <translation>上書き</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="228"/>
-        <source>Abort</source>
-        <translation>について</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/filesetStatusTools.cpp" line="56"/>
         <location filename="../../FWAdminLib/WinMagicFiles/CompareContainer.cpp" line="390"/>
         <source>error</source>
         <translation>エラー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="221"/>
-        <source>Connection to the FileWave Server terminated due to an idle timeout.
-%1 will now quit.</source>
-        <translation>アイドルタイムアウトのため、FileWaveサーバーへの接続を終了しました。
-%1 は終了します。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="298"/>
-        <source>Error creating new fileset</source>
-        <translation>新規ファイルセットの作成に失敗しました</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="333"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="568"/>
-        <source>Creating new fileset from folder...</source>
-        <translation>フォルダーから新規ファイルセットの作成に失敗しました...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="384"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="590"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3668"/>
-        <source>Adding files to upload queue...</source>
-        <translation>アップロードキューにファイルを追加します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="793"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="898"/>
-        <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1836"/>
-        <source>Scanning for Files/Folders...</source>
-        <translation>ファイル/フォルダーをスキャンします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="817"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="921"/>
-        <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1853"/>
-        <source>Creating Files/Folders on Server...</source>
-        <translation>サーバーにファイル/フォルダを作成します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="844"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="974"/>
-        <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1883"/>
-        <source>Preparing files for upload...</source>
-        <translation>アップロード用のファイルを準備します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="711"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1014"/>
-        <source>Importing Flat Package</source>
-        <translation>フラットパッケージをインポート</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="296"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1232"/>
-        <source>%1 Error %2 returned from server</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1119"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1171"/>
-        <source>Importing MSI Installer</source>
-        <translation>MSIインストーラーをインポート</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1234"/>
-        <source>Error creating new fileset group</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1632"/>
-        <source>Error: Sending request packet.
-Try Again.</source>
-        <translation>エラー: リクエストパケット送信。
-再試行してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1657"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1665"/>
-        <source>Building Fileset Containers...</source>
-        <translation>ファイルセットコンテナをビルドします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1669"/>
-        <source>Building Smart Filters...</source>
-        <translation>スマートファイルセットをビルドします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1672"/>
-        <source>Building User Manifests...</source>
-        <translation>ユーザーマニフェストをビルドします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1675"/>
-        <source>Remove Deleted Files...</source>
-        <translation>削除済ファイルを削除します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1678"/>
-        <source>Moving New Files...</source>
-        <translation>新規ファイルを移動します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1681"/>
-        <source>Moving Temporary Files...</source>
-        <translation>テンポラリーファイルを移動します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1684"/>
-        <source>Backing Up Previous Model...</source>
-        <translation>以前の情報（モデル）をバックアップします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1687"/>
-        <source>Updating MDM Server...</source>
-        <translation>MDMサーバーをアップデートします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1690"/>
-        <source>Updating EMM Server...</source>
-        <translation>EMMサーバーをアップデートします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1693"/>
-        <source>An integrity error in the DB was detected</source>
-        <translation>DBの整合性エラーが検出されました</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1696"/>
-        <source>Updating Inventory information...</source>
-        <translation>インベントリー情報をアップデートします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1699"/>
-        <source>Manage Archived clients...</source>
-        <translation>アーカイブされたクライアントを管理します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1702"/>
-        <source>Synchronizing Mobile User data...</source>
-        <translation>モバイルユーザーデータを同期します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1705"/>
-        <source>Synchronizing Clients data...</source>
-        <translation>クライアントデータを同期します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1708"/>
-        <source>Sending Fileset data to Inventory...</source>
-        <translation>ファイルセットデータをインベントリーに送信します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1711"/>
-        <source>Build internal data required for Model Update...</source>
-        <translation>情報（モデル）を更新に必要な内部データをビルドします...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1714"/>
-        <source>Sending queued Chromebook move request upstream...</source>
-        <translation>キューに入れられたChromebook移動リクエストをアップストリームに送信します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1720"/>
-        <source>Processing pending Chromebook notational field modifications...</source>
-        <translation>保留中のChromebook表記フィールドの変更を処理します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1730"/>
-        <source>Model Updated Successfully</source>
-        <translation>情報（モデル）を更新しました</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1753"/>
-        <source>Update Unsuccessful.  Make sure that other Administrators have released control of each window.</source>
-        <translation>更新に失敗しました。  他の管理者が各ウィンドウの制御を解放したことを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1757"/>
-        <source>Update Unsuccessful.  Permission denied.</source>
-        <translation>更新に失敗しました。  権限がありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1760"/>
-        <source>Update Unsuccessful.  There are still locks held by other administrators so model update cannot safely continue.</source>
-        <translation>更新に失敗しました。  他の管理者がロックしているため、情報（モデル）を更新を続行できません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1763"/>
-        <source>Update Unsuccessful.  The license has either expired or been revoked - please contact FileWave support.</source>
-        <translation>更新に失敗しました。  ライセンスの有効期限が切れているか取り消されています - FileWaveサポートに連絡してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1766"/>
-        <source>Update Unsuccessful.  Your license is not valid for this version of the software - please contact FileWave support.</source>
-        <translation>更新に失敗しました。  ご使用のライセンスは、このバージョンのソフトウェアには無効です - FileWaveサポートに連絡してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1769"/>
-        <source>Update Unsuccessful.   Inventory server is offline, certain features require an inventory connection, please investigate.</source>
-        <translation>更新に失敗しました。   インベントリ-サーバがオフラインです。特定の機能ではインベントリ-接続が必要です。調査してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1777"/>
-        <source>Update Unsuccessful.  Error building Filesets, check server log for details.</source>
-        <translation>更新に失敗しました。  ファイルセットのビルドでエラーが発生しました。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1780"/>
-        <source>Update Unsuccessful.  Error building smart filters, check server log for details.</source>
-        <translation>更新に失敗しました。  スマートフィルターのビルドでエラーが発生しました。詳細はサーバログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1783"/>
-        <source>Update Unsuccessful.  Error building user manifests, check server log for details.</source>
-        <translation>更新に失敗しました。  ユーザーマニフェストのビルドでエラーが発生しました。詳細はサーバーログで確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1786"/>
-        <source>Update Unsuccessful.  Error deleting obsolete files, check server log for details.</source>
-        <translation>更新に失敗しました。  古いファイルの削除中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1789"/>
-        <source>Update Unsuccessful.  Error moving files, check server log for details.</source>
-        <translation>更新に失敗しました。  ファイルの移動中にエラーが発生しました。詳細はサーバーログで確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1797"/>
-        <source>Update Unsuccessful.  The APN certificate is not valid.</source>
-        <translation>更新に失敗しました。  APN証明書が無効です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1800"/>
-        <source>Update Unsuccessful.  Error due to missing Profile Filesets files, check server log for details.</source>
-        <translation>更新に失敗しました。  プロファイルファイルセットのファイルがないためエラーが発生しました。詳細はサーバーログで確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1803"/>
-        <source>Update Unsuccessful.  Error while updating mobile devices, check mdm server log for details.</source>
-        <translation>更新に失敗しました。  モバイルデバイスのアップデートでエラーが発生しました。詳細はMDMサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1807"/>
-        <source>Update Unsuccessful.  Error while updating Android EMM devices; check server log for details.</source>
-        <translation>更新に失敗しました。  Android EMMデバイスのアップデート中にエラーが発生しました;  詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1811"/>
-        <source>Update Unsuccessful.  Error while updating Inventory information, check server log for details.</source>
-        <translation>更新に失敗しました。  インベントリー情報のアップデートでエラーが発生しました。詳細はサーバーログで確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1814"/>
-        <source>Update Unsuccessful.  Error while preparing notifications for Android devices, check server log for details.</source>
-        <translation>更新に失敗しました。  Androidデバイスの通知を準備中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1817"/>
-        <source>Update Unsuccessful.  Error while updating Archive state, check server log for details.</source>
-        <translation>更新に失敗しました。  アーカイブのアップデートでエラーが発生しました。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1820"/>
-        <source>Update Unsuccessful.  Error while synchronizing mobile user data, check server log for details.</source>
-        <translation>更新に失敗しました。  モバイルユーザーデータの同期中にエラーが発生しました。詳細はサーバーログで確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1823"/>
-        <source>Update Unsuccessful.  A chromebook sync is in progress. Please try again later.</source>
-        <translation>更新に失敗しました。  Chromebookが同期中です。 後で再実行してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1829"/>
-        <source>Update Unsuccessful. Check the server log for details.</source>
-        <translation>更新に失敗しました。 詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1903"/>
-        <source>You do not have delete privileges on at least 1 item</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1717"/>
-        <source>Sending OU management requests upstream.  Given upstream API constraints, this may take some time; please be patient.</source>
-        <translation>OU管理要求をアップストリームに送信します。  アップストリームAPIの制約により、時間がかかる場合があります。しばらくお待ちください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1772"/>
-        <source>Update Unsuccessful.   Update process is already running.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1792"/>
-        <source>Update Unsuccessful.  Error moving temporary files, check server log for details.</source>
-        <translation>更新できませんでした。  テンポラリーファイルの移動中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1826"/>
-        <source>Update Unsuccessful.  Error while executing outstanding GSuite OU operations; check server logs for details.</source>
-        <translation>更新できませんでした。  未解決のGSuite OU操作の実行中にエラーが発生しました。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2333"/>
-        <source>Error sending request to the server, check the log file for details.</source>
-        <translation>サーバーへリクエスト送信中にエラーが発生しました。詳細はログファイルを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2343"/>
-        <source>Revert Unsuccessful. Permission denied.</source>
-        <translation>元に戻せません。権限がありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2346"/>
-        <source>Revert Unsuccessful. There are still locks held by other administrators so model revert cannot safely continue.</source>
-        <translation>元に戻せません。他の管理者がロックしているため、情報（モデル）を元に戻すことはできません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2349"/>
-        <source>Revert Unsuccessful. The license has either expired or been revoked - please contact FileWave support.</source>
-        <translation>元に戻せません。ライセンスの有効期限が切れているか取り消されています -  FileWaveサポートに連絡してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2352"/>
-        <source>Revert Unsuccessful. Your license is not valid for this version of the software - please contact FileWave support.</source>
-        <translation>元に戻せません。ご使用のライセンスは、このバージョンのソフトウェアには無効です -  FileWaveサポートに連絡してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2355"/>
-        <source>Revert Unsuccessful. Inventory server is offline, certain features require an inventory connection, please investigate.</source>
-        <translation>元に戻せません。インベントリーサーバがオフラインです。特定の機能にはインベントリー接続が必要です。調査してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2360"/>
-        <source>Revert Unsuccessful. Check the server log for details.</source>
-        <translation>元に戻せません。詳細はサーバーログを確認してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2398"/>
-        <source>Failed to create the server log file: %1</source>
-        <translation>サーバーログファイルの作成に失敗しました: %1</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2424"/>
-        <source>Server Log</source>
-        <translation>サーバーログ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2433"/>
-        <source>Sorry, but getting the %1 log file failed.</source>
-        <translation>%1 ログファイルの取得に失敗しました。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2634"/>
-        <source>Merging folders, please wait...</source>
-        <translation>フォルダーをマージします。しばらくお待ちください...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2639"/>
-        <source>Merging</source>
-        <translation>マージ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2770"/>
-        <source>Would you like to replace the file %1?</source>
-        <translation>ファイル %1 を置換しますか？</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2771"/>
-        <source>Replace</source>
-        <translation>置換</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2772"/>
-        <source>Skip</source>
-        <translation>スキップ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2773"/>
-        <source>Replace All</source>
-        <translation>すべて置換</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3140"/>
-        <source>%1 can&apos;t be renamed because it is a predefined folder.</source>
-        <translation>%1 は定義済みのフォルダーのため名前を変更できません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3153"/>
-        <source>A folder named %1 already exists in this location.</source>
-        <translation>%1 という名前のフォルダーがこの場所に既に存在します。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3504"/>
-        <source>Illegal admin request.</source>
-        <translation>不正なアドミンリクエスト。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3506"/>
-        <source>Unknown admin session</source>
-        <translation>不明なアドミンセッション</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3508"/>
-        <source>Admin busy: action already in progress.</source>
-        <translation>アドミンビジー: アクションはすでに実行中です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3510"/>
-        <source>Permission denied.</source>
-        <translation>権限がありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3512"/>
-        <source>Lock or unlock command failed.</source>
-        <translation>配布停止または配布停止解除コマンドが失敗しました。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3514"/>
-        <source>Model update running.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3516"/>
-        <source>Revert model occured.</source>
-        <translation>情報（モデル）を元に戻されました。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3518"/>
-        <source>Invalid CRC.</source>
-        <translation>無効なCRC。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3520"/>
-        <source>Expired or invalid license.</source>
-        <translation>有効期限が切れているか無効なライセンス。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3522"/>
-        <source>Not enough disk space.</source>
-        <translation>十分なディスク容量がありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3524"/>
-        <source>Invalid license version.</source>
-        <translation>無効なライセンスバージョン。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3526"/>
-        <source>Unknown admin.</source>
-        <translation>不明なアドミン。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3528"/>
-        <source>Invalid mobile association.</source>
-        <translation>無効なモバイルアソシエーション（配布）。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3530"/>
-        <source>One of the parameters of the request is wrong.</source>
-        <translation>陸戦型ガンダムのひとつのパラメーターが誤っています。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3532"/>
-        <source>The same item (or an item with the same name) already exists.</source>
-        <translation>同じ項目（または同じ名前の項目）がすでに存在します。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3534"/>
-        <source>Item not found.</source>
-        <translation>項目が見つかりません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3536"/>
-        <source>Too many clients.</source>
-        <translation>クライアントが多すぎます。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3538"/>
-        <source>Fileset is not complete.</source>
-        <translation>ファイルセットは完全ではありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3540"/>
-        <source>The group is not a smart group.</source>
-        <translation>グループはスマートグループではありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3542"/>
-        <source>The smart group cannot be deleted/modified because is managed by a deployment.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3544"/>
-        <source>Invalid Fileset container</source>
-        <translation>無効なファイルセットコンテナ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3546"/>
-        <source>Database Exception occured.</source>
-        <translation>データベース例外が発生しました。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3548"/>
-        <source>MDM server is not local.</source>
-        <translation>MDMサーバーはローカルでありません。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3550"/>
-        <source>Restarting apache timed out.</source>
-        <translation>Apacheの再起動がタイムアウト。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3552"/>
-        <source>Inventory server seems to be offline.</source>
-        <translation>インベントリーサーバーがオフラインのようです。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3554"/>
-        <source>One of the parameters is invalid.</source>
-        <translation>パラメーターのひとつが無効です。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3557"/>
-        <source>Internal error (%1).</source>
-        <translation>内部エラーr (%1)。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3601"/>
-        <source>Creating new imaging fileset from folder...</source>
-        <translation>フォルダーから新規イメージファイルを作成します...</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3649"/>
-        <source>Adding files &amp; folders to upload queue...</source>
-        <translation>ファイルとフォルダーをアップロードキューに追加します...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWEventNotifierAdapter.cpp" line="42"/>
@@ -49491,31 +49572,6 @@ If this email was erroneously sent, you may disregard this communication.  (Alth
         <translation>JSONリスト</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/devicedetailsmodel.cpp" line="49"/>
-        <source>GSM</source>
-        <translation>GSM</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/devicedetailsmodel.cpp" line="50"/>
-        <source>CDMA</source>
-        <translation>CDMA</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/mountedvolumesmodel.cpp" line="36"/>
-        <source>Removable Disk</source>
-        <translation>リムーバブルディスク</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/mountedvolumesmodel.cpp" line="39"/>
-        <source>CD Drive</source>
-        <translation>CDドライブ</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/mountedvolumesmodel.cpp" line="42"/>
-        <source>Local Disk</source>
-        <translation>ローカルディスク</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/MultipleClientCreator.cpp" line="147"/>
         <source>The headers don&apos;t contain a &quot;Serial Number&quot; column but it&apos;s mandatory.</source>
         <translation>ヘッダーに「シリアル番号」列は含まれていませんが、必須です。</translation>
@@ -49534,7 +49590,7 @@ If this email was erroneously sent, you may disregard this communication.  (Alth
         <location filename="../../FWAdminLib/NewFilesetHelper.cpp" line="63"/>
         <source>Failed to create %1.</source>
         <comment>NewFilesetHelper</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 の作成に失敗しました。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewFilesetHelper.cpp" line="65"/>
@@ -49564,7 +49620,7 @@ If this email was erroneously sent, you may disregard this communication.  (Alth
         <location filename="../../FWAdminLib/NewFilesetHelper.cpp" line="73"/>
         <source>No Error.</source>
         <comment>NewFilesetHelper</comment>
-        <translation type="unfinished"></translation>
+        <translation>エラーなし。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/SisUtils.cpp" line="16"/>
@@ -49670,31 +49726,6 @@ Please enter your Activation Code</source>
         <translation>オブジェクト</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="268"/>
-        <source>The FileWave Admin has been forcefully logged out - please log in again.
-FileWave Admin will now quit.</source>
-        <translation>FileWave Adminは強制的にログアウトされました - 再度ログインしてください。
-FileWave Adminは終了します。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1356"/>
-        <source>Server fingerprint change detected !</source>
-        <translation>サーバーのフィンガープリントの変更が検出されました!</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1356"/>
-        <source>FileWave detected that the server fingerprint changed.
-
-This can happen for instance, if you copied over the server database recently.
-
-Do you want to validate the new fingerprint and proceed to model update ?</source>
-        <translation>FileWaveは、サーバーのフィンガープリントの変更を検出しました。
-
-たとえば、最近サーバーデータベースを上書きコピーした場合、これが発生する可能性があります。
-
-新しいフィンガープリントを検証して情報（モデル）を更新しますか？</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/WinMagicFiles/CompareContainer.cpp" line="390"/>
         <source>Error while comparing!</source>
         <translation>コンペア中にエラーが発生しました!</translation>
@@ -49772,38 +49803,22 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SingleSignOnExtensionsPayload.h" line="17"/>
         <source>com.apple.extensiblesso</source>
-        <translation></translation>
+        <translation>com.apple.extensiblesso</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/NetworkUsageRulesForm.h" line="27"/>
         <source>com.mycompany.*</source>
-        <translation type="unfinished">com.mycompany.*</translation>
+        <translation>com.mycompany.*</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetDependencyChecker.cpp" line="132"/>
         <source>Fileset %1 (revision %2) depends on Fileset %3 with conflicting revisions %4 and %5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="76"/>
-        <source>&lt;default&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="78"/>
-        <location filename="../../FWAdminLib/models/associationsmodel.cpp" line="86"/>
-        <source>&lt;multiple&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット %1（リビジョン %2）はファイルセット %3 に依存しており、リビジョン %4 と %5 と競合しています</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetreportgpbmodel.cpp" line="62"/>
         <source>Downloading</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/views/filesetsgroupsview.cpp" line="29"/>
-        <source>&lt;no revisions&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>ダウンロード中</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantPayload.cpp" line="40"/>
@@ -49821,7 +49836,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/models/QueriesGroupsModel.cpp" line="477"/>
         <source>Inventory: Error while %1 : %2</source>
-        <translation type="unfinished">インベントリー:エラー %1 : %2 {1 ?}</translation>
+        <translation>インベントリー:エラー %1 : %2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/QueriesGroupsModel.cpp" line="688"/>
@@ -49950,12 +49965,12 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/inventory/QueryBuilder.ui" line="353"/>
         <source>Clients</source>
-        <translation type="unfinished">クライアント</translation>
+        <translation>クライアント</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/QueryBuilder.ui" line="376"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clones of these clients will be in created Smart Group. &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=34537736&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;See explanation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=34537736&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;説明を確認してください&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/QueryBuilder.cpp" line="117"/>
@@ -50411,7 +50426,7 @@ Therefore it may happen that the device is not locked.</source>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="303"/>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="315"/>
         <source>EMM Remote Wipe</source>
-        <translation type="unfinished"></translation>
+        <translation>EMMリモートワイプ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="299"/>
@@ -50421,13 +50436,13 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="304"/>
         <source>(EMM) Remote wipe command queued (%1, %2) and will be sent presently.</source>
-        <translation type="unfinished"></translation>
+        <translation>(EMM) リモートワイプのコマンドがキューに入っており (%1, %2) まもなく送信されます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="308"/>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="322"/>
         <source>MDM Remote Wipe</source>
-        <translation type="unfinished"></translation>
+        <translation>MDMリモートワイプ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="309"/>
@@ -50439,7 +50454,7 @@ Therefore it may happen that the device is not locked.</source>
         <source>Failed to send remote wipe commandto EMM server.  Server said (%1):
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="323"/>
@@ -51890,7 +51905,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="530"/>
         <source>Sidecar</source>
-        <translation></translation>
+        <translation>Sidecar</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="544"/>
@@ -52526,7 +52541,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="134"/>
         <source>com.example.app</source>
-        <translation></translation>
+        <translation>com.example.app</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="134"/>
@@ -52630,22 +52645,6 @@ Therefore it may happen that the device is not locked.</source>
 <context>
     <name>RevertModelDlg</name>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.ui" line="14"/>
-        <source>Revert Server Model</source>
-        <translation>サーバー情報（モデル）を戻す</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.ui" line="26"/>
-        <source>Do you really wish to revert to the last server model?
-
-This operation will irreversibly undo all
-changes made since the last update.</source>
-        <translation>最後のサーバー情報（モデル）に戻しますか？
-
-この操作は、最後の「情報（モデル）を更新」以降に行われた
-すべての変更を元に戻します。</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="30"/>
         <source>Update license code</source>
         <translation>ライセンスコードを更新</translation>
@@ -52681,13 +52680,29 @@ When any user performs a revert model, you must log out and log back into the Fi
         <translation>「情報（モデル）を戻す」が実行されました！
 「情報（モデル）を戻す」を実行したら、ログアウトしてFileWave™システムに再ログインする必要があります。</translation>
     </message>
+    <message>
+        <location filename="../../FWAdminLib/RevertModelDlg.ui" line="14"/>
+        <source>Revert Server Model</source>
+        <translation>サーバー情報（モデル）を戻す</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/RevertModelDlg.ui" line="26"/>
+        <source>Do you really wish to revert to the last server model?
+
+This operation will irreversibly undo all
+changes made since the last update.</source>
+        <translation>最後のサーバー情報（モデル）に戻しますか？
+
+この操作は、最後の「情報（モデル）を更新」以降に行われた
+すべての変更を元に戻します。</translation>
+    </message>
 </context>
 <context>
     <name>RevisionChooserModel</name>
     <message>
         <location filename="../../FWAdminLib/FilesetRevisionChooserDialog.cpp" line="40"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
 </context>
 <context>
@@ -52695,17 +52710,17 @@ When any user performs a revert model, you must log out and log back into the Fi
     <message>
         <location filename="../../FWAdminLib/RevisionDeletionDependencyDetailsDialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation type="unfinished">ダイアログ</translation>
+        <translation>ダイアログ</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RevisionDeletionDependencyDetailsDialog.ui" line="69"/>
         <source>You selected this revision as a replacement for dependent filesets. This view only show the dependents that currently exist in the database. Please save your changes to make sure it reflects them.</source>
-        <translation type="unfinished"></translation>
+        <translation>変更を保存してそれらを反映するようにしてください。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RevisionDeletionDependencyDetailsDialog.cpp" line="23"/>
         <source>Dependents of fileset %1 revision %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット %1 リビジョン %2 の依存関係</translation>
     </message>
 </context>
 <context>
@@ -52713,7 +52728,7 @@ When any user performs a revert model, you must log out and log back into the Fi
     <message>
         <location filename="../../FWAdminLib/FilesetDependencyChooser.cpp" line="96"/>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン</translation>
     </message>
 </context>
 <context>
@@ -53807,7 +53822,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/SearchAppStoreDlg.cpp" line="234"/>
         <source>universal-software</source>
-        <translation type="unfinished"></translation>
+        <translation>ユニバーサルソフトウェア</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SearchAppStoreDlg.cpp" line="266"/>
@@ -53948,7 +53963,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SecurityAssociationParametersWidget.ui" line="183"/>
         <source>5</source>
-        <translation></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SecurityAssociationParametersWidget.ui" line="188"/>
@@ -53958,7 +53973,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SecurityAssociationParametersWidget.ui" line="193"/>
         <source>15</source>
-        <translation></translation>
+        <translation>15</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SecurityAssociationParametersWidget.ui" line="198"/>
@@ -54115,7 +54130,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.cpp" line="125"/>
         <source>Access to this item has been denied to user %1. Dialog will now close.</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイアログが閉じます。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.cpp" line="154"/>
@@ -54479,7 +54494,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SingleSignOnExtensionsForm.cpp" line="15"/>
         <source>http://www.example.com</source>
-        <translation></translation>
+        <translation>http://www.example.com</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SingleSignOnExtensionsForm.cpp" line="18"/>
@@ -54494,7 +54509,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SingleSignOnExtensionsForm.cpp" line="20"/>
         <source>example.com</source>
-        <translation></translation>
+        <translation>example.com</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SingleSignOnExtensionsForm.cpp" line="38"/>
@@ -54745,7 +54760,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="45"/>
         <source> (full sync)</source>
-        <translation> (完全同期)</translation>
+        <translation>(完全同期)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="69"/>
@@ -54926,29 +54941,29 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
         <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="165"/>
         <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="173"/>
         <source>Smart Group Report</source>
-        <translation type="unfinished">スマートグループレポート</translation>
+        <translation>スマートグループレポート</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="142"/>
         <source>Couldn&apos;t fetch Smart Group &quot;%1&quot;.</source>
-        <translation type="unfinished">スマートグループ &quot;%1&quot;を読み込めませんでした。</translation>
+        <translation>スマートグループ &quot;%1&quot;を取得できませんでした。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="159"/>
         <source>Smart Group &quot;%1&quot; contains no inventory query, no report can be generated.</source>
-        <translation type="unfinished">スマートグループ &quot;%1&quot;はインベントリークエリ（情報検索）が含まれていません。レポートを生成できません。</translation>
+        <translation>スマートグループ &quot;%1&quot;にはインベントリークエリ（情報検索）が含まれていません。レポートを生成できません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="166"/>
         <source>Smart Group &quot;%1&quot; has no clones, no report can be generated.</source>
-        <translation type="unfinished">スマートグループ &quot;%1&quot;はクローンできません。レポートを生成できません。</translation>
+        <translation>スマートグループ &quot;%1&quot;にはクローンが含まれていません。レポートを生成できません。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="174"/>
         <source>Smart Group &quot;%1&quot; contains more than one inventory query, which is unsupported.
 
 Only the report for the first query is shown.</source>
-        <translation type="unfinished">スマートグループ &quot;%1&quot;はひとつ以上のインベントリークエリ（情報検索）があります。
+        <translation>スマートグループ &quot;%1&quot;にはひとつ以上のインベントリークエリ（情報検索）が含まれています。
 
 最初のクエリのレポートのみ表示されます。</translation>
     </message>
@@ -55122,7 +55137,7 @@ Only the report for the first query is shown.</source>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.cpp" line="870"/>
         <source> is</source>
-        <translation> は</translation>
+        <translation>は</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.cpp" line="872"/>
@@ -55614,17 +55629,17 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/UniversalAccessForm.ui" line="30"/>
         <source>Vision</source>
-        <translation type="unfinished"></translation>
+        <translation>視覚</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/UniversalAccessForm.ui" line="44"/>
         <source>Enable Zoom via ScrollWheel:</source>
-        <translation type="unfinished"></translation>
+        <translation>ScrollWheel経由でZoomを有効にします:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/UniversalAccessForm.ui" line="303"/>
         <source>VoiceOver Options</source>
-        <translation type="unfinished"></translation>
+        <translation>VoiceOverオプション</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/UniversalAccessForm.ui" line="309"/>
@@ -55836,6 +55851,96 @@ User Home?</source>
 </context>
 <context>
     <name>VPNForm</name>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="34"/>
+        <source>always</source>
+        <translation>常に</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="35"/>
+        <source>establish</source>
+        <translation>確立</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="36"/>
+        <source>never</source>
+        <translation>しない</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="39"/>
+        <source>Never</source>
+        <translation>しない</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="40"/>
+        <source>After interval</source>
+        <translation>インターバル後</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="157"/>
+        <source>Low</source>
+        <translation>低</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="158"/>
+        <source>Medium</source>
+        <translation>中</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="159"/>
+        <source>High</source>
+        <translation>高</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="180"/>
+        <source>Allow traffic via tunnel</source>
+        <translation>トンネル経由のトラフィックを許可</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="181"/>
+        <source>Allow traffic outside tunnel</source>
+        <translation>トンネル外のトラフィックを許可</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="182"/>
+        <source>Drop traffic</source>
+        <translation>落ちたトラフィック</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="210"/>
+        <source>DNS server addresses</source>
+        <translation>DNSサーバーアドレス</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="213"/>
+        <source>DNS search domains</source>
+        <translation>DNSサーチドメイン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="216"/>
+        <source>DNS supplemental match domains</source>
+        <translation>DNS補足一致ドメイン</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2043"/>
+        <source>com.example.app</source>
+        <translation>com.example.app</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2086"/>
+        <source>key</source>
+        <translation>キー</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2086"/>
+        <source>value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2098"/>
+        <source>Untitled</source>
+        <translation>無題</translation>
+    </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="14"/>
         <source>Form</source>
@@ -56585,7 +56690,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2628"/>
         <source>Traffic from these apps will be allowed outside the VPN tunnel</source>
-        <translation></translation>
+        <translation>これらのアプリからのトラフィックはVPNトンネルの外で許可されます</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2687"/>
@@ -56641,96 +56746,6 @@ User Home?</source>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2872"/>
         <source>Required if VPN provider is a System Extension</source>
         <translation>VPNプロバイダーがシステム拡張の場合は必須</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="34"/>
-        <source>always</source>
-        <translation>常に</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="35"/>
-        <source>establish</source>
-        <translation>確立</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="36"/>
-        <source>never</source>
-        <translation>しない</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="39"/>
-        <source>Never</source>
-        <translation>しない</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="40"/>
-        <source>After interval</source>
-        <translation>インターバル後</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="157"/>
-        <source>Low</source>
-        <translation>低</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="158"/>
-        <source>Medium</source>
-        <translation>中</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="159"/>
-        <source>High</source>
-        <translation>高</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="180"/>
-        <source>Allow traffic via tunnel</source>
-        <translation>トンネル経由のトラフィックを許可</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="181"/>
-        <source>Allow traffic outside tunnel</source>
-        <translation>トンネル外のトラフィックを許可</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="182"/>
-        <source>Drop traffic</source>
-        <translation>落ちたトラフィック</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="210"/>
-        <source>DNS server addresses</source>
-        <translation>DNSサーバーアドレス</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="213"/>
-        <source>DNS search domains</source>
-        <translation>DNSサーチドメイン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="216"/>
-        <source>DNS supplemental match domains</source>
-        <translation>DNS補足一致ドメイン</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2043"/>
-        <source>com.example.app</source>
-        <translation>com.example.app</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2086"/>
-        <source>key</source>
-        <translation>キー</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2086"/>
-        <source>value</source>
-        <translation>値</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/VPNForm.cpp" line="2098"/>
-        <source>Untitled</source>
-        <translation>無題</translation>
     </message>
 </context>
 <context>
@@ -57705,7 +57720,7 @@ All licenses assigned to the user(s) will be dissociated.</source>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="935"/>
         <source> (full sync)</source>
-        <translation> (完全同期)</translation>
+        <translation>(完全同期)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="1009"/>
@@ -58621,47 +58636,52 @@ All licenses assigned to the user(s) will be dissociated.</source>
         <translation>サーバーステータス</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="148"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="71"/>
         <source>Inventory:</source>
         <translation>インベントリー:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="98"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="172"/>
+        <source>Notifications:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="61"/>
         <source>FCM:</source>
         <translation>FCM:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="35"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="145"/>
         <source>DEP:</source>
         <translation>DEP:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="48"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="91"/>
         <source>APN:</source>
         <translation>APN:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="128"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.ui" line="31"/>
         <source>Engage:</source>
         <translation>エンゲージ:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="122"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="125"/>
         <source>Warnings (%1)</source>
         <translation>警告 (%1)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="123"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="126"/>
         <source>Errors (%1)</source>
         <translation>エラー (%1)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="124"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="127"/>
         <source>Critical (%1)</source>
         <translation>クリティカル (%1)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="142"/>
+        <location filename="../../FWAdminLib/WinAdminServerStatusWidget.cpp" line="145"/>
         <source>Everything is OK</source>
         <translation>すべてOK</translation>
     </message>
