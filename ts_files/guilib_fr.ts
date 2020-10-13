@@ -1139,12 +1139,12 @@ Please wait for the results before opening a new connection</source>
         <translation type="vanished">Un autre utilisateur est en train de modifier un des objets concernés par cette opération.</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
         <source>Another user is modifying one of the objects involved in this operation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="80"/>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
         <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1770,12 +1770,12 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>StyledTreeView</name>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="130"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="135"/>
         <source>Resize columns</source>
         <translation>Retailler les colonnes</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="209"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="214"/>
         <source>Copy</source>
         <translation>Copier</translation>
     </message>
@@ -1783,7 +1783,7 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>ViewSearchHeader</name>
     <message>
-        <location filename="../../FileWaveGuiLib/searchheader/ViewSearchHeader.cpp" line="77"/>
+        <location filename="../../FileWaveGuiLib/searchheader/ViewSearchHeader.cpp" line="78"/>
         <source>Search:</source>
         <translation>Recherche :</translation>
     </message>

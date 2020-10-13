@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>640</width>
-    <height>1563</height>
+    <height>1570</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -987,6 +987,13 @@
          </property>
          <property name="checked">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowManagedFileProvidersToRequestAttribution">
+         <property name="text">
+          <string>Allow apps to get File Provider info</string>
          </property>
         </widget>
        </item>
@@ -2474,8 +2481,48 @@
           </widget>
          </item>
          <item>
+          <spacer name="verticalSpacer_15">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
+           <property name="text">
+            <string>Defer macOS updates</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="forceDelayedAppSoftwareUpdates">
+           <property name="text">
+            <string>Defer app updates</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Deferral period for macOS and app updates:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QWidget" name="widget" native="true">
-           <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,0,8">
             <property name="leftMargin">
              <number>0</number>
             </property>
@@ -2488,16 +2535,6 @@
             <property name="bottomMargin">
              <number>0</number>
             </property>
-            <item>
-             <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
-              <property name="text">
-               <string>Defer software updates for</string>
-              </property>
-              <property name="checked">
-               <bool>false</bool>
-              </property>
-             </widget>
-            </item>
             <item>
              <widget class="QSpinBox" name="forceDelayedSoftwareUpdatesDelay">
               <property name="enabled">

@@ -69,7 +69,7 @@
       </size>
      </property>
      <property name="text">
-      <string>Provide a &quot;human friendly&quot; name to the underlying Open Network Configuration object.  FileWave's semantics make this an unnecessary field, so FileWave will generate a name as required.  However, if exporting this configuration for external use or auditing, specifying a value here may be helpful.</string>
+      <string>Provide a &quot;human friendly&quot; name for the Network configuration. When exporting this configuration for external use or auditing, specifying a value here may be helpful.</string>
      </property>
      <property name="scaledContents">
       <bool>false</bool>

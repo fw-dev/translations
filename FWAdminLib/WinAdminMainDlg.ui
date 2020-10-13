@@ -78,12 +78,6 @@
             <height>0</height>
            </size>
           </property>
-          <property name="font">
-           <font>
-            <family>Helvetica Neue</family>
-            <pointsize>14</pointsize>
-           </font>
-          </property>
           <property name="focusPolicy">
            <enum>Qt::NoFocus</enum>
           </property>

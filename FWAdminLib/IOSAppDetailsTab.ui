@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>832</width>
-    <height>658</height>
+    <height>717</height>
    </rect>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
@@ -268,6 +268,13 @@
             <widget class="QCheckBox" name="changeManagementState">
              <property name="text">
               <string>Take management of this app if the user has installed it already</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkRemovableApp">
+             <property name="text">
+              <string>Allow removal: If selected, the device user will be able to remove this managed application</string>
              </property>
             </widget>
            </item>
@@ -622,7 +629,6 @@
                  </item>
                 </layout>
                </item>
-
               </layout>
              </item>
             </layout>

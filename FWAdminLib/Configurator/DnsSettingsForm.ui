@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DnsSettingsForm</class>
+ <widget class="QWidget" name="DnsSettingsForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>614</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_8">
+   <item>
+    <widget class="QLabel" name="dnsProtocolLabel">
+     <property name="text">
+      <string>DNS Protocol</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="dnsProtocolComboBox">
+     <item>
+      <property name="text">
+       <string>HTTPS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TLS</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="serverNameWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="serverNameLabel">
+        <property name="text">
+         <string>DNS-over-TLS server name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_serverName">
+        <property name="text">
+         <string>Used to validate the server certificate</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="serverNameEdit"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="serverUrlWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="serverUrlLabel">
+        <property name="text">
+         <string>DNS-over-HTTPS server URL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_serverUrl">
+        <property name="text">
+         <string>Used to validate the server certificate</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="serverUrlEdit"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="serverUrlErrorLabel">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel { color : red; }</string>
+        </property>
+        <property name="text">
+         <string>The HTTPS server URL should start with https://</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="ItemListWidget" name="serverAddressesList" native="true"/>
+   </item>
+   <item>
+    <widget class="ItemListWidget" name="supplementalMatchDomainsList" native="true"/>
+   </item>
+   <item>
+    <widget class="QWidget" name="onDemandRulesConfigurationWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayoutVPNOnDemandRulesConfiguration">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelOnDemandRules">
+        <property name="text">
+         <string>On Demand Rules Configuration XML</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_OnDemandRules">
+        <property name="text">
+         <string>Rules to determine when and how DNS settings should be used</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="onDemandRulesXmlEdit">
+        <property name="acceptRichText">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="onDemandRulesErrorLabel">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel { color : red; }</string>
+        </property>
+        <property name="text">
+         <string>The input XML is not a valid PList</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="prohibitFromDisablingCheckBox">
+     <property name="text">
+      <string>Prohibit user from disabling DNS settings (supervised devices only)</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ItemListWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/ItemListWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

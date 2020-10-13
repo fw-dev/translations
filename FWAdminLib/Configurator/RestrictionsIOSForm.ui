@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>632</width>
-    <height>3051</height>
+    <height>3079</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -323,6 +323,16 @@
            </widget>
           </item>
          </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowAppClips">
+         <property name="text">
+          <string>Allow App Clips (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
         </widget>
        </item>
        <item>
@@ -1346,6 +1356,16 @@
            </spacer>
           </item>
          </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowApplePersonalizedAdvertising">
+         <property name="text">
+          <string>Allow Apple personalized advertising</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
         </widget>
        </item>
        <item>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>480</width>
-    <height>428</height>
+    <height>821</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -252,6 +252,182 @@
         <widget class="QLabel" name="lbl_desc_wifiConfigEnabled"/>
        </item>
       </layout>
+     </item>
+     <item row="9" column="0" colspan="2">
+      <widget class="QGroupBox" name="radioGroupBox">
+       <property name="title">
+        <string>Radio Settings</string>
+       </property>
+       <layout class="QFormLayout" name="radioLayout">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetNoConstraint</enum>
+        </property>
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::ExpandingFieldsGrow</enum>
+        </property>
+        <item row="0" column="0">
+         <widget class="QComboBox" name="frm_cellBroadcastsConfigEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_cellBroadcastsConfigEnabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_cellBroadcastsConfigEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_cellBroadcastsConfigEnabled"/>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QComboBox" name="frm_mobileNetworksConfigEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_mobileNetworksConfigEnabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_mobileNetworksConfigEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_mobileNetworksConfigEnabled"/>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QComboBox" name="frm_dataRoamingEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_dataRoamingEnabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_dataRoamingEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_dataRoamingEnabled"/>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <widget class="QComboBox" name="frm_outGoingCallsEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_outGoingCallsDisabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_outGoingCallsEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_outGoingCallsEnabled"/>
+          </item>
+         </layout>
+        </item>
+        <item row="4" column="0">
+         <widget class="QComboBox" name="frm_smsEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_smsDisabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_smsEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_smsEnabled"/>
+          </item>
+         </layout>
+        </item>
+        <item row="5" column="0">
+         <widget class="QComboBox" name="frm_tetheringConfigEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_tetheringConfigDisabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_tetheringConfigEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_tetheringConfigEnabled"/>
+          </item>
+         </layout>
+        </item>
+        <item row="6" column="0">
+         <widget class="QComboBox" name="frm_bluetoothConfigEnabled">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_bluetoothConfigDisabled">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetFixedSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="lbl_title_bluetoothConfigEnabled"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_bluetoothConfigEnabled"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
      </item>
     </layout>
    </item>

@@ -6,59 +6,90 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>350</width>
-    <height>530</height>
+    <width>685</width>
+    <height>650</height>
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
-    <horstretch>1</horstretch>
-    <verstretch>1</verstretch>
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
    </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
-    <width>350</width>
-    <height>530</height>
+    <width>0</width>
+    <height>0</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
-    <widget class="QLabel" name="lLabel">
+   <item row="18" column="0">
+    <widget class="QLabel" name="lTargetApplication">
      <property name="text">
-      <string>Label</string>
+      <string>Target Application (iOS only)</string>
      </property>
     </widget>
    </item>
-   <item row="1" column="0" colspan="3">
-    <widget class="QLabel" name="lTipLabel">
+   <item row="12" column="0" colspan="2">
+    <widget class="QCheckBox" name="chkPrecomposed">
      <property name="text">
-      <string>The name to display for the webclip</string>
+      <string>Precomposed icon (iOS only)</string>
      </property>
     </widget>
    </item>
    <item row="2" column="0" colspan="2">
     <widget class="QLineEdit" name="editLabel"/>
    </item>
-   <item row="3" column="0">
-    <widget class="QLabel" name="lURL">
+   <item row="21" column="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>26</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="14" column="0">
+    <widget class="QCheckBox" name="chkFullscreen">
      <property name="text">
-      <string>URL</string>
+      <string>Full Screen (iOS only)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0" colspan="2">
+    <widget class="QLabel" name="lTipIcon">
+     <property name="text">
+      <string>The icon to use for the web clip</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QLabel" name="lTipLabel">
+     <property name="text">
+      <string>The name to display for the web clip</string>
      </property>
     </widget>
    </item>
    <item row="4" column="0" colspan="3">
     <widget class="QLabel" name="lTipURL">
      <property name="text">
-      <string>The URL to be displayed when opening the WebClip</string>
+      <string>The URL to be displayed when opening the web clip</string>
      </property>
     </widget>
    </item>
-   <item row="5" column="0" colspan="2">
-    <widget class="QLineEdit" name="editURL"/>
+   <item row="7" column="0" colspan="2">
+    <widget class="QLabel" name="lTipRemovable">
+     <property name="text">
+      <string>Enable removal of the web clip</string>
+     </property>
+    </widget>
    </item>
    <item row="6" column="0">
     <widget class="QCheckBox" name="chkRemovable">
@@ -70,12 +101,8 @@
      </property>
     </widget>
    </item>
-   <item row="7" column="0" colspan="2">
-    <widget class="QLabel" name="lTipRemovable">
-     <property name="text">
-      <string>Enable removal of the WebClip</string>
-     </property>
-    </widget>
+   <item row="5" column="0" colspan="2">
+    <widget class="QLineEdit" name="editURL"/>
    </item>
    <item row="8" column="0">
     <widget class="QLabel" name="lIcon">
@@ -84,10 +111,37 @@
      </property>
     </widget>
    </item>
-   <item row="9" column="0" colspan="2">
-    <widget class="QLabel" name="lTipIcon">
+   <item row="19" column="0" colspan="3">
+    <widget class="QLabel" name="lTipTargetApplication">
      <property name="text">
-      <string>The icon to use for the WebClip</string>
+      <string>The application bundle identifier that specifies the application which opens the URL</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lURL">
+     <property name="text">
+      <string>URL</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="lLabel">
+     <property name="text">
+      <string>Label</string>
      </property>
     </widget>
    </item>
@@ -389,6 +443,23 @@ border: 2px solid grey;
      </item>
     </layout>
    </item>
+   <item row="13" column="0" colspan="3">
+    <widget class="QLabel" name="lTipPrecomposed">
+     <property name="text">
+      <string>The icon will be displayed with no added visual effects</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0" colspan="3">
+    <widget class="QLabel" name="lTipFullscreen">
+     <property name="text">
+      <string>Displays the web clip as a fullscreen application</string>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0" colspan="2">
+    <widget class="AppPickerWidget" name="widgetTargetAppBundelId" native="true"/>
+   </item>
    <item row="11" column="0">
     <widget class="QPushButton" name="btnChoose">
      <property name="text">
@@ -399,62 +470,49 @@ border: 2px solid grey;
      </property>
     </widget>
    </item>
-   <item row="11" column="1">
-    <spacer name="horizontalSpacer">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>40</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
-   </item>
-   <item row="12" column="0" colspan="2">
-    <widget class="QCheckBox" name="chkPrecomposed">
-     <property name="text">
-      <string>Precomposed icon (iOS only)</string>
-     </property>
+   <item row="16" column="0" colspan="3">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>18</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="chkIgnoreManifestScope">
+        <property name="text">
+         <string>Ignore Manifest Scope (iOS only)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTipIgnoreManifestScope">
+        <property name="text">
+         <string>If checked, a full screen web clip can navigate to an external web site without showing
+Safari UI. Otherwise, Safari UI appears when navigating away from the web clip’s URL</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
-   </item>
-   <item row="13" column="0" colspan="3">
-    <widget class="QLabel" name="lTipPrecomposed">
-     <property name="text">
-      <string>The icon will be displayed with no added visual effects</string>
-     </property>
-    </widget>
-   </item>
-   <item row="14" column="0">
-    <widget class="QCheckBox" name="chkFullscreen">
-     <property name="text">
-      <string>Full Screen (iOS only)</string>
-     </property>
-    </widget>
-   </item>
-   <item row="15" column="0" colspan="3">
-    <widget class="QLabel" name="lTipFullscreen">
-     <property name="text">
-      <string>Displays the WebClip as a fullscreen application</string>
-     </property>
-    </widget>
-   </item>
-   <item row="16" column="2">
-    <spacer name="verticalSpacer">
-     <property name="orientation">
-      <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>20</width>
-       <height>26</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AppPickerWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

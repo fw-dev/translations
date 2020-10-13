@@ -454,7 +454,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="iosLabel">
+          <widget class="QLabel" name="supportedDevicesLabel">
            <property name="text">
             <string>Supported by supervised devices that come either from DEP or have iOS 10.3+.</string>
            </property>

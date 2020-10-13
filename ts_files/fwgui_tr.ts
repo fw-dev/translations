@@ -431,148 +431,148 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="329"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="336"/>
         <source>Uninstall</source>
         <translation type="unfinished">Kaldır</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="316"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="323"/>
         <source>Get license</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="320"/>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="336"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="327"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="343"/>
         <source>Install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="223"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="224"/>
         <source>More</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="426"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
         <source>Not Installed</source>
         <translation>Kurulmadı</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="429"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="436"/>
         <source>Queued for Installation</source>
         <translation>Kurulum İçin Sırayada</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="432"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="439"/>
         <source>Requirements Met</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="435"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="442"/>
         <source>Downloading...</source>
         <translation>İndiriliyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="438"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="445"/>
         <source>Installing...</source>
         <translation>Kuruluyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="442"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="449"/>
         <source>Software installed on your system requires %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="444"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="451"/>
         <source>Installed</source>
         <translation>Kuruldu</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="447"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="454"/>
         <source>Uninstalling...</source>
         <translation>Kaldırılıyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="450"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="457"/>
         <source>Reinstalling...</source>
         <translation>Tekrar Kuruluyor...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="453"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="460"/>
         <source>Install Failed</source>
         <translation>Kurulum Başarısız</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="456"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="463"/>
         <source>License association error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="461"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="468"/>
         <source>License associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="463"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="470"/>
         <source>License associated - Use App Store to install the app on your Mac</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="467"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="474"/>
         <source>Profiles cannot be managed via profiles command on macOS 11+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="470"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="477"/>
         <source>Installed via Mac App Store</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="473"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="480"/>
         <source>Installing via Mac App Store (can take some time)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="476"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="483"/>
         <source>Accept the invite to the organization with a valid iTunes account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="479"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="486"/>
         <source>No VPP user for this application&apos;s organization for your device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="482"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="489"/>
         <source>VPP user is retired</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="485"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="492"/>
         <source>VPP license for asset can not be assigned to a device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="488"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="495"/>
         <source>No VPP token associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="491"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="498"/>
         <source>Not enough licenses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="494"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="501"/>
         <source>No license available or required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="497"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="504"/>
         <source>Invalid status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="500"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="507"/>
         <source>Unknown</source>
         <translation>Belirsiz</translation>
     </message>
@@ -626,63 +626,63 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="323"/>
         <source>Start Installation</source>
         <translation>Kuruluma Başla</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="187"/>
         <source>You can delay installation until: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="188"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="191"/>
         <source>This update is now mandatory and cannot be delayed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>15 Minutes</source>
         <translation>15 Dakika</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="213"/>
         <source>30 Minutes</source>
         <translation>30 Dakika</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="214"/>
         <source>1 Hour</source>
         <translation>1 Saat</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="215"/>
         <source>2 Hours</source>
         <translation>2 Saat</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="223"/>
         <source>deadline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="221"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="224"/>
         <source>till</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="324"/>
         <source>At least one applications is preventing this installation from taking place.
 Do you want to quit all applications before starting the installation?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="108"/>
         <source>%1 programs active</source>
         <translation>%1 program aktif</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="126"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation>Kurulum %1 saniye içinde otomatik olarak başlayacak...</translation>
     </message>

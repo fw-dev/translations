@@ -1123,6 +1123,11 @@
             <string>ECDSA521</string>
            </property>
           </item>
+          <item>
+           <property name="text">
+            <string>Ed25519</string>
+           </property>
+          </item>
          </widget>
         </item>
         <item>
@@ -1534,10 +1539,35 @@
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="vpnOnDemandMatchApp">
-     <property name="text">
-      <string>Enable VPN on Demand match App</string>
-     </property>
+    <widget class="QWidget" name="vpnOnDemandOtherSettingsWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayoutVpnOnDemandOtherSettings">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="vpnOnDemandUserOverrideDisabled">
+        <property name="text">
+         <string>Disable on Demand user override</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="vpnOnDemandMatchApp">
+        <property name="text">
+         <string>Enable VPN on Demand match App</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </item>
    <item>
@@ -1669,7 +1699,7 @@
    </item>
    <item>
     <widget class="QWidget" name="ikev2Widget" native="true">
-     <layout class="QGridLayout" name="gridLayout">
+     <layout class="QVBoxLayout" name="verticalLayout_47">
       <property name="leftMargin">
        <number>0</number>
       </property>
@@ -1682,7 +1712,21 @@
       <property name="bottomMargin">
        <number>0</number>
       </property>
-      <item row="4" column="0" rowspan="2" colspan="2">
+      <item>
+       <widget class="QCheckBox" name="checkEnableEAP">
+        <property name="text">
+         <string>Enable EAP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lTip_30">
+        <property name="text">
+         <string>Enable extended authentication</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QWidget" name="eapWidget" native="true">
         <layout class="QVBoxLayout" name="verticalLayout_30">
          <property name="leftMargin">
@@ -1801,7 +1845,7 @@
          </item>
          <item>
           <widget class="QWidget" name="certificateTypeEAP" native="true">
-           <layout class="QVBoxLayout" name="verticalLayout_36">
+           <layout class="QVBoxLayout" name="verticalLayout_51">
             <property name="leftMargin">
              <number>0</number>
             </property>
@@ -1864,7 +1908,12 @@
                 </item>
                 <item>
                  <property name="text">
-                  <string>ECDSA521</string>
+                  <string>ECDSA512</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Ed25519</string>
                  </property>
                 </item>
                </widget>
@@ -1946,41 +1995,7 @@
         </layout>
        </widget>
       </item>
-      <item row="9" column="1">
-       <spacer name="horizontalSpacer_14">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>348</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="12" column="0">
-       <widget class="QCheckBox" name="checkUseIPv4">
-        <property name="text">
-         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="0" colspan="2">
-       <widget class="QLabel" name="label_24">
-        <property name="text">
-         <string>Dead Peer Detection Rate</string>
-        </property>
-       </widget>
-      </item>
-      <item row="17" column="0">
-       <widget class="QLabel" name="labelTLSMaximumVersion">
-        <property name="text">
-         <string>TLS Maximum Version</string>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="0">
+      <item>
        <widget class="QWidget" name="widgetNAT" native="true">
         <layout class="QVBoxLayout" name="verticalLayout_37">
          <property name="leftMargin">
@@ -2046,41 +2061,83 @@
         </layout>
        </widget>
       </item>
-      <item row="16" column="0">
-       <widget class="QComboBox" name="comboTlSMinVersion"/>
-      </item>
-      <item row="14" column="0">
-       <widget class="QCheckBox" name="checkEnableCertificateRevocationCheck">
-        <property name="text">
-         <string>Enable certificate revocation check</string>
-        </property>
+      <item>
+       <widget class="QWidget" name="deadPeerDetectionRate" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_49">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_24">
+           <property name="text">
+            <string>Dead Peer Detection Rate</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTip_31">
+           <property name="text">
+            <string>Detection interval for the connection</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_22">
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_26">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>348</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
        </widget>
       </item>
-      <item row="10" column="0">
+      <item>
        <widget class="QCheckBox" name="checkDisableRedirects">
         <property name="text">
          <string>Disable redirects</string>
         </property>
        </widget>
       </item>
-      <item row="11" column="0">
+      <item>
        <widget class="QCheckBox" name="checkDisableMobility">
         <property name="text">
          <string>Disable Mobility and Multihoming</string>
         </property>
        </widget>
       </item>
-      <item row="15" column="0">
-       <widget class="QLabel" name="labelTLSMinimumVersion">
+      <item>
+       <widget class="QCheckBox" name="checkUseIPv4">
         <property name="text">
-         <string>TLS Minimum Version</string>
+         <string>Use IPv4 / IPv6 Internal Subnet Attributes</string>
         </property>
        </widget>
       </item>
-      <item row="9" column="0">
-       <widget class="QComboBox" name="comboDeadPeerDetectionInterval"/>
-      </item>
-      <item row="13" column="0">
+      <item>
        <widget class="QCheckBox" name="checkEnablePFS">
         <property name="text">
          <string>Enable perfect forward secrecy</string>
@@ -2090,14 +2147,182 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="checkEnableEAP">
+      <item>
+       <widget class="QCheckBox" name="checkEnableCertificateRevocationCheck">
         <property name="text">
-         <string>Enable EAP</string>
+         <string>Enable certificate revocation check</string>
         </property>
        </widget>
       </item>
-      <item row="20" column="0">
+      <item>
+       <widget class="QCheckBox" name="checkEnableFallback">
+        <property name="text">
+         <string>Enable cellular fallback</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetTLSMin" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_36">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labelTLSMinimumVersion">
+           <property name="text">
+            <string>TLS Minimum Version</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_23">
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QComboBox" name="comboTlSMinVersion"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_25">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>348</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetTLSMax" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_50">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labelTLSMaximumVersion">
+           <property name="text">
+            <string>TLS Maximum Version</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_24">
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QComboBox" name="comboTlSMaxVersion"/>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_14">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>348</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetMTU" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_46">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labelMTU">
+           <property name="text">
+            <string>MTU</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutMTU" stretch="0,0,3">
+           <item>
+            <widget class="QCheckBox" name="checkBoxEnableMTU">
+             <property name="text">
+              <string>Set MTU</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="spinBoxMTU">
+             <property name="minimum">
+              <number>0</number>
+             </property>
+             <property name="maximum">
+              <number>999999999</number>
+             </property>
+             <property name="value">
+              <number>1280</number>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_24">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
        <spacer name="verticalSpacer_2">
         <property name="orientation">
          <enum>Qt::Vertical</enum>
@@ -2113,21 +2338,7 @@
         </property>
        </spacer>
       </item>
-      <item row="3" column="0" colspan="2">
-       <widget class="QLabel" name="lTip_30">
-        <property name="text">
-         <string>Enable extended authentication</string>
-        </property>
-       </widget>
-      </item>
-      <item row="8" column="0" colspan="2">
-       <widget class="QLabel" name="lTip_31">
-        <property name="text">
-         <string>Detection interval for the connection</string>
-        </property>
-       </widget>
-      </item>
-      <item row="21" column="0" colspan="2">
+      <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -2149,9 +2360,6 @@
          </attribute>
         </widget>
        </widget>
-      </item>
-      <item row="18" column="0">
-       <widget class="QComboBox" name="comboTlSMaxVersion"/>
       </item>
      </layout>
     </widget>

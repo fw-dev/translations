@@ -711,6 +711,59 @@
     </widget>
    </item>
    <item>
+    <widget class="QLabel" name="lTimeZone">
+     <property name="text">
+      <string>Time Zone (iOS 14.0+ and tvOS 14.0+, supervised devices only)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipTimeZone">
+     <property name="text">
+      <string>Set device time zone.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipTimeZone_warning">
+     <property name="text">
+      <string>If Force automatic date and time restriction is set, this command will fail.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cbTimeZoneMaster">
+     <item>
+      <property name="text">
+       <string>Don't change timezone</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Use FWAdmin time zone</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Select from the list of time zones</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cbTimeZoneList">
+      <property name="visible">
+       <bool>false</bool>
+      </property>
+    </widget>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
