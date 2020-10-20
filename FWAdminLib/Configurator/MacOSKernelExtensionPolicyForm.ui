@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0">
    <item>
     <widget class="QLabel" name="lUserApprovedDescription">
      <property name="text">
@@ -35,6 +35,23 @@
     <widget class="QLabel" name="lTipAllowUserOverrides">
      <property name="text">
       <string>Users can approve additional kernel extensions not explicitly allowed by configuration profiles</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="cbAllowNonAdminUserApprovals">
+     <property name="text">
+      <string>Standard users can complete installation (macOS 11+)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipAllowNonAdminUserApprovals">
+     <property name="text">
+      <string>If checked, standard users can complete the installation of legacy kernel extensions by rebooting their Mac from within System Preferences &gt; Security &amp; Privacy without supplying administrator credentials</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
