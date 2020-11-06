@@ -35521,76 +35521,76 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</source
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="383"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="384"/>
         <source>Invalid Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="384"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="385"/>
         <source>Unable to read app package name.  A possible remedy: delete and recreate this fileset.  If this problem persists, please contact your FileWave administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="396"/>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="406"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="397"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="407"/>
         <source>No Enterprise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="397"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="398"/>
         <source>[HTTP %1] Unable to find an enrolled enterprise.  Managed properties and permissions for this app will be unavailable.  If this problem persists, please contact your FileWave administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="407"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="408"/>
         <source>Unable to find an enrolled enterprise.  Managed properties and permissions for this app will be unavailable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="419"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="420"/>
         <source>Upstream Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="420"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="421"/>
         <source>Unhandled error reading app data from upstream.
 
 Server said (%1): %2.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="453"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="454"/>
         <source>No category selected. Please select one.</source>
         <translation>Seçili kategori yok. Lütfen bir tane seçin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1094"/>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1340"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1095"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1341"/>
         <source>Cannot save Fileset Dependencies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1219"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1220"/>
         <source>Customize the User Message</source>
         <translation>Kullanıcı Mesajını özelleştir</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1220"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1221"/>
         <source>Set the text that will appear on the user&apos;s screen during this Fileset&apos;s activation:</source>
         <translation>Bu Fileset&apos;in aktivasyonu sırasında kullanıcının ekranında görünecek metni ayarla:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1247"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1248"/>
         <source>Reset to defaults</source>
         <translation>Varsayılanlara Ayarla</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1247"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1248"/>
         <source>An error occurred when trying to retrieve information from iTunes. Please make sure your internet connection is up and running.</source>
         <translation>iTunes&apos;tan bilgi almaya çalışırken hata oluştu. Lütfen internet bağlantınızı kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1781"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1782"/>
         <source>None</source>
         <translation type="unfinished">Hiçbiri</translation>
     </message>
@@ -36831,53 +36831,98 @@ Do you want to close the dialog?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="67"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="70"/>
         <source>Decimal value between -90.0 and +90.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="80"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="83"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The latitude of the geofence center, specified in &lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Decimal Degrees&lt;/span&gt;&lt;/a&gt;.  A latitudinal value ranges from -90.0 to +90.0.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="101"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="104"/>
         <source>Longitude:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="113"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="119"/>
         <source>Decimal value between -180.0 and +180.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="126"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="132"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The longitude of the geofence center, specified in &lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Decimal Degrees&lt;/span&gt;&lt;/a&gt;.  A longitudinal value ranges from -180.0 to +180.0.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="147"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="153"/>
         <source>Radius (m):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="162"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="168"/>
         <source> (m)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="184"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="190"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note that consumer device location reporting has inherent and pragmatic accuracy and precision limits&#xa0;—&#xa0;most consumer devices return results with no guaranteed accuracy more precise than roughly 5m in ideal conditions (e.g., open sky).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="205"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="211"/>
         <source>Description:</source>
         <translation type="unfinished">Tanım:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="226"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="223"/>
+        <source>[e.g., Meeting Room B]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="236"/>
         <source>A description of the geofence area.  If a device leaves the area, the FW Client app will use this message to help inform a user to where the device should be moved.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="257"/>
+        <source>Event Actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="275"/>
+        <source>Choose the actions a device should take when leaving a Geofence.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="287"/>
+        <source>Leaving Action</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="306"/>
+        <source>When leaving the Geofence, the device should:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.cpp" line="22"/>
+        <source>Send Local Notification</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.cpp" line="22"/>
+        <source>Create a sticky local notification informing user that device has left the designated Geofence.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.cpp" line="23"/>
+        <source>Disable All Applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.cpp" line="23"/>
+        <source>In addition to a local notification, also disable all apps.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -45920,7 +45965,7 @@ As the serial number or MAC address must be unique, please resolve the conflict 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreAppManagedPropertiesWidget.cpp" line="160"/>
+        <location filename="../../FWAdminLib/PlayStoreAppManagedPropertiesWidget.cpp" line="165"/>
         <source>Unspecified</source>
         <translation type="unfinished"></translation>
     </message>
@@ -46023,145 +46068,145 @@ As the serial number or MAC address must be unique, please resolve the conflict 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="45"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="48"/>
         <source>Done</source>
         <translation type="unfinished">Tamamlandı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="114"/>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="123"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="117"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="126"/>
         <source>Cannot load Play Store</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="115"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="118"/>
         <source>FileWave was unable to negotiate a Play Store instance with Google.  Please try reopening this Play Store window.  If this problem persists, contact your FileWave Administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="224"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="234"/>
         <source>Forbidden!  Unable to get list of registered enterprises from server.  Note: Without at least one valid enterprise, you will not be able to add any Play Store apps.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="232"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="242"/>
         <source>Unable to get list of enterprises.  Adding a Play Store app requires an enterprise.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="240"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="250"/>
         <source>Server error; unable to get list of enterprises.  Without any enterprises, you will not be able to add any Play Store apps.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="246"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="256"/>
         <source>Unknown response from server.  Enterprise list unavailable.  Please consult the server logs or contact your FileWave administrator for help.  (Note that without any valid enterprises, you will not be able to add any Play Store apps.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="258"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="268"/>
         <source>No enterprises found on server.  If you believe this is in error, please contact your FileWave Administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="277"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="287"/>
         <source>The server gave an invalid or incorrect response: an enterprise does not have a required name.  Please contact your FileWave Administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="323"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="333"/>
         <source>Looking up app details for package name: &lt;strong&gt;%1&lt;/strong&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="332"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="342"/>
         <source>Lookup failed.  Unable to create Play Store Fileset for package name: &lt;strong&gt;%1&lt;/strong&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="377"/>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="387"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="397"/>
         <source>Invalid message received from Play Store.  Unable to create Play Store Fileset for package name: &lt;strong&gt;%1&lt;/strong&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="391"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="401"/>
         <source>Unable to create Play Store Fileset: loaded metadata is invalid.  If this problem persists, please contact your FileWave Administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="406"/>
         <source>Creating Play Store Fileset for package: &lt;strong&gt;%1&lt;/strong&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="412"/>
-        <source>Unable to complete Play Store Fileset creation for &lt;strong&gt;%1&lt;/strong&gt; (id: %2</source>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="422"/>
+        <source>Unable to complete Play Store Fileset creation for &lt;strong&gt;%1&lt;/strong&gt; (id: %2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="416"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="426"/>
         <source>Unable to create Play Store Fileset.  If this problem persists, please contact your FileWave Administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="420"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="430"/>
         <source>Play Store Fileset successfully created: &lt;strong&gt;%1&lt;/strong&gt; (id: %2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="338"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="348"/>
         <source>Forbidden!  Unable to get app meta data.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="124"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="127"/>
         <source>Server error; FileWave was unable to negotiate a Play Store instance with Google.  Please try reopening this Play Store window.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="346"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="356"/>
         <source>Not found!  Unable to find app.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="354"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="364"/>
         <source>Unable to get app meta data.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="362"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="372"/>
         <source>Server error; unable to get app meta data.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="368"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="378"/>
         <source>Unknown response from server.  App meta data unavailable.  Please consult the server logs or contact your FileWave administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="380"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="390"/>
         <source>Unable to read Play Store response (unknown error parsing response).  If the problem persists, please contact your FileWave administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="402"/>
+        <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="412"/>
         <source>Play Store App</source>
         <translation type="unfinished"></translation>
     </message>
@@ -46776,6 +46821,7 @@ Server said (%1): %2</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.ui" line="146"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="531"/>
         <source>Allow access</source>
         <translation type="unfinished"></translation>
     </message>
@@ -46835,135 +46881,166 @@ Server said (%1): %2</source>
         <translation type="unfinished">[İsteğe Bağlı]</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="26"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="16"/>
         <source>Contacts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="27"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="17"/>
         <source>Calendar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="28"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="18"/>
         <source>Reminders</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="29"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="19"/>
         <source>Photos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="30"/>
-        <source>Camera</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="31"/>
-        <source>Microphone</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="32"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="22"/>
         <source>Accessibility</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="33"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="23"/>
         <source>System Events</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="34"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="24"/>
         <source>Full Disk Access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="35"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="25"/>
         <source>System Admin Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="36"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="26"/>
         <source>File Provider Presence</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="37"/>
-        <source>Input Monitoring</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="38"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="28"/>
         <source>Media Library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="39"/>
-        <source>Screen Recording</source>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="20"/>
+        <source>Camera (macOS 10)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="40"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="21"/>
+        <source>Microphone (macOS 10)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="27"/>
+        <source>Input Monitoring  (macOS 10)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="29"/>
+        <source>Screen Recording (macOS 10)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="30"/>
         <source>Speech Recognition</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="41"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="31"/>
         <source>Desktop Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="42"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="32"/>
         <source>Documents Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="43"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="33"/>
         <source>Downloads Folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="44"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="34"/>
         <source>Network Volumes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="45"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="35"/>
         <source>Removable Volumes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="46"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="36"/>
         <source>Apple Events</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="466"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="38"/>
+        <source>Screen Recording (macOS 11)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="39"/>
+        <source>Input Monitoring  (macOS 11)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="40"/>
+        <source>Camera (macOS 11)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="41"/>
+        <source>Microphone (macOS 11)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="491"/>
         <source>This app already has a configuration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="522"/>
+        <source>Allow standard user to set system service (macOS 11+)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PrivacyControlServicesModel</name>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="86"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="81"/>
         <source>Service</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="88"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="83"/>
         <source>Access</source>
         <translation type="unfinished">Erişim</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="109"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="108"/>
+        <source>Allow standard user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="111"/>
         <source>Allow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="109"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="108"/>
+        <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="111"/>
         <source>Deny</source>
         <translation type="unfinished"></translation>
     </message>
@@ -48386,7 +48463,7 @@ FileWave Admin will now quit.</source>
         <location filename="../../FWAdminLib/Configurator/SPPayloads.h" line="150"/>
         <location filename="../../FWAdminLib/Configurator/SPPayloads.h" line="175"/>
         <location filename="../../FWAdminLib/Configurator/SPPayloads.h" line="204"/>
-        <location filename="../../FWAdminLib/Configurator/SPPayloads.h" line="289"/>
+        <location filename="../../FWAdminLib/Configurator/SPPayloads.h" line="304"/>
         <source>Security &amp; Privacy</source>
         <translation type="unfinished"></translation>
     </message>
