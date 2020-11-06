@@ -4777,7 +4777,7 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/CreateNewFilesetDlg.cpp" line="109"/>
         <source>Packages (*.pkg *.mpkg *.msi)</source>
-        <translation type="unfinished">パッケージ (*.pkg *.mpkg *.msi)</translation>
+        <translation>パッケージ (*.pkg *.mpkg *.msi)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateNewFilesetDlg.cpp" line="129"/>
