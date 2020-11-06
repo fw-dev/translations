@@ -4777,7 +4777,7 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/CreateNewFilesetDlg.cpp" line="109"/>
         <source>Packages (*.pkg *.mpkg *.msi)</source>
-        <translation>パッケージ(.pkg、.mpkg、.msi)</translation>
+        <translation type="unfinished">パッケージ (*.pkg *.mpkg *.msi)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateNewFilesetDlg.cpp" line="129"/>
@@ -7785,8 +7785,8 @@ This cannot be undone.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="1233"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.
+
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8632,15 +8632,15 @@ log out and log back into the FileWave™ system.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1418"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
-<byte value="xd"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.
+
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1822"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
-<byte value="xd"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.
+
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8648,8 +8648,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1987"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2009"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2055"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.
+
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8665,8 +8665,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2100"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be exported.<byte value="xd"/>
-<byte value="xd"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be exported.
+
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10137,7 +10137,7 @@ Are you sure you want to continue?</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
-        <source>There was an error in the request to check the proxy.<byte value="xd"/>
+        <source>There was an error in the request to check the proxy.
 
 %1</source>
         <translation type="unfinished"></translation>
@@ -12996,7 +12996,7 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.
 
 Do you want to open the Client Monitor anyway?</source>
         <translation type="unfinished"></translation>
