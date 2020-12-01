@@ -7785,8 +7785,8 @@ This cannot be undone.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="1233"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.
-
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
 A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8385,14 +8385,14 @@ Verify the address and make sure your server is up and running.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="495"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="496"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="497"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3965"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3972"/>
         <source>Ctrl+%1</source>
         <translation>Ctrl+%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="508"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="840"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2505"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2512"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -8405,7 +8405,7 @@ Verify the address and make sure your server is up and running.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="872"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3654"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3661"/>
         <source>Dashboard</source>
         <translation>ダッシュボード</translation>
     </message>
@@ -8500,7 +8500,7 @@ Please enter your Activation Code.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1320"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3619"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3626"/>
         <source>Show Locked Items</source>
         <translation>ロックされた項目を表示</translation>
     </message>
@@ -8508,6 +8508,13 @@ Please enter your Activation Code.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1418"/>
         <source>Cannot set permissions on a &apos;partial&apos; fileset</source>
         <translation>[部分的な]ファイルセットに権限を設定できません</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1418"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1580"/>
@@ -8573,44 +8580,44 @@ log out and log back into the FileWave™ system.</source>
         <translation>&apos;部分的な’ファイルセットを複製できません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1830"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1832"/>
         <source>Error while duplicating fileset</source>
         <translation>ファイルセットを複製中にエラーが発生しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1875"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1877"/>
         <source>Duplicate Failed</source>
         <translation>複製に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1875"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1877"/>
         <source>Failed to duplicate AppStore Application, deleting duplicate fileset</source>
         <translation>App Storeアプリの複製に失敗しました。複製ファイルセットを削除します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1987"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1994"/>
         <source>Cannot open report for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットを開けません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2009"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2016"/>
         <source>Cannot open properties for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットのプロパティを開けません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2037"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2062"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2107"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2044"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2069"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2114"/>
         <source>Unable to lock/reserve the fileset - please try again</source>
         <translation>ファイルセットをロック/予約できません - 再試行してください</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2055"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2062"/>
         <source>Cannot open scripts for a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットのスクリプトを開けません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2100"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2107"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>&apos;部分的な&apos;ファイルセットをエクスポートできません</translation>
     </message>
@@ -8631,411 +8638,409 @@ log out and log back into the FileWave™ system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1418"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1822"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1987"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2009"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2055"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2031"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2038"/>
         <source>Outdated platforms in requirements</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2031"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2038"/>
         <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC. When you change fileset, you will lose outdated platforms from requirements.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2100"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be exported.
-
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2117"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2124"/>
         <source>You don&apos;t have access to export Filesets.</source>
         <translation>ファイルセットをエクスポートする権限がありません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2123"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2130"/>
         <source>You don&apos;t have access to export Profiles as a fileset.</source>
         <translation>ファイルセットプロファイルをエクスポートする権限がありません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2128"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2135"/>
         <source>FileWave Fileset (*.fileset)</source>
         <translation>filewaveファイルセット (*..fileset)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2130"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2137"/>
         <source>FileWave Template (*.fwtemplate)</source>
         <translation>FileWave テンプレート (*.fwtemplate)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2132"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2139"/>
         <source>FileWave Fileset (*.fileset);;FileWave Template(*.fwtemplate)</source>
         <translation>FileWave ファイルセット (*.fileset);;FileWave テンプレート (*.fwtemplate)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2162"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2169"/>
         <source>Save As</source>
         <translation>別名保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2279"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2286"/>
         <source>Smart Group Report</source>
         <translation>スマートグループレポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2280"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2287"/>
         <source>Smart Group has been deleted, report cannot be refreshed.</source>
         <translation>スマートグループは削除されました、レポートは更新できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2355"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2362"/>
         <source>%1 (revision %2)</source>
         <translation>%1 (リビジョン %2)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2371"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2378"/>
         <source>Licenses Used/Total: </source>
         <translation>ライセンス 使用中／合計: </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2372"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2379"/>
         <source>Computers %1/%2, </source>
         <translation>コンピューター %1 / %2, </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2373"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2380"/>
         <source>Mobile %1/%2, </source>
         <translation>モバイル %1 / %2, </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2375"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2382"/>
         <source>Chromebooks %1/%2, </source>
         <translation>Chromebook %1 / %2, </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2377"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2384"/>
         <source>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </source>
         <translation>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2389"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2396"/>
         <source>Files are still being uploaded to the server.</source>
         <translation>ファイルはサーバーにアップロード中です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2390"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2397"/>
         <source>Do you really want to close the application?</source>
         <translation>本当にアプリをクローズしますか?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2423"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2430"/>
         <source>No MDM license installed</source>
         <translation>MDMライセンスがインストールされていません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2444"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2451"/>
         <source>APN%1 OK</source>
         <translation>APN %1 OK</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2452"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2459"/>
         <source>APN%1 certificate has expired! Model update will fail until certificate is renewed</source>
         <translation>APN %1 証明書の期限が切れました！証明書が更新されるまで「情報（モデル）を更新」は失敗します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2456"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2463"/>
         <source> (Warning: APN certificate will expire in %1 days)</source>
         <translation>(警告; APN証明書は %1 日)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2466"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2473"/>
         <source>APN</source>
         <translation>APN</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2468"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2520"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2475"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2527"/>
         <source>Root Certificate</source>
         <translation>ルート証明書</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2471"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2478"/>
         <source>APN%1 needs %2 configuration
 (see Mobile/%3 and root certificates in preferences)</source>
         <translation>APN %1 は %2 構成が必要です。
 （環境設定のモバイル / %3 と ルート証明書を参照)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2472"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2528"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2479"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2535"/>
         <source> and </source>
         <translation>と </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2481"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2488"/>
         <source>MDM service not running</source>
         <translation>MDMサービスは起動していません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2486"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2493"/>
         <source>Incorrect MDM service version</source>
         <translation>MDMサーバーのバージョンが誤っています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2514"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2521"/>
         <source>API key</source>
         <translation>APIキー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2517"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2524"/>
         <source>Project Number</source>
         <translation>プロジェクトナンバー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2523"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2530"/>
         <source>FCM</source>
         <translation>FCM</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3172"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3179"/>
         <source>%1 import</source>
         <translation>%1 インポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3173"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3180"/>
         <source>Do you want to create new fileset or to add revisions to exisiting fileset %1?</source>
         <translation>新規ファイルセットを作成するかリビジョンを既存のファイルセット %1 に追加しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3175"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3182"/>
         <source>Create new</source>
         <translation>新規作成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3177"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3184"/>
         <source>Add revisions to existing</source>
         <translation>リビジョンを既存のものに追加</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3248"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3255"/>
         <source>Importing package</source>
         <translation>パッケージのインポート中</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3249"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3256"/>
         <source>Unable to import package, target fileset %1 is locked.</source>
         <translation>パッケージをインポートできません。対象ファイルセット %1 がロックされています。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3315"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3322"/>
         <source>Importing folder</source>
         <translation>フォルダーのインポート中</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3316"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3323"/>
         <source>Unable to import folder, target fileset %1 is locked.</source>
         <translation>フォルダーをインポートできません。対象ファイルセット %1 がロックされています。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3356"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3363"/>
         <source>Importing fileset</source>
         <translation>ファイルセットのインポート中</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3357"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3364"/>
         <source>Unable to import fileset, target fileset %1 is locked.</source>
         <translation>ファイルセットをインポートできません。対象ファイルセット %1 がロックされています。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3617"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3624"/>
         <source>Another administrator is currently editing the custom fields or related data. Please try again later.</source>
         <translation>現在別の管理者がカスタムフィールドまたは関連するデータを編集しています。 後ほど再試行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2527"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2534"/>
         <source>Google Notifications needs %1 configuration
 (see Mobile/Android and root certificates in preferences)</source>
         <translation>Google Notification は %1 構成が必要です。
 （環境設定のモバイル / Android とルート証明書を参照してください)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2140"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2147"/>
         <source>Export Fileset</source>
         <translation>ファイルセットをエクスポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2141"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2148"/>
         <source>Please select Fileset Revisions to export.</source>
         <translation>ファイルセットリビジョンを選択してエクスポートしてください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2535"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2536"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2542"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2543"/>
         <source>
 (# of mobile clients exceeds license limit)</source>
         <translation>
 (# モバイルクライアントの数はライセンス制限を超えています)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2589"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2596"/>
         <source>Service OK</source>
         <translation>サービス OK</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2589"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2596"/>
         <source>Service not running</source>
         <translation>サービスは起動していません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3011"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3018"/>
         <source>Model Update in Progress...</source>
         <translation>情報（モデル）を更新中...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3013"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3020"/>
         <source>Model Updating</source>
         <translation>情報（モデル）更新中</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3036"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3043"/>
         <source>Model Revert in Progress...</source>
         <translation>情報（モデル）を元に戻す...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3038"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3045"/>
         <source>Model Reverting</source>
         <translation>情報（モデル）を元に戻す</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3147"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3154"/>
         <source>The Software Update feature is not available in the Small Business Edition.</source>
         <translation>ソフトウェアアップデート機能はスモールビジネスエディションでは無効です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3155"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3162"/>
         <source>Software Updates</source>
         <translation>ソフトウェアアップデート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3156"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3163"/>
         <source>Another administrator is currently editing the Software Updates dialog. Please try again later.</source>
         <translation>現在別の管理者がソフトウェアアップデートダイアログを編集しています。後ほど再試行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3388"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3395"/>
         <source>Adding files with url cannot be done via drag and drop, use Import File instead.</source>
         <translation>URLでファイルを追加はドラッグアンドドロップでは実行できません。 代わりにファイルをインポートを使用してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3259"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3266"/>
         <source>Invalid Patch Installer</source>
         <translation>パッチインストーラーは無効です</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3586"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1822"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1832"/>
+        <source>Error while duplicating fileset %1: %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1994"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2016"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2062"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2107"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be exported.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3593"/>
         <source>Scheduled Reports</source>
         <translation>スケジュールされたレポート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3587"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3594"/>
         <source>Another administrator is currently editing the Scheduled Reports. Please try again later.</source>
         <translation>別の管理者が現在スケジュールされたレポートを編集しています。後で再実行してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3616"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3623"/>
         <source>Custom Fields Locked</source>
         <translation>カスタムフィールドはロックされています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3832"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3839"/>
         <source>Custom Fields usages update failed</source>
         <translation>カスタムフィールド使用状況の更新に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3833"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3840"/>
         <source>Failed to update Custom Fields usages. This information will be updated on the next model update.</source>
         <translation>カスタムフィールド使用状況の更新に失敗しました。この情報は次の「情報（モデル）を更新」で更新されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3848"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3855"/>
         <source>Disk Encryption configuration usages update failed</source>
         <translation>ディスク暗号化構成使用法のアップデートに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3849"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3856"/>
         <source>Failed to update Disk Encryption configuration usages.</source>
         <translation>ディスク暗号化構成使用法のアップデートに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3864"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3871"/>
         <source>Per-App VPN payload update failed</source>
         <translation>アプリごとのVPNペイロード更新失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3865"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3872"/>
         <source>Failed to add or update Per-App VPN payload.</source>
         <translation>アプリごとのVPNペイロードを追加または更新できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3880"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3887"/>
         <source>Per-App VPN payloads and usages update failed</source>
         <translation>アプリごとのVPNペイロードと使用状況の更新失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3881"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3888"/>
         <source>Failed to update Per-App VPN payloads and usages.</source>
         <translation>アプリごとのVPNペイロードと使用量を更新できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3896"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3903"/>
         <source>Per-App VPN payload usages update failed</source>
         <translation>アプリごとのVPNペイロード使用量の更新失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3897"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3904"/>
         <source>Failed to update Per-App VPN payload usages.</source>
         <translation>アプリごとのVPNペイロード使用量を更新できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3912"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3919"/>
         <source>Web Admin configuration get failed</source>
         <translation>Web Admin 構成の取得に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3913"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3920"/>
         <source>Failed to get Web Admin configuration.</source>
         <translation>Web Admin 構成の取得に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3926"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3933"/>
         <source>Web Admin Url open failed</source>
         <translation>Web Admin URL オープンに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3927"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3934"/>
         <source>Failed to open Web Admin Url.</source>
         <translation>Web Admin URL オープンに失敗しました。</translation>
     </message>
@@ -9545,8 +9550,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1464"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1469"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1576"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1467"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1574"/>
         <source>consecutive missing extractions. Items will be immediately removed.</source>
         <translation>回連続して欠落を抽出した後に。項目はすぐに削除されます。</translation>
     </message>
@@ -9895,8 +9900,8 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
         <translation>選択したLDAPサーバーを環境設定から削除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2865"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2879"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2862"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2876"/>
         <source>Device Enrollment Program</source>
         <translation>Device Enrollment Program</translation>
     </message>
@@ -10024,6 +10029,13 @@ Are you sure you want to continue?</source>
         <translation>プロキシテストに失敗しました</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
+        <source>There was an error in the request to check the proxy.<byte value="xd"/>
+
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="867"/>
         <source>There was an error in the request</source>
         <translation>リクエストエラー</translation>
@@ -10069,54 +10081,54 @@ Are you sure you want to continue?</source>
         <translation>選択した自動ログアウト間隔は短すぎます。10分に設定設定されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1413"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3225"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3239"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1406"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3222"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3236"/>
         <source>LDAP authentication</source>
         <translation>LDAP認証</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1619"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1617"/>
         <source>Inventory service not online</source>
         <translation>インベントリーサービスはオンラインではありません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1626"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1624"/>
         <source>Checking LDAP connection...</source>
         <translation>LDAPコネクションを確認...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1638"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1636"/>
         <source>Feature Restricted</source>
         <translation>機能制限</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1639"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1637"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
         <translation>機能制限:  この機能は現在のライセンス構成では利用できません。ライセンスをアップグレードするためにFileWaveに連絡してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1740"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1738"/>
         <source>Certificated Creation Error</source>
         <translation>証明書生成エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1740"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1738"/>
         <source>Failed to set certificate: %1</source>
         <translation>証明書の設定でエラーが発生しました %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1767"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1768"/>
         <source>A new certificate and private key has been successfully uploaded</source>
         <translation>新規証明書とプライベートキーはアップロードされました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1784"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1781"/>
         <source>Certificated created</source>
         <translation>認証された</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1413"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1406"/>
         <source>Please restart web services.</source>
         <translation>Webサービスを再起動してください。</translation>
     </message>
@@ -10136,79 +10148,67 @@ Are you sure you want to continue?</source>
         <translation>FileWaveモデルから削除したユーザーエンロール済みのデバイスは常にMDMプロファイルを削除するよう指示されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
-        <source>There was an error in the request to check the proxy.
-
-%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1580"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1578"/>
         <source>consecutive missing extractions.</source>
         <translation>回連続して欠落を抽出した後に。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1747"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1745"/>
         <source>Restarting web services...</source>
         <translation>Webサービスを再起動します...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1771"/>
-        <source>A new certificate and private key has been successfully uploaded. Please restart web services.</source>
-        <translation>新しい証明書と秘密鍵がアップロードされました。 Webサービスを再起動してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1775"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1772"/>
         <source>A new certificate has been created but some web service failed to restart due to a timeout. Please restart web services.</source>
         <translation>新しい証明書が作成されましたが、一部のWebサービスはタイムアウトのため再起動できませんでした。 Webサービスを再起動してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1778"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1775"/>
         <source>A new certificate has been created but some web service failed to restart. Please restart web services.</source>
         <translation>新しい証明書が作成されましたが、一部のWebサービスは再起動できませんでした。 Webサービスを再起動してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1894"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1891"/>
         <source>Select an Apple Push Notification Certificate/Key pair for MDM (*%1)</source>
         <translation>MDMのAppleプッシュ通知証明書/キーペアを選択してください (*%1)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1894"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1891"/>
         <source>APN Certificate/Key (*%1)</source>
         <translation>APN証明書／キー (*%1)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1960"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1957"/>
         <source>You do not have permission to configure FCM</source>
         <translation>FCMを構成する権限がありません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2024"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2021"/>
         <source>%1 Uploaded Failed</source>
         <translation>%1 のアップロードに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2047"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2044"/>
         <source>Inventory query error</source>
         <translation>インベントリークエリ（情報検索）エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2048"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2045"/>
         <source>Failed to get version information about clients and boosters: %1</source>
         <translation>クライアントとブースターのバージョン情報を取得できませんでした: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2086"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2083"/>
         <source>Enabling full security mode.</source>
         <translation>フルセキュリティモードを有効にします。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2092"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2089"/>
         <source>Clients, boosters, and imaging servers must be on version 13.1 or greater to support full security mode.</source>
         <translation>フルセキュリティモードをサポートするには、クライアント、ブースター、およびイメージングサーバーがバージョン13.1以降である必要があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2093"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2090"/>
         <source>All your clients, boosters and imaging servers are compatible.
 
 Note: This change will automatically logout other FileWave Admin sessions.</source>
@@ -10217,7 +10217,7 @@ Note: This change will automatically logout other FileWave Admin sessions.</sour
 注意：この変更により、他のFileWave Adminセッションが自動的にログアウトされます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2097"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2094"/>
         <source>Warning: clients, boosters, and imaging servers must be on version 13.1 or greater to support full security mode.
 Do you really want to enable full security mode? The following components will no longer be able to communicate with the FileWave Server:
   %1 client(s)
@@ -10230,7 +10230,7 @@ Do you really want to enable full security mode? The following components will n
   %3 イメージングサーバー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2102"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2099"/>
         <source>Out-dated components will no longer connect to the FileWave Server. They must be updated and re-enrolled.
 
 Note: This change will automatically logout other FileWave Admin sessions.</source>
@@ -10239,350 +10239,350 @@ Note: This change will automatically logout other FileWave Admin sessions.</sour
 注意：この変更により、他のFileWave Adminセッションが自動的にログアウトされます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2114"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2111"/>
         <source>Enabling compatibility mode.</source>
         <translation>互換モードを有効にします。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2119"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2116"/>
         <source>Using compatibility mode is not recommended unless you have clients, boosters or imaging servers on version 13.0.x or lower.
 Do you really want to enable compatibility mode?</source>
         <translation>互換モードの使用は、クライアント、ブースター、またはイメージングサーバーがバージョン13.0.x以前でない限り推奨されません。
 互換モードを有効にしますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2121"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2118"/>
         <source>Note: This change will automatically logout other FileWave Admin sessions.</source>
         <translation>注意：この変更により、他のFileWave Adminセッションが自動的にログアウトされます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2157"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2154"/>
         <source>.extension</source>
         <translation>.extension</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2197"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2194"/>
         <source>The extension %1 already exists.
 Please use another extension.</source>
         <translation>エクステンション %1 はすでに存在しています。
 別のエクステンションを使用してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2279"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2276"/>
         <source>Shared secret key not created.</source>
         <translation>共有秘密鍵は生成されません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2283"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2280"/>
         <source>MDM</source>
         <comment>MDM Server</comment>
         <translation>MDM サーバー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2285"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2282"/>
         <source>Engage</source>
         <comment>Engage Server</comment>
         <translation>エンゲージ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2288"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2285"/>
         <source>The shared secret key used for communication between Filewave Admin and %1 was not yet created. Do you really want to close this dialog?</source>
         <translation>FileWave Adminと%1間の通信に使用される共有秘密鍵はまだ生成されていません。このダイアログを閉じますか?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2293"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2290"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2294"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2291"/>
         <source>Close dialog</source>
         <translation>ダイアログを閉じる</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2295"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2292"/>
         <source>Generate shared key(s)</source>
         <translation>共有鍵を生成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2356"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2353"/>
         <source>MDM Failure</source>
         <translation>MDMサーバー 失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2359"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2356"/>
         <source>The new shared key could not be set on the MDM Server: %1</source>
         <translation>新規共有鍵はMDMサーバ－ %1 に設定できませんでした</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2377"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2374"/>
         <source>Setup Failure</source>
         <translation>設定 失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2377"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2374"/>
         <source>The new shared key could not be set on the Engage Server</source>
         <translation>新規共有鍵はエンゲージサーバーで設定できませんでした</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2394"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2391"/>
         <source>Imaging Failure</source>
         <translation>イメージング失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2394"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2391"/>
         <source>The new shared key could not be set on Imaging Server</source>
         <translation>新規共有鍵はイメージングサーバーで設定できませんでした</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2404"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2401"/>
         <source>Failed to Save Preferences</source>
         <translation>環境設定の保存に失敗しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2407"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2404"/>
         <source>Failure Saving Preferences to Server.</source>
         <translation>サーバーへの環境設定の保存に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2418"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2415"/>
         <source>Kiosk categories reset</source>
         <translation>Kiosk カテゴリーをリセット</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2419"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2416"/>
         <source>Kiosk categories will be reset to default.
 Continue ?</source>
         <translation>Kiosk カテゴリーはデフォルトにリセットされます。
 続行しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2490"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2487"/>
         <source>Email preferences test</source>
         <translation>メール環境設定テスト</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2490"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2487"/>
         <source>Please enter a mail address where to send the test e-mail</source>
         <translation>テストメールを送信するメールアドレスを入力してください</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2509"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2516"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2506"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2513"/>
         <source>Email settings</source>
         <translation>メール設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2510"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2507"/>
         <source>Test email has been successfully sent to %1.</source>
         <translation>テストメールは%1に送信されました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2517"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2514"/>
         <source>Could not send test email, reason:
 %1</source>
         <translation>テストメールを送信できません。理由:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2795"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2792"/>
         <source>Connected successfully!</source>
         <translation>接続成功!</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2800"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2797"/>
         <source>Failed to connect to ldap server %1. %2
 </source>
         <translation>LDAPサーバー %1 %2への接続に失敗しました
 </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2852"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2849"/>
         <source>%n token(s) configured</source>
         <translation>
             <numerusform>%n トークンを構成</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2854"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2851"/>
         <source>No tokens configured</source>
         <translation>トークンは未構成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2895"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2892"/>
         <source>Getting DEP certificate</source>
         <translation>DEP証明書を取得</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2895"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2909"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2892"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2906"/>
         <source>An error occurred while saving the file: %1</source>
         <translation>ファイル %1 を保存中にエラーが発生しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2900"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2897"/>
         <source>Save DEP Certificate</source>
         <translation>DEP証明書を保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2902"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2899"/>
         <source>Certificate (*.pem)</source>
         <translation>証明書 (*.pem)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2909"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2906"/>
         <source>Saving DEP certificate</source>
         <translation>DEP 証明書を保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2919"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2916"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation>エラー 最終同期日付を取得できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2925"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2922"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation>DEP Webサービスとの最終同期 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2929"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2926"/>
         <source>Never synchronized.</source>
         <translation>同期していません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2985"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2982"/>
         <source>Sync with Apple</source>
         <translation>Appleへ同期</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2986"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2983"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation>DEPデータはAppleと同期しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2993"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3056"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3061"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3089"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3122"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3139"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3150"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2990"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3053"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3058"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3086"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3119"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3136"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3147"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2995"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2992"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation>1つ以上のDEPアカウントを同期できませんでした。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3042"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3039"/>
         <source>MDM for macOS</source>
         <translation>macOS用MDM</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3050"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3047"/>
         <source>Upload FileWave Client Package for MDM</source>
         <translation>FileWave クライアントパッケージをMDMにアップデート</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3056"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3053"/>
         <source>This doesn&apos;t seem to be a FileWave Client package.</source>
         <translation>これはFileWave クライアントパッケージではありません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3061"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3058"/>
         <source>Unable to determine the package version.</source>
         <translation>パッケージバージョンを特定できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3090"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3087"/>
         <source>Error Scheduling Custom Fields Extraction</source>
         <translation>カスタムフィールド拡張スケジュールエラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3096"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3129"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3093"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3126"/>
         <source>Success</source>
         <translation>成功</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3097"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3094"/>
         <source>Custom field extraction successfully scheduled</source>
         <translation>カスタムフィールドエクステンションはスケジュールされました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3124"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3121"/>
         <source>Error scheduling synchronization for server &apos;%1&apos;</source>
         <translation>サーバー %1 同期スケジュールエラーが発生しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3125"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3122"/>
         <source>Error scheduling synchronization for all servers</source>
         <translation>すべてのサーバーへ同期エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3131"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3128"/>
         <source>Synchronization for server &apos;%1&apos; successfully scheduled</source>
         <translation>サーバー %1 と同期はスケジュールされました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3132"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3129"/>
         <source>Synchronization for all servers successfully scheduled</source>
         <translation>すべてのサーバーへ同期はスケジュールされました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3139"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3136"/>
         <source>Clearing the LDAP user cache failed: %1.</source>
         <translation>LDAPユーザーキャッシュをクリアに失敗しました %1。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3152"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3149"/>
         <source>Could not upload FileWave Client package for MDM:</source>
         <translation>MDMのためのFileWave クライアントパッケージはアップロードできません:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3155"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3152"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Error while uploading package.&lt;/font&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;パッケージのアップロード中にエラーが発生しました。&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3159"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3156"/>
         <source>Success !</source>
         <translation>成功 !</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3159"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3156"/>
         <source>FileWave Client package successfully uploaded.</source>
         <translation>FileWave クライアントパッケージはアップロードされました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3168"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3165"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Package not available, MDM for macOS will not work.&lt;/font&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;パッケージは利用できません。macOS用MDMは機能しません。&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3174"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3171"/>
         <source>Package available.</source>
         <translation>パッケージは利用できます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3176"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3173"/>
         <source>Package version %1 available.</source>
         <translation>パッケージバージョン %1 は存在します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3225"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3222"/>
         <source>Failed to test changes in LDAP authentication configuration.</source>
         <translation>LDAP認証構成の変更テストに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3239"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3236"/>
         <source>Failed to apply new configuration for LDAP authentication: %1</source>
         <translation>LDAP認証 %1 の新規構成を適用できません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3250"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3247"/>
         <source>Apache was previously configured to use LDAP for device enrollment.
 FileWave can update Apache configuration to match your LDAP settings.
 Do you wish to keep existing settings or apply the new configuration?
@@ -10593,34 +10593,34 @@ FileWaveはLDAP構成に合うようにApache設定を更新することがで�
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3254"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3251"/>
         <source>Specialized configurations have to be edited manually.</source>
         <translation>特別な構成は手動で編集する必要があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3255"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3252"/>
         <source>Keep Previous</source>
         <translation>以前の設定を保つ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3256"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3253"/>
         <source>Apply New</source>
         <translation>新規設定を適用</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3274"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3278"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3271"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3275"/>
         <source>Missing field error</source>
         <translation>フィールドが見つからないエラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3274"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3271"/>
         <source>LDAP Server Host/IP is mandatory.</source>
         <translatorcomment>LDAPサーバー ベースDNは必須です。</translatorcomment>
         <translation>LDAPサーバー ホスト/IPは必須です。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3278"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3275"/>
         <source>LDAP Server Base DN is mandatory.</source>
         <translation>LDAPサーバーベースDNは必須です。</translation>
     </message>
@@ -12995,13 +12995,6 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation>デバイスを有効にできません: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1406"/>
         <source>Android client %1 and all its clones</source>
         <translation>Androidクライアント %1 とそのすべてのクローン</translation>
@@ -13192,6 +13185,13 @@ Failed FileWave IDs: %4</source>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="601"/>
         <source>Passcode protected iOS devices will not automatically join a WiFi network until the passcode is entered - remote management will be impossible until the passcode is entered. Make sure the passcode is known before you continue. FileWave will not be able to clear it without a WiFi connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+
+Do you want to open the Client Monitor anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -28825,6 +28825,18 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <translation>システム整合性保護のためにmacOS 10.15に配布できないファイルがファイルセットに含まれている場合はtrue。</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="740"/>
+        <source>macOS 11 SIP Incompatible</source>
+        <comment>field has_sip_issue_11 display name</comment>
+        <translation type="unfinished">macOS 10.14 SIP非互換 {11.0 ?} {11 ?}</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="741"/>
+        <source>True if the fileset contains files that can&apos;t be deployed on macOS 11 due to System Integrity Protection.</source>
+        <comment>field has_sip_issue_11 description</comment>
+        <translation type="unfinished">システム整合性保護のためにmacOS 10.15に配布できないファイルがファイルセットに含まれている場合はtrue。 {11.0 ?} {11 ?}</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="732"/>
         <source>macOS 10.12 SIP Incompatible</source>
         <comment>field has_sip_issue_10_12 display name</comment>
@@ -28841,18 +28853,6 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <source>macOS 10.14 SIP Incompatible</source>
         <comment>field has_sip_issue_10_14 display name</comment>
         <translation>macOS 10.14 SIP非互換</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="740"/>
-        <source>macOS 11.0 SIP Incompatible</source>
-        <comment>field has_sip_issue_11_0 display name</comment>
-        <translation type="unfinished">macOS 10.14 SIP非互換 {11.0 ?}</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="741"/>
-        <source>True if the fileset contains files that can&apos;t be deployed on macOS 11.0 due to System Integrity Protection.</source>
-        <comment>field has_sip_issue_11_0 description</comment>
-        <translation type="unfinished">システム整合性保護のためにmacOS 10.15に配布できないファイルがファイルセットに含まれている場合はtrue。 {11.0 ?}</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="742"/>
@@ -35600,6 +35600,11 @@ MacOS 10.1以降のAPFSは認証済み再起動のオプションをサポート
         <translation>システムバージョン</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="615"/>
+        <source>11.x</source>
+        <translation type="unfinished">10.15.x {11.0.?} {11.?}</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="706"/>
         <source>10.12.x</source>
         <translation>10.12.x</translation>
@@ -35776,11 +35781,6 @@ MacOS 10.1以降のAPFSは認証済み再起動のオプションをサポート
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="505"/>
         <source>Apple Silicon</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="615"/>
-        <source>11.0.x</source>
-        <translation type="unfinished">10.15.x {11.0.?}</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="856"/>
