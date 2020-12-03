@@ -274,7 +274,7 @@
            <item>
             <widget class="QCheckBox" name="checkRemovableApp">
              <property name="text">
-              <string>Allow removal: If selected, the device user will be able to remove this managed application</string>
+              <string>Allow removal: If selected, the device user will be able to remove this managed application (iOS 14+)</string>
              </property>
             </widget>
            </item>

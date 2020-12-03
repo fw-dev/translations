@@ -1749,7 +1749,7 @@ Please wait for the results before opening a new connection</source>
         <translation type="vanished">GCM non configuré.</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="687"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="688"/>
         <source>n.a.</source>
         <comment>not applicable</comment>
         <translation></translation>
@@ -1775,7 +1775,7 @@ Please wait for the results before opening a new connection</source>
         <translation>Retailler les colonnes</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="214"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="230"/>
         <source>Copy</source>
         <translation>Copier</translation>
     </message>

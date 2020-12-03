@@ -47,7 +47,7 @@
       <item row="1" column="3" rowspan="3">
        <widget class="QPushButton" name="btnCheckLdapPermission">
         <property name="text">
-         <string>Check LDAP user permissions...</string>
+         <string>Check LDAP/IDP user permissions...</string>
         </property>
        </widget>
       </item>
@@ -56,7 +56,7 @@
         <property name="currentIndex">
          <number>0</number>
         </property>
-        <widget class="QWidget" name="tab">
+        <widget class="QWidget" name="userDetailTab">
          <attribute name="title">
           <string>User details</string>
          </attribute>
@@ -78,7 +78,7 @@
             <property name="title">
              <string>User Details</string>
             </property>
-            <layout class="QVBoxLayout" name="_2">
+            <layout class="QVBoxLayout" name="verticalLayout_3">
              <item>
               <widget class="QLabel" name="accountdescription">
                <property name="text">
@@ -90,344 +90,477 @@
               </widget>
              </item>
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_3">
-               <property name="spacing">
-                <number>0</number>
-               </property>
-               <item>
-                <widget class="QWidget" name="widget" native="true">
-                 <layout class="QFormLayout" name="formLayout">
-                  <property name="labelAlignment">
-                   <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+              <widget class="QWidget" name="idpWidget" native="true">
+               <layout class="QFormLayout" name="formLayout_2">
+                <property name="labelAlignment">
+                 <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+                </property>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="IDPLabel">
+                  <property name="styleSheet">
+                   <string notr="true">border: none;
+outline: none;</string>
                   </property>
-                  <item row="0" column="0">
-                   <widget class="QLabel" name="labelLoginName">
-                    <property name="text">
-                     <string>Login Name:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="1">
-                   <widget class="QLineEdit" name="lineEditLoginName">
-                    <property name="minimumSize">
-                     <size>
-                      <width>250</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>&lt;No User Selected&gt;</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="0">
-                   <widget class="QLabel" name="labelBaseDN">
-                    <property name="text">
-                     <string>Base DN:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="1">
-                   <widget class="QPlainTextEdit" name="lineEditBaseDN">
-                    <property name="maximumSize">
-                     <size>
-                      <width>16777215</width>
-                      <height>100</height>
-                     </size>
-                    </property>
-                    <property name="placeholderText">
-                     <string/>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="3" column="1">
-                   <widget class="QWidget" name="ldapWidget" native="true">
-                    <layout class="QHBoxLayout" name="horizontalLayout_5">
-                     <property name="leftMargin">
-                      <number>0</number>
+                  <property name="text">
+                   <string>Identity Provider:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QLabel" name="GroupLabel">
+                  <property name="text">
+                   <string>Group:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="1">
+                 <widget class="QWidget" name="idpGroupSelectorWidget" native="true">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>300</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_3">
+                   <property name="spacing">
+                    <number>6</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QLineEdit" name="lineEditIDPGroup">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
                      </property>
-                     <property name="topMargin">
-                      <number>0</number>
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
                      </property>
-                     <property name="rightMargin">
-                      <number>0</number>
+                     <property name="text">
+                      <string>&lt;No Group Selected&gt;</string>
                      </property>
-                     <property name="bottomMargin">
-                      <number>0</number>
+                     <property name="readOnly">
+                      <bool>true</bool>
                      </property>
-                     <item>
-                      <widget class="QPushButton" name="btnTestLdapGroup">
-                       <property name="text">
-                        <string>Test</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item>
-                      <spacer name="ldapSpacer">
-                       <property name="orientation">
-                        <enum>Qt::Horizontal</enum>
-                       </property>
-                       <property name="sizeType">
-                        <enum>QSizePolicy::MinimumExpanding</enum>
-                       </property>
-                       <property name="sizeHint" stdset="0">
-                        <size>
-                         <width>80</width>
-                         <height>0</height>
-                        </size>
-                       </property>
-                      </spacer>
-                     </item>
-                     <item>
-                      <widget class="QPushButton" name="btnBrowseLdap">
-                       <property name="text">
-                        <string>Browse...</string>
-                       </property>
-                      </widget>
-                     </item>
-                    </layout>
-                   </widget>
-                  </item>
-                  <item row="4" column="0">
-                   <widget class="QLabel" name="labelLongName">
-                    <property name="text">
-                     <string>Long Name:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="4" column="1">
-                   <widget class="QLineEdit" name="lineEditLongName">
-                    <property name="minimumSize">
-                     <size>
-                      <width>250</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>&lt;No User Selected&gt;</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="5" column="0">
-                   <widget class="QLabel" name="labelPhone">
-                    <property name="text">
-                     <string>Phone:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="5" column="1">
-                   <widget class="QLineEdit" name="lineEditPhone">
-                    <property name="minimumSize">
-                     <size>
-                      <width>250</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>&lt;No User Selected&gt;</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="6" column="0">
-                   <widget class="QLabel" name="labelEmail">
-                    <property name="text">
-                     <string>Email:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="6" column="1">
-                   <widget class="QLineEdit" name="lineEditEmail">
-                    <property name="minimumSize">
-                     <size>
-                      <width>250</width>
-                      <height>0</height>
-                     </size>
-                    </property>
-                    <property name="text">
-                     <string>&lt;No User Selected&gt;</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="7" column="0">
-                   <widget class="QLabel" name="labelPassword">
-                    <property name="text">
-                     <string>Password:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="7" column="1">
-                   <widget class="QWidget" name="passwordManagement" native="true">
-                    <layout class="QHBoxLayout" name="horizontalLayout_6">
-                     <property name="leftMargin">
-                      <number>0</number>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="btnIDPBrowse">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
                      </property>
-                     <property name="topMargin">
-                      <number>0</number>
+                     <property name="text">
+                      <string>Browse</string>
                      </property>
-                     <property name="rightMargin">
-                      <number>0</number>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QComboBox" name="IDPComboBox">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>300</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true"/>
+                  </property>
+                  <property name="frame">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="lineEditIDPLoginName">
+                  <property name="minimumSize">
+                   <size>
+                    <width>290</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;No User Selected&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="labelIDPLoginName">
+                  <property name="text">
+                   <string>Login Name:</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="localAndLdapwidget" native="true">
+               <layout class="QFormLayout" name="formLayout">
+                <property name="labelAlignment">
+                 <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="labelLoginName">
+                  <property name="text">
+                   <string>Login Name:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QLabel" name="labelBaseDN">
+                  <property name="text">
+                   <string>Base DN:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QPlainTextEdit" name="lineEditBaseDN">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="placeholderText">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <widget class="QWidget" name="ldapWidget" native="true">
+                  <layout class="QHBoxLayout" name="horizontalLayout_5">
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QPushButton" name="btnTestLdapGroup">
+                     <property name="text">
+                      <string>Test</string>
                      </property>
-                     <property name="bottomMargin">
-                      <number>0</number>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="ldapSpacer">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
                      </property>
-                     <item>
-                      <widget class="QRadioButton" name="rbNoPasswordChange">
-                       <property name="text">
-                        <string>No change</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item>
-                      <widget class="QRadioButton" name="rbSetPassword">
-                       <property name="text">
-                        <string>Set password</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item>
-                      <widget class="QRadioButton" name="rbGeneratePassword">
-                       <property name="text">
-                        <string>Generate and email password</string>
-                       </property>
-                      </widget>
-                     </item>
-                    </layout>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="passwordWarning">
-                 <property name="palette">
-                  <palette>
-                   <active>
-                    <colorrole role="WindowText">
-                     <brush brushstyle="SolidPattern">
-                      <color alpha="255">
-                       <red>252</red>
-                       <green>1</green>
-                       <blue>7</blue>
-                      </color>
-                     </brush>
-                    </colorrole>
-                   </active>
-                   <inactive>
-                    <colorrole role="WindowText">
-                     <brush brushstyle="SolidPattern">
-                      <color alpha="255">
-                       <red>252</red>
-                       <green>1</green>
-                       <blue>7</blue>
-                      </color>
-                     </brush>
-                    </colorrole>
-                   </inactive>
-                   <disabled>
-                    <colorrole role="WindowText">
-                     <brush brushstyle="SolidPattern">
-                      <color alpha="255">
-                       <red>127</red>
-                       <green>127</green>
-                       <blue>127</blue>
-                      </color>
-                     </brush>
-                    </colorrole>
-                   </disabled>
-                  </palette>
-                 </property>
-                 <property name="text">
-                  <string>The current user is new and has no password set.</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="usernameWarning">
-                 <property name="palette">
-                  <palette>
-                   <active>
-                    <colorrole role="WindowText">
-                     <brush brushstyle="SolidPattern">
-                      <color alpha="255">
-                       <red>252</red>
-                       <green>1</green>
-                       <blue>7</blue>
-                      </color>
-                     </brush>
-                    </colorrole>
-                   </active>
-                   <inactive>
-                    <colorrole role="WindowText">
-                     <brush brushstyle="SolidPattern">
-                      <color alpha="255">
-                       <red>252</red>
-                       <green>1</green>
-                       <blue>7</blue>
-                      </color>
-                     </brush>
-                    </colorrole>
-                   </inactive>
-                   <disabled>
-                    <colorrole role="WindowText">
-                     <brush brushstyle="SolidPattern">
-                      <color alpha="255">
-                       <red>127</red>
-                       <green>127</green>
-                       <blue>127</blue>
-                      </color>
-                     </brush>
-                    </colorrole>
-                   </disabled>
-                  </palette>
-                 </property>
-                 <property name="text">
-                  <string>The current user name is already used in the LDAP tokens. Proceeding will clear the latter.</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <spacer name="verticalSpacer_2">
-                 <property name="orientation">
-                  <enum>Qt::Vertical</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>0</width>
-                   <height>0</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-               <item>
-                <widget class="QLabel" name="labelComments">
-                 <property name="text">
-                  <string>Comments:</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QTextEdit" name="textEditComments">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="minimumSize">
-                  <size>
-                   <width>0</width>
-                   <height>250</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>250</height>
-                  </size>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+                     <property name="sizeType">
+                      <enum>QSizePolicy::MinimumExpanding</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>80</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="btnBrowseLdap">
+                     <property name="text">
+                      <string>Browse...</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QLabel" name="labelLongName">
+                  <property name="text">
+                   <string>Long Name:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="1">
+                 <widget class="QLineEdit" name="lineEditLongName">
+                  <property name="minimumSize">
+                   <size>
+                    <width>250</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;No User Selected&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="0">
+                 <widget class="QLabel" name="labelPhone">
+                  <property name="text">
+                   <string>Phone:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="1">
+                 <widget class="QLineEdit" name="lineEditPhone">
+                  <property name="minimumSize">
+                   <size>
+                    <width>250</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;No User Selected&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="0">
+                 <widget class="QLabel" name="labelEmail">
+                  <property name="text">
+                   <string>Email:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="1">
+                 <widget class="QLineEdit" name="lineEditEmail">
+                  <property name="minimumSize">
+                   <size>
+                    <width>250</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;No User Selected&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="7" column="0">
+                 <widget class="QLabel" name="labelPassword">
+                  <property name="text">
+                   <string>Password:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="7" column="1">
+                 <widget class="QWidget" name="passwordManagement" native="true">
+                  <layout class="QHBoxLayout" name="horizontalLayout_6">
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QRadioButton" name="rbNoPasswordChange">
+                     <property name="text">
+                      <string>No change</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="rbSetPassword">
+                     <property name="text">
+                      <string>Set password</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="rbGeneratePassword">
+                     <property name="text">
+                      <string>Generate and email password</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="lineEditLoginName">
+                  <property name="minimumSize">
+                   <size>
+                    <width>250</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>&lt;No User Selected&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="passwordWarning">
+               <property name="palette">
+                <palette>
+                 <active>
+                  <colorrole role="WindowText">
+                   <brush brushstyle="SolidPattern">
+                    <color alpha="255">
+                     <red>252</red>
+                     <green>1</green>
+                     <blue>7</blue>
+                    </color>
+                   </brush>
+                  </colorrole>
+                 </active>
+                 <inactive>
+                  <colorrole role="WindowText">
+                   <brush brushstyle="SolidPattern">
+                    <color alpha="255">
+                     <red>252</red>
+                     <green>1</green>
+                     <blue>7</blue>
+                    </color>
+                   </brush>
+                  </colorrole>
+                 </inactive>
+                 <disabled>
+                  <colorrole role="WindowText">
+                   <brush brushstyle="SolidPattern">
+                    <color alpha="255">
+                     <red>127</red>
+                     <green>127</green>
+                     <blue>127</blue>
+                    </color>
+                   </brush>
+                  </colorrole>
+                 </disabled>
+                </palette>
+               </property>
+               <property name="text">
+                <string>The current user is new and has no password set.</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="usernameWarning">
+               <property name="palette">
+                <palette>
+                 <active>
+                  <colorrole role="WindowText">
+                   <brush brushstyle="SolidPattern">
+                    <color alpha="255">
+                     <red>252</red>
+                     <green>1</green>
+                     <blue>7</blue>
+                    </color>
+                   </brush>
+                  </colorrole>
+                 </active>
+                 <inactive>
+                  <colorrole role="WindowText">
+                   <brush brushstyle="SolidPattern">
+                    <color alpha="255">
+                     <red>252</red>
+                     <green>1</green>
+                     <blue>7</blue>
+                    </color>
+                   </brush>
+                  </colorrole>
+                 </inactive>
+                 <disabled>
+                  <colorrole role="WindowText">
+                   <brush brushstyle="SolidPattern">
+                    <color alpha="255">
+                     <red>127</red>
+                     <green>127</green>
+                     <blue>127</blue>
+                    </color>
+                   </brush>
+                  </colorrole>
+                 </disabled>
+                </palette>
+               </property>
+               <property name="text">
+                <string>The current user name is already used in the LDAP tokens. Proceeding will clear the latter.</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="labelComments">
+               <property name="text">
+                <string>Comments:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTextEdit" name="textEditComments">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>250</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>250</height>
+                </size>
+               </property>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -473,8 +606,8 @@
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>865</width>
-               <height>732</height>
+               <width>871</width>
+               <height>739</height>
               </rect>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -560,7 +693,7 @@
       <item row="1" column="4" rowspan="3">
        <widget class="QPushButton" name="btnLdapUserAppTokens">
         <property name="text">
-         <string>LDAP user application tokens...</string>
+         <string>LDAP/IDP user application tokens...</string>
         </property>
        </widget>
       </item>
@@ -749,7 +882,6 @@
  <tabstops>
   <tabstop>treeWidgetAdminList</tabstop>
   <tabstop>tabWidget</tabstop>
-  <tabstop>lineEditLoginName</tabstop>
   <tabstop>lineEditBaseDN</tabstop>
   <tabstop>btnTestLdapGroup</tabstop>
   <tabstop>btnBrowseLdap</tabstop>

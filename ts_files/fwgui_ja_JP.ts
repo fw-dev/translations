@@ -107,13 +107,13 @@
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="82"/>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="379"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="381"/>
         <source>Install</source>
         <translation>インストール</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/Kiosk.cpp" line="84"/>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="380"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="382"/>
         <source>Uninstall</source>
         <translation>アンインストール</translation>
     </message>
@@ -128,42 +128,42 @@
         <translation>App Storeへ</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="260"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="262"/>
         <source>Search...</source>
         <translation>検索...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="265"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="267"/>
         <source>All Items</source>
         <translation>すべてのアイテム</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="266"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="268"/>
         <source>Installed</source>
         <translation>インストールされました</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="267"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="269"/>
         <source>Not Installed</source>
         <translation>インストールされていません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="374"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="376"/>
         <source>Get license</source>
         <translation>ライセンスを取得</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="375"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="377"/>
         <source>Revoke license</source>
         <translation>ライセンスを取り消す</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="492"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="494"/>
         <source>Installing %1.</source>
         <translation>%1をインストールします。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="493"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="495"/>
         <source>In order to install this license, you need to associate your iTunes account to organization &quot;%1&quot;.
 
 If you haven&apos;t associated your account yet, please use the App Store to do so.
@@ -180,17 +180,17 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 [アカウントを関連付ける]をクリックすると、App StoreからiTunes IDの入力を求められ、アカウントの関連付けに関するAppleの契約条件に同意したことになります。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="501"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="503"/>
         <source>Associate my Account</source>
         <translation>アカウントを関連付ける</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="502"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="504"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="819"/>
+        <location filename="../../QtGUIInstaller/Kiosk.cpp" line="815"/>
         <source>%1 Item%2</source>
         <translation>%1 アイテム%2</translation>
     </message>
@@ -198,17 +198,17 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 <context>
     <name>KioskClient</name>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="245"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="247"/>
         <source>An administrator would like to take control of your machine.</source>
         <translation>管理者があなたのマシンを管理します。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="246"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="248"/>
         <source>Deny</source>
         <translation>拒否</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="247"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="249"/>
         <source>Allow</source>
         <translation>許可</translation>
     </message>
@@ -437,148 +437,153 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>...さらに</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="224"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="241"/>
         <source>More</source>
         <translation>さらに</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="323"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="337"/>
         <source>Get license</source>
         <translation>ライセンスを取得</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="327"/>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="343"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="341"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="357"/>
         <source>Install</source>
         <translation>インストール</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="336"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="350"/>
         <source>Uninstall</source>
         <translation>アンインストール</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="433"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="460"/>
         <source>Not Installed</source>
         <translation>インストールされていません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="436"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="463"/>
         <source>Queued for Installation</source>
         <translation>インストールがキューされました</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="439"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="466"/>
         <source>Requirements Met</source>
         <translation>要求された要件</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="442"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="469"/>
         <source>Downloading...</source>
         <translation>ダウンロード...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="445"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="472"/>
         <source>Installing...</source>
         <translation>インストール...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="449"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="476"/>
         <source>Software installed on your system requires %1</source>
         <translation>システムにインストールされているソフトウェアには %1 が必要です</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="451"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="478"/>
         <source>Installed</source>
         <translation>インストールされました</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="454"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="481"/>
         <source>Uninstalling...</source>
         <translation>アンインストール...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="457"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="484"/>
         <source>Reinstalling...</source>
         <translation>再インストール...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="460"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="487"/>
         <source>Install Failed</source>
         <translation>インストール失敗</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="463"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="490"/>
         <source>License association error</source>
         <translation>ライセンスアソシエーションエラー</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="468"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="495"/>
         <source>License associated</source>
         <translation>ライセンスを関連付けました</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="470"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="497"/>
         <source>License associated - Use App Store to install the app on your Mac</source>
         <translation>ライセンス関連付け - App Storeを使用してアプリをMacにインストールします</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="474"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="503"/>
+        <source>Applications cannot be uninstalled via MDM on macOS &lt; 11</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="505"/>
         <source>Profiles cannot be managed via profiles command on macOS 11+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="477"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="508"/>
         <source>Installed via Mac App Store</source>
         <translation>Mac App Store経由でインストール</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="480"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="511"/>
         <source>Installing via Mac App Store (can take some time)</source>
         <translation>Mac App Store経由でインストールします (時間がかかることがあります)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="483"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="514"/>
         <source>Accept the invite to the organization with a valid iTunes account</source>
         <translation>有効なiTunesアカウントで組織への招待を受け入れる</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="486"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="517"/>
         <source>No VPP user for this application&apos;s organization for your device</source>
         <translation>このアプリの組織にデバイスのVPPユーザーはいません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="489"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="520"/>
         <source>VPP user is retired</source>
         <translation>VPPユーザーを削除しました</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="492"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="523"/>
         <source>VPP license for asset can not be assigned to a device</source>
         <translation>資産のVPPライセンスをデバイスに割り当てることはできません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="495"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="526"/>
         <source>No VPP token associated</source>
         <translation>VPPトークンが関連付けられていません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="498"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="529"/>
         <source>Not enough licenses</source>
         <translation>ライセンスが足りません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="501"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="532"/>
         <source>No license available or required</source>
         <translation>利用可能または必要なライセンスがありません</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="504"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="535"/>
         <source>Invalid status</source>
         <translation>無効なステータス</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="507"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="538"/>
         <source>Unknown</source>
         <translation>不明</translation>
     </message>

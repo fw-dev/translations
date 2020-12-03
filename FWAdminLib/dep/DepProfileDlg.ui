@@ -410,7 +410,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
               <property name="verticalSpacing">
                <number>0</number>
               </property>
-              <item row="9" column="2">
+              <item row="11" column="2">
                <widget class="QLabel" name="lTipRemovable">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
@@ -439,7 +439,14 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                 </property>
                </widget>
               </item>
-              <item row="7" column="1">
+              <item row="2" column="1" colspan="2">
+               <widget class="QLabel" name="buddyCustomEnrollment">
+                <property name="text">
+                 <string>Custom Enrollment</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="1">
                <spacer name="verticalSpacer_7">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
@@ -452,14 +459,14 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                 </property>
                </spacer>
               </item>
-              <item row="5" column="1" colspan="2">
+              <item row="7" column="1" colspan="2">
                <widget class="QLabel" name="lTipSupervised">
                 <property name="text">
                  <string>Enable supervision</string>
                 </property>
                </widget>
               </item>
-              <item row="3" column="1">
+              <item row="5" column="1">
                <spacer name="verticalSpacer_6">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
@@ -488,69 +495,8 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                 </property>
                </widget>
               </item>
-              <item row="4" column="0">
-               <widget class="QCheckBox" name="supervised">
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item row="13" column="1">
-               <spacer name="verticalSpacer_13">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>13</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="8" column="1">
-               <layout class="QHBoxLayout" name="horizontalLayout_5">
-                <item>
-                 <widget class="QCheckBox" name="removable">
-                  <property name="text">
-                   <string/>
-                  </property>
-                  <property name="checked">
-                   <bool>false</bool>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </item>
-              <item row="10" column="1">
-               <spacer name="verticalSpacer_8">
-                <property name="orientation">
-                 <enum>Qt::Vertical</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>20</width>
-                  <height>13</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item row="8" column="2">
-               <widget class="QLabel" name="buddyRemovable">
-                <property name="text">
-                 <string>Is MDM removable</string>
-                </property>
-               </widget>
-              </item>
-              <item row="11" column="2">
-               <widget class="QLabel" name="buddyPairing">
-                <property name="text">
-                 <string>Allow pairing</string>
-                </property>
-               </widget>
-              </item>
-              <item row="2" column="1" colspan="2">
-               <widget class="QLabel" name="lTipMandatoryDeprecated">
+              <item row="3" column="1" colspan="2">
+               <widget class="QLabel" name="lblCustomEnrollmentAvailablity">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
                   <horstretch>0</horstretch>
@@ -681,25 +627,110 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                  </font>
                 </property>
                 <property name="text">
-                 <string>Optional enrollment is deprecated as of iOS 12+</string>
+                 <string>Available for IOS 13+ and macOS 10.15+</string>
                 </property>
                </widget>
               </item>
-              <item row="14" column="2">
+              <item row="6" column="0">
+               <widget class="QCheckBox" name="supervised">
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="15" column="1">
+               <spacer name="verticalSpacer_13">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="10" column="1">
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QCheckBox" name="removable">
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="checked">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="12" column="1">
+               <spacer name="verticalSpacer_8">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>13</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="10" column="2">
+               <widget class="QLabel" name="buddyRemovable">
+                <property name="text">
+                 <string>Is MDM removable</string>
+                </property>
+               </widget>
+              </item>
+              <item row="13" column="2">
+               <widget class="QLabel" name="buddyPairing">
+                <property name="text">
+                 <string>Allow pairing</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1" colspan="2">
+               <widget class="QLabel" name="lblIDPWarning">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel {color : red; }</string>
+                </property>
+                <property name="text">
+                 <string>WARNING: IDP server not configured!</string>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="16" column="2">
                <widget class="QLabel" name="buddyAutomaticAdvance">
                 <property name="text">
                  <string>Automatic Advance</string>
                 </property>
                </widget>
               </item>
-              <item row="4" column="1" colspan="2">
+              <item row="6" column="1" colspan="2">
                <widget class="QLabel" name="buddySupervised">
                 <property name="text">
                  <string>Supervise</string>
                 </property>
                </widget>
               </item>
-              <item row="14" column="1">
+              <item row="16" column="1">
                <layout class="QHBoxLayout" name="horizontalLayout_22">
                 <item>
                  <widget class="QCheckBox" name="automaticAdvance">
@@ -713,7 +744,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                 </item>
                </layout>
               </item>
-              <item row="11" column="1">
+              <item row="13" column="1">
                <layout class="QHBoxLayout" name="horizontalLayout_6">
                 <item>
                  <widget class="QCheckBox" name="pairing">
@@ -738,7 +769,21 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                 </item>
                </layout>
               </item>
-              <item row="6" column="1" colspan="2">
+              <item row="2" column="0">
+               <layout class="QHBoxLayout" name="horizontalLayout_2666">
+                <item>
+                 <widget class="QCheckBox" name="customEnrollmentCheckBox">
+                  <property name="enabled">
+                   <bool>true</bool>
+                  </property>
+                  <property name="checked">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item row="8" column="1" colspan="2">
                <widget class="QLabel" name="lTipSupervisedDeprecated">
                 <property name="palette">
                  <palette>
@@ -868,14 +913,14 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                 </property>
                </widget>
               </item>
-              <item row="15" column="2">
+              <item row="17" column="2">
                <widget class="QLabel" name="lTipAutomaticAdvance">
                 <property name="text">
                  <string>Automatic advance through the Apple TV setup assistant</string>
                 </property>
                </widget>
               </item>
-              <item row="12" column="2">
+              <item row="14" column="2">
                <widget class="QLabel" name="lTipPairing">
                 <property name="text">
                  <string>Enable the iOS device to be paired with a Mac</string>
@@ -884,6 +929,19 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
               </item>
               <item row="1" column="3">
                <spacer name="horizontalSpacer_20">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="3" column="3">
+               <spacer name="horizontalSpacer_20666">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
                 </property>
@@ -2475,7 +2533,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="../../FileWaveGuiLib/lockbutton/lockbutton.qrc">:/resources/lockbutton_lock_locked.png</pixmap>
+         <pixmap>:/resources/lockbutton_lock_locked.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2567,9 +2625,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
   <tabstop>chkboxAllowActivationLockIfBypassCodeIsAvailable</tabstop>
   <tabstop>txtboxLostMessage</tabstop>
  </tabstops>
- <resources>
-  <include location="../../FileWaveGuiLib/lockbutton/lockbutton.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>buttonBox</sender>

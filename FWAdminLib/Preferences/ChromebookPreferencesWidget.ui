@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>792</width>
-    <height>351</height>
+    <height>357</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_2">
+  <layout class="QVBoxLayout" name="vl_mainLayout">
    <item>
     <widget class="QGroupBox" name="serviceAccountGroup">
      <property name="title">
       <string>OAuth 2.0 Service Account</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout_2">
+     <layout class="QGridLayout" name="gl_groupBoxServiceAccount">
       <item row="0" column="0">
        <widget class="QPushButton" name="configureServiceAccountButton">
         <property name="text">
@@ -86,7 +86,7 @@
      <property name="title">
       <string>Chromebooks Extension</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout">
+     <layout class="QGridLayout" name="gl_groupBoxChromebooksExtension">
       <item row="0" column="0">
        <widget class="QPushButton" name="exportCertificateButton">
         <property name="statusTip">
@@ -147,9 +147,9 @@
      <property name="title">
       <string>EMM Configuration</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout_3">
+     <layout class="QGridLayout" name="gl_groupBoxEMM">
       <item row="0" column="0">
-       <widget class="QPushButton" name="configureEMMEnterpriseButton">
+       <widget class="QPushButton" name="btnConfigureEMMEnterprise">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -175,7 +175,7 @@
        </spacer>
       </item>
       <item row="1" column="0">
-       <widget class="QPushButton" name="configureEMMDefaultPolicyButton">
+       <widget class="QPushButton" name="btnConfigureEMMDefaultPolicy">
         <property name="text">
          <string>Configure Default Policy</string>
         </property>
@@ -246,8 +246,9 @@
   <tabstop>synchronizeButton</tabstop>
   <tabstop>exportCertificateButton</tabstop>
   <tabstop>exportPolicyButton</tabstop>
-  <tabstop>configureEMMEnterpriseButton</tabstop>
-  <tabstop>configureEMMDefaultPolicyButton</tabstop>
+  <tabstop>btnConfigureEMMEnterprise</tabstop>
+  <tabstop>btnConfigureEMMDefaultPolicy</tabstop>
+  <tabstop>btnEMMSynchronize</tabstop>
  </tabstops>
  <resources/>
  <connections/>

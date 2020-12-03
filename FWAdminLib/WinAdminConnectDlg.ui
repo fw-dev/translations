@@ -88,7 +88,7 @@
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+        <iconset>
          <normaloff>:/RECENT</normaloff>:/RECENT</iconset>
        </property>
        <property name="iconSize">
@@ -160,7 +160,7 @@ p, li { white-space: pre-wrap; }
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+        <iconset>
          <normaloff>:/monitorBlack.png</normaloff>:/monitorBlack.png</iconset>
        </property>
        <property name="shortcut">
@@ -193,7 +193,7 @@ p, li { white-space: pre-wrap; }
         <string/>
        </property>
        <property name="icon">
-        <iconset resource="../FileWaveGuiLib/GuiLib.qrc">
+        <iconset>
          <normaloff>:/magicBlack.png</normaloff>:/magicBlack.png</iconset>
        </property>
        <property name="shortcut">
@@ -311,8 +311,6 @@ p, li { white-space: pre-wrap; }
   <tabstop>passwordED</tabstop>
   <tabstop>buttonBox</tabstop>
  </tabstops>
- <resources>
-  <include location="../FileWaveGuiLib/GuiLib.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

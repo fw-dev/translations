@@ -1666,7 +1666,7 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="687"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="688"/>
         <source>n.a.</source>
         <comment>not applicable</comment>
         <translation>なし</translation>
@@ -1745,7 +1745,7 @@ Please wait for the results before opening a new connection</source>
         <translation>列をリサイズ</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="214"/>
+        <location filename="../../FileWaveGuiLib/styledviews/styledtreeview.cpp" line="230"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>

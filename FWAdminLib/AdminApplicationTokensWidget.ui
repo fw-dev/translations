@@ -199,10 +199,10 @@
         <widget class="QLineEdit" name="nameEdit"/>
        </item>
        <item row="0" column="1" colspan="2">
-        <widget class="QLineEdit" name="ldapOwnerEdit"/>
+        <widget class="QLineEdit" name="idpOwnerEdit"/>
        </item>
        <item row="0" column="3">
-        <widget class="QPushButton" name="testLdapUserButton">
+        <widget class="QPushButton" name="testIdpUserButton">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -218,9 +218,9 @@
         </widget>
        </item>
        <item row="0" column="0">
-        <widget class="QLabel" name="ldapOwnerLbl">
+        <widget class="QLabel" name="idpOwnerLbl">
          <property name="text">
-          <string>LDAP User Name:</string>
+          <string>LDAP/IDP User Name:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
@@ -356,6 +356,7 @@
    <class>SearchLineEdit</class>
    <extends>QLineEdit</extends>
    <header>FileWaveGuiLib/searchlineedit/searchlineedit.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>ViewSearchHeader</class>
