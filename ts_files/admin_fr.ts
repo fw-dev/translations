@@ -586,18 +586,18 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="213"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="206"/>
         <source>Clients and Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="219"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="212"/>
         <source>Modify Clients/Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="240"/>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="305"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="233"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="298"/>
         <source>Set Permissions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -612,37 +612,37 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="226"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="219"/>
         <source>Clear Fileset Status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="247"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="240"/>
         <source>Change Enrollment Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="254"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="247"/>
         <source>View Location Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="261"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="254"/>
         <source>Turn Tracking On/Off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="271"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="264"/>
         <source>Filesets and Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="277"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="270"/>
         <source>Modify Filesets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="291"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="284"/>
         <source>Export Fileset/Template</source>
         <translation type="unfinished"></translation>
     </message>
@@ -722,37 +722,37 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="233"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="226"/>
         <source>Wipe Devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="284"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="277"/>
         <source>Show Fileset Report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="298"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="291"/>
         <source>Manage VPP codes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="315"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="308"/>
         <source>Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="321"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="314"/>
         <source>Modify Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="335"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="328"/>
         <source>Approve Software Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="342"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="335"/>
         <source>Modify Imaging Associations</source>
         <translation type="unfinished"></translation>
     </message>
@@ -762,162 +762,157 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="189"/>
-        <source>Modify EMM Service Account</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="196"/>
-        <source>Unenroll EMM Enterprise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="203"/>
-        <source>Modify EMM Default Policy</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="328"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="321"/>
         <source>Expose On Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="352"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="345"/>
         <source>Google</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="358"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="351"/>
         <source>Modify OU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="365"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="358"/>
         <source>Modify Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="372"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="365"/>
         <source>Deprovision Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="382"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="375"/>
         <source>DEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="388"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="381"/>
         <source>Edit Profiles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="395"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="388"/>
         <source>Assign Profiles, Modify Rules</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="408"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="401"/>
         <source>Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="414"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="407"/>
         <source>Access Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="421"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="414"/>
         <source>Configure Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="434"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="427"/>
         <source>Boosters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="440"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="433"/>
         <source>Enroll and Remove Boosters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="450"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="443"/>
         <source>Discovery Administration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="456"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="449"/>
         <source>Configure, Run Scans, Delete Results</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="466"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="459"/>
         <source>Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="479"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="472"/>
         <source>Delete Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="472"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="465"/>
         <source>Modify Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="492"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="189"/>
+        <source>Modify EMM Enterprise</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="196"/>
+        <source>Configure EMM Default Policy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="485"/>
         <source>Full Disk Encryption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="498"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="491"/>
         <source>Configure Full Disk Encryption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="505"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="498"/>
         <source>Retrieve Recovery Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="518"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="511"/>
         <source>Classroom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="524"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="517"/>
         <source>Access Classroom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="534"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="527"/>
         <source>Activation Lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="540"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="533"/>
         <source>Manage Activation Lock Bypass Codes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="547"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="540"/>
         <source>Configure Default Activation Lock Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="610"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="603"/>
         <source>Select None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="617"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="610"/>
         <source>Select All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.cpp" line="99"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.cpp" line="98"/>
         <source>Requires: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3402,7 +3397,7 @@ In case the booster is still running, it may be added again to the booster list 
     <name>CAdminUserDlg</name>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="938"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="965"/>
         <source>FileWave Administrators</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3529,7 +3524,7 @@ In case the booster is still running, it may be added again to the booster list 
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="225"/>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="241"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="419"/>
         <source>Login Name:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3578,57 +3573,57 @@ In case the booster is still running, it may be added again to the booster list 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="172"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="170"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="419"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="420"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="421"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="422"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="424"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="425"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="426"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="427"/>
         <source>&lt;no user selected&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="507"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="512"/>
         <source>The login name %1 already exists.
 Please use another login name.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="771"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="793"/>
         <source>Untitled-%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="80"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="78"/>
         <source>Local Account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="81"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="79"/>
         <source>LDAP Group Account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="82"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="80"/>
         <source>IDP Group Account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="87"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="85"/>
         <source>No LDAP Authentication server configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="98"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="96"/>
         <source>The LDAP Browser displays cached extraction data and might be outdated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="203"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="243"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="245"/>
         <source>Manage Administrators</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3638,94 +3633,94 @@ Please use another login name.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="243"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="245"/>
         <source>Getting IDP list failed: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="255"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="257"/>
         <source>No IDP Authentication server configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="419"/>
         <source>Account Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="668"/>
         <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="675"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="684"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1076"/>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1087"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="682"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="691"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1108"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1118"/>
         <source>Saving Administrators</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="669"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="676"/>
         <source>User %1 is being created without a password, please set one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="676"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="683"/>
         <source>User %1 has wrong application token names. Please fix token name errors.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="685"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="692"/>
         <source>User %1 is being created without a Group, please set one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="742"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="764"/>
         <source>Delete account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="743"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="765"/>
         <source>Do you really want to delete account &apos;%1&apos;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="793"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="815"/>
         <source>Default Token</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="795"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="817"/>
         <source>This default token is required for FileWave Admin and cannot be deleted.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1077"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1109"/>
         <source>An error occurred saving the administrators: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1085"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1116"/>
         <source>
 User %1: Failed to send password via email (%2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1088"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1119"/>
         <source>Warning(s) occurred saving the administrators: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="939"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="966"/>
         <source>You have not applied your changes to the administrators yet.
 Do you wish to do it now?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="979"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1006"/>
         <source>Error checking LDAP group on the server:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1106"/>
+        <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="1137"/>
         <source>Error fetching VPP Tokens information from the server. &lt;br/&gt;Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7923,116 +7918,116 @@ Desktop data only will be updated.</source>
 <context>
     <name>CWinAdminApp</name>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="244"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="245"/>
         <source>Cannot Connect to that server, it is not on the same version as this admin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="246"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="247"/>
         <source>Unable to logon: unknown user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="248"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="249"/>
         <source>Unable to logon: permission denied.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="250"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="251"/>
         <source>Unable to logon.  (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="284"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="285"/>
         <source>Failed to get permissions from Web Auth backend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="300"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="301"/>
         <source>FileWave</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="301"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="302"/>
         <source>filewave.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="302"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="303"/>
         <source>FileWave Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="358"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="359"/>
         <source>The FileWave Admin received an external request to log in to %1. Do you wish to log off the current session?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="387"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="388"/>
         <source>The server you are trying to connect to does not have a certificate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="390"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="391"/>
         <source>The server you are trying to connect to has a certificate which is not valid at the moment.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="393"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="394"/>
         <source>The server you are trying to connect to has a certificate which is expired.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="396"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="397"/>
         <source>The server you are trying to connect to does not match any of the valid hosts from a certificate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="401"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="402"/>
         <source>The server you are trying to connect to has a certificate which is not trusted on this computer. You need to mark the certificate as trusted for SSL in the keychain. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="424"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="425"/>
         <source>Could not get the necessary information to perform login.
 Please check that your server is running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="543"/>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="610"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="544"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="611"/>
         <source>Privacy error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="550"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="551"/>
         <source>FileWave Admin cannot verify the identity of the FileWave Server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="552"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="553"/>
         <source>FileWave Admin cannot verify the identity of the FileWave Server %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="557"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="558"/>
         <source>If you understand the risks involved, you can add the certificate to the certificate store and connect to the server anyway.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="559"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="560"/>
         <source>If you understand the risks involved, you can connect to the server anyway.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="563"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="564"/>
         <source>The returned certificate is not trusted by this Admin device. Without a trusted certificate this communication is not secure and confidential information may be at risk. To avoid seeing this dialog in the future it is recommended to add a trusted server certificate in the FileWave Admin preferences.
 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="567"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="568"/>
         <source>This server may be impersonating %1, which could put your confidential information at risk.
 
 FileWave Admin warns you when the server has a certificate which is not valid. This may happen if the FileWave Server is misconfigured or if your setup is compromised.
@@ -8041,75 +8036,75 @@ FileWave Admin warns you when the server has a certificate which is not valid. T
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="574"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="575"/>
         <source>%1 error(s) were found:
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="580"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="581"/>
         <source>Certificate details:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="581"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="582"/>
         <source>Common Name: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="582"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="583"/>
         <source>Serial Number: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="583"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="584"/>
         <source>Version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="584"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="585"/>
         <source>Not Valid Before: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="585"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="586"/>
         <source>Not Valid After: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="591"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="592"/>
         <source>Add and Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="593"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="594"/>
         <source>Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="594"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="595"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="611"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="612"/>
         <source>Certificate must be manually trusted for SSL connections in system keychain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="612"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="613"/>
         <source>&quot;Keychain Access&quot; Application will now open so you can trust the certificate for SSL connection.
 
 Once the certificate is trusted in your keychain you will be able to log in to your FileWave server directly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="621"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="622"/>
         <source>Failed to add the certificate to the keychain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="637"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="638"/>
         <source>Failed to add the certificate to the certificate store.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8267,95 +8262,95 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="428"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="431"/>
         <source>Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="429"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="432"/>
         <source>The server specified in the FileWave preferences (%1) could not be contacted so we used the one passed as the login server (%2).
 Make sure to fix FileWave preferences !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="435"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="438"/>
         <source>The server specified in the FileWave preferences (%1) could not be contacted.
 Please contact your administrator to check settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="466"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="468"/>
         <source>Login via IDP failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="481"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="483"/>
         <source>Login via IDP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="481"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="483"/>
         <source>No Authentication IDP configured.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="532"/>
         <source>This account is already being used in another FileWave session</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="529"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="533"/>
         <source>Use &quot;OK&quot; to log in and leave all other sessions running.
 Use &quot;Force Log off&quot; to log in and force all other sessions to disconnect.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="531"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="535"/>
         <source>Force Log off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="532"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="536"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="533"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="537"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="548"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="552"/>
         <source>The service listening at %1:%2 had an internal error (HTTP code %3) while processing the supplied credentials.
 
 Please check the server logs or contact your FileWave administrator for help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="557"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="561"/>
         <source>There doesn&apos;t appear to be a server running at that address %1:%2.
 
 Verify the address and make sure your server is up and running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="590"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="594"/>
         <source>Server Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="515"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="519"/>
         <source>Name or Password is incorrect.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="517"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="521"/>
         <source>
 Note: caps lock is on...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="518"/>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="522"/>
         <source>%1 connecting to %2:%3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11334,7 +11329,7 @@ A leading period can be used to match subdomains, but a domain matching rule mus
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ChromebookPreferencesWidget.cpp" line="241"/>
-        <source>Missing required permission (Modify EMM Service Account)</source>
+        <source>Missing required permission (Modify EMM Enterprise)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19482,175 +19477,175 @@ If empty, all domains will use the DNS server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="145"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="175"/>
         <source>Google Service Account (*%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="145"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="175"/>
         <source>Select a Google Service Account file (*%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="186"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="257"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="216"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="286"/>
         <source>Enable EMM Service Account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="189"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="258"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="219"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="287"/>
         <source>Enable the EMM Service Account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="190"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="199"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="268"/>
-        <source>Missing permission to modify the EMM Service Account.</source>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="220"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="229"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="297"/>
+        <source>Missing permission to modify the EMM Enterprise.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="191"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="259"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="288"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Communication with the Android Management API (AMAPI) is not functional.  All devices still exist in the upstream Google Cloud Project and Enterprise, but FileWave cannot send commands, cannot update device policies, and new enrollments will not complete.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="192"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="260"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="222"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="289"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;EMM Service Token Status: &lt;span style=&quot;font-weight:600; color:#ff0000;&quot;&gt;Disabled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="195"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="264"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="225"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="293"/>
         <source>Temporarily Disable EMM Service Account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="198"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="267"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="228"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="296"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Temporarily disable the EMM Service Account; this prevents &lt;span style=&quot;font-weight:600;&quot;&gt;all&lt;/span&gt; communication with the Android Management API.  No new device enrollments, no token enrollment, and the EMM model update will do nothing.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="201"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="231"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="299"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;EMM Service Token Status: Enabled&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="234"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="263"/>
         <source>Unable to get list of service accounts.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="275"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="304"/>
         <source>Unable to toggle state of EMM Service Account.  Server said (%1):
 
 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="287"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="316"/>
         <source>Confirm Re-Enable of Enterprise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="288"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="317"/>
         <source>Android EMM functionality will resume if you have verified that the problem has been resolved.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="289"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="323"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="352"/>
         <source>Please enter your password to confirm.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="321"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="350"/>
         <source>Confirm Enterprise Removal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="322"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="351"/>
         <source>All Android EMM devices will be removed from FileWave&apos;s database.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="351"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="380"/>
         <source>FileWave successfully unenrolled from enterprise: %1 (%2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="356"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="385"/>
         <source>Unable to remove enterprise: %1 (%2) - HTTP %3.  If this is not expected, please contact your FileWave administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="402"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="431"/>
         <source>Enterprise still exists and is accessible.  The upstream connection must be broken (see step 1 in instructions above button) before FileWave will remove EMM devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="409"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="438"/>
         <source>Unable to confirm that upstream enterprise is gone.  Not removing enterprise from FileWave.  If this is unexpected, please contact your FileWave administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="476"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="562"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="505"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="590"/>
         <source>To unenroll the enterprise from FileWave, first remove the upstream enterprise.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="487"/>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="578"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="515"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="605"/>
         <source>Unable to get list of enterprises.
 
 Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="502"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="530"/>
         <source>Copy Zero Touch Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="506"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="534"/>
         <source>Zero Touch configuration (JSON) copied to clipboard.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="507"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="535"/>
         <source>Paste this JSON content into the DPC Extra field of a configuration within your organization&apos;s &lt;a href=&quot;https://partner.android.com/zerotouch&quot; title=&quot;https://partner.android.com/zerotouch&quot;&gt;ZeroTouch Portal&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="518"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="546"/>
         <source>There is no Zero Touch configuration to copy -- please run Update Model at least once.  (Current model: 0)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="521"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="549"/>
         <source>There is no Zero Touch configuration to copy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="604"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="631"/>
         <source>Invalid service account token.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="624"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="651"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to finalize your enterprise setup. Please leave this dialog open until directed to close it.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="636"/>
+        <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="662"/>
         <source>Unable to get signup link.
 
 Server said (%1): %2</source>
@@ -42418,7 +42413,7 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="92"/>
+        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="98"/>
         <source>Admin re-authentication failed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -48213,7 +48208,7 @@ Please enter your Activation Code</source>
     <message>
         <location filename="../../FWAdminLib/FWEventNotifierAdapter.cpp" line="42"/>
         <location filename="../../FWAdminLib/FWEventNotifierAdapter.cpp" line="62"/>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="268"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="269"/>
         <source>Quit Server</source>
         <translation type="unfinished"></translation>
     </message>
@@ -49906,7 +49901,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="270"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="271"/>
         <source>The FileWave Admin has been forcefully logged out - please log in again.
 FileWave Admin will now quit.</source>
         <translation type="unfinished"></translation>
