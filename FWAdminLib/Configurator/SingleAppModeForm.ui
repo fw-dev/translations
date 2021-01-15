@@ -29,7 +29,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QComboBox" name="comboBoxTheAppToRun"/>
+    <widget class="AppPickerWidget" name="widgetLockToApp" native="true"/>
    </item>
    <item>
     <widget class="QLabel" name="labelOptions">
@@ -129,6 +129,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AppPickerWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

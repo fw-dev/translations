@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>824</width>
-    <height>555</height>
+    <height>696</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -187,7 +187,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note that consumer device location reporting has inherent and pragmatic accuracy and precision limits — most consumer devices return results with no guaranteed accuracy more precise than roughly 5m in ideal conditions (e.g., open sky).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: Location accuracy is determined by a number of external factors, please see our &lt;a href=&quot;https://kb.filewave.com/display/KB/Location+Tracking&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Knowledge Base&lt;/span&gt;&lt;/a&gt; for more information.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -325,7 +325,7 @@
       </layout>
      </item>
      <item row="7" column="0">
-      <widget name="lTip_lbl_title_id" class="QLabel">
+      <widget class="QLabel" name="lTip_lbl_title_id">
        <property name="text">
         <string>Generated ID:</string>
        </property>

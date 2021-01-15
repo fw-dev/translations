@@ -184,23 +184,16 @@
        </widget>
       </item>
       <item row="2" column="2">
-       <widget class="QCheckBox" name="checkBoxModifyEMMServiceAccountToken">
+       <widget class="QCheckBox" name="checkBoxModifyEMMEnterpriseConfiguration">
         <property name="text">
-         <string>Modify EMM Service Account</string>
+         <string>Modify EMM Enterprise</string>
         </property>
        </widget>
       </item>
       <item row="3" column="2">
-       <widget class="QCheckBox" name="checkBoxModifyEMMEnterpriseConfiguration">
-        <property name="text">
-         <string>Unenroll EMM Enterprise</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="2">
        <widget class="QCheckBox" name="checkBoxModifyEMMDefaultPolicy">
         <property name="text">
-         <string>Modify EMM Default Policy</string>
+         <string>Configure EMM Default Policy</string>
         </property>
        </widget>
       </item>
