@@ -39,94 +39,94 @@
         <translation>ファイルの検証を終了しました...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1436"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1439"/>
         <source>Downloading User Manifest</source>
         <translation>ユーザーマニフェストをダウンロードします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1464"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1467"/>
         <source>Downloading Imaging Manifest</source>
         <translation>イメージマニフェストをダウンロードします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1491"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1494"/>
         <source>Downloading Smart Filter Manifests</source>
         <translation>スマートフィルターマニフェストをダウンロードします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1558"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1576"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1933"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1561"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1579"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1936"/>
         <source>Running</source>
         <translation>実行します</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3776"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3803"/>
         <source>Waiting for Booster - %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3795"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3822"/>
         <source>%1 (or dependency of) not found on server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4134"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4161"/>
         <source>Downloading Fileset Container (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4136"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4163"/>
         <source>Processing requirements of %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4858"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4885"/>
         <source>Updating %1 to new version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5468"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5495"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4244"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4271"/>
         <source>The Hard Disk is Full...Cannot download new Filesets.</source>
         <translation>ハードディスクがいっぱいです...新しいファイルセットをダウンロードできません。</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4256"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4283"/>
         <source>Downloading fileset %1 of %2</source>
         <translation>ファイルセットをダウンロード %1 / %2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4295"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4322"/>
         <source>Activating %1</source>
         <translation>%1 をアクティベート</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4305"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4332"/>
         <source>Activating fileset %1 of %2</source>
         <translation>ファイルセットをアクティベート %1/ %2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4408"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4435"/>
         <source>Installing Software...</source>
         <translation>ソフトウェアをインストール...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4500"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4527"/>
         <source> Installation Failed</source>
         <translation> インストールに失敗しました</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4508"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4535"/>
         <source> Installation Successfully</source>
         <translation> インストールしました</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5422"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5449"/>
         <source>
 **************************
 **FileWave Client Status**
@@ -141,7 +141,7 @@ User ID: %1
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5427"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5454"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -154,7 +154,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5443"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5470"/>
         <source>Filesets not meeting requirements:
 
 </source>
@@ -163,7 +163,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5458"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5485"/>
         <source>
 Worklist:
 
@@ -174,12 +174,12 @@ Worklist:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5538"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5565"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation>データが消去されると、このコンピューターはシャットダウンされます</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5539"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5566"/>
         <source>Executing Remote Wipe</source>
         <translation>リモートワイプを実行します</translation>
     </message>
@@ -247,28 +247,28 @@ Worklist:
 <context>
     <name>FW::MainController</name>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="217"/>
+        <location filename="../../QtClient/MainController.cpp" line="221"/>
         <source>Client is archived.</source>
         <translation>クライアントはアーカイブされました。</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="222"/>
+        <location filename="../../QtClient/MainController.cpp" line="226"/>
         <source>Running...</source>
         <translation>実行...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="227"/>
+        <location filename="../../QtClient/MainController.cpp" line="231"/>
         <source>Installing %1</source>
         <translation>%1 をインストールします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="232"/>
-        <location filename="../../QtClient/MainController.cpp" line="331"/>
+        <location filename="../../QtClient/MainController.cpp" line="236"/>
+        <location filename="../../QtClient/MainController.cpp" line="335"/>
         <source>Blocked by local restriction</source>
         <translation>ローカル制限でブロックされました</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="347"/>
+        <location filename="../../QtClient/MainController.cpp" line="351"/>
         <source>Connecting to FW Server...</source>
         <translation>FWサーバーに接続します...</translation>
     </message>
@@ -313,53 +313,53 @@ Worklist:
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="71"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="95"/>
         <source>Fileset </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="81"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="105"/>
         <source>revision </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="95"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="125"/>
         <source>checkRequirements</source>
         <comment>ActionRecord</comment>
         <translation>必須条件確認</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="96"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="126"/>
         <source>downloadFiles</source>
         <comment>ActionRecord</comment>
         <translation>ダウンロードファイル</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="97"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="127"/>
         <source>activateFiles</source>
         <comment>ActionRecord</comment>
         <translation>ファイルをアクティベート</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="98"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="128"/>
         <source>makeFilesPassive</source>
         <comment>ActionRecord</comment>
         <translation>ファイルをパッシブにする</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="99"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="129"/>
         <source>updateFileset</source>
         <comment>ActionRecord</comment>
         <translation>ファイルセットを更新</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="100"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="130"/>
         <source>deleteFiles</source>
         <comment>ActionRecord</comment>
         <translation>ファイルを削除</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ActionContainer.cpp" line="101"/>
+        <location filename="../../QtClient/ActionContainer.cpp" line="131"/>
         <source>updateFilesetDependencies</source>
         <comment>ActionRecord</comment>
         <translation>ファイルセット依存関係を更新</translation>
