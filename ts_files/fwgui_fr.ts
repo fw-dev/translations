@@ -525,12 +525,12 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="503"/>
         <source>Applications cannot be uninstalled via MDM on macOS &lt; 11</source>
-        <translation type="unfinished"></translation>
+        <translation>La suppression d&apos;applications requiert macOS 11 ou plus récent</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="505"/>
         <source>Profiles cannot be managed via profiles command on macOS 11+</source>
-        <translation type="unfinished"></translation>
+        <translation>La gestion des profiles sans MDM n&apos;est pas supportée sur macOS 11 ou plus récent</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="508"/>

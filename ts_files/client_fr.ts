@@ -118,12 +118,12 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4445"/>
         <source> Installation Failed</source>
-        <translation>Installation échouée</translation>
+        <translation> Installation échouée</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4453"/>
         <source> Installation Successfully</source>
-        <translation>Installation réussie</translation>
+        <translation> Installation réussie</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="5368"/>
@@ -177,12 +177,12 @@ Worklist:
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="456"/>
         <source>Fileset </source>
-        <translation>Fileset</translation>
+        <translation>Fileset </translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="468"/>
         <source>revision </source>
-        <translation>révision</translation>
+        <translation>révision </translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="501"/>
@@ -303,12 +303,12 @@ Worklist:
     <message>
         <location filename="../../QtClient/ActionContainer.cpp" line="69"/>
         <source>Fileset </source>
-        <translation>Fileset</translation>
+        <translation>Fileset </translation>
     </message>
     <message>
         <location filename="../../QtClient/ActionContainer.cpp" line="79"/>
         <source>revision </source>
-        <translation>révision</translation>
+        <translation>révision </translation>
     </message>
     <message>
         <location filename="../../QtClient/ActionContainer.cpp" line="93"/>

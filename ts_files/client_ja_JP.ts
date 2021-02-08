@@ -63,32 +63,32 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="3721"/>
         <source>Waiting for Booster - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ブースターを待機しています - %1</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="3740"/>
         <source>%1 (or dependency of) not found on server</source>
-        <translation type="unfinished"></translation>
+        <translation>%1（またはその依存関係）がサーバー上で見つかりません</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4079"/>
         <source>Downloading Fileset Container (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセットコンテナ(%1)をダウンロードします</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4081"/>
         <source>Processing requirements of %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の要件を処理します</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4803"/>
         <source>Updating %1 to new version</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 を新規バージョンへアップデートします</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="5414"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Fileset name still unknown&gt; ID:%1, リビジョン ID:%2</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4189"/>
@@ -118,12 +118,12 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4445"/>
         <source> Installation Failed</source>
-        <translation> インストールに失敗しました</translation>
+        <translation>インストールに失敗しました</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4453"/>
         <source> Installation Successfully</source>
-        <translation> インストールしました</translation>
+        <translation>インストールしました</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="5368"/>
@@ -189,33 +189,33 @@ Worklist:
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="456"/>
         <source>Fileset </source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット </translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="468"/>
         <source>revision </source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン </translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="501"/>
         <source>Processing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の処理中</translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1416"/>
         <source>Deleting empty folders of %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の空のフォルダーを削除します</translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1462"/>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1583"/>
         <source>Making %1 passive</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 をパッシブにします</translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1654"/>
         <source>Deleting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 を削除します</translation>
     </message>
     <message>
         <location filename="../../QtClient/FilesetContainer.cpp" line="1716"/>
@@ -283,13 +283,13 @@ Worklist:
     <message>
         <location filename="../../QtClient/ServerConnection.cpp" line="1395"/>
         <source>Downloading subset for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のサブセットをダウンロードします</translation>
     </message>
     <message>
         <location filename="../../QtClient/ServerConnection.cpp" line="1453"/>
         <location filename="../../QtClient/ServerConnection.cpp" line="1686"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 をダウンロードします</translation>
     </message>
     <message>
         <location filename="../../QtClient/ServerConnection.cpp" line="1603"/>
@@ -315,12 +315,12 @@ Worklist:
     <message>
         <location filename="../../QtClient/ActionContainer.cpp" line="69"/>
         <source>Fileset </source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルセット </translation>
     </message>
     <message>
         <location filename="../../QtClient/ActionContainer.cpp" line="79"/>
         <source>revision </source>
-        <translation type="unfinished"></translation>
+        <translation>リビジョン </translation>
     </message>
     <message>
         <location filename="../../QtClient/ActionContainer.cpp" line="93"/>
