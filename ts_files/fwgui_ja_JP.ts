@@ -525,12 +525,12 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="501"/>
         <source>Applications cannot be uninstalled via MDM on macOS &lt; 11</source>
-        <translation type="unfinished"></translation>
+        <translation>macOS 11以前ではアプリケーションをMDMをアンインストールすることができません</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="503"/>
         <source>Profiles cannot be managed via profiles command on macOS 11+</source>
-        <translation type="unfinished"></translation>
+        <translation>macOS 11以降ではプロファイルをプロファイル・コマンドを通じて管理することができません</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="506"/>
@@ -628,7 +628,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="162"/>
         <source>for</source>
-        <translation>&#x3000;</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>

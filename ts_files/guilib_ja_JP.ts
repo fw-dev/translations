@@ -104,16 +104,12 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="236"/>
         <source>96</source>
-        <translation></translation>
+        <translation>96</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="241"/>
         <source>128</source>
         <translation>128</translation>
-    </message>
-    <message>
-        <source>Maximum Client Connections</source>
-        <translation type="vanished">最大クライアント接続数</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="262"/>
@@ -183,7 +179,7 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="249"/>
         <source>Maximum Client Connections:</source>
-        <translation type="unfinished"></translation>
+        <translation>クライアント最大接続数:</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="539"/>
@@ -216,6 +212,10 @@
         <translation>サブスクリプションポート</translation>
     </message>
     <message>
+        <source>Maximum Client Connections</source>
+        <translation type="vanished">最大クライアント接続数</translation>
+    </message>
+    <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="75"/>
         <source>Booster Error</source>
         <translation>ブースターエラー</translation>
@@ -238,12 +238,12 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="166"/>
         <source>&quot;%1&quot; for field %2 is an invalid value and was adjusted. Please check.</source>
-        <translation type="unfinished"></translation>
+        <translation>フィールド %2 の &quot;%1&quot; は無効な値であり、調整されました。これについて確認してください。</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="176"/>
         <source>&quot;%1&quot; is an invalid value and was adjusted. Please check.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;%1&quot; は無効な値であり、調整されました。これについて確認してください。</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="213"/>
@@ -400,27 +400,27 @@ You may ignore this warning if you have a customized setup. </source>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="474"/>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="484"/>
         <source>2</source>
-        <translation></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="494"/>
         <source>3</source>
-        <translation></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="504"/>
         <source>4</source>
-        <translation></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="514"/>
         <source>5</source>
-        <translation></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="550"/>
@@ -711,9 +711,9 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="206"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="207"/>
         <source>0.0.0.0</source>
-        <translation></translation>
+        <translation>0.0.0.0</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="111"/>
@@ -781,63 +781,63 @@ You may ignore this warning if you have a customized setup. </source>
         <translation>環境設定...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="283"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="519"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="284"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="520"/>
         <source>[disconnected]</source>
         <translation>[切断]</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="293"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="294"/>
         <source>Getting Client Prefs...</source>
         <translation>クライアント環境設定を取得...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="445"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="446"/>
         <source>Imaging Appliance Monitor</source>
         <translation>イメージアプライアンスモニター</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="447"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="448"/>
         <source>%1 - Client Monitor</source>
         <translation>%1 - クライアントモニター</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="494"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="495"/>
         <source>(never)</source>
         <translation>(なし)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="500"/>
         <source>Connected (updates found)</source>
         <translation>接続済み (アップデートあり)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="500"/>
         <source>Connected (no updates)</source>
         <translation>接続済み (アップデートなし)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="503"/>
         <source>(now trying...)</source>
         <translation>(ただいま試行中...)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="504"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="505"/>
         <source>Not connected</source>
         <translation>未接続</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="517"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="518"/>
         <source>Can&apos;t connect to client...</source>
         <translation>クライアントに接続できません...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="586"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="587"/>
         <source>The verify command has been sent to the client</source>
         <translation>確認コマンドをクライアントに送信しました</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="588"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="589"/>
         <source>Failed to send the verify message to this client</source>
         <translation>このクライアントに確認メッセージを送信できませんでした</translation>
     </message>
@@ -865,6 +865,10 @@ settings for this client</source>
 <context>
     <name>ConnectDlg</name>
     <message>
+        <source>SSL</source>
+        <translation type="vanished">SSL</translation>
+    </message>
+    <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="14"/>
         <source>Connect to Booster</source>
         <translation>ブースターに接続</translation>
@@ -883,10 +887,6 @@ settings for this client</source>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="91"/>
         <source>Port:</source>
         <translation>ポート:</translation>
-    </message>
-    <message>
-        <source>SSL</source>
-        <translation type="vanished">SSL</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="22"/>
@@ -948,7 +948,7 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="124"/>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="155"/>
         <source>at</source>
-        <translation> </translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="47"/>
@@ -958,7 +958,7 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="64"/>
         <source>mm</source>
-        <translation></translation>
+        <translation>mm</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="97"/>
@@ -1051,12 +1051,12 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="25"/>
         <source>[Email body]</source>
-        <translation></translation>
+        <translation>[メール本文]</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="32"/>
         <source>[Subject line]</source>
-        <translation></translation>
+        <translation>[件名]</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="45"/>
@@ -1090,7 +1090,7 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>FWProgressDialog</name>
     <message>
-        <location filename="../../FileWaveGuiLib/progressdialog/progressdialog.cpp" line="157"/>
+        <location filename="../../FileWaveGuiLib/progressdialog/progressdialog.cpp" line="155"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
@@ -1098,17 +1098,17 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>KioskCategoryTreeModel</name>
     <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="38"/>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="40"/>
         <source>Category</source>
         <translation>カテゴリー</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="38"/>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="40"/>
         <source>Description</source>
         <translation>説明</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="48"/>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="50"/>
         <source>All</source>
         <translation>すべて</translation>
     </message>
@@ -1147,6 +1147,14 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>Options</name>
     <message>
+        <source>Priority:</source>
+        <translation type="vanished">プライオリティ:</translation>
+    </message>
+    <message>
+        <source>Win</source>
+        <translation type="vanished">Win</translation>
+    </message>
+    <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="14"/>
         <source>Options</source>
         <translation>オプション</translation>
@@ -1174,7 +1182,7 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="81"/>
         <source> MB</source>
-        <translation> MB</translation>
+        <translation>MB</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="97"/>
@@ -1185,14 +1193,6 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="111"/>
         <source>Confirm Password:</source>
         <translation>確認パスワード:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation type="vanished">プライオリティ:</translation>
-    </message>
-    <message>
-        <source>Win</source>
-        <translation type="vanished">Win</translation>
     </message>
 </context>
 <context>
@@ -1356,7 +1356,7 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="724"/>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="777"/>
         <source>_</source>
-        <translation></translation>
+        <translation>_</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="272"/>
@@ -1426,7 +1426,7 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="638"/>
         <source>MB</source>
-        <translation></translation>
+        <translation>MB</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="645"/>
@@ -1466,7 +1466,7 @@ Please wait for the results before opening a new connection</source>
     <message>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="801"/>
         <source>Privacy</source>
-        <translation></translation>
+        <translation>プライバシー</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="807"/>
@@ -1666,14 +1666,18 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="653"/>
+        <source>GCM correctly configured.</source>
+        <translation type="vanished">GCMは正しく構成されています。</translation>
+    </message>
+    <message>
+        <source>GCM not configured.</source>
+        <translation type="vanished">GCMが構成されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="687"/>
         <source>n.a.</source>
         <comment>not applicable</comment>
         <translation>なし</translation>
-    </message>
-    <message>
-        <source>GCM correctly configured.</source>
-        <translation type="vanished">GCMは正しく構成されています。</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/Translator.cpp" line="8"/>
@@ -1699,10 +1703,6 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/Translator.cpp" line="16"/>
         <source>FCM not configured.</source>
         <translation>FCMは構成されていません。</translation>
-    </message>
-    <message>
-        <source>GCM not configured.</source>
-        <translation type="vanished">GCMが構成されていません。</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="52"/>
