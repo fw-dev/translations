@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>573</width>
-    <height>2181</height>
+    <height>2194</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0">
    <item>
     <widget class="QLabel" name="lAccountName">
      <property name="text">
@@ -936,6 +936,9 @@
     </widget>
    </item>
    <item>
+    <widget class="VPNUUIDWidget" name="widgetVPNUUID" native="true"/>
+   </item>
+   <item>
     <spacer name="verticalSpacer_2">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -956,6 +959,11 @@
    <extends>QWidget</extends>
    <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>VPNUUIDWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/VPNUUIDWidget.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>

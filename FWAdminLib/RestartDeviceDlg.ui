@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>536</width>
-    <height>284</height>
+    <height>416</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Restart Device</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_3">
+  <layout class="QVBoxLayout" name="verticalLayoutRestartDeviceDlg">
    <property name="spacing">
     <number>0</number>
    </property>
@@ -43,7 +43,7 @@
       </property>
       <item>
        <widget class="QWidget" name="widgetWarning" native="true">
-        <layout class="QVBoxLayout" name="verticalLayout">
+        <layout class="QVBoxLayout" name="verticalLayoutWarning">
          <property name="leftMargin">
           <number>0</number>
          </property>
@@ -93,7 +93,7 @@
       </item>
       <item>
        <widget class="QWidget" name="rebuildKernelCacheWidget" native="true">
-        <layout class="QVBoxLayout" name="verticalLayout_2">
+        <layout class="QVBoxLayout" name="verticalLayoutRebuildKernelCache">
          <property name="leftMargin">
           <number>0</number>
          </property>
@@ -137,7 +137,7 @@
         <property name="enabled">
          <bool>false</bool>
         </property>
-        <layout class="QVBoxLayout" name="verticalLayout_4">
+        <layout class="QVBoxLayout" name="verticalLayoutKextPaths">
          <property name="leftMargin">
           <number>0</number>
          </property>
@@ -152,6 +152,47 @@
          </property>
          <item>
           <widget class="ItemListWidget" name="kextPathsList" native="true"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="notifyUserWidget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayoutNotifyUser">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBoxNotifyUser">
+           <property name="text">
+            <string>Notify user (macOS 11.3 and later)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipNotifyUser">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Notifies the user to restart the device at their convenience. No forced restart occurs unless the device is at login window with no logged-in users. The user can dismiss the notification and ignore the request. No further notifications display unless the command is resent.</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>

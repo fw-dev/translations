@@ -495,8 +495,11 @@ border: 2px solid grey;
       <item>
        <widget class="QLabel" name="lTipIgnoreManifestScope">
         <property name="text">
-         <string>If checked, a full screen web clip can navigate to an external web site without showing
+         <string>If checked, a full screen web clip can navigate to an external web site without showing &lt;br/&gt;
 Safari UI. Otherwise, Safari UI appears when navigating away from the web clip’s URL</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::RichText</enum>
         </property>
        </widget>
       </item>

@@ -916,7 +916,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
               <item row="17" column="2">
                <widget class="QLabel" name="lTipAutomaticAdvance">
                 <property name="text">
-                 <string>Automatic advance through the Apple TV setup assistant</string>
+                 <string>Automatic advance through the Apple TV or macOS 11+ setup assistant</string>
                 </property>
                </widget>
               </item>
@@ -1482,7 +1482,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
                   </size>
                  </property>
                  <property name="text">
-                  <string>Setup Assistant Configuration (tvOS only)</string>
+                  <string>Setup Assistant Configuration (tvOS and macOS 11+)</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>

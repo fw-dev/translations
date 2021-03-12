@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>632</width>
-    <height>3079</height>
+    <height>3135</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -1090,6 +1090,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowAutoUnlock">
+         <property name="text">
+          <string>Allow user to unlock iOS device using an Apple Watch (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowPasswordAutoFill">
          <property name="text">
           <string>Allow password AutoFill (Supervised devices only)</string>
@@ -1369,6 +1379,36 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowNFC">
+         <property name="text">
+          <string>Allow NFC (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="allowUnpairedExternalBootToRecovery">
+         <property name="text">
+          <string>Allow putting into recovery mode from an unpaired device (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceOnDeviceOnlyDictation">
+         <property name="text">
+          <string>Force dictation to be limited on device only (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -1473,6 +1513,16 @@
            <widget class="QCheckBox" name="allowAddingGameCenterFriends">
             <property name="text">
              <string>Allow adding Game Center friends</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="allowGameCenterFriendsSharingModification">
+            <property name="text">
+             <string>Allow Game Center friends sharing modification</string>
             </property>
             <property name="checked">
              <bool>true</bool>

@@ -87,6 +87,9 @@
     <widget class="AppPickerWidget" name="widgetCommunicationServiceRules" native="true"/>
    </item>
    <item>
+    <widget class="VPNUUIDWidget" name="widgetVPNUUID" native="true"/>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -107,6 +110,11 @@
    <extends>QWidget</extends>
    <header>FWAdminLib/Configurator/AppPickerWidget.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>VPNUUIDWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/VPNUUIDWidget.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>476</width>
-    <height>714</height>
+    <width>485</width>
+    <height>1129</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,9 +15,9 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_4">
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="labelFilterType">
      <property name="text">
-      <string>Allowed Websites</string>
+      <string>Filter Type</string>
      </property>
     </widget>
    </item>
@@ -101,7 +101,7 @@
           <item>
            <widget class="QLabel" name="lTip_permitted">
             <property name="text">
-             <string>Each entry contains a URL that will be allowed</string>
+             <string>Specific URLs that will be allowed</string>
             </property>
            </widget>
           </item>
@@ -153,7 +153,7 @@
           <item>
            <widget class="QLabel" name="lTip_blacklisted">
             <property name="text">
-             <string>Each entry contains a URL that will not be accessible</string>
+             <string>Additional URLs that will not be allowed</string>
             </property>
            </widget>
           </item>
@@ -212,7 +212,7 @@
        <item>
         <widget class="QLabel" name="lTip_permitted_2">
          <property name="text">
-          <string>URLs that will always be accessible</string>
+          <string>Allowed URLs which will be shown as bookmarks</string>
          </property>
         </widget>
        </item>
@@ -298,7 +298,7 @@
        <item>
         <widget class="QLabel" name="lTip_filterNameLbl">
          <property name="text">
-          <string>Display name of the filter plug-in</string>
+          <string>Display name of the filter in the app and on the device</string>
          </property>
         </widget>
        </item>
@@ -332,7 +332,7 @@
        <item>
         <widget class="QLabel" name="lTip_ServiceAddress">
          <property name="text">
-          <string>Hostname or IP Address or URL for the service</string>
+          <string>Host name or IP Address or URL for the service</string>
          </property>
         </widget>
        </item>
@@ -357,7 +357,7 @@
         <widget class="QLineEdit" name="organization"/>
        </item>
        <item>
-        <widget class="QLabel" name="filterNameLbl_6">
+        <widget class="QLabel" name="filterNameLblUserName">
          <property name="text">
           <string>User Name</string>
          </property>
@@ -374,7 +374,7 @@
         <widget class="QLineEdit" name="username"/>
        </item>
        <item>
-        <widget class="QLabel" name="filterNameLbl_7">
+        <widget class="QLabel" name="filterNameLblPassword">
          <property name="text">
           <string>Password</string>
          </property>
@@ -395,7 +395,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="filterNameLbl_8">
+        <widget class="QLabel" name="filterNameLblCertificate">
          <property name="text">
           <string>Certificate</string>
          </property>
@@ -429,6 +429,161 @@
          <property name="checked">
           <bool>true</bool>
          </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widgetMacOSControls" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="filterNameLblFilterOptions">
+            <property name="text">
+             <string>Filter Options</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTipFilterOptions">
+            <property name="text">
+             <string>Specify the type(s) of traffic that should be filtered</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboFilterOptions">
+            <item>
+             <property name="text">
+              <string>Socket and Network Traffic</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Socket Traffic Only</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Network Traffic Only</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetSocketTraffic" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="filterNameLblSocketFilterBundleIdentifier">
+               <property name="text">
+                <string>Socket Filter Bundle Identifier</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipSocketFilterBundleIdentifier">
+               <property name="text">
+                <string>Bundle identifier of the socket filter provider system extension</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditSocketFilterBundleIdentifier"/>
+             </item>
+             <item>
+              <widget class="QLabel" name="filterNameLblSocketFilterDesignatedRequirement">
+               <property name="text">
+                <string>Socket Filter Designated Requirement</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipSocketFilterDesignatedRequirement">
+               <property name="text">
+                <string>Designated requirement of the socket filter provider system extension</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditSocketFilterDesignatedRequirement"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="filterNameLblNetworkFilterBundleIdentifier">
+            <property name="text">
+             <string>Network Filter Bundle Identifier</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widgetNetworkTraffic" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="lTipNetworkFilterBundleIdentifier">
+               <property name="text">
+                <string>Bundle identifier of the network filter provider system extension</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditNetworkFilterBundleIdentifier"/>
+             </item>
+             <item>
+              <widget class="QLabel" name="filterNameLblNetworkFilterDesignatedRequirement">
+               <property name="text">
+                <string>Network Filter Designated Requirement</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lTipNetworkFilterDesignatedRequirement">
+               <property name="text">
+                <string>Designated requirement of the network filter provider system extension</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditNetworkFilterDesignatedRequirement"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
