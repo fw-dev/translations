@@ -89,7 +89,7 @@
             </sizepolicy>
            </property>
            <property name="text">
-            <string>Desktop clients</string>
+            <string>Desktop Clients</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
