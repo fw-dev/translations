@@ -239,7 +239,7 @@ Worklist:
         <translation>ファイルをアクティベートします..</translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1951"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1952"/>
         <source>Running..</source>
         <translation>実行します..</translation>
     </message>
@@ -263,12 +263,12 @@ Worklist:
     </message>
     <message>
         <location filename="../../QtClient/MainController.cpp" line="236"/>
-        <location filename="../../QtClient/MainController.cpp" line="333"/>
+        <location filename="../../QtClient/MainController.cpp" line="330"/>
         <source>Blocked by local restriction</source>
         <translation>ローカル制限でブロックされました</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="349"/>
+        <location filename="../../QtClient/MainController.cpp" line="346"/>
         <source>Connecting to FW Server...</source>
         <translation>FWサーバーに接続します...</translation>
     </message>

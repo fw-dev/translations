@@ -227,7 +227,7 @@ Worklist:
         <translation>Activation des fichiers..</translation>
     </message>
     <message>
-        <location filename="../../QtClient/FilesetContainer.cpp" line="1951"/>
+        <location filename="../../QtClient/FilesetContainer.cpp" line="1952"/>
         <source>Running..</source>
         <translation>En cours d&apos;exécution..</translation>
     </message>
@@ -251,12 +251,12 @@ Worklist:
     </message>
     <message>
         <location filename="../../QtClient/MainController.cpp" line="236"/>
-        <location filename="../../QtClient/MainController.cpp" line="333"/>
+        <location filename="../../QtClient/MainController.cpp" line="330"/>
         <source>Blocked by local restriction</source>
         <translation>Bloqué par une restriction locale</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="349"/>
+        <location filename="../../QtClient/MainController.cpp" line="346"/>
         <source>Connecting to FW Server...</source>
         <translation>Connexion au serveur FW...</translation>
     </message>

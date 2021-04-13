@@ -230,7 +230,7 @@
         <item>
          <widget class="QPushButton" name="solveConflictButton">
           <property name="text">
-           <string>Solve Conflict</string>
+           <string>Solve Conflict(s)</string>
           </property>
          </widget>
         </item>

@@ -91,27 +91,27 @@
         <source>Edit Custom Data...</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="224"/>
-        <source>The password and confirmation don&apos;t match -- please try again.</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="18"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
         <source>FileWave</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
         <source>filewave.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="21"/>
         <source>FileWave Client Assistant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="221"/>
+        <source>The password and confirmation don&apos;t match -- please try again.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
