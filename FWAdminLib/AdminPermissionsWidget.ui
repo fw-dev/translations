@@ -430,7 +430,7 @@
       <item>
        <widget class="QCheckBox" name="checkBoxEnrollAndRemoveBoosters">
         <property name="text">
-         <string>Enroll and Remove Boosters</string>
+         <string>Manage Boosters</string>
         </property>
        </widget>
       </item>

@@ -940,6 +940,16 @@
             </widget>
            </item>
            <item>
+            <widget class="QCheckBox" name="allowGameCenterFriendsSharingModification">
+             <property name="text">
+              <string>Allow Game Center friends sharing modification</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
             <widget class="QCheckBox" name="allowGCAccountModification">
              <property name="text">
               <string>Allow Game Center account modification</string>
@@ -2482,6 +2492,39 @@
          </item>
          <item>
           <spacer name="verticalSpacer_15">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowWallpaperModification">
+           <property name="text">
+            <string>Allow modifying Wallpaper</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowPasscodeModification">
+           <property name="text">
+            <string>Allow modifying passcode</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_16">
            <property name="orientation">
             <enum>Qt::Vertical</enum>
            </property>

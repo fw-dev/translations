@@ -54,6 +54,13 @@
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QCheckBox" name="checkBoxFilterUpgradeAvailable">
+           <property name="text">
+            <string>Upgrade available</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>

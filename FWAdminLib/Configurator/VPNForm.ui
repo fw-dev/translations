@@ -2874,6 +2874,9 @@
         </layout>
        </widget>
       </item>
+      <item>
+       <widget class="ItemListWidget" name="applicationExceptions" native="true"/>
+      </item>
      </layout>
     </widget>
    </item>
@@ -2945,6 +2948,41 @@
          </spacer>
         </item>
        </layout>
+      </item>
+      <item>
+       <widget class="QWidget" name="widgetEnforceRoutes" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_48">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="enforceRoutesCheckBox">
+           <property name="text">
+            <string>Enforce routes</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lTipEnforceRoutes">
+           <property name="text">
+            <string>Enforce that all VPN's non-default routes take precedence over any locally defined routes. Available in iOS 14.2 and later, and macOS 11 and later.</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
       </item>
      </layout>
     </widget>

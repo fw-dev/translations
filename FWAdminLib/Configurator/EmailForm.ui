@@ -739,6 +739,9 @@
      </widget>
     </widget>
    </item>
+   <item row="32" column="0">
+    <widget class="VPNUUIDWidget" name="widgetVPNUUID" native="true"/>
+   </item>
    <item row="27" column="0">
     <widget class="QCheckBox" name="checkSMIMEEnableEncryptionPerMessageSwitch">
      <property name="text">
@@ -748,6 +751,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>VPNUUIDWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/Configurator/VPNUUIDWidget.h</header>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>editAccountDescription</tabstop>
   <tabstop>comboAccountType</tabstop>
