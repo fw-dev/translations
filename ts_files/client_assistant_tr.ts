@@ -91,28 +91,28 @@
         <source>Edit Custom Data...</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="224"/>
-        <source>The password and confirmation don&apos;t match -- please try again.</source>
-        <translation>Şifre ve doğrulaması eşleşmiyor -- lütfen tekrar deneyin.</translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="18"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
         <source>FileWave</source>
         <translation>Tuğra</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
         <source>filewave.com</source>
         <translation>filewave.com</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="21"/>
         <source>FileWave Client Assistant</source>
         <translation>Tuğra İstemci Yardımcısı</translation>
+    </message>
+    <message>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="221"/>
+        <source>The password and confirmation don&apos;t match -- please try again.</source>
+        <translation type="unfinished">Şifre ve doğrulaması eşleşmiyor -- lütfen tekrar deneyin.</translation>
     </message>
 </context>
 </TS>

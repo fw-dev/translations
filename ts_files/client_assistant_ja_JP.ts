@@ -91,28 +91,28 @@
         <source>Edit Custom Data...</source>
         <translation>カスタムデータを編集...</translation>
     </message>
-    <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="224"/>
-        <source>The password and confirmation don&apos;t match -- please try again.</source>
-        <translation>パスワードと確認が一致しません - 再実行してください。</translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="18"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
         <source>FileWave</source>
         <translation>FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="19"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
         <source>filewave.com</source>
         <translation>filewave.com</translation>
     </message>
     <message>
-        <location filename="../../QtClientAssistant/main.cpp" line="20"/>
+        <location filename="../../QtClientAssistant/main.cpp" line="21"/>
         <source>FileWave Client Assistant</source>
         <translation>FileWave クライアントアシスタント</translation>
+    </message>
+    <message>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="221"/>
+        <source>The password and confirmation don&apos;t match -- please try again.</source>
+        <translation type="unfinished">パスワードと確認が一致しません - 再実行してください。</translation>
     </message>
 </context>
 </TS>
