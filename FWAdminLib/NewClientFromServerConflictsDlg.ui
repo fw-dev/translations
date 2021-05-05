@@ -36,7 +36,7 @@
    <item>
     <widget class="QRadioButton" name="removeNewClientRadio">
      <property name="text">
-      <string>Remove the new client</string>
+      <string>Ignore the new conflicting client(s)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -53,14 +53,14 @@
    <item>
     <widget class="QRadioButton" name="removeOldClientRadio">
      <property name="text">
-      <string>Remove the old client and enroll the new client</string>
+      <string>Remove the old client(s) and enroll the new client(s)</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="removeOldClientLabel">
      <property name="text">
-      <string>Select this option if the old entry is obsolete and can be safely removed; all clones will be removed.</string>
+      <string>Select this option if the old client(s) are obsolete and can be safely removed; all clones will be removed.</string>
      </property>
     </widget>
    </item>
@@ -69,7 +69,7 @@
      <item>
       <widget class="QLabel" name="groupLabel">
        <property name="text">
-        <string>Client will be added to group :</string>
+        <string>Client(s) will be added to group :</string>
        </property>
       </widget>
      </item>
@@ -104,14 +104,14 @@
    <item>
     <widget class="QRadioButton" name="replaceOldClientRadio">
      <property name="text">
-      <string>Replace the old client with the new client</string>
+      <string>Replace the old client(s) with the new client(s)</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="replaceOldClientLabel">
      <property name="text">
-      <string>Select this option if you want the new client to replace the existing entry.</string>
+      <string>Select this option if you want the new client(s) to replace the existing client(s).</string>
      </property>
     </widget>
    </item>

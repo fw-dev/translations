@@ -241,6 +241,13 @@
         </property>
        </widget>
       </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBoxResolveConflictsAutomatically">
+        <property name="text">
+         <string>Resolve Conflicts Automatically</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="2">
        <widget class="QCheckBox" name="checkBoxViewLocationInfo">
         <property name="text">

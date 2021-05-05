@@ -2537,35 +2537,8 @@
           </spacer>
          </item>
          <item>
-          <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
-           <property name="text">
-            <string>Defer macOS updates</string>
-           </property>
-           <property name="checked">
-            <bool>false</bool>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QCheckBox" name="forceDelayedAppSoftwareUpdates">
-           <property name="text">
-            <string>Defer app updates</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="label_7">
-           <property name="enabled">
-            <bool>false</bool>
-           </property>
-           <property name="text">
-            <string>Deferral period for macOS and app updates:</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QWidget" name="widget" native="true">
-           <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,0,8">
+          <widget class="QWidget" name="widgetDelaySoftwareUpdates" native="true">
+           <layout class="QGridLayout" name="gridLayout">
             <property name="leftMargin">
              <number>0</number>
             </property>
@@ -2576,12 +2549,15 @@
              <number>0</number>
             </property>
             <property name="bottomMargin">
-             <number>0</number>
+             <number>12</number>
             </property>
-            <item>
-             <widget class="QSpinBox" name="forceDelayedSoftwareUpdatesDelay">
+            <item row="1" column="1">
+             <widget class="QSpinBox" name="enforcedSoftwareUpdateMinorOSDeferredInstallDelay">
               <property name="enabled">
                <bool>false</bool>
+              </property>
+              <property name="suffix">
+               <string> days(s)</string>
               </property>
               <property name="minimum">
                <number>1</number>
@@ -2597,14 +2573,71 @@
               </property>
              </widget>
             </item>
-            <item>
-             <widget class="QLabel" name="label_5">
+            <item row="1" column="0">
+             <widget class="QCheckBox" name="forceDelayedSoftwareUpdates">
               <property name="text">
-               <string>day(s)</string>
+               <string>Defer macOS updates</string>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
               </property>
              </widget>
             </item>
-            <item>
+            <item row="2" column="1">
+             <widget class="QSpinBox" name="enforcedSoftwareUpdateNonOSDeferredInstallDelay">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="suffix">
+               <string> days(s)</string>
+              </property>
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>90</number>
+              </property>
+              <property name="value">
+               <number>30</number>
+              </property>
+              <property name="displayIntegerBase">
+               <number>10</number>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QCheckBox" name="forceDelayedAppSoftwareUpdates">
+              <property name="text">
+               <string>Defer app updates</string>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QSpinBox" name="enforcedSoftwareUpdateMajorOSDeferredInstallDelay">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="suffix">
+               <string> days(s)</string>
+              </property>
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>90</number>
+              </property>
+              <property name="value">
+               <number>30</number>
+              </property>
+              <property name="displayIntegerBase">
+               <number>10</number>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
              <spacer name="horizontalSpacer_9">
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
@@ -2616,6 +2649,23 @@
                </size>
               </property>
              </spacer>
+            </item>
+            <item row="0" column="0">
+             <widget class="QCheckBox" name="forceDelayedMajorSoftwareUpdates">
+              <property name="text">
+               <string>Defer major macOS updates</string>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0" colspan="4">
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For clients below macOS 11.3 the value of 'Defer macOS updates'&lt;br/&gt;will be used for all software updates.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>

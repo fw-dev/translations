@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>742</width>
+    <width>824</width>
     <height>377</height>
    </rect>
   </property>
@@ -223,6 +223,140 @@
        </layout>
       </item>
       <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="autoResolutionWidget" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="spacing">
+            <number>6</number>
+           </property>
+           <property name="leftMargin">
+            <number>24</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QCheckBox" name="autoResolutionIsAllowed">
+             <property name="text">
+              <string>Automatically resolve conflicts</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="autoResolutionType">
+             <item>
+              <property name="text">
+               <string>Ignore new conflicting clients</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Remove old clients and enroll new</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Replace old clients with new</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="autoResolutionChangedLabel">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>(Update the model after changing this preference)</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="leftMargin">
+         <number>6</number>
+        </property>
+        <property name="rightMargin">
+         <number>6</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="autoResolutionWarningLabel">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Warning: Automated conflict resolution bypasses client certificate security, and is not recommended. &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=45449444&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;See details&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="openExternalLinks">
+           <bool>true</bool>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::TextBrowserInteraction</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
        <layout class="QHBoxLayout" name="horizontalLayout_5">
         <property name="spacing">
          <number>6</number>
@@ -230,7 +364,7 @@
         <item>
          <widget class="QPushButton" name="solveConflictButton">
           <property name="text">
-           <string>Solve Conflict</string>
+           <string>Solve Conflict(s)</string>
           </property>
          </widget>
         </item>
@@ -297,6 +431,8 @@
   <tabstop>theGroups</tabstop>
   <tabstop>searchField</tabstop>
   <tabstop>autoAddClientsCB</tabstop>
+  <tabstop>autoResolutionIsAllowed</tabstop>
+  <tabstop>autoResolutionType</tabstop>
   <tabstop>solveConflictButton</tabstop>
   <tabstop>cancelButton</tabstop>
   <tabstop>addClientsButton</tabstop>

@@ -10,6 +10,12 @@
     <height>573</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>733</width>
+    <height>573</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Login via IDP</string>
   </property>
