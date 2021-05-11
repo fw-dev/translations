@@ -30139,14 +30139,6 @@ Do you want to close the dialog?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Status Bar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Allow use of the device&apos;s notification/status bar.  If enabled, users can swipe down from the top of a device and generally gain access to device settings.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Custom Launcher</source>
         <translation type="unfinished"></translation>
     </message>
