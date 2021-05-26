@@ -73,7 +73,7 @@
       </layout>
      </item>
      <item row="1" column="0">
-      <widget class="QComboBox" name="frm_debuggingFeaturesAllowed">
+      <widget class="QComboBox" name="frm_developerSettingsAllowed">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -83,15 +83,15 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <layout class="QVBoxLayout" name="verticalLayout_debuggingFeatures">
+      <layout class="QVBoxLayout" name="verticalLayout_developerSettings">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>
        </property>
        <item>
-        <widget class="QLabel" name="lbl_title_debuggingFeaturesAllowed"/>
+        <widget class="QLabel" name="lbl_title_developerSettingsAllowed"/>
        </item>
        <item>
-        <widget class="QLabel" name="lTip_lbl_desc_debuggingFeaturesAllowed"/>
+        <widget class="QLabel" name="lTip_lbl_desc_developerSettingsAllowed"/>
        </item>
       </layout>
      </item>
@@ -185,29 +185,6 @@
       </layout>
      </item>
      <item row="6" column="0">
-      <widget class="QComboBox" name="frm_safeBootEnabled">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="1">
-      <layout class="QVBoxLayout" name="verticalLayout_safeBootEnabled">
-       <property name="sizeConstraint">
-        <enum>QLayout::SetFixedSize</enum>
-       </property>
-       <item>
-        <widget class="QLabel" name="lbl_title_safeBootEnabled"/>
-       </item>
-       <item>
-        <widget class="QLabel" name="lTip_lbl_desc_safeBootEnabled"/>
-       </item>
-      </layout>
-     </item>
-     <item row="7" column="0">
       <widget class="QComboBox" name="frm_installUnknownSourcesAllowed">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -217,7 +194,7 @@
        </property>
       </widget>
      </item>
-     <item row="7" column="1">
+     <item row="6" column="1">
       <layout class="QVBoxLayout" name="verticalLayout_unknownSources">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>
@@ -230,7 +207,7 @@
        </item>
       </layout>
      </item>
-     <item row="8" column="0">
+     <item row="7" column="0">
       <widget class="QComboBox" name="frm_wifiConfigEnabled">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -240,7 +217,7 @@
        </property>
       </widget>
      </item>
-     <item row="8" column="1">
+     <item row="7" column="1">
       <layout class="QVBoxLayout" name="verticalLayout_wifiConfigDisabled">
        <property name="sizeConstraint">
         <enum>QLayout::SetFixedSize</enum>
@@ -250,6 +227,27 @@
        </item>
        <item>
         <widget class="QLabel" name="lbl_desc_wifiConfigEnabled"/>
+       </item>
+      </layout>
+     </item>
+     <item row="8" column="0">
+      <widget class="QComboBox" name="frm_appAutoUpdatePolicy"/>
+     </item>
+     <item row="8" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout_appAutoUpdatePolicy">
+       <item>
+        <widget class="QLabel" name="lbl_title_appAutoUpdatePolicy">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lTip_lbl_desc_appAutoUpdatePolicy">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>

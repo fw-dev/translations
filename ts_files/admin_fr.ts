@@ -597,7 +597,7 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="233"/>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="298"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="305"/>
         <source>Set Permissions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -622,27 +622,27 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="247"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="254"/>
         <source>View Location Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="254"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="261"/>
         <source>Turn Tracking On/Off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="264"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="271"/>
         <source>Filesets and Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="270"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="277"/>
         <source>Modify Filesets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="284"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="291"/>
         <source>Export Fileset/Template</source>
         <translation type="unfinished"></translation>
     </message>
@@ -727,32 +727,32 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="277"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="284"/>
         <source>Show Fileset Report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="291"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="298"/>
         <source>Manage VPP codes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="308"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="315"/>
         <source>Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="314"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="321"/>
         <source>Modify Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="328"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="335"/>
         <source>Approve Software Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="335"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="342"/>
         <source>Modify Imaging Associations</source>
         <translation type="unfinished"></translation>
     </message>
@@ -762,87 +762,92 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="321"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="247"/>
+        <source>Manage Automatic Enrollment</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="328"/>
         <source>Expose On Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="345"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="352"/>
         <source>Google</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="351"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="358"/>
         <source>Modify OU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="358"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="365"/>
         <source>Modify Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="365"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="372"/>
         <source>Deprovision Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="375"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="382"/>
         <source>DEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="381"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="388"/>
         <source>Edit Profiles</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="388"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="395"/>
         <source>Assign Profiles, Modify Rules</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="401"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="408"/>
         <source>Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="407"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="414"/>
         <source>Access Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="414"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="421"/>
         <source>Configure Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="427"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="434"/>
         <source>Boosters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="443"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="450"/>
         <source>Discovery Administration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="449"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="456"/>
         <source>Configure, Run Scans, Delete Results</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="459"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="466"/>
         <source>Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="472"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="479"/>
         <source>Delete Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="465"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="472"/>
         <source>Modify Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
@@ -857,62 +862,62 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="433"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="440"/>
         <source>Manage Boosters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="485"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="492"/>
         <source>Full Disk Encryption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="491"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="498"/>
         <source>Configure Full Disk Encryption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="498"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="505"/>
         <source>Retrieve Recovery Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="511"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="518"/>
         <source>Classroom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="517"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="524"/>
         <source>Access Classroom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="527"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="534"/>
         <source>Activation Lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="533"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="540"/>
         <source>Manage Activation Lock Bypass Codes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="540"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="547"/>
         <source>Configure Default Activation Lock Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="603"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="610"/>
         <source>Select None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="610"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="617"/>
         <source>Select All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/AdminPermissionsWidget.cpp" line="99"/>
+        <location filename="../../FWAdminLib/AdminPermissionsWidget.cpp" line="100"/>
         <source>Requires: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4279,97 +4284,102 @@ MDM commands will be sent out to the device when it is available.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="847"/>
-        <source>Dependency selected! Do you want to install the following top level fileset(s) instead?
+        <source>Dependency selected! Do you want to reinstall the following top level fileset(s) instead?
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="912"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="914"/>
         <source>Fileset with dependencies selected! Do you want to reinstall dependencies as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="972"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="916"/>
+        <source>Failed Dependencies only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="977"/>
         <source>%1 - %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1217"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1222"/>
         <source>Wipe device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1218"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1223"/>
         <source>This Chromebook device will be deprovisioned immediately.
 
 You must still wipe it manually.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1224"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1229"/>
         <source>Upgraded to a different model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1225"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1230"/>
         <source>Retired (resold, donated, etc)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1231"/>
         <source>Replaced with same model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1233"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1238"/>
         <source>Deprovision reason:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1248"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1253"/>
         <source>Deprovision failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1248"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1253"/>
         <source>Failed to deprovision device.
 
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1282"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1287"/>
         <source>Failed to download the institutional recovery key: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1284"/>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1302"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1289"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1307"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1300"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1305"/>
         <source>Failed to retrieve the personal recovery key: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1319"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1324"/>
         <source>Save the institutional recovery key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1321"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1326"/>
         <source>P12 Files (*.p12)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1326"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1331"/>
         <source>Save failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1327"/>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1332"/>
         <source>Could not open file &quot;%1&quot; for writing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5691,8 +5701,13 @@ Continue?</source>
         </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="316"/>
+        <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="317"/>
         <source>Fileset with dependencies selected! Do you want to reinstall dependencies as well?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="319"/>
+        <source>Failed Dependencies only</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7203,17 +7218,42 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="233"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="257"/>
+        <source>Automatically resolve conflicts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="265"/>
+        <source>Ignore new conflicting clients</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="270"/>
+        <source>Remove old clients and enroll new</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="275"/>
+        <source>Replace old clients with new</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="328"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Warning: Automated conflict resolution bypasses client certificate security, and is not recommended. &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=45449444&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;See details&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="367"/>
         <source>Solve Conflict(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="253"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="387"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="269"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="403"/>
         <source>Return</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7224,148 +7264,166 @@ Check the log file for more details</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="203"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="292"/>
         <source>(Update the model after changing this preference)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="72"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="91"/>
         <source>New Mobile Client from Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="73"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="92"/>
         <source>Select which device(s) you would like to add to the model.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="91"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="110"/>
         <source>Select which client(s) you would like to add to the model.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="106"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="125"/>
         <source>Group Filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="197"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="491"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="237"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="634"/>
         <source>Select All (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="211"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="251"/>
         <source>Clear new user list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="211"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="251"/>
         <source>Error while removing new users : %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="240"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="280"/>
         <source>You do not have permission to add clients to the group: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="241"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="281"/>
         <source>FileWave Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="323"/>
+        <source>All clients, except conflicting, will be added.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="327"/>
+        <source>All existing conflicts will be resolved.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="333"/>
+        <source>%1Would you like to continue?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="510"/>
         <source>Too many Clients Selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="510"/>
         <source>You have selected more clients to add than client licenses available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="404"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="536"/>
         <source>Error creating new client. The serial number is already in use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="409"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="541"/>
         <source>Error creating new mobile client: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="411"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="543"/>
         <source>Error creating new client: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="590"/>
-        <source>Save and add %1 Clients</source>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="819"/>
+        <source>Save and add %1 Client(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="605"/>
-        <source>Cannot add a client with a conflict</source>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="822"/>
+        <source>Add %1 Client(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="658"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="665"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="840"/>
+        <source>Client(s) with a conflict cannot be added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="893"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="900"/>
         <source>Create VPP User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="659"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="894"/>
         <source>Another VPP tool has the ownership of the account. Go to &quot;configure tokens&quot; to take the ownership.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="666"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="901"/>
         <source>Apple services are currently not available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="673"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="908"/>
         <source>VPP user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="673"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="908"/>
         <source>Error while creating VPP users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="400"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="532"/>
         <source>Error creating new client. The name is already in use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="528"/>
         <source>Error creating new client. The maximum number of licensed clients has been exceeded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="475"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="618"/>
         <source>Loading...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="487"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="630"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="587"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="816"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="593"/>
-        <source>Add %1 Clients</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="625"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="860"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7451,58 +7509,43 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="254"/>
-        <source>Error %1 the Smart Group. The name &apos;%2&apos; is already used</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="258"/>
-        <source>Error %1 the Smart Group. The maximum number of licensed clients has been exceeded.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="262"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="240"/>
         <source>Error %1 Smart Group: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="273"/>
-        <source>There was an error storing the filter in the database</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="322"/>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="350"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="287"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="315"/>
         <source>Parent Smart group deleted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="323"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="288"/>
         <source>A parent group of the smart group you were editing has been removed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="326"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="291"/>
         <source>Smart group deleted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="327"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="292"/>
         <source>The smart group you were editing has been removed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="351"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="316"/>
         <source>Permissions to a parent group of the smart group you were editing has been removed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="356"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="321"/>
         <source>Smart group permissions changed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="357"/>
+        <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="322"/>
         <source>You no longer have permission to edit this smart group.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8070,116 +8113,116 @@ Desktop data only will be updated.</source>
 <context>
     <name>CWinAdminApp</name>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="248"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="249"/>
         <source>Cannot Connect to that server, it is not on the same version as this admin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="250"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="251"/>
         <source>Unable to logon: unknown user.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="252"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="253"/>
         <source>Unable to logon: permission denied.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="254"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="255"/>
         <source>Unable to logon.  (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="288"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="289"/>
         <source>Failed to get permissions from Web Auth backend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="304"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="305"/>
         <source>FileWave</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="305"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="306"/>
         <source>filewave.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="306"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="307"/>
         <source>FileWave Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="362"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="363"/>
         <source>The FileWave Admin received an external request to log in to %1. Do you wish to log off the current session?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="392"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="393"/>
         <source>The server you are trying to connect to does not have a certificate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="395"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="396"/>
         <source>The server you are trying to connect to has a certificate which is not valid at the moment.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="398"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="399"/>
         <source>The server you are trying to connect to has a certificate which is expired.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="401"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="402"/>
         <source>The server you are trying to connect to does not match any of the valid hosts from a certificate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="406"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="407"/>
         <source>The server you are trying to connect to has a certificate which is not trusted on this computer. You need to mark the certificate as trusted for SSL in the keychain. </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="431"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="432"/>
         <source>Could not get the necessary information to perform login.
 Please check that your server is running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="548"/>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="615"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="549"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="616"/>
         <source>Privacy error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="555"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="556"/>
         <source>FileWave Admin cannot verify the identity of the FileWave Server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="557"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="558"/>
         <source>FileWave Admin cannot verify the identity of the FileWave Server %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="562"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="563"/>
         <source>If you understand the risks involved, you can add the certificate to the certificate store and connect to the server anyway.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="564"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="565"/>
         <source>If you understand the risks involved, you can connect to the server anyway.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="568"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="569"/>
         <source>The returned certificate is not trusted by this Admin device. Without a trusted certificate this communication is not secure and confidential information may be at risk. To avoid seeing this dialog in the future it is recommended to add a trusted server certificate in the FileWave Admin preferences.
 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="572"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="573"/>
         <source>This server may be impersonating %1, which could put your confidential information at risk.
 
 FileWave Admin warns you when the server has a certificate which is not valid. This may happen if the FileWave Server is misconfigured or if your setup is compromised.
@@ -8188,75 +8231,75 @@ FileWave Admin warns you when the server has a certificate which is not valid. T
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="579"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="580"/>
         <source>%1 error(s) were found:
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="585"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="586"/>
         <source>Certificate details:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="586"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="587"/>
         <source>Common Name: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="587"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="588"/>
         <source>Serial Number: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="588"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="589"/>
         <source>Version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="589"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="590"/>
         <source>Not Valid Before: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="590"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="591"/>
         <source>Not Valid After: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="596"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="597"/>
         <source>Add and Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="598"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="599"/>
         <source>Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="599"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="600"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="616"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="617"/>
         <source>Certificate must be manually trusted for SSL connections in system keychain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="617"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="618"/>
         <source>&quot;Keychain Access&quot; Application will now open so you can trust the certificate for SSL connection.
 
 Once the certificate is trusted in your keychain you will be able to log in to your FileWave server directly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="626"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="627"/>
         <source>Failed to add the certificate to the keychain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="642"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="643"/>
         <source>Failed to add the certificate to the certificate store.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8525,14 +8568,14 @@ Note: caps lock is on...</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="487"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="488"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="489"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3959"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3966"/>
         <source>Ctrl+%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="500"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="832"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2492"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2499"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8618,7 +8661,7 @@ Please enter your Activation Code.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1312"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3615"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3622"/>
         <source>Show Locked Items</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8648,81 +8691,86 @@ Please enter your Activation Code.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2266"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2222"/>
+        <source>Windows Profiles can only be edited in the Web Admin.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2273"/>
         <source>Smart Group Report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2267"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2274"/>
         <source>Smart Group has been deleted, report cannot be refreshed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2342"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2349"/>
         <source>%1 (revision %2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2410"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2417"/>
         <source>No MDM license installed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2443"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2450"/>
         <source> (Warning: APN certificate will expire in %1 days)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2458"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2465"/>
         <source>APN%1 needs %2 configuration
 (see Mobile/%3 and root certificates in preferences)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2468"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2475"/>
         <source>MDM service not running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2473"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2480"/>
         <source>Incorrect MDM service version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2501"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2508"/>
         <source>API key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2504"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2511"/>
         <source>Project Number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2514"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2521"/>
         <source>Google Notifications needs %1 configuration
 (see Mobile/Android and root certificates in preferences)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2522"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2523"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2529"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2530"/>
         <source>
 (# of mobile clients exceeds license limit)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2576"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2583"/>
         <source>Service OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2576"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2583"/>
         <source>Service not running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3133"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3140"/>
         <source>The Software Update feature is not available in the Small Business Edition.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8738,7 +8786,7 @@ Please enter your Activation Code.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="864"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3650"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3657"/>
         <source>Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8862,102 +8910,102 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3158"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3165"/>
         <source>%1 import</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3159"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3166"/>
         <source>Do you want to create new fileset or to add revisions to exisiting fileset %1?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3161"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3168"/>
         <source>Create new</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3163"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3170"/>
         <source>Add revisions to existing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3234"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3241"/>
         <source>Importing package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3235"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3242"/>
         <source>Unable to import package, target fileset %1 is locked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3311"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3318"/>
         <source>Importing folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3312"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3319"/>
         <source>Unable to import folder, target fileset %1 is locked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3352"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3359"/>
         <source>Importing fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3353"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3360"/>
         <source>Unable to import fileset, target fileset %1 is locked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3384"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3391"/>
         <source>Adding files with url cannot be done via drag and drop, use Import File instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3582"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3589"/>
         <source>Scheduled Reports</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3583"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3590"/>
         <source>Another administrator is currently editing the Scheduled Reports. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3613"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3620"/>
         <source>Another administrator is currently editing the custom fields or related data. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3890"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3897"/>
         <source>Per-App VPN payload usages update failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3891"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3898"/>
         <source>Failed to update Per-App VPN payload usages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3906"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3913"/>
         <source>Web Admin configuration get failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3907"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3914"/>
         <source>Failed to get Web Admin configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3920"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3927"/>
         <source>Web Admin Url open failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3921"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3928"/>
         <source>Failed to open Web Admin Url.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9030,124 +9078,124 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2358"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2365"/>
         <source>Licenses Used/Total: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2359"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2366"/>
         <source>Computers %1/%2, </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2360"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2367"/>
         <source>Mobile %1/%2, </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2362"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2369"/>
         <source>Chromebooks %1/%2, </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2364"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2371"/>
         <source>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2376"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2383"/>
         <source>Files are still being uploaded to the server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2377"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2384"/>
         <source>Do you really want to close the application?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2431"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2438"/>
         <source>APN%1 OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2439"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2446"/>
         <source>APN%1 certificate has expired! Model update will fail until certificate is renewed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2453"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2460"/>
         <source>APN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2459"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2515"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2466"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2522"/>
         <source> and </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2510"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2517"/>
         <source>FCM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3141"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3148"/>
         <source>Software Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3142"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3149"/>
         <source>Another administrator is currently editing the Software Updates dialog. Please try again later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3612"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3619"/>
         <source>Custom Fields Locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3826"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3833"/>
         <source>Custom Fields usages update failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3827"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3834"/>
         <source>Failed to update Custom Fields usages. This information will be updated on the next model update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3842"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3849"/>
         <source>Disk Encryption configuration usages update failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3843"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3850"/>
         <source>Failed to update Disk Encryption configuration usages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3858"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3865"/>
         <source>Per-App VPN payload and usages update failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3859"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3866"/>
         <source>Failed to add or update Per-App VPN payload and usages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3874"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3881"/>
         <source>Per-App VPN payloads and usages remove failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3875"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3882"/>
         <source>Failed to remove Per-App VPN payloads and usages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2455"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2507"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2462"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2514"/>
         <source>Root Certificate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9157,27 +9205,27 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2997"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3004"/>
         <source>Model Update in Progress...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2999"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3006"/>
         <source>Model Updating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3022"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3029"/>
         <source>Model Revert in Progress...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3024"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3031"/>
         <source>Model Reverting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3245"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3252"/>
         <source>Invalid Patch Installer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9231,7 +9279,7 @@ When this fileset is saved it will no longer contain the outdated platforms from
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="69"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2845"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2889"/>
         <source>These settings are stored on the server, and will be the same across all administrators.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9246,34 +9294,34 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2848"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2892"/>
         <source>Apple Software Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1048"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1526"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2487"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2635"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2789"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2880"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3028"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1092"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1570"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2531"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2679"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2833"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2924"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3072"/>
         <source>+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1061"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1533"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2506"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2651"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2805"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2896"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3039"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1105"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1577"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2550"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2695"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2849"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2940"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3083"/>
         <source>-</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2928"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2972"/>
         <source>Microsoft Windows Updates</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9376,6 +9424,7 @@ When this fileset is saved it will no longer contain the outdated platforms from
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="766"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="817"/>
         <source>Checking package...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9385,137 +9434,147 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="944"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="796"/>
+        <source>Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="810"/>
+        <source>Upload Windows client package</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="988"/>
         <source>Chromebooks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1011"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1055"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1016"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1060"/>
         <source>Host</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1021"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1065"/>
         <source>Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1026"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1070"/>
         <source>ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1081"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1125"/>
         <source>Synchronize Now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1090"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1134"/>
         <source>LDAP Server Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1217"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1261"/>
         <source>LDAPS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1222"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1266"/>
         <source>STARTSSL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1269"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1133"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1313"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1139"/>
         <source>Samba LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1335"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1379"/>
         <source>Change Limit (%):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1230"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1274"/>
         <source>Check Server Certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1590"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1634"/>
         <source>Minimum delay (in minutes) between license assignment and Install Application.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1634"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1678"/>
         <source>Preferred license distribution model to use for new associations: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2060"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2104"/>
         <source>Refresh every (minutes):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2099"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2143"/>
         <source>Refresh all Smart Groups Now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2115"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2159"/>
         <source>iOS Inventory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2195"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2239"/>
         <source>LDAP Custom Fields</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2201"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2245"/>
         <source>Clear value if there is no match between client and LDAP user or computer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2701"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2765"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2745"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2809"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1254"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1124"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1298"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1130"/>
         <source>Active Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1259"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1127"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1303"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1133"/>
         <source>Open Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1264"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1130"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1308"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1136"/>
         <source>eDirectory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1352"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1396"/>
         <source>Enable Automatic Group updates for this LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2989"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3033"/>
         <source>Revert to Defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1553"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1597"/>
         <source>Change Icon</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9525,19 +9584,19 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="828"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="872"/>
         <source>Shared Key:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="933"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="977"/>
         <source>Generate new key on Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="881"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1194"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2246"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="925"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1238"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2290"/>
         <source>Port:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9552,12 +9611,12 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2864"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2908"/>
         <source>Apple catalog urls</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2937"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2981"/>
         <source>Microsoft Catalog URL: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -9568,7 +9627,7 @@ When this fileset is saved it will no longer contain the outdated platforms from
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="370"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1160"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1204"/>
         <source>Name:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9649,38 +9708,38 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="812"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="856"/>
         <source>MDM Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="891"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="935"/>
         <source>Server Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="949"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1212"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="993"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1256"/>
         <source>LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="960"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1004"/>
         <source>Authentication server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="977"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1021"/>
         <source>use it for extraction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1130"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1174"/>
         <source>LDAP features are not enabled with a Small Business Edition license</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1177"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1221"/>
         <source>Host / IP:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9700,348 +9759,348 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1240"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1284"/>
         <source>Server Type:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1277"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1321"/>
         <source>Base DN:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1294"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1338"/>
         <source>LDAP User DN:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1311"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1355"/>
         <source>LDAP User Password:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1325"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1369"/>
         <source>Refresh Interval (sec):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1345"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1389"/>
         <source>Remove missing items after:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1364"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1408"/>
         <source>Test Connection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1464"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1459"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1562"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1508"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1465"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1568"/>
         <source>consecutive missing extractions. Items will be immediately removed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1492"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1536"/>
         <source>Kiosk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1501"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1545"/>
         <source>Categories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1563"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1607"/>
         <source>VPP &amp;&amp; DEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1644"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1688"/>
         <source>Assign to Device if possible, otherwise to User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1830"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1874"/>
         <source>No tokens are configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1869"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1954"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1913"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1998"/>
         <source>Synchronize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1745"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1853"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1911"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1789"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1897"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1955"/>
         <source>Last Sync: (N/A)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1843"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1887"/>
         <source>Configure tokens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1784"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1828"/>
         <source>LDAP synchronization:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1691"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1735"/>
         <source>Synchronize with LDAP every:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1716"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1760"/>
         <source> hour(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1767"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1811"/>
         <source>Automatically associate users via their email address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1774"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1818"/>
         <source>Send invite emails to newly registered LDAP users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1820"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1864"/>
         <source>Configure email invitation template</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2846"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2860"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2853"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2867"/>
         <source>Device Enrollment Program</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1927"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1971"/>
         <source>Download certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1947"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1991"/>
         <source>Determining status...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1937"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1981"/>
         <source>Configure accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1994"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2038"/>
         <source>Inventory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2000"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2044"/>
         <source>Inventory Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2028"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2072"/>
         <source>Inventory and MDM are using the same server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2121"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2165"/>
         <source>Device Inventory Poll Interval (hours):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2134"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2178"/>
         <source>How often IOS devices will be polled for Inventory information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2163"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2207"/>
         <source>Devices that have not checked in for this time interval will display as Red</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2054"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2098"/>
         <source>Smart Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="815"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="821"/>
         <source>Refresh all Smart Groups</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2212"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2256"/>
         <source>Mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2218"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2262"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2229"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2273"/>
         <source>Host:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2266"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2310"/>
         <source>Use TLS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2273"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2317"/>
         <source>User name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2290"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2334"/>
         <source>User password:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2310"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2354"/>
         <source>Send from (email address):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2346"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2390"/>
         <source>Send test mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2355"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2399"/>
         <source>Keep in mind that the email server needs to possibly handle thousands of emails (e.g &lt;a href=&quot;https://postmarkapp.com&quot;&gt;Postmark&lt;/a&gt; or &lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2385"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2429"/>
         <source>Education</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2390"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2434"/>
         <source>Imaging</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2413"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2457"/>
         <source>Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2419"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2463"/>
         <source>The following extensions may be edited with the built-in text editor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2429"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2473"/>
         <source>To edit a file, open a fileset, select a file, and click Edit Text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2561"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2605"/>
         <source>Proxies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2617"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2661"/>
         <source>Server Proxy Credentials</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1204"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2691"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2755"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1248"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2735"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2799"/>
         <source>Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2696"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2760"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2740"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2804"/>
         <source>Host Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2706"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2770"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2750"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2814"/>
         <source>User Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2711"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2775"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2755"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2819"/>
         <source>Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2674"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2828"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2718"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2872"/>
         <source>Test</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1569"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1613"/>
         <source>Volume Purchase Program - Apps and Books</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1882"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1926"/>
         <source>Device Enrollment Program - Apple School Manager and Apple Business Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2150"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2194"/>
         <source>Device Not Checked-In Notification (days):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2439"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2483"/>
         <source>Text Editor Extensions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2535"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2916"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2947"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2579"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2960"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2991"/>
         <source>Reset to Defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2574"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2618"/>
         <source>Proxy Authentication Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2581"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2625"/>
         <source>These settings are used to provide authentication values for already configured system proxies.  The protocol, host and port values are used to determine which system proxy a particular username and password combination applies to.
 
 By default, the FileWave Admin will use the same proxy settings as the server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2727"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2771"/>
         <source>Admin Proxy Credentials Override</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2839"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2883"/>
         <source>Software Update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3031"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3075"/>
         <source>Creates a new LDAP server configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3042"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3086"/>
         <source>Deletes the selected LDAP servers from the preferences</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10082,74 +10141,74 @@ Please enter your credentials to continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="660"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="666"/>
         <source>You do not have permission to configure VPP service tokens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="756"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="757"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="762"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="763"/>
         <source> (full sync)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="859"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="861"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="867"/>
         <source>Proxy Test Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="861"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="867"/>
         <source>There was an error in the request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="863"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="869"/>
         <source>Proxy Test Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="863"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="869"/>
         <source>The request succeeded!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1066"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1072"/>
         <source>No Key (Not Secure)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1232"/>
         <source>Reopen Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1232"/>
         <source>In order to reflect the change in ownership lookups, you will need to quit the Admin and log in again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1234"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1240"/>
         <source>Auto Logout Interval Too Short</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1234"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1240"/>
         <source>Your chosen Auto Logout Interval was too short. It has been set to 10 minutes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1624"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1630"/>
         <source>Feature Restricted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1625"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1631"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1165"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1171"/>
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10174,53 +10233,53 @@ Please enter your credentials to continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="707"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="713"/>
         <source>Security Warning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="707"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="713"/>
         <source>Not checking the server certificate validity is going to expose your system to attacks.
 Are you sure you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1398"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1404"/>
         <source>Please restart web services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1566"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1572"/>
         <source>consecutive missing extractions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1605"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1611"/>
         <source>Inventory service not online</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1612"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1618"/>
         <source>Checking LDAP connection...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1726"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1732"/>
         <source>Certificated Creation Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1726"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1732"/>
         <source>Failed to set certificate: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1768"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1774"/>
         <source>Certificated created</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2264"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2271"/>
         <source>MDM</source>
         <comment>MDM Server</comment>
         <translation type="unfinished"></translation>
@@ -10247,206 +10306,236 @@ Are you sure you want to continue?</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="575"/>
+        <source>You do not have permission to upload Windows client package to MDM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="581"/>
         <source>You do not have permission to enable/disable User Enrollment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="580"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="586"/>
         <source>User Enrolled devices removed from FileWave model will always be instructed to remove MDM profile.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="785"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="791"/>
         <source>You removed the LDAP Authentication Server. &lt;br/&gt;&lt;br/&gt; Configured LDAP group accounts are not valid anymore.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="788"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="794"/>
         <source>You changed the LDAP Authentication Server. &lt;br/&gt;&lt;br/&gt; Configured LDAP group accounts are not valid anymore.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="816"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="822"/>
         <source>The request to refresh all Smart Groups has been sent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="859"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="865"/>
         <source>There was an error in the request to check the proxy.<byte value="xd"/>
 
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1398"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3207"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3221"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1404"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3272"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3286"/>
         <source>LDAP authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1877"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1883"/>
         <source>Select an Apple Push Notification Certificate/Key pair for MDM (*%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1877"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1883"/>
         <source>APN Certificate/Key (*%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2178"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2185"/>
         <source>The extension %1 already exists.
 Please use another extension.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2266"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2273"/>
         <source>Engage</source>
         <comment>Engage Server</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2269"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2276"/>
         <source>The shared secret key used for communication between Filewave Admin and %1 was not yet created. Do you really want to close this dialog?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2276"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2283"/>
         <source>Generate shared key(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2340"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2347"/>
         <source>The new shared key could not be set on the MDM Server: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2358"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2365"/>
         <source>Setup Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2358"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2365"/>
         <source>The new shared key could not be set on the Engage Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2375"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2382"/>
         <source>Imaging Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2375"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2382"/>
         <source>The new shared key could not be set on Imaging Server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2399"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2406"/>
         <source>Kiosk categories reset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2400"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2407"/>
         <source>Kiosk categories will be reset to default.
 Continue ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2471"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2478"/>
         <source>Email preferences test</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2471"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2478"/>
         <source>Please enter a mail address where to send the test e-mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2490"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2497"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2504"/>
         <source>Email settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2491"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2498"/>
         <source>Test email has been successfully sent to %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2498"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2505"/>
         <source>Could not send test email, reason:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2907"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2914"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2977"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2984"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3024"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3031"/>
         <source>MDM for macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3072"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3062"/>
+        <source>MDM for Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3069"/>
+        <source>Upload FileWave Client Package for Windows MDM</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3102"/>
         <source>Error Scheduling Custom Fields Extraction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3078"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3111"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3108"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3141"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3106"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3136"/>
         <source>Error scheduling synchronization for server &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3107"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3137"/>
         <source>Error scheduling synchronization for all servers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3113"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3143"/>
         <source>Synchronization for server &apos;%1&apos; successfully scheduled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3114"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3144"/>
         <source>Synchronization for all servers successfully scheduled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3121"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3151"/>
         <source>Clearing the LDAP user cache failed: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3150"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3184"/>
+        <source>Could not upload FileWave Client package for Windows MDM:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3199"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Package not available, MDM for macOS will not work.&lt;/font&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3207"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3215"/>
+        <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Package not available, MDM for Windows devices will not work.&lt;/font&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3223"/>
+        <source>Package %1 available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3272"/>
         <source>Failed to test changes in LDAP authentication configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3221"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3286"/>
         <source>Failed to apply new configuration for LDAP authentication: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3232"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3297"/>
         <source>Apache was previously configured to use LDAP for device enrollment.
 FileWave can update Apache configuration to match your LDAP settings.
 Do you wish to keep existing settings or apply the new configuration?
@@ -10454,155 +10543,159 @@ Do you wish to keep existing settings or apply the new configuration?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3236"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3301"/>
         <source>Specialized configurations have to be edited manually.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3237"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3302"/>
         <source>Keep Previous</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3238"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3303"/>
         <source>Apply New</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3256"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3260"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3321"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3325"/>
         <source>Missing field error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3256"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3321"/>
         <source>LDAP Server Host/IP is mandatory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3260"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3325"/>
         <source>LDAP Server Base DN is mandatory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3032"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3039"/>
         <source>Upload FileWave Client Package for MDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3038"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3045"/>
         <source>This doesn&apos;t seem to be a FileWave Client package.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3043"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3050"/>
         <source>Unable to determine the package version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3079"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3109"/>
         <source>Custom field extraction successfully scheduled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3134"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3164"/>
         <source>Could not upload FileWave Client package for MDM:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3137"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3166"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3180"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Error while uploading package.&lt;/font&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3141"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3171"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3190"/>
         <source>Success !</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3141"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3171"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3190"/>
         <source>FileWave Client package successfully uploaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3156"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3205"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3221"/>
         <source>Package available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3158"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3207"/>
         <source>Package version %1 available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2967"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2974"/>
         <source>Sync with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2900"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2907"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2911"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2918"/>
         <source>Never synchronized.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2776"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2783"/>
         <source>Connected successfully!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1733"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1739"/>
         <source>Restarting web services...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1759"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1765"/>
         <source>A new certificate has been created but some web service failed to restart due to a timeout. Please restart web services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1762"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1768"/>
         <source>A new certificate has been created but some web service failed to restart. Please restart web services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1943"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1950"/>
         <source>You do not have permission to configure FCM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2030"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2037"/>
         <source>Inventory query error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2031"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2038"/>
         <source>Failed to get version information about clients and boosters: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2067"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2074"/>
         <source>Enabling full security mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2073"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2080"/>
         <source>Clients, boosters, and imaging servers must be on version 13.1 or greater to support full security mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2074"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2081"/>
         <source>All your clients, boosters and imaging servers are compatible.
 
 Note: This change will automatically logout other FileWave Admin sessions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2078"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2085"/>
         <source>Warning: clients, boosters, and imaging servers must be on version 13.1 or greater to support full security mode.
 Do you really want to enable full security mode? The following components will no longer be able to communicate with the FileWave Server:
   %1 client(s)
@@ -10611,36 +10704,36 @@ Do you really want to enable full security mode? The following components will n
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2083"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2090"/>
         <source>Out-dated components will no longer connect to the FileWave Server. They must be updated and re-enrolled.
 
 Note: This change will automatically logout other FileWave Admin sessions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2095"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2102"/>
         <source>Enabling compatibility mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2100"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2107"/>
         <source>Using compatibility mode is not recommended unless you have clients, boosters or imaging servers on version 13.0.x or lower.
 Do you really want to enable compatibility mode?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2102"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2109"/>
         <source>Note: This change will automatically logout other FileWave Admin sessions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2781"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2788"/>
         <source>Failed to connect to ldap server %1. %2
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2833"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2840"/>
         <source>%n token(s) configured</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -10648,94 +10741,95 @@ Do you really want to enable compatibility mode?</source>
         </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2835"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2842"/>
         <source>No tokens configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2876"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2883"/>
         <source>Getting DEP certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2876"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2890"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2883"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2897"/>
         <source>An error occurred while saving the file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2881"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2888"/>
         <source>Save DEP Certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2883"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2890"/>
         <source>Certificate (*.pem)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2890"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2897"/>
         <source>Saving DEP certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2975"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3038"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3043"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3071"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3104"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3121"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3132"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2982"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3045"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3050"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3101"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3134"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3151"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3162"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3182"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2968"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2975"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1755"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1761"/>
         <source>A new certificate and private key has been successfully uploaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2007"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2014"/>
         <source>%1 Uploaded Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2138"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2145"/>
         <source>.extension</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2260"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2267"/>
         <source>Shared secret key not created.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2274"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2281"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2275"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2282"/>
         <source>Close dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2337"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2344"/>
         <source>MDM Failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2385"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2392"/>
         <source>Failed to Save Preferences</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2388"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2395"/>
         <source>Failure Saving Preferences to Server.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12259,155 +12353,155 @@ Do you want to proceed with certificate generation now?</source>
 <context>
     <name>ClientsGroupsModel</name>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="343"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="333"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="347"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="337"/>
         <source>Location</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="349"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="339"/>
         <source>ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="351"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="341"/>
         <source>Model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="353"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="343"/>
         <source>IP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="355"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="345"/>
         <source>Last Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="357"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="347"/>
         <source>Lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="359"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="349"/>
         <source>Free Space</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="361"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="351"/>
         <source>Platform</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="363"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="353"/>
         <source>Comment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="365"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="355"/>
         <source>Serial/MAC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="367"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="357"/>
         <source>State</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="369"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="359"/>
         <source>Auth Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="371"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="361"/>
         <source>Last LDAP Username</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="452"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="442"/>
         <source>Clients: %1 total, %2 original(s), %3 clone(s)
 Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="608"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="598"/>
         <source>Locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="843"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="833"/>
         <source>The serial or MAC address provided doesn&apos;t have the correct format. Please use (xx:xx:xx:xx:xx:xx) for Windows MAC address or (XXXXXXXXXXXX) for Mac serial number.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="864"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="854"/>
         <source>Unable to modify OU.  Server said (%1):
 
 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="874"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="864"/>
         <source>The client name is invalid for Imaging (e.g., it has more than 15 characters, contains invalid characters, or uses a keyword).
 Please choose a different name or remove Imaging association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="883"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="873"/>
         <source>Failed to change serial number or MAC address. Make sure it is not already used by another client.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="887"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="877"/>
         <source>Failed to change name to %1. Make sure it is not already used by another client.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1545"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1544"/>
         <source>Chromebook Move Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1546"/>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1564"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1545"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1563"/>
         <source>Unable to move into new parent OU.  Server said (%1):
 
 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1563"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1562"/>
         <source>OU Move Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2324"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2329"/>
         <source>Inventory: Error while loading list of custom fields: %1
 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1843"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1848"/>
         <source>Cannot create an association between %1 and %2 as the fileset is incomplete!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1861"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="1866"/>
         <source>You need to select at most a single imaging fileset so that the imaging association(s) can be created.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2273"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2278"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2273"/>
+        <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2278"/>
         <source>Error while removing mobile clients: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14294,6 +14388,41 @@ This group contains the auto-add group &apos;%2&apos;.  To delete this group, ch
     <message>
         <location filename="../../FWAdminLib/ConfirmVPPUploadDialog.ui" line="156"/>
         <source>Cancel the VPP Order Upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ConflictResolver</name>
+    <message>
+        <location filename="../../FWAdminLib/ConflictResolver.cpp" line="44"/>
+        <source>You do not have permission to add clients to the group: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ConflictResolver.cpp" line="65"/>
+        <source>Failed to apply conflict resolution: error %1 %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ConflictResolver.cpp" line="91"/>
+        <source>Conflicts resolved for %1 device(s).
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ConflictResolver.cpp" line="94"/>
+        <source>Conflict resolution errors for %1 device(s).
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ConflictResolver.cpp" line="99"/>
+        <source>Solve Enrollment Conflict(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ConflictResolver.cpp" line="128"/>
+        <source>Resolving conflicts...</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -22524,7 +22653,7 @@ Server returned : %1</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1242"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3264"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3279"/>
         <source>Some of the selected items cannot be moved</source>
         <translation type="unfinished"></translation>
     </message>
@@ -22535,17 +22664,17 @@ Server returned : %1</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1330"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1908"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1913"/>
         <source>Some of the selected items cannot be deleted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1900"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1905"/>
         <source>Failed to delete User/Clone/Groups: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3256"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3271"/>
         <source>Failed to move Devices/Groups: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -26929,1102 +27058,1142 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIFieldChoice</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1682"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1705"/>
         <source>ACTIVE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1683"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1706"/>
         <source>Activating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1684"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1707"/>
         <source>Activation of dependency fileset failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1685"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1708"/>
         <source>Active</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1686"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1709"/>
         <source>Administrator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1688"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1711"/>
         <source>Android</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1689"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1712"/>
         <source>Android APK Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1690"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1713"/>
         <source>Apple Hosted Media Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1691"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1714"/>
         <source>Archived</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1692"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1715"/>
         <source>Assigned</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1693"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1716"/>
         <source>Associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1694"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1717"/>
         <source>Authentication Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1695"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1718"/>
         <source>Available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1696"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1719"/>
         <source>Available in Kiosk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1698"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1721"/>
         <source>Blocker script</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1699"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1722"/>
         <source>Book</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1700"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1723"/>
         <source>Booster/Server disk full</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1702"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1725"/>
         <source>Can&apos;t download from server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1703"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1726"/>
         <source>Chrome</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1704"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1727"/>
         <source>Chromebook Managed User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1705"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1728"/>
         <source>Chromebook Unmanaged User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1706"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1729"/>
         <source>Client Command Line</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1707"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1730"/>
         <source>Client Script</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1709"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1733"/>
         <source>DELINQUENT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1711"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1735"/>
         <source>DEP Enrollment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1712"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1736"/>
         <source>DEPROVISIONED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1713"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1737"/>
         <source>DISABLED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1714"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1738"/>
         <source>Debug</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1715"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1739"/>
         <source>Default Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1716"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1740"/>
         <source>Delete files of a dependency fileset failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1717"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1741"/>
         <source>Deleted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1718"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1742"/>
         <source>Dependency fileset failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1721"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1745"/>
         <source>Discovery Crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1722"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1746"/>
         <source>Disk full</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1723"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1747"/>
         <source>Download command sent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1725"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1749"/>
         <source>Download of dependency fileset failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1726"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1750"/>
         <source>Downloaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1727"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1751"/>
         <source>Downloading</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1729"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1753"/>
         <source>Empty</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1732"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1756"/>
         <source>Enrolled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1733"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1757"/>
         <source>Enrolled After Model Update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1734"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1759"/>
         <source>Enrollment via APK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1735"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1761"/>
         <source>Enrollment via EMM_API</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1736"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1762"/>
         <source>Enrollment via fwcld</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1743"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1769"/>
         <source>Failed CRC validation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1749"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1775"/>
         <source>Fileset install failed, a more recent version is installed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1751"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1777"/>
         <source>Generic Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1753"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1779"/>
         <source>Handled via MDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1758"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1784"/>
         <source>Idle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1759"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1785"/>
         <source>Imported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1760"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1786"/>
         <source>Importing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1764"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1790"/>
         <source>Install failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1766"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1792"/>
         <source>Installation cancelled by the user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1767"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1793"/>
         <source>Installed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1768"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1794"/>
         <source>Installed successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1769"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1795"/>
         <source>Installed via Mac App Store</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1770"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1796"/>
         <source>Installer running now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1772"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1798"/>
         <source>Installing via Mac App Store (can take some time)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1783"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1809"/>
         <source>Mac App Store license associated</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1784"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1810"/>
         <source>Mac App Store license fatal error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1786"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1812"/>
         <source>Make files passive of a dependency fileset failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1792"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1818"/>
         <source>Network error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1793"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1819"/>
         <source>No VPP license associated to this fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1794"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1820"/>
         <source>No VPP token associated to this fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1795"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1821"/>
         <source>No VPP user for this application&apos;s VPP token associated to the device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1799"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1825"/>
         <source>Not Imported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1800"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1826"/>
         <source>Not a VPP application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1801"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1827"/>
         <source>Not available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1802"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1828"/>
         <source>Not enough Mac App Store VPP license</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1804"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1830"/>
         <source>Not installed: client is inventory only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1807"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1834"/>
         <source>OTA Enrollment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1809"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1836"/>
         <source>Passive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1815"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1842"/>
         <source>Pre-enrolled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1737"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1763"/>
         <source>Enterprise iOS App Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1680"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1703"/>
         <source>32-bit only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1681"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1704"/>
         <source>64-bit only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1687"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1710"/>
         <source>Allowed via iCloud</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1697"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1720"/>
         <source>Azure AD Identity Provider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1701"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1724"/>
         <source>Both</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1708"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1731"/>
+        <source>Completed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1732"/>
         <source>Config</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1710"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1734"/>
         <source>DEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1719"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1743"/>
         <source>Device only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1720"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1744"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1724"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1748"/>
         <source>Download in progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1728"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1752"/>
         <source>Downloading upgrade package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1730"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1754"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1731"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1755"/>
         <source>Enabled via DEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1738"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1758"/>
+        <source>Enrolled via Azure, waiting for fwcld</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1760"/>
+        <source>Enrollment via AZURE AD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1764"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1739"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1765"/>
         <source>FDE not supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1740"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1766"/>
         <source>FDE supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1741"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1767"/>
         <source>FDE supported but not manageable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1742"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1768"/>
         <source>Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1744"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1770"/>
         <source>Fatal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1745"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1771"/>
         <source>FileWave Administrator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1746"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1772"/>
         <source>FileWave Administrator logged in via IDP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1747"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
         <source>FileWave Administrator logged in via LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1748"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1774"/>
         <source>FileWave Policy Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1750"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1776"/>
         <source>Fully enrolled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1752"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1778"/>
         <source>Google Policy Fragment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1754"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1780"/>
         <source>IDP groups used for idp authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1755"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1781"/>
         <source>INACTIVE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1756"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1782"/>
         <source>IPv4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1757"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1783"/>
         <source>IPv6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1761"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1787"/>
         <source>Inactive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1762"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1788"/>
         <source>Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1763"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1789"/>
         <source>Install command sent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1765"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1791"/>
         <source>Install in progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1771"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1797"/>
         <source>Installing upgrade</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1799"/>
         <source>Institutional</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1774"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1800"/>
         <source>Inventory only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1775"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1801"/>
         <source>LDAP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1776"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1802"/>
         <source>License report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1777"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1803"/>
         <source>Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1778"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1804"/>
         <source>MDM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1779"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1805"/>
         <source>MDM Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1780"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1806"/>
         <source>MDM Code and Empty iCloud Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1781"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1807"/>
         <source>MDM Code and iCloud Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1782"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1808"/>
         <source>MDM OS Update requires a DEP device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1785"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1811"/>
         <source>Mac MDM Update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1787"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1813"/>
         <source>Managed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1788"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1814"/>
         <source>Missing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1815"/>
         <source>Native</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1790"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1816"/>
         <source>Network Scanner Crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1791"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1817"/>
         <source>Network Scanner Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1796"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1822"/>
         <source>No upgrade in progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1797"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1823"/>
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1798"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1824"/>
         <source>Normal User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1803"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1829"/>
         <source>Not enrolled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1805"/>
-        <source>Not managed by FileWave</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1806"/>
-        <source>OSX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1808"/>
-        <source>Okta Identity Provider</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1810"/>
-        <source>Pending</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1811"/>
-        <source>Personal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1812"/>
-        <source>Personal and Institutional</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1813"/>
-        <source>Play Store Fragment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1814"/>
-        <source>Policy Fileset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1816"/>
-        <source>Presumed DEP Enrollment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1817"/>
-        <source>Profile Fileset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1818"/>
-        <source>Profile installation failure</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1819"/>
-        <source>Profiles cannot be managed via the profiles command since macOS 11</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1820"/>
-        <source>Provisioning</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1821"/>
-        <source>Pushed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1822"/>
-        <source>Query report</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1823"/>
-        <source>RETURN_ARRIVED</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1824"/>
-        <source>RETURN_REQUESTED</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1825"/>
-        <source>Registered</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1826"/>
-        <source>Remote wipe executed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1827"/>
-        <source>Removed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1828"/>
-        <source>Required</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1829"/>
-        <source>Requirements met</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1830"/>
-        <source>Requirements not met: architecture</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1831"/>
-        <source>Requirements not met: insufficient memory</source>
+        <source>Not installed: conflict detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1832"/>
-        <source>Requirements not met: script</source>
+        <source>Not managed by FileWave</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1833"/>
-        <source>Requirements not met: system version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1834"/>
-        <source>Requirements not met: will not retry</source>
+        <source>OSX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1835"/>
-        <source>Restriction</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1836"/>
-        <source>Retired</source>
+        <source>Okta Identity Provider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1837"/>
-        <source>Retrieved Empty iCloud Code</source>
+        <source>Pending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1838"/>
-        <source>Retrieved iCloud Code</source>
+        <source>Personal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1839"/>
-        <source>SHIPPED</source>
+        <source>Personal and Institutional</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1840"/>
-        <source>Script execution failure</source>
+        <source>Play Store Fragment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1841"/>
-        <source>Server only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1842"/>
-        <source>Skipped</source>
+        <source>Policy Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1843"/>
-        <source>Stopped</source>
+        <source>Presumed DEP Enrollment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1844"/>
-        <source>Succeeded</source>
+        <source>Profile Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1845"/>
-        <source>Success</source>
+        <source>Profile installation failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1846"/>
-        <source>SynchronizationError</source>
+        <source>Profile is partially installed, client has failed to deploy some CSPs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1847"/>
-        <source>Tethered Network only</source>
+        <source>Profiles cannot be managed via the profiles command since macOS 11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1848"/>
-        <source>Tracked</source>
+        <source>Provisioning</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1849"/>
-        <source>UNKNOWN</source>
+        <source>Pushed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1850"/>
-        <source>Undefined</source>
+        <source>Query report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1851"/>
-        <source>Unenrolled</source>
+        <source>RETURN_ARRIVED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1852"/>
-        <source>Uninstall failed</source>
+        <source>RETURN_REQUESTED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1853"/>
-        <source>Uninstaller running now</source>
+        <source>Registered</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1854"/>
-        <source>Universal</source>
+        <source>Remaining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1855"/>
-        <source>Unknown</source>
+        <source>Remote wipe executed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1856"/>
-        <source>Unknown error</source>
+        <source>Removed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1857"/>
-        <source>Untracked</source>
+        <source>Required</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1858"/>
-        <source>Update of dependency fileset failure</source>
+        <source>Requirements met</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1859"/>
-        <source>Upgrade failure</source>
+        <source>Requirements not met: architecture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1860"/>
-        <source>User Enrollment</source>
+        <source>Requirements not met: insufficient memory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1861"/>
-        <source>User approved enrollment</source>
+        <source>Requirements not met: script</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1862"/>
-        <source>User needs to accept the invite to the organization with a valid iTunes account</source>
+        <source>Requirements not met: system version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1863"/>
-        <source>VPP App Assignment</source>
+        <source>Requirements not met: will not retry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1864"/>
-        <source>VPP license for asset can not be assigned to a device</source>
+        <source>Restriction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1865"/>
-        <source>VPP user is retired</source>
+        <source>Retired</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1866"/>
-        <source>Waiting for booster</source>
+        <source>Retrieved Empty iCloud Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1867"/>
-        <source>Waiting for higher priority filesets</source>
+        <source>Retrieved iCloud Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1868"/>
-        <source>Waiting for user to log in</source>
+        <source>SHIPPED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1869"/>
-        <source>Waiting for user to log out</source>
+        <source>Script execution failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1870"/>
-        <source>Waiting for user to log out to install dependency</source>
+        <source>Server only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1871"/>
-        <source>Warning</source>
+        <source>Skipped</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1872"/>
-        <source>Windows</source>
+        <source>Stopped</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1873"/>
-        <source>Windows Image Fileset</source>
+        <source>Succeeded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1874"/>
-        <source>Windows Imaging Drivers Fileset</source>
+        <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1875"/>
-        <source>allowed</source>
+        <source>SynchronizationError</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1876"/>
-        <source>completed</source>
+        <source>Tethered Network only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1877"/>
-        <source>dev</source>
+        <source>Tracked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1878"/>
-        <source>disallowed</source>
+        <source>UNKNOWN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1879"/>
-        <source>error</source>
+        <source>Undefined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1880"/>
-        <source>false</source>
+        <source>Unenrolled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1881"/>
-        <source>full</source>
+        <source>Uninstall failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1882"/>
-        <source>iCloud</source>
+        <source>Uninstaller running now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1883"/>
-        <source>iOS</source>
+        <source>Universal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1884"/>
-        <source>iOS Update</source>
+        <source>Unknown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1885"/>
-        <source>iTunes App Fileset</source>
+        <source>Unknown error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1886"/>
-        <source>macOS</source>
+        <source>Untracked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1887"/>
-        <source>macOS Image Fileset</source>
+        <source>Update of dependency fileset failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1888"/>
-        <source>medium</source>
+        <source>Upgrade failure</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1889"/>
-        <source>not rename</source>
+        <source>User Enrollment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1890"/>
-        <source>not supported</source>
+        <source>User approved enrollment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1891"/>
-        <source>off</source>
+        <source>User needs to accept the invite to the organization with a valid iTunes account</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1892"/>
-        <source>remaining</source>
+        <source>VPP App Assignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1893"/>
-        <source>true</source>
+        <source>VPP license for asset can not be assigned to a device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1894"/>
-        <source>tvOS</source>
+        <source>VPP user is retired</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1895"/>
-        <source>unknown</source>
+        <source>Waiting for booster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1896"/>
-        <source>use client name</source>
+        <source>Waiting for higher priority filesets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1897"/>
-        <source>use template</source>
+        <source>Waiting for user to log in</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1898"/>
-        <source>validated</source>
+        <source>Waiting for user to log out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1899"/>
+        <source>Waiting for user to log out to install dependency</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1900"/>
+        <source>Warning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1901"/>
+        <source>Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1902"/>
+        <source>Windows Image Fileset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1903"/>
+        <source>Windows Imaging Drivers Fileset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1904"/>
+        <source>Windows MDM Profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1905"/>
+        <source>Windows Profile requires an MDM device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1906"/>
+        <source>allowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1907"/>
+        <source>completed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1908"/>
+        <source>dev</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1909"/>
+        <source>disallowed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1910"/>
+        <source>error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1911"/>
+        <source>false</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1912"/>
+        <source>full</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1913"/>
+        <source>iCloud</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1914"/>
+        <source>iOS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1915"/>
+        <source>iOS Update</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1916"/>
+        <source>iTunes App Fileset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1917"/>
+        <source>macOS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1918"/>
+        <source>macOS Image Fileset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1919"/>
+        <source>medium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1920"/>
+        <source>not rename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1921"/>
+        <source>not supported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1922"/>
+        <source>off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1923"/>
+        <source>remaining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1924"/>
+        <source>true</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1925"/>
+        <source>tvOS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1926"/>
+        <source>unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1927"/>
+        <source>use client name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1928"/>
+        <source>use template</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1929"/>
+        <source>validated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1930"/>
         <source>warning</source>
         <translation type="unfinished"></translation>
     </message>
@@ -28032,131 +28201,131 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIFieldOperator</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1631"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1654"/>
         <source>after</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1632"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1655"/>
         <source>all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1633"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1656"/>
         <source>before</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1634"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1657"/>
         <source>begins with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1635"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1658"/>
         <source>contains</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1636"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1659"/>
         <source>does not begin with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1637"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1660"/>
         <source>does not contain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1638"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1661"/>
         <source>does not end with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1639"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1662"/>
         <source>does not equal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1640"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1663"/>
         <source>ends with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1641"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1664"/>
         <source>equals</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1642"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1665"/>
         <source>in more than</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1643"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1656"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1666"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1679"/>
         <source>is</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1644"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1667"/>
         <source>is greater than</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1645"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1668"/>
         <source>is greater than or equal to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1646"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1669"/>
         <source>is in subnet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1647"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1670"/>
         <source>is less than</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1648"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1671"/>
         <source>is less than or equal to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1649"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1657"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1672"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1680"/>
         <source>is not</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1650"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1658"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1673"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1681"/>
         <source>is not null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1651"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1659"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1674"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1682"/>
         <source>is null</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1652"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1675"/>
         <source>older than</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1653"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1676"/>
         <source>one</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1654"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1677"/>
         <source>within the next</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1655"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1678"/>
         <source>within the past</source>
         <translation type="unfinished"></translation>
     </message>
@@ -28164,82 +28333,82 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIFieldUnit</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1663"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1686"/>
         <source>bytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1664"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1687"/>
         <source>days</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1665"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1688"/>
         <source>gigabytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1666"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1689"/>
         <source>gigahertz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1667"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1690"/>
         <source>hertz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1668"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1691"/>
         <source>hours</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1669"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1692"/>
         <source>kilobytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1670"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1693"/>
         <source>kilohertz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1671"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1694"/>
         <source>megabytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1672"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1695"/>
         <source>megahertz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1673"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1696"/>
         <source>minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1674"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1697"/>
         <source>months</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1675"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1698"/>
         <source>seconds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1676"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1699"/>
         <source>terabytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1677"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1700"/>
         <source>weeks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1678"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1701"/>
         <source>years</source>
         <translation type="unfinished"></translation>
     </message>
@@ -28491,111 +28660,174 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     </message>
 </context>
 <context>
-    <name>FWIFont</name>
+    <name>FWIFilesetDeploymentStatus</name>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="758"/>
+        <source>Fileset deployment status</source>
+        <comment>component FilesetDeploymentStatus display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="759"/>
+        <source>Information regarding installation status of filesets on devices</source>
+        <comment>component FilesetDeploymentStatus description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="760"/>
+        <source>Fileset ID</source>
+        <comment>field fileset display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="761"/>
+        <source>Device ID</source>
+        <comment>field device display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="762"/>
+        <source>Last Status</source>
+        <comment>field last_status display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="763"/>
+        <source>The last status reported by the device.</source>
+        <comment>field last_status description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="764"/>
+        <source>Installation Status</source>
+        <comment>field installation_status display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="765"/>
+        <source>The status of the fileset installation.</source>
+        <comment>field installation_status description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="766"/>
+        <source>Status Date</source>
+        <comment>field status_date display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="767"/>
+        <source>The timestamp of the reported state.</source>
+        <comment>field status_date description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FWIFont</name>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="768"/>
         <source>Font</source>
         <comment>component Font display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="759"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="769"/>
         <source>Font installed on the device.</source>
         <comment>component Font description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="760"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="770"/>
         <source>Name</source>
         <comment>field name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="761"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="771"/>
         <source>Name of the font file. For example: &apos;Times.dfont&apos; on macOS and &apos;times.ttf&apos; on Windows.</source>
         <comment>field name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="762"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="772"/>
         <source>Family</source>
         <comment>field family display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="764"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="774"/>
         <source>Kind</source>
         <comment>field kind display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="765"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="775"/>
         <source>Type of font (macOS only). For example: &apos;OpenType font&apos;, &apos;TrueType font&apos;, &apos;Font suitcase&apos;, ...</source>
         <comment>field kind description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="766"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="776"/>
         <source>Vendor</source>
         <comment>field vendor display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="767"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="777"/>
         <source>Vendor or publisher of the font (macOS only).</source>
         <comment>field vendor description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="768"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="778"/>
         <source>Version</source>
         <comment>field version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="769"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="779"/>
         <source>Version of the font (macOS only). For example: 1.15, 7.1.1, ...</source>
         <comment>field version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="770"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="780"/>
         <source>Install Path</source>
         <comment>field path display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="771"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="781"/>
         <source>Path where the font file has been installed to (macOS only).</source>
         <comment>field path description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="772"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="782"/>
         <source>Is Valid</source>
         <comment>field valid display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="773"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="783"/>
         <source>If the font is a valid font (macOS only).</source>
         <comment>field valid description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="774"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="784"/>
         <source>Is Enabled</source>
         <comment>field enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="775"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="785"/>
         <source>If the font is enabled (macOS only).</source>
         <comment>field enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="763"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="773"/>
         <source>Name of the font family such as &apos;Times New Roman&apos; or &apos;Palatino&apos;.</source>
         <comment>field family description</comment>
         <translation type="unfinished"></translation>
@@ -28604,115 +28836,115 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIGeoLocation</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="776"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="786"/>
         <source>Location</source>
         <comment>component GeoLocation display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="777"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="787"/>
         <source>Information related to device position</source>
         <comment>component GeoLocation description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="778"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="788"/>
         <source>client</source>
         <comment>field client display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="779"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="789"/>
         <source>Longitude</source>
         <comment>field longitude display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="780"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="790"/>
         <source>Longitude of device (WGS84).</source>
         <comment>field longitude description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="781"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="791"/>
         <source>Latitude</source>
         <comment>field latitude display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="782"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="792"/>
         <source>Latitude of device (WGS84).</source>
         <comment>field latitude description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="783"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="793"/>
         <source>Horizontal Accuracy</source>
         <comment>field horizontal_accuracy display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="784"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="794"/>
         <source>Horizontal (latitude/longitude) accuracy.</source>
         <comment>field horizontal_accuracy description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="785"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="795"/>
         <source>Altitude</source>
         <comment>field altitude display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="786"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="796"/>
         <source>Altitude of device in m (meters).</source>
         <comment>field altitude description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="787"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="797"/>
         <source>Altitude Accuracy</source>
         <comment>field altitude_accuracy display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="788"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="798"/>
         <source>Accuracy of the altitude.</source>
         <comment>field altitude_accuracy description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="789"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="799"/>
         <source>Location Date</source>
         <comment>field location_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="790"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="800"/>
         <source>The date of the location information received.</source>
         <comment>field location_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="791"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="801"/>
         <source>Speed</source>
         <comment>field speed display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="792"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="802"/>
         <source>The instantaneous speed of the device in meters per second.If negative, this value could not be determined.</source>
         <comment>field speed description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="793"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="803"/>
         <source>Course</source>
         <comment>field course display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="794"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="804"/>
         <source>The direction in which the device is traveling.If negative, this value could not be determined.</source>
         <comment>field course description</comment>
         <translation type="unfinished"></translation>
@@ -28721,49 +28953,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIGoogleServiceAccount</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="795"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="805"/>
         <source>Google Service Account</source>
         <comment>component GoogleServiceAccount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="796"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="806"/>
         <source>Delegated Username</source>
         <comment>field delegated display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="797"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="807"/>
         <source>Authentication Data</source>
         <comment>field oauth_data display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="798"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="808"/>
         <source>Last Synchronization</source>
         <comment>field last_sync display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="799"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="809"/>
         <source>Date at which the service account was last synchronized.</source>
         <comment>field last_sync description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="800"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="810"/>
         <source>Status</source>
         <comment>field status display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="801"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="811"/>
         <source>Status</source>
         <comment>field status description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="802"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="812"/>
         <source>Status text</source>
         <comment>field status_text display name</comment>
         <translation type="unfinished"></translation>
@@ -28772,271 +29004,271 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSCarrier</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="803"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="813"/>
         <source>iOS Carrier Settings</source>
         <comment>component IOSCarrier display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="804"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="814"/>
         <source>Carrier settings on iOS devices</source>
         <comment>component IOSCarrier description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="805"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="815"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="806"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="816"/>
         <source>Carrier Settings Version</source>
         <comment>field carrier_settings_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="808"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="818"/>
         <source>Current Carrier Network</source>
         <comment>field current_carrier_network display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="810"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="820"/>
         <source>Current MCC</source>
         <comment>field current_mcc display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="812"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="822"/>
         <source>Current MNC</source>
         <comment>field current_mnc display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="814"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="824"/>
         <source>Data Roaming Enabled</source>
         <comment>field data_roaming_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="816"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="826"/>
         <source>EID</source>
         <comment>field eid display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="817"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="827"/>
         <source>The eSIM identifier. Available in iOS 14 and later.</source>
         <comment>field eid description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="818"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="828"/>
         <source>ICCID</source>
         <comment>field iccid display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="820"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="830"/>
         <source>IMEI</source>
         <comment>field imei display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="822"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="832"/>
         <source>Modem Firmware Version</source>
         <comment>field modem_firmware_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="824"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="834"/>
         <source>Phone Number</source>
         <comment>field phone_number display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="826"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="836"/>
         <source>SIM Carrier Network</source>
         <comment>field sim_carrier_network display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="828"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="838"/>
         <source>SIMCC</source>
         <comment>field simcc display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="829"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="839"/>
         <source>Deprecated. Use Subscriber MCC instead. Home Mobile Country Code</source>
         <comment>field simcc description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="830"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="840"/>
         <source>SIMNC</source>
         <comment>field simnc display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="831"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="841"/>
         <source>Deprecated. Use Subscriber MNC instead. Home Mobile Network Code</source>
         <comment>field simnc description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="832"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="842"/>
         <source>Cellular Technology</source>
         <comment>field cellular_technology display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="834"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="844"/>
         <source>Is Roaming</source>
         <comment>field is_roaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="836"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="846"/>
         <source>Subscriber MCC</source>
         <comment>field subscriber_mcc display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="838"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="848"/>
         <source>Subscriber MNC</source>
         <comment>field subscriber_mnc display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="840"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="850"/>
         <source>Subscriber Carrier Network</source>
         <comment>field subscriber_carrier_network display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="842"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="852"/>
         <source>Voice Roaming Enabled</source>
         <comment>field voice_roaming_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="844"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="854"/>
         <source>Ethernet MACs</source>
         <comment>field ethernet_macs display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="845"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="855"/>
         <source>Ethernet MAC addresses. Availability: Available in macOS v10.8 and later, and in iOS 7 and later.</source>
         <comment>field ethernet_macs description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="846"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="856"/>
         <source>Personal Hotspot Enabled</source>
         <comment>field personal_hotspot_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="807"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="817"/>
         <source>Version of the currently installed carrier settings file</source>
         <comment>field carrier_settings_version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="809"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="819"/>
         <source>Name of the current carrier network</source>
         <comment>field current_carrier_network description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="811"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="821"/>
         <source>Current Mobile Country Code</source>
         <comment>field current_mcc description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="813"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="823"/>
         <source>Current Mobile Network Code</source>
         <comment>field current_mnc description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="815"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="825"/>
         <source>The current setting of the Data Roaming setting</source>
         <comment>field data_roaming_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="819"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="829"/>
         <source>The ICC identifier for the installed SIM card</source>
         <comment>field iccid description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="821"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="831"/>
         <source>The device&apos;s IMEI number. Ignored if the device does not support GSM</source>
         <comment>field imei description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="823"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="833"/>
         <source>The baseband firmware version</source>
         <comment>field modem_firmware_version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="825"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="835"/>
         <source>Raw phone number without punctuation, including country code</source>
         <comment>field phone_number description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="827"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="837"/>
         <source>Deprecated. Use SubscriberCarrierNetwork instead. Name of the home carrier network</source>
         <comment>field sim_carrier_network description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="833"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="843"/>
         <source>Returns the type of cellular technology. 0-none, 1-GSM, 2-CDMA</source>
         <comment>field cellular_technology description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="835"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="845"/>
         <source>Returns whether the device is currently roaming.</source>
         <comment>field is_roaming description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="837"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="847"/>
         <source>Home Mobile Country Code</source>
         <comment>field subscriber_mcc description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="839"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="849"/>
         <source>Home Mobile Network Code</source>
         <comment>field subscriber_mnc description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="841"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="851"/>
         <source>Name of the home carrier network replaces SIMCarrierNetwork</source>
         <comment>field subscriber_carrier_network description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="843"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="853"/>
         <source>The current setting of the Voice Roaming setting. This is only available on certain carriers.</source>
         <comment>field voice_roaming_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="847"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="857"/>
         <source>True if the Personal Hotspot feature is currently turned on. This value is available only with certain carriers. Availability: iOS 7.0 and later.</source>
         <comment>field personal_hotspot_enabled description</comment>
         <translation type="unfinished"></translation>
@@ -29045,397 +29277,397 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSClient</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="850"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="860"/>
         <source>Product</source>
         <comment>field product display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="852"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="862"/>
         <source>Model</source>
         <comment>field model display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="854"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="864"/>
         <source>Battery Level</source>
         <comment>field battery_level display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="856"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="866"/>
         <source>Product Name</source>
         <comment>field product_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="858"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="868"/>
         <source>MEID</source>
         <comment>field meid display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="860"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="870"/>
         <source>Languages</source>
         <comment>field languages display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="862"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="872"/>
         <source>Locales</source>
         <comment>field locales display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="864"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="874"/>
         <source>Device ID</source>
         <comment>field apple_device_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="866"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="876"/>
         <source>Organization Info</source>
         <comment>field organization_info display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="868"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="878"/>
         <source>Is Supervised</source>
         <comment>field is_supervised display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="870"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="880"/>
         <source>Is Device Locator Service Enabled</source>
         <comment>field is_device_locator_service_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="872"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="882"/>
         <source>Is Do Not Disturb in Effect</source>
         <comment>field is_do_not_disturb_in_effect display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="874"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="884"/>
         <source>Is Activation Lock Enabled</source>
         <comment>field is_activation_lock_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="876"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="886"/>
         <source>EAS Device Identifier</source>
         <comment>field eas_device_identifier display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="878"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="888"/>
         <source>Is iCloud Backup Enabled</source>
         <comment>field is_cloud_backup_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="880"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="890"/>
         <source>Date of Last iCloud Backup</source>
         <comment>field last_cloud_backup_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="881"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="891"/>
         <source>The date of the last iCloud backup. Availability: Available in iOS 8.0 and later and macOS 10.10 and later.</source>
         <comment>field last_cloud_backup_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="882"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="892"/>
         <source>Is MDM Lost Mode Enabled</source>
         <comment>field is_mdm_lost_mode_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="883"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="893"/>
         <source>If true, the device has MDM Lost Mode enabled. Defaults to false. Availability: Available in iOS 9.3 and later.</source>
         <comment>field is_mdm_lost_mode_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="884"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="894"/>
         <source>Is the device waiting for final MDM configuration</source>
         <comment>field awaiting_configuration display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="885"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="895"/>
         <source>If true, the device is waiting for the final MDM configuration.</source>
         <comment>field awaiting_configuration description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="886"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="896"/>
         <source>Wallpaper Checksum</source>
         <comment>field wallpaper_checksum display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="887"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="897"/>
         <source>Last wallpaper checksum, set via MDM.</source>
         <comment>field wallpaper_checksum description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="888"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="898"/>
         <source>Date of Last Wallpaper Change</source>
         <comment>field last_wallpaper_change_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="889"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="899"/>
         <source>The date of the last wallpaper set - used to not change wallpaper too often.</source>
         <comment>field last_wallpaper_change_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="890"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="900"/>
         <source>Maximum Resident Users</source>
         <comment>field maximum_resident_users display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="891"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="901"/>
         <source>Maximum number of users that can use a shared iPad.</source>
         <comment>field maximum_resident_users description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="892"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="902"/>
         <source>Is the Network Tethered</source>
         <comment>field is_network_tethered display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="893"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="903"/>
         <source>If true, the device has a tethered network connection. Availability: iOS 10.3+ </source>
         <comment>field is_network_tethered description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="894"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="904"/>
         <source>Is App Analytics Enabled</source>
         <comment>field app_analytics_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="895"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="905"/>
         <source>If true, analytics shared with app developers.</source>
         <comment>field app_analytics_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="896"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="906"/>
         <source>Is Diagnostic Submission Enabled</source>
         <comment>field diagnostic_submission_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="897"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="907"/>
         <source>If true, enables diagnostic submission.</source>
         <comment>field diagnostic_submission_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="898"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="908"/>
         <source>Is Multi User</source>
         <comment>field is_multi_user display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="899"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="909"/>
         <source>If true, the iPad is in Shared iPad mode.</source>
         <comment>field is_multi_user description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="900"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="910"/>
         <source>Quota Size</source>
         <comment>field quota_size display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="901"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="911"/>
         <source>Limits how much storage user can have on Shared iPad.</source>
         <comment>field quota_size description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="902"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="912"/>
         <source>Resident Users</source>
         <comment>field resident_users display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="903"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="913"/>
         <source>Number of users for a Shared iPad.</source>
         <comment>field resident_users description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="904"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="914"/>
         <source>Estimated Resident Users</source>
         <comment>field estimated_resident_users display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="905"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="915"/>
         <source>The estimated number of users that can use this EDU mode device.</source>
         <comment>field estimated_resident_users description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="906"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="916"/>
         <source>Time Zone</source>
         <comment>field time_zone display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="907"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="917"/>
         <source>The current IANA time zone database name set on the device. Available in iOS 14 and later.</source>
         <comment>field time_zone description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="908"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="918"/>
         <source>Temporary Session Only</source>
         <comment>field temporary_session_only display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="909"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="919"/>
         <source>Whether the user can sign in with a managed Apple ID or only sees the Guest Welcome pane and can only log in as a guest user. Availability: Available in iOS 14.5 and later for Shared iPad.</source>
         <comment>field temporary_session_only description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="910"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="920"/>
         <source>Temporary Session Timeout</source>
         <comment>field temporary_session_timeout display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="911"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="921"/>
         <source>The timeout, in seconds, for the temporary session. The temporary session logs out automatically after the specified period of inactivity. Availability: Available in iOS 14.5 and later for Shared iPad.</source>
         <comment>field temporary_session_timeout description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="912"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="922"/>
         <source>User Session Timeout</source>
         <comment>field user_session_timeout display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="913"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="923"/>
         <source>The timeout, in seconds, for the user session. The user session logs out automatically after the specified period of inactivity. Availability: Available in iOS 14.5 and later for Shared iPad.</source>
         <comment>field user_session_timeout description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="851"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="861"/>
         <source>The model code for the device (iPhone, iPad for example).</source>
         <comment>field product description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="848"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="858"/>
         <source>iOS/tvOS Device</source>
         <comment>component IOSClient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="849"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="859"/>
         <source>Information related to iOS/tvOS devices</source>
         <comment>component IOSClient description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="853"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="863"/>
         <source>The device&apos;s model number (MC319LL, for example).</source>
         <comment>field model description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="855"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="865"/>
         <source>Floating-point percentage as a number between 0.0 and 1.0, or -1.0 if battery level cannot be determined.</source>
         <comment>field battery_level description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="857"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="867"/>
         <source>The model code for the device (iPhone3,1, for example).</source>
         <comment>field product_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="859"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="869"/>
         <source>The device&apos;s MEID number. Ignored if the device does not support CDMA.</source>
         <comment>field meid description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="861"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="871"/>
         <source>Array of strings. The first entry in this array indicates the current language. Available in iOS 7 (Apple TV software 6.0) and later, on Apple TV only.</source>
         <comment>field languages description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="863"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="873"/>
         <source>Array of strings. The first entry in this array indicates the current locale. Available in iOS 7 (Apple TV software 6.0) and later, on Apple TV only.</source>
         <comment>field locales description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="865"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="875"/>
         <source>Device ID. Availability: Available in iOS 7 (Apple TV software 6.0) and later on Apple TV only.</source>
         <comment>field apple_device_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="867"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="877"/>
         <source>The contents (if any) of a previously set OrganizationInfo setting. Available in iOS 7 and later.</source>
         <comment>field organization_info description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="869"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="879"/>
         <source>If true, the device is supervised. Availability: Available in iOS 6 and later.</source>
         <comment>field is_supervised description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="871"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="881"/>
         <source>If true, the device has a device locator service (such as Find My iPhone) enabled. Availability: Available in iOS 7 and later.</source>
         <comment>field is_device_locator_service_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="873"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="883"/>
         <source>If true, Do Not Disturb is in effect. This returns true whenever Do Not Disturb is turned on, even if the device is not currently locked. Availability: Available in iOS 7 and later.</source>
         <comment>field is_do_not_disturb_in_effect description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="875"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="885"/>
         <source>If true, the device has Activation Lock enabled.</source>
         <comment>field is_activation_lock_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="877"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="887"/>
         <source>The Device Identifier string reported to Exchange Active Sync (EAS).</source>
         <comment>field eas_device_identifier description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="879"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="889"/>
         <source>If true, the device has iCloud backup enabled. Availability: Available in iOS 7.1 and later.</source>
         <comment>field is_cloud_backup_enabled description</comment>
         <translation type="unfinished"></translation>
@@ -29444,145 +29676,145 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSPasscode</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="914"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="924"/>
         <source>iOS Passcode Settings</source>
         <comment>component IOSPasscode display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="915"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="925"/>
         <source>Passcode settings on iOS devices</source>
         <comment>component IOSPasscode description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="916"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="926"/>
         <source>Allow Simple Passcode</source>
         <comment>field allow_simple display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="917"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="927"/>
         <source>Determines whether a simple passcode is allowed. A simple passcode is defined as containing repeated characters, or increasing/decreasing characters (such as 123 or CBA). Setting this value to false is synonymous to setting minComplexChars to &quot;1&quot;</source>
         <comment>field allow_simple description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="918"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="928"/>
         <source>Force PIN</source>
         <comment>field force_pin display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="920"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="930"/>
         <source>Manual Fetching When Roaming</source>
         <comment>field manual_fetching_when_roaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="921"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="931"/>
         <source>Max. Failed Attempts</source>
         <comment>field max_failed_attempts display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="922"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="932"/>
         <source>Allowed range [2...11]. Specifies the number of allowed failed attempts to enter the passcode at the device&apos;s lock screen. Once this number is exceeded, the device is locked and must be connected to its designated iTunes in order to be unlocked</source>
         <comment>field max_failed_attempts description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="923"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="933"/>
         <source>Max. Grace Period</source>
         <comment>field max_grace_period display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="925"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="935"/>
         <source>Max. Inactivity</source>
         <comment>field max_inactivity display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="927"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="937"/>
         <source>Max. PIN Age in Days</source>
         <comment>field max_pin_age_in_days display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="929"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="939"/>
         <source>Min. Complex Chars</source>
         <comment>field min_complex_chars display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="930"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="940"/>
         <source>Specifies the minimum number of complex characters that a passcode must contain. A &quot;complex&quot; character is a character other than a number or a letter, such as &amp;%$#</source>
         <comment>field min_complex_chars description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="931"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="941"/>
         <source>Min. Length</source>
         <comment>field min_length display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="933"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="943"/>
         <source>PIN History</source>
         <comment>field pin_history display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="935"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="945"/>
         <source>Require Alphanumeric</source>
         <comment>field require_alphanumeric display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="936"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="946"/>
         <source>Specifies whether the user must enter alphabetic characters (&quot;abcd&quot;), or if numbers are sufficient</source>
         <comment>field require_alphanumeric description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="919"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="929"/>
         <source>Determines whether the user is forced to set a PIN</source>
         <comment>field force_pin description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="924"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="934"/>
         <source>The maximum grace period, in minutes, to unlock the phone without entering a passcode. Default is 0, that is no grace period, which requires a passcode immediately</source>
         <comment>field max_grace_period description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="926"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="936"/>
         <source>Specifies the number of minutes for which the device can be idle (without being unlocked by the user) before it gets locked by the system</source>
         <comment>field max_inactivity description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="928"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="938"/>
         <source>Specifies the number of days for which the passcode can remain unchanged. After this number of days, the user is forced to change the passcode before the device is unlocked</source>
         <comment>field max_pin_age_in_days description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="932"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="942"/>
         <source>Specifies the minimum overall length of the passcode. This parameter is independent of the also optional minComplexChars argument</source>
         <comment>field min_length description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="934"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="944"/>
         <source>When the user changes the passcode, it has to be unique within the last N entries in the history</source>
         <comment>field pin_history description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="937"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="947"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
@@ -29591,151 +29823,151 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSProfilePasscode</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="938"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="948"/>
         <source>iOS Profile Passcode Settings</source>
         <comment>component IOSProfilePasscode display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="939"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="949"/>
         <source>Profile Passcode settings on iOS devices</source>
         <comment>component IOSProfilePasscode description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="940"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="950"/>
         <source>Allow Simple Passcode</source>
         <comment>field allow_simple display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="941"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="951"/>
         <source>Determines whether a simple passcode is allowed. A simple passcode is defined as containing repeated characters, or increasing/decreasing characters (such as 123 or CBA). Setting this value to false is synonymous to setting minComplexChars to &quot;1&quot;</source>
         <comment>field allow_simple description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="942"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="952"/>
         <source>Force PIN</source>
         <comment>field force_pin display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="944"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="954"/>
         <source>Manual Fetching When Roaming</source>
         <comment>field manual_fetching_when_roaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="945"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="955"/>
         <source>Max. Failed Attempts</source>
         <comment>field max_failed_attempts display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="946"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="956"/>
         <source>Allowed range [2...11]. Specifies the number of allowed failed attempts to enter the passcode at the device&apos;s lock screen. Once this number is exceeded, the device is locked and must be connected to its designated iTunes in order to be unlocked</source>
         <comment>field max_failed_attempts description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="947"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="957"/>
         <source>Max. Grace Period</source>
         <comment>field max_grace_period display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="949"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="959"/>
         <source>Max. Inactivity</source>
         <comment>field max_inactivity display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="951"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="961"/>
         <source>Max. PIN Age in Days</source>
         <comment>field max_pin_age_in_days display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="953"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="963"/>
         <source>Min. Complex Chars</source>
         <comment>field min_complex_chars display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="954"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="964"/>
         <source>Specifies the minimum number of complex characters that a passcode must contain. A &quot;complex&quot; character is a character other than a number or a letter, such as &amp;%$#</source>
         <comment>field min_complex_chars description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="955"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="965"/>
         <source>Min. Length</source>
         <comment>field min_length display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="957"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="967"/>
         <source>PIN History</source>
         <comment>field pin_history display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="959"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="969"/>
         <source>Require Alphanumeric</source>
         <comment>field require_alphanumeric display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="960"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="970"/>
         <source>Specifies whether the user must enter alphabetic characters (&quot;abcd&quot;), or if numbers are sufficient</source>
         <comment>field require_alphanumeric description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="943"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="953"/>
         <source>Determines whether the user is forced to set a PIN</source>
         <comment>field force_pin description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="948"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="958"/>
         <source>The maximum grace period, in minutes, to unlock the phone without entering a passcode. Default is 0, that is no grace period, which requires a passcode immediately</source>
         <comment>field max_grace_period description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="950"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="960"/>
         <source>Specifies the number of minutes for which the device can be idle (without being unlocked by the user) before it gets locked by the system</source>
         <comment>field max_inactivity description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="952"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="962"/>
         <source>Specifies the number of days for which the passcode can remain unchanged. After this number of days, the user is forced to change the passcode before the device is unlocked</source>
         <comment>field max_pin_age_in_days description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="956"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="966"/>
         <source>Specifies the minimum overall length of the passcode. This parameter is independent of the also optional minComplexChars argument</source>
         <comment>field min_length description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="958"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="968"/>
         <source>When the user changes the passcode, it has to be unique within the last N entries in the history</source>
         <comment>field pin_history description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="961"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="971"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="962"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="972"/>
         <source>profile</source>
         <comment>field profile display name</comment>
         <translation type="unfinished"></translation>
@@ -29744,415 +29976,415 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSProfileRestrictions</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="963"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="973"/>
         <source>iOS Profile Restrictions</source>
         <comment>component IOSProfileRestrictions display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="964"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="974"/>
         <source>Profile Restrictions settings on iOS devices</source>
         <comment>component IOSProfileRestrictions description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="966"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="976"/>
         <source>When false, friends may not be added in Game Center</source>
         <comment>field allow_adding_game_center_friends description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="968"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="978"/>
         <source>When false, the App Store is disabled and its icon is removed from the Home screen. Users are unable to install or update their applications</source>
         <comment>field allow_app_installation description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="970"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="980"/>
         <source>When false, disables Siri</source>
         <comment>field allow_assistant description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="972"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="982"/>
         <source>When false, the camera is completely disabled and its icon is removed from the Home screen</source>
         <comment>field allow_camera description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="974"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="984"/>
         <source>When false, disables backing up the device to iCloud</source>
         <comment>field allow_cloud_backup description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="976"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="986"/>
         <source>When false, disables document and key-value syncing to iCloud</source>
         <comment>field allow_cloud_document_sync description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="978"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="988"/>
         <source>When false, explicit music or video content purchased from the iTunes Store is hidden. Explicit content is marked as such by content providers, such as record labels, when sold through the iTunes Store</source>
         <comment>field allow_explicit_content description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="981"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="991"/>
         <source>When false, in-app purchases are not allowed</source>
         <comment>field allow_in_app_purchases description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="983"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="993"/>
         <source>When false, the iTunes Music Store is disabled and its icon is removed from the Home screen</source>
         <comment>field allow_itunes description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="985"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="995"/>
         <source>When false, multiplayer gaming is not allowed</source>
         <comment>field allow_multiplayer_gaming description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="987"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="997"/>
         <source>When false, photo stream is not allowed</source>
         <comment>field allow_photo_stream description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="989"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="999"/>
         <source>When false, the Safari web browser application is disabled and its icon removed from the Home screen</source>
         <comment>field allow_safari description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="991"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1001"/>
         <source>When false, users are unable to save a screenshot of the display</source>
         <comment>field allow_screen_shot description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="993"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1003"/>
         <source>When false, disallows untrusted TLS certificates</source>
         <comment>field allow_untrusted_tls_prompt description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="995"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1005"/>
         <source>When false, video conferencing is not allowed</source>
         <comment>field allow_video_conferencing description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="997"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1007"/>
         <source>When false, voice dialing is not allowed</source>
         <comment>field allow_voice_dialing description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="999"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1009"/>
         <source>When false, the YouTube application is disabled and its icon is removed from the Home screen</source>
         <comment>field allow_you_tube description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1001"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1011"/>
         <source>When true, force encryption of backups when syncing with iTunes</source>
         <comment>field force_encrypted_backup description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1003"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1013"/>
         <source>When true, forces user to enter their iTunes password for each transaction</source>
         <comment>field force_itunes_store_password_entry description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1005"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1015"/>
         <source>Maximum rating allowed for apps</source>
         <comment>field rating_apps description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1007"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1017"/>
         <source>Maximum rating allowed for movies</source>
         <comment>field rating_movies description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1009"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1019"/>
         <source>Maximum rating allowed for TV shows</source>
         <comment>field rating_tv_shows description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1011"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1021"/>
         <source>Allow Safari to accept cookies</source>
         <comment>field safari_accept_cookies description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1013"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1023"/>
         <source>Allow auto completion in Safari</source>
         <comment>field safari_allow_auto_fill description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1015"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1025"/>
         <source>Allow execution of javascript in Safari</source>
         <comment>field safari_allow_java_script description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1017"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1027"/>
         <source>Allow pop-ups in Safari</source>
         <comment>field safari_allow_popups description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="965"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="975"/>
         <source>Allow Adding Game Center Friends</source>
         <comment>field allow_adding_game_center_friends display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="967"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="977"/>
         <source>Allow App Installation</source>
         <comment>field allow_app_installation display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="969"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="979"/>
         <source>Allow Assistant</source>
         <comment>field allow_assistant display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="971"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="981"/>
         <source>Allow Camera</source>
         <comment>field allow_camera display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="973"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="983"/>
         <source>Allow iCloud Backup</source>
         <comment>field allow_cloud_backup display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="975"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="985"/>
         <source>Allow iCloud Document Sync</source>
         <comment>field allow_cloud_document_sync display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="977"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="987"/>
         <source>Allow Explicit Content</source>
         <comment>field allow_explicit_content display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="979"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="989"/>
         <source>Allow Global Background Fetch when Roaming</source>
         <comment>field allow_global_background_fetch_when_roaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="980"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="990"/>
         <source>Allow In-App Purchases</source>
         <comment>field allow_in_app_purchases display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="982"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="992"/>
         <source>Allow iTunes</source>
         <comment>field allow_itunes display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="984"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="994"/>
         <source>Allow Multiplayer Gaming</source>
         <comment>field allow_multiplayer_gaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="986"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="996"/>
         <source>Allow Photo Stream</source>
         <comment>field allow_photo_stream display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="988"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="998"/>
         <source>Allow Safari</source>
         <comment>field allow_safari display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="990"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1000"/>
         <source>Allow Screenshot</source>
         <comment>field allow_screen_shot display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="992"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1002"/>
         <source>Allow Untrusted TLS Prompt</source>
         <comment>field allow_untrusted_tls_prompt display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="994"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1004"/>
         <source>Allow Video Conferencing</source>
         <comment>field allow_video_conferencing display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="996"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1006"/>
         <source>Allow Voice Dialing</source>
         <comment>field allow_voice_dialing display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="998"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1008"/>
         <source>Allow YouTube</source>
         <comment>field allow_you_tube display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1000"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1010"/>
         <source>Force Encrypted Backup</source>
         <comment>field force_encrypted_backup display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1002"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1012"/>
         <source>Force iTunes Password Entry</source>
         <comment>field force_itunes_store_password_entry display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1004"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1014"/>
         <source>Rating Apps</source>
         <comment>field rating_apps display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1006"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1016"/>
         <source>Rating Movies</source>
         <comment>field rating_movies display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1008"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1018"/>
         <source>Rating TV Shows</source>
         <comment>field rating_tv_shows display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1010"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1020"/>
         <source>Safari Accept Cookies</source>
         <comment>field safari_accept_cookies display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1012"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1022"/>
         <source>Safari Allow Auto Fill</source>
         <comment>field safari_allow_auto_fill display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1014"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1024"/>
         <source>Safari Allow Javascript</source>
         <comment>field safari_allow_java_script display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1016"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1026"/>
         <source>Safari Allow Popups</source>
         <comment>field safari_allow_popups display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1018"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1028"/>
         <source>Safari Force Fraud Warnings</source>
         <comment>field safari_force_fraud_warning display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1019"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1029"/>
         <source>Force fraud warnings in Safari</source>
         <comment>field safari_force_fraud_warning description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1020"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1030"/>
         <source>Allow Auto-Correction</source>
         <comment>field allow_auto_correction display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1021"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1031"/>
         <source>Supervised only. If set to false, disables keyboard auto-correction. Defaults to true.</source>
         <comment>field allow_auto_correction description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1022"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1032"/>
         <source>Allow Definition Lookup</source>
         <comment>field allow_definition_lookup display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1023"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1033"/>
         <source>Supervised only. If set to false, disables keyboard definition lookup. Defaults to true.</source>
         <comment>field allow_definition_lookup description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1024"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1034"/>
         <source>Allow Predictive Keyboard</source>
         <comment>field allow_predictive_keyboard display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1025"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1035"/>
         <source>Supervised only. If set to false, disables predictive keyboards. Defaults to true.</source>
         <comment>field allow_predictive_keyboard description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1026"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1036"/>
         <source>Allow Spell Check</source>
         <comment>field allow_spell_check display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1027"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1037"/>
         <source>Supervised only. If set to false, disables keyboard spell check. Defaults to true.</source>
         <comment>field allow_spell_check description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1028"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1038"/>
         <source>Allow News app</source>
         <comment>field allow_news display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1029"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1039"/>
         <source>If set to false, disables News app. Defaults to true.</source>
         <comment>field allow_news description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1030"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1040"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1031"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1041"/>
         <source>profile</source>
         <comment>field profile display name</comment>
         <translation type="unfinished"></translation>
@@ -30161,409 +30393,409 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSRestrictions</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1032"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1042"/>
         <source>iOS Restrictions</source>
         <comment>component IOSRestrictions display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1033"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1043"/>
         <source>Global Restrictions settings on iOS devices</source>
         <comment>component IOSRestrictions description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1034"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1044"/>
         <source>Allow Adding Game Center Friends</source>
         <comment>field allow_adding_game_center_friends display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1036"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1046"/>
         <source>Allow App Installation</source>
         <comment>field allow_app_installation display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1038"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1048"/>
         <source>Allow Assistant</source>
         <comment>field allow_assistant display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1040"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1050"/>
         <source>Allow Camera</source>
         <comment>field allow_camera display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1042"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1052"/>
         <source>Allow iCloud Backup</source>
         <comment>field allow_cloud_backup display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1044"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1054"/>
         <source>Allow iCloud Document Sync</source>
         <comment>field allow_cloud_document_sync display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1046"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1056"/>
         <source>Allow Explicit Content</source>
         <comment>field allow_explicit_content display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1048"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1058"/>
         <source>Allow Global Background Fetch when Roaming</source>
         <comment>field allow_global_background_fetch_when_roaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1049"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1059"/>
         <source>Allow In-App Purchases</source>
         <comment>field allow_in_app_purchases display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1051"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1061"/>
         <source>Allow iTunes</source>
         <comment>field allow_itunes display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1053"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1063"/>
         <source>Allow Multiplayer Gaming</source>
         <comment>field allow_multiplayer_gaming display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1055"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1065"/>
         <source>Allow Photo Stream</source>
         <comment>field allow_photo_stream display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1057"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1067"/>
         <source>Allow Safari</source>
         <comment>field allow_safari display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1059"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1069"/>
         <source>Allow Screenshot</source>
         <comment>field allow_screen_shot display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1061"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1071"/>
         <source>Allow Untrusted TLS Prompt</source>
         <comment>field allow_untrusted_tls_prompt display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1063"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1073"/>
         <source>Allow Video Conferencing</source>
         <comment>field allow_video_conferencing display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1065"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1075"/>
         <source>Allow Voice Dialing</source>
         <comment>field allow_voice_dialing display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1067"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1077"/>
         <source>Allow YouTube</source>
         <comment>field allow_you_tube display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1069"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1079"/>
         <source>Force Encrypted Backup</source>
         <comment>field force_encrypted_backup display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1071"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1081"/>
         <source>Force iTunes Password Entry</source>
         <comment>field force_itunes_store_password_entry display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1073"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1083"/>
         <source>Rating Apps</source>
         <comment>field rating_apps display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1075"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1085"/>
         <source>Rating Movies</source>
         <comment>field rating_movies display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1077"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1087"/>
         <source>Rating TV Shows</source>
         <comment>field rating_tv_shows display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1079"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1089"/>
         <source>Safari Accept Cookies</source>
         <comment>field safari_accept_cookies display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1081"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1091"/>
         <source>Safari Allow Auto Fill</source>
         <comment>field safari_allow_auto_fill display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1083"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1093"/>
         <source>Safari Allow Javascript</source>
         <comment>field safari_allow_java_script display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1085"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1095"/>
         <source>Safari Allow Popups</source>
         <comment>field safari_allow_popups display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1087"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1097"/>
         <source>Safari Force Fraud Warnings</source>
         <comment>field safari_force_fraud_warning display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1035"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1045"/>
         <source>When false, friends may not be added in Game Center</source>
         <comment>field allow_adding_game_center_friends description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1037"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1047"/>
         <source>When false, the App Store is disabled and its icon is removed from the Home screen. Users are unable to install or update their applications</source>
         <comment>field allow_app_installation description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1039"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1049"/>
         <source>When false, disables Siri</source>
         <comment>field allow_assistant description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1041"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1051"/>
         <source>When false, the camera is completely disabled and its icon is removed from the Home screen</source>
         <comment>field allow_camera description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1043"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1053"/>
         <source>When false, disables backing up the device to iCloud</source>
         <comment>field allow_cloud_backup description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1045"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1055"/>
         <source>When false, disables document and key-value syncing to iCloud</source>
         <comment>field allow_cloud_document_sync description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1047"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1057"/>
         <source>When false, explicit music or video content purchased from the iTunes Store is hidden. Explicit content is marked as such by content providers, such as record labels, when sold through the iTunes Store</source>
         <comment>field allow_explicit_content description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1050"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1060"/>
         <source>When false, in-app purchases are not allowed</source>
         <comment>field allow_in_app_purchases description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1052"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1062"/>
         <source>When false, the iTunes Music Store is disabled and its icon is removed from the Home screen</source>
         <comment>field allow_itunes description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1054"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1064"/>
         <source>When false, multiplayer gaming is not allowed</source>
         <comment>field allow_multiplayer_gaming description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1056"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1066"/>
         <source>When false, photo stream is not allowed</source>
         <comment>field allow_photo_stream description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1058"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1068"/>
         <source>When false, the Safari web browser application is disabled and its icon removed from the Home screen</source>
         <comment>field allow_safari description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1060"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1070"/>
         <source>When false, users are unable to save a screenshot of the display</source>
         <comment>field allow_screen_shot description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1062"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1072"/>
         <source>When false, disallows untrusted TLS certificates</source>
         <comment>field allow_untrusted_tls_prompt description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1064"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1074"/>
         <source>When false, video conferencing is not allowed</source>
         <comment>field allow_video_conferencing description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1066"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1076"/>
         <source>When false, voice dialing is not allowed</source>
         <comment>field allow_voice_dialing description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1068"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1078"/>
         <source>When false, the YouTube application is disabled and its icon is removed from the Home screen</source>
         <comment>field allow_you_tube description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1070"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1080"/>
         <source>When true, force encryption of backups when syncing with iTunes</source>
         <comment>field force_encrypted_backup description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1072"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1082"/>
         <source>When true, forces user to enter their iTunes password for each transaction</source>
         <comment>field force_itunes_store_password_entry description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1074"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1084"/>
         <source>Maximum rating allowed for apps</source>
         <comment>field rating_apps description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1076"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1086"/>
         <source>Maximum rating allowed for movies</source>
         <comment>field rating_movies description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1078"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1088"/>
         <source>Maximum rating allowed for TV shows</source>
         <comment>field rating_tv_shows description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1080"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1090"/>
         <source>Allow Safari to accept cookies</source>
         <comment>field safari_accept_cookies description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1082"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1092"/>
         <source>Allow auto completion in Safari</source>
         <comment>field safari_allow_auto_fill description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1084"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1094"/>
         <source>Allow execution of javascript in Safari</source>
         <comment>field safari_allow_java_script description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1086"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1096"/>
         <source>Allow pop-ups in Safari</source>
         <comment>field safari_allow_popups description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1088"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1098"/>
         <source>Force fraud warnings in Safari</source>
         <comment>field safari_force_fraud_warning description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1089"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1099"/>
         <source>Allow Auto-Correction</source>
         <comment>field allow_auto_correction display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1090"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1100"/>
         <source>Supervised only. If set to false, disables keyboard auto-correction. Defaults to true.</source>
         <comment>field allow_auto_correction description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1091"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1101"/>
         <source>Allow Definition Lookup</source>
         <comment>field allow_definition_lookup display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1092"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1102"/>
         <source>Supervised only. If set to false, disables keyboard definition lookup. Defaults to true.</source>
         <comment>field allow_definition_lookup description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1093"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1103"/>
         <source>Allow Predictive Keyboard</source>
         <comment>field allow_predictive_keyboard display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1094"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1104"/>
         <source>Supervised only. If set to false, disables predictive keyboards. Defaults to true.</source>
         <comment>field allow_predictive_keyboard description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1095"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1105"/>
         <source>Allow Spell Check</source>
         <comment>field allow_spell_check display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1096"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1106"/>
         <source>Supervised only. If set to false, disables keyboard spell check. Defaults to true.</source>
         <comment>field allow_spell_check description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1097"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1107"/>
         <source>Allow News app</source>
         <comment>field allow_news display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1098"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1108"/>
         <source>If set to false, disables News app. Defaults to true.</source>
         <comment>field allow_news description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1099"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1109"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
@@ -30572,391 +30804,391 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSSecurity</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1102"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1112"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1103"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1113"/>
         <source>Hardware Encryption Capabilities</source>
         <comment>field hardware_encryption_caps display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1104"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1114"/>
         <source>Bitfield. Describes the underlying hardware encryption capabilities of the device. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field hardware_encryption_caps description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1105"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1115"/>
         <source>Passcode Present</source>
         <comment>field passcode_present display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1106"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1116"/>
         <source>Set to true if the device is protected by a passcode. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field passcode_present description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1107"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1117"/>
         <source>Passcode Is Compliant</source>
         <comment>field passcode_is_compliant display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1108"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1118"/>
         <source>Set to true if the user&apos;s passcode is compliant with all requirements on the device, including Exchange and other accounts. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field passcode_is_compliant description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1109"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1119"/>
         <source>Passcode Is Compliant with Profiles</source>
         <comment>field passcode_is_compliant_with_profiles display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1110"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1120"/>
         <source>Set to true if the user&apos;s passcode is compliant with requirements from profiles. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field passcode_is_compliant_with_profiles description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1111"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1121"/>
         <source>Passcode Lock Grace period</source>
         <comment>field passcode_lock_grace_period display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1112"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1122"/>
         <source>Grace Period after which the passcode will be asked again on the lock screen. Availability: Available for Shared iPad only.</source>
         <comment>field passcode_lock_grace_period description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1114"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1124"/>
         <source>Grace Period after which the passcode will be asked again on the lock screen. Availability: Available for Shared iPad only.</source>
         <comment>field passcode_lock_grace_period_enforced description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1118"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1128"/>
         <source>Whether Full Disk Encryption (FDE) is enabled or not. Availability: Available in macOS 10.9 and later.</source>
         <comment>field fde_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1122"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1132"/>
         <source>If FDE has been enabled, returns whether a personal recovery key has been set. Availability: Available in macOS 10.9 and later.</source>
         <comment>field fde_has_personal_recovery_key description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1124"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1134"/>
         <source>If FDE has been enabled, returns whether an institutional recovery key has been set. Availability: Available in macOS 10.9 and later.</source>
         <comment>field fde_has_institutional_recovery_key description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1126"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1136"/>
         <source>Displayed to the user in the EFI login window as part of the help message if the user enters an incorrect password three times. Availability: Available in macOS 10.13 and later.</source>
         <comment>field fde_personal_recovery_key_device_key description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1130"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1140"/>
         <source>Whether System Integrity Protection is enabled on the device. Availability: Available in macOS 10.12 and later.</source>
         <comment>field system_integrity_protection_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1132"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1142"/>
         <source>Whether an EFI firmware password is set or not. Availability: Available in macOS 10.13 and later.</source>
         <comment>field firmware_password_exists description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1134"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1144"/>
         <source>If true, a firmware password change is pending and the device requires rebooting. Availability: Available in macOS 10.13 and later.</source>
         <comment>field firmware_password_change_pending description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1136"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1146"/>
         <source>Whether or not option ROMs are enabled. Availability: Available in macOS 10.13 and later.</source>
         <comment>field firmware_password_rom_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1138"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1148"/>
         <source>Set to true if the device was enrolled in MDM during DEP. Availability: Available in macOS 10.13.2 and later.</source>
         <comment>field enrolled_via_dep description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1140"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1150"/>
         <source>Set to true if the enrollment was &apos;user approved&apos;. Availability: Available in macOS 10.13.2 and later.</source>
         <comment>field user_approved_enrollment description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1142"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1152"/>
         <source>Set to true if there is user enrollment. Availability: Available in iOS 13 and later, and macOS 10.15 and later.</source>
         <comment>field is_user_enrollment description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1144"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1154"/>
         <source>Set to true if activation lock is manageable. Availability: Available in macOS 10.15 and later.</source>
         <comment>field is_activation_lock_manageable description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1146"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1156"/>
         <source>Set to true if remote desktop is enabled. Availability: Available in macOS 10.14.4 and later.</source>
         <comment>field remote_desktop_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1148"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1158"/>
         <source>External Boot Level. Possible values are: allowed, disallowed, not supported. Availability: Available in macOS 10.15 and later.</source>
         <comment>field external_boot_level description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1150"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1160"/>
         <source>Secure Boot Level: Possible values are: off, medium, full, not supported. Availability: Available in macOS 10.15 and later.</source>
         <comment>field secure_boot_level description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1151"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1161"/>
         <source>Authenticated Root Volume Enabled</source>
         <comment>field authenticated_root_volume_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1152"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1162"/>
         <source>If true, the system booted using an Authenticated Root Volume. Availability: Available in macOS 11 and later.</source>
         <comment>field authenticated_root_volume_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1153"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1163"/>
         <source>Bootstrap Token Allowed For Authentication</source>
         <comment>field bootstrap_token_allowed_for_authentication display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1154"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1164"/>
         <source>This value specifies whether the Secure Enclave Processor (SEP) supports and allows secure operations to use the Bootstrap Token. Possible values are: allowed, disallowed, not supported. Availability: Available for Apple silicon in macOS 11 and later.</source>
         <comment>field bootstrap_token_allowed_for_authentication description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1155"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1165"/>
         <source>Bootstrap Token Required For Kernel Extension Approval</source>
         <comment>field bootstrap_token_required_for_kernel_extension_approval display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1156"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1166"/>
         <source>If true, the device can accept a Bootstrap Token from the MDM server instead of prompting for user authentication prior to enabling kernel extensions. Availability: Available for Apple silicon in macOS 11 and later.</source>
         <comment>field bootstrap_token_required_for_kernel_extension_approval description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1157"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1167"/>
         <source>Bootstrap Token Required For Software Update</source>
         <comment>field bootstrap_token_required_for_software_update display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1158"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1168"/>
         <source>If true, the device can accept a Bootstrap Token from the MDM server instead of prompting for user authentication prior to installation. Availability: Available for Apple silicon in macOS 11 and later.</source>
         <comment>field bootstrap_token_required_for_software_update description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1159"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1169"/>
         <source>Allows Any Apple Signed OS</source>
         <comment>field allows_any_apple_signed_os display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1160"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1170"/>
         <source>If true, allows any signed version of trusted system software from Apple to run. Availability: Available for Apple silicon when Secure Boot Level is medium in macOS 11 and later.</source>
         <comment>field allows_any_apple_signed_os description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1161"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1171"/>
         <source>Allows MDM</source>
         <comment>field allows_mdm display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1162"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1172"/>
         <source>If true, the MDM server controls kernel extensions and software updates. Availability: Available for Apple silicon when Secure Boot Level is medium in macOS 11 and later.</source>
         <comment>field allows_mdm description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1163"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1173"/>
         <source>Allows User Kext Approval</source>
         <comment>field allows_user_kext_approval display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1164"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1174"/>
         <source>If true, the user has control over kernel extensions. Availability: Available for Apple silicon when Secure Boot Level is medium in macOS 11 and later.</source>
         <comment>field allows_user_kext_approval description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1113"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1123"/>
         <source>Passcode Lock Grace period, enforce</source>
         <comment>field passcode_lock_grace_period_enforced display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1115"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1125"/>
         <source>FDE Support</source>
         <comment>field fde_support display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1116"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1126"/>
         <source>FDE Support: FDE not supported, FDE supported, FDE supported but not manageable</source>
         <comment>field fde_support description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1117"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1127"/>
         <source>FDE Is Enabled</source>
         <comment>field fde_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1119"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1129"/>
         <source>Authenticated restart supported</source>
         <comment>field fde_auth_restart_supported display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1120"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1130"/>
         <source>When supported, reboot fileset can optionally use authenticated reboot (i.e. the next reboot after deployment will unlock disk encryption).</source>
         <comment>field fde_auth_restart_supported description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1121"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1131"/>
         <source>FDE Has Personal Recovery Key</source>
         <comment>field fde_has_personal_recovery_key display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1123"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1133"/>
         <source>FDE Has Institutional Recovery Key</source>
         <comment>field fde_has_institutional_recovery_key display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1125"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1135"/>
         <source>FDE Personal Recovery Key Hint Message</source>
         <comment>field fde_personal_recovery_key_device_key display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1127"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1137"/>
         <source>Has FileWave recovery key</source>
         <comment>field fde_filewave_recovery_key display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1128"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1138"/>
         <source>FileWave recovery key: None, Personal, Institutional, Both</source>
         <comment>field fde_filewave_recovery_key description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1129"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1139"/>
         <source>System Integrity Protection Is Enabled</source>
         <comment>field system_integrity_protection_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1131"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1141"/>
         <source>Has Firmware Password</source>
         <comment>field firmware_password_exists display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1133"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1143"/>
         <source>Needs Reboot For Password Change</source>
         <comment>field firmware_password_change_pending display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1135"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1145"/>
         <source>Firmware ROMs Option Is Enabled</source>
         <comment>field firmware_password_rom_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1137"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1147"/>
         <source>Enrolled via DEP</source>
         <comment>field enrolled_via_dep display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1139"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1149"/>
         <source>Enrollment Approved By User</source>
         <comment>field user_approved_enrollment display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1141"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1151"/>
         <source>Is User Enrollment</source>
         <comment>field is_user_enrollment display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1143"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1153"/>
         <source>Is Activation Lock Manageable</source>
         <comment>field is_activation_lock_manageable display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1145"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1155"/>
         <source>Remote Desktop Enabled</source>
         <comment>field remote_desktop_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1147"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1157"/>
         <source>External Boot Level</source>
         <comment>field external_boot_level display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1149"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1159"/>
         <source>Secure Boot Level</source>
         <comment>field secure_boot_level display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1100"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1110"/>
         <source>Security Settings</source>
         <comment>component IOSSecurity display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1101"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1111"/>
         <source>Security settings on iOS and macOS devices</source>
         <comment>component IOSSecurity description</comment>
         <translation type="unfinished"></translation>
@@ -30965,73 +31197,73 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIOSUser</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1165"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1175"/>
         <source>iOS User</source>
         <comment>component IOSUser display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1166"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1176"/>
         <source>A user on a shared iPad.</source>
         <comment>component IOSUser description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1167"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1177"/>
         <source>iosclient</source>
         <comment>field iosclient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1168"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1178"/>
         <source>User Name</source>
         <comment>field user_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1169"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1179"/>
         <source>Is Logged In</source>
         <comment>field is_logged_in display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1170"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1180"/>
         <source>Whether the user is currently logged in the device.</source>
         <comment>field is_logged_in description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1171"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1181"/>
         <source>Has Data to Synchronize</source>
         <comment>field has_data_to_sync display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1172"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1182"/>
         <source>Whether the user has pending data that needs to be synchronized with the cloud.</source>
         <comment>field has_data_to_sync description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1173"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1183"/>
         <source>Data Quota</source>
         <comment>field data_quota display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1184"/>
         <source>Data quota set for the user in bytes.</source>
         <comment>field data_quota description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1175"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1185"/>
         <source>Data Used</source>
         <comment>field data_used display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1176"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1186"/>
         <source>Amount of data used by the user in bytes.</source>
         <comment>field data_used description</comment>
         <translation type="unfinished"></translation>
@@ -31040,172 +31272,229 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIIdentityProvider</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1177"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1187"/>
         <source>FileWave Identity Providers</source>
         <comment>component IdentityProvider display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1178"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1188"/>
         <source>Name</source>
         <comment>field name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1179"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1189"/>
         <source>The identity provider&apos;s name.</source>
         <comment>field name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1180"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1190"/>
         <source>Client ID</source>
         <comment>field client_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1181"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1191"/>
         <source>The client id of the Configured application in IDP.</source>
         <comment>field client_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1182"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1192"/>
         <source>Client Secret</source>
         <comment>field client_secret display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1183"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1193"/>
         <source>The configured secret between IDP and Client.</source>
         <comment>field client_secret description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1184"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1194"/>
         <source>Open ID Connect Configuration</source>
         <comment>field oidc_configuration display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1185"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1195"/>
         <source>Open ID Connect Configuration.</source>
         <comment>field oidc_configuration description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1186"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1196"/>
         <source>API Token</source>
         <comment>field api_token display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1187"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1197"/>
         <source>A token which is needed to call IDP api endpoints.</source>
         <comment>field api_token description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1188"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1198"/>
         <source>Identity Provider Type</source>
         <comment>field idp_type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1189"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1199"/>
         <source>Identity Provider Type.</source>
         <comment>field idp_type description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1190"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1200"/>
         <source>Is Used For Admin Authentication</source>
         <comment>field is_used_for_admin_auth display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1191"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1201"/>
         <source>IDP can be used for admin authentication.</source>
         <comment>field is_used_for_admin_auth description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1192"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1202"/>
         <source>Is Used For Device Enrollment</source>
         <comment>field is_used_for_device_enrollment display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1193"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1203"/>
         <source>IDP can be used for authenticating the user during device enrollment.</source>
         <comment>field is_used_for_device_enrollment description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1194"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1204"/>
         <source>Domain</source>
         <comment>field domain display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1195"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1205"/>
         <source>The domain of the IDP account.</source>
         <comment>field domain description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1196"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1206"/>
         <source>Use Default OIDC Configuration</source>
         <comment>field is_default_oidc_configuration_used display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1197"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1207"/>
         <source>Fill OIDC configuration with default value.</source>
         <comment>field is_default_oidc_configuration_used description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1208"/>
+        <source>Data used to sync group membership</source>
+        <comment>field sync_data display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FWIIdentityProviderGroup</name>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1209"/>
+        <source>Identity Provider Groups for smart groups</source>
+        <comment>component IdentityProviderGroup display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1210"/>
+        <source>FileWave Identity Provider Groups (only those used in for smart groups are represented)</source>
+        <comment>component IdentityProviderGroup description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1211"/>
+        <source>identity provider</source>
+        <comment>field identity_provider display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1212"/>
+        <source>IDP group id</source>
+        <comment>field idp_group_id display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1213"/>
+        <source>Group Name</source>
+        <comment>field name display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1214"/>
+        <source>Name of the group for IDP account.</source>
+        <comment>field name description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1215"/>
+        <source>sub group ids</source>
+        <comment>field sub_group_ids display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1216"/>
+        <source>members</source>
+        <comment>field members display name</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FWILicenseDefinition</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1198"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1217"/>
         <source>Software License Definitions</source>
         <comment>component LicenseDefinition display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1199"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1218"/>
         <source>Query</source>
         <comment>field query display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1200"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1219"/>
         <source>Watermark</source>
         <comment>field watermark display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1201"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1220"/>
         <source>Name</source>
         <comment>field name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1202"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1221"/>
         <source>Artwork URL</source>
         <comment>field artwork_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1204"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1223"/>
         <source>organization asset</source>
         <comment>field organization_asset display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1203"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1222"/>
         <source>organization license</source>
         <comment>field organization_license display name</comment>
         <translation type="unfinished"></translation>
@@ -31214,55 +31503,55 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWILicensePurchaseOrder</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1205"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1224"/>
         <source>License Purchase Order</source>
         <comment>component LicensePurchaseOrder display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1206"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1225"/>
         <source>license</source>
         <comment>field license display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1207"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1226"/>
         <source>PO Number</source>
         <comment>field number display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1208"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1227"/>
         <source>License Count</source>
         <comment>field count display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1209"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1228"/>
         <source>Purchase Date</source>
         <comment>field purchase_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1210"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1229"/>
         <source>Expiration Date</source>
         <comment>field expiration_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1211"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1230"/>
         <source>Owner Name</source>
         <comment>field owner_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1212"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1231"/>
         <source>Owner E-Mail</source>
         <comment>field owner_email display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1213"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1232"/>
         <source>Comments</source>
         <comment>field comments display name</comment>
         <translation type="unfinished"></translation>
@@ -31271,133 +31560,133 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIMacOSClient</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1214"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1233"/>
         <source>MacOS Device</source>
         <comment>component MacOSClient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1215"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1234"/>
         <source>Information specific to macOS devices</source>
         <comment>component MacOSClient description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1216"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1235"/>
         <source>Software Update managed by MDM</source>
         <comment>field su_via_mdm display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1217"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1236"/>
         <source>Defines whether Software Update should be managed by MDM</source>
         <comment>field su_via_mdm description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1218"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1237"/>
         <source>Supports lights-out management (LOM)</source>
         <comment>field supports_lom_device display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1219"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1238"/>
         <source>Whether the device can receive PowerON, PowerOFF, and Reset commands from a lights-out management (LOM) controller. Availability: Available in macOS 11 and later.</source>
         <comment>field supports_lom_device description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1220"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1239"/>
         <source>PIN required for device lock</source>
         <comment>field requires_pin_for_device_lock display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1221"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1240"/>
         <source>Whether the DeviceLockCommand requires a PIN. Availability: Available in macOS 11 and later.</source>
         <comment>field requires_pin_for_device_lock description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1222"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1241"/>
         <source>PIN required for erasing device</source>
         <comment>field requires_pin_for_erasing_device display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1223"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1242"/>
         <source>Whether the EraseDeviceCommand requires a PIN. Availability: Available in macOS 11 and later.</source>
         <comment>field requires_pin_for_erasing_device description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1224"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1243"/>
         <source>Is MDM enrolled from server perspective</source>
         <comment>field is_mdm_enrolled_from_server_perspective display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1225"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1244"/>
         <source>Whether server considers the device as MDM enrolled.</source>
         <comment>field is_mdm_enrolled_from_server_perspective description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1245"/>
         <source>Is MDM enrolled from device perspective</source>
         <comment>field is_mdm_enrolled_from_device_perspective display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1227"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1246"/>
         <source>Whether the device considers itself MDM enrolled.</source>
         <comment>field is_mdm_enrolled_from_device_perspective description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1228"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1247"/>
         <source>MDM enrollment state</source>
         <comment>field mdm_enrollment_state display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1229"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1248"/>
         <source>Is the device considered MDM enrolled locally, on the server, both, or neither. Undefined for clients &lt; 14.3.0 or if there is no report from client yet.</source>
         <comment>field mdm_enrollment_state description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1230"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1249"/>
         <source>Supports iOS app installs</source>
         <comment>field supports_ios_app_installs display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1231"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1250"/>
         <source>Whether the device supports app installs on iOS. Availability: Available in macOS 11 and later.</source>
         <comment>field supports_ios_app_installs description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1232"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1251"/>
         <source>Local Host Name</source>
         <comment>field local_host_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1233"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1252"/>
         <source>The local host name from Bonjour. Availability: Available in macOS 10.11 and later.</source>
         <comment>field local_host_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1234"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1253"/>
         <source>Host Name</source>
         <comment>field host_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1235"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1254"/>
         <source>The host name. Availability: Available in macOS 10.11 and later.</source>
         <comment>field host_name description</comment>
         <translation type="unfinished"></translation>
@@ -31406,13 +31695,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIMobileClient</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1236"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1255"/>
         <source>Mobile Device</source>
         <comment>component MobileClient display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1237"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1256"/>
         <source>Information related to Mobile (iOS / Android) devices</source>
         <comment>component MobileClient description</comment>
         <translation type="unfinished"></translation>
@@ -31421,43 +31710,43 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWINetworkAddress</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1238"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1257"/>
         <source>Network IP Address</source>
         <comment>component NetworkAddress display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1239"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1258"/>
         <source>IP (v4 and v6) addresses of devices</source>
         <comment>component NetworkAddress description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1240"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1259"/>
         <source>network interface</source>
         <comment>field network_interface display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1241"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1260"/>
         <source>IP Address</source>
         <comment>field ip_address display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1243"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1262"/>
         <source>IP Version</source>
         <comment>field ip_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1242"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1261"/>
         <source>IP address, can be an IP v4 or v6</source>
         <comment>field ip_address description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1244"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1263"/>
         <source>Version of the IP address in use (4 or 6)</source>
         <comment>field ip_version description</comment>
         <translation type="unfinished"></translation>
@@ -31466,67 +31755,67 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWINetworkInterface</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1245"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1264"/>
         <source>Network Interface</source>
         <comment>component NetworkInterface display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1246"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1265"/>
         <source>Device network interface information (including network name)</source>
         <comment>component NetworkInterface description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1247"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1266"/>
         <source>client</source>
         <comment>field client display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1248"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1267"/>
         <source>Interface Name</source>
         <comment>field interface_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1250"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1269"/>
         <source>MAC Address</source>
         <comment>field mac_address display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1251"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1270"/>
         <source>MAC address</source>
         <comment>field mac_address description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1252"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1271"/>
         <source>Network Name</source>
         <comment>field network_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1254"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1273"/>
         <source>Is Current</source>
         <comment>field current display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1249"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1268"/>
         <source>The name of the interface</source>
         <comment>field interface_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1253"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1272"/>
         <source>The name of the network that interface is connected to. It applies to WLan and Ethernet networks</source>
         <comment>field network_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1255"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1274"/>
         <source>Tells if the interface is the current interface used by the computer to connect to a network.</source>
         <comment>field current description</comment>
         <translation type="unfinished"></translation>
@@ -31535,109 +31824,133 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIOperatingSystem</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1256"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1275"/>
         <source>Operating System</source>
         <comment>component OperatingSystem display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1257"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1276"/>
         <source>Device operating system, including edition, version and build.</source>
         <comment>component OperatingSystem description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1258"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1277"/>
         <source>OS Name</source>
         <comment>field name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1259"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1278"/>
         <source>Commercial operating system name (ie. macOS Mountain Lion, Windows 8).</source>
         <comment>field name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1260"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1279"/>
         <source>OS Type</source>
         <comment>field type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1262"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1281"/>
         <source>Version</source>
         <comment>field version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1263"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1282"/>
         <source>The version of the operating system, usually 3 dot separated-numbers (ie. 6.2.9200 for Win 8, 10.8.2 for macOS Mountain Lion).</source>
         <comment>field version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1264"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1283"/>
         <source>Version Major</source>
         <comment>field version_major display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1265"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1284"/>
         <source>The major version number.</source>
         <comment>field version_major description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1266"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1285"/>
         <source>Version Minor</source>
         <comment>field version_minor display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1267"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1286"/>
         <source>The minor version number.</source>
         <comment>field version_minor description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1268"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1287"/>
         <source>Version Patch</source>
         <comment>field version_patch display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1269"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1288"/>
         <source>The patch version number.</source>
         <comment>field version_patch description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1270"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1289"/>
         <source>Build</source>
         <comment>field build display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1272"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1291"/>
         <source>Edition</source>
         <comment>field edition display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1273"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1292"/>
         <source>The edition of the operating system. On macOS it is either &quot;Desktop&quot; or &quot;Server&quot;. On Windows it can be &quot;Enterprise&quot;, &quot;Ultimate&quot;, &quot;Professional&quot; and so on.</source>
         <comment>field edition description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1261"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1293"/>
+        <source>Windows Version</source>
+        <comment>field windows_version display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1294"/>
+        <source>The version of the Windows operating system, usually 2 dot separated-numbers.</source>
+        <comment>field windows_version description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1295"/>
+        <source>Windows Edition</source>
+        <comment>field windows_edition display name</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1296"/>
+        <source>The edition of the Windows operating system.</source>
+        <comment>field windows_edition description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1280"/>
         <source>A programmatic type for the operating system (ie. Windows, iOS).</source>
         <comment>field type description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1271"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1290"/>
         <source>The build number. Represents a Service Pack on Windows.</source>
         <comment>field build description</comment>
         <translation type="unfinished"></translation>
@@ -31646,199 +31959,199 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIOrganization</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1274"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1297"/>
         <source>VPP Organization</source>
         <comment>component Organization display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1275"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1298"/>
         <source>Information related to VPP token</source>
         <comment>component Organization description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1276"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1299"/>
         <source> token</source>
         <comment>field _token display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1277"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1300"/>
         <source>The Apple VPPv2 sToken [internal].</source>
         <comment>field _token description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1278"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1301"/>
         <source>Name</source>
         <comment>field name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1280"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1303"/>
         <source>Expiration Date</source>
         <comment>field expiration_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1282"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1305"/>
         <source>Since Modified Token for Users</source>
         <comment>field since_modified_token_for_users display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1284"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1307"/>
         <source>Last Sync Date for Users</source>
         <comment>field last_sync_date_for_users display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1286"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1309"/>
         <source>Since Modified Token for Licenses</source>
         <comment>field since_modified_token_for_licenses display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1288"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1311"/>
         <source>Last Sync Date for Licenses</source>
         <comment>field last_sync_date_for_licenses display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1290"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1313"/>
         <source>Last Sync Date for Assets</source>
         <comment>field last_sync_date_for_assets display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1291"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1314"/>
         <source>The date and time of the last assets synchronization.</source>
         <comment>field last_sync_date_for_assets description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1292"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1315"/>
         <source>Token Name</source>
         <comment>field token_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1294"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1317"/>
         <source>Department</source>
         <comment>field department display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1296"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1319"/>
         <source>Owner Name</source>
         <comment>field owner_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1298"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1321"/>
         <source>Owner Email</source>
         <comment>field owner_email display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1300"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1323"/>
         <source>Auto Create Fileset Group</source>
         <comment>field auto_create_fileset_group display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1301"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1324"/>
         <source>FileWave group id where filesets will be created [internal].</source>
         <comment>field auto_create_fileset_group description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1302"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1325"/>
         <source>Locale</source>
         <comment>field locale display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1303"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1326"/>
         <source>Corresponding iTunes store Locale code (language_COUNTRY).</source>
         <comment>field locale description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1304"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1327"/>
         <source>Apple Organization Id Hash (internal)</source>
         <comment>field organization_id_hash display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1305"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1328"/>
         <source>Internal to Apple identifier hash for organizations.</source>
         <comment>field organization_id_hash description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1306"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1329"/>
         <source>filewave admins</source>
         <comment>field filewave_admins display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1279"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1302"/>
         <source>The organization name.</source>
         <comment>field name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1281"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1304"/>
         <source>The expiration date of the organization.</source>
         <comment>field expiration_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1283"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1306"/>
         <source>The last sinceModifiedToken value for users.</source>
         <comment>field since_modified_token_for_users description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1285"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1308"/>
         <source>The date and time of the last users synchronization.</source>
         <comment>field last_sync_date_for_users description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1287"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1310"/>
         <source>The last sinceModifiedToken value for licenses.</source>
         <comment>field since_modified_token_for_licenses description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1289"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1312"/>
         <source>The date and time of the last licenses synchronization.</source>
         <comment>field last_sync_date_for_licenses description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1293"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1316"/>
         <source>Name of the token - identifier inside FileWave.</source>
         <comment>field token_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1295"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1318"/>
         <source>Department or Area using the token (optional).</source>
         <comment>field department description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1297"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1320"/>
         <source>Name of the token owner (optional).</source>
         <comment>field owner_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1299"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1322"/>
         <source>Email of the token owner (optional).</source>
         <comment>field owner_email description</comment>
         <translation type="unfinished"></translation>
@@ -31847,487 +32160,487 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIOrganizationAsset</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1307"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1330"/>
         <source>VPP Asset</source>
         <comment>component OrganizationAsset display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1308"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1331"/>
         <source>Information related to VPP item - Apps, books...</source>
         <comment>component OrganizationAsset description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1309"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1332"/>
         <source>iTunes App or Book Identifier</source>
         <comment>field itunes_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1310"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1333"/>
         <source>iTunes app or book id.</source>
         <comment>field itunes_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1311"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1334"/>
         <source>Product Name</source>
         <comment>field app_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1312"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1335"/>
         <source>Name of the product. Fetched from iTunes.</source>
         <comment>field app_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1313"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1336"/>
         <source>Product Version</source>
         <comment>field version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1314"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1337"/>
         <source>Version of the product. Fetched from iTunes.</source>
         <comment>field version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1315"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1338"/>
         <source>Developer</source>
         <comment>field developer display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1316"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1339"/>
         <source>Developer of the product. Fetched from iTunes.</source>
         <comment>field developer description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1317"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1340"/>
         <source>iTunes URL</source>
         <comment>field itunes_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1318"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1341"/>
         <source>URL for that app/book on iTunes.</source>
         <comment>field itunes_url description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1319"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1342"/>
         <source>Artwork URL</source>
         <comment>field artwork_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1320"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1343"/>
         <source>Url for the artwork (icon). Fetched from iTunes.</source>
         <comment>field artwork_url description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1321"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1344"/>
         <source>Category</source>
         <comment>field category display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1322"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1345"/>
         <source>Category of the product. Fetched from iTunes.</source>
         <comment>field category description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1323"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1346"/>
         <source>Release Date</source>
         <comment>field release_update_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1324"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1347"/>
         <source>Release date of the product. Fetched from iTunes.</source>
         <comment>field release_update_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1325"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1348"/>
         <source>Bundle Identifier</source>
         <comment>field bundle_identifier display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1326"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1349"/>
         <source>Bundle identifier of the product. Fetched from iTunes.</source>
         <comment>field bundle_identifier description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1327"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1350"/>
         <source>Bundle Size</source>
         <comment>field bundle_size display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1328"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1351"/>
         <source>Bundle size of the product. Fetched from iTunes.</source>
         <comment>field bundle_size description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1329"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1352"/>
         <source>Languages</source>
         <comment>field languages display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1330"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1353"/>
         <source>Available languages of the product. Fetched from iTunes.</source>
         <comment>field languages description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1331"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1354"/>
         <source>iPod Screeshots</source>
         <comment>field ipod_screenshots display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1332"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1355"/>
         <source>List of screenshots for iPod/iPhone.</source>
         <comment>field ipod_screenshots description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1333"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1356"/>
         <source>iPad Screeshots</source>
         <comment>field ipad_screenshots display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1334"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1357"/>
         <source>List of screenshots for iPad.</source>
         <comment>field ipad_screenshots description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1335"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1358"/>
         <source>iTunes Lookup Locale</source>
         <comment>field itunes_lookup_locale display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1336"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1359"/>
         <source>Locale used for iTunes lookup.</source>
         <comment>field itunes_lookup_locale description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1337"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1360"/>
         <source>Price</source>
         <comment>field price display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1338"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1361"/>
         <source>The price of the app.</source>
         <comment>field price description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1339"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1362"/>
         <source>Currency</source>
         <comment>field currency display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1340"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1363"/>
         <source>The currency of the price.</source>
         <comment>field currency description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1341"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1364"/>
         <source>Formatted Price</source>
         <comment>field formatted_price display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1342"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1365"/>
         <source>The formatted price of the app.</source>
         <comment>field formatted_price description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1343"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1366"/>
         <source>Platform</source>
         <comment>field platform display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1344"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1367"/>
         <source>The platform this license is for (iOS, OSX, Universal) or Book).</source>
         <comment>field platform description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1345"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1368"/>
         <source>Average User Rating</source>
         <comment>field average_user_rating display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1346"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1369"/>
         <source>Overall average user rating.</source>
         <comment>field average_user_rating description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1347"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1370"/>
         <source>Average User Rating for Current Version</source>
         <comment>field average_user_rating_for_current_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1348"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1371"/>
         <source>Current version average user rating.</source>
         <comment>field average_user_rating_for_current_version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1349"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1372"/>
         <source>Content Advisory Rating</source>
         <comment>field content_advisory_rating display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1350"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1373"/>
         <source>Content Advisory Rating.</source>
         <comment>field content_advisory_rating description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1351"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1374"/>
         <source>Current Version Release Date</source>
         <comment>field current_version_release_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1352"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1375"/>
         <source>Release date of the current version. Fetched from iTunes.</source>
         <comment>field current_version_release_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1353"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1376"/>
         <source>Game Center Enabled</source>
         <comment>field is_game_center_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1354"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1377"/>
         <source>True if the app uses Game Center.</source>
         <comment>field is_game_center_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1355"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1378"/>
         <source>VPP Device-Based License Enabled</source>
         <comment>field is_vpp_device_based_licensing_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1356"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1379"/>
         <source>True if the app developer allows device based vpp licensing,</source>
         <comment>field is_vpp_device_based_licensing_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1357"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1380"/>
         <source>Minimum OS Version</source>
         <comment>field minimum_os_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1358"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1381"/>
         <source>Minimum required os version.</source>
         <comment>field minimum_os_version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1359"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1382"/>
         <source>Supported devices</source>
         <comment>field supported_devices display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1360"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1383"/>
         <source>List of supported devices (Apple naming).</source>
         <comment>field supported_devices description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1361"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1384"/>
         <source>Removed from App Store</source>
         <comment>field removed_from_app_store display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1362"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1385"/>
         <source>If true, the item is not in iTunes (nor in VPP, if it applies) any more.</source>
         <comment>field removed_from_app_store description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1363"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1386"/>
         <source>Required capabilities</source>
         <comment>field required_capabilities display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1364"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1387"/>
         <source>The hardware this app is for.</source>
         <comment>field required_capabilities description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1365"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1388"/>
         <source>iTunes App Identifier</source>
         <comment>field adamIdStr display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1366"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1389"/>
         <source>The iTunes App identifier.</source>
         <comment>field adamIdStr description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1367"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1390"/>
         <source>Pricing Parameter</source>
         <comment>field pricingParam display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1368"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1391"/>
         <source>The pricing parameter.</source>
         <comment>field pricingParam description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1369"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1392"/>
         <source>Assigned Count</source>
         <comment>field assignedCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1370"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1393"/>
         <source>How many licenses have been assigned to users or devices.</source>
         <comment>field assignedCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1371"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1394"/>
         <source>Available Count</source>
         <comment>field availableCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1372"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1395"/>
         <source>How many licenses are available for assignment.</source>
         <comment>field availableCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1373"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1396"/>
         <source>Device Assignable Flag</source>
         <comment>field deviceAssignable display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1374"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1397"/>
         <source>If set, the asset can be assigned to device.</source>
         <comment>field deviceAssignable description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1375"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1398"/>
         <source>License Irrevocable Flag</source>
         <comment>field isIrrevocable display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1376"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1399"/>
         <source>If set, the license can&apos;t be revoked.</source>
         <comment>field isIrrevocable description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1377"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1400"/>
         <source>Product Type Identifier</source>
         <comment>field productTypeId display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1378"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1401"/>
         <source>The product type identifier.</source>
         <comment>field productTypeId description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1379"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1402"/>
         <source>Product Type Name</source>
         <comment>field productTypeName display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1380"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1403"/>
         <source>The product type name.</source>
         <comment>field productTypeName description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1381"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1404"/>
         <source>Total Count</source>
         <comment>field totalCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1382"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1405"/>
         <source>Total number of licenses.</source>
         <comment>field totalCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1383"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1406"/>
         <source>Retired Count</source>
         <comment>field retiredCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1384"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1407"/>
         <source>How many licenses have been retired</source>
         <comment>field retiredCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1385"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1408"/>
         <source>organization</source>
         <comment>field organization display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1386"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1409"/>
         <source>Since Modified Token for License</source>
         <comment>field since_modified_token_for_license display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1387"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1410"/>
         <source>The last sinceModifiedToken value for licenses.</source>
         <comment>field since_modified_token_for_license description</comment>
         <translation type="unfinished"></translation>
@@ -32336,565 +32649,565 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIOrganizationLicense</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1388"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1411"/>
         <source>VPP License</source>
         <comment>component OrganizationLicense display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1414"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1437"/>
         <source>iTunes app or book id.</source>
         <comment>field itunes_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1416"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1439"/>
         <source>Name of the product. Fetched from iTunes.</source>
         <comment>field app_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1418"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1441"/>
         <source>Version of the product. Fetched from iTunes.</source>
         <comment>field version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1420"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1443"/>
         <source>Developer of the product. Fetched from iTunes.</source>
         <comment>field developer description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1422"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1445"/>
         <source>URL for that app/book on iTunes.</source>
         <comment>field itunes_url description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1424"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1447"/>
         <source>Url for the artwork (icon). Fetched from iTunes.</source>
         <comment>field artwork_url description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1426"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1449"/>
         <source>Category of the product. Fetched from iTunes.</source>
         <comment>field category description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1428"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1451"/>
         <source>Release date of the product. Fetched from iTunes.</source>
         <comment>field release_update_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1430"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1453"/>
         <source>Bundle identifier of the product. Fetched from iTunes.</source>
         <comment>field bundle_identifier description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1432"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1455"/>
         <source>Bundle size of the product. Fetched from iTunes.</source>
         <comment>field bundle_size description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1434"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1457"/>
         <source>Available languages of the product. Fetched from iTunes.</source>
         <comment>field languages description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1436"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1459"/>
         <source>List of screenshots for iPod/iPhone.</source>
         <comment>field ipod_screenshots description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1438"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1461"/>
         <source>List of screenshots for iPad.</source>
         <comment>field ipad_screenshots description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1440"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1463"/>
         <source>Locale used for iTunes lookup.</source>
         <comment>field itunes_lookup_locale description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1442"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1465"/>
         <source>The price of the app.</source>
         <comment>field price description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1444"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1467"/>
         <source>The currency of the price.</source>
         <comment>field currency description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1446"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1469"/>
         <source>The formatted price of the app.</source>
         <comment>field formatted_price description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1470"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1493"/>
         <source>The license identifier as picked by Apple.</source>
         <comment>field licenseId description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1392"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1415"/>
         <source>Pricing Parameter</source>
         <comment>field pricingParam display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1389"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1412"/>
         <source>Information related to VPP license</source>
         <comment>component OrganizationLicense description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1390"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1413"/>
         <source>iTunes App Identifier</source>
         <comment>field adamIdStr display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1391"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1414"/>
         <source>The iTunes App identifier.</source>
         <comment>field adamIdStr description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1394"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1417"/>
         <source>Assigned Count</source>
         <comment>field assignedCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1395"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1418"/>
         <source>How many licenses have been assigned to users or devices.</source>
         <comment>field assignedCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1396"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1419"/>
         <source>Available Count</source>
         <comment>field availableCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1397"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1420"/>
         <source>How many licenses are available for assignment.</source>
         <comment>field availableCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1398"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1421"/>
         <source>Device Assignable Flag</source>
         <comment>field deviceAssignable display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1399"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1422"/>
         <source>If set, the asset can be assigned to device.</source>
         <comment>field deviceAssignable description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1400"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1423"/>
         <source>License Irrevocable Flag</source>
         <comment>field isIrrevocable display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1402"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1425"/>
         <source>Product Type Identifier</source>
         <comment>field productTypeId display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1404"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1427"/>
         <source>Product Type Name</source>
         <comment>field productTypeName display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1406"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1429"/>
         <source>Total Count</source>
         <comment>field totalCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1407"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1430"/>
         <source>Total number of licenses.</source>
         <comment>field totalCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1408"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1431"/>
         <source>Retired Count</source>
         <comment>field retiredCount display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1409"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1432"/>
         <source>How many licenses have been retired</source>
         <comment>field retiredCount description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1411"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1434"/>
         <source>Since Modified Token for License</source>
         <comment>field since_modified_token_for_license display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1412"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1435"/>
         <source>The last sinceModifiedToken value for licenses.</source>
         <comment>field since_modified_token_for_license description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1413"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1436"/>
         <source>iTunes App or Book Identifier</source>
         <comment>field itunes_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1415"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1438"/>
         <source>Product Name</source>
         <comment>field app_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1417"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1440"/>
         <source>Product Version</source>
         <comment>field version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1419"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1442"/>
         <source>Developer</source>
         <comment>field developer display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1421"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1444"/>
         <source>iTunes URL</source>
         <comment>field itunes_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1423"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1446"/>
         <source>Artwork URL</source>
         <comment>field artwork_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1425"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1448"/>
         <source>Category</source>
         <comment>field category display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1427"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1450"/>
         <source>Release Date</source>
         <comment>field release_update_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1429"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1452"/>
         <source>Bundle Identifier</source>
         <comment>field bundle_identifier display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1431"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1454"/>
         <source>Bundle Size</source>
         <comment>field bundle_size display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1433"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1456"/>
         <source>Languages</source>
         <comment>field languages display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1435"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1458"/>
         <source>iPod Screeshots</source>
         <comment>field ipod_screenshots display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1437"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1460"/>
         <source>iPad Screeshots</source>
         <comment>field ipad_screenshots display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1439"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1462"/>
         <source>iTunes Lookup Locale</source>
         <comment>field itunes_lookup_locale display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1441"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1464"/>
         <source>Price</source>
         <comment>field price display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1443"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1466"/>
         <source>Currency</source>
         <comment>field currency display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1445"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1468"/>
         <source>Formatted Price</source>
         <comment>field formatted_price display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1447"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1470"/>
         <source>Platform</source>
         <comment>field platform display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1448"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1471"/>
         <source>The platform this license is for (iOS, OSX, Universal) or Book).</source>
         <comment>field platform description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1449"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1472"/>
         <source>Average User Rating</source>
         <comment>field average_user_rating display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1450"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1473"/>
         <source>Overall average user rating.</source>
         <comment>field average_user_rating description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1451"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1474"/>
         <source>Average User Rating for Current Version</source>
         <comment>field average_user_rating_for_current_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1452"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1475"/>
         <source>Current version average user rating.</source>
         <comment>field average_user_rating_for_current_version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1453"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1476"/>
         <source>Content Advisory Rating</source>
         <comment>field content_advisory_rating display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1454"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1477"/>
         <source>Content Advisory Rating.</source>
         <comment>field content_advisory_rating description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1455"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1478"/>
         <source>Current Version Release Date</source>
         <comment>field current_version_release_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1456"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1479"/>
         <source>Release date of the current version. Fetched from iTunes.</source>
         <comment>field current_version_release_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1457"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1480"/>
         <source>Game Center Enabled</source>
         <comment>field is_game_center_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1458"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1481"/>
         <source>True if the app uses Game Center.</source>
         <comment>field is_game_center_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1459"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1482"/>
         <source>VPP Device-Based License Enabled</source>
         <comment>field is_vpp_device_based_licensing_enabled display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1460"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1483"/>
         <source>True if the app developer allows device based vpp licensing,</source>
         <comment>field is_vpp_device_based_licensing_enabled description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1461"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1484"/>
         <source>Minimum OS Version</source>
         <comment>field minimum_os_version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1462"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1485"/>
         <source>Minimum required os version.</source>
         <comment>field minimum_os_version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1463"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1486"/>
         <source>Supported devices</source>
         <comment>field supported_devices display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1464"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1487"/>
         <source>List of supported devices (Apple naming).</source>
         <comment>field supported_devices description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1465"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1488"/>
         <source>Removed from App Store</source>
         <comment>field removed_from_app_store display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1466"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1489"/>
         <source>If true, the item is not in iTunes (nor in VPP, if it applies) any more.</source>
         <comment>field removed_from_app_store description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1467"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1490"/>
         <source>Required capabilities</source>
         <comment>field required_capabilities display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1468"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1491"/>
         <source>The hardware this app is for.</source>
         <comment>field required_capabilities description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1469"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1492"/>
         <source>License Identifier</source>
         <comment>field licenseId display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1471"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1494"/>
         <source>iTunes App Identifier</source>
         <comment>field adamId display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1472"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1495"/>
         <source>The iTunes App identifier.</source>
         <comment>field adamId description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1473"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1496"/>
         <source>organization user</source>
         <comment>field organization_user display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1474"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1497"/>
         <source>Status</source>
         <comment>field status display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1476"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1499"/>
         <source>Last Date Used</source>
         <comment>field dateUsed display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1478"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1501"/>
         <source>Assignment Time</source>
         <comment>field assignment_time display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1479"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1502"/>
         <source>asset</source>
         <comment>field asset display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1480"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1503"/>
         <source>Device Serial Number</source>
         <comment>field serialNumber display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1481"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1504"/>
         <source>The Serial Number of the device, when the license is assigned to a device.</source>
         <comment>field serialNumber description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1401"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1424"/>
         <source>If set, the license can&apos;t be revoked.</source>
         <comment>field isIrrevocable description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1393"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1416"/>
         <source>The pricing parameter.</source>
         <comment>field pricingParam description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1403"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1426"/>
         <source>The product type identifier.</source>
         <comment>field productTypeId description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1405"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1428"/>
         <source>The product type name.</source>
         <comment>field productTypeName description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1475"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1498"/>
         <source>The license status.</source>
         <comment>field status description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1477"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1500"/>
         <source>The last date this license was used.</source>
         <comment>field dateUsed description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1410"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1433"/>
         <source>organization</source>
         <comment>field organization display name</comment>
         <translation type="unfinished"></translation>
@@ -32903,157 +33216,157 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIOrganizationUser</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1482"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1505"/>
         <source>VPP User</source>
         <comment>component OrganizationUser display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1485"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1508"/>
         <source>Local unique identifier for a user in the organization.</source>
         <comment>field clientUserIdStr description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1487"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1510"/>
         <source>The LDAP username.</source>
         <comment>field ldap_username description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1495"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1518"/>
         <source>Hash of the iTunes identifier for this user.</source>
         <comment>field itsIdHash description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1497"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1520"/>
         <source>Status of the user.</source>
         <comment>field status description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1499"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1522"/>
         <source>Apple-side user identifier.</source>
         <comment>field userId description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1501"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1524"/>
         <source>Date at which the user was added to the organization.</source>
         <comment>field firstRegistration description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1484"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1507"/>
         <source>Local User Identifier String</source>
         <comment>field clientUserIdStr display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1483"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1506"/>
         <source>Information related to VPP User</source>
         <comment>component OrganizationUser description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1486"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1509"/>
         <source>LDAP Username</source>
         <comment>field ldap_username display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1488"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1511"/>
         <source>First Name</source>
         <comment>field first_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1489"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1512"/>
         <source>First name of the user (optional).</source>
         <comment>field first_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1490"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1513"/>
         <source>Last Name</source>
         <comment>field last_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1491"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1514"/>
         <source>Last name of the user (optional).</source>
         <comment>field last_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1492"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1515"/>
         <source>Email Address</source>
         <comment>field email display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1493"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1516"/>
         <source>Email address of the user (optional).</source>
         <comment>field email description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1494"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1517"/>
         <source>iTunes Store Identifier Hash</source>
         <comment>field itsIdHash display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1496"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1519"/>
         <source>Status</source>
         <comment>field status display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1498"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1521"/>
         <source>User Identifier</source>
         <comment>field userId display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1500"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1523"/>
         <source>First Registration Date</source>
         <comment>field firstRegistration display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1502"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1525"/>
         <source>Invitation URL</source>
         <comment>field inviteUrl display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1503"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1526"/>
         <source>URL that the user must contact to create an association with an iTunes account.</source>
         <comment>field inviteUrl description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1504"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1527"/>
         <source>organization</source>
         <comment>field organization display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1505"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1528"/>
         <source>Managed Apple Id</source>
         <comment>field managed_apple_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1506"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1529"/>
         <source>Managed Apple Id - for Education accounts or User Enrollment.</source>
         <comment>field managed_apple_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1507"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1530"/>
         <source>client set</source>
         <comment>field client_set display name</comment>
         <translation type="unfinished"></translation>
@@ -33062,73 +33375,73 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIPolicy</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1508"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1531"/>
         <source>FileWave Policy</source>
         <comment>component Policy display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1509"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1532"/>
         <source>Policy: restriction, deployment rule, configuration...</source>
         <comment>component Policy description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1510"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1533"/>
         <source>Policy Type</source>
         <comment>field policy_type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1511"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1534"/>
         <source>Type of policy (restriction...).</source>
         <comment>field policy_type description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1512"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1535"/>
         <source>Policy Payload</source>
         <comment>field payload display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1513"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1536"/>
         <source>Policy Payload (blocker script...)</source>
         <comment>field payload description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1514"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1537"/>
         <source>Last Update Date</source>
         <comment>field last_update display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1515"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1538"/>
         <source>Date at which the policy was made active or inactive.</source>
         <comment>field last_update description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1516"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1539"/>
         <source>Active</source>
         <comment>field is_active display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1517"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1540"/>
         <source>True if the policy is active</source>
         <comment>field is_active description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1518"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1541"/>
         <source>Fileset ID</source>
         <comment>field fileset_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1519"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1542"/>
         <source>ID of the fileset containing the policy</source>
         <comment>field fileset_id description</comment>
         <translation type="unfinished"></translation>
@@ -33137,12 +33450,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIQueryLogic</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1660"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1683"/>
         <source>all</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1661"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1684"/>
         <source>one</source>
         <translation type="unfinished"></translation>
     </message>
@@ -33150,22 +33463,22 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIReport</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1901"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1932"/>
         <source>This report shows the list of desktop and iOS licenses.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1902"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1933"/>
         <source>Licenses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1903"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1934"/>
         <source>This report is the result of a query.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1904"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1935"/>
         <source>Query</source>
         <translation type="unfinished"></translation>
     </message>
@@ -33173,55 +33486,55 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIReportDefinition</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1520"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1543"/>
         <source>Scheduled Reports</source>
         <comment>component ReportDefinition display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1521"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1544"/>
         <source>Type</source>
         <comment>field type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1522"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1545"/>
         <source>Schedule</source>
         <comment>field schedule display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1523"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1546"/>
         <source>Addressees</source>
         <comment>field addressees display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1524"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1547"/>
         <source>Subject</source>
         <comment>field subject display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1525"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1548"/>
         <source>Header</source>
         <comment>field header display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1526"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1549"/>
         <source>Query ID</source>
         <comment>field queryId display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1527"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1550"/>
         <source>Attributes</source>
         <comment>field attributes display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1528"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1551"/>
         <source>user</source>
         <comment>field user display name</comment>
         <translation type="unfinished"></translation>
@@ -33230,61 +33543,61 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIStatusMessage</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1529"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1552"/>
         <source>Status Messages</source>
         <comment>component StatusMessage display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1530"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1553"/>
         <source>Error or information message. Currently only for VPP assignment.</source>
         <comment>component StatusMessage description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1531"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1554"/>
         <source>Context</source>
         <comment>field context display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1533"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1556"/>
         <source>Description</source>
         <comment>field description display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1535"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1558"/>
         <source>Date</source>
         <comment>field date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1537"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1560"/>
         <source>Severity</source>
         <comment>field severity display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1532"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1555"/>
         <source>Context in which the message happened</source>
         <comment>field context description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1534"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1557"/>
         <source>Description of the message</source>
         <comment>field description description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1536"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1559"/>
         <source>Date and time at which that event occurred</source>
         <comment>field date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1538"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1561"/>
         <source>Severity of the message</source>
         <comment>field severity description</comment>
         <translation type="unfinished"></translation>
@@ -33293,67 +33606,67 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUnmanagedDevice</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1539"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1562"/>
         <source>Unmanaged Device</source>
         <comment>component UnmanagedDevice display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1540"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1563"/>
         <source>Any device not managed by FileWave.</source>
         <comment>component UnmanagedDevice description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1541"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1564"/>
         <source>Device Type</source>
         <comment>field device_type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1543"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1566"/>
         <source>Asset Tag</source>
         <comment>field asset_tag display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1545"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1568"/>
         <source>Manufacturer</source>
         <comment>field manufacturer display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1549"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1572"/>
         <source>Comment</source>
         <comment>field comment display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1542"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1565"/>
         <source>The type of the device.</source>
         <comment>field device_type description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1544"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1567"/>
         <source>The asset tag of the device.</source>
         <comment>field asset_tag description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1546"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1569"/>
         <source>The manufacturer of the device.</source>
         <comment>field manufacturer description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1547"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1570"/>
         <source>Used for</source>
         <comment>field used_for display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1548"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1571"/>
         <source>What the device is used for.</source>
         <comment>field used_for description</comment>
         <translation type="unfinished"></translation>
@@ -33362,205 +33675,205 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUpdate</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1550"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1573"/>
         <source>Update</source>
         <comment>component Update display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1551"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1574"/>
         <source>Updates available for a client</source>
         <comment>component Update description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1552"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1575"/>
         <source>Name</source>
         <comment>field name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1553"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1576"/>
         <source>Update Name.</source>
         <comment>field name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1554"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1577"/>
         <source>Update ID</source>
         <comment>field update_id display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1555"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1578"/>
         <source>A unique update id.</source>
         <comment>field update_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1556"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1579"/>
         <source>Version</source>
         <comment>field version display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1557"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1580"/>
         <source>Update version.</source>
         <comment>field version description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1558"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1581"/>
         <source>Platform</source>
         <comment>field platform display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1559"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1582"/>
         <source>product platform.</source>
         <comment>field platform description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1560"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1583"/>
         <source>Size</source>
         <comment>field size display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1561"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1584"/>
         <source>Size of the application bundle.</source>
         <comment>field size description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1562"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1585"/>
         <source>Install Size</source>
         <comment>field install_size display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1563"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1586"/>
         <source>Size of the space needed for install.</source>
         <comment>field install_size description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1564"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1587"/>
         <source>Critical</source>
         <comment>field critical display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1565"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1588"/>
         <source>Update is critical.</source>
         <comment>field critical description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1566"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1589"/>
         <source>Reboot</source>
         <comment>field reboot display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1567"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1590"/>
         <source>Update requires a restart.</source>
         <comment>field reboot description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1568"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1591"/>
         <source>Approved</source>
         <comment>field approved display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1569"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1592"/>
         <source>Software Update has been approved.</source>
         <comment>field approved description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1570"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1593"/>
         <source>Automatic</source>
         <comment>field automatic display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1571"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1594"/>
         <source>Software update set to automatically deploy.</source>
         <comment>field automatic description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1572"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1595"/>
         <source>Creation Date</source>
         <comment>field creation_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1573"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1596"/>
         <source>Date update has been created.</source>
         <comment>field creation_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1574"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1597"/>
         <source>Metadata</source>
         <comment>field metadata display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1575"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1598"/>
         <source>Auxiliary information about the Update</source>
         <comment>field metadata description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1576"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1599"/>
         <source>Import Error</source>
         <comment>field import_error display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1577"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1600"/>
         <source>Last Error importing the packages</source>
         <comment>field import_error description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1578"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1601"/>
         <source>Update Status</source>
         <comment>field import_status display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1579"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1602"/>
         <source>Status of the import of the update packages</source>
         <comment>field import_status description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1580"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1603"/>
         <source>Install Date</source>
         <comment>field install_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1581"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1604"/>
         <source>Date at which the update was installed.</source>
         <comment>field install_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1582"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1605"/>
         <source>Status</source>
         <comment>field status display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1583"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1606"/>
         <source>Update status code</source>
         <comment>field status description</comment>
         <translation type="unfinished"></translation>
@@ -33569,139 +33882,139 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUser</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1584"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1607"/>
         <source>FileWave Administrator user</source>
         <comment>component User display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1585"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1608"/>
         <source>password</source>
         <comment>field password display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1586"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1609"/>
         <source>last login</source>
         <comment>field last_login display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1587"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1610"/>
         <source>superuser status</source>
         <comment>field is_superuser display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1588"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1611"/>
         <source>Designates that this user has all permissions without explicitly assigning them.</source>
         <comment>field is_superuser description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1589"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1612"/>
         <source>username</source>
         <comment>field username display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1590"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1613"/>
         <source>Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</source>
         <comment>field username description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1591"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1614"/>
         <source>first name</source>
         <comment>field first_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1592"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1615"/>
         <source>last name</source>
         <comment>field last_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1593"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1616"/>
         <source>email address</source>
         <comment>field email display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1594"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1617"/>
         <source>staff status</source>
         <comment>field is_staff display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1595"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1618"/>
         <source>Designates whether the user can log into this admin site.</source>
         <comment>field is_staff description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1596"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1619"/>
         <source>active</source>
         <comment>field is_active display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1597"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1620"/>
         <source>Designates whether this user should be treated as active. Unselect this instead of deleting accounts.</source>
         <comment>field is_active description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1598"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1621"/>
         <source>date joined</source>
         <comment>field date_joined display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1599"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1622"/>
         <source>Type of user</source>
         <comment>field user_type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1600"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1623"/>
         <source>full name</source>
         <comment>field full_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1601"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1624"/>
         <source>description</source>
         <comment>field description display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1602"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1625"/>
         <source>phone number</source>
         <comment>field phone display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1603"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1626"/>
         <source>imaging user</source>
         <comment>field imaging_user display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1604"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1627"/>
         <source>base DN</source>
         <comment>field base_dn display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1605"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1628"/>
         <source>identity provider</source>
         <comment>field identity_provider display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1606"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1629"/>
         <source>IDP user id</source>
         <comment>field idp_user_id display name</comment>
         <translation type="unfinished"></translation>
@@ -33710,49 +34023,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUserAppToken</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1607"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1630"/>
         <source>User App Token</source>
         <comment>component UserAppToken display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1608"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1631"/>
         <source>Token Name</source>
         <comment>field token_name display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1609"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1632"/>
         <source>The unique name of the token.</source>
         <comment>field token_name description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1610"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1633"/>
         <source>Token Description</source>
         <comment>field description display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1611"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1634"/>
         <source>Description of the token</source>
         <comment>field description description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1612"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1635"/>
         <source>user</source>
         <comment>field user display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1613"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1636"/>
         <source>token</source>
         <comment>field token display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1614"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1637"/>
         <source>is default</source>
         <comment>field is_default display name</comment>
         <translation type="unfinished"></translation>
@@ -33761,91 +34074,91 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUserLogin</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1615"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1638"/>
         <source>User Logins</source>
         <comment>component UserLogin display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1617"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1640"/>
         <source>Username</source>
         <comment>field username display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1619"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1642"/>
         <source>device</source>
         <comment>field device display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1620"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1643"/>
         <source>Login Date</source>
         <comment>field login_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1622"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1645"/>
         <source>Logout Date</source>
         <comment>field logout_date display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1624"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1647"/>
         <source>Currently Logged in</source>
         <comment>field currently_logged_in display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1626"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1649"/>
         <source>Login Count</source>
         <comment>field login_count display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1621"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1644"/>
         <source>The date and time at which the user last logged in.</source>
         <comment>field login_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1616"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1639"/>
         <source>Information related to logged in users</source>
         <comment>component UserLogin description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1618"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1641"/>
         <source>The username that logged in or out from the device. User email for Chromebook managed users.</source>
         <comment>field username description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1623"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1646"/>
         <source>The date and time at which the user last logged out.</source>
         <comment>field logout_date description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1625"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1648"/>
         <source>A flag that indicates whether the user is currently logged in.</source>
         <comment>field currently_logged_in description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1627"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1650"/>
         <source>The count of logins for this user.</source>
         <comment>field login_count description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1628"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1651"/>
         <source>User management type</source>
         <comment>field user_type display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1629"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1652"/>
         <source>The type of user. For Chromebooks, possible values are: &apos;Chromebook Managed User&apos;, &apos;Chromebook Unmanaged User. Will be &apos;Normal User&apos; on other platforms</source>
         <comment>field user_type description</comment>
         <translation type="unfinished"></translation>
@@ -35346,49 +35659,49 @@ Make sure you update the Fileset or re-import it if you change the certificate.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="443"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="446"/>
         <source>Cannot create an association for %1 as the fileset is incomplete!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="544"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="547"/>
         <source>One of the selected groups is used for automatically created Managed Distribution Filesets.
 Are you sure you want to delete the group?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="545"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="548"/>
         <source>All the filesets within groups will be deleted as well.
 Managed Distribution Filesets will be created in the root group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="550"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="553"/>
         <source>Do you really wish to delete the selected filesets and/or fileset groups?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="551"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="554"/>
         <source>All the filesets within groups will be deleted as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="567"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="570"/>
         <source>Do you really wish to delete the fileset &quot;%1&quot;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="571"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="574"/>
         <source>Do you really wish to delete the fileset group &quot;%1&quot;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="572"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="575"/>
         <source>All the filesets within the group will be deleted as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="578"/>
+        <location filename="../../FWAdminLib/FilesetListWidget.cpp" line="581"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35883,17 +36196,17 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</source
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="165"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="166"/>
         <source>macOS 10.9+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="177"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="178"/>
         <source>Application configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="194"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="195"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
@@ -35908,81 +36221,81 @@ MacOS 10.13+ APFS does not support the option for authenticated restart.</source
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="174"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="175"/>
         <source>Configuration (iOS only)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="404"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="411"/>
         <source>Invalid Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="405"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="412"/>
         <source>Unable to read app package name.  A possible remedy: delete and recreate this fileset.  If this problem persists, please contact your FileWave administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="417"/>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="427"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="424"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="434"/>
         <source>No Enterprise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="418"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="425"/>
         <source>[HTTP %1] Unable to find an enrolled enterprise.  Managed properties and permissions for this app will be unavailable.  If this problem persists, please contact your FileWave administrator.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="428"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="435"/>
         <source>Unable to find an enrolled enterprise.  Managed properties and permissions for this app will be unavailable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="440"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="447"/>
         <source>Upstream Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="441"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="448"/>
         <source>Unhandled error reading app data from upstream.
 
 Server said (%1): %2.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="474"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="481"/>
         <source>No category selected. Please select one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1156"/>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1426"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1163"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1433"/>
         <source>Cannot save Fileset Dependencies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1305"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1312"/>
         <source>Customize the User Message</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1306"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1313"/>
         <source>Set the text that will appear on the user&apos;s screen during this Fileset&apos;s activation:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1333"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1340"/>
         <source>Reset to defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1333"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1340"/>
         <source>An error occurred when trying to retrieve information from iTunes. Please make sure your internet connection is up and running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1867"/>
+        <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="1874"/>
         <source>None</source>
         <translation type="unfinished"></translation>
     </message>
@@ -37535,71 +37848,58 @@ Do you want to close the dialog?</source>
 <context>
     <name>GoogleDedicatedDeviceForm</name>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="26"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="26"/>
         <source>Select Designated App for Dedicated Devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="95"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="95"/>
         <source>Keyguard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="117"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="117"/>
         <source>Use this setting to bypass the lock screen.  For kiosk-style installations, requiring users to interact with the lock screen may not be a desirable interaction.  (Note that if a device has a password set, the keyguard will be presented regardless of this setting.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="152"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="152"/>
         <source>Custom Launcher</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="177"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="177"/>
         <source>When enabled, the home screen will be replaced with a launcher that only allows access to associated applications.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="200"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="200"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.cpp" line="45"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.cpp" line="46"/>
         <source>Locked Task</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="207"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="207"/>
         <source>Specify an app to be the sole user interaction for a device.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.ui" line="265"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="265"/>
         <source>Click to designate the pinned app for a dedicated device.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.cpp" line="37"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.cpp" line="44"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.cpp" line="38"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.cpp" line="45"/>
         <source>Unspecified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.cpp" line="38"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.cpp" line="39"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GoogleDedicatedDeviceForm.cpp" line="39"/>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.cpp" line="40"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
@@ -37739,210 +38039,231 @@ Do you want to close the dialog?</source>
 <context>
     <name>GoogleDeviceRestrictionsForm</name>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="26"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="30"/>
         <source>Allow use of camera.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="27"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="31"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is a device restriction; if disallowed here, then the specific application policies and permission grants lose&amp;nbsp;&amp;#8212;&amp;nbsp;the camera will be disabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="28"/>
-        <source>Allow use of device debugging features.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="29"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even when allowed, debugging features are not automatically enabled; users must &lt;a href=&quot;https://developer.android.com/studio/debug/dev-options&quot;&gt;&lt;span style=&quot;text-decoration: underline; color:#007af4;&quot;&gt;enable them manually&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="30"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="34"/>
         <source>Allow user to initiate a factory reset of the device.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="31"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="35"/>
         <source>If factory reset is enabled, a user may manually initiate a device reset.  If disabled, a device reset (or &quot;wipe&quot;) must be done by a FileWave administrator.  The global policy default is &quot;disabled.&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="32"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="36"/>
         <source>Allow user to install packages from unknown sources.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="33"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="37"/>
         <source>Whether the user may enable the &quot;Unknown Sources&quot; setting, allowing installation of apps from unknown sources.  This is popularly known as &quot;side-loading.&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="34"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="38"/>
         <source>Location accuracy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="35"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="39"/>
         <source>Specify the location accuracy mode of devices.  High Accuracy uses the GPS and WiFi to determine a devices location, while Sensors will strictly utilize the GPS and Battery Saving the WiFi.  N.B. Users can change device location settings regardless of the choice made here; this is a per-model-update one-time change.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="36"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="40"/>
         <source>Play Store Mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="37"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="41"/>
         <source>Allow users to install from the Play Store only the associated apps (Whitelist), or all apps from the Play Store except those associated and set to the &apos;Blocked&apos; install type (Blacklist).  In Whitelist mode, apps that are not in a device&apos;s policy will be uninstalled.  The API default is &quot;Whitelist.&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="38"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="44"/>
         <source>Allow location sharing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="39"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="45"/>
         <source>Allow users to configure location sharing preferences.  The Android global default is &quot;allowed.&quot;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="40"/>
-        <source>Allow user to boot to safe mode.</source>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="32"/>
+        <source>Allow user to configure the developer settings of the device.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="41"/>
-        <source>Much like &quot;Safe Mode&quot; for desktop operating systems, safe mode for Android is a minimal, known-working environment.  Booting into safe mode is generally used as a debugging measure.  In the case of an EMM controlled device, it also enables a user to bypass a factory reset restriction.</source>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="33"/>
+        <source>If enabled, the user has access to and can configure developer settings such as Safe Boot and device debugging features.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="42"/>
-        <source>Allow user to add WiFi networks.</source>
+        <source>Auto-update policy for device apps.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="43"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WARNING: Disable this with &lt;span style=&quot;font-weight:600;&quot;&gt;caution&lt;/span&gt;.  If there is no network connection available and users cannot add one, the affected devices become very difficult to administer.  Before disabling users&apos; ability to add their own WiFi networks, ensure that the devices have a (tested) backup WiFi connection.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="44"/>
-        <source>Enable cellular broadcasts.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="45"/>
-        <source>Allow device to receive cellular broadcasts.</source>
+        <source>The Play Store &lt;a href=&quot;https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy&quot;&gt;App Auto-Update Policy&lt;/a&gt; enforced on a device.  If unspecified, the Android default is Choice to the User.  To force apps to update, use Always or WiFi only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="46"/>
-        <source>Allow changes to mobile network settings.</source>
+        <source>Allow user to add WiFi networks.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="47"/>
-        <source>Allow user to modify mobile network settings.</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WARNING: Disable this with &lt;span style=&quot;font-weight:600;&quot;&gt;caution&lt;/span&gt;.  If there is no network connection available and users cannot add one, the affected devices become very difficult to administer.  Before disabling users&apos; ability to add their own WiFi networks, ensure that the devices have a (tested) backup WiFi connection.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="48"/>
-        <source>Allow roaming.</source>
+        <source>Enable cellular broadcasts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="49"/>
-        <source>Allow use of cellular data while roaming.</source>
+        <source>Allow device to receive cellular broadcasts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="50"/>
-        <source>Allow outgoing calls.</source>
+        <source>Allow changes to mobile network settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="51"/>
-        <source>Allow device to make outgoing phone calls.  Emergency calls may occur regardless of this setting.</source>
+        <source>Allow user to modify mobile network settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="52"/>
-        <source>Allow SMS messages.</source>
+        <source>Allow roaming.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="53"/>
-        <source>Allow device to send and receive SMS messages.</source>
+        <source>Allow use of cellular data while roaming.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="54"/>
-        <source>Allow tethering.</source>
+        <source>Allow outgoing calls.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="55"/>
-        <source>Allow use of this device as a portable hotspot.</source>
+        <source>Allow device to make outgoing phone calls.  Emergency calls may occur regardless of this setting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="56"/>
-        <source>Allow bluetooth.</source>
+        <source>Allow SMS messages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="57"/>
+        <source>Allow device to send and receive SMS messages.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="58"/>
+        <source>Allow tethering.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="59"/>
+        <source>Allow use of this device as a portable hotspot.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="60"/>
+        <source>Allow bluetooth.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="61"/>
         <source>Allow user to configure or modify bluetooth connections.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="83"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="105"/>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="113"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="87"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="109"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="117"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="123"/>
         <source>Unspecified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="84"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="88"/>
         <source>Allowed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="85"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="89"/>
         <source>Disallowed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="106"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="110"/>
         <source>High Accuracy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="107"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="111"/>
         <source>Sensors Only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="108"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="112"/>
         <source>Battery Saving</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="109"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="113"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="114"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="118"/>
         <source>Blacklist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="115"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="119"/>
         <source>Whitelist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="124"/>
+        <source>Choice to the User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="125"/>
+        <source>Always</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="126"/>
+        <source>Wi-Fi Only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="127"/>
+        <source>Never</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -37951,7 +38272,7 @@ Do you want to close the dialog?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.ui" line="259"/>
+        <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.ui" line="257"/>
         <source>Radio Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -39970,38 +40291,38 @@ The code itself is just:
 <context>
     <name>ImagingAssociationsModel</name>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="263"/>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="265"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="250"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="252"/>
         <source>Last Image Date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="267"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="254"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="271"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="258"/>
         <source>Client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="637"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="624"/>
         <source>Drivers can&apos;t be added to Master Image association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="684"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="671"/>
         <source>Only drivers can be associated to Windows image association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="688"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="675"/>
         <source>The drivers was already associated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="693"/>
+        <location filename="../../FWAdminLib/models/imagingassociationsmodel.cpp" line="680"/>
         <source>One or more driver associations failed:
 %1</source>
         <translation type="unfinished"></translation>
@@ -41295,12 +41616,12 @@ Data needs to be reloaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="102"/>
+        <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="104"/>
         <source>Total number of inventory query results: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="104"/>
+        <location filename="../../FWAdminLib/inventory/InventoryResultWidget.cpp" line="106"/>
         <source>Total number of inventory query results: %1 of %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -42495,18 +42816,18 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
 <context>
     <name>LoginViaIDPDlg</name>
     <message>
-        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="40"/>
+        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.ui" line="20"/>
+        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="44"/>
         <source>Login via IDP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="40"/>
+        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="44"/>
         <source>An error occurred while tring to login via IDP. Detail: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="100"/>
+        <location filename="../../FWAdminLib/idp/LoginViaIDPDlg.cpp" line="104"/>
         <source>Admin re-authentication failed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -44941,7 +45262,7 @@ located on the client computer:
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.ui" line="39"/>
-        <source>Remove the new client(s)</source>
+        <source>Ignore the new conflicting client(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -44980,89 +45301,57 @@ located on the client computer:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="58"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="53"/>
         <source>Group Filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="93"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="88"/>
         <source>Select this option if you want to refuse the client for now. You can rename the client using Client Monitor and re-enroll it later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="90"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="85"/>
         <source>There is already a client named &quot;%1&quot;.
 As the client name must be unique, please resolve the conflict for these clients:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="70"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="65"/>
         <source>The name, device identifier or serial number of %1 clients is already used by existing clients.
 As client names, device identifiers and serial numbers must be unique, please resolve the conflict for these clients:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="73"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="68"/>
         <source>Select this option if you want to refuse the clients for now.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="96"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="91"/>
         <source>The device identifier of the new client &quot;%1&quot; is already used by an existing client: &quot;%2&quot;.
 As the device identifier must be unique, please resolve the conflict for these clients:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="99"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="94"/>
         <source>Select this option if you want to refuse the client for now. You can fix the device identifier and re-enroll it later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="102"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="97"/>
         <source>The serial number of the new client &quot;%1&quot; (%2) is already used by an existing client: &quot;%3&quot;.
 As the serial number must be unique, please resolve the conflict for these clients:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="106"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="101"/>
         <source>Select this option if you want to refuse the client for now. You can fix the serial number and re-enroll it later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="120"/>
+        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="115"/>
         <source>Warning: the device(s) linked to %1 old client(s) will not be managed anymore.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="212"/>
-        <source>Conflicts resolved for %1 device(s).
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="215"/>
-        <source>Conflict resolution errors for %1 device(s).
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="220"/>
-        <source>Solve Enrollment Conflict(s)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="248"/>
-        <source>Resolving conflicts...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="168"/>
-        <source>You do not have permission to add clients to the group: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/NewClientFromServerConflictsDlg.cpp" line="188"/>
-        <source>Failed to apply conflict resolution: error %1 %2</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -47981,7 +48270,7 @@ Modified profiles will be redeployed.</source>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="390"/>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="593"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3554"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3570"/>
         <source>Adding files to upload queue...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -48037,11 +48326,6 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1672"/>
         <source>Backing Up Previous Model...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1675"/>
-        <source>Updating MDM Server...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -48210,42 +48494,42 @@ Try Again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1891"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1896"/>
         <source>You do not have delete privileges on at least 1 item</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2330"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2345"/>
         <source>Error sending request to the server, check the log file for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2340"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2355"/>
         <source>Revert Unsuccessful. Permission denied.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2343"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2358"/>
         <source>Revert Unsuccessful. There are still locks held by other administrators so model revert cannot safely continue.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2346"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2361"/>
         <source>Revert Unsuccessful. The license has either expired or been revoked - please contact FileWave support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2349"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2364"/>
         <source>Revert Unsuccessful. Your license is not valid for this version of the software - please contact FileWave support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2352"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2367"/>
         <source>Revert Unsuccessful. Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2357"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2372"/>
         <source>Revert Unsuccessful. Check the server log for details.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -48259,6 +48543,11 @@ Please enter your Activation Code</source>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1669"/>
         <source>Moving Temporary Files...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1675"/>
+        <source>Updating (Apple) MDM Server...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -48277,74 +48566,74 @@ Please enter your Activation Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2395"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2410"/>
         <source>Failed to create the server log file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2421"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2436"/>
         <source>Server Log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2430"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2445"/>
         <source>Sorry, but getting the %1 log file failed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2617"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2632"/>
         <source>Merging folders, please wait...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2622"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2637"/>
         <source>Merging</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2746"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2761"/>
         <source>Would you like to replace the file %1?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2747"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2762"/>
         <source>Replace</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2748"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2763"/>
         <source>Skip</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2749"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2764"/>
         <source>Replace All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3097"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3112"/>
         <source>%1 can&apos;t be renamed because it is a predefined folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3108"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3123"/>
         <source>A folder named %1 already exists in this location.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3490"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3506"/>
         <source>Creating new imaging fileset from folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3535"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3551"/>
         <source>Adding files &amp; folders to upload queue...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWEventNotifierAdapter.cpp" line="42"/>
         <location filename="../../FWAdminLib/FWEventNotifierAdapter.cpp" line="62"/>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="272"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="273"/>
         <source>Quit Server</source>
         <translation type="unfinished"></translation>
     </message>
@@ -49077,12 +49366,12 @@ FileWave Admin will now quit.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetGroupContainer.cpp" line="820"/>
+        <location filename="../../FWAdminLib/FilesetGroupContainer.cpp" line="821"/>
         <source>(Root)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FilesetGroupContainer.cpp" line="825"/>
+        <location filename="../../FWAdminLib/FilesetGroupContainer.cpp" line="826"/>
         <source>&lt;Unauthorized&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -49277,38 +49566,38 @@ If this email was erroneously sent, you may disregard this communication.  (Alth
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/TextExportController.cpp" line="50"/>
+        <location filename="../../FWAdminLib/TextExportController.cpp" line="51"/>
         <source>Could not create the %1 directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/TextExportController.cpp" line="51"/>
-        <location filename="../../FWAdminLib/TextExportController.cpp" line="81"/>
+        <location filename="../../FWAdminLib/TextExportController.cpp" line="52"/>
+        <location filename="../../FWAdminLib/TextExportController.cpp" line="82"/>
         <source>FileWave Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/TextExportController.cpp" line="80"/>
+        <location filename="../../FWAdminLib/TextExportController.cpp" line="81"/>
         <source>Could not open %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="994"/>
+        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="973"/>
         <source>group</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="1000"/>
+        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="979"/>
         <source>client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="1002"/>
+        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="981"/>
         <source>clone</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="1004"/>
+        <location filename="../../FWAdminLib/UserAndGroupContainer.cpp" line="983"/>
         <source>object</source>
         <translation type="unfinished"></translation>
     </message>
@@ -50053,7 +50342,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdmin.cpp" line="274"/>
+        <location filename="../../FWAdminLib/WinAdmin.cpp" line="275"/>
         <source>The FileWave Admin has been forcefully logged out - please log in again.
 FileWave Admin will now quit.</source>
         <translation type="unfinished"></translation>
@@ -55910,30 +56199,30 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="142"/>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="159"/>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="166"/>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="174"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="143"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="160"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="167"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="175"/>
         <source>Smart Group Report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="143"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="144"/>
         <source>Couldn&apos;t fetch Smart Group &quot;%1&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="160"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="161"/>
         <source>Smart Group &quot;%1&quot; contains no inventory query, no report can be generated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="167"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="168"/>
         <source>Smart Group &quot;%1&quot; has no clones, no report can be generated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="175"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="176"/>
         <source>Smart Group &quot;%1&quot; contains more than one inventory query, which is unsupported.
 
 Only the report for the first query is shown.</source>
@@ -55943,7 +56232,7 @@ Only the report for the first query is shown.</source>
 <context>
     <name>SmartGroupReportTabForAssociations</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="305"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="295"/>
         <source>Associations</source>
         <translation type="unfinished"></translation>
     </message>
@@ -55951,7 +56240,7 @@ Only the report for the first query is shown.</source>
 <context>
     <name>SmartGroupReportTabForClients</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="297"/>
+        <location filename="../../FWAdminLib/inventory/SmartGroupReportTab.cpp" line="287"/>
         <source>Clients</source>
         <translation type="unfinished"></translation>
     </message>
