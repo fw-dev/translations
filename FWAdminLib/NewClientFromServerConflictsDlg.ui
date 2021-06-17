@@ -36,7 +36,7 @@
    <item>
     <widget class="QRadioButton" name="removeNewClientRadio">
      <property name="text">
-      <string>Remove the new client(s)</string>
+      <string>Ignore the new conflicting client(s)</string>
      </property>
      <property name="checked">
       <bool>true</bool>
