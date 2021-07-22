@@ -59,7 +59,7 @@
         </font>
        </property>
        <property name="text">
-        <string>fileNameLA</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -101,7 +101,7 @@
      <item row="1" column="2">
       <widget class="QLabel" name="kindLA">
        <property name="text">
-        <string>kindLA</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -137,7 +137,7 @@
      <item row="2" column="2">
       <widget class="QLabel" name="createdLA">
        <property name="text">
-        <string>createdLA</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -160,7 +160,7 @@
      <item row="3" column="2">
       <widget class="QLabel" name="modifiedLA">
        <property name="text">
-        <string>modifiedLA</string>
+        <string/>
        </property>
       </widget>
      </item>

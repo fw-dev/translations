@@ -5395,7 +5395,7 @@ Do you still want to continue editing the remaining associations?</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/ExpertSettings.ui" line="20"/>
-        <source>Files, Folder, and Window registry names are ignored, regardless of their location. Change only if you know what you are doing! Use the &quot;Restore Defaults&quot; button to get a safe default list.</source>
+        <source>Files,  Folder,  and Windows registry names are ignored,  regardless of their location. Change only if you know what you are doing! Use the &quot;Restore Defaults&quot; button to get a safe default list.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5946,12 +5946,6 @@ Continue?</source>
         <translation>Bilgi Al...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="62"/>
-        <source>fileNameLA</source>
-        <translatorcomment>? what is LA. Shouldnt I translate?</translatorcomment>
-        <translation>dosyaAdıLA</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="69"/>
         <source>Reserve</source>
         <translation>Ayır</translation>
@@ -5962,29 +5956,14 @@ Continue?</source>
         <translation>Tür:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="104"/>
-        <source>kindLA</source>
-        <translation>kindLA</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="130"/>
         <source>Created:</source>
         <translation>Yaratılan:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="140"/>
-        <source>createdLA</source>
-        <translation>yaratılanLA</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="153"/>
         <source>Modified:</source>
         <translation>Değiştirilen:</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="163"/>
-        <source>modifiedLA</source>
-        <translation>değiştirilenLA</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/GetInfoMainDlg.ui" line="176"/>
@@ -6936,28 +6915,27 @@ installed the software.</source>
 <context>
     <name>CMyPropertyPage7</name>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="13"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="14"/>
         <source>Scan Progress</source>
         <translation>Tarama Durumu</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="19"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="20"/>
         <source>Description</source>
         <translation>Tanım</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="26"/>
-        <source>Detial</source>
-        <translatorcomment>? detail</translatorcomment>
-        <translation>Ayrıntı</translation>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="27"/>
+        <source>Detail</source>
+        <translation type="unfinished">Ayrıntı</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="42"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="43"/>
         <source>Cancel</source>
         <translation>İptal</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="45"/>
+        <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="46"/>
         <source>Esc</source>
         <translation>Esc</translation>
     </message>
@@ -8053,9 +8031,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/ShowRegDiff.cpp" line="275"/>
         <source>Deleting certain registry values could cause system instability.
-Are you sure you want to permanently delete those values.</source>
-        <translation>Belirli registry değerlerini silmek sistemi dengesizleştirebilir. 
-O değerleri kalıcı olarak silmek istediğiniziden emin misiniz?.</translation>
+Are you sure you want to permanently delete those values?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ShowRegDiff.cpp" line="276"/>
@@ -14742,7 +14719,7 @@ This group contains the auto-add group &apos;%2&apos;.  To delete this group, ch
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="96"/>
-        <source>IP address ranges of the peers to query content form</source>
+        <source>IP address ranges of the peers to query content from</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19552,19 +19529,9 @@ Server said (%1): %2</source>
         <translation>Baskı:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="87"/>
-        <source>labelEdition</source>
-        <translation>labelEdition</translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="94"/>
         <source>Licensed Clients:</source>
         <translation>Lisanslı İstemciler:</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="104"/>
-        <source>labelNumberOfClients</source>
-        <translation>labelNumberOfClients</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="142"/>
@@ -19572,23 +19539,8 @@ Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="152"/>
-        <source>label expiry</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="159"/>
         <source>Mobile License Expiry Date:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="169"/>
-        <source>mobile expiry</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="183"/>
-        <source>yes/no</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19602,18 +19554,8 @@ Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="197"/>
-        <source>labelEngageEnabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="204"/>
         <source>Clever Integration:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="211"/>
-        <source>labelCleverEnabledDate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19622,19 +19564,9 @@ Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="135"/>
-        <source>labelNumberOfChromebooks</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="257"/>
         <source>Status:</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="270"/>
-        <source>TextLabel</source>
-        <translation type="unfinished">TextLabel</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="279"/>
@@ -19645,11 +19577,6 @@ Server said (%1): %2</source>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="38"/>
         <source>Enter or Update Code</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="121"/>
-        <source>labelNumberOfMobiles</source>
-        <translation>labelNumberOfMobiles</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="111"/>
@@ -39329,22 +39256,27 @@ Do you want to close the dialog?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="25"/>
+        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.ui" line="35"/>
+        <source>Search by Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="31"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="25"/>
+        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="31"/>
         <source>Description</source>
         <translation type="unfinished">Tanım</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="25"/>
+        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="31"/>
         <source>id</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="36"/>
+        <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="49"/>
         <source>Failed to fetch IDP groups. Please verify your IDP configuration.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -54856,26 +54788,6 @@ crash data and statistics with app developers</source>
         <location filename="../../FWAdminLib/ScriptInfoDlg.ui" line="66"/>
         <source>Created:</source>
         <translation type="unfinished">Yaratılan:</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ScriptInfoDlg.ui" line="76"/>
-        <source>kindLA</source>
-        <translation type="unfinished">kindLA</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ScriptInfoDlg.ui" line="83"/>
-        <source>modifiedLA</source>
-        <translation type="unfinished">değiştirilenLA</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ScriptInfoDlg.ui" line="103"/>
-        <source>createdLA</source>
-        <translation type="unfinished">yaratılanLA</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ScriptInfoDlg.ui" line="115"/>
-        <source>fileNameLA</source>
-        <translation type="unfinished">dosyaAdıLA</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ScriptInfoDlg.ui" line="128"/>
