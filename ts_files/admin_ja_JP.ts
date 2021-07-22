@@ -26253,9 +26253,9 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="530"/>
-        <source>Apple internal to Apple identifier for organizations.</source>
+        <source>Apple internal identifier for organizations.</source>
         <comment>field org_id description</comment>
-        <translation>組織内のApple内部のApple IDです。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="531"/>

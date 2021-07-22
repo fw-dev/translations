@@ -25787,6 +25787,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="530"/>
+        <source>Apple internal identifier for organizations.</source>
+        <comment>field org_id description</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="514"/>
         <source>The organization email address.</source>
         <comment>field org_email description</comment>
@@ -25868,12 +25874,6 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="529"/>
         <source>Apple Organization Id (internal)</source>
         <comment>field org_id display name</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="530"/>
-        <source>Apple internal to Apple identifier for organizations.</source>
-        <comment>field org_id description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
