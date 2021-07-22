@@ -948,7 +948,7 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="124"/>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="155"/>
         <source>at</source>
-        <translation></translation>
+        <translation>場所</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/CronWidget.ui" line="47"/>

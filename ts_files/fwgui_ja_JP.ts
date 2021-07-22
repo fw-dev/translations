@@ -628,7 +628,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="162"/>
         <source>for</source>
-        <translation></translation>
+        <translation>対象</translation>
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
