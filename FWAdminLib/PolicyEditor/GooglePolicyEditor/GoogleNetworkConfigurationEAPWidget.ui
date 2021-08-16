@@ -214,7 +214,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Select the PKCS#12 archive that client will use to identify itself to the network.  (Use the Certificates payload from the list on the left side of this dialog to populate this dropdown.)</string>
+          <string>Select the PKCS#12 archive that the client will use to identify itself to the network.  (Use the Certificates payload from the list on the left side of this dialog to populate this dropdown.)</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>

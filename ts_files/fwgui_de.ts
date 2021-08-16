@@ -199,17 +199,17 @@ ihrem iTunes-Konto anzumelden. </translation>
 <context>
     <name>KioskClient</name>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="244"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="250"/>
         <source>An administrator would like to take control of your machine.</source>
         <translation>Ein Administrator möchte Zugriff auf ihren Bildschirm erhalten. </translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="245"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="251"/>
         <source>Deny</source>
         <translation>Ablehnen</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="246"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="252"/>
         <source>Allow</source>
         <translation>Erlauben</translation>
     </message>

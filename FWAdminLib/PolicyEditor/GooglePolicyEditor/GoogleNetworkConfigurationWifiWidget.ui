@@ -283,7 +283,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>The pre-shared key for this network.  This is also often referred to as the &quot;wireless password,&quot; &quot;network password&quot;, and &quot;passphrase.&quot;</string>
+      <string>The pre-shared key for this network.  This is also often referred to as the &quot;wireless password&quot;, &quot;network password&quot;, and &quot;passphrase.&quot;</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

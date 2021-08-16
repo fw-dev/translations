@@ -1134,7 +1134,51 @@
      </property>
     </spacer>
    </item>
-  </layout>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Software Update Settings (supervised iOS devices only)</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="recommendationCadence">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>Both update versions</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Only minor update version</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Only major update version</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Don't change update settings</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTiprecommendationCadenceDifferentMeaning">
+     <property name="text">
+      <string>No MDM restrictions. The latest major and the latest minor versions of updates are available.  E.g. iOS 15.0 and iOS 14.6</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>  
  </widget>
  <tabstops>
   <tabstop>cbVoiceRoaming</tabstop>

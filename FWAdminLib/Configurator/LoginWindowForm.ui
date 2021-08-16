@@ -247,6 +247,20 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="m_checkDisableUnlockWithWatchDuringLogin">
+         <property name="text">
+          <string>Disable Unlock with Watch window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="m_checkDisableAccessibilityDuringLogin">
+         <property name="text">
+          <string>Disable Accessibility window during login</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="m_checkEnableConsoleLogin">
          <property name="text">
           <string>Enable &gt;console login</string>
