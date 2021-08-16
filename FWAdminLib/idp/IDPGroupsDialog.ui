@@ -25,6 +25,23 @@
     </widget>
    </item>
    <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="txtSearch">
+       <property name="maxLength">
+        <number>512</number>
+       </property>
+       <property name="placeholderText">
+        <string>Search by Name</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="CircularProgressIndicator" name="spinner" native="true"/>
+     </item>
+    </layout>
+   </item>
+   <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="StyledTreeView" name="idpGroupsTree">
@@ -48,6 +65,12 @@
   </layout>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>CircularProgressIndicator</class>
+   <extends>QWidget</extends>
+   <header>FileWaveGuiLib/circularprogressindicator.h</header>
+   <container>1</container>
+  </customwidget>
   <customwidget>
    <class>StyledTreeView</class>
    <extends>QTreeView</extends>
