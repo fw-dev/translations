@@ -406,6 +406,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowCloudPrivateRelay">
+         <property name="text">
+          <string>Allow iCloud Private Relay</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowManagedAppsCloudSync">
          <property name="text">
           <string>Allow managed apps to store data in iCloud</string>
@@ -978,6 +988,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="requireManagedPasteboard">
+         <property name="text">
+          <string>Let copy and paste respect document allowance options</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowManagedToWriteUnmanagedContacts">
          <property name="text">
           <string>Allow managed apps to write contacts to unmanaged contacts accounts</string>
@@ -1402,6 +1422,16 @@
         <widget class="QCheckBox" name="forceOnDeviceOnlyDictation">
          <property name="text">
           <string>Force dictation to be limited on device only (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="forceOnDeviceOnlyTranslation">
+         <property name="text">
+          <string>Force translation to be limited on device only</string>
          </property>
          <property name="checked">
           <bool>false</bool>

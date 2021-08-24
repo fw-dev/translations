@@ -235,6 +235,71 @@
     </layout>
    </item>
    <item>
+    <widget class="QLabel" name="lRemovableSystemExtensions">
+     <property name="text">
+      <string>Removable System Extensions</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lTipRemovableSystemExtensions">
+     <property name="text">
+      <string>Removable System Extensions column value is comma-separated list of system extensions identifiers</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="StyledTreeWidget" name="twRemovableSystemExtensions">
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>Team Identifiers</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Removable System Extensions</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="hlRemovableSystemExtensions">
+     <item>
+      <widget class="QToolButton" name="tbAddRemovableSystemExtension">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="tbRemoveRemovableSystemExtension">
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="hsRemovableSystemExtensions">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

@@ -72,6 +72,32 @@
     </layout>
    </item>
    <item>
+    <layout class="QFormLayout" name="formLayout_installPolicy">
+     <item row="0" column="0">
+      <widget class="QComboBox" name="frm_autoUpdateMode"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="lbl_title_autoUpdateMode">
+       <property name="text">
+        <string>Auto Update Mode</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="lTip_desc_autoUpdateMode">
+       <property name="text">
+        <string>Specify the auto update mode for this app.  Choices are:
+
+* Unspecified - defaults to Default but does not clutter your installed policy
+* Default - detects updates within 24 hours, updates when device is charging, not being used, and connected to an unmetered network
+* Postponed - apps will not be updated within 90 days of the device detecting a new version
+* High Priority - app update should be triggered within 60 seconds of detection (or connection, if the device is off or not connected to a network)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>

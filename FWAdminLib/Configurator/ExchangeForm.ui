@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0">
+  <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0">
    <item>
     <widget class="QLabel" name="lAccountName">
      <property name="text">
@@ -53,33 +53,6 @@
     <widget class="QComboBox" name="comboConnectionType"/>
    </item>
    <item>
-    <widget class="QLabel" name="lDomain">
-     <property name="text">
-      <string>Domain</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="lTipDomain">
-     <property name="text">
-      <string>Domain for the account. Leave Domain and user blank to set user on device</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLineEdit" name="editDomain">
-     <property name="readOnly">
-      <bool>false</bool>
-     </property>
-     <property name="placeholderText">
-      <string>[set on device]</string>
-     </property>
-    </widget>
-   </item>
-   <item>
     <widget class="QLabel" name="lUser">
      <property name="text">
       <string>User</string>
@@ -89,7 +62,7 @@
    <item>
     <widget class="QLabel" name="lTipUser">
      <property name="text">
-      <string>The user of the account with optional domain (e.g. &quot;user&quot; or &quot;domainuser&quot;) (required for</string>
+      <string>The user of the account with optional domain (e.g. &quot;user&quot; or &quot;domain\user&quot;) (required for</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -99,7 +72,7 @@
    <item>
     <widget class="QLabel" name="lTipUser2">
      <property name="text">
-      <string>supervised devices)</string>
+      <string>supervised devices). Leave blank to set on device</string>
      </property>
     </widget>
    </item>
@@ -969,7 +942,6 @@
  <tabstops>
   <tabstop>editAccountDescription</tabstop>
   <tabstop>comboConnectionType</tabstop>
-  <tabstop>editDomain</tabstop>
   <tabstop>editUser</tabstop>
   <tabstop>editEmail</tabstop>
   <tabstop>checkBoxOAuth</tabstop>
