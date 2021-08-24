@@ -672,6 +672,11 @@ outline: none;</string>
           <string>Application tokens</string>
          </attribute>
         </widget>
+        <widget class="TVAdminWidget" name="tvAdminsTab">
+         <attribute name="title">
+          <string>Team Viewer</string>
+         </attribute>
+        </widget>
        </widget>
       </item>
       <item row="1" column="7" rowspan="3">
@@ -876,6 +881,12 @@ outline: none;</string>
    <class>AdminVppTokensAccessWidget</class>
    <extends>QWidget</extends>
    <header>FWAdminLib/AdminVppTokensAccessWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TVAdminWidget</class>
+   <extends>QWidget</extends>
+   <header>FWAdminLib/TVAdminWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

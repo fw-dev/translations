@@ -2127,6 +2127,64 @@
           </widget>
          </item>
          <item>
+          <widget class="QWidget" name="passwordTouchIDWidget" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QCheckBox" name="requireEnforcedFingerprintTimeout">
+              <property name="text">
+               <string>Require password to unlock device with Touch ID after </string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="enforcedFingerprintTimeout">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="maximum">
+               <number>9999999</number>
+              </property>
+              <property name="value">
+               <number>28800</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="text">
+               <string>second(s)</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_10">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
           <widget class="QCheckBox" name="allowHandoff">
            <property name="text">
             <string>Allow Handoff</string>
@@ -2465,20 +2523,14 @@
           </widget>
          </item>
          <item>
-          <spacer name="verticalSpacer_11">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
+          <widget class="QCheckBox" name="allowCloudPrivateRelay">
+           <property name="text">
+            <string>Allow iCloud Private Relay</string>
            </property>
-           <property name="sizeType">
-            <enum>QSizePolicy::Fixed</enum>
+           <property name="checked">
+            <bool>true</bool>
            </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>10</height>
-            </size>
-           </property>
-          </spacer>
+          </widget>
          </item>
          <item>
           <widget class="QCheckBox" name="allowContentCaching">
@@ -2489,19 +2541,6 @@
             <bool>true</bool>
            </property>
           </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer_15">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>10</height>
-            </size>
-           </property>
-          </spacer>
          </item>
          <item>
           <widget class="QCheckBox" name="allowWallpaperModification">
@@ -2516,7 +2555,7 @@
          <item>
           <widget class="QCheckBox" name="allowPasscodeModification">
            <property name="text">
-            <string>Allow modifying passcode</string>
+            <string>Allow modifying Passcode</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -2700,6 +2739,7 @@
   </customwidget>
  </customwidgets>
  <resources>
+  <include location="Configurator.qrc"/>
   <include location="Configurator.qrc"/>
  </resources>
  <connections>
@@ -2934,12 +2974,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>155</x>
-     <y>241</y>
+     <x>170</x>
+     <y>368</y>
     </hint>
     <hint type="destinationlabel">
-     <x>209</x>
-     <y>333</y>
+     <x>224</x>
+     <y>680</y>
     </hint>
    </hints>
   </connection>
@@ -2970,8 +3010,8 @@
      <y>53</y>
     </hint>
     <hint type="destinationlabel">
-     <x>319</x>
-     <y>938</y>
+     <x>334</x>
+     <y>1542</y>
     </hint>
    </hints>
   </connection>
@@ -3004,6 +3044,22 @@
     <hint type="destinationlabel">
      <x>326</x>
      <y>75</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>requireEnforcedFingerprintTimeout</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>enforcedFingerprintTimeout</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>405</x>
+     <y>342</y>
     </hint>
    </hints>
   </connection>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>603</width>
-    <height>922</height>
+    <width>814</width>
+    <height>1897</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -47,7 +47,7 @@
         <item>
          <widget class="QLabel" name="lTip">
           <property name="text">
-           <string>Choose which options to show in the assistant </string>
+           <string>Choose which options to show in the assistant.</string>
           </property>
          </widget>
         </item>
@@ -62,12 +62,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipPasscode">
+          <property name="text">
+           <string>Hides and disables the passcode pane. Availability: iOS 7+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxAndroid">
           <property name="text">
            <string>Move from Android</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipAndroid">
+          <property name="text">
+           <string>If the Restore pane is not skipped, removes the Move from Android option in the&lt;br/&gt;Restore pane on iOS. Availability: iOS 9+.</string>
           </property>
          </widget>
         </item>
@@ -82,12 +96,43 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipWatchMigration">
+          <property name="text">
+           <string>Skips the screen for watch migration. Availability: iOS 11+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxUnlockWithWatch">
+          <property name="text">
+           <string>Unlock with Watch</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipUnlockWithWatch">
+          <property name="text">
+           <string>Skips Unlock Your Mac with your Apple Watch pane. Availability: macOS 12+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxSoftwareUpdate">
           <property name="text">
            <string>Keep Your Device Up to Date</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipSoftwareUpdate">
+          <property name="text">
+           <string>Skips the mandatory software update screen in iOS. Availability: iOS 12+.</string>
           </property>
          </widget>
         </item>
@@ -102,12 +147,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipiMessageAndFaceTime">
+          <property name="text">
+           <string>Skips the iMessage and FaceTime screen in iOS. Availability: iOS 12+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxHomeButtonSensitivity">
           <property name="text">
-           <string>Home Button</string>
+           <string>Home Button (Deprecated)</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipHomeButtonSensitivity">
+          <property name="text">
+           <string>Skips the Meet the New Home Button screen on iPhone 7, iPhone 7 Plus, iPhone 8,&lt;br/&gt;iPhone 8 Plus and iPhone SE. Availability: iOS 10+.</string>
           </property>
          </widget>
         </item>
@@ -122,9 +181,16 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipZoom">
+          <property name="text">
+           <string>Skips zoom setup. Availability: iOS 8.3+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxOnBoarding">
           <property name="text">
-           <string>New Feature Highlights</string>
+           <string>New Feature Highlights (Deprecated)</string>
           </property>
           <property name="checked">
            <bool>true</bool>
@@ -132,12 +198,9 @@
          </widget>
         </item>
         <item>
-         <widget class="QCheckBox" name="checkBoxKeyboard">
+         <widget class="QLabel" name="lTipOnBoarding">
           <property name="text">
-           <string>Keyboard Selection</string>
-          </property>
-          <property name="checked">
-           <bool>true</bool>
+           <string>Skips on-boarding informational screens for user education (Go Home, Cover Sheet,&lt;br/&gt;Multitasking &amp; Control Center, for example) in iOS. Availability: iOS 11 - 13.6.</string>
           </property>
          </widget>
         </item>
@@ -152,12 +215,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipSIMSetup">
+          <property name="text">
+           <string>Skips the add cellular plan pane. Availability: iOS 12+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxDeviceToDeviceMigration">
           <property name="text">
            <string>Transfer Data</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipDeviceToDeviceMigration">
+          <property name="text">
+           <string>Skips Device to Device Migration pane. Availability: iOS 13+.</string>
           </property>
          </widget>
         </item>
@@ -172,22 +249,9 @@
          </widget>
         </item>
         <item>
-         <widget class="QCheckBox" name="checkBoxExpressLanguage">
+         <widget class="QLabel" name="lTipWelcome">
           <property name="text">
-           <string>Express Language</string>
-          </property>
-          <property name="checked">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="checkBoxPreferredLanguage">
-          <property name="text">
-           <string>Preferred Language</string>
-          </property>
-          <property name="checked">
-           <bool>true</bool>
+           <string>Skips the Get Started pane. Availability: iOS 13+.</string>
           </property>
          </widget>
         </item>
@@ -202,12 +266,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipBiometric">
+          <property name="text">
+           <string>Skips biometric setup. Availability: iOS 8.1+ and macOS 10.12.4+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxRestore">
           <property name="text">
            <string>Set Up as New or Restore</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipRestore">
+          <property name="text">
+           <string>Disables restoring from backup. Availability: iOS 7+ and macOS 10.9+.</string>
           </property>
          </widget>
         </item>
@@ -222,12 +300,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipPayment">
+          <property name="text">
+           <string>Skips Apple Pay setup. Availability: iOS 8.1+ and macOS 10.12.4+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxDisplayTone">
           <property name="text">
-           <string>True Tone Display</string>
+           <string>True Tone Display (Deprecated)</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipDisplayTone">
+          <property name="text">
+           <string>Skips DisplayTone setup. Availability: iOS 9.3.2+ and macOS 10.13.6+.</string>
           </property>
          </widget>
         </item>
@@ -242,12 +334,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipAppearance">
+          <property name="text">
+           <string>Skips the Choose Your Look screen. Availability: iOS 13+ and macOS 10.14+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxScreenTime">
           <property name="text">
            <string>Screen Time</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipScreenTime">
+          <property name="text">
+           <string>Skips the Screen Time pane. Availability: iOS 12+ and macOS 10.15+.</string>
           </property>
          </widget>
         </item>
@@ -262,12 +368,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipLocation">
+          <property name="text">
+           <string>Disables Location Services. Availability: iOS 7+ and macOS 10.11+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxPrivacy">
           <property name="text">
            <string>Privacy</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipPrivacy">
+          <property name="text">
+           <string>Skips the privacy pane. Availability: iOS 11.13+, tvOS 11.13+, and macOS 10.13.4+.</string>
           </property>
          </widget>
         </item>
@@ -282,12 +402,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipSiri">
+          <property name="text">
+           <string>Disables Siri. Availability: iOS 7+, tvOS 10.2+, and macOS 10.12+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxAppleID">
           <property name="text">
            <string>Apple ID</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipAppleID">
+          <property name="text">
+           <string>Skips Apple ID setup. Availability: iOS 7.0+, tvOS 10.2+, and macOS 10.9+.</string>
           </property>
          </widget>
         </item>
@@ -302,12 +436,26 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipTOS">
+          <property name="text">
+           <string>Skips Terms and Conditions. Availability: iOS 7+, tvOS 10.2+, and macOS 10.9+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxDiagnostics">
           <property name="text">
            <string>App Analytics</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipDiagnostics">
+          <property name="text">
+           <string>Skips the App Analytics pane. Availability: iOS 7+, tvOS 10.2+, and macOS 10.9+.</string>
           </property>
          </widget>
         </item>
@@ -322,12 +470,213 @@
          </widget>
         </item>
         <item>
+         <widget class="QLabel" name="lTipRestoreCompleted">
+          <property name="text">
+           <string>Skips the Restore Completed pane. Availability: iOS 14+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QCheckBox" name="checkBoxUpdateCompleted">
           <property name="text">
            <string>Update Completed</string>
           </property>
           <property name="checked">
            <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipUpdateCompleted">
+          <property name="text">
+           <string>Skips the Software Update Complete pane. Availability: iOS 14+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxAccessibility">
+          <property name="text">
+           <string>Accessibility</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipAccessibility">
+          <property name="text">
+           <string>Skips the Accessibility pane, only if the Mac is connected to Ethernet and the cloud config&lt;br/&gt;is downloaded. Availability: macOS 11+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxFileVault">
+          <property name="text">
+           <string>FileVault</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipFileVault">
+          <property name="text">
+           <string>Disables FileVault Setup Assistant screen in macOS. Availability: macOS 10.10+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxiCloudDiagnostics">
+          <property name="text">
+           <string>iCloud Analytics</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipiCloudDiagnostics">
+          <property name="text">
+           <string>Skips iCloud Analytics screen. Availability: macOS 10.12.4+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxiCloudStorage">
+          <property name="text">
+           <string>iCloud Documents and Desktop</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipiCloudStorage">
+          <property name="text">
+           <string>Skips iCloud Documents and Desktop screen in macOS. Availability: macOS 10.13.4+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxMessagingActivationUsingPhoneNumber">
+          <property name="text">
+           <string>iMessage</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipMessagingActivationUsingPhoneNumber">
+          <property name="text">
+           <string>Skips the iMessage pane. Availability: iOS 10+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxScreenSaver">
+          <property name="text">
+           <string>tvOS Aerial screensaver</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipScreenSaver">
+          <property name="text">
+           <string>Skips the tvOS screen about using aerial screensavers in ATV. Availability: tvOS 10.2+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxTapToSetup">
+          <property name="text">
+           <string>Tap To Setup</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipTapToSetup">
+          <property name="text">
+           <string>Skips the Tap To Set Up option in AppleTV about using an iOS device to set up your AppleTV.&lt;br/&gt;Availability: tvOS 10.2+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxTVHomeScreenSync">
+          <property name="text">
+           <string>TV Home Screen Sync</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipTVHomeScreenSync">
+          <property name="text">
+           <string>Skips TV home screen layout sync screen. Availability: tvOS 11+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxTVProviderSignIn">
+          <property name="text">
+           <string>TV Provider</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipTVProviderSignIn">
+          <property name="text">
+           <string>Skips the TV provider sign in screen. Availability: tvOS 11+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxTVRoom">
+          <property name="text">
+           <string>Where is this Apple TV?</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipTVRoom">
+          <property name="text">
+           <string>Skips the “Where is this Apple TV?” screen in tvOS. Availability: tvOS 11.4+.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxAppStore">
+          <property name="text">
+           <string>App Store</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lTipAppStore">
+          <property name="text">
+           <string>Skips the App Store pane. Availability: iOS 14.3+ and macOS 11.1+.</string>
           </property>
          </widget>
         </item>
@@ -338,6 +687,16 @@
       <widget class="ItemListWidget" name="widgetAdditionalSkipItems" native="true"/>
      </item>
     </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please refer to &lt;a href=&quot;https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;Apple's documentation&lt;/span&gt;&lt;/a&gt; for more details.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
    </item>
    <item>
     <spacer name="verticalSpacer">
