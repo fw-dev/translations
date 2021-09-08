@@ -300,7 +300,7 @@ Worklist:
 <context>
     <name>KioskServerController</name>
     <message>
-        <location filename="../../QtClient/kiosk/KioskServerController.cpp" line="361"/>
+        <location filename="../../QtClient/kiosk/KioskServerController.cpp" line="368"/>
         <source>Installing Software...</source>
         <translation>Yazılım Yükleniyor...</translation>
     </message>
