@@ -6284,127 +6284,127 @@ This change can affect other Filesets that share the same folders.</source>
 <context>
     <name>CImportFilesetDlg</name>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="102"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="103"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="103"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="104"/>
         <source>cancelButton</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="121"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="122"/>
         <source>Importing Fileset Template...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="124"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="125"/>
         <source>Processing revisions of importing Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="128"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="129"/>
         <source>Creating Fileset from folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="132"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="133"/>
         <source>Creating OSX Image Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="136"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="137"/>
         <source>Creating Windows Image Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="140"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="141"/>
         <source>Creating Windows Driver Image Fileset...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="143"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="144"/>
         <source>Creating Fileset from Patch Installer...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="146"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="147"/>
         <source>Adding folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="149"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="150"/>
         <source>Creating Fileset from Android Package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="377"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="388"/>
         <source>Cancelling fileset import for: %1...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="407"/>
         <source>Error %1 while adding folder to Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="400"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="411"/>
         <source>Error %1 while creation of OSX Image Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="404"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="415"/>
         <source>Error %1 while creation of Windows Image Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="419"/>
         <source>Error %1 while creation of Windows Driver Image Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="425"/>
         <source>Error %1 during creation of Fileset Revision</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="416"/>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="570"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="427"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="581"/>
         <source>Error %1 during creation of Fileset Package</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="421"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="432"/>
         <source>Error %1 during creation of Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="425"/>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="571"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="436"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="582"/>
         <source>Import failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="485"/>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="491"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="496"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="502"/>
         <source>Import Profile Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="485"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="496"/>
         <source>Fileset %1 has the same payload unique identifier.
 As the current fileset is signed its uuid can&apos;t be regenerated. Fileset import will be cancelled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="491"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="502"/>
         <source>Fileset %1 has the same payload unique identifier.
 Current fileset uuid will be re-generated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="707"/>
+        <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="718"/>
         <source>Importing Android Package</source>
         <translation type="unfinished"></translation>
     </message>
