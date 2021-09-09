@@ -6,49 +6,49 @@
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="30"/>
         <source>FileWave</source>
-        <translation type="unfinished">FileWave</translation>
+        <translation>FileWave</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="31"/>
         <source>filewave.com</source>
-        <translation type="unfinished">filewave.com</translation>
+        <translation>filewave.com</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="32"/>
         <source>Booster Monitor</source>
-        <translation type="unfinished">Booster 监视器</translation>
+        <translation>Booster 监视器</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="41"/>
         <source>File</source>
-        <translation type="unfinished">文件</translation>
+        <translation>文件</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="42"/>
         <source>Open</source>
-        <translation type="unfinished">打开</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="43"/>
         <source>Ctrl+O</source>
         <comment>shortcut to open</comment>
-        <translation type="unfinished">Ctrl+O</translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="44"/>
         <source>Close</source>
-        <translation type="unfinished">关闭</translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="45"/>
         <source>Ctrl+W</source>
         <comment>shortcut to close window</comment>
-        <translation type="unfinished">Ctrl+W</translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="46"/>
         <source>About %1</source>
-        <translation type="unfinished">关于 %1</translation>
+        <translation>关于 %1</translation>
     </message>
 </context>
 </TS>
