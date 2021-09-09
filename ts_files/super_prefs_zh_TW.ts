@@ -6,37 +6,37 @@
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="21"/>
         <source>FileWave</source>
-        <translation type="unfinished">FileWave</translation>
+        <translation>FileWave</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="22"/>
         <source>filewave.com</source>
-        <translation type="unfinished">filewave.com</translation>
+        <translation>filewave.com</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="23"/>
         <source>SuperPrefs Editor</source>
-        <translation type="unfinished">SuperPrefs Editor</translation>
+        <translation>SuperPrefs Editor</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>File</source>
-        <translation type="unfinished">檔案</translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Close</source>
-        <translation type="unfinished">關閉</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished">Ctrl+W</translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="35"/>
         <source>About %1</source>
-        <translation type="unfinished">關於 %1</translation>
+        <translation>關於 %1</translation>
     </message>
 </context>
 </TS>
