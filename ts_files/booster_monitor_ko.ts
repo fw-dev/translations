@@ -6,49 +6,49 @@
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="30"/>
         <source>FileWave</source>
-        <translation type="unfinished"></translation>
+        <translation>FileWave</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="31"/>
         <source>filewave.com</source>
-        <translation type="unfinished"></translation>
+        <translation>filewave.com</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="32"/>
         <source>Booster Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>부스터 모니터</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="41"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>파일</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="42"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>열기</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="43"/>
         <source>Ctrl+O</source>
         <comment>shortcut to open</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="44"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="45"/>
         <source>Ctrl+W</source>
         <comment>shortcut to close window</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../QtBoosterMonitor/main.cpp" line="46"/>
         <source>About %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 정보</translation>
     </message>
 </context>
 </TS>
