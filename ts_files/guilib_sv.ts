@@ -707,7 +707,7 @@ You may ignore this warning if you have a customized setup. </source>
         <translation type="vanished">Synkronisera med FileWave</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.cpp" line="44"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.cpp" line="45"/>
         <source>(no value)</source>
         <translation type="unfinished">(inget värde)</translation>
     </message>
@@ -1125,17 +1125,17 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>KioskCategoryTreeModel</name>
     <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="37"/>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="38"/>
         <source>Category</source>
         <translation>Kategori</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="37"/>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="38"/>
         <source>Description</source>
         <translation>Beskrivning</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="45"/>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="46"/>
         <source>All</source>
         <translation>Alla</translation>
     </message>
