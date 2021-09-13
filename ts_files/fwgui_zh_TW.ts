@@ -198,17 +198,17 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
 <context>
     <name>KioskClient</name>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="244"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="250"/>
         <source>An administrator would like to take control of your machine.</source>
         <translation>一名管理員想要控制您的電腦。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="245"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="251"/>
         <source>Deny</source>
         <translation>拒絕</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="246"/>
+        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="252"/>
         <source>Allow</source>
         <translation>允許</translation>
     </message>
@@ -442,148 +442,148 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>更多</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="333"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="334"/>
         <source>Get license</source>
         <translation>取得授權</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="337"/>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="353"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="338"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="355"/>
         <source>Install</source>
         <translation>安裝</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="346"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="348"/>
         <source>Uninstall</source>
         <translation>解除安裝</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="456"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="459"/>
         <source>Not Installed</source>
         <translation>未安裝</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="459"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="462"/>
         <source>Queued for Installation</source>
         <translation>已加入安裝佇列</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="462"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="465"/>
         <source>Requirements Met</source>
         <translation>滿足要求</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="465"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="468"/>
         <source>Downloading...</source>
         <translation>正在下載...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="468"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="471"/>
         <source>Installing...</source>
         <translation>正在安裝...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="472"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="475"/>
         <source>Software installed on your system requires %1</source>
         <translation>您的系統上安裝的軟體需要 %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="474"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="477"/>
         <source>Installed</source>
         <translation>已安裝</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="477"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="480"/>
         <source>Uninstalling...</source>
         <translation>正在解除安裝...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="480"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="483"/>
         <source>Reinstalling...</source>
         <translation>正在重新安裝...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="483"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="486"/>
         <source>Install Failed</source>
         <translation>安裝失敗</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="486"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="489"/>
         <source>License association error</source>
         <translation>授權關聯錯誤</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="491"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="494"/>
         <source>License associated</source>
         <translation>授權已關聯</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="493"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="496"/>
         <source>License associated - Use App Store to install the app on your Mac</source>
         <translation>授權已關聯 - 使用 App Store 在您的 Mac 上安裝應用程式</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="499"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="502"/>
         <source>Applications cannot be uninstalled via MDM on macOS &lt; 11</source>
         <translation>無法透過 MDM 在低於 v11 的 macOS 上解除安裝應用程式</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="501"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="504"/>
         <source>Profiles cannot be managed via profiles command on macOS 11+</source>
         <translation>在 macOS 11+ 上無法透過設定檔命令管理設定檔</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="504"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="507"/>
         <source>Installed via Mac App Store</source>
         <translation>透過 Mac App Store 安裝</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="507"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="510"/>
         <source>Installing via Mac App Store (can take some time)</source>
         <translation>正在透過 Mac App Store 安裝（可能需要一些時間）</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="510"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="513"/>
         <source>Accept the invite to the organization with a valid iTunes account</source>
         <translation>使用有效的 iTunes 帳戶接受加入組織的邀請</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="513"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="516"/>
         <source>No VPP user for this application&apos;s organization for your device</source>
         <translation>您的裝置沒有此應用程式組織的 VPP 使用者</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="516"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="519"/>
         <source>VPP user is retired</source>
         <translation>VPP 使用者已淘汰</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="519"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="522"/>
         <source>VPP license for asset can not be assigned to a device</source>
         <translation>資產的 VPP 授權無法指派給裝置</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="522"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="525"/>
         <source>No VPP token associated</source>
         <translation>沒有關聯 VPP 權杖</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="525"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="528"/>
         <source>Not enough licenses</source>
         <translation>沒有足夠授權</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="528"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="531"/>
         <source>No license available or required</source>
         <translation>沒有可用或所需授權</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="531"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="534"/>
         <source>Invalid status</source>
         <translation>無效狀態</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="534"/>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="537"/>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
