@@ -101,27 +101,27 @@
         <translation>파일 세트 %2 중 %1 활성화하는 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4545"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4547"/>
         <source>Installing Software...</source>
         <translation>소프트웨어 설치 중...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4637"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4639"/>
         <source> Installation Failed</source>
         <translation> 설치 실패</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4645"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4647"/>
         <source> Installation Successfully</source>
         <translation> 설치 성공</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4996"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4998"/>
         <source>Updating %1 to new version</source>
         <translation>%1을(를) 새 버전으로 업데이트하는 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5554"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5556"/>
         <source>
 **************************
 **FileWave Client Status**
@@ -136,7 +136,7 @@ User ID: %1
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5559"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5561"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -149,7 +149,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5575"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5577"/>
         <source>Filesets not meeting requirements:
 
 </source>
@@ -158,7 +158,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5590"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5592"/>
         <source>
 Worklist:
 
@@ -169,17 +169,17 @@ Worklist:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5600"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5602"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
         <translation>&lt;파일 세트 이름을 아직 알 수 없음 &gt; ID: %1, 수정 ID: %2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5670"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5672"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation>데이터가 삭제되면 이 컴퓨터는 종료됩니다</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5671"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5673"/>
         <source>Executing Remote Wipe</source>
         <translation>원격 삭제 실행 중</translation>
     </message>
@@ -276,28 +276,28 @@ Worklist:
 <context>
     <name>FW::ServerConnection</name>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1375"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1380"/>
         <source>Building list of files to download...</source>
         <translation>다운로드할 파일 목록 작성 중...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1394"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1399"/>
         <source>Downloading subset for %1</source>
         <translation>%1 하위 집합 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1452"/>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1685"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1457"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1690"/>
         <source>Downloading %1</source>
         <translation>%1 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1602"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1607"/>
         <source>Sending download request to server...</source>
         <translation>서버로 다운로드 요청을 보내는 중...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1686"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1691"/>
         <source>Downloading...</source>
         <translation>다운로드 중...</translation>
     </message>

@@ -12690,448 +12690,453 @@ Please choose a different name or remove Imaging association.</source>
 <context>
     <name>ClientsGroupsView</name>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="57"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="58"/>
         <source>Client Monitor</source>
         <translation>클라이언트 모니터</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="58"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="59"/>
         <source>Create Association(s)...</source>
         <translation>연결 만들기...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="59"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="60"/>
         <source>Show Associated Filesets</source>
         <translation>연결된 파일 세트 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="60"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="61"/>
         <source>Show Associated Imaging Filesets</source>
         <translation>연결된 이미징 파일 세트 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="61"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="62"/>
         <source>Show Report</source>
         <translation>보고서 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="62"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="63"/>
         <source>Refresh</source>
         <translation>새로 고침</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="63"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="64"/>
         <source>Clear Fileset Status</source>
         <translation>파일 세트 상태 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="64"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="65"/>
         <source>Clear Certificate(s)</source>
         <translation>인증서 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="65"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="66"/>
         <source>Client Info...</source>
         <translation>클라이언트 정보...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="66"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="67"/>
         <source>Renew Client Token</source>
         <translation>클라이언트 토큰 갱신</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="67"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="68"/>
         <source>Observe Client...</source>
         <translation>클라이언트 관찰...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="68"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="69"/>
         <source>Show Location(s)</source>
         <translation>위치 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="69"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="70"/>
         <source>Create Clone...</source>
         <translation>복제본 생성...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="70"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="71"/>
         <source>Move To...</source>
         <translation>다음으로 이동...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="71"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="72"/>
         <source>Add To Cart...</source>
         <translation>카트에 추가...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="72"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="73"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="73"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="74"/>
         <source>Rename</source>
         <translation>이름 변경</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="74"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="75"/>
         <source>Comment</source>
         <translation>코멘트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="75"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="76"/>
         <source>Show Original</source>
         <translation>원본 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="76"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="77"/>
         <source>Edit Smart Group...</source>
         <translation>스마트 그룹 편집...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="77"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="78"/>
         <source>Log Out Users</source>
         <translation>사용자 로그아웃</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="78"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="79"/>
         <source>Unlock</source>
         <translation>잠금 해제</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="79"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="80"/>
         <source>Lock</source>
         <translation>잠금</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="80"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="81"/>
         <source>Add Client...</source>
         <translation>클라이언트 추가...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="81"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="82"/>
         <source>Add Group...</source>
         <translation>그룹 추가...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="82"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="83"/>
         <source>Add Smart Group...</source>
         <translation>스마트 그룹 추가...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="83"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="84"/>
         <source>Add GSuite OU...</source>
         <translation>GSuite OU 추가...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="84"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="85"/>
         <source>Add Cart...</source>
         <translation>카트 추가...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="85"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="86"/>
         <source>Duplicate Client</source>
         <translation>클라이언트 복제</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="86"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="87"/>
         <source>Duplicate Smart Group...</source>
         <translation>스마트 그룹 복제...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="87"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="88"/>
         <source>Edit Custom Field(s) Values...</source>
         <translation>사용자 지정 필드 값 편집...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="88"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="89"/>
         <source>Edit Custom Field(s) Associations...</source>
         <translation>사용자 지정 필드 연결 편집...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="93"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="94"/>
         <source>Archive</source>
         <translation>보관</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="94"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="95"/>
         <source>Reinstate</source>
         <translation>상태복구</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="96"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="97"/>
         <source>Show Archived clients</source>
         <translation>보관된 클라이언트 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="102"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="103"/>
         <source>Show Inventory only clients</source>
         <translation>인벤토리 전용 클라이언트 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="104"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="105"/>
         <source>Set Permissions...</source>
         <translation>권한 설정...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="105"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="106"/>
         <source>Clone to Same Groups As...</source>
         <translation>동일한 그룹을 다음으로 복제....</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="106"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="107"/>
         <source>Convert to Standard Group...</source>
         <translation>표준 그룹으로 변환...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="108"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="109"/>
         <source>Clear Passcode</source>
         <translation>암호 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="109"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="110"/>
         <source>Lock Device (MDM)</source>
         <translation>잠금 장치(MDM)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="110"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="111"/>
         <source>Request Check-in</source>
         <translation>체크인 요청</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="111"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="112"/>
         <source>Wipe Device...</source>
         <translation>장치 지우기...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="112"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="113"/>
         <source>Refresh Inventory (Verify)</source>
         <translation>인벤토리 새로 고침(검증)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="113"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="114"/>
         <source>Set Organization Info</source>
         <translation>조직 정보 설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="114"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="115"/>
         <source>Clear Restrictions Passcode (supervised iOS 8+)</source>
         <translation>제한 암호 지우기(감독 대상 iOS 8 이상)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="115"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="116"/>
         <source>Play Lost Mode Sound (iOS 10.3+)</source>
         <translation>분실 모드 사운드 재생(iOS 10.3 이상)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="116"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="117"/>
         <source>Shutdown (Supported MDM devices)</source>
         <translation>종료(지원되는 MDM 장치)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="117"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="118"/>
         <source>Lock Screen</source>
         <translation>잠금 화면</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="118"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="119"/>
         <source>Restart</source>
         <translation>재시작</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="119"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="122"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="120"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
         <source>Disable Device</source>
         <translation>장치 비활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="120"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="121"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="124"/>
         <source>Enable Device</source>
         <translation>장치 활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="121"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="122"/>
         <source>Restart (Supported MDM devices)</source>
         <translation>다시 시작(지원되는 MDM 장치)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="126"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="125"/>
+        <source>Open Remote Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
         <source>Enable Device Diagnostics</source>
         <translation>장치 진단 활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="127"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="129"/>
         <source>Disable Device Diagnostics</source>
         <translation>장치 진단 비활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="130"/>
         <source>Enable Application Analytics</source>
         <translation>애플리케이션 분석 활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="129"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="131"/>
         <source>Disable Application Analytics</source>
         <translation>애플리케이션 분석 비활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="130"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="132"/>
         <source>Reveal in Tree</source>
         <translation>트리에 표시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="131"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="133"/>
         <source>Change Enrollment Username...</source>
         <translation>등록 사용자 이름 변경...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="132"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="134"/>
         <source>Set Firmware Password...</source>
         <translation>펌웨어 비밀번호 설정...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="133"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="135"/>
         <source>Verify Firmware Password...</source>
         <translation>펌웨어 비밀번호 검증...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="135"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="137"/>
         <source>Everything</source>
         <translation>모든 것</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="136"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="138"/>
         <source>Clients</source>
         <translation>클라이언트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="137"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="139"/>
         <source>Mobile</source>
         <translation>모바일</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="138"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="140"/>
         <source>Groups</source>
         <translation>그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="139"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="141"/>
         <source>Clear all filters</source>
         <translation>모든 필터 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="183"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="185"/>
         <source>Ctrl+Shift+F</source>
         <translation>Ctrl+Shift+F</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="248"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="252"/>
         <source>Client State</source>
         <translation>클라이언트 상태</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="284"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="288"/>
         <source>Management Mode</source>
         <translation>관리 모드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="469"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="475"/>
         <source>Move Item</source>
         <translation>항목 이동</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="470"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="476"/>
         <source>Are you sure you want to move this item?   This may affect the associations it receives.</source>
         <translation>이 항목을 이동하시겠습니까?   이동하면 수신되는 연결에 영향이 있을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="473"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="479"/>
         <source>Move</source>
         <translation>이동</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="607"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="613"/>
         <source>Disable Chromebooks</source>
         <translation>Chromebook 비활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="607"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="613"/>
         <source>Disable Chromebook</source>
         <translation>Chromebook 비활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="611"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="617"/>
         <source>Enable Chromebooks</source>
         <translation>Chromebook 활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="611"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="617"/>
         <source>Enable Chromebook</source>
         <translation>Chromebook 활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1769"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
         <source>%1 Groups</source>
         <translation>%1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1769"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
         <source>%1 Group</source>
         <translation>%1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1772"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1788"/>
         <source>%1 Mobile Devices</source>
         <translation>%1개 모바일 장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1772"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1788"/>
         <source>%1 Mobile Device</source>
         <translation>%1개 모바일 장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1775"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1777"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1791"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1793"/>
         <source>%1 Clients</source>
         <translation>%1개 클라이언트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1775"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1777"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1791"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1793"/>
         <source>%1 Client</source>
         <translation>%1개 클라이언트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1779"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1795"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1801"/>
         <source> (%1 Clones)</source>
         <translation> (%1개 복제본)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1779"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1795"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1801"/>
         <source> (%1 Clone)</source>
         <translation> (%1개 복제본)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1782"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1798"/>
         <source> %1 Groups</source>
         <translation> %1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1782"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1798"/>
         <source> %1 Group</source>
         <translation> %1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1805"/>
         <source>,  %1 Mobile Devices</source>
         <translation>, %1개 모바일 장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1805"/>
         <source>,  %1 Mobile Device</source>
         <translation>, %1개 모바일 장치</translation>
     </message>
@@ -34952,6 +34957,37 @@ Make sure you update the Fileset or re-import it if you change the certificate.
  %1</source>
         <translation>프로필에 시스템 전용 페이로드가 있습니다.
  %1</translation>
+    </message>
+</context>
+<context>
+    <name>FWOneRemoteSession::RemoteSessionLoadingMessageBox</name>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="61"/>
+        <source>Remote support session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="62"/>
+        <source>FileWave is connecting with Teamviewer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="78"/>
+        <source>Could not open TeamViewer session URL in your default browser. You can join the session manually by visiting the URL below:&lt;br&gt;&lt;br&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FWOneRemoteSession::RemoteSessionManager</name>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="21"/>
+        <source>Could not open TeamViewer session because the server responded with an unexpected error. %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="30"/>
+        <source>Could not open TeamViewer session because the server sent an invalid response.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

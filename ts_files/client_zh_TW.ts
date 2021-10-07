@@ -101,27 +101,27 @@
         <translation>正在啟用檔案集 %1，共 %2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4545"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4547"/>
         <source>Installing Software...</source>
         <translation>正在安裝軟體...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4637"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4639"/>
         <source> Installation Failed</source>
         <translation> 安裝失敗</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4645"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4647"/>
         <source> Installation Successfully</source>
         <translation> 安裝成功</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4996"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4998"/>
         <source>Updating %1 to new version</source>
         <translation>正在將 %1 更新至新版本</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5554"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5556"/>
         <source>
 **************************
 **FileWave Client Status**
@@ -136,7 +136,7 @@ User ID: %1
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5559"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5561"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -149,7 +149,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5575"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5577"/>
         <source>Filesets not meeting requirements:
 
 </source>
@@ -158,7 +158,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5590"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5592"/>
         <source>
 Worklist:
 
@@ -169,17 +169,17 @@ Worklist:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5600"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5602"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
         <translation>&lt;檔案集名稱仍未知&gt; ID：%1，修訂版本 ID：%2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5670"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5672"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation>在清除其資料後，本電腦將關機</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5671"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5673"/>
         <source>Executing Remote Wipe</source>
         <translation>正在執行遠端抹除</translation>
     </message>
@@ -276,28 +276,28 @@ Worklist:
 <context>
     <name>FW::ServerConnection</name>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1375"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1380"/>
         <source>Building list of files to download...</source>
         <translation>正在建置要下載的檔案清單...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1394"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1399"/>
         <source>Downloading subset for %1</source>
         <translation>正在下載 %1 的子集</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1452"/>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1685"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1457"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1690"/>
         <source>Downloading %1</source>
         <translation>正在下載 %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1602"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1607"/>
         <source>Sending download request to server...</source>
         <translation>正在傳送下載要求至伺服器...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1686"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1691"/>
         <source>Downloading...</source>
         <translation>正在下載...</translation>
     </message>

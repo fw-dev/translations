@@ -12691,448 +12691,453 @@ Please choose a different name or remove Imaging association.</source>
 <context>
     <name>ClientsGroupsView</name>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="57"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="58"/>
         <source>Client Monitor</source>
         <translation>客户端监视器</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="58"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="59"/>
         <source>Create Association(s)...</source>
         <translation>创建关联...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="59"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="60"/>
         <source>Show Associated Filesets</source>
         <translation>显示关联文件集</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="60"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="61"/>
         <source>Show Associated Imaging Filesets</source>
         <translation>显示关联映像文件集</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="61"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="62"/>
         <source>Show Report</source>
         <translation>显示报告</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="62"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="63"/>
         <source>Refresh</source>
         <translation>刷新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="63"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="64"/>
         <source>Clear Fileset Status</source>
         <translation>清除文件集状态</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="64"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="65"/>
         <source>Clear Certificate(s)</source>
         <translation>清除证书</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="65"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="66"/>
         <source>Client Info...</source>
         <translation>客户端信息...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="66"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="67"/>
         <source>Renew Client Token</source>
         <translation>续订客户端令牌</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="67"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="68"/>
         <source>Observe Client...</source>
         <translation>观察客户端...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="68"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="69"/>
         <source>Show Location(s)</source>
         <translation>显示位置</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="69"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="70"/>
         <source>Create Clone...</source>
         <translation>创建克隆...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="70"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="71"/>
         <source>Move To...</source>
         <translation>移动到...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="71"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="72"/>
         <source>Add To Cart...</source>
         <translation>添加到购物车...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="72"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="73"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="73"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="74"/>
         <source>Rename</source>
         <translation>重命名</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="74"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="75"/>
         <source>Comment</source>
         <translation>备注</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="75"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="76"/>
         <source>Show Original</source>
         <translation>显示原始</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="76"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="77"/>
         <source>Edit Smart Group...</source>
         <translation>编辑智能组...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="77"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="78"/>
         <source>Log Out Users</source>
         <translation>注销用户</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="78"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="79"/>
         <source>Unlock</source>
         <translation>解锁</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="79"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="80"/>
         <source>Lock</source>
         <translation>锁定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="80"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="81"/>
         <source>Add Client...</source>
         <translation>添加客户端...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="81"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="82"/>
         <source>Add Group...</source>
         <translation>添加组...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="82"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="83"/>
         <source>Add Smart Group...</source>
         <translation>添加智能组...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="83"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="84"/>
         <source>Add GSuite OU...</source>
         <translation>添加 GSuite OU...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="84"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="85"/>
         <source>Add Cart...</source>
         <translation>添加购物车...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="85"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="86"/>
         <source>Duplicate Client</source>
         <translation>复制客户端</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="86"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="87"/>
         <source>Duplicate Smart Group...</source>
         <translation>复制智能组...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="87"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="88"/>
         <source>Edit Custom Field(s) Values...</source>
         <translation>编辑自定义字段值...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="88"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="89"/>
         <source>Edit Custom Field(s) Associations...</source>
         <translation>编辑自定义字段关联...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="93"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="94"/>
         <source>Archive</source>
         <translation>存档</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="94"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="95"/>
         <source>Reinstate</source>
         <translation>复原</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="96"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="97"/>
         <source>Show Archived clients</source>
         <translation>显示存档的客户端</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="102"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="103"/>
         <source>Show Inventory only clients</source>
         <translation>仅显示库存客户端</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="104"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="105"/>
         <source>Set Permissions...</source>
         <translation>设置权限...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="105"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="106"/>
         <source>Clone to Same Groups As...</source>
         <translation>克隆到与以下相同的组...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="106"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="107"/>
         <source>Convert to Standard Group...</source>
         <translation>转换为标准组...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="108"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="109"/>
         <source>Clear Passcode</source>
         <translation>清除密码</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="109"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="110"/>
         <source>Lock Device (MDM)</source>
         <translation>锁定设备 (MDM)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="110"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="111"/>
         <source>Request Check-in</source>
         <translation>请求签入</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="111"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="112"/>
         <source>Wipe Device...</source>
         <translation>擦除设备...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="112"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="113"/>
         <source>Refresh Inventory (Verify)</source>
         <translation>刷新库存（验证）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="113"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="114"/>
         <source>Set Organization Info</source>
         <translation>设置组织信息</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="114"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="115"/>
         <source>Clear Restrictions Passcode (supervised iOS 8+)</source>
         <translation>清除限制密码（受监控的 iOS 8+）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="115"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="116"/>
         <source>Play Lost Mode Sound (iOS 10.3+)</source>
         <translation>播放丢失模式音效 (iOS 10.3+)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="116"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="117"/>
         <source>Shutdown (Supported MDM devices)</source>
         <translation>关闭（支持的 MDM 设备）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="117"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="118"/>
         <source>Lock Screen</source>
         <translation>锁定屏幕</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="118"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="119"/>
         <source>Restart</source>
         <translation>重新启动</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="119"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="122"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="120"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
         <source>Disable Device</source>
         <translation>禁用设备</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="120"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="121"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="124"/>
         <source>Enable Device</source>
         <translation>启用设备</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="121"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="122"/>
         <source>Restart (Supported MDM devices)</source>
         <translation>重新启动（支持的 MDM 设备）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="126"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="125"/>
+        <source>Open Remote Session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
         <source>Enable Device Diagnostics</source>
         <translation>启用设备诊断</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="127"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="129"/>
         <source>Disable Device Diagnostics</source>
         <translation>禁用设备诊断</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="130"/>
         <source>Enable Application Analytics</source>
         <translation>启用应用程序分析</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="129"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="131"/>
         <source>Disable Application Analytics</source>
         <translation>禁用应用程序分析</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="130"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="132"/>
         <source>Reveal in Tree</source>
         <translation>以树的形式显示</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="131"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="133"/>
         <source>Change Enrollment Username...</source>
         <translation>更改注册用户名...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="132"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="134"/>
         <source>Set Firmware Password...</source>
         <translation>设置固件密码...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="133"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="135"/>
         <source>Verify Firmware Password...</source>
         <translation>验证固件密码...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="135"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="137"/>
         <source>Everything</source>
         <translation>所有内容</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="136"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="138"/>
         <source>Clients</source>
         <translation>客户端</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="137"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="139"/>
         <source>Mobile</source>
         <translation>移动设备</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="138"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="140"/>
         <source>Groups</source>
         <translation>组</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="139"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="141"/>
         <source>Clear all filters</source>
         <translation>清除所有过滤器</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="183"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="185"/>
         <source>Ctrl+Shift+F</source>
         <translation>Ctrl+Shift+F</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="248"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="252"/>
         <source>Client State</source>
         <translation>客户端状态</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="284"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="288"/>
         <source>Management Mode</source>
         <translation>管理模式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="469"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="475"/>
         <source>Move Item</source>
         <translation>移动项目</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="470"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="476"/>
         <source>Are you sure you want to move this item?   This may affect the associations it receives.</source>
         <translation>是否确实要移动此项目？   这可能影响它收到的关联。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="473"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="479"/>
         <source>Move</source>
         <translation>移动</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="607"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="613"/>
         <source>Disable Chromebooks</source>
         <translation>禁用 Chromebooks</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="607"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="613"/>
         <source>Disable Chromebook</source>
         <translation>禁用 Chromebook</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="611"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="617"/>
         <source>Enable Chromebooks</source>
         <translation>启用 Chromebooks</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="611"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="617"/>
         <source>Enable Chromebook</source>
         <translation>启用 Chromebook</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1769"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
         <source>%1 Groups</source>
         <translation>%1 个组</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1769"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
         <source>%1 Group</source>
         <translation>%1 个组</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1772"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1788"/>
         <source>%1 Mobile Devices</source>
         <translation>%1 个移动设备</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1772"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1788"/>
         <source>%1 Mobile Device</source>
         <translation>%1 个移动设备</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1775"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1777"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1791"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1793"/>
         <source>%1 Clients</source>
         <translation>%1 个客户端</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1775"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1777"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1791"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1793"/>
         <source>%1 Client</source>
         <translation>%1 个客户端</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1779"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1795"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1801"/>
         <source> (%1 Clones)</source>
         <translation> （%1 个克隆）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1779"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1785"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1795"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1801"/>
         <source> (%1 Clone)</source>
         <translation> （%1 个克隆）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1782"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1798"/>
         <source> %1 Groups</source>
         <translation> %1 个组</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1782"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1798"/>
         <source> %1 Group</source>
         <translation> %1 个组</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1805"/>
         <source>,  %1 Mobile Devices</source>
         <translation>，1% 个移动设备</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1805"/>
         <source>,  %1 Mobile Device</source>
         <translation>，%1 个移动设备</translation>
     </message>
@@ -34953,6 +34958,37 @@ Make sure you update the Fileset or re-import it if you change the certificate.
  %1</source>
         <translation>配置文件包含仅系统有效负载：
 %1</translation>
+    </message>
+</context>
+<context>
+    <name>FWOneRemoteSession::RemoteSessionLoadingMessageBox</name>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="61"/>
+        <source>Remote support session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="62"/>
+        <source>FileWave is connecting with Teamviewer...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="78"/>
+        <source>Could not open TeamViewer session URL in your default browser. You can join the session manually by visiting the URL below:&lt;br&gt;&lt;br&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>FWOneRemoteSession::RemoteSessionManager</name>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="21"/>
+        <source>Could not open TeamViewer session because the server responded with an unexpected error. %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="30"/>
+        <source>Could not open TeamViewer session because the server sent an invalid response.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
