@@ -6,37 +6,37 @@
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="21"/>
         <source>FileWave</source>
-        <translation type="unfinished"></translation>
+        <translation>FileWave</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="22"/>
         <source>filewave.com</source>
-        <translation type="unfinished"></translation>
+        <translation>filewave.com</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="23"/>
         <source>SuperPrefs Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>SuperPrefs 편집기</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>파일</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>Ctrl+W</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="35"/>
         <source>About %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 정보</translation>
     </message>
 </context>
 </TS>
