@@ -415,19 +415,24 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="212"/>
+        <source>Some long text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="350"/>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="385"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="212"/>
-        <source>Some long text</source>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="421"/>
+        <source>...More</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.ui" line="421"/>
-        <source>...More</source>
+        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="237"/>
+        <source>More</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -444,11 +449,6 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     <message>
         <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="348"/>
         <source>Uninstall</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskInstallWidget.cpp" line="237"/>
-        <source>More</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
