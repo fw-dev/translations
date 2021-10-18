@@ -6,38 +6,37 @@
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="21"/>
         <source>FileWave</source>
-        <translation>Tuğra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="22"/>
         <source>filewave.com</source>
-        <translation>eksera.com</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="23"/>
         <source>SuperPrefs Editor</source>
-        <translation>SuperPrefs Editörü </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="32"/>
         <source>File</source>
-        <translation>Dosya</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="33"/>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="34"/>
         <source>Ctrl+W</source>
-        <translation>Ctrl+W</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtSuperPrefsEditor/main.cpp" line="35"/>
         <source>About %1</source>
-        <translatorcomment>?</translatorcomment>
-        <translation>%1 Hakkında</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

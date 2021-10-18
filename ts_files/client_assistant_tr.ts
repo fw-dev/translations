@@ -34,57 +34,57 @@
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="14"/>
         <source>FileWave Client Installer Assistant</source>
-        <translation>Tuğra İstemci Kurulumu Yardımcısı</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="37"/>
         <source>Welcome to the FileWave Client Setup Assistant</source>
-        <translation>Tuğra İstemci Kurulumu Yardımcısına hoşgeldiniz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="47"/>
         <source>Please enter the initial preferences for this Client</source>
-        <translation>Bu istemci için ön tercihleri girin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="70"/>
         <source>Address:</source>
-        <translation>Adres:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="77"/>
         <source>Port:</source>
-        <translation>Port:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="90"/>
         <source>Server:</source>
-        <translation>Sunucu:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="123"/>
         <source>Booster:</source>
-        <translation>Booster:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="200"/>
         <source>Use Computer Name for Client Name</source>
-        <translation>İstemci Adı olarak Bilgisayar Adını Kullan</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="248"/>
         <source>Client Name:</source>
-        <translation>İstemci Adı:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="271"/>
         <source>Client Password:</source>
-        <translation>İstemci Şifresi:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="297"/>
         <source>Confirm Password:</source>
-        <translation>Şifreyi Doğrula:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.ui" line="343"/>
@@ -95,24 +95,24 @@
 <context>
     <name>QObject</name>
     <message>
+        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="221"/>
+        <source>The password and confirmation don&apos;t match -- please try again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../QtClientAssistant/main.cpp" line="19"/>
         <source>FileWave</source>
-        <translation>Tuğra</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/main.cpp" line="20"/>
         <source>filewave.com</source>
-        <translation>filewave.com</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../QtClientAssistant/main.cpp" line="21"/>
         <source>FileWave Client Assistant</source>
-        <translation>Tuğra İstemci Yardımcısı</translation>
-    </message>
-    <message>
-        <location filename="../../QtClientAssistant/assistantdlg.cpp" line="221"/>
-        <source>The password and confirmation don&apos;t match -- please try again.</source>
-        <translation type="unfinished">Şifre ve doğrulaması eşleşmiyor -- lütfen tekrar deneyin.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
