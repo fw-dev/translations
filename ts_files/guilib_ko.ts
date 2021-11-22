@@ -229,7 +229,7 @@
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="145"/>
         <source>FileWave Server Address cannot be empty</source>
-        <translation>FileWave 서버 주소는 비어 있을 수 없습니다.</translation>
+        <translation>FileWave 서버 주소를 비워 둘 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="164"/>

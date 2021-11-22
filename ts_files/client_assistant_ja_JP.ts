@@ -112,7 +112,7 @@
     <message>
         <location filename="../../QtClientAssistant/assistantdlg.cpp" line="221"/>
         <source>The password and confirmation don&apos;t match -- please try again.</source>
-        <translation type="unfinished">パスワードと確認が一致しません - 再実行してください。</translation>
+        <translation>パスワードと確認が一致しません - 再実行してください。</translation>
     </message>
 </context>
 </TS>

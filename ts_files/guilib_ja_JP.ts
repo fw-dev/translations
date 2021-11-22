@@ -272,6 +272,179 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
 </context>
 <context>
+    <name>ConnectDlg</name>
+    <message>
+        <source>SSL</source>
+        <translation type="vanished">SSL</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="14"/>
+        <source>Connect to Booster</source>
+        <translation>ブースターに接続</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="71"/>
+        <source>FileWave Booster</source>
+        <translation>FileWaveブースター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="81"/>
+        <source>Address:</source>
+        <translation>アドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="91"/>
+        <source>Port:</source>
+        <translation>ポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="22"/>
+        <source>Connect</source>
+        <translation>接続</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="71"/>
+        <source>Unable to connect.
+No running Booster found at specified address.</source>
+        <translation>接続できません。
+指定されたアドレスで実行中のブースターが見つかりません。</translation>
+    </message>
+</context>
+<context>
+    <name>MAIN</name>
+    <message>
+        <source>Some other User is modifying one of the objects involved in this operation.</source>
+        <translation type="vanished">他のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
+        <source>Another user is modifying one of the objects involved in this operation.</source>
+        <translation>別のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
+        <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
+        <translation>このリクエストを処理中にデータベースエラーが発生しました。詳細は、サーバーログ（fwxadmin.log）を確認してください。</translation>
+    </message>
+</context>
+<context>
+    <name>Options</name>
+    <message>
+        <source>Priority:</source>
+        <translation type="vanished">プライオリティ:</translation>
+    </message>
+    <message>
+        <source>Win</source>
+        <translation type="vanished">Win</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="14"/>
+        <source>Options</source>
+        <translation>オプション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="23"/>
+        <source>Debug Level:</source>
+        <translation>デバッグレベル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="43"/>
+        <source>File Check Interval:</source>
+        <translation>ファイル確認インターバル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="65"/>
+        <source>minutes</source>
+        <translation>分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="74"/>
+        <source>Free Space Margin:</source>
+        <translation>空き容量:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="81"/>
+        <source> MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="97"/>
+        <source>Password:</source>
+        <translation>パスワード:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="111"/>
+        <source>Confirm Password:</source>
+        <translation>確認パスワード:</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>GCM correctly configured.</source>
+        <translation type="vanished">GCMは正しく構成されています。</translation>
+    </message>
+    <message>
+        <source>GCM not configured.</source>
+        <translation type="vanished">GCMが構成されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="653"/>
+        <source>n.a.</source>
+        <comment>not applicable</comment>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="9"/>
+        <source>FCM correctly configured.</source>
+        <translation>FCMは正しく構成されています。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="11"/>
+        <source>Project number not set.</source>
+        <translation>プロジェクト番号が設定されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="13"/>
+        <source>API Key not set.</source>
+        <translation>APIキーキーが設定されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="15"/>
+        <source>Invalid server API key or project not correctly configured in Google Dev. Console.</source>
+        <translation>無効なサーバーAPIキーまたはプロジェクトがGoogle Dev. Consoleに正しく設定されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="17"/>
+        <source>FCM not configured.</source>
+        <translation>FCMは構成されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="52"/>
+        <source>Select an Icon</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>アイコンを選択</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="56"/>
+        <source>Select an exe, dll, or icon file</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>exe、dll、またはアイコンファイルを選択してください</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="60"/>
+        <source>Select an Application or icon file</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>アプリまたはアイコンファイルを選択してください</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="63"/>
+        <source>Images (</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>イメージ (</translation>
+    </message>
+</context>
+<context>
     <name>BoosterStatusDlg</name>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="14"/>
@@ -863,45 +1036,6 @@ settings for this client</source>
     </message>
 </context>
 <context>
-    <name>ConnectDlg</name>
-    <message>
-        <source>SSL</source>
-        <translation type="vanished">SSL</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="14"/>
-        <source>Connect to Booster</source>
-        <translation>ブースターに接続</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="71"/>
-        <source>FileWave Booster</source>
-        <translation>FileWaveブースター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="81"/>
-        <source>Address:</source>
-        <translation>アドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="91"/>
-        <source>Port:</source>
-        <translation>ポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="22"/>
-        <source>Connect</source>
-        <translation>接続</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="71"/>
-        <source>Unable to connect.
-No running Booster found at specified address.</source>
-        <translation>接続できません。
-指定されたアドレスで実行中のブースターが見つかりません。</translation>
-    </message>
-</context>
-<context>
     <name>ConnectingToBoosterWidget</name>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidget.cpp" line="13"/>
@@ -1125,74 +1259,6 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="109"/>
         <source>Sorry, but getting the log file failed.</source>
         <translation>ログファイルの取得に失敗しました。</translation>
-    </message>
-</context>
-<context>
-    <name>MAIN</name>
-    <message>
-        <source>Some other User is modifying one of the objects involved in this operation.</source>
-        <translation type="vanished">他のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
-        <source>Another user is modifying one of the objects involved in this operation.</source>
-        <translation>別のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
-        <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
-        <translation>このリクエストを処理中にデータベースエラーが発生しました。詳細は、サーバーログ（fwxadmin.log）を確認してください。</translation>
-    </message>
-</context>
-<context>
-    <name>Options</name>
-    <message>
-        <source>Priority:</source>
-        <translation type="vanished">プライオリティ:</translation>
-    </message>
-    <message>
-        <source>Win</source>
-        <translation type="vanished">Win</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="14"/>
-        <source>Options</source>
-        <translation>オプション</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="23"/>
-        <source>Debug Level:</source>
-        <translation>デバッグレベル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="43"/>
-        <source>File Check Interval:</source>
-        <translation>ファイル確認インターバル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="65"/>
-        <source>minutes</source>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="74"/>
-        <source>Free Space Margin:</source>
-        <translation>空き容量:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="81"/>
-        <source> MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="97"/>
-        <source>Password:</source>
-        <translation>パスワード:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="111"/>
-        <source>Confirm Password:</source>
-        <translation>確認パスワード:</translation>
     </message>
 </context>
 <context>
@@ -1661,72 +1727,6 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="23"/>
         <source>1 day</source>
         <translation>1 日</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>GCM correctly configured.</source>
-        <translation type="vanished">GCMは正しく構成されています。</translation>
-    </message>
-    <message>
-        <source>GCM not configured.</source>
-        <translation type="vanished">GCMが構成されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="653"/>
-        <source>n.a.</source>
-        <comment>not applicable</comment>
-        <translation>なし</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="9"/>
-        <source>FCM correctly configured.</source>
-        <translation>FCMは正しく構成されています。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="11"/>
-        <source>Project number not set.</source>
-        <translation>プロジェクト番号が設定されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="13"/>
-        <source>API Key not set.</source>
-        <translation>APIキーキーが設定されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="15"/>
-        <source>Invalid server API key or project not correctly configured in Google Dev. Console.</source>
-        <translation>無効なサーバーAPIキーまたはプロジェクトがGoogle Dev. Consoleに正しく設定されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="17"/>
-        <source>FCM not configured.</source>
-        <translation>FCMは構成されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="52"/>
-        <source>Select an Icon</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>アイコンを選択</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="56"/>
-        <source>Select an exe, dll, or icon file</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>exe、dll、またはアイコンファイルを選択してください</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="60"/>
-        <source>Select an Application or icon file</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>アプリまたはアイコンファイルを選択してください</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="63"/>
-        <source>Images (</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>イメージ (</translation>
     </message>
 </context>
 <context>

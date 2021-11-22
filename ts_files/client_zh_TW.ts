@@ -108,12 +108,12 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4639"/>
         <source> Installation Failed</source>
-        <translation> 安裝失敗</translation>
+        <translation>安裝失敗</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4647"/>
         <source> Installation Successfully</source>
-        <translation> 安裝成功</translation>
+        <translation>安裝成功</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4998"/>
@@ -132,7 +132,7 @@ User ID: %1
 **************************
 **FileWave 用戶端狀態**
 **************************
-使用者 ID： %1
+使用者 ID：%1
 </translation>
     </message>
     <message>

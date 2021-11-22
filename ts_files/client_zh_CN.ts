@@ -108,12 +108,12 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4639"/>
         <source> Installation Failed</source>
-        <translation> 安装失败</translation>
+        <translation>安装失败</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4647"/>
         <source> Installation Successfully</source>
-        <translation> 安装成功</translation>
+        <translation>安装成功</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="4998"/>
@@ -171,7 +171,7 @@ Worklist:
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="5602"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
-        <translation>&lt;文件集名称仍然未知&gt; ID：%1，修订 ID：%2</translation>
+        <translation>&lt;Fileset name still unknown&gt; ID：%1，修订 ID：%2</translation>
     </message>
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="5672"/>
