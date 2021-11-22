@@ -2570,7 +2570,17 @@
          <item>
           <widget class="QCheckBox" name="allowPasscodeModification">
            <property name="text">
-            <string>Allow modifying Passcode</string>
+            <string>Allow modifying passcode</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="allowEraseContentAndSettings">
+           <property name="text">
+            <string>Allow Erase All Content and Settings</string>
            </property>
            <property name="checked">
             <bool>true</bool>

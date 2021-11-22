@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>FirmwarePasswordDlg</class>
- <widget class="QWidget" name="FirmwarePasswordDlg">
+ <class>RecoveryLockDlg</class>
+ <widget class="QWidget" name="RecoveryLockDlg">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>577</width>
-    <height>272</height>
+    <width>600</width>
+    <height>320</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>300</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>Firmware Password</string>
+   <string>Recovery Lock</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_3">
    <property name="spacing">
@@ -35,9 +41,9 @@
       <item>
        <layout class="QFormLayout" name="formLayout">
         <item row="0" column="0">
-         <widget class="QLabel" name="labelCurrentPassword">
+         <widget class="QLabel" name="labelCurrentRecoveryLock">
           <property name="text">
-           <string>Current password:</string>
+           <string>Current Recovery Lock:</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -45,16 +51,16 @@
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QLineEdit" name="lineEditCurrentPassword">
+         <widget class="QLineEdit" name="lineEditCurrentRecoveryLock">
           <property name="echoMode">
            <enum>QLineEdit::Password</enum>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QLabel" name="labelNewPassword">
+         <widget class="QLabel" name="labelNewRecoveryLock">
           <property name="text">
-           <string>New password (empty to reset):</string>
+           <string>New Recovery Lock (empty to reset):</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -62,16 +68,16 @@
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="lineEditNewPassword">
+         <widget class="QLineEdit" name="lineEditNewRecoveryLock">
           <property name="echoMode">
            <enum>QLineEdit::Password</enum>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
-         <widget class="QLabel" name="labelVerifyPassword">
+         <widget class="QLabel" name="labelVerifyRecoveryLock">
           <property name="text">
-           <string>Verify password:</string>
+           <string>Verify Recovery Lock:</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -79,7 +85,7 @@
          </widget>
         </item>
         <item row="2" column="1">
-         <widget class="QLineEdit" name="lineEditVerifyPassword">
+         <widget class="QLineEdit" name="lineEditVerifyRecoveryLock">
           <property name="echoMode">
            <enum>QLineEdit::Password</enum>
           </property>
@@ -90,14 +96,20 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QLabel" name="labelPasswordMismatch">
+         <widget class="QLabel" name="labelRecoveryLockMismatch">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>18</height>
+           </size>
+          </property>
           <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;The provided passwords do not match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;The provided recovery locks do not match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label">
+         <widget class="QLabel" name="Spacer">
           <property name="minimumSize">
            <size>
             <width>0</width>
@@ -112,9 +124,9 @@
        </layout>
       </item>
       <item>
-       <widget class="QLabel" name="labelSetFirmwarePasswordWarning">
+       <widget class="QLabel" name="labelSetRecoveryLockWarning">
         <property name="text">
-         <string>Device must be rebooted for the new firmware password to take effect or before you change the password again.</string>
+         <string>Device must be rebooted for the new recovery lock to take effect or before you change the recovery lock again.</string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>
@@ -203,9 +215,9 @@
   </customwidget>
  </customwidgets>
  <tabstops>
-  <tabstop>lineEditCurrentPassword</tabstop>
-  <tabstop>lineEditNewPassword</tabstop>
-  <tabstop>lineEditVerifyPassword</tabstop>
+  <tabstop>lineEditCurrentRecoveryLock</tabstop>
+  <tabstop>lineEditNewRecoveryLock</tabstop>
+  <tabstop>lineEditVerifyRecoveryLock</tabstop>
  </tabstops>
  <resources/>
  <connections/>

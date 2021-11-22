@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>451</width>
+    <width>457</width>
     <height>419</height>
    </rect>
   </property>
@@ -127,10 +127,13 @@
    <item>
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Note: Propagation applies automatically recursively to children when &quot;no permissions&quot; is selected. This will not be visible by editing the permissions for children of those nodes.</string>
+      <string>Note: Propagation applies automatically recursively to children when &quot;no permissions&quot; is selected.  This will not be visible by editing the permissions for children of those nodes.</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>12</number>
      </property>
     </widget>
    </item>

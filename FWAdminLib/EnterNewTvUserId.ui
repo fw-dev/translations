@@ -3,7 +3,7 @@
  <class>EnterNewTvUserId</class>
  <widget class="QDialog" name="EnterNewTvUserId">
   <property name="windowTitle">
-   <string>Assignment of a TV license</string>
+   <string>Assign TeamViewer license</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="leftMargin">

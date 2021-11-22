@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>981</width>
-    <height>1169</height>
+    <height>1228</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -555,6 +555,25 @@
     </widget>
    </item>
    <item>
+    <widget class="QGroupBox" name="groupBoxFirmwarePasswordAndRecoveryLock">
+     <property name="title">
+      <string>Firmware Password and Recovery Lock</string>
+     </property>
+     <layout class="QGridLayout" name="gl_groupBoxFirmwarePassword">
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxManageFirmwarePasswordAndRecoveryLock">
+        <property name="text">
+         <string>Manage Firmware Password and Recovery Lock</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QWidget" name="widgetPlaceholder_61" native="true"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -638,6 +657,7 @@
   <zorder>groupBoxPreferences</zorder>
   <zorder>groupBoxBoosters</zorder>
   <zorder>groupBoxActivationLock</zorder>
+  <zorder>groupBoxFirmwarePasswordAndRecoveryLock</zorder>
  </widget>
  <resources/>
  <connections/>

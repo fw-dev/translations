@@ -674,7 +674,7 @@ outline: none;</string>
         </widget>
         <widget class="TVAdminWidget" name="tvAdminsTab">
          <attribute name="title">
-          <string>Team Viewer</string>
+          <string>TeamViewer</string>
          </attribute>
         </widget>
        </widget>

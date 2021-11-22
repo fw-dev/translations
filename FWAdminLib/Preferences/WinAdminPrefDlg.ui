@@ -1657,55 +1657,14 @@
              <item row="1" column="1">
               <widget class="CircularProgressIndicator" name="syncAppleCirc" native="true"/>
              </item>
-             <item row="4" column="0" colspan="4">
-              <widget class="QWidget" name="distributionModelWidget" native="true">
-               <layout class="QHBoxLayout" name="horizontalLayout_23">
-                <property name="leftMargin">
-                 <number>0</number>
-                </property>
-                <property name="topMargin">
-                 <number>0</number>
-                </property>
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>0</number>
-                </property>
-                <item>
-                 <widget class="QLabel" name="label_8">
-                  <property name="text">
-                   <string>Preferred license distribution model to use for new associations: </string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QComboBox" name="distributionModelCombo"/>
-                </item>
-                <item>
-                 <widget class="QLabel" name="label_distributionmodel_automatic_hint">
-                  <property name="text">
-                   <string>Assign to Device if possible, otherwise to User</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <spacer name="horizontalSpacer_25">
-                  <property name="orientation">
-                   <enum>Qt::Horizontal</enum>
-                  </property>
-                  <property name="sizeHint" stdset="0">
-                   <size>
-                    <width>40</width>
-                    <height>20</height>
-                   </size>
-                  </property>
-                 </spacer>
-                </item>
-               </layout>
+             <item row="1" column="2">
+              <widget class="QLabel" name="lastSyncWithApple">
+               <property name="text">
+                <string>Last Sync: (N/A)</string>
+               </property>
               </widget>
              </item>
-             <item row="5" column="0" colspan="3">
+             <item row="6" column="0" colspan="3">
               <widget class="QWidget" name="vppSynchronizationWidget" native="true">
                <layout class="QGridLayout" name="gridLayout_16">
                 <property name="leftMargin">
@@ -1832,6 +1791,61 @@
                </layout>
               </widget>
              </item>
+             <item row="5" column="0">
+              <widget class="QWidget" name="enableVppNotificationslWidget" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_16">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QCheckBox" name="enableVppNotificationsCheckBox">
+                  <property name="text">
+                   <string>Enable VPP Notifications</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_15">
+                  <property name="text">
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=55543458&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;VPP v2 Only&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="openExternalLinks">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_26">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QLabel" name="tokenLabel">
+               <property name="text">
+                <string>No tokens are configured</string>
+               </property>
+              </widget>
+             </item>
              <item row="0" column="3">
               <spacer name="horizontalSpacer_400">
                <property name="orientation">
@@ -1844,36 +1858,6 @@
                 </size>
                </property>
               </spacer>
-             </item>
-             <item row="1" column="3">
-              <spacer name="horizontalSpacer_8">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>400</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item row="2" column="0" colspan="2">
-              <widget class="QPushButton" name="btnEmailInvitationTemplate">
-               <property name="text">
-                <string>Configure email invitation template</string>
-               </property>
-               <property name="autoDefault">
-                <bool>false</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="2">
-              <widget class="QLabel" name="tokenLabel">
-               <property name="text">
-                <string>No tokens are configured</string>
-               </property>
-              </widget>
              </item>
              <item row="0" column="0">
               <widget class="QPushButton" name="editVPPTokensButton">
@@ -1891,12 +1875,66 @@
                </property>
               </widget>
              </item>
-             <item row="1" column="2">
-              <widget class="QLabel" name="lastSyncWithApple">
-               <property name="text">
-                <string>Last Sync: (N/A)</string>
-               </property>
+             <item row="4" column="0" colspan="4">
+              <widget class="QWidget" name="distributionModelWidget" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_23">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="text">
+                   <string>Preferred license distribution model to use for new associations: </string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="distributionModelCombo"/>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_distributionmodel_automatic_hint">
+                  <property name="text">
+                   <string>Assign to Device if possible, otherwise to User</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_25">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
               </widget>
+             </item>
+             <item row="1" column="3">
+              <spacer name="horizontalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>400</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
              </item>
              <item row="1" column="0">
               <widget class="QPushButton" name="syncVPPNow">
@@ -1911,6 +1949,16 @@
                </property>
                <property name="text">
                 <string>Synchronize</string>
+               </property>
+               <property name="autoDefault">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <widget class="QPushButton" name="btnEmailInvitationTemplate">
+               <property name="text">
+                <string>Configure email invitation template</string>
                </property>
                <property name="autoDefault">
                 <bool>false</bool>

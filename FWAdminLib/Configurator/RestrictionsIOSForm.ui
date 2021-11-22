@@ -1409,6 +1409,16 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allowMailPrivacyProtection">
+         <property name="text">
+          <string>Allow Mail Privacy Protection (Supervised devices only)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="allowUnpairedExternalBootToRecovery">
          <property name="text">
           <string>Allow putting into recovery mode from an unpaired device (Supervised devices only)</string>

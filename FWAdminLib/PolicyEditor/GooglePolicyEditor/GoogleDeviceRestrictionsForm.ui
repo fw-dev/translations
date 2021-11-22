@@ -402,6 +402,27 @@
          </layout>
         </item>
         <item row="6" column="0">
+         <widget class="QComboBox" name="frm_bluetoothEnabled"/>
+        </item>
+        <item row="6" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_bluetoothEnabled">
+          <item>
+           <widget class="QLabel" name="lbl_title_bluetoothEnabled">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="lTip_lbl_desc_bluetoothEnabled">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="7" column="0">
          <widget class="QComboBox" name="frm_bluetoothConfigEnabled">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -411,7 +432,7 @@
           </property>
          </widget>
         </item>
-        <item row="6" column="1">
+        <item row="7" column="1">
          <layout class="QVBoxLayout" name="verticalLayout_bluetoothConfigDisabled">
           <property name="sizeConstraint">
            <enum>QLayout::SetFixedSize</enum>

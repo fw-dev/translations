@@ -711,7 +711,7 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="206"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="207"/>
         <source>0.0.0.0</source>
         <translation>0.0.0.0</translation>
     </message>
@@ -781,63 +781,63 @@ You may ignore this warning if you have a customized setup. </source>
         <translation>環境設定...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="281"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="517"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="282"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="518"/>
         <source>[disconnected]</source>
         <translation>[切断]</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="291"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="292"/>
         <source>Getting Client Prefs...</source>
         <translation>クライアント環境設定を取得...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="443"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="444"/>
         <source>Imaging Appliance Monitor</source>
         <translation>イメージアプライアンスモニター</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="445"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="446"/>
         <source>%1 - Client Monitor</source>
         <translation>%1 - クライアントモニター</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="492"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="493"/>
         <source>(never)</source>
         <translation>(なし)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="497"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="498"/>
         <source>Connected (updates found)</source>
         <translation>接続済み (アップデートあり)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="497"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="498"/>
         <source>Connected (no updates)</source>
         <translation>接続済み (アップデートなし)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="500"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="501"/>
         <source>(now trying...)</source>
         <translation>(ただいま試行中...)</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="503"/>
         <source>Not connected</source>
         <translation>未接続</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="515"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="516"/>
         <source>Can&apos;t connect to client...</source>
         <translation>クライアントに接続できません...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="584"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="585"/>
         <source>The verify command has been sent to the client</source>
         <translation>確認コマンドをクライアントに送信しました</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="586"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="587"/>
         <source>Failed to send the verify message to this client</source>
         <translation>このクライアントに確認メッセージを送信できませんでした</translation>
     </message>
@@ -1559,18 +1559,18 @@ Please wait for the results before opening a new connection</source>
         <translation>既存のfwcld.newprefs.plist ファイルを選択するか、または「キャンセル」をクリックして空白のファイルから始めてください...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="254"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="252"/>
         <source>Password verification failed.</source>
         <translation>パスワード確認に失敗しました。</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="260"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="258"/>
         <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
         <translation>Superprefsファイルを保存する場所を選択してください;  後でファイルセットに追加します。</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="385"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="412"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="383"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="410"/>
         <source>You have unsaved changes.  Are you sure you want to quit?</source>
         <translation>変更が保存されていません。終了しますか？</translation>
     </message>
@@ -1674,7 +1674,7 @@ Please wait for the results before opening a new connection</source>
         <translation type="vanished">GCMが構成されていません。</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="653"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="655"/>
         <source>n.a.</source>
         <comment>not applicable</comment>
         <translation>なし</translation>

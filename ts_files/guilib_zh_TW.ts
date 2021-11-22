@@ -706,7 +706,7 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="206"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="207"/>
         <source>0.0.0.0</source>
         <translation>0.0.0.0</translation>
     </message>
@@ -776,63 +776,63 @@ You may ignore this warning if you have a customized setup. </source>
         <translation>喜好設定...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="281"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="517"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="282"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="518"/>
         <source>[disconnected]</source>
         <translation>[已斷開連線]</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="291"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="292"/>
         <source>Getting Client Prefs...</source>
         <translation>正在取得用戶端喜好設定...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="443"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="444"/>
         <source>Imaging Appliance Monitor</source>
         <translation>映像設備監視器</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="445"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="446"/>
         <source>%1 - Client Monitor</source>
         <translation>%1 - 用戶端監視器</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="492"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="493"/>
         <source>(never)</source>
         <translation>（從不）</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="497"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="498"/>
         <source>Connected (updates found)</source>
         <translation>已連線（找到更新）</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="497"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="498"/>
         <source>Connected (no updates)</source>
         <translation>已連線（無更新）</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="500"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="501"/>
         <source>(now trying...)</source>
         <translation>（現在正在嘗試...）</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="503"/>
         <source>Not connected</source>
         <translation>未連線</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="515"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="516"/>
         <source>Can&apos;t connect to client...</source>
         <translation>無法連線至用戶端...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="584"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="585"/>
         <source>The verify command has been sent to the client</source>
         <translation>驗證命令已傳送至用戶端</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="586"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="587"/>
         <source>Failed to send the verify message to this client</source>
         <translation>將驗證訊息傳送到此用戶端失敗</translation>
     </message>
@@ -1537,18 +1537,18 @@ Please wait for the results before opening a new connection</source>
         <translation>選取現有的 fwcld.newprefs.plist 檔案或按一下「取消」以從空白開始...</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="254"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="252"/>
         <source>Password verification failed.</source>
         <translation>密碼驗證失敗。</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="260"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="258"/>
         <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
         <translation>選擇一個位置來儲存 Superprefs 檔案；您稍後可將其新增到檔案集中。</translation>
     </message>
     <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="385"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="412"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="383"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="410"/>
         <source>You have unsaved changes.  Are you sure you want to quit?</source>
         <translation>您有未儲存的變更。  是否確定要結束？</translation>
     </message>
@@ -1644,7 +1644,7 @@ Please wait for the results before opening a new connection</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="653"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="655"/>
         <source>n.a.</source>
         <comment>not applicable</comment>
         <translation>不適用</translation>
