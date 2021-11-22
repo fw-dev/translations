@@ -8054,12 +8054,12 @@ Are you sure you want to permanently delete this value: %1?</source>
 <context>
     <name>CUpdateModelDlg</name>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="31"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="32"/>
         <source>Update Model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="42"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="43"/>
         <source>Insufficient Activation Code !
 
 Updating will not be possible until your license code supports your client or mobile load.
@@ -8073,32 +8073,32 @@ Chromebook licenses used: %5, total: %6.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="57"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="58"/>
         <source>Update license code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="65"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="66"/>
         <source>Can&apos;t update Server Model
 
 Server cannot be updated until all file uploads are completed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="74"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="75"/>
         <source>Can&apos;t update Server Model
 
 Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="85"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="86"/>
         <source>The mobile portion of your license expired on: %1.
 Desktop data only will be updated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="90"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="91"/>
         <source>Do you really wish to update the FileWave server model?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8472,6 +8472,7 @@ Please contact your administrator to check settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="66"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="477"/>
         <source>Login via IDP</source>
         <translation type="unfinished"></translation>
@@ -17046,15 +17047,15 @@ Are you sure ?</source>
     <name>DepProfileDlg</name>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="465"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="472"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="483"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="490"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="498"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="504"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="510"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="517"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="470"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="477"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="488"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="495"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="503"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="509"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="515"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="522"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="533"/>
         <source>DEP Profile</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17074,7 +17075,7 @@ Are you sure ?</source>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1800"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1823"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1846"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="368"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="372"/>
         <source>required</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17358,7 +17359,7 @@ Are you sure ?</source>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1691"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1777"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="367"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="371"/>
         <source>optional</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17721,94 +17722,94 @@ Are you sure ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="402"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="407"/>
         <source>Select a DER or PEM encoded certificate to add.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
         <source>Certificates (*.cer *.crt *.pem *.pkcs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="413"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="419"/>
         <source>Loading a certificate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="413"/>
         <source>The file %1 could not be opened for read: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="419"/>
         <source>The certificate could not be loaded.
 Only Pem and Der formatted certificates are allowed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="470"/>
         <source>Custom enrollment can&apos;t be checked while no IDP server configured! Please uncheck Custom enrollment and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="472"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="477"/>
         <source>A DEP Profile requires a name.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="479"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="484"/>
         <source>The account name needs at least one alphabetic character.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="483"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="488"/>
         <source>You need to enter a name for the Primary Account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="498"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="503"/>
         <source>Account creation requires a user account name.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="510"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="515"/>
         <source>Provided passwords for user account don&apos;t match</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="517"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="522"/>
         <source>Account creation requires an user&apos;s password.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="533"/>
         <source>Device naming requires a template.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="901"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="907"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="903"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="909"/>
         <source>iCloud</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="904"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="910"/>
         <source>ASM/ABM (Organization)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="923"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="929"/>
         <source>Activation Lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="923"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="929"/>
         <source>Shared iPads do not support iCloud Activation Lock.
 Changing to ASM/ABM Activation Lock.</source>
         <translation type="unfinished"></translation>
@@ -48900,7 +48901,7 @@ Try Again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="32"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="34"/>
         <source>Insufficient Activation Code found!
 
 Please enter your Activation Code</source>
@@ -53474,7 +53475,7 @@ Therefore it may happen that the device is not locked.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="516"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1795"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1810"/>
         <source>Sharing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -53529,142 +53530,142 @@ Therefore it may happen that the device is not locked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="895"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="910"/>
         <source>Allow use of Game Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="925"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="940"/>
         <source>Allow multiplayer gaming</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="935"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="950"/>
         <source>Allow adding Game Center friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="955"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="970"/>
         <source>Allow Game Center account modification</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="969"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="984"/>
         <source>Allow App Store app adoption</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1013"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1028"/>
         <source>Require admin password to install or update apps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1762"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1777"/>
         <source>Allow File Transfer using Finder or iTunes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1772"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1787"/>
         <source>Allow transferring documents to and from iOS and iPadOS devices using Finder or iTunes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1801"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1816"/>
         <source>Select services that should be available in the share menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1808"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1823"/>
         <source>AirDrop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1838"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1853"/>
         <source>Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1848"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1863"/>
         <source>Reminders</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1868"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1883"/>
         <source>Add to Photos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1914"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1929"/>
         <source>Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1904"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1919"/>
         <source>Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1818"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1833"/>
         <source>Mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1828"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1843"/>
         <source>Messages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1934"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1949"/>
         <source>Video Services - Flickr, Vimeo, Tudou and Youku</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1878"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1893"/>
         <source>Add to Aperture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1858"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1873"/>
         <source>Add to Reading List</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1944"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1959"/>
         <source>Sina Weibo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1959"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1974"/>
         <source>Automatically enable new sharing services</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1966"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1981"/>
         <source>New sharing services will be enabled in the share menu automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2000"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2015"/>
         <source>Lock desktop picture</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2013"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2028"/>
         <source>Prevents user from modifying the desktop picture selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2040"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2055"/>
         <source>Desktop picture path</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2047"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2062"/>
         <source>The path of the file to use as the desktop picture. Leave path blank to use the current selection on device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2057"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2072"/>
         <source>optional</source>
         <translation type="unfinished"></translation>
     </message>
@@ -53744,470 +53745,475 @@ Therefore it may happen that the device is not locked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="748"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="726"/>
+        <source>Battery</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="763"/>
         <source>Select All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="755"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="770"/>
         <source>Select None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="800"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="848"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="815"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="863"/>
         <source>Third-party Preference Panes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="812"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1101"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1159"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1217"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1321"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="827"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1116"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1232"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1336"/>
         <source>+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="819"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1111"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1169"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1227"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1331"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="834"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1126"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1184"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1242"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1346"/>
         <source>-</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="889"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="904"/>
         <source>Apps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="945"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="960"/>
         <source>Allow Game Center friends sharing modification</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="979"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="994"/>
         <source>Allow Safari AutoFill</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="989"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1004"/>
         <source>Allow accessing web sites using TLS 1.0 and 1.1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="996"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1011"/>
         <source>Allow software update notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1006"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1021"/>
         <source>Allow apps to get File Provider info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1020"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1035"/>
         <source>Restrict App Store to software updates only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1027"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1042"/>
         <source>Restrict App Store to MDM installed apps and software updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1050"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1065"/>
         <source>Restrict which apps are allowed to launch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1080"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1095"/>
         <source>Allow Apps:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1087"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1102"/>
         <source>The user can always launch these apps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1138"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1153"/>
         <source>Allow Folders:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1145"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1160"/>
         <source>The user can always launch applications in these folders</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1196"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1211"/>
         <source>Disallow Folders:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1203"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1218"/>
         <source>The user can never launch applications in these folders</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1269"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1284"/>
         <source>Widgets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1275"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1290"/>
         <source>Allow only the following Dashboard widgets to run</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1293"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1308"/>
         <source>Allow Widgets:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1300"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1315"/>
         <source>The user can always run these widgets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1370"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1385"/>
         <source>Media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1381"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1396"/>
         <source>Network Access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1388"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1403"/>
         <source>Access settings for network media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1411"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1426"/>
         <source>AirDrop:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1427"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1490"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1524"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1555"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1586"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1660"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1684"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1708"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1442"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1505"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1539"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1570"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1601"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1675"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1699"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1723"/>
         <source>Allow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1447"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1462"/>
         <source>Hard Disk Media Access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1454"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1469"/>
         <source>Access settings for hard disk media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1474"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1489"/>
         <source>Internal Disks:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1500"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1534"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1565"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1596"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1670"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1694"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1718"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1515"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1549"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1580"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1611"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1685"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1709"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1733"/>
         <source>Require Authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1510"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1541"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1572"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1603"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1525"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1556"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1587"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1618"/>
         <source>Read-Only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1517"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1532"/>
         <source>External Disks:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1548"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1563"/>
         <source>Disk Images:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1579"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1594"/>
         <source>DVD-RAM:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1617"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1632"/>
         <source>Disc Media Access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1624"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1639"/>
         <source>Access settings for removable disk media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1644"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1659"/>
         <source>CDs &amp; CD-ROMs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1677"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1692"/>
         <source>DVDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1701"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1716"/>
         <source>Recordable Discs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1732"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1747"/>
         <source>Eject at logout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1739"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1754"/>
         <source>Eject all removable media at logout</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1924"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1939"/>
         <source>LinkedIn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1989"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2004"/>
         <source>Functionality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2072"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2087"/>
         <source>Allow use of Camera</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2082"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2097"/>
         <source>Allow Apple Music</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2102"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2117"/>
         <source>Allow Look Up</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2112"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2127"/>
         <source>Allow Dictation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2122"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2137"/>
         <source>Allow Touch ID to unlock device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2147"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2162"/>
         <source>Require password to unlock device with Touch ID after </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2167"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2182"/>
         <source>second(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2190"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2205"/>
         <source>Allow Handoff</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2216"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2231"/>
         <source>Allow password sharing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2226"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2241"/>
         <source>Allow password AutoFill</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2236"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2251"/>
         <source>Allow proximity based password sharing requests</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2262"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2277"/>
         <source>Allow screenshots and screen recording</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2293"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2308"/>
         <source>Allow AirPlay, View Screen by Classroom, and Screen Sharing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2324"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2339"/>
         <source>Allow Classroom to perform AirPlay and View Screen without prompting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2337"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2352"/>
         <source>Allow Classroom to lock the device without prompting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2344"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2359"/>
         <source>Automatically join Classroom classes without prompting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2351"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2366"/>
         <source>Require teacher permission to leave Classroom unmanaged classes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2384"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2399"/>
         <source>Allow iCloud Drive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2415"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2430"/>
         <source>Allow iCloud Desktop &amp;&amp; Documents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2438"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2453"/>
         <source>Allow iCloud Mail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2448"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2463"/>
         <source>Allow iCloud Contacts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2458"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2473"/>
         <source>Allow iCloud Calendars</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2468"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2483"/>
         <source>Allow iCloud Reminders</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2478"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2493"/>
         <source>Allow iCloud Back to My Mac</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2488"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2503"/>
         <source>Allow iCloud Find My Mac</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2498"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2513"/>
         <source>Allow iCloud Bookmarks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2508"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2523"/>
         <source>Allow iCloud Photos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2518"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2533"/>
         <source>Allow iCloud Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2528"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2543"/>
         <source>Allow iCloud Private Relay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2538"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2553"/>
         <source>Allow Content Caching</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2548"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2563"/>
         <source>Allow modifying Wallpaper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2558"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2573"/>
         <source>Allow modifying Passcode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2599"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2631"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2663"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2614"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2646"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2678"/>
         <source> days(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2618"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2633"/>
         <source>Defer macOS updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2650"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2665"/>
         <source>Defer app updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2695"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2710"/>
         <source>Defer major macOS updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2705"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2720"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For clients below macOS 11.3 the value of &apos;Defer macOS updates&apos;&lt;br/&gt;will be used for all software updates.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2428"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2443"/>
         <source>Allow iCloud Keychain</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2374"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2389"/>
         <source>Allow use of iCloud password for local accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2092"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2107"/>
         <source>Allow Spotlight Suggestions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="375"/>
         <source>Adding Allowed Widget</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="133"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="375"/>
         <source>Bundle Identifier</source>
         <translation type="unfinished"></translation>
     </message>
@@ -54237,7 +54243,7 @@ Therefore it may happen that the device is not locked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="637"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="655"/>
         <source>bundle %1 is not installed on this host</source>
         <translation type="unfinished"></translation>
     </message>
@@ -54341,34 +54347,34 @@ changes made since the last update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="33"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="35"/>
         <source>Update license code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="38"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="40"/>
         <source>Do you really wish to revert to the last server model?
 This operation will irreversibly undo all changes made since the last update.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="41"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="43"/>
         <source>Revert Model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="87"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="106"/>
         <source>The database encryption key for the committed schema is missing. If the model is forced to revert then the encrypted values in the admin schema will be lost.
 Do you want to force revert the model?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="93"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="112"/>
         <source>Force Revert Model</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="117"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="136"/>
         <source>A REVERT MODEL has been performed!
 When any user performs a revert model, you must log out and log back into the FileWave™ system.</source>
         <translation type="unfinished"></translation>

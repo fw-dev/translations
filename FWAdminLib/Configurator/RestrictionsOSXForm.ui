@@ -720,6 +720,21 @@
               </property>
              </widget>
             </item>
+            <item>
+             <widget class="QCheckBox" name="battery">
+              <property name="text">
+               <string>Battery</string>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normalon>:/assets/restrictions/battery.png</normalon>
+               </iconset>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
            </layout>
           </widget>
          </item>
@@ -2739,7 +2754,6 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="Configurator.qrc"/>
   <include location="Configurator.qrc"/>
  </resources>
  <connections>

@@ -2024,7 +2024,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
         <source>Use this section to configure the Setup Assistant.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 섹션에서 설정 어시스턴트를 구성합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
@@ -2460,7 +2460,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
         <source>iOS 11.0+ and macOS 10.15+</source>
-        <translation type="unfinished">iOS 14.0+ 및 macOS 11.0+ {11.0+?} {10.15+?}</translation>
+        <translation>iOS 11.0+ 및 macOS 10.15+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
@@ -3722,7 +3722,7 @@ Booster가 아직 실행 중인 경우 해당 Booster를 Booster 목록에 다�
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="677"/>
         <source>Team Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>팀 뷰어</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="701"/>
@@ -5435,7 +5435,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/ExpertSettings.ui" line="20"/>
         <source>Files,  Folder,  and Windows registry names are ignored,  regardless of their location. Change only if you know what you are doing! Use the &quot;Restore Defaults&quot; button to get a safe default list.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일, 폴더 및 Windows 레지스트리 이름은 위치에 관계없이 무시됩니다. 수행 중인 작업을 아는 경우에만 변경하십시오! &quot;기본값 복원&quot; 버튼을 사용하여 안전 기본 목록을 가져옵니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/ExpertSettings.ui" line="37"/>
@@ -6414,7 +6414,7 @@ This change can affect other Filesets that share the same folders.</source>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="425"/>
         <source>Error %1 during creation of Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 세트 수정 버전을 생성하는 동안 오류 %1 발생</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="427"/>
@@ -6984,7 +6984,7 @@ installed the software.</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="27"/>
         <source>Detail</source>
-        <translation type="unfinished">세부정보</translation>
+        <translation>세부 정보</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="43"/>
@@ -7171,7 +7171,7 @@ When you are done click Continue.</source>
     <message>
         <location filename="../../FWAdminLib/NewClientDlg.ui" line="239"/>
         <source>Import a list of names from a local .txt file</source>
-        <translation>local .txt file에서 이름 목록 가져오기</translation>
+        <translation>로컬 .txt 파일에서 이름 목록 가져오기</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientDlg.ui" line="259"/>
@@ -7441,7 +7441,7 @@ Check the log file for more details</source>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="861"/>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="868"/>
         <source>(Setting is not applied until next model update)</source>
-        <translation type="unfinished"></translation>
+        <translation>(다음번 모델 업데이트까지 설정이 적용되지 않음)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="888"/>
@@ -8084,7 +8084,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/ShowRegDiff.cpp" line="275"/>
         <source>Deleting certain registry values could cause system instability.
 Are you sure you want to permanently delete those values?</source>
-        <translation type="unfinished"></translation>
+        <translation>특정 레지스트리 값을 삭제하면 시스템이 불안정해질 수 있습니다.
+해당 값을 영구적으로 삭제하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ShowRegDiff.cpp" line="276"/>
@@ -8112,12 +8113,12 @@ Are you sure you want to permanently delete this value: %1?</source>
 <context>
     <name>CUpdateModelDlg</name>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="31"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="32"/>
         <source>Update Model</source>
         <translation>모델 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="42"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="43"/>
         <source>Insufficient Activation Code !
 
 Updating will not be possible until your license code supports your client or mobile load.
@@ -8140,12 +8141,12 @@ Chromebook licenses used: %5, total: %6.
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="57"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="58"/>
         <source>Update license code</source>
         <translation>라이선스 코드 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="65"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="66"/>
         <source>Can&apos;t update Server Model
 
 Server cannot be updated until all file uploads are completed.</source>
@@ -8154,7 +8155,7 @@ Server cannot be updated until all file uploads are completed.</source>
 모든 파일 업로드가 완료될 때까지 서버를 업데이트할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="74"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="75"/>
         <source>Can&apos;t update Server Model
 
 Inventory server is offline, certain features require an inventory connection, please investigate.</source>
@@ -8163,14 +8164,14 @@ Inventory server is offline, certain features require an inventory connection, p
 인벤토리 서버가 오프라인 상태입니다. 특정 기능을 사용하려면 인벤토리 접속이 필요합니다. 관련 내용을 조사하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="85"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="86"/>
         <source>The mobile portion of your license expired on: %1.
 Desktop data only will be updated.</source>
         <translation>보유하신 라이선스의 모바일 부분은 다음 날짜에 만료되었습니다: %1.
 데스크톱 데이터만 업데이트됩니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="90"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="91"/>
         <source>Do you really wish to update the FileWave server model?</source>
         <translation>FileWave 서버 모델을 업데이트하시겠습니까?</translation>
     </message>
@@ -8560,6 +8561,7 @@ Please contact your administrator to check settings.</source>
         <translation>IDP를 통한 로그인 실패</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="66"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="477"/>
         <source>Login via IDP</source>
         <translation>IDP를 통한 로그인</translation>
@@ -8806,6 +8808,13 @@ Please enter your Activation Code.</source>
         <translation>&apos;부분&apos; 파일 세트에 대한 권한을 설정할 수 없습니다.</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1406"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1568"/>
         <source>Loading server logfile...</source>
         <translation>서버 로그 파일 로드 중...</translation>
@@ -8863,6 +8872,13 @@ log out and log back into the FileWave™ system.</source>
         <translation>&apos;부분&apos; 파일 세트를 복제할 수 없습니다.</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1810"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1820"/>
         <source>Error while duplicating fileset</source>
         <translation>파일 세트 복제 중에 오류 발생</translation>
@@ -8888,6 +8904,15 @@ log out and log back into the FileWave™ system.</source>
         <translation>&apos;부분&apos; 파일 세트에 대한 보고서를 열 수 없습니다.</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1982"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2005"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2044"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2005"/>
         <source>Cannot open properties for a &apos;partial&apos; fileset</source>
         <translation>&apos;부분&apos; 파일 세트에 대한 속성을 열 수 없습니다.</translation>
@@ -8896,6 +8921,12 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2016"/>
         <source>Outdated platforms in requirements</source>
         <translation>오래된 플랫폼의 요구 사항</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2017"/>
+        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
+When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2026"/>
@@ -8913,35 +8944,6 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2089"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>&apos;부분&apos; 파일 세트를 내보낼 수 없습니다.</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1406"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1810"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1982"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2005"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2044"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2017"/>
-        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
-When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2089"/>
@@ -10371,7 +10373,7 @@ Are you sure you want to continue?</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1293"/>
         <source>In order to reflect the change in ownership lookups, you will need to quit the Admin and log in again.</source>
-        <translation>소유권 검색의 변경사항을 적용하려면 Admin을 종료하고 다시 로그인해야 합니다.</translation>
+        <translation>소유권 조회의 변경사항을 적용하려면 Admin을 종료하고 다시 로그인해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1301"/>
@@ -12555,7 +12557,7 @@ Do you want to proceed with certificate generation now?</source>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="357"/>
         <source>Imaging MAC Address</source>
-        <translation type="unfinished"></translation>
+        <translation>이미징 MAC 주소</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="359"/>
@@ -12593,7 +12595,8 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="865"/>
         <source>The MAC address provided does not have the correct format.
 Please use xx:xx:xx:xx:xx:xx.</source>
-        <translation type="unfinished"></translation>
+        <translation>제공된 MAC 주소의 형식이 잘못되었습니다.
+xx:xx:xx:xx:xx:xx를 사용하십시오.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="884"/>
@@ -12959,7 +12962,7 @@ Please choose a different name or remove Imaging association.</source>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="125"/>
         <source>Open Remote Session</source>
-        <translation type="unfinished"></translation>
+        <translation>원격 세션 열기</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
@@ -13461,20 +13464,17 @@ Failed FileWave IDs: %4</source>
         <translation>암호로 보호된 iOS 장치는 암호를 입력할 때까지 Wi-Fi 네트워크에 자동으로 연결되지 않습니다. 따라서 암호를 입력할 때까지 원격 관리가 불가능합니다. 계속하기 전에 암호를 알고 있는지 확인하십시오. Wi-Fi에 접속되지 않으면 FileWave는 이 정보를 지울 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1484"/>
         <source>Unable to delete group: %1
 
 This is the %2.  To delete, change the auto-add preference in:
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>그룹을 삭제할 수 없음: %1
+
+%2입니다.  삭제하려면 다음에서 자동 추가 기본 설정을 변경합니다.
+
+%3</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1489"/>
@@ -13483,12 +13483,23 @@ This is the %2.  To delete, change the auto-add preference in:
 This group contains the %2 &apos;%3&apos;.  To delete this group, change the auto-add preference in:
 
 %4</source>
-        <translation type="unfinished"></translation>
+        <translation>그룹을 삭제할 수 없음: %1
+
+이 그룹은 %2 &apos;%3&apos;을(를) 포함합니다.  이 그룹을 삭제하려면 다음에서 자동 추가 기본 설정을 변경하십시오.
+
+%4</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="672"/>
         <source>You cannot use the Client Monitor with Apple iOS devices</source>
         <translation>Apple iOS 장치에서 클라이언트 모니터를 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+
+Do you want to open the Client Monitor anyway?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="777"/>
@@ -13763,12 +13774,12 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1476"/>
         <source>committed auto-add group</source>
-        <translation type="unfinished"></translation>
+        <translation>커밋된 자동 추가 그룹</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1476"/>
         <source>auto-add group</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 추가 그룹</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1481"/>
@@ -14459,33 +14470,33 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1140"/>
         <source>Software Update Settings (supervised iOS devices only)</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트웨어 업데이트 설정(감독 대상 iOS 장치만 해당)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1151"/>
         <source>Both update versions</source>
-        <translation type="unfinished"></translation>
+        <translation>두 가지 업데이트 버전 모두</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1156"/>
         <source>Only minor update version</source>
-        <translation type="unfinished"></translation>
+        <translation>부 업데이트 버전만</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1161"/>
         <source>Only major update version</source>
-        <translation type="unfinished"></translation>
+        <translation>주 업데이트 버전만</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1166"/>
         <source>Don&apos;t change update settings</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 설정 변경 안 함</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1174"/>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="474"/>
         <source>No MDM restrictions. The latest major and the latest minor versions of updates are available.  E.g. iOS 15.0 and iOS 14.6</source>
-        <translation type="unfinished"></translation>
+        <translation>MDM 제한 없음. 최신 주 업데이트 버전과 부 업데이트 버전을 사용할 수 있습니다.  예: iOS 15.0 및 iOS 14.6</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="44"/>
@@ -14520,12 +14531,12 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="470"/>
         <source>Only the latest minor update version is proposed to the user.  E.g. iOS 14.6</source>
-        <translation type="unfinished"></translation>
+        <translation>최신 부 업데이트 버전만 사용자에게 제안됩니다.  예: iOS 14.6</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="472"/>
         <source>Only the latest major update version is proposed to the user.  E.g. iOS 15.0</source>
-        <translation type="unfinished"></translation>
+        <translation>최신 주 업데이트 버전만 사용자에게 제안됩니다.  예: iOS 15.0</translation>
     </message>
 </context>
 <context>
@@ -14954,7 +14965,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="96"/>
         <source>IP address ranges of the peers to query content from</source>
-        <translation type="unfinished"></translation>
+        <translation>콘텐츠를 쿼리할 피어의 IP 주소 범위</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="104"/>
@@ -17428,7 +17439,7 @@ Are you sure ?</source>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="193"/>
         <source>Unlock your Mac with your Apple Watch</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple Watch로 Mac 잠금 해제</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="280"/>
@@ -17451,95 +17462,95 @@ Are you sure ?</source>
         <translation>FileWave 클라이언트 이름을 사용하여 이름 변경</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="402"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="407"/>
         <source>Select a DER or PEM encoded certificate to add.</source>
         <translation>추가할 DER 또는 PEM 암호화 인증서를 선택합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
         <source>Certificates (*.cer *.crt *.pem *.pkcs)</source>
         <translation>인증서(*.cer *.crt *.pem *.pkcs)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="413"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="419"/>
         <source>Loading a certificate</source>
         <translation>인증서 로드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="413"/>
         <source>The file %1 could not be opened for read: %2</source>
         <translation>%1 파일을 읽기 위해 열 수 없습니다. %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="419"/>
         <source>The certificate could not be loaded.
 Only Pem and Der formatted certificates are allowed.</source>
         <translation>인증서를 로드할 수 없습니다.
 Pem 및 Der 형식의 인증서만 허용됩니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="470"/>
         <source>Custom enrollment can&apos;t be checked while no IDP server configured! Please uncheck Custom enrollment and try again.</source>
         <translation>IDP 서버가 구성되어 있지 않으면 사용자 지정 등록을 확인할 수 없습니다. &apos;사용자 지정 등록&apos; 선택을 취소하고 다시 시도하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="472"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="477"/>
         <source>A DEP Profile requires a name.</source>
         <translation>DEP 프로필의 이름이 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="479"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="484"/>
         <source>The account name needs at least one alphabetic character.</source>
         <translation>계정 이름에는 하나 이상의 영문자가 들어가야 합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="483"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="488"/>
         <source>You need to enter a name for the Primary Account.</source>
         <translation>기본 계정의 이름을 입력해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="498"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="503"/>
         <source>Account creation requires a user account name.</source>
         <translation>계정을 만들려면 사용자 계정 이름이 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="510"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="515"/>
         <source>Provided passwords for user account don&apos;t match</source>
         <translation>사용자 계정에 제공된 비밀번호가 일치하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="517"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="522"/>
         <source>Account creation requires an user&apos;s password.</source>
         <translation>계정을 만들려면 사용자의 비밀번호가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="533"/>
         <source>Device naming requires a template.</source>
         <translation>장치의 이름을 지정하려면 템플릿이 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="901"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="907"/>
         <source>Disabled</source>
         <translation>사용 안 함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="903"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="909"/>
         <source>iCloud</source>
         <translation>iCloud</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="904"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="910"/>
         <source>ASM/ABM (Organization)</source>
         <translation>ASM/ABM(조직)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="923"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="929"/>
         <source>Activation Lock</source>
         <translation>활성화 잠금</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="923"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="929"/>
         <source>Shared iPads do not support iCloud Activation Lock.
 Changing to ASM/ABM Activation Lock.</source>
         <translation>공용 iPad는 iCloud 활성화 잠금을 지원하지 않습니다.
@@ -17547,15 +17558,15 @@ ASM/ABM 활성화 잠금으로 변경합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="465"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="472"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="483"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="490"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="498"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="504"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="510"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="517"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="470"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="477"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="488"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="495"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="503"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="509"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="515"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="522"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="533"/>
         <source>DEP Profile</source>
         <translation>DEP 프로필</translation>
     </message>
@@ -17575,7 +17586,7 @@ ASM/ABM 활성화 잠금으로 변경합니다.</translation>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1800"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1823"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1846"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="368"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="372"/>
         <source>required</source>
         <translation>필수</translation>
     </message>
@@ -17849,7 +17860,7 @@ ASM/ABM 활성화 잠금으로 변경합니다.</translation>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1691"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1777"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="367"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="371"/>
         <source>optional</source>
         <translation>선택 사항</translation>
     </message>
@@ -19551,12 +19562,12 @@ If empty, all domains will use the DNS server.</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="251"/>
         <source>Use this button if you want to reset this configuration process (ex. in case of an invalid JSON file upload)</source>
-        <translation type="unfinished"></translation>
+        <translation>이 구성 프로세스를 재설정하려면 이 버튼을 사용합니다(예: 잘못된 JSON 파일 업로드 시).</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="271"/>
         <source>Reset</source>
-        <translation type="unfinished">재설정</translation>
+        <translation>재설정</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="304"/>
@@ -19825,12 +19836,12 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="219"/>
         <source>Number of TV licenses:</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 라이선스 수:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="226"/>
         <source>labelNumTvAdm</source>
-        <translation type="unfinished"></translation>
+        <translation>labelNumTvAdm</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="94"/>
@@ -22174,12 +22185,12 @@ Configurator와 함께 서버 인증서를 사용할 수 있도록 서버 인증
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="6"/>
         <source>Assignment of a TV license</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 라이선스 할당</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="44"/>
         <source>Please enter the user identification.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 ID를 입력하십시오.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="77"/>
@@ -22188,17 +22199,21 @@ Configurator와 함께 서버 인증서를 사용할 수 있도록 서버 인증
             &lt;p&gt;It cannot be removed for the following 6 months.&lt;/p&gt;
             &lt;p&gt;For more information, click &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
             </source>
-        <translation type="unfinished"></translation>
+        <translation>
+            &lt;p&gt;라이선스 사용량이 즉시 확인됩니다.&lt;/p&gt;
+            &lt;p&gt;다음 6개월 동안 제거할 수 없습니다.&lt;/p&gt;
+            &lt;p&gt;자세한 내용을 확인하려면 &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;여기&lt;/a&gt;를 클릭하십시오.&lt;/p&gt;
+            </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.cpp" line="30"/>
         <source>User identification cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 ID를 비워 둘 수 없음</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.cpp" line="34"/>
         <source>This user has a license already</source>
-        <translation type="unfinished"></translation>
+        <translation>이 사용자에게 라이선스가 이미 있음</translation>
     </message>
 </context>
 <context>
@@ -22303,12 +22318,12 @@ Configurator와 함께 서버 인증서를 사용할 수 있도록 서버 인증
     <message>
         <location filename="../../FWAdminLib/Configurator/ExchangeForm.ui" line="65"/>
         <source>The user of the account with optional domain (e.g. &quot;user&quot; or &quot;domain\user&quot;) (required for</source>
-        <translation type="unfinished"></translation>
+        <translation>선택적 도메인 계정 사용자(예: &quot;user&quot; 또는 &quot;domain\user&quot;)(감독 대상</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ExchangeForm.ui" line="75"/>
         <source>supervised devices). Leave blank to set on device</source>
-        <translation type="unfinished"></translation>
+        <translation>장치에 필요). 장치에서 설정하려면 비워 둠</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ExchangeForm.ui" line="89"/>
@@ -24606,13 +24621,13 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="259"/>
         <source>FileWave Client Version</source>
         <comment>field filewave_client_version display name</comment>
-        <translation type="unfinished">FileWave 클라이언트 버전</translation>
+        <translation>FileWave 클라이언트 버전</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="260"/>
         <source>Version number of the FileWave Inventory Extension.</source>
         <comment>field filewave_client_version description</comment>
-        <translation type="unfinished"></translation>
+        <translation>FileWave Inventory Extension 버전 번호.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="261"/>
@@ -25389,13 +25404,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="388"/>
         <source>Software Update Device ID</source>
         <comment>field software_update_device_id display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>소프트웨어 업데이트 장치 ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="389"/>
         <source>Device Identifier for macOS or iOS software updates.</source>
         <comment>field software_update_device_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>macOS 또는 iOS 소프트웨어 업데이트를 위한 장치 식별자입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="390"/>
@@ -25644,7 +25659,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="429"/>
         <source>This value is true when the content cache has finished moving from one volume to another.</source>
         <comment>field data_migration_completed description</comment>
-        <translation>이 값은 콘텐츠 캐시가 볼륨 간에 이동을 완료했을 때 적용됩니다.</translation>
+        <translation>이 값은 콘텐츠 캐시가 볼륨 간에 이동을 완료한 경우 true입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="430"/>
@@ -25656,7 +25671,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="431"/>
         <source>The progress indicator while the content cache is moving from one volume to another. A value of 1.0 means 100%% of the cache has been migrated.</source>
         <comment>field data_migration_progress description</comment>
-        <translation type="unfinished"></translation>
+        <translation>콘텐츠 캐시가 한 볼륨에서 다른 볼륨으로 이동하는 동안 진행률 표시기입니다. 값이 1.0이면 캐시의 100%%가 마이그레이션되었음을 의미합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="432"/>
@@ -26283,7 +26298,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="534"/>
         <source>Apple internal identifier for organizations.</source>
         <comment>field org_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>조직의 Apple 내부 식별자입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="535"/>
@@ -26952,13 +26967,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="644"/>
         <source>MAC Address for Imaging</source>
         <comment>field imaging_mac_address display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>이미징 MAC 주소</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="645"/>
         <source>Manually specified MAC address of the machine for Imaging.</source>
         <comment>field imaging_mac_address description</comment>
-        <translation type="unfinished"></translation>
+        <translation>이미징에 사용하는 장치에 수동으로 지정된 MAC 주소입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="646"/>
@@ -27677,7 +27692,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
         <source>Download finished</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 완료됨</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1774"/>
@@ -27832,7 +27847,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1804"/>
         <source>Google Identity Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Google ID 공급자</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1805"/>
@@ -27987,7 +28002,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1835"/>
         <source>MDM OS Update is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>MDM OS 업데이트는 지원되지 않음</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1836"/>
@@ -28062,7 +28077,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1850"/>
         <source>Non-admin IDP users logged in via IDP</source>
-        <translation type="unfinished"></translation>
+        <translation>IDP를 통해 로그인한 비관리자 IDP 사용자</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1851"/>
@@ -28167,7 +28182,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1871"/>
         <source>Preparing MDM OS Update scheduling</source>
-        <translation type="unfinished"></translation>
+        <translation>MDM OS 업데이트 예약 준비 중</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1872"/>
@@ -29050,13 +29065,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="760"/>
         <source>macOS 12 SIP Incompatible</source>
         <comment>field has_sip_issue_12 display name</comment>
-        <translation type="unfinished">macOS 11 SIP 비호환 {12 ?}</translation>
+        <translation>macOS 12 SIP 비호환</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="761"/>
         <source>True if the fileset contains files that can&apos;t be deployed on macOS 12 due to System Integrity Protection.</source>
         <comment>field has_sip_issue_12 description</comment>
-        <translation type="unfinished">파일 세트에 시스템 무결성 보호로 인해 MacOS 11에 배포할 수 없는 파일이 포함되어 있으면 True입니다. {12 ?}</translation>
+        <translation>파일 세트에 시스템 무결성 보호로 인해 MacOS 12에 배포할 수 없는 파일이 포함되어 있으면 true입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="762"/>
@@ -31261,13 +31276,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1122"/>
         <source>Bitfield. The underlying hardware encryption capabilities of the device, which is one of the following values: 1: Block-level encryption, 2: File-level encryption, 3: Both block-level and file-level encryption. For a device to have data protection, HardwareEncryptionCaps must be 3 and PasscodePresent must be true. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field hardware_encryption_caps description</comment>
-        <translation type="unfinished"></translation>
+        <translation>비트필드. 장치의 기본 하드웨어 암호화 기능으로, 다음 값 중 하나입니다. 1: 블록 수준 암호화, 2: 파일 수준 암호화, 3: 블록 수준 및 파일 수준 암호화 모두. 장치의 데이터를 보호하려면 HardwareEncryptionCaps가 3이고 PasscodePresent가 true여야 합니다. 가용성: iOS 4 이상 및 tvOS 6 이상에서 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1124"/>
         <source>Set to true if the device is protected by a passcode. For a device to have data protection, HardwareEncryptionCaps must be 3 and PasscodePresent must be true. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field passcode_present description</comment>
-        <translation type="unfinished"></translation>
+        <translation>장치가 암호로 보호되는 경우 true로 설정합니다. 장치의 데이터를 보호하려면 HardwareEncryptionCaps가 3이고 PasscodePresent가 true여야 합니다. 가용성: iOS 4 이상 및 tvOS 6 이상에서 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1125"/>
@@ -31621,13 +31636,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1183"/>
         <source>Is Recovery Lock Enabled</source>
         <comment>field is_recovery_lock_enabled display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 사용 여부</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1184"/>
         <source>If true, Recovery Lock is enabled. Availability: Available for Apple Silicon in macOS 11.5 and later.</source>
         <comment>field is_recovery_lock_enabled description</comment>
-        <translation type="unfinished"></translation>
+        <translation>true이면 복구 잠금이 사용됩니다. 가용성: macOS 11.5 이상에서 Apple Silicon에 사용할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -31843,19 +31858,19 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1219"/>
         <source>Google IDP service account key.</source>
         <comment>field service_key display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Google IDP 서비스 계정 키.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1220"/>
         <source>Google IDP service account key.</source>
         <comment>field service_key description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Google IDP 서비스 계정 키.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1221"/>
         <source>The unique ID of the admins&apos;s Google Account</source>
         <comment>field service_account display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>관리자의 Google 계정 고유 ID</translation>
     </message>
 </context>
 <context>
@@ -31900,13 +31915,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1228"/>
         <source>ETag</source>
         <comment>field etag display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ETag</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1229"/>
         <source>An ETag is an identifier that specifies a particular version of a particular entry.</source>
         <comment>field etag description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ETag는 특정 항목의 특정 버전을 지정하는 식별자입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1230"/>
@@ -32161,25 +32176,25 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1270"/>
         <source>Is Supervised</source>
         <comment>field is_supervised display name</comment>
-        <translation type="unfinished">감독 여부</translation>
+        <translation>감독 여부</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1271"/>
         <source>If true, the device is supervised. Availability: Available in macOS 10.15 and later.</source>
         <comment>field is_supervised description</comment>
-        <translation type="unfinished"></translation>
+        <translation>True이면 장치가 감독됩니다. 가용성: macOS 10.15 이상에서 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1272"/>
         <source>Is Apple Silicon</source>
         <comment>field is_apple_silicon display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Apple Silicon 유무</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1273"/>
         <source>If true, the device has an Apple Silicon CPU. Availability: Available in macOS 12 and later.</source>
         <comment>field is_apple_silicon description</comment>
-        <translation type="unfinished"></translation>
+        <translation>true이면 장치에 Apple Silicon CPU가 있습니다. 가용성: macOS 12 이상에서 사용할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -32512,13 +32527,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1326"/>
         <source>Since Modified VersionId for Users</source>
         <comment>field since_version_id_for_users display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>사용자 버전 ID 수정 이후</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1327"/>
         <source>The last versionId value for users.</source>
         <comment>field since_version_id_for_users description</comment>
-        <translation type="unfinished"></translation>
+        <translation>사용자의 마지막 VersionId 값입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1328"/>
@@ -33151,13 +33166,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1432"/>
         <source>Since Modified Token for License</source>
         <comment>field since_version_id_for_license display name</comment>
-        <translation type="unfinished">라이선스용 토큰 수정 이후</translation>
+        <translation>라이선스 토큰 수정 이후</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1433"/>
         <source>The last versionId value for licenses.</source>
         <comment>field since_version_id_for_license description</comment>
-        <translation type="unfinished"></translation>
+        <translation>라이선스의 마지막 versionId 값입니다.</translation>
     </message>
 </context>
 <context>
@@ -33316,13 +33331,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1459"/>
         <source>Since Modified Token for License</source>
         <comment>field since_version_id_for_license display name</comment>
-        <translation type="unfinished">라이선스용 토큰 수정 이후</translation>
+        <translation>라이선스 토큰 수정 이후</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1460"/>
         <source>The last versionId value for licenses.</source>
         <comment>field since_version_id_for_license description</comment>
-        <translation type="unfinished"></translation>
+        <translation>라이선스의 마지막 versionId 값입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1461"/>
@@ -34964,17 +34979,17 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="61"/>
         <source>Remote support session</source>
-        <translation type="unfinished"></translation>
+        <translation>원격 지원 세션</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="62"/>
         <source>FileWave is connecting with Teamviewer...</source>
-        <translation type="unfinished"></translation>
+        <translation>FileWave가 TeamViewer와 연결하는 중...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="78"/>
         <source>Could not open TeamViewer session URL in your default browser. You can join the session manually by visiting the URL below:&lt;br&gt;&lt;br&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 브라우저에서 TeamViewer 세션 URL을 열 수 없습니다. 아래 URL을 방문하여 세션에 수동으로 연결할 수 있습니다.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -34982,12 +34997,12 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="21"/>
         <source>Could not open TeamViewer session because the server responded with an unexpected error. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>서버 응답에 예기치 않은 오류가 있어 TeamViewer 세션을 열 수 없습니다. %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="30"/>
         <source>Could not open TeamViewer session because the server sent an invalid response.</source>
-        <translation type="unfinished"></translation>
+        <translation>서버에서 잘못된 응답을 보냈기 때문에 TeamViewer 세션을 열 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -36638,7 +36653,7 @@ macOS 10.13 이상 APFS는 인증된 다시 시작 옵션을 지원하지 않습
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="825"/>
         <source>12.x</source>
-        <translation type="unfinished">10.13.x {12.?}</translation>
+        <translation>12.x</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="863"/>
@@ -38673,7 +38688,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="39"/>
         <source>Specify the location accuracy mode of devices.  High Accuracy uses the GPS and WiFi to determine a device&apos;s location, while Sensors will strictly utilize the GPS and Battery Saving the WiFi.  N.B. Users can change device location settings regardless of the choice made here; this is a per-model-update one-time change.</source>
-        <translation type="unfinished"></translation>
+        <translation>장치의 위치 정확도 모드를 지정합니다.  높은 정확도로 지정하면 GPS와 Wi-Fi를 사용하여 장치의 위치를 확인하고, 센서로 지정하면 GPS와 배터리 절약 Wi-Fi를 엄격하게 사용합니다.  N.B. 사용자는 여기서 선택한 사항에 관계없이 장치의 위치 설정을 변경할 수 있습니다. 모델별 업데이트 1회 변경 사항입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="40"/>
@@ -38857,17 +38872,17 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="132"/>
         <source>Allow Install</source>
-        <translation type="unfinished"></translation>
+        <translation>설치 허용</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="133"/>
         <source>Personal Profile Only</source>
-        <translation type="unfinished"></translation>
+        <translation>개인 프로필만</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="134"/>
         <source>Disallow Install</source>
-        <translation type="unfinished"></translation>
+        <translation>설치 허용 안 함</translation>
     </message>
 </context>
 <context>
@@ -38912,7 +38927,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="217"/>
         <source>Select the PKCS#12 archive that the client will use to identify itself to the network.  (Use the Certificates payload from the list on the left side of this dialog to populate this dropdown.)</source>
-        <translation type="unfinished"></translation>
+        <translation>클라이언트가 네트워크에서 자신을 식별하는 데 사용할 PKCS#12 아카이브를 선택합니다.  (이 대화상자 왼쪽에 있는 목록의 인증서 페이로드를 사용하여 이 드롭다운을 채웁니다.)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="262"/>
@@ -39163,7 +39178,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="286"/>
         <source>The pre-shared key for this network.  This is also often referred to as the &quot;wireless password&quot;, &quot;network password&quot;, and &quot;passphrase.&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>이 네트워크의 사전 공유 키입니다.  &quot;무선 비밀번호&quot;, &quot;네트워크 비밀번호&quot; 및 &quot;암호&quot;라고도 합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="304"/>
@@ -39879,7 +39894,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/idp/IDPGroupsDialog.ui" line="35"/>
         <source>Search by Name</source>
-        <translation type="unfinished"></translation>
+        <translation>이름으로 검색</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="31"/>
@@ -43617,12 +43632,12 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="252"/>
         <source>Disable Unlock with Watch window during login</source>
-        <translation type="unfinished"></translation>
+        <translation>로그인 중 Watch 창을 통한 잠금 해제 사용 안 함</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="259"/>
         <source>Disable Accessibility window during login</source>
-        <translation type="unfinished"></translation>
+        <translation>로그인 중 접근성 창 사용 안 함</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="266"/>
@@ -44176,17 +44191,17 @@ located on the client computer:
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="240"/>
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="266"/>
         <source>Removable System Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>제거 가능 시스템 확장</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="247"/>
         <source>Removable System Extensions column value is comma-separated list of system extensions identifiers</source>
-        <translation type="unfinished"></translation>
+        <translation>제거 가능 시스템 확장 열 값은 시스템 확장 식별자를 쉼표로 구분한 목록입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="261"/>
         <source>Team Identifiers</source>
-        <translation type="unfinished"></translation>
+        <translation>팀 식별자</translation>
     </message>
 </context>
 <context>
@@ -46075,7 +46090,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="138"/>
         <source>Conflicting with pre-enrolled client</source>
-        <translation type="unfinished"></translation>
+        <translation>사전 등록된 클라이언트와 충돌</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="141"/>
@@ -46105,7 +46120,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="184"/>
         <source>Pre-enrolled clients are clients that have been entered as placeholders or are otherwise waiting on model update</source>
-        <translation type="unfinished"></translation>
+        <translation>사전 등록된 클라이언트는 자리표시자로 입력되었거나 모델 업데이트를 기다리는 클라이언트입니다.</translation>
     </message>
 </context>
 <context>
@@ -47362,7 +47377,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.ui" line="82"/>
         <source>Auto Update Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 업데이트 모드</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.ui" line="89"/>
@@ -47372,7 +47387,12 @@ As the serial number must be unique, please resolve the conflict for these clien
 * Default - detects updates within 24 hours, updates when device is charging, not being used, and connected to an unmetered network
 * Postponed - apps will not be updated within 90 days of the device detecting a new version
 * High Priority - app update should be triggered within 60 seconds of detection (or connection, if the device is off or not connected to a network)</source>
-        <translation type="unfinished"></translation>
+        <translation>이 앱의 자동 업데이트 모드를 지정합니다.  다음을 선택합니다.
+
+* 지정되지 않음 - 기본적으로 &apos;기본값&apos;으로 지정되지만 설치된 정책의 우선순위를 낮추지 않음
+* 기본값 - 업데이트를 24시간 이내에 감지하며, 장치가 충전 중이고 사용 중이 아니며 데이터 통신이 아닌 네트워크에 연결된 경우 업데이트함
+* 연기됨 - 장치에서 새 버전을 감지한 후 90일 이내에 앱이 업데이트되지 않음
+* 높은 우선순위 - 감지(또는 장치가 꺼져 있고 네트워크에 연결되지 않은 경우 연결) 후 60초 이내에 앱 업데이트가 트리거되어야 함</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="23"/>
@@ -47383,7 +47403,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="23"/>
         <source>Unspecified. Defaults to &apos;Available&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>지정되지 않음. 기본값은 &apos;사용 가능&apos;입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="24"/>
@@ -47428,37 +47448,37 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="41"/>
         <source>Unspecified. Defaults to &apos;Default&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>지정되지 않음. 기본적으로 &apos;기본값&apos;으로 지정됩니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="42"/>
         <source>Default</source>
-        <translation type="unfinished">기본값</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="42"/>
         <source>Default app update priority.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 앱 업데이트 우선순위.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="43"/>
         <source>Postponed</source>
-        <translation type="unfinished"></translation>
+        <translation>연기됨</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="43"/>
         <source>Postponed app update priority.</source>
-        <translation type="unfinished"></translation>
+        <translation>연기된 앱 업데이트 우선순위.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="44"/>
         <source>High Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>높은 우선순위</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="44"/>
         <source>High app update priority.</source>
-        <translation type="unfinished"></translation>
+        <translation>높은 앱 업데이트 우선순위.</translation>
     </message>
 </context>
 <context>
@@ -48456,12 +48476,12 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="21"/>
         <source>Camera</source>
-        <translation type="unfinished">카메라</translation>
+        <translation>카메라</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="22"/>
         <source>Microphone</source>
-        <translation type="unfinished"></translation>
+        <translation>마이크</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="23"/>
@@ -49316,7 +49336,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="571"/>
         <source>Creating new fileset revision from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더에서 새 파일 세트 수정 버전 생성 중...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="701"/>
@@ -51680,7 +51700,7 @@ If this email was erroneously sent, you may disregard this communication.  (Alth
         <translation>없음/CSV</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="32"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="34"/>
         <source>Insufficient Activation Code found!
 
 Please enter your Activation Code</source>
@@ -52661,7 +52681,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="411"/>
         <source>Allow iCloud Private Relay</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 비공개 릴레이 허용</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="421"/>
@@ -52926,7 +52946,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="993"/>
         <source>Let copy and paste respect document allowance options</source>
-        <translation type="unfinished"></translation>
+        <translation>복사 및 붙여넣기 시 문서 허용 옵션</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1003"/>
@@ -53111,7 +53131,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1434"/>
         <source>Force translation to be limited on device only</source>
-        <translation type="unfinished"></translation>
+        <translation>장치에서만 번역 적용 제한</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1461"/>
@@ -53987,7 +54007,7 @@ Therefore it may happen that the device is not locked.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="516"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1795"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1810"/>
         <source>Sharing</source>
         <translation>공유</translation>
     </message>
@@ -54062,599 +54082,604 @@ Therefore it may happen that the device is not locked.</source>
         <translation>가족 공유</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="748"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="726"/>
+        <source>Battery</source>
+        <translation type="unfinished">배터리</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="763"/>
         <source>Select All</source>
         <translation>전체 선택</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="755"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="770"/>
         <source>Select None</source>
         <translation>없음 선택</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="800"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="848"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="815"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="863"/>
         <source>Third-party Preference Panes</source>
         <translation>타사 기본 설정 창</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="812"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1101"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1159"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1217"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1321"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="827"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1116"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1232"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1336"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="819"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1111"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1169"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1227"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1331"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="834"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1126"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1184"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1242"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1346"/>
         <source>-</source>
         <translation>-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="889"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="904"/>
         <source>Apps</source>
         <translation>앱</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="895"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="910"/>
         <source>Allow use of Game Center</source>
         <translation>게임 센터 사용 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="925"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="940"/>
         <source>Allow multiplayer gaming</source>
         <translation>멀티 플레이어 게임 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="935"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="950"/>
         <source>Allow adding Game Center friends</source>
         <translation>게임 센터 친구 추가 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="945"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="960"/>
         <source>Allow Game Center friends sharing modification</source>
         <translation>게임 센터 친구들이 수정 사항을 공유할 수 있게 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="955"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="970"/>
         <source>Allow Game Center account modification</source>
         <translation>게임 센터 계정 수정 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="969"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="984"/>
         <source>Allow App Store app adoption</source>
         <translation>App Store 앱 채택 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="979"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="994"/>
         <source>Allow Safari AutoFill</source>
         <translation>Safari 자동 채우기 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="989"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1004"/>
         <source>Allow accessing web sites using TLS 1.0 and 1.1</source>
         <translation>TLS 1.0 및 1.1을 사용하여 웹사이트 액세스 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="996"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1011"/>
         <source>Allow software update notifications</source>
         <translation>소프트웨어 업데이트 알림 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1006"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1021"/>
         <source>Allow apps to get File Provider info</source>
         <translation>앱이 파일 공급자 정보를 가져오도록 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1013"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1028"/>
         <source>Require admin password to install or update apps</source>
         <translation>앱을 설치하거나 업데이트하려면 관리자 비밀번호 필요</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1020"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1035"/>
         <source>Restrict App Store to software updates only</source>
         <translation>App Store를 소프트웨어 업데이트 용도로만 제한</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1027"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1042"/>
         <source>Restrict App Store to MDM installed apps and software updates</source>
         <translation>App Store를 MDM이 설치된 앱 및 소프트웨어 업데이트 용도로 제한</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1050"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1065"/>
         <source>Restrict which apps are allowed to launch</source>
         <translation>시작할 수 있는 앱 제한</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1080"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1095"/>
         <source>Allow Apps:</source>
         <translation>앱 허용:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1087"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1102"/>
         <source>The user can always launch these apps</source>
         <translation>사용자가 언제든지 이 앱을 시작할 수 있음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1138"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1153"/>
         <source>Allow Folders:</source>
         <translation>폴더 허용:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1145"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1160"/>
         <source>The user can always launch applications in these folders</source>
         <translation>사용자가 항상 이 폴더에서 애플리케이션을 시작할 수 있음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1196"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1211"/>
         <source>Disallow Folders:</source>
         <translation>폴더 허용 안 함:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1203"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1218"/>
         <source>The user can never launch applications in these folders</source>
         <translation>사용자가 이 폴더에서 애플리케이션을 시작할 수 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1269"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1284"/>
         <source>Widgets</source>
         <translation>위젯</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1275"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1290"/>
         <source>Allow only the following Dashboard widgets to run</source>
         <translation>다음 대시보드 위젯만 실행 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1293"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1308"/>
         <source>Allow Widgets:</source>
         <translation>위젯 허용:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1300"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1315"/>
         <source>The user can always run these widgets</source>
         <translation>사용자가 언제든지 해당 위젯을 실행할 수 있음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1370"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1385"/>
         <source>Media</source>
         <translation>미디어</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1381"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1396"/>
         <source>Network Access</source>
         <translation>네트워크 액세스</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1388"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1403"/>
         <source>Access settings for network media</source>
         <translation>네트워크 미디어에 대한 액세스 설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1411"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1426"/>
         <source>AirDrop:</source>
         <translation>AirDrop:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1427"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1490"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1524"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1555"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1586"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1660"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1684"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1708"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1442"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1505"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1539"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1570"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1601"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1675"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1699"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1723"/>
         <source>Allow</source>
         <translation>허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1447"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1462"/>
         <source>Hard Disk Media Access</source>
         <translation>하드 디스크 미디어 액세스</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1454"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1469"/>
         <source>Access settings for hard disk media</source>
         <translation>하드 디스크 미디어에 대한 액세스 설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1474"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1489"/>
         <source>Internal Disks:</source>
         <translation>내장 디스크:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1500"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1534"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1565"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1596"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1670"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1694"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1718"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1515"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1549"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1580"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1611"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1685"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1709"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1733"/>
         <source>Require Authentication</source>
         <translation>인증 필요</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1510"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1541"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1572"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1603"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1525"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1556"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1587"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1618"/>
         <source>Read-Only</source>
         <translation>읽기 전용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1517"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1532"/>
         <source>External Disks:</source>
         <translation>외장 디스크:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1548"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1563"/>
         <source>Disk Images:</source>
         <translation>디스크 이미지:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1579"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1594"/>
         <source>DVD-RAM:</source>
         <translation>DVD-RAM:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1617"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1632"/>
         <source>Disc Media Access</source>
         <translation>디스크 미디어 액세스</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1624"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1639"/>
         <source>Access settings for removable disk media</source>
         <translation>이동식 디스크 미디어에 대한 액세스 설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1644"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1659"/>
         <source>CDs &amp; CD-ROMs:</source>
         <translation>CD 및 CD-ROM:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1677"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1692"/>
         <source>DVDs</source>
         <translation>DVD</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1701"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1716"/>
         <source>Recordable Discs:</source>
         <translation>기록 가능한 디스크:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1732"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1747"/>
         <source>Eject at logout</source>
         <translation>로그아웃 시 꺼내기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1739"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1754"/>
         <source>Eject all removable media at logout</source>
         <translation>로그아웃 시 모든 이동식 미디어 꺼내기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1762"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1777"/>
         <source>Allow File Transfer using Finder or iTunes</source>
         <translation>파인더 또는 iTunes를 사용한 파일 전송 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1772"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1787"/>
         <source>Allow transferring documents to and from iOS and iPadOS devices using Finder or iTunes</source>
         <translation>파인더 또는 iTunes를 사용한 iOS 및 iPad OS 장치 간 문서 전송 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1801"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1816"/>
         <source>Select services that should be available in the share menu</source>
         <translation>공유 메뉴에서 사용할 수 있는 서비스 선택</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1808"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1823"/>
         <source>AirDrop</source>
         <translation>AirDrop</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1818"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1833"/>
         <source>Mail</source>
         <translation>메일</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1828"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1843"/>
         <source>Messages</source>
         <translation>메시지</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1838"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1853"/>
         <source>Notes</source>
         <translation>참고</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1848"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1863"/>
         <source>Reminders</source>
         <translation>리마인더</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1858"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1873"/>
         <source>Add to Reading List</source>
         <translation>읽기 목록에 추가</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1868"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1883"/>
         <source>Add to Photos</source>
         <translation>사진에 추가</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1878"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1893"/>
         <source>Add to Aperture</source>
         <translation>애퍼처에 추가</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1904"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1919"/>
         <source>Twitter</source>
         <translation>Twitter</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1914"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1929"/>
         <source>Facebook</source>
         <translation>Facebook</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1924"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1939"/>
         <source>LinkedIn</source>
         <translation>LinkedIn</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1934"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1949"/>
         <source>Video Services - Flickr, Vimeo, Tudou and Youku</source>
         <translation>비디오 서비스 - Flickr, Vimeo, Tudou, Youku</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1944"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1959"/>
         <source>Sina Weibo</source>
         <translation>Sina Weibo</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1959"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1974"/>
         <source>Automatically enable new sharing services</source>
         <translation>새로운 공유 서비스 자동 실행</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1966"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1981"/>
         <source>New sharing services will be enabled in the share menu automatically</source>
         <translation>새로운 공유 서비스가 공유 메뉴에서 자동으로 활성화됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1989"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2004"/>
         <source>Functionality</source>
         <translation>기능</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2000"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2015"/>
         <source>Lock desktop picture</source>
         <translation>바탕화면 사진 잠금</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2013"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2028"/>
         <source>Prevents user from modifying the desktop picture selection</source>
         <translation>사용자가 바탕화면 사진 선택 항목을 수정할 수 없도록 차단</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2040"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2055"/>
         <source>Desktop picture path</source>
         <translation>바탕화면 사진 경로</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2047"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2062"/>
         <source>The path of the file to use as the desktop picture. Leave path blank to use the current selection on device</source>
         <translation>바탕화면 사진으로 사용할 파일의 경로. 장치의 현재 선택 항목을 사용하려면 경로를 비워두십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2057"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2072"/>
         <source>optional</source>
         <translation>선택 사항</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2072"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2087"/>
         <source>Allow use of Camera</source>
         <translation>카메라 사용 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2082"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2097"/>
         <source>Allow Apple Music</source>
         <translation>Apple Music 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2092"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2107"/>
         <source>Allow Spotlight Suggestions</source>
         <translation>스포트라이트 제안 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2102"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2117"/>
         <source>Allow Look Up</source>
         <translation>조회 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2112"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2127"/>
         <source>Allow Dictation</source>
         <translation>받아쓰기 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2122"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2137"/>
         <source>Allow Touch ID to unlock device</source>
         <translation>Touch ID로 장치 잠금 해제 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2147"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2162"/>
         <source>Require password to unlock device with Touch ID after </source>
-        <translation type="unfinished"></translation>
+        <translation>다음 시간이 지난 후 Touch ID로 장치를 잠금 해제하려면 비밀번호 필요: </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2167"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2182"/>
         <source>second(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>초</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2190"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2205"/>
         <source>Allow Handoff</source>
         <translation>핸드오프 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2216"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2231"/>
         <source>Allow password sharing</source>
         <translation>비밀번호 공유 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2226"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2241"/>
         <source>Allow password AutoFill</source>
         <translation>비밀번호 자동 채우기 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2236"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2251"/>
         <source>Allow proximity based password sharing requests</source>
         <translation>근접 기반 비밀번호 공유 요청 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2262"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2277"/>
         <source>Allow screenshots and screen recording</source>
         <translation>스크린샷 및 화면 녹화 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2293"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2308"/>
         <source>Allow AirPlay, View Screen by Classroom, and Screen Sharing</source>
         <translation>AirPlay, 교실별 화면 보기, 화면 공유 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2324"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2339"/>
         <source>Allow Classroom to perform AirPlay and View Screen without prompting</source>
         <translation>메시지를 표시하지 않고 교실에서 AirPlay 및 화면 보기 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2337"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2352"/>
         <source>Allow Classroom to lock the device without prompting</source>
         <translation>메시지를 표시하지 않고 교실에서 장치를 잠그도록 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2344"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2359"/>
         <source>Automatically join Classroom classes without prompting</source>
         <translation>메시지를 표시하지 않고 자동으로 교실 수업 참여</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2351"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2366"/>
         <source>Require teacher permission to leave Classroom unmanaged classes</source>
         <translation>교실에서 관리되지 않는 수업을 나가려면 교사의 승인 필요</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2374"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2389"/>
         <source>Allow use of iCloud password for local accounts</source>
         <translation>로컬 계정에 iCloud 비밀번호 사용 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2384"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2399"/>
         <source>Allow iCloud Drive</source>
         <translation>iCloud 드라이브 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2415"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2430"/>
         <source>Allow iCloud Desktop &amp;&amp; Documents</source>
         <translation>iCloud 데스크톱 및 문서 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2428"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2443"/>
         <source>Allow iCloud Keychain</source>
         <translation>iCloud 키 집합 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2438"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2453"/>
         <source>Allow iCloud Mail</source>
         <translation>iCloud 메일 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2448"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2463"/>
         <source>Allow iCloud Contacts</source>
         <translation>iCloud 연락처 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2458"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2473"/>
         <source>Allow iCloud Calendars</source>
         <translation>iCloud 캘린더 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2468"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2483"/>
         <source>Allow iCloud Reminders</source>
         <translation>iCloud 알림 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2478"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2493"/>
         <source>Allow iCloud Back to My Mac</source>
         <translation>iCloud를 내 Mac으로 되돌리기 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2488"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2503"/>
         <source>Allow iCloud Find My Mac</source>
         <translation>iCloud에서 내 Mac 찾기 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2498"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2513"/>
         <source>Allow iCloud Bookmarks</source>
         <translation>iCloud 북마크 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2508"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2523"/>
         <source>Allow iCloud Photos</source>
         <translation>iCloud 사진 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2518"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2533"/>
         <source>Allow iCloud Notes</source>
         <translation>iCloud 노트 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2528"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2543"/>
         <source>Allow iCloud Private Relay</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 비공개 릴레이 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2538"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2553"/>
         <source>Allow Content Caching</source>
         <translation>콘텐츠 캐시 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2548"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2563"/>
         <source>Allow modifying Wallpaper</source>
         <translation>배경 화면 수정 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2558"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2573"/>
         <source>Allow modifying Passcode</source>
-        <translation type="unfinished"></translation>
+        <translation>암호 수정 허용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2599"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2631"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2663"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2614"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2646"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2678"/>
         <source> days(s)</source>
         <translation> 일</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2618"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2633"/>
         <source>Defer macOS updates</source>
         <translation>macOS 업데이트 지연</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2650"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2665"/>
         <source>Defer app updates</source>
         <translation>앱 업데이트 지연</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2695"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2710"/>
         <source>Defer major macOS updates</source>
         <translation>주요 macOS 업데이트 지연</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2705"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2720"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For clients below macOS 11.3 the value of &apos;Defer macOS updates&apos;&lt;br/&gt;will be used for all software updates.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;macOS 11.3 이전 클라이언트의 경우 &apos;macOS 업데이트 지연&apos; 값이&lt;br/&gt;모든 소프트웨어 업데이트에 사용됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -54670,7 +54695,7 @@ Therefore it may happen that the device is not locked.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="133"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="375"/>
         <source>Bundle Identifier</source>
         <translation>번들 식별자</translation>
     </message>
@@ -54690,12 +54715,12 @@ Therefore it may happen that the device is not locked.</source>
         <translation>team-identifier</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="375"/>
         <source>Adding Allowed Widget</source>
         <translation>허용 위젯 추가 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="637"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="655"/>
         <source>bundle %1 is not installed on this host</source>
         <translation>%1 번들이 이 호스트에 설치되어 있지 않음</translation>
     </message>
@@ -54786,36 +54811,36 @@ Therefore it may happen that the device is not locked.</source>
 <context>
     <name>RevertModelDlg</name>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="33"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="35"/>
         <source>Update license code</source>
         <translation>라이선스 코드 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="38"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="40"/>
         <source>Do you really wish to revert to the last server model?
 This operation will irreversibly undo all changes made since the last update.</source>
         <translation>마지막 서버 모델로 복원하시겠습니까?
 이 작업을 수행하면 마지막 업데이트 후에 적용된 모든 변경사항이 취소되고, 되돌릴 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="41"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="43"/>
         <source>Revert Model</source>
         <translation>모델 복원</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="87"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="106"/>
         <source>The database encryption key for the committed schema is missing. If the model is forced to revert then the encrypted values in the admin schema will be lost.
 Do you want to force revert the model?</source>
         <translation>커밋된 스키마의 데이터베이스 암호화 키가 없습니다. 모델을 강제로 복원하면 관리 스키마의 암호화된 값을 잃게 됩니다.
 모델을 강제로 복원하시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="93"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="112"/>
         <source>Force Revert Model</source>
         <translation>모델 강제 복원</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="117"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="136"/>
         <source>A REVERT MODEL has been performed!
 When any user performs a revert model, you must log out and log back into the FileWave™ system.</source>
         <translation>모델 복원이 수행되었습니다!
@@ -56359,107 +56384,107 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="50"/>
         <source>Choose which options to show in the assistant.</source>
-        <translation type="unfinished"></translation>
+        <translation>어시스턴트에 표시할 옵션을 선택합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="67"/>
         <source>Hides and disables the passcode pane. Availability: iOS 7+.</source>
-        <translation type="unfinished"></translation>
+        <translation>암호 창을 숨기거나 사용하지 않습니다. 가용성: iOS 7+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="84"/>
         <source>If the Restore pane is not skipped, removes the Move from Android option in the&lt;br/&gt;Restore pane on iOS. Availability: iOS 9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>복원 창을 건너뛰지 않으면 Android에서 이동 옵션을 iOS의 복원 창에서&lt;br/&gt;제거합니다. 가용성: iOS 9+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="101"/>
         <source>Skips the screen for watch migration. Availability: iOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Watch 마이그레이션 화면을 건너뜁니다. 가용성: iOS 11+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="108"/>
         <source>Unlock with Watch</source>
-        <translation type="unfinished"></translation>
+        <translation>Watch로 잠금 해제</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="118"/>
         <source>Skips Unlock Your Mac with your Apple Watch pane. Availability: macOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple Watch로 Mac 잠금 해제 창을 건너뜁니다. 가용성: macOS 12+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="135"/>
         <source>Skips the mandatory software update screen in iOS. Availability: iOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>iOS에서 필수 소프트웨어 업데이트 화면을 건너뜁니다. 가용성: iOS 12+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="152"/>
         <source>Skips the iMessage and FaceTime screen in iOS. Availability: iOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>iOS에서 iMessage 및 FaceTime 화면을 건너뜁니다. 가용성: iOS 12+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="159"/>
         <source>Home Button (Deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>홈 버튼(더 이상 사용되지 않음)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="169"/>
         <source>Skips the Meet the New Home Button screen on iPhone 7, iPhone 7 Plus, iPhone 8,&lt;br/&gt;iPhone 8 Plus and iPhone SE. Availability: iOS 10+.</source>
-        <translation type="unfinished"></translation>
+        <translation>iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone SE에서&lt;br/&gt;새 홈 버튼 소개 화면을 건너뜁니다. 가용성: iOS 10+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="186"/>
         <source>Skips zoom setup. Availability: iOS 8.3+.</source>
-        <translation type="unfinished"></translation>
+        <translation>줌 설정을 건너뜁니다. 가용성: iOS 8.3+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="193"/>
         <source>New Feature Highlights (Deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 기능 하이라이트(더 이상 사용되지 않음)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="203"/>
         <source>Skips on-boarding informational screens for user education (Go Home, Cover Sheet,&lt;br/&gt;Multitasking &amp; Control Center, for example) in iOS. Availability: iOS 11 - 13.6.</source>
-        <translation type="unfinished"></translation>
+        <translation>iOS의 사용자 교육용 온보딩 정보 화면(예: 홈으로 이동, 표지, 멀티태스킹,&lt;br/&gt;제어 센터)을 건너뜁니다. 가용성: iOS 11 - 13.6</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="220"/>
         <source>Skips the add cellular plan pane. Availability: iOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>셀룰러 요금제 추가 창을 건너뜁니다. 가용성: iOS 12+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="237"/>
         <source>Skips Device to Device Migration pane. Availability: iOS 13+.</source>
-        <translation type="unfinished"></translation>
+        <translation>장치 간 마이그레이션 창을 건너뜁니다. 가용성: iOS 13+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="254"/>
         <source>Skips the Get Started pane. Availability: iOS 13+.</source>
-        <translation type="unfinished"></translation>
+        <translation>시작하기 창을 건너뜁니다. 가용성: iOS 13+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="271"/>
         <source>Skips biometric setup. Availability: iOS 8.1+ and macOS 10.12.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>생체 인식 설정을 건너뜁니다. 가용성: iOS 8.1+ 및 macOS 10.12.4+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="288"/>
         <source>Disables restoring from backup. Availability: iOS 7+ and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>백업에서 복원을 사용하지 않습니다. 가용성: iOS 7+ 및 macOS 10.9+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="305"/>
         <source>Skips Apple Pay setup. Availability: iOS 8.1+ and macOS 10.12.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple Pay 설정을 건너뜁니다. 가용성: iOS 8.1+ 및 macOS 10.12.4+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="312"/>
         <source>True Tone Display (Deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>True Tone 디스플레이(더 이상 사용되지 않음)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="322"/>
         <source>Skips DisplayTone setup. Availability: iOS 9.3.2+ and macOS 10.13.6+.</source>
-        <translation type="unfinished"></translation>
+        <translation>DisplayTone 설정을 건너뜁니다. 가용성: iOS 9.3.2+ 및 macOS 10.13.6+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="329"/>
@@ -56469,7 +56494,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="339"/>
         <source>Skips the Choose Your Look screen. Availability: iOS 13+ and macOS 10.14+.</source>
-        <translation type="unfinished"></translation>
+        <translation>보기 선택 화면을 건너뜁니다. 가용성: iOS 13+ 및 macOS 10.14+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="346"/>
@@ -56479,7 +56504,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="356"/>
         <source>Skips the Screen Time pane. Availability: iOS 12+ and macOS 10.15+.</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 시간 창을 건너뜁니다. 가용성: iOS 12+ 및 macOS 10.15+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="363"/>
@@ -56489,7 +56514,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="373"/>
         <source>Disables Location Services. Availability: iOS 7+ and macOS 10.11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>위치 서비스를 사용하지 않습니다. 가용성: iOS 7+ 및 macOS 10.11+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="380"/>
@@ -56499,7 +56524,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="390"/>
         <source>Skips the privacy pane. Availability: iOS 11.13+, tvOS 11.13+, and macOS 10.13.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>개인정보 보호 창을 건너뜁니다. 가용성: iOS 11.13+, tvOS 11.13+, macOS 10.13.4+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="397"/>
@@ -56509,7 +56534,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="407"/>
         <source>Disables Siri. Availability: iOS 7+, tvOS 10.2+, and macOS 10.12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Siri를 사용하지 않습니다. 가용성: iOS 7+, tvOS 10.2+, macOS 10.12+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="414"/>
@@ -56519,7 +56544,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="424"/>
         <source>Skips Apple ID setup. Availability: iOS 7.0+, tvOS 10.2+, and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple ID 설정을 건너뜁니다. 가용성: iOS 7.0+, tvOS 10.2+ 및 macOS 10.9+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="431"/>
@@ -56529,7 +56554,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="441"/>
         <source>Skips Terms and Conditions. Availability: iOS 7+, tvOS 10.2+, and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 약관을 건너뜁니다. 가용성: iOS 7+, tvOS 10.2+ 및 macOS 10.9+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="448"/>
@@ -56539,7 +56564,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="458"/>
         <source>Skips the App Analytics pane. Availability: iOS 7+, tvOS 10.2+, and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>앱 분석 창을 건너뜁니다. 가용성: iOS 7+, tvOS 10.2+ 및 macOS 10.9+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="465"/>
@@ -56549,7 +56574,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="475"/>
         <source>Skips the Restore Completed pane. Availability: iOS 14+.</source>
-        <translation type="unfinished"></translation>
+        <translation>복원 완료 창을 건너뜁니다. 가용성: iOS 14+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="482"/>
@@ -56559,122 +56584,122 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="492"/>
         <source>Skips the Software Update Complete pane. Availability: iOS 14+.</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트웨어 업데이트 완료 창을 건너뜁니다. 가용성: iOS 14+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="499"/>
         <source>Accessibility</source>
-        <translation type="unfinished">접근성</translation>
+        <translation>접근성</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="509"/>
         <source>Skips the Accessibility pane, only if the Mac is connected to Ethernet and the cloud config&lt;br/&gt;is downloaded. Availability: macOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mac이 이더넷에 연결되어 있고 클라우드 구성이 다운로드된 경우에만&lt;br/&gt;접근성 창을 건너뜁니다. 가용성: macOS 11+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="516"/>
         <source>FileVault</source>
-        <translation type="unfinished">FileVault</translation>
+        <translation>FileVault</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="526"/>
         <source>Disables FileVault Setup Assistant screen in macOS. Availability: macOS 10.10+.</source>
-        <translation type="unfinished"></translation>
+        <translation>macOS에서 FileVault 설정 어시스턴트 화면을 사용하지 않습니다. 가용성: macOS 10.10+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="533"/>
         <source>iCloud Analytics</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 분석</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="543"/>
         <source>Skips iCloud Analytics screen. Availability: macOS 10.12.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 분석 화면을 건너뜁니다. 가용성: macOS 10.12.4+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="550"/>
         <source>iCloud Documents and Desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 문서 및 데스크톱</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="560"/>
         <source>Skips iCloud Documents and Desktop screen in macOS. Availability: macOS 10.13.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>macOS에서 iCloud 문서 및 데스크톱 화면을 건너뜁니다. 가용성: macOS 10.13.4+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="567"/>
         <source>iMessage</source>
-        <translation type="unfinished"></translation>
+        <translation>iMessage</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="577"/>
         <source>Skips the iMessage pane. Availability: iOS 10+.</source>
-        <translation type="unfinished"></translation>
+        <translation>iMessage 창을 건너뜁니다. 가용성: iOS 10+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="584"/>
         <source>tvOS Aerial screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>tvOS Aerial 화면 보호기</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="594"/>
         <source>Skips the tvOS screen about using aerial screensavers in ATV. Availability: tvOS 10.2+.</source>
-        <translation type="unfinished"></translation>
+        <translation>ATV에서 Aerial 화면 보호기 사용 관련 tvOS 화면을 건너뜁니다. 가용성: tvOS 10.2+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="601"/>
         <source>Tap To Setup</source>
-        <translation type="unfinished"></translation>
+        <translation>살짝 눌러서 설정</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="611"/>
         <source>Skips the Tap To Set Up option in AppleTV about using an iOS device to set up your AppleTV.&lt;br/&gt;Availability: tvOS 10.2+.</source>
-        <translation type="unfinished"></translation>
+        <translation>AppleTV에서 iOS 장치를 사용하여 AppleTV 설정에 대한 살짝 눌러서 설정 옵션을 건너뜁니다.&lt;br/&gt;가용성: tvOS 10.2+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="618"/>
         <source>TV Home Screen Sync</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 홈 화면 동기화</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="628"/>
         <source>Skips TV home screen layout sync screen. Availability: tvOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 홈 화면 레이아웃 동기화 화면을 건너뜁니다. 가용성: tvOS 11+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="635"/>
         <source>TV Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 공급자</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="645"/>
         <source>Skips the TV provider sign in screen. Availability: tvOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 공급자 로그인 화면을 건너뜁니다. 가용성: tvOS 11+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="652"/>
         <source>Where is this Apple TV?</source>
-        <translation type="unfinished"></translation>
+        <translation>이 Apple TV는 어디에 있습니까?</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="662"/>
         <source>Skips the “Where is this Apple TV?” screen in tvOS. Availability: tvOS 11.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>tvOS의 &quot;이 Apple TV는 어디에 있습니까?&quot; 화면을 건너뜁니다. 가용성: tvOS 11.4+.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="669"/>
         <source>App Store</source>
-        <translation type="unfinished">App Store</translation>
+        <translation>App Store</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="679"/>
         <source>Skips the App Store pane. Availability: iOS 14.3+ and macOS 11.1+.</source>
-        <translation type="unfinished"></translation>
+        <translation>App Store 창을 건너뜁니다. 가용성: iOS 14.3+ 및 macOS 11.1+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="694"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please refer to &lt;a href=&quot;https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;Apple&apos;s documentation&lt;/span&gt;&lt;/a&gt; for more details.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;자세한 내용은 &lt;a href=&quot;https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;Apple 설명서&lt;/span&gt;&lt;/a&gt;를 참조하십시오.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.cpp" line="18"/>
@@ -56684,7 +56709,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.cpp" line="19"/>
         <source>Additional items to skip that are not yet listed above.</source>
-        <translation type="unfinished"></translation>
+        <translation>아직 위에 나열되지 않은 건너뛸 추가 항목.</translation>
     </message>
 </context>
 <context>
@@ -57548,7 +57573,7 @@ Only the report for the first query is shown.</source>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.cpp" line="951"/>
         <source>Supported by supervised devices that come either from DEP or have macOS 11+ UAMDM.</source>
-        <translation type="unfinished"></translation>
+        <translation>DEP에서 제공되거나 macOS 11+ UAMDM이 설치된 감독 대상 장치에 의해 지원됩니다.</translation>
     </message>
 </context>
 <context>
@@ -57771,22 +57796,22 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="6"/>
         <source>Form</source>
-        <translation type="unfinished">양식</translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="14"/>
         <source>Number of TV licenses:</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 라이선스 수:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="58"/>
         <source>+</source>
-        <translation type="unfinished">+</translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="75"/>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="86"/>
@@ -57795,27 +57820,31 @@ User Home?</source>
             &lt;p&gt;It cannot be removed for the following 6 months.&lt;/p&gt;
             &lt;p&gt;For more information, click &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
             </source>
-        <translation type="unfinished"></translation>
+        <translation>
+            &lt;p&gt;라이선스 사용량이 즉시 확인됩니다.&lt;/p&gt;
+            &lt;p&gt;다음 6개월 동안 제거할 수 없습니다.&lt;/p&gt;
+            &lt;p&gt;자세한 내용을 확인하려면 &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;여기&lt;/a&gt;를 클릭하십시오.&lt;/p&gt;
+            </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="188"/>
         <source>Now</source>
-        <translation type="unfinished"></translation>
+        <translation>지금</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="204"/>
         <source>Please verify data</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터를 확인하십시오.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="205"/>
         <source>Are you sure you want to add %1 as TV user identity?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1을(를) TV 사용자 ID로 추가하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="206"/>
         <source>If you accept, it will be immediately stored as such, and it won&apos;t be possible to remove it for 6 months.</source>
-        <translation type="unfinished"></translation>
+        <translation>허용하면 사용자 ID로 즉시 저장되고 9개월 동안 제거할 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -57846,17 +57875,17 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/TVRemoteFormIOS.cpp" line="21"/>
         <source>Device Name</source>
-        <translation type="unfinished">장치 이름</translation>
+        <translation>장치 이름</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/TVRemoteFormIOS.cpp" line="22"/>
         <source>00:00:00:00:00:00</source>
-        <translation type="unfinished">00:00:00:00:00:00</translation>
+        <translation>00:00:00:00:00:00</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/TVRemoteFormIOS.cpp" line="22"/>
         <source>New Apple TV</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 Apple TV</translation>
     </message>
 </context>
 <context>
@@ -58018,32 +58047,32 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="12"/>
         <source>Identification</source>
-        <translation type="unfinished">식별</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="12"/>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막 수정 날짜</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="12"/>
         <source>Removable</source>
-        <translation type="unfinished">제거 가능</translation>
+        <translation>제거 가능</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="43"/>
         <source>An error occurred writing the TV users data: </source>
-        <translation type="unfinished"></translation>
+        <translation>TV 사용자 데이터를 쓰는 동안 오류가 발생했습니다. </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="57"/>
         <source>Now</source>
-        <translation type="unfinished"></translation>
+        <translation>지금</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="70"/>
         <source>An error occurred reading the TV users data: </source>
-        <translation type="unfinished"></translation>
+        <translation>TV 사용자 데이터를 읽는 동안 오류가 발생했습니다. </translation>
     </message>
 </context>
 <context>
@@ -60036,17 +60065,17 @@ Please check MDM log for more details.</source>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="190"/>
         <source>Update VPP User</source>
-        <translation type="unfinished"></translation>
+        <translation>VPP 사용자 업데이트</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="191"/>
         <source>Apple services are currently not available.</source>
-        <translation type="unfinished">현재 Apple 서비스는 제공되지 않습니다.</translation>
+        <translation>현재 Apple 서비스를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="198"/>
         <source>Error while updating VPP user(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>VPP 사용자를 업데이트하는 동안 오류가 발생했습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="58"/>

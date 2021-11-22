@@ -4,124 +4,124 @@
 <context>
     <name>FW::Catalog</name>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="512"/>
+        <location filename="../../QtClient/Catalog.cpp" line="511"/>
         <source>Checking for new model version</source>
         <translation>正在检查新模型版本</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="534"/>
+        <location filename="../../QtClient/Catalog.cpp" line="533"/>
         <source>Check for new model in %1 seconds</source>
         <translation>在 %1 秒内检查新模型</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="816"/>
+        <location filename="../../QtClient/Catalog.cpp" line="815"/>
         <source>Checking Files...</source>
         <translation>正在检查文件...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="817"/>
+        <location filename="../../QtClient/Catalog.cpp" line="816"/>
         <source>Verifying Files...</source>
         <translation>正在验证文件...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="836"/>
+        <location filename="../../QtClient/Catalog.cpp" line="835"/>
         <source>Verifying %1 of %2 filesets</source>
         <translation>正在验证 %1/%2 个文件集</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="900"/>
+        <location filename="../../QtClient/Catalog.cpp" line="899"/>
         <source>Running..</source>
         <translation>正在运行...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="902"/>
+        <location filename="../../QtClient/Catalog.cpp" line="901"/>
         <source>Finished Verifying Files...</source>
         <translation>已完成验证文件...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1509"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1514"/>
         <source>Downloading User Manifest</source>
         <translation>正在下载用户清单</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1537"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1542"/>
         <source>Downloading Imaging Manifest</source>
         <translation>正在下载映像清单</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1564"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1569"/>
         <source>Downloading Smart Filter Manifests</source>
         <translation>正在下载智能过滤器清单</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1631"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1649"/>
-        <location filename="../../QtClient/Catalog.cpp" line="2006"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1636"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1654"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2011"/>
         <source>Running</source>
         <translation>正在运行</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3901"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3906"/>
         <source>Waiting for Booster - %1</source>
         <translation>正在等待 Booster - %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3920"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3925"/>
         <source>%1 (or dependency of) not found on server</source>
         <translation>在服务器上未找到 %1（或其依赖项）</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4270"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4275"/>
         <source>Downloading Fileset Container (%1)</source>
         <translation>正在下载文件集容器 (%1)</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4272"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4277"/>
         <source>Processing requirements of %1</source>
         <translation>正在处理 %1 的要求</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4381"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4386"/>
         <source>The Hard Disk is Full...Cannot download new Filesets.</source>
         <translation>硬盘已满...无法下载新文件集。</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4393"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4398"/>
         <source>Downloading fileset %1 of %2</source>
         <translation>正在下载文件集 %1/%2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4432"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4437"/>
         <source>Activating %1</source>
         <translation>正在激活 %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4442"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4447"/>
         <source>Activating fileset %1 of %2</source>
         <translation>正在激活文件集 %1/%2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4547"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4552"/>
         <source>Installing Software...</source>
         <translation>正在安装软件...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4639"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4644"/>
         <source> Installation Failed</source>
-        <translation> 安装失败</translation>
+        <translation>安装失败</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4647"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4652"/>
         <source> Installation Successfully</source>
-        <translation> 安装成功</translation>
+        <translation>安装成功</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4998"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5003"/>
         <source>Updating %1 to new version</source>
         <translation>正在将 %1 更新到新版本</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5556"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5561"/>
         <source>
 **************************
 **FileWave Client Status**
@@ -136,7 +136,7 @@ User ID: %1
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5561"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5566"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -149,7 +149,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5577"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5582"/>
         <source>Filesets not meeting requirements:
 
 </source>
@@ -158,7 +158,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5592"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5597"/>
         <source>
 Worklist:
 
@@ -169,17 +169,17 @@ Worklist:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5602"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5607"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
-        <translation>&lt;文件集名称仍然未知&gt; ID：%1，修订 ID：%2</translation>
+        <translation>&lt;Fileset name still unknown&gt; ID：%1，修订 ID：%2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5672"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5677"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation>一旦擦除此计算机的数据，它就会关闭</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5673"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5678"/>
         <source>Executing Remote Wipe</source>
         <translation>正在执行远程擦除</translation>
     </message>

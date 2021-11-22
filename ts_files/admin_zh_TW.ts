@@ -205,7 +205,7 @@ There is no way to get it back!</source>
         <location filename="../../FWAdminLib/activationlockbypass/ALBAssistant.cpp" line="125"/>
         <source>Are you really sure you want to remove ActivationLock from selected devices?
 Anyone will be able to activate selected devices after a reset!</source>
-        <translation>您真的確定要從所選裝置中刪除啟用鎖嗎？
+        <translation>您真的確定要從所選裝置中移除啟用鎖嗎？
 任何人都可以在重設後啟動所選裝置！</translation>
     </message>
     <message>
@@ -1208,7 +1208,7 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="148"/>
         <source>The policy for granting permission requests to apps.  For example, if an application would like access to the camera, this sets the default action taken by the device operating system: prompt user, automatically grant the permission, or deny the application access.</source>
-        <translation>授予權限要求給應用程式的原則。  例如，如果應用程式想要存取相機，這將設定裝置作業系統的預設動作：提示使用者、自動授予權限或拒絕應用程式存取。</translation>
+        <translation>授予權限要求給應用程式的原則。例如，如果應用程式想要存取相機，這將設定裝置作業系統的預設動作：提示使用者、自動授予權限或拒絕應用程式存取。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="185"/>
@@ -1218,7 +1218,7 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="254"/>
         <source>To add Factory Reset Protection, use the plus button (below) to add a valid Gmail or G-Suite account email.  This account will be required to recover a device that has been wiped.</source>
-        <translation>若要新增重設成出廠預設值保護，請使用下面的加號按鈕新增有效的 Gmail 或 G-Suite 帳戶電子郵件。  將需要此帳戶來復原已被抹除的裝置。</translation>
+        <translation>若要新增重設成出廠預設值保護，請使用下面的加號按鈕新增有效的 Gmail 或 G-Suite 帳戶電子郵件。將需要此帳戶來復原已被抹除的裝置。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.ui" line="286"/>
@@ -1249,7 +1249,7 @@ You can configure Activation Lock for DEP devices with a DEP profile.</source>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="35"/>
         <source>Policy not specified.  If no policy is specified for a permission at any level, then the default choice is &quot;prompt&quot;.</source>
-        <translation>未指定原則。  如果未在任何層級指定權限的原則，則預設選擇為「提示」。</translation>
+        <translation>未指定原則。如果未在任何層級指定權限的原則，則預設選擇為「提示」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="36"/>
@@ -1341,7 +1341,7 @@ Server said (%1): %2</source>
         <source>The token was not valid.  Server said (%1):
 
 %2</source>
-        <translation>權杖無效。  伺服器告知 (%1)：
+        <translation>權杖無效。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -1390,7 +1390,7 @@ Please confirm intention to remove this address from the list of Factory Reset P
         <source>Unable to get list of base policies.  
 
 Server said (%1): %2</source>
-        <translation>無法取得基本原則清單。  
+        <translation>無法取得基本原則清單。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -1399,7 +1399,7 @@ Server said (%1): %2</source>
         <source>Forbidden!  Unable to get list of base policies from server.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法從伺服器取得基本原則清單。
+        <translation>禁止！無法從伺服器取得基本原則清單。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -1415,17 +1415,17 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="580"/>
         <source>Unknown response from server.  Base policy list unavailable.  Please consult the server logs or contact your FileWave administrator for help.</source>
-        <translation>伺服器傳回未知的回應。  基本原則清單無法使用。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器傳回未知的回應。基本原則清單無法使用。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="593"/>
         <source>The server responded successfully, but did not return any policies.  Please try again.  If the problem persists, please contact your FileWave Administrator for help.</source>
-        <translation>伺服器已成功回應，但未傳回任何原則。  請重試。  如果問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器已成功回應，但未傳回任何原則。請重試。如果問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="613"/>
         <source>The server responded with an ill-formed message.  If this problem persists, please contact your FileWave Administrator for help.</source>
-        <translation>伺服器回應了語式錯誤的訊息。  如果此問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器回應了語式錯誤的訊息。如果此問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="654"/>
@@ -1441,7 +1441,7 @@ Server said (%1): %2</source>
         <source>Error removing FRP email.  Please check the FileWave logs for more informaiton.  Unremoved emails:
 
   %1</source>
-        <translation>移除 FRP 電子郵件時發生錯誤。  請檢查 FileWave 記錄，瞭解更多資訊。  未被移除的電子郵件：
+        <translation>移除 FRP 電子郵件時發生錯誤。請檢查 FileWave 記錄，瞭解更多資訊。未被移除的電子郵件：
 
   %1</translation>
     </message>
@@ -1459,7 +1459,7 @@ Server said (%1): %2</source>
         <source>Forbidden!  Unable to save policy to server.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法儲存原則到伺服器。
+        <translation>禁止！無法儲存原則到伺服器。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -1484,7 +1484,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/AndroidDefaultPolicyEditorDlg.cpp" line="759"/>
         <source>Unknown response from server; policy likely not saved.  Please consult the server logs or contact your FileWave administrator for help.</source>
-        <translation>伺服器傳回未知的回應；可能未儲存原則。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器傳回未知的回應；可能未儲存原則。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
 </context>
 <context>
@@ -2024,7 +2024,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
         <source>Use this section to configure the Setup Assistant.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此區段在設定小幫手中進行設定。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
@@ -2460,7 +2460,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
         <source>iOS 11.0+ and macOS 10.15+</source>
-        <translation type="unfinished">iOS 14.0+ 和 macOS 11.0+ {11.0+?} {10.15+?}</translation>
+        <translation>iOS 11.0+ 和 macOS 10.15+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
@@ -2603,19 +2603,17 @@ Note: the profile will not be signed and disk encryption payloads will be remove
         <source>
 
 Note: signed profiles won&apos;t be modified but will not use Per-App-VPN.</source>
-        <translation>
-
-註：將不會修改已簽署設定檔，但將不會使用 Per-App-VPN。</translation>
+        <translation>註：將不會修改已簽署設定檔，但將不會使用 Per-App-VPN。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1226"/>
         <source>Could not find Per-App-VPN referenced by several payloads; VPN UUID information has been cleared for these payloads.%1</source>
-        <translation>無法找到由幾個承載參考的 Per-App-VPN；已清除這些承載的 VPN UUID 資訊。%1</translation>
+        <translation>無法找到由幾個承載參考的個別應用程式的-VPN；已清除這些承載的 VPN UUID 資訊。%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1227"/>
         <source>Could not find Per-App-VPN referenced by one payload; VPN UUID information has been cleared for this payload.%1</source>
-        <translation>無法找到由一個承載參考的 Per-App-VPN；已清除為此承載的 VPN UUID 資訊。%1</translation>
+        <translation>無法找到由一個承載參考的個別應用程式的-VPN；已清除為此承載的 VPN UUID 資訊。%1</translation>
     </message>
 </context>
 <context>
@@ -3444,7 +3442,7 @@ This cannot be undone.</source>
     <message>
         <location filename="../../FWAdminLib/Discovery/BoosterStatusModel.cpp" line="203"/>
         <source> (Timed Out)</source>
-        <translation> （逾時）</translation>
+        <translation>（逾時）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Discovery/BoosterStatusModel.cpp" line="209"/>
@@ -3722,7 +3720,7 @@ In case the booster is still running, it may be added again to the booster list 
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="677"/>
         <source>Team Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Team Viewer</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="701"/>
@@ -3787,7 +3785,7 @@ In case the booster is still running, it may be added again to the booster list 
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="172"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
-        <translation>您有未儲存的變更。  是否要儲存？</translation>
+        <translation>您有未儲存的變更。是否要儲存？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.cpp" line="205"/>
@@ -4871,7 +4869,7 @@ Note: the profile will not be signed if a new fileset is created.</source>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="317"/>
         <source>The selected profile has the profile payload identifier %1.  This identifier cannot be used.</source>
-        <translation>所選設定檔已具有設定檔承載識別碼 %1。  無法使用該識別碼。</translation>
+        <translation>所選設定檔已具有設定檔承載識別碼 %1。無法使用該識別碼。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="360"/>
@@ -5435,7 +5433,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/ExpertSettings.ui" line="20"/>
         <source>Files,  Folder,  and Windows registry names are ignored,  regardless of their location. Change only if you know what you are doing! Use the &quot;Restore Defaults&quot; button to get a safe default list.</source>
-        <translation type="unfinished"></translation>
+        <translation>無論其位置如何，將忽略檔案、資料夾和 Windows 登錄名稱。僅當您知道自己正在做什麼時才變更！使用「還原預設值」按鈕取得安全預設清單。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/ExpertSettings.ui" line="37"/>
@@ -5631,7 +5629,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/FilesetMoveToDlg.cpp" line="308"/>
         <source> Moving operation statistics</source>
-        <translation> 正在移動操作統計資料</translation>
+        <translation>正在移動操作統計資料</translation>
     </message>
 </context>
 <context>
@@ -5736,7 +5734,7 @@ Do you still want to continue editing the remaining associations?</source>
     <message>
         <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="233"/>
         <source>Logfile unavailable - can&apos;t connect with the client.  The client may currently be offline.</source>
-        <translation>記錄檔無法使用 - 無法與用戶端連線。  用戶端可能目前的離線。</translation>
+        <translation>記錄檔無法使用 - 無法與用戶端連線。用戶端可能目前的離線。</translation>
     </message>
     <message numerus="yes">
         <location filename="../../FWAdminLib/FilesetReportDlg.cpp" line="306"/>
@@ -5908,12 +5906,12 @@ Continue?</source>
     <message>
         <location filename="../../FWAdminLib/GetInfoACLDlg.cpp" line="479"/>
         <source> - Deny</source>
-        <translation> - 拒絕</translation>
+        <translation>- 拒絕</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/GetInfoACLDlg.cpp" line="481"/>
         <source> - Allow</source>
-        <translation> - 允許</translation>
+        <translation>- 允許</translation>
     </message>
 </context>
 <context>
@@ -6414,7 +6412,7 @@ This change can affect other Filesets that share the same folders.</source>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="425"/>
         <source>Error %1 during creation of Fileset Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>建立檔案集修訂版本期間時發生錯誤 %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImportFilesetDlg.cpp" line="427"/>
@@ -6548,7 +6546,7 @@ Current fileset uuid will be re-generated.</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1210"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
-        <translation>功能受限制：  在您的目前的授權設定下無法使用此功能。  請聯絡 FileWave 以升級您的授權。</translation>
+        <translation>功能受限制：在您的目前的授權設定下無法使用此功能。請聯絡 FileWave 以升級您的授權。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage10.ui" line="14"/>
@@ -6663,17 +6661,17 @@ Current fileset uuid will be re-generated.</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1349"/>
         <source> was successfully sent to the FileWave Server.</source>
-        <translation> 已成功傳送到 FileWave 伺服器。</translation>
+        <translation>已成功傳送到 FileWave 伺服器。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1351"/>
         <source> was successfully merged and sent to the FileWave Server.</source>
-        <translation> 已成功合併並傳送到 FileWave 伺服器。</translation>
+        <translation>已成功合併並傳送到 FileWave 伺服器。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1353"/>
         <source> was successfully saved to disk.</source>
-        <translation> 已成功儲存到磁碟。</translation>
+        <translation>已成功儲存到磁碟。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="1358"/>
@@ -6938,7 +6936,7 @@ or you can quit Fileset Magic Assistant and come back later to
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage1.cpp" line="506"/>
         <source>The disk this snapshot has been taken from no longer exists.  Check if disk is mounted.</source>
-        <translation>從中擷取此快照的磁碟已不再存在。  請檢查磁碟是否已掛接。</translation>
+        <translation>從中擷取此快照的磁碟已不再存在。請檢查磁碟是否已掛接。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage6.ui" line="14"/>
@@ -6984,7 +6982,7 @@ installed the software.</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="27"/>
         <source>Detail</source>
-        <translation type="unfinished">詳細資料</translation>
+        <translation>詳細資料</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertyPage7.ui" line="43"/>
@@ -7128,7 +7126,7 @@ When you are done click Continue.</source>
     <message>
         <location filename="../../FWAdminLib/WinMagicFiles/MyPropertySheet.cpp" line="66"/>
         <source>This application is not running as root.  We recommend running the Admin as root whenever building Filesets with Fileset Magic.</source>
-        <translation>此應用程式未作為 root 身分執行。  我們建議在使用 Fileset Magic 建置檔案集時以 root 身分執行管理員。</translation>
+        <translation>此應用程式未作為 root 身分執行。我們建議在使用 Fileset Magic 建置檔案集時以 root 身分執行管理員。</translation>
     </message>
 </context>
 <context>
@@ -7441,7 +7439,7 @@ Check the log file for more details</source>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="861"/>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="868"/>
         <source>(Setting is not applied until next model update)</source>
-        <translation type="unfinished"></translation>
+        <translation>（直到下一個型號更新時才套用設定）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="888"/>
@@ -7451,7 +7449,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="908"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
-        <translation>您有未儲存的變更。  是否要儲存？</translation>
+        <translation>您有未儲存的變更。是否要儲存？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="941"/>
@@ -7538,7 +7536,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="174"/>
         <source>This Smart Group contains rules with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC. When you change the platform, you will not be able to change it back.</source>
-        <translation>此智慧型群組包含不再受支援的平台的規則： macOS &lt; 10.7 或 macOS PPC。當您變更平台時，將無法再改回。</translation>
+        <translation>此智慧型群組包含不再受支援的平台的規則：macOS &lt; 10.7 或 macOS PPC。當您變更平台時，將無法再改回。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientSmartGroupDlg.cpp" line="194"/>
@@ -7669,7 +7667,7 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="114"/>
         <source> and </source>
-        <translation> 和 </translation>
+        <translation>和 </translation>
     </message>
     <message numerus="yes">
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="116"/>
@@ -7682,7 +7680,7 @@ Check the log file for more details</source>
         <location filename="../../FWAdminLib/NewClientsFromFile.cpp" line="118"/>
         <source> client(s) were skipped.</source>
         <translation>
-            <numerusform> 用戶端已略過。</numerusform>
+            <numerusform>用戶端已略過。</numerusform>
         </translation>
     </message>
     <message>
@@ -7959,7 +7957,7 @@ Use (xx:xx:xx:xx:xx:xx) for Windows MAC address or (XXXXXXXXXXXX) for Mac serial
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="626"/>
         <source>A folder of the same name already exists in this location.  Uncheck Hide Unused Folders to see all folders.</source>
-        <translation>此位置中已存在具有相同名稱的資料夾。  取消核取「隱藏未使用的資料夾」以查看所有資料夾。</translation>
+        <translation>此位置中已存在具有相同名稱的資料夾。取消核取「隱藏未使用的資料夾」以查看所有資料夾。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/OpenFilesetDlg.cpp" line="638"/>
@@ -8084,7 +8082,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/ShowRegDiff.cpp" line="275"/>
         <source>Deleting certain registry values could cause system instability.
 Are you sure you want to permanently delete those values?</source>
-        <translation type="unfinished"></translation>
+        <translation>刪除某些登錄值可能會導致系統不穩定。
+您確定要永久刪除這些值嗎？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ShowRegDiff.cpp" line="276"/>
@@ -8112,12 +8111,12 @@ Are you sure you want to permanently delete this value: %1?</source>
 <context>
     <name>CUpdateModelDlg</name>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="31"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="32"/>
         <source>Update Model</source>
         <translation>更新模型</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="42"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="43"/>
         <source>Insufficient Activation Code !
 
 Updating will not be possible until your license code supports your client or mobile load.
@@ -8140,12 +8139,12 @@ Chromebook licenses used: %5, total: %6.
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="57"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="58"/>
         <source>Update license code</source>
         <translation>更新授權代碼</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="65"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="66"/>
         <source>Can&apos;t update Server Model
 
 Server cannot be updated until all file uploads are completed.</source>
@@ -8154,7 +8153,7 @@ Server cannot be updated until all file uploads are completed.</source>
 無法更新伺服器。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="74"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="75"/>
         <source>Can&apos;t update Server Model
 
 Inventory server is offline, certain features require an inventory connection, please investigate.</source>
@@ -8163,14 +8162,14 @@ Inventory server is offline, certain features require an inventory connection, p
 庫存伺服器離線，某些功能需要庫存連線，請調查。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="85"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="86"/>
         <source>The mobile portion of your license expired on: %1.
 Desktop data only will be updated.</source>
         <translation>您的授權的行動部分已於下列時間過期：%1。
 將僅更新桌面資料。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="90"/>
+        <location filename="../../FWAdminLib/UpdateModelDlg.cpp" line="91"/>
         <source>Do you really wish to update the FileWave server model?</source>
         <translation>是否確定要更新 FileWave 伺服器模型？</translation>
     </message>
@@ -8195,7 +8194,7 @@ Desktop data only will be updated.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdmin.cpp" line="257"/>
         <source>Unable to logon.  (%1)</source>
-        <translation>無法登入。  (%1)</translation>
+        <translation>無法登入。(%1)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdmin.cpp" line="291"/>
@@ -8502,13 +8501,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="172"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="194"/>
         <source> -- Clear this list ---</source>
-        <translation> -- 清除此清單 ---</translation>
+        <translation>-- 清除此清單 ---</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="202"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="306"/>
         <source> - </source>
-        <translation> - </translation>
+        <translation>- </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="345"/>
@@ -8560,6 +8559,7 @@ Please contact your administrator to check settings.</source>
         <translation>透過 IDP 登入失敗</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="66"/>
         <location filename="../../FWAdminLib/WinAdminConnectDlg.cpp" line="477"/>
         <source>Login via IDP</source>
         <translation>透過 IDP 登入</translation>
@@ -8792,7 +8792,7 @@ Please enter your Activation Code.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1310"/>
         <source>Another administrator is currently editing the preferences.  Please try again later.</source>
-        <translation>另一管理員目前正在編輯喜好設定。  請稍後再試。</translation>
+        <translation>另一管理員目前正在編輯喜好設定。請稍後再試。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1312"/>
@@ -8804,6 +8804,13 @@ Please enter your Activation Code.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1406"/>
         <source>Cannot set permissions on a &apos;partial&apos; fileset</source>
         <translation>無法在「部分」檔案集上設定權限</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1406"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1568"/>
@@ -8828,7 +8835,7 @@ Please enter your Activation Code.</source>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1633"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
-        <translation>功能受限制：  在您的目前的授權設定下無法使用此功能。  請聯絡 FileWave 以升級您的授權。</translation>
+        <translation>功能受限制：在您的目前的授權設定下無法使用此功能。請聯絡 FileWave 以升級您的授權。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1649"/>
@@ -8863,6 +8870,13 @@ log out and log back into the FileWave™ system.</source>
         <translation>無法複製「部分」檔案集</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1810"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1820"/>
         <source>Error while duplicating fileset</source>
         <translation>複製檔案集時發生錯誤</translation>
@@ -8888,6 +8902,15 @@ log out and log back into the FileWave™ system.</source>
         <translation>無法開啟「部分」檔案集的報告</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1982"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2005"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2044"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2005"/>
         <source>Cannot open properties for a &apos;partial&apos; fileset</source>
         <translation>無法開啟「部分」檔案集的屬性</translation>
@@ -8896,6 +8919,12 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2016"/>
         <source>Outdated platforms in requirements</source>
         <translation>要求中的過期平台</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2017"/>
+        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
+When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2026"/>
@@ -8913,35 +8942,6 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2089"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>無法匯出「部分」檔案集</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1406"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1810"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1982"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2005"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2044"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2017"/>
-        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
-When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2089"/>
@@ -9033,7 +9033,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2371"/>
         <source>&lt;a href=&quot;foobar&quot;&gt;%1 Model Number: %2&lt;/a&gt; </source>
-        <translation>&lt;a href=&quot;foobar&quot;&gt;%1 型號： %2&lt;/a&gt; </translation>
+        <translation>&lt;a href=&quot;foobar&quot;&gt;%1 型號：%2&lt;/a&gt; </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2383"/>
@@ -9063,7 +9063,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2450"/>
         <source> (Warning: APN certificate will expire in %1 days)</source>
-        <translation> （警告：APN 憑證將於 %1 天後到期）</translation>
+        <translation>（警告：APN 憑證將於 %1 天後到期）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2460"/>
@@ -9087,7 +9087,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2466"/>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2522"/>
         <source> and </source>
-        <translation> 和 </translation>
+        <translation>和 </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2475"/>
@@ -9277,32 +9277,32 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3865"/>
         <source>Per-App VPN payload and usages update failed</source>
-        <translation>Per-App VPN 承載和使用情況更新失敗</translation>
+        <translation>個別應用程式的 VPN 承載和使用情況更新失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3866"/>
         <source>Failed to add or update Per-App VPN payload and usages.</source>
-        <translation>無法新增或更新 Per-App VPN 承載和使用情況。</translation>
+        <translation>無法新增或更新個別應用程式的 VPN 承載和使用情況。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3881"/>
         <source>Per-App VPN payloads and usages remove failed</source>
-        <translation>Per-App VPN 承載和使用情況移除失敗</translation>
+        <translation>個別應用程式的 VPN 承載和使用情況移除失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3882"/>
         <source>Failed to remove Per-App VPN payloads and usages.</source>
-        <translation>無法移除 Per-App VPN 承載和使用情況。</translation>
+        <translation>無法移除個別應用程式的 VPN 承載和使用情況。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3897"/>
         <source>Per-App VPN payload usages update failed</source>
-        <translation>Per-App VPN 承載使用情況更新失敗</translation>
+        <translation>個別應用程式的 VPN 承載使用情況更新失敗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3898"/>
         <source>Failed to update Per-App VPN payload usages.</source>
-        <translation>無法更新 Per-App VPN 承載使用情況。</translation>
+        <translation>無法更新個別應用程式的 VPN 承載使用情況。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3913"/>
@@ -9879,7 +9879,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1760"/>
         <source> hour(s)</source>
-        <translation> 小時</translation>
+        <translation>小時</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1789"/>
@@ -10106,7 +10106,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <source>These settings are used to provide authentication values for already configured system proxies.  The protocol, host and port values are used to determine which system proxy a particular username and password combination applies to.
 
 By default, the FileWave Admin will use the same proxy settings as the server.</source>
-        <translation>這些設定用於為已設定的系統 proxy 提供驗證值。  通訊協定、主機和連接埠值用於確定特定的使用者名稱和密碼組合套用至哪個系統 proxy。
+        <translation>這些設定用於為已設定的系統 proxy 提供驗證值。通訊協定、主機和連接埠值用於確定特定的使用者名稱和密碼組合套用至哪個系統 proxy。
 
 依預設，FileWave Admin 將使用與伺服器相同的 proxy 設定。</translation>
     </message>
@@ -10303,7 +10303,7 @@ Are you sure you want to continue?</source>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="823"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="824"/>
         <source> (full sync)</source>
-        <translation> （完整同步）</translation>
+        <translation>（完整同步）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="852"/>
@@ -10418,7 +10418,7 @@ Are you sure you want to continue?</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1692"/>
         <source>Feature Restricted:  This feature is not available with your current license configuration.  Contact FileWave to upgrade your license.</source>
-        <translation>功能受限制：  在您的目前的授權設定下無法使用此功能。  請聯絡 FileWave 以升級您的授權。</translation>
+        <translation>功能受限制：在您的目前的授權設定下無法使用此功能。請聯絡 FileWave 以升級您的授權。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1792"/>
@@ -10711,7 +10711,7 @@ Continue ?</source>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2943"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2957"/>
         <source>An error occurred while saving the file: %1</source>
-        <translation>儲存檔案時發生錯誤。%1</translation>
+        <translation>儲存檔案時發生錯誤：%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2948"/>
@@ -12001,7 +12001,7 @@ Do you want to regenerate the CA certificate tree?</source>
         <source>Unhandled server error while importing associations.  Server said (%1):
 
 %2</source>
-        <translation>匯入關聯時發生未處理的伺服器錯誤。  伺服器告知 (%1)：
+        <translation>匯入關聯時發生未處理的伺服器錯誤。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12010,7 +12010,7 @@ Do you want to regenerate the CA certificate tree?</source>
         <source>Invalid CSV data.  Server said (%1):
 
 %2</source>
-        <translation>無效 CSV 資料。  伺服器告知 (%1)：
+        <translation>無效 CSV 資料。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12019,7 +12019,7 @@ Do you want to regenerate the CA certificate tree?</source>
         <source>Conflict while importing one-to-one associations.  Server said (%1):
 
 %2</source>
-        <translation>匯入一對一關聯時出現衝突。  伺服器告知 (%1)：
+        <translation>匯入一對一關聯時出現衝突。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12028,7 +12028,7 @@ Do you want to regenerate the CA certificate tree?</source>
         <source>Error importing associations.  Server said (%1):
 
 %2</source>
-        <translation>匯入關聯發生錯誤。  伺服器告知 (%1)：
+        <translation>匯入關聯發生錯誤。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12037,7 +12037,7 @@ Do you want to regenerate the CA certificate tree?</source>
         <source>Unexpected server response while importing associations.  Please see server logs.  Server said (%1):
 
 %2</source>
-        <translation>匯入關聯時出現未預期的伺服器回應。  請參閱伺服器記錄。  伺服器告知 (%1)：
+        <translation>匯入關聯時出現未預期的伺服器回應。請參閱伺服器記錄。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12207,7 +12207,7 @@ Resetting the image cache will also cause the education profile to be redeployed
     <message>
         <location filename="../../FWAdminLib/Preferences/ClassroomPreferencesWidget.cpp" line="209"/>
         <source>&lt;html&gt;Template check: &lt;font color=&quot;red&quot;&gt;Invalid URL.&lt;/font&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;範本檢查：&lt;font color=&quot;red&quot;&gt; URL.無效&lt;/font&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;範本檢查：&lt;font color=&quot;red&quot;&gt;URL.無效&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/ClassroomPreferencesWidget.cpp" line="216"/>
@@ -12555,7 +12555,7 @@ Do you want to proceed with certificate generation now?</source>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="357"/>
         <source>Imaging MAC Address</source>
-        <translation type="unfinished"></translation>
+        <translation>影像處理 Mac 位址</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="359"/>
@@ -12593,14 +12593,15 @@ Groups: %4 total, %5 original(s), %6 clone(s)</source>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="865"/>
         <source>The MAC address provided does not have the correct format.
 Please use xx:xx:xx:xx:xx:xx.</source>
-        <translation type="unfinished"></translation>
+        <translation>提供的 MAC 位址格式不正確。
+請使用 xx:xx:xx:xx:xx:xx。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="884"/>
         <source>Unable to modify OU.  Server said (%1):
 
 %2</source>
-        <translation>無法修改 OU。  伺服器告知 (%1)：
+        <translation>無法修改 OU。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12608,8 +12609,7 @@ Please use xx:xx:xx:xx:xx:xx.</source>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="894"/>
         <source>The client name is invalid for Imaging (e.g., it has more than 15 characters, contains invalid characters, or uses a keyword).
 Please choose a different name or remove Imaging association.</source>
-        <translation>用戶端名稱對於映像處理無效（例如，超過 15 個字元、包含無效字符或使用關鍵字）。
-請選擇其他名稱或移除映像關聯。</translation>
+        <translation>用戶端名稱對於映像處理無效（例如，超過 15 個字元、包含無效字元或使用關鍵字）。請選擇其他名稱或移除映像關聯。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="904"/>
@@ -12632,7 +12632,7 @@ Please choose a different name or remove Imaging association.</source>
         <source>Unable to move into new parent OU.  Server said (%1):
 
 %2</source>
-        <translation>無法移動至新父系 OU。  伺服器告知 (%1)：
+        <translation>無法移動至新父系 OU。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -12665,7 +12665,7 @@ Please choose a different name or remove Imaging association.</source>
         <location filename="../../FWAdminLib/models/clientsgroupsmodel.cpp" line="2384"/>
         <source>Inventory: Error while loading list of custom fields: %1
 %2</source>
-        <translation>庫存：載入自訂欄位清單時發生錯誤： %1
+        <translation>庫存：載入自訂欄位清單時發生錯誤：%1
 %2</translation>
     </message>
 </context>
@@ -12959,7 +12959,7 @@ Please choose a different name or remove Imaging association.</source>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="125"/>
         <source>Open Remote Session</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟遠端工作階段</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
@@ -13112,23 +13112,23 @@ Please choose a different name or remove Imaging association.</source>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1795"/>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1801"/>
         <source> (%1 Clones)</source>
-        <translation> （%1 個複製品）</translation>
+        <translation>（%1 個複製品）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1795"/>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1801"/>
         <source> (%1 Clone)</source>
-        <translation> （%1 個複製品）</translation>
+        <translation>（%1 個複製品）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1798"/>
         <source> %1 Groups</source>
-        <translation> %1 個群組</translation>
+        <translation>%1 個群組</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1798"/>
         <source> %1 Group</source>
-        <translation> %1 個群組</translation>
+        <translation>%1 個群組</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1805"/>
@@ -13461,20 +13461,17 @@ Failed FileWave IDs: %4</source>
         <translation>驗證碼保護的 iOS 裝置將不會自動加入 WiFi 網路，需要輸入驗證碼才會加入 - 在輸入驗證碼前，將無法進行遠端管理。繼續之前請確保知曉驗證碼。沒有 WiFi 連線，FileWave 無法將其清除。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1484"/>
         <source>Unable to delete group: %1
 
 This is the %2.  To delete, change the auto-add preference in:
 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>無法刪除群組：%1
+
+這是 %2。  如要刪除，請在下列位置更改自動新增喜好設定：
+
+%3</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1489"/>
@@ -13483,7 +13480,11 @@ This is the %2.  To delete, change the auto-add preference in:
 This group contains the %2 &apos;%3&apos;.  To delete this group, change the auto-add preference in:
 
 %4</source>
-        <translation type="unfinished"></translation>
+        <translation>無法刪除群組：%1
+
+此群組包含 %2 &apos;%3&apos;。  如要刪除此群組，請在下列位置更改自動新增喜好設定：
+
+%4</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="672"/>
@@ -13491,9 +13492,16 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
         <translation>您不能將用戶端監視器與 Apple iOS 裝置搭配使用</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="662"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+
+Do you want to open the Client Monitor anyway?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="777"/>
         <source>Sorry, you may not make direct associations to group clones.  Please make the association to the original group.</source>
-        <translation>抱歉，您可能無法與群組複製品直接關聯。  請與原始群組進行關聯。</translation>
+        <translation>抱歉，您可能無法與群組複製品直接關聯。請與原始群組進行關聯。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="814"/>
@@ -13598,7 +13606,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
         <source>Unable to renew tokens; please check server logs for more details.  Server said (%1)
 
 %2</source>
-        <translation>無法續訂權杖；請檢查伺服器記錄以瞭解更多詳細資料。  伺服器告知 (%1)
+        <translation>無法續訂權杖；請檢查伺服器記錄以瞭解更多詳細資料。伺服器告知 (%1)
 
 %2</translation>
     </message>
@@ -13700,7 +13708,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1315"/>
         <source> Moving operation statistics</source>
-        <translation> 正在移動操作統計資料</translation>
+        <translation>正在移動操作統計資料</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1383"/>
@@ -13763,12 +13771,12 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1476"/>
         <source>committed auto-add group</source>
-        <translation type="unfinished"></translation>
+        <translation>已認可的自動新增群組</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1476"/>
         <source>auto-add group</source>
-        <translation type="unfinished"></translation>
+        <translation>自動新增群組</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1481"/>
@@ -13853,7 +13861,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
         <source>Failed to mark OUs for deletion.  Server said (%1):
 
 %2</source>
-        <translation>標記 OU 進行刪除失敗。  伺服器告知 (%1)：
+        <translation>標記 OU 進行刪除失敗。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -14022,7 +14030,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="2401"/>
         <source>&lt;br&gt;&lt;font color=red&gt;Archived client state will not change.  Select Reinstate to manage them again.&lt;/font&gt;</source>
-        <translation>&lt;br&gt;&lt;font color=red&gt;已封存用戶端的狀態將不會變更。  選擇「恢復」以重新管理已封存用戶端。&lt;/font&gt;</translation>
+        <translation>&lt;br&gt;&lt;font color=red&gt;已封存用戶端的狀態將不會變更。選擇「恢復」以重新管理已封存用戶端。&lt;/font&gt;</translation>
     </message>
     <message numerus="yes">
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="2403"/>
@@ -14159,7 +14167,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="100"/>
         <source>Set wallpaper (supervised devices only). Wallpaper will be reset once a day.</source>
-        <translation>設定背景圖案（僅受監督的裝置）。將每天重設背景圖案。</translation>
+        <translation>設定背景圖案（僅受監督的裝置）。將每天重設背景圖案一次。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="111"/>
@@ -14249,7 +14257,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="396"/>
         <source>Refresh Cellular Plan (iOS 13.0+)</source>
-        <translation>重新整理行動數據套餐 (iOS 13.0+)</translation>
+        <translation>重新整理行動數據方案 (iOS 13.0+)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="403"/>
@@ -14331,12 +14339,12 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="625"/>
         <source> MB</source>
-        <translation> MB</translation>
+        <translation>MB</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="672"/>
         <source>Resident Users</source>
-        <translation>常駐使用者</translation>
+        <translation>常駐使用者數目</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="679"/>
@@ -14373,7 +14381,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="939"/>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1028"/>
         <source> seconds</source>
-        <translation> 秒</translation>
+        <translation>秒</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="879"/>
@@ -14459,33 +14467,33 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1140"/>
         <source>Software Update Settings (supervised iOS devices only)</source>
-        <translation type="unfinished"></translation>
+        <translation>軟體更新設定（僅限受監督的 iOS 裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1151"/>
         <source>Both update versions</source>
-        <translation type="unfinished"></translation>
+        <translation>兩種更新版本</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1156"/>
         <source>Only minor update version</source>
-        <translation type="unfinished"></translation>
+        <translation>僅次要更新版本</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1161"/>
         <source>Only major update version</source>
-        <translation type="unfinished"></translation>
+        <translation>僅主要更新版本</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1166"/>
         <source>Don&apos;t change update settings</source>
-        <translation type="unfinished"></translation>
+        <translation>不要變更更新設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1174"/>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="474"/>
         <source>No MDM restrictions. The latest major and the latest minor versions of updates are available.  E.g. iOS 15.0 and iOS 14.6</source>
-        <translation type="unfinished"></translation>
+        <translation>無 MDM 限制。提供最新的主要更新版本和最新的次要更新版本。  例如 iOS 15.0 和 iOS 14.6</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="44"/>
@@ -14520,12 +14528,12 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="470"/>
         <source>Only the latest minor update version is proposed to the user.  E.g. iOS 14.6</source>
-        <translation type="unfinished"></translation>
+        <translation>僅向使用者建議最新的次要更新版本。  例如 iOS 14.6</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="472"/>
         <source>Only the latest major update version is proposed to the user.  E.g. iOS 15.0</source>
-        <translation type="unfinished"></translation>
+        <translation>僅向使用者建議最新的主要更新版本。  例如 iOS 15.0</translation>
     </message>
 </context>
 <context>
@@ -14810,7 +14818,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.ui" line="125"/>
         <source>Changing this setting does not automatically move cached content from the old to the new location. The path should end with /Library/Application Support/Apple/AssetCache/Data.</source>
-        <translation>變更此設定不會自動將快取內容從舊位置移動到新位置。路徑應的結尾應為 /Library/Application Support/Apple/AssetCache/Data。</translation>
+        <translation>變更此設定不會自動將快取內容從舊位置移動到新位置。路徑的結尾應為 /Library/Application Support/Apple/AssetCache/Data。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.ui" line="135"/>
@@ -14954,7 +14962,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="96"/>
         <source>IP address ranges of the peers to query content from</source>
-        <translation type="unfinished"></translation>
+        <translation>對等用於查詢內容的 IP 位址範圍</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="104"/>
@@ -14972,7 +14980,7 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
     <message>
         <location filename="../../FWAdminLib/CreateIOSAppOnMDM.cpp" line="109"/>
         <source>Successfully created Fileset: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation>已成功建立檔案集： &lt;b&gt;%1&lt;/b&gt;</translation>
+        <translation>已成功建立檔案集：&lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateIOSAppOnMDM.cpp" line="137"/>
@@ -15318,7 +15326,7 @@ Do you want to remove all existing associations to clients?</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldDetailsWidget.cpp" line="135"/>
         <source> and </source>
-        <translation> 和 </translation>
+        <translation>和 </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldDetailsWidget.cpp" line="137"/>
@@ -16352,7 +16360,7 @@ All values for this field will be wiped.</source>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesModel.cpp" line="142"/>
         <source> (restricted)</source>
-        <translation> （受限）</translation>
+        <translation>（受限）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CustomFields/CustomFieldEditValuesModel.cpp" line="157"/>
@@ -16807,7 +16815,7 @@ Please retry once editing is done.</source>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="850"/>
         <source> (full sync)</source>
-        <translation> （完整同步）</translation>
+        <translation>（完整同步）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="905"/>
@@ -17313,7 +17321,7 @@ Are you sure ?</source>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="162"/>
         <source>Screen Time</source>
-        <translation>螢幕時間</translation>
+        <translation>螢幕使用時間</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="165"/>
@@ -17428,7 +17436,7 @@ Are you sure ?</source>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="193"/>
         <source>Unlock your Mac with your Apple Watch</source>
-        <translation type="unfinished"></translation>
+        <translation>使用 Apple Watch 解鎖 Mac</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="280"/>
@@ -17451,95 +17459,95 @@ Are you sure ?</source>
         <translation>使用 FileWave 用戶端名稱重新命名</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="402"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="407"/>
         <source>Select a DER or PEM encoded certificate to add.</source>
         <translation>選取一個 DER 或 PEM 編碼憑證進行新增。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
         <source>Certificates (*.cer *.crt *.pem *.pkcs)</source>
         <translation>憑證 (*.cer *.crt *.pem *.pkcs)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="413"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="419"/>
         <source>Loading a certificate</source>
         <translation>正在載入憑證</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="413"/>
         <source>The file %1 could not be opened for read: %2</source>
         <translation>檔案 %1 無法開啟以供讀取：%2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="419"/>
         <source>The certificate could not be loaded.
 Only Pem and Der formatted certificates are allowed.</source>
         <translation>無法載入憑證
 只允許 Pem 和 Der 格式的憑證。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="470"/>
         <source>Custom enrollment can&apos;t be checked while no IDP server configured! Please uncheck Custom enrollment and try again.</source>
         <translation>在沒有設定 IDP 伺服器的情況下無法選取自訂註冊！請取消核取自訂註冊，然後重試。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="472"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="477"/>
         <source>A DEP Profile requires a name.</source>
         <translation>DEP 設定檔需要名稱。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="479"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="484"/>
         <source>The account name needs at least one alphabetic character.</source>
         <translation>帳戶名稱需要至少一個字母字元。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="483"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="488"/>
         <source>You need to enter a name for the Primary Account.</source>
         <translation>您需要為主要帳戶輸入名稱。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="498"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="503"/>
         <source>Account creation requires a user account name.</source>
         <translation>建立帳戶需要使用者帳戶名稱。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="510"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="515"/>
         <source>Provided passwords for user account don&apos;t match</source>
         <translation>為使用者帳戶提供的密碼不匹配。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="517"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="522"/>
         <source>Account creation requires an user&apos;s password.</source>
         <translation>建立帳戶需要使用者的密碼。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="533"/>
         <source>Device naming requires a template.</source>
         <translation>裝置命名需要範本。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="901"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="907"/>
         <source>Disabled</source>
         <translation>已停用</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="903"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="909"/>
         <source>iCloud</source>
         <translation>iCloud</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="904"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="910"/>
         <source>ASM/ABM (Organization)</source>
         <translation>ASM/ABM（組織）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="923"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="929"/>
         <source>Activation Lock</source>
         <translation>啟用鎖</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="923"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="929"/>
         <source>Shared iPads do not support iCloud Activation Lock.
 Changing to ASM/ABM Activation Lock.</source>
         <translation>共用 iPad 不支援 iCloud 啟用鎖。
@@ -17547,15 +17555,15 @@ Changing to ASM/ABM Activation Lock.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="465"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="472"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="483"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="490"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="498"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="504"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="510"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="517"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="528"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="470"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="477"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="488"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="495"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="503"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="509"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="515"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="522"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="533"/>
         <source>DEP Profile</source>
         <translation>DEP 設定檔</translation>
     </message>
@@ -17575,7 +17583,7 @@ Changing to ASM/ABM Activation Lock.</source>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1800"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1823"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1846"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="368"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="372"/>
         <source>required</source>
         <translation>必填</translation>
     </message>
@@ -17849,7 +17857,7 @@ Changing to ASM/ABM Activation Lock.</source>
     <message>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1691"/>
         <location filename="../../FWAdminLib/dep/DepProfileDlg.ui" line="1777"/>
-        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="367"/>
+        <location filename="../../FWAdminLib/dep/DepProfileDlg.cpp" line="371"/>
         <source>optional</source>
         <translation>選用</translation>
     </message>
@@ -18082,7 +18090,7 @@ Changing to ASM/ABM Activation Lock.</source>
     <message>
         <location filename="../../FWAdminLib/DependencyFilesetDeleteDialog.cpp" line="152"/>
         <source>Per-App VPN dependency</source>
-        <translation>Per-App VPN 相依性</translation>
+        <translation>個別應用程式的 VPN 相依性</translation>
     </message>
 </context>
 <context>
@@ -18202,7 +18210,7 @@ Changing to ASM/ABM Activation Lock.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/DirectoryForm.ui" line="60"/>
         <source>Server Hostname</source>
-        <translation>伺服器主機名</translation>
+        <translation>伺服器主機名稱</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DirectoryForm.ui" line="67"/>
@@ -18845,7 +18853,7 @@ Changing to ASM/ABM Activation Lock.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/DiskEncryptionForm.ui" line="339"/>
         <source>When the user is not prompted, FileVault activation may never happen or escrowing personal recovery key to FileWave may not be allowed. Maximum number of times the user can bypass enabling FileVault before it will require to be enabled before the user can log in. Available in macOS 10.10 and later.</source>
-        <translation>當不提示使用者時，FileVault 啟用可能永遠不會發生，或不允許將個人復原金鑰委託給 FileWave在使用者能夠登入前，要求啟用 FileVault 之前，使用者可以略過啟用 FileVault 的次數上限。在 macOS 10.10 及更高版本中可用。</translation>
+        <translation>當不提示使用者時，FileVault 啟用可能永遠不會發生，或不允許將個人復原金鑰委託給 FileWave。在使用者能夠登入前，要求啟用 FileVault 之前，使用者可以略過啟用 FileVault 的次數上限。在 macOS 10.10 及更高版本中可用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/DiskEncryptionForm.ui" line="349"/>
@@ -18952,7 +18960,7 @@ If empty, the hostname above will be used to determine the server adresses.</sou
         <location filename="../../FWAdminLib/Configurator/DnsSettingsForm.cpp" line="20"/>
         <source>Domains used to determine which DNS queries will use the DNS server. Wildcard prefixes are supported.
 If empty, all domains will use the DNS server.</source>
-        <translation>網域用於確定哪些 DNS 查詢將使用 DNS 伺服器。支援萬用字元前置詞。。
+        <translation>網域用於確定哪些 DNS 查詢將使用 DNS 伺服器。支援萬用字元前置詞。
 如果為空白，則所有網域都將使用 DNS 伺服器。</translation>
     </message>
 </context>
@@ -19551,12 +19559,12 @@ If empty, all domains will use the DNS server.</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="251"/>
         <source>Use this button if you want to reset this configuration process (ex. in case of an invalid JSON file upload)</source>
-        <translation type="unfinished"></translation>
+        <translation>如果您想重設此設定流程，請使用此按鈕（例如，在 JSON 檔案上傳無效的情況下）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="271"/>
         <source>Reset</source>
-        <translation type="unfinished">重設</translation>
+        <translation>重設</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.ui" line="304"/>
@@ -19631,7 +19639,7 @@ If empty, all domains will use the DNS server.</source>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="250"/>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="314"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Communication with the Android Management API (AMAPI) is not functional.  All devices still exist in the upstream Google Cloud Project and Enterprise, but FileWave cannot send commands, cannot update device policies, and new enrollments will not complete.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;無法與 Android Management API (AMAPI) 通訊。  所有裝置仍存在於上游 Google Cloud 專案和企業中，但 FileWave 無法傳送命令、無法更新裝置原則，且新註冊將無法完成。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;無法與 Android Management API (AMAPI) 通訊。所有裝置仍存在於上游 Google Cloud 專案和企業中，但 FileWave 無法傳送命令、無法更新裝置原則，且新註冊將無法完成。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="251"/>
@@ -19649,7 +19657,7 @@ If empty, all domains will use the DNS server.</source>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="257"/>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="322"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Temporarily disable the EMM Service Account; this prevents &lt;span style=&quot;font-weight:600;&quot;&gt;all&lt;/span&gt; communication with the Android Management API.  No new device enrollments, no token enrollment, and the EMM model update will do nothing.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;暫時停用 EMM 服務帳戶；這將阻止 &lt;span style=&quot;font-weight:600;&quot;&gt;all&lt;/span&gt; c與 Android Management API 的所有通訊。  沒有新裝置註冊，沒有權杖註冊，且 EMM 模型更新將不會執行任何操作。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;暫時停用 EMM 服務帳戶；這將阻止 &lt;span style=&quot;font-weight:600;&quot;&gt;all&lt;/span&gt; c與 Android Management API 的所有通訊。沒有新裝置註冊，沒有權杖註冊，且 EMM 模型更新將不會執行任何操作。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="260"/>
@@ -19671,7 +19679,7 @@ Server said (%1): %2</source>
         <source>Unable to toggle state of EMM Service Account.  Server said (%1):
 
 %2</source>
-        <translation>無法切換 EMM 服務帳戶的狀態。  伺服器告知 (%1)：
+        <translation>無法切換 EMM 服務帳戶的狀態。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -19709,17 +19717,17 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="411"/>
         <source>Unable to remove enterprise: %1 (%2) - HTTP %3.  If this is not expected, please contact your FileWave administrator.</source>
-        <translation>無法移除企業：%1 (%2) - HTTP %3。  如果這不是期望的結果，請聯絡您的 FileWave 管理員。</translation>
+        <translation>無法移除企業：%1 (%2) - HTTP %3。如果這不是期望的結果，請聯絡您的 FileWave 管理員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="457"/>
         <source>Enterprise still exists and is accessible.  The upstream connection must be broken (see step 1 in instructions above button) before FileWave will remove EMM devices.</source>
-        <translation>企業仍然存在且可存取。  必須先中斷上游連線（請參閱上述按鈕說明中的步驟 1），FileWave 才會移除 EMM 裝置。</translation>
+        <translation>企業仍然存在且可存取。必須先中斷上游連線（請參閱上述按鈕說明中的步驟 1），FileWave 才會移除 EMM 裝置。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="464"/>
         <source>Unable to confirm that upstream enterprise is gone.  Not removing enterprise from FileWave.  If this is unexpected, please contact your FileWave administrator.</source>
-        <translation>取法確認上游企業已移除。  沒有從 FileWave 移除企業。  如果這不是期望的結果，請聯絡您的 FileWave 管理員。</translation>
+        <translation>取法確認上游企業已移除。沒有從 FileWave 移除企業。如果這不是期望的結果，請聯絡您的 FileWave 管理員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="531"/>
@@ -19755,7 +19763,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="572"/>
         <source>There is no Zero Touch configuration to copy -- please run Update Model at least once.  (Current model: 0)</source>
-        <translation>沒有可複製的 Zero Touch 設定 -- 請至少執行一次「更新模型」。  （目前的模型：0）</translation>
+        <translation>沒有可複製的 Zero Touch 設定 -- 請至少執行一次「更新模型」。（目前的模型：0）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EMMEnterpriseConfigurationDlg.cpp" line="575"/>
@@ -19825,12 +19833,12 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="219"/>
         <source>Number of TV licenses:</source>
-        <translation type="unfinished"></translation>
+        <translation>電視授權數量：</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="226"/>
         <source>labelNumTvAdm</source>
-        <translation type="unfinished"></translation>
+        <translation>labelNumTvAdm</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="94"/>
@@ -19880,7 +19888,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="295"/>
         <source>Use this window to retrieve the license code for your FileWave Server.  Press the &quot;Enter or Update Code&quot; button to enter the license code you received from FileWave.</source>
-        <translation>使用此視窗為您的 FileWave 伺服器擷取授權代碼。  按「輸入或更新代碼」按鈕以輸入您從 FileWave 收到的授權代碼。</translation>
+        <translation>使用此視窗為您的 FileWave 伺服器擷取授權代碼。按「輸入或更新代碼」按鈕以輸入您從 FileWave 收到的授權代碼。</translation>
     </message>
 </context>
 <context>
@@ -21193,7 +21201,7 @@ All your changes will be lost.</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/EngageMigrate.cpp" line="67"/>
         <source>An error occurred while backing up data: %1</source>
-        <translation>備份資料時發生錯誤。%1</translation>
+        <translation>備份資料時發生錯誤：%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EngageMigrate.cpp" line="73"/>
@@ -21203,7 +21211,7 @@ All your changes will be lost.</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/EngageMigrate.cpp" line="83"/>
         <source>An error occurred while restoring data: %1</source>
-        <translation>還原資料時發生錯誤。%1</translation>
+        <translation>還原資料時發生錯誤：%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/EngageMigrate.cpp" line="87"/>
@@ -21674,7 +21682,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
         <source>Unable to update token.  Server said (%1):
 
 %2</source>
-        <translation>無法更新權杖。  伺服器告知 (%1)：
+        <translation>無法更新權杖。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -21690,7 +21698,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
         <source>Unable to create token: forbidden.  Do you need to get your FileWave Admin to add this user to the appropriate service account, enterprise, or policy?  Specific server message (%1):
 
 %2</source>
-        <translation>無法建立權杖：禁止。  是否需要讓您的 FileWave Admin 將此使用者新增到適當的服務帳戶、企業或原則？  特定伺服器訊息 (%1)：
+        <translation>無法建立權杖：禁止。是否需要讓您的 FileWave Admin 將此使用者新增到適當的服務帳戶、企業或原則？  特定伺服器訊息 (%1)：
 
 %2</translation>
     </message>
@@ -21699,7 +21707,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
         <source>Unable to create token.  Server said (%1):
 
 %2</source>
-        <translation>無法建立權杖。  伺服器告知 (%1)：
+        <translation>無法建立權杖。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -21708,21 +21716,21 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
         <source>Server error while creating token.  Server said (%1):
 
 %2</source>
-        <translation>建立權杖時發生伺服器錯誤。  伺服器告知 (%1)：
+        <translation>建立權杖時發生伺服器錯誤。伺服器告知 (%1)：
 
 %2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="615"/>
         <source>Unknown response from server.  Please consult the server logs or contact your FileWave administrator for help.</source>
-        <translation>伺服器傳回未知的回應。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器傳回未知的回應。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="681"/>
         <source>Unable to delete token.  Server said (%1):
 
 %2</source>
-        <translation>無法刪除權杖。  伺服器告知 (%1)：
+        <translation>無法刪除權杖。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -21731,7 +21739,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
         <source>Unable to get list of enterprises.  Without any enterprises, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
-        <translation>無法取得企業清單。  沒有任何企業，您將無法建立任何權杖。
+        <translation>無法取得企業清單。沒有任何企業，您將無法建立任何權杖。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -21740,7 +21748,7 @@ Server said (%1): %2</source>
         <source>Forbidden!  Unable to get list of registered enterprises from server.  Note: Without at least one valid enterprise, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法從伺服器取得已註冊企業清單。  註：如果沒有至少一個有效企業，您將無法建立任何權杖。
+        <translation>禁止！無法從伺服器取得已註冊企業清單。註：如果沒有至少一個有效企業，您將無法建立任何權杖。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -21749,21 +21757,21 @@ Server said (%1): %2</source>
         <source>Server error; unable to get list of enterprises.  Without any enterprises, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
-        <translation>伺服器錯誤；無法取得企業清單。  沒有任何企業，您將無法建立任何權杖。
+        <translation>伺服器錯誤；無法取得企業清單。沒有任何企業，您將無法建立任何權杖。
 
 伺服器告知 (%1)：%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="743"/>
         <source>Unknown response from server.  Enterprise list unavailable.  Please consult the server logs or contact your FileWave administrator for help.  (Note that without any valid enterprises, you will not be able to create tokens.)</source>
-        <translation>伺服器傳回未知的回應。  企業清單無法使用。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。  （請注意，如果沒有任何有效企業，您將無法建立權杖。)</translation>
+        <translation>伺服器傳回未知的回應。企業清單無法使用。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。（請注意，如果沒有任何有效企業，您將無法建立權杖。)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="788"/>
         <source>Unable to get list of policies.  Without any policies, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
-        <translation>無法取得原則清單。  沒有任何企業，您將無法建立任何權杖。
+        <translation>無法取得原則清單。沒有任何企業，您將無法建立任何權杖。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -21772,7 +21780,7 @@ Server said (%1): %2</source>
         <source>Forbidden!  Unable to get list of registered policies from server.  Note: Without at least one policy, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法從伺服器取得已註冊原則清單。  註：如果沒有至少一個原則，您將無法建立任何權杖。
+        <translation>禁止！無法從伺服器取得已註冊原則清單。註：如果沒有至少一個原則，您將無法建立任何權杖。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -21781,21 +21789,21 @@ Server said (%1): %2</source>
         <source>Server error; unable to get list of policies.  Without any policies, you will not be able to create any tokens.
 
 Server said (%1): %2</source>
-        <translation>伺服器錯誤；無法取得原則清單。  沒有任何企業，您將無法建立任何權杖。
+        <translation>伺服器錯誤；無法取得原則清單。沒有任何企業，您將無法建立任何權杖。
 
 伺服器告知 (%1)：%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="811"/>
         <source>Unknown response from server.  Policy list unavailable.  Please consult the server logs or contact your FileWave administrator for help.  (Note that without any policies, you will not be able to create tokens.)</source>
-        <translation>伺服器傳回未知的回應。  原則清單無法使用。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。  （請注意，如果沒有任何原則，您將無法建立權杖。)</translation>
+        <translation>伺服器傳回未知的回應。原則清單無法使用。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。（請注意，如果沒有任何原則，您將無法建立權杖。)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="877"/>
         <source>Forbidden!  Unable to get list of existing enrollment tokens.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法取得現有註冊權杖清單。
+        <translation>禁止！無法取得現有註冊權杖清單。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -21820,7 +21828,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="900"/>
         <source>Unknown response from server.  Enrollment token list unavailable.  Please consult the server logs or contact your FileWave administrator for help.</source>
-        <translation>伺服器傳回未知的回應。  註冊權杖清單無法使用。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器傳回未知的回應。註冊權杖清單無法使用。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="927"/>
@@ -22174,12 +22182,12 @@ Please trust the server certificate such that you can use it with Configurator.<
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="6"/>
         <source>Assignment of a TV license</source>
-        <translation type="unfinished"></translation>
+        <translation>電視授權的指派</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="44"/>
         <source>Please enter the user identification.</source>
-        <translation type="unfinished"></translation>
+        <translation>請輸入使用者識別資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="77"/>
@@ -22188,17 +22196,21 @@ Please trust the server certificate such that you can use it with Configurator.<
             &lt;p&gt;It cannot be removed for the following 6 months.&lt;/p&gt;
             &lt;p&gt;For more information, click &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
             </source>
-        <translation type="unfinished"></translation>
+        <translation>
+            &lt;p&gt;立即驗證授權使用情況。&lt;/p&gt;
+            &lt;p&gt;在接下來的 6 個月內不能移除。&lt;/p&gt;
+            &lt;p&gt;如需瞭解更多資訊，請按一下&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;這裡&lt;/a&gt;&lt;/p&gt;
+            </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.cpp" line="30"/>
         <source>User identification cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>使用者識別資料不能為空</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.cpp" line="34"/>
         <source>This user has a license already</source>
-        <translation type="unfinished"></translation>
+        <translation>此使用者已有授權</translation>
     </message>
 </context>
 <context>
@@ -22303,12 +22315,12 @@ Please trust the server certificate such that you can use it with Configurator.<
     <message>
         <location filename="../../FWAdminLib/Configurator/ExchangeForm.ui" line="65"/>
         <source>The user of the account with optional domain (e.g. &quot;user&quot; or &quot;domain\user&quot;) (required for</source>
-        <translation type="unfinished"></translation>
+        <translation>具有選用網域的帳戶的使用者（例如，「user」或「domain\\user」）（對於</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ExchangeForm.ui" line="75"/>
         <source>supervised devices). Leave blank to set on device</source>
-        <translation type="unfinished"></translation>
+        <translation>受監督的裝置為必填項）。留空以在裝置上設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ExchangeForm.ui" line="89"/>
@@ -22783,7 +22795,7 @@ Please trust the server certificate such that you can use it with Configurator.<
     <message>
         <location filename="../../FWAdminLib/ExecutionControl/ExecutionControlWidget.ui" line="228"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The values of the command line arguments are set just before the script execution.&lt;br/&gt;To use an inventory field value to set a command line argument value, use the syntax %FIELD_NAME%.&lt;br/&gt;For instance: &lt;span style=&quot; font-weight:600;&quot;&gt;foo-%asset_tag%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;在指令碼執行之前設定命令列引數的值。&lt;br/&gt;若要使用庫存欄位值設定命令列引數，請使用語法 %FIELD_NAME%。&lt;br/&gt;例如： &lt;span style=&quot; font-weight:600;&quot;&gt;foo-%asset_tag%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;在指令碼執行之前設定命令列引數的值。&lt;br/&gt;若要使用庫存欄位值設定命令列引數，請使用語法 %FIELD_NAME%。&lt;br/&gt;例如：&lt;span style=&quot; font-weight:600;&quot;&gt;foo-%asset_tag%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ExecutionControl/ExecutionControlWidget.ui" line="239"/>
@@ -23183,7 +23195,7 @@ Server returned : %1</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="28"/>
         <source>Configured base policies for Android Management API device management; every Android device has a base policy against which all policy fragments are applied.  Roughly, &quot;the defaults&quot;</source>
         <comment>component AndroidBasePolicy description</comment>
-        <translation>設定 Android Management API 裝置管理的基本原則；每個 Android 裝置都有一個基本原則，將根據該基本原則套用所有原則片段。  大致為「預設值」</translation>
+        <translation>設定 Android Management API 裝置管理的基本原則；每個 Android 裝置都有一個基本原則，將根據該基本原則套用所有原則片段。大致為「預設值」</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="29"/>
@@ -23231,7 +23243,7 @@ Server returned : %1</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="36"/>
         <source>A flag for the UI to indicate whether to enable a form.  This flag is the answer to the question &quot;Does the installed base policy differ from the FileWave default base policy?&quot;</source>
         <comment>field customization_enabled description</comment>
-        <translation>UI 的旗標，用於指示是否啟用表單。  此旗標用於回答問題「安裝的基本原則是否與 FileWave 預設基本原則不同？」</translation>
+        <translation>UI 的旗標，用於指示是否啟用表單。此旗標用於回答問題「安裝的基本原則是否與 FileWave 預設基本原則不同？」</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="37"/>
@@ -23394,7 +23406,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="62"/>
         <source>Name of a device in EMM, this name is used to identify a device when calling Google API to perform commands.</source>
         <comment>field emm_name description</comment>
-        <translation>EMM 中裝置的名稱，該名稱用於在叫用 Google API 執行命令時識別裝置。</translation>
+        <translation>EMM 中裝置的名稱，該名稱用於在呼叫 Google API 執行命令時識別裝置。</translation>
     </message>
 </context>
 <context>
@@ -23931,7 +23943,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="149"/>
         <source>If true, the app has validated as allowed to run and is able to run on the device. If an app is enterprise-distributed and is not validated, it will not run on the device until validated. (iOS 9.3+)</source>
         <comment>field is_validated description</comment>
-        <translation>如果為 true，則應用程式已驗證為允許執行，且能夠在裝置上執行。如果應用程式為企業分發且未經驗證，則在通過驗證之前，它不會在裝置上執行。(iOS 9.3+)</translation>
+        <translation>如果為 true，則應用程式已驗證為允許執行，且能夠在裝置上執行。如果應用程式為企業分散式且未經驗證，則在通過驗證之前，不會在裝置上執行。(iOS 9.3+)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="150"/>
@@ -24495,7 +24507,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="241"/>
         <source>Sources are other parent Boosters or servers where the Booster can download files from.</source>
         <comment>component BoosterSource description</comment>
-        <translation>來源是 Booster 可從中下載檔案的其他父系Booster 或伺服器。</translation>
+        <translation>來源是 Booster 可從中下載檔案的其他父系 Booster 或伺服器。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="242"/>
@@ -24606,13 +24618,13 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="259"/>
         <source>FileWave Client Version</source>
         <comment>field filewave_client_version display name</comment>
-        <translation type="unfinished">FileWave 用戶端版本</translation>
+        <translation>FileWave 用戶端版本</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="260"/>
         <source>Version number of the FileWave Inventory Extension.</source>
         <comment>field filewave_client_version description</comment>
-        <translation type="unfinished"></translation>
+        <translation>FileWave 庫存擴充的版本號碼。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="261"/>
@@ -24660,7 +24672,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="268"/>
         <source>The address or location of the device as noted by the administrator.</source>
         <comment>field annotatedLocation description</comment>
-        <translation>管理員標註的裝置地址或位置。</translation>
+        <translation>管理員標註的裝置位址或位置。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="269"/>
@@ -24831,7 +24843,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="296"/>
         <source>An unique identifier for the device. On desktop platforms, it is often a serial number. On iOS, it is the UDID.</source>
         <comment>field device_id description</comment>
-        <translation>裝置的唯一識別碼。在桌上型電腦平台上，通常是一個序號。在 iOS 上，是 UDID。</translation>
+        <translation>裝置的唯一識別碼。對於桌上型電腦平台，這通常是一個序號。對於 iOS ，這是 UDID。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="297"/>
@@ -24879,7 +24891,7 @@ Provisioning (Device is in the process of enrolling)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="304"/>
         <source>The IP address actively being used by the client for outbound connections.</source>
         <comment>field current_ip_address description</comment>
-        <translation>用戶端主動用於輸出連線的 IP 位址。</translation>
+        <translation>用戶端主動用於傳出連線的 IP 位址。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="305"/>
@@ -25389,13 +25401,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="388"/>
         <source>Software Update Device ID</source>
         <comment>field software_update_device_id display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>軟體更新裝置 ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="389"/>
         <source>Device Identifier for macOS or iOS software updates.</source>
         <comment>field software_update_device_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>macOS 或 iOS 軟體更新的裝置識別碼。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="390"/>
@@ -25656,7 +25668,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="431"/>
         <source>The progress indicator while the content cache is moving from one volume to another. A value of 1.0 means 100%% of the cache has been migrated.</source>
         <comment>field data_migration_progress description</comment>
-        <translation type="unfinished"></translation>
+        <translation>當內容快取從一個磁碟區移動到另一個磁碟區時的進度指示器。值 1.0 表示快取已 100% 移轉。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="432"/>
@@ -25692,7 +25704,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="437"/>
         <source>The maximum amount of disk space available to the content cache for personal (iCloud) content, in bytes. A value of 0 means the amount is not limited.</source>
         <comment>field personal_cache_limit description</comment>
-        <translation>內容快取用於個人 (iCloud) 內容的可用磁碟空間量上限（位元組）值 0 表示數量不受限制。</translation>
+        <translation>內容快取用於個人 (iCloud) 內容的可用磁碟空間量上限（位元組）。值 0 表示數量不受限制。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="438"/>
@@ -26097,7 +26109,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="503"/>
         <source> token</source>
         <comment>field _token display name</comment>
-        <translation> 權杖</translation>
+        <translation>權杖</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="504"/>
@@ -26283,7 +26295,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="534"/>
         <source>Apple internal identifier for organizations.</source>
         <comment>field org_id description</comment>
-        <translation type="unfinished"></translation>
+        <translation>組織的 Apple 內部識別碼。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="535"/>
@@ -26535,7 +26547,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="575"/>
         <source>Is Supervised</source>
         <comment>field is_supervised display name</comment>
-        <translation>受監督</translation>
+        <translation>是否受監督</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="576"/>
@@ -26679,7 +26691,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="599"/>
         <source> If true, tells the device to configure for Shared iPad. Default is false. Devices that do not meet the Shared iPad minimum requirements will not honor this command.</source>
         <comment>field is_multi_user description</comment>
-        <translation> 如果為 true，則告知裝置設定共用 iPad。預設值為 false。不滿足共用 iPad 最低要求的裝置將不會執行此命令。</translation>
+        <translation>如果為 true，則告知裝置設定共用 iPad。預設值為 false。不滿足共用 iPad 最低要求的裝置將不會執行此命令。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="600"/>
@@ -26952,13 +26964,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="644"/>
         <source>MAC Address for Imaging</source>
         <comment>field imaging_mac_address display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>影像處理的 MAC 位址</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="645"/>
         <source>Manually specified MAC address of the machine for Imaging.</source>
         <comment>field imaging_mac_address description</comment>
-        <translation type="unfinished"></translation>
+        <translation>手動指定機器的 MAC 位址以進行影像處理。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="646"/>
@@ -27677,7 +27689,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
         <source>Download finished</source>
-        <translation type="unfinished"></translation>
+        <translation>下載完成</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1774"/>
@@ -27832,7 +27844,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1804"/>
         <source>Google Identity Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Google 身分識別提供者</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1805"/>
@@ -27987,7 +27999,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1835"/>
         <source>MDM OS Update is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>不支援 MDM OS 更新</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1836"/>
@@ -28062,7 +28074,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1850"/>
         <source>Non-admin IDP users logged in via IDP</source>
-        <translation type="unfinished"></translation>
+        <translation>透過 IDP 登入的非管理員 IDP 使用者</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1851"/>
@@ -28167,7 +28179,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1871"/>
         <source>Preparing MDM OS Update scheduling</source>
-        <translation type="unfinished"></translation>
+        <translation>正在準備 MDM OS 更新排程</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1872"/>
@@ -29050,13 +29062,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="760"/>
         <source>macOS 12 SIP Incompatible</source>
         <comment>field has_sip_issue_12 display name</comment>
-        <translation type="unfinished">macOS 11 SIP 不相容 {12 ?}</translation>
+        <translation>macOS 12 SIP 不相容</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="761"/>
         <source>True if the fileset contains files that can&apos;t be deployed on macOS 12 due to System Integrity Protection.</source>
         <comment>field has_sip_issue_12 description</comment>
-        <translation type="unfinished">如果檔案集包含因系統完整性保護而無法部署在 macOS 11 上，則為 True。 {12 ?}</translation>
+        <translation>如果檔案集包含因系統完整性保護而無法部署在 macOS 12 上，則為 True。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="762"/>
@@ -29113,13 +29125,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="770"/>
         <source>Last Status</source>
         <comment>field last_status display name</comment>
-        <translation>最後狀態</translation>
+        <translation>上次狀態</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="771"/>
         <source>The last status reported by the device.</source>
         <comment>field last_status description</comment>
-        <translation>裝置報告的最後一個狀態。</translation>
+        <translation>裝置報告上次狀態。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="772"/>
@@ -29611,7 +29623,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="851"/>
         <source>Returns the type of cellular technology. 0-none, 1-GSM, 2-CDMA</source>
         <comment>field cellular_technology description</comment>
-        <translation>傳回行動電話通訊技術的類型0-無，1-GSM，2-CDMA</translation>
+        <translation>傳回行動電話通訊技術的類型。0-無，1-GSM，2-CDMA</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="852"/>
@@ -29695,7 +29707,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="865"/>
         <source>True if the Personal Hotspot feature is currently turned on. This value is available only with certain carriers. Availability: iOS 7.0 and later.</source>
         <comment>field personal_hotspot_enabled description</comment>
-        <translation>如果個人熱點功能目前已開啟，則為 True。此值對特定電訊廠商可用。可用性：iOS 7.0 及更高版本。</translation>
+        <translation>如果個人熱點功能目前已開啟，則為 True。此值僅對特定電訊廠商可用。可用性：iOS 7.0 及更高版本。</translation>
     </message>
 </context>
 <context>
@@ -29824,7 +29836,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="886"/>
         <source>Is Supervised</source>
         <comment>field is_supervised display name</comment>
-        <translation>受監督</translation>
+        <translation>是否受監督</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="887"/>
@@ -30028,7 +30040,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="920"/>
         <source>Resident Users</source>
         <comment>field resident_users display name</comment>
-        <translation>常駐使用者</translation>
+        <translation>常駐使用者數目</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="921"/>
@@ -30040,7 +30052,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="922"/>
         <source>Estimated Resident Users</source>
         <comment>field estimated_resident_users display name</comment>
-        <translation>估計常駐使用者數</translation>
+        <translation>估計常駐使用者數目</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="923"/>
@@ -30145,13 +30157,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="939"/>
         <source>Max. Failed Attempts</source>
         <comment>field max_failed_attempts display name</comment>
-        <translation>嘗試失敗次數上限</translation>
+        <translation>失敗的嘗試次數上限</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="940"/>
         <source>Allowed range [2...11]. Specifies the number of allowed failed attempts to enter the passcode at the device&apos;s lock screen. Once this number is exceeded, the device is locked and must be connected to its designated iTunes in order to be unlocked</source>
         <comment>field max_failed_attempts description</comment>
-        <translation>允許範圍 [2...11]。指定在裝置的鎖定螢幕上輸入驗證碼的允許失敗次數。一旦超過此數量，裝置將被鎖定，必須連線到其指定的 iTunes 才能解除鎖定</translation>
+        <translation>允許範圍 [2...11]。指定在裝置的鎖定螢幕上輸入驗證碼的允許失敗嘗試次數。一旦超過此數量，裝置將被鎖定，必須連線到其指定的 iTunes 才能解除鎖定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="941"/>
@@ -30163,7 +30175,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="942"/>
         <source>The maximum grace period, in minutes, to unlock the phone without entering a passcode. Default is 0, that is no grace period, which requires a passcode immediately</source>
         <comment>field max_grace_period description</comment>
-        <translation>無需輸入驗證碼即可解鎖鎖定電話的最大寬限期（分鐘）。預設為 0，即表示無寬限期，立即要求驗證碼</translation>
+        <translation>無需輸入驗證碼即可解除鎖定電話的最大寬限期（分鐘）。預設為 0，即表示無寬限期，立即要求驗證碼</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="943"/>
@@ -30292,13 +30304,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="963"/>
         <source>Max. Failed Attempts</source>
         <comment>field max_failed_attempts display name</comment>
-        <translation>嘗試失敗次數上限</translation>
+        <translation>失敗的嘗試次數上限</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="964"/>
         <source>Allowed range [2...11]. Specifies the number of allowed failed attempts to enter the passcode at the device&apos;s lock screen. Once this number is exceeded, the device is locked and must be connected to its designated iTunes in order to be unlocked</source>
         <comment>field max_failed_attempts description</comment>
-        <translation>允許範圍 [2...11]。指定在裝置的鎖定螢幕上輸入驗證碼的允許失敗次數。一旦超過此數量，裝置將被鎖定，必須連線到其指定的 iTunes 才能解除鎖定</translation>
+        <translation>允許範圍 [2...11]。指定在裝置的鎖定螢幕上輸入驗證碼的允許失敗嘗試次數。一旦超過此數量，裝置將被鎖定，必須連線到其指定的 iTunes 才能解除鎖定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="965"/>
@@ -30310,7 +30322,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="966"/>
         <source>The maximum grace period, in minutes, to unlock the phone without entering a passcode. Default is 0, that is no grace period, which requires a passcode immediately</source>
         <comment>field max_grace_period description</comment>
-        <translation>無需輸入驗證碼即可解鎖鎖定電話的最大寬限期（分鐘）。預設為 0，即表示無寬限期，立即要求驗證碼</translation>
+        <translation>無需輸入驗證碼即可解除鎖定電話的最大寬限期（分鐘）。預設為 0，即表示無寬限期，立即要求驗證碼</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="967"/>
@@ -30493,7 +30505,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="996"/>
         <source>When false, explicit music or video content purchased from the iTunes Store is hidden. Explicit content is marked as such by content providers, such as record labels, when sold through the iTunes Store</source>
         <comment>field allow_explicit_content description</comment>
-        <translation>當為 false 時，從 iTunes Store 購買的敏感音樂或影片內容將隱藏。敏感內容由內容提供者在透過 iTunes Store 出售時標記為敏感（如記錄標籤）</translation>
+        <translation>當為 false 時，隱藏從 iTunes Store 購買的敏感音樂或影片內容。敏感內容由內容提供者在透過 iTunes Store 出售時標記為敏感（如記錄標籤）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="997"/>
@@ -30910,7 +30922,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1065"/>
         <source>When false, explicit music or video content purchased from the iTunes Store is hidden. Explicit content is marked as such by content providers, such as record labels, when sold through the iTunes Store</source>
         <comment>field allow_explicit_content description</comment>
-        <translation>當為 false 時，從 iTunes Store 購買的敏感音樂或影片內容將隱藏。敏感內容由內容提供者在透過 iTunes Store 出售時標記為敏感（如記錄標籤）</translation>
+        <translation>當為 false 時，隱藏從 iTunes Store 購買的敏感音樂或影片內容。敏感內容由內容提供者在透過 iTunes Store 出售時標記為敏感（如記錄標籤）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1066"/>
@@ -31261,13 +31273,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1122"/>
         <source>Bitfield. The underlying hardware encryption capabilities of the device, which is one of the following values: 1: Block-level encryption, 2: File-level encryption, 3: Both block-level and file-level encryption. For a device to have data protection, HardwareEncryptionCaps must be 3 and PasscodePresent must be true. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field hardware_encryption_caps description</comment>
-        <translation type="unfinished"></translation>
+        <translation>位元欄位。裝置的基礎硬體加密能力，為下列數值之一：1：區塊層級加密，2：檔案層級加密，3：區塊層級和檔案層級加密。對於具有資料保護的裝置，HardwareEncryptionCaps 必須為 3，PasscodePresent 必須為 true。可用性：在 iOS 4 及更高版本和 tvOS 6 及更高版本中可用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1124"/>
         <source>Set to true if the device is protected by a passcode. For a device to have data protection, HardwareEncryptionCaps must be 3 and PasscodePresent must be true. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field passcode_present description</comment>
-        <translation type="unfinished"></translation>
+        <translation>當裝置受驗證碼保護時設定為 true。對於具有資料保護的裝置，HardwareEncryptionCaps 必須為 3，PasscodePresent 必須為 true。可用性：在 iOS 4 及更高版本和 tvOS 6 及更高版本中可用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1125"/>
@@ -31291,7 +31303,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1128"/>
         <source>Set to true if the user&apos;s passcode is compliant with requirements from profiles. Availability: Available in iOS 4 and later, and tvOS 6 and later.</source>
         <comment>field passcode_is_compliant_with_profiles description</comment>
-        <translation>如果驗證碼符合設定檔的要求，則設定為 true。可用性：在 iOS 4 及更高版本和 tvOS 6 及更高版本中可用。</translation>
+        <translation>如果使用者的驗證碼符合設定檔的要求，則設定為 true。可用性：在 iOS 4 及更高版本和 tvOS 6 及更高版本中可用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1129"/>
@@ -31621,13 +31633,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1183"/>
         <source>Is Recovery Lock Enabled</source>
         <comment>field is_recovery_lock_enabled display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>復原鎖是否已啟用</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1184"/>
         <source>If true, Recovery Lock is enabled. Availability: Available for Apple Silicon in macOS 11.5 and later.</source>
         <comment>field is_recovery_lock_enabled description</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果為 true，則啟用復原鎖。可用性：對 macOS 11.5 及更高版本的 Apple silicon 可用。</translation>
     </message>
 </context>
 <context>
@@ -31843,19 +31855,19 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1219"/>
         <source>Google IDP service account key.</source>
         <comment>field service_key display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Google IDP 服務帳號金鑰。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1220"/>
         <source>Google IDP service account key.</source>
         <comment>field service_key description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Google IDP 服務帳號金鑰。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1221"/>
         <source>The unique ID of the admins&apos;s Google Account</source>
         <comment>field service_account display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>管理員 Google 帳戶的唯一 ID</translation>
     </message>
 </context>
 <context>
@@ -31900,13 +31912,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1228"/>
         <source>ETag</source>
         <comment>field etag display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>ETag</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1229"/>
         <source>An ETag is an identifier that specifies a particular version of a particular entry.</source>
         <comment>field etag description</comment>
-        <translation type="unfinished"></translation>
+        <translation>ETag 是一個用於指定特定項目的特定版本的識別碼。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1230"/>
@@ -32119,7 +32131,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1263"/>
         <source>Is the device considered MDM enrolled locally, on the server, both, or neither. Undefined for clients &lt; 14.3.0 or if there is no report from client yet.</source>
         <comment>field mdm_enrollment_state description</comment>
-        <translation>裝置認為已本機註冊 MDM、伺服器上認為已註冊、兩者都認為已註冊、兩者都不認為已註冊。對於 &lt; 14.3.0 的用戶端或者沒有收到來自用戶端的報告的情況，則為「未定義」。</translation>
+        <translation>裝置認為已在本機註冊 MDM、在伺服器上已註冊、兩者都已註冊、兩者都未註冊。對於 &lt; 14.3.0 的用戶端或者沒有收到來自用戶端的報告的情況，則為「未定義」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1264"/>
@@ -32161,25 +32173,25 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1270"/>
         <source>Is Supervised</source>
         <comment>field is_supervised display name</comment>
-        <translation type="unfinished">受監督</translation>
+        <translation>是否受監督</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1271"/>
         <source>If true, the device is supervised. Availability: Available in macOS 10.15 and later.</source>
         <comment>field is_supervised description</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果為 true，則表示裝置受到監督。可用性：在 macOS 10.15 及更高版本中可用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1272"/>
         <source>Is Apple Silicon</source>
         <comment>field is_apple_silicon display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>為 Apple Silicon</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1273"/>
         <source>If true, the device has an Apple Silicon CPU. Availability: Available in macOS 12 and later.</source>
         <comment>field is_apple_silicon description</comment>
-        <translation type="unfinished"></translation>
+        <translation>如果為 true，則該裝置具有 Apple Silicon CPU。可用性：在 macOS 12 及更高版本中可用。</translation>
     </message>
 </context>
 <context>
@@ -32464,7 +32476,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1318"/>
         <source> token</source>
         <comment>field _token display name</comment>
-        <translation> 權杖</translation>
+        <translation>權杖</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1319"/>
@@ -32512,13 +32524,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1326"/>
         <source>Since Modified VersionId for Users</source>
         <comment>field since_version_id_for_users display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>使用者的自從修改 VersionId</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1327"/>
         <source>The last versionId value for users.</source>
         <comment>field since_version_id_for_users description</comment>
-        <translation type="unfinished"></translation>
+        <translation>使用者的上一個 versionId 值。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1328"/>
@@ -33151,13 +33163,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1432"/>
         <source>Since Modified Token for License</source>
         <comment>field since_version_id_for_license display name</comment>
-        <translation type="unfinished">授權的自從修改權杖</translation>
+        <translation>授權的自從修改權杖</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1433"/>
         <source>The last versionId value for licenses.</source>
         <comment>field since_version_id_for_license description</comment>
-        <translation type="unfinished"></translation>
+        <translation>授權的上一個 versionId 值。</translation>
     </message>
 </context>
 <context>
@@ -33316,13 +33328,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1459"/>
         <source>Since Modified Token for License</source>
         <comment>field since_version_id_for_license display name</comment>
-        <translation type="unfinished">授權的自從修改權杖</translation>
+        <translation>授權的自從修改權杖</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1460"/>
         <source>The last versionId value for licenses.</source>
         <comment>field since_version_id_for_license description</comment>
-        <translation type="unfinished"></translation>
+        <translation>授權的上一個 versionId 值。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1461"/>
@@ -33871,7 +33883,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1551"/>
         <source>URL that the user must contact to create an association with an iTunes account.</source>
         <comment>field inviteUrl description</comment>
-        <translation>使用者必須聯繫以便與 iTunes 帳戶建立關聯的 URL。</translation>
+        <translation>使用者必須聯絡以便與 iTunes 帳戶建立關聯的 URL。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1552"/>
@@ -34964,17 +34976,17 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="61"/>
         <source>Remote support session</source>
-        <translation type="unfinished"></translation>
+        <translation>遠端支援工作階段</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="62"/>
         <source>FileWave is connecting with Teamviewer...</source>
-        <translation type="unfinished"></translation>
+        <translation>FileWave 正在與 Teamviewer 連線......</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="78"/>
         <source>Could not open TeamViewer session URL in your default browser. You can join the session manually by visiting the URL below:&lt;br&gt;&lt;br&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>無法在您的預設瀏覽器中開啟 TeamViewer 工作階段 URL。您可以透過前往下列 URL 手動加入工作階段：&lt;br&gt;&lt;br&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -34982,12 +34994,12 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="21"/>
         <source>Could not open TeamViewer session because the server responded with an unexpected error. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>無法開啟 TeamViewer 工作階段，因為伺服器回應了未預期的錯誤。%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="30"/>
         <source>Could not open TeamViewer session because the server sent an invalid response.</source>
-        <translation type="unfinished"></translation>
+        <translation>無法開啟 TeamViewer 工作階段，因為伺服器回應了無效的回應。</translation>
     </message>
 </context>
 <context>
@@ -35273,7 +35285,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="359"/>
         <source> and </source>
-        <translation> 和 </translation>
+        <translation>和 </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="363"/>
@@ -35283,7 +35295,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="366"/>
         <source> &lt;a href=&quot;%1&quot; style=&quot;text-decoration: none&quot;&gt;[details]&lt;/a&gt;</source>
-        <translation> &lt;a href=&quot;%1&quot; style=&quot;text-decoration: none&quot;&gt;[詳細資料]&lt;/a&gt;</translation>
+        <translation>&lt;a href=&quot;%1&quot; style=&quot;text-decoration: none&quot;&gt;[詳細資料]&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/fv2/FileVault2Assistant.cpp" line="427"/>
@@ -35802,7 +35814,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="586"/>
         <source>A file named %1 already exists in the target folder.  Do you wish to replace it?</source>
-        <translation>目標資料夾中已存在名為 %1 的檔案。  是否想要取代它？</translation>
+        <translation>目標資料夾中已存在名為 %1 的檔案。是否想要取代它？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="590"/>
@@ -35813,7 +35825,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="650"/>
         <source>A folder with the name %1 already exists in the target.  Do you wish to replace it?</source>
-        <translation>目標中已存在名為 %1 的資料夾。  是否想要取代它？</translation>
+        <translation>目標中已存在名為 %1 的資料夾。是否想要取代它？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/filesetcontentsmodel.cpp" line="696"/>
@@ -36638,7 +36650,7 @@ MacOS 10.13+ APFS 不支援經過驗證的重新啟動選項。</translation>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="825"/>
         <source>12.x</source>
-        <translation type="unfinished">10.13.x {12.?}</translation>
+        <translation>12.x</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="863"/>
@@ -36729,17 +36741,17 @@ MacOS 10.13+ APFS 不支援經過驗證的重新啟動選項。</translation>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="1487"/>
         <source>Per-App VPN:</source>
-        <translation>Per-App VPN：</translation>
+        <translation>個別應用程式的 VPN：</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="1523"/>
         <source>*This App should be managed in order to use Per-App VPN</source>
-        <translation>*應當管理此應用程式才可使用 Per-App VPN</translation>
+        <translation>*應當管理此應用程式才可使用個別應用程式的 VPN</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="1530"/>
         <source>*Make sure that selected Per-App VPN payload is deployed to your device</source>
-        <translation>*確保所選 Per-App VPN 承載已部署至您的裝置</translation>
+        <translation>*確保所選個別應用程式的 VPN 承載已部署至您的裝置</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="1544"/>
@@ -36806,7 +36818,7 @@ directly at the domain instead of on Apple’s servers (iOS 14+)</source>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="413"/>
         <source>Unable to read app package name.  A possible remedy: delete and recreate this fileset.  If this problem persists, please contact your FileWave administrator.</source>
-        <translation>無法讀取應用程式封裝名稱。  可行的解決方式：刪除並重新建立此檔案集。  如果問題仍然存在，請聯絡您的 FileWave 管理員。</translation>
+        <translation>無法讀取應用程式封裝名稱。可行的解決方式：刪除並重新建立此檔案集。如果問題仍然存在，請聯絡您的 FileWave 管理員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="425"/>
@@ -36817,12 +36829,12 @@ directly at the domain instead of on Apple’s servers (iOS 14+)</source>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="426"/>
         <source>[HTTP %1] Unable to find an enrolled enterprise.  Managed properties and permissions for this app will be unavailable.  If this problem persists, please contact your FileWave administrator.</source>
-        <translation>[HTTP %1] 找不到已註冊企業。  此應用程式的受管理屬性和權限將無法使用。  如果問題仍然存在，請聯絡您的 FileWave 管理員。</translation>
+        <translation>[HTTP %1] 找不到已註冊企業。此應用程式的受管理屬性和權限將無法使用。如果問題仍然存在，請聯絡您的 FileWave 管理員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="436"/>
         <source>Unable to find an enrolled enterprise.  Managed properties and permissions for this app will be unavailable.</source>
-        <translation>找不到已註冊企業。  此應用程式的受管理屬性和權限將無法使用。</translation>
+        <translation>找不到已註冊企業。此應用程式的受管理屬性和權限將無法使用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.cpp" line="448"/>
@@ -37830,7 +37842,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/FinderForm.ui" line="186"/>
         <source>Ejects removable media and mountable volumes</source>
-        <translation>退出抽取式媒體和掛接式磁碟區</translation>
+        <translation>退出卸除式媒體和掛接式磁碟區</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/FinderForm.ui" line="193"/>
@@ -38029,7 +38041,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/GeneralForm.ui" line="73"/>
         <source>Brief explanation of the contents or purpose of the profile</source>
-        <translation>設定檔之內容或目的的簡要說明</translation>
+        <translation>設定檔之內容或目的之簡要說明</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/GeneralForm.ui" line="99"/>
@@ -38118,7 +38130,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="83"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The latitude of the geofence center, specified in &lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Decimal Degrees&lt;/span&gt;&lt;/a&gt;.  A latitudinal value ranges from -90.0 to +90.0.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;地理柵欄中心的緯度，以&lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;十進制度數&lt;/span&gt;&lt;/a&gt;指定。  -90.0 至 +90.0 之間的緯度值。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;地理柵欄中心的緯度，以&lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;十進制度數&lt;/span&gt;&lt;/a&gt;指定。-90.0 至 +90.0 之間的緯度值。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="104"/>
@@ -38133,7 +38145,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="132"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The longitude of the geofence center, specified in &lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Decimal Degrees&lt;/span&gt;&lt;/a&gt;.  A longitudinal value ranges from -180.0 to +180.0.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;地理柵欄中心的經度，以&lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;十進制度數&lt;/span&gt;&lt;/a&gt;指定。  -180.0 至 +180.0 之間的經度值。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;地理柵欄中心的經度，以&lt;a href=&quot;https://en.wikipedia.org/wiki/Decimal_degrees&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;十進制度數&lt;/span&gt;&lt;/a&gt;指定。-180.0 至 +180.0 之間的經度值。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="153"/>
@@ -38143,7 +38155,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="168"/>
         <source> (m)</source>
-        <translation> （米）</translation>
+        <translation>（米）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="190"/>
@@ -38163,7 +38175,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="236"/>
         <source>A description of the geofence area.  If a device leaves the area, the FW Client app will use this message to help inform a user to where the device should be moved.</source>
-        <translation>地理柵欄區域的描述。  如果裝置離開該區域，FW 用戶端應用程式將使用此訊息來協助通知使用者應將裝置移動至何處。</translation>
+        <translation>地理柵欄區域的描述。如果裝置離開該區域，FW 用戶端應用程式將使用此訊息來協助通知使用者應將裝置移動至何處。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GeofenceForm.ui" line="257"/>
@@ -38414,7 +38426,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleCertificateForm.cpp" line="163"/>
         <source>The specified file is either invalid or encrypted.  For Android management specifically, FileWave 13.1 does not support encrypted certificates.</source>
-        <translation>指定檔案無效或已加密。  對於 Android 管理，FileWave 13.1 不支援加密憑證。</translation>
+        <translation>指定檔案無效或已加密。對於 Android 管理，FileWave 13.1 不支援加密憑證。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleCertificateForm.cpp" line="185"/>
@@ -38437,7 +38449,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="117"/>
         <source>Use this setting to bypass the lock screen.  For kiosk-style installations, requiring users to interact with the lock screen may not be a desirable interaction.  (Note that if a device has a password set, the keyguard will be presented regardless of this setting.)</source>
-        <translation>使用此設定略過鎖定螢幕。  對於 kiosk 式安裝，要求使用者與鎖定螢幕屏幕互動可能不是一種理想的互動方式。  （請注意，如果裝置設定了密碼，則無論此設定如何，都會顯示鍵盤鎖。）</translation>
+        <translation>使用此設定略過鎖定螢幕。對於 kiosk 式安裝，要求使用者與鎖定螢幕互動可能不是一種理想的互動方式。（請注意，如果裝置設定了密碼，則無論此設定如何，都會顯示鍵盤鎖。）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDedicatedDeviceForm.ui" line="152"/>
@@ -38552,7 +38564,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDevicePermissionsForm.ui" line="32"/>
         <source>These are the &quot;policy-wide&quot; permission grants.  Changes made here take precedence over the global default permission policy and application default permission policies, but will be overridden by any application-specific permission grants.</source>
-        <translation>這些是「原則範圍」權限授予。  此處所做的變更優先於全域預設權限原則和應用程式預設權限原則，但會被任何應用程式特定的權限授予覆寫。</translation>
+        <translation>這些是「原則範圍」權限授予。此處所做的變更優先於全域預設權限原則和應用程式預設權限原則，但會被任何應用程式特定的權限授予覆寫。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDevicePermissionsForm.cpp" line="23"/>
@@ -38623,7 +38635,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.ui" line="257"/>
         <source>Radio Settings</source>
-        <translation>收音機設定</translation>
+        <translation>無線電設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="30"/>
@@ -38653,7 +38665,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="35"/>
         <source>If factory reset is enabled, a user may manually initiate a device reset.  If disabled, a device reset (or &quot;wipe&quot;) must be done by a FileWave administrator.  The global policy default is &quot;disabled.&quot;</source>
-        <translation>如果啟用了重設成出廠預設值，使用者可以手動啟動裝置重設。  如果停用，則必須由 FileWave 管理員完成裝置重設（或「抹除」）。  全域原則預設為「停用」。</translation>
+        <translation>如果啟用了重設成出廠預設值，使用者可以手動啟動裝置重設。如果停用，則必須由 FileWave 管理員完成裝置重設（或「抹除」）。全域原則預設為「停用」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="36"/>
@@ -38663,7 +38675,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="37"/>
         <source>Whether the user may enable the &quot;Unknown Sources&quot; setting, allowing installation of apps from unknown sources.  This is popularly known as &quot;side-loading.&quot;</source>
-        <translation>使用者是否可以啟用「未知來源」設定，允許安裝來自未知來源的應用程式。  這通常稱為「側載」。</translation>
+        <translation>使用者是否可以啟用「未知來源」設定，允許安裝來自未知來源的應用程式。這通常稱為「側載」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="38"/>
@@ -38673,7 +38685,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="39"/>
         <source>Specify the location accuracy mode of devices.  High Accuracy uses the GPS and WiFi to determine a device&apos;s location, while Sensors will strictly utilize the GPS and Battery Saving the WiFi.  N.B. Users can change device location settings regardless of the choice made here; this is a per-model-update one-time change.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定裝置的定位精確度模式。  「高精確度」使用 GPS 和 WiFi 來確定裝置位置，而感應器將嚴格利用 GPS 和省電 WiFi。  請注意，無論在此處做出的選擇如何，使用者都可以變更裝置位置設定；這是每個模型更新的一次性變更。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="40"/>
@@ -38683,7 +38695,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="41"/>
         <source>Allow users to install from the Play Store only the associated apps (Whitelist), or all apps from the Play Store except those associated and set to the &apos;Blocked&apos; install type (Blacklist).  In Whitelist mode, apps that are not in a device&apos;s policy will be uninstalled.  The API default is &quot;Whitelist.&quot;</source>
-        <translation>僅允許使用者從 Play Store 安裝關聯的應用程式（白名單），或 Play Store 中除關聯並設定為「封鎖」安裝類型（黑名單）的應用程式之外的所有應用程式。  在白名單模式下，不在裝置原則中的應用程式將被解除安裝。  API 預設為「白名單」。</translation>
+        <translation>僅允許使用者從 Play Store 安裝關聯的應用程式（白名單），或 Play Store 中除關聯並設定為「封鎖」安裝類型（黑名單）的應用程式之外的所有應用程式。在白名單模式下，不在裝置原則中的應用程式將被解除安裝。API 預設為「白名單」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="42"/>
@@ -38693,7 +38705,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="43"/>
         <source>The Play Store &lt;a href=&quot;https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy&quot;&gt;App Auto-Update Policy&lt;/a&gt; enforced on a device.  If unspecified, the Android default is Choice to the User.  To force apps to update, use Always or WiFi only.</source>
-        <translation>在裝置上強制執行 Play Store &lt;a href=&quot;https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy&quot;&gt;應用程式自動更新原則&lt;/a&gt;。  如果未指定，則 Android 預設值為「使用者的選擇」。  若要強制應用程式更新，請使用「始終」或「僅 WiFi」。</translation>
+        <translation>在裝置上強制執行 Play Store &lt;a href=&quot;https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy&quot;&gt;應用程式自動更新原則&lt;/a&gt;。如果未指定，則 Android 預設值為「使用者的選擇」。若要強制應用程式更新，請使用「始終」或「僅 WiFi」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="44"/>
@@ -38703,7 +38715,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="45"/>
         <source>Allow users to configure location sharing preferences.  The Android global default is &quot;allowed.&quot;</source>
-        <translation>允許使用者設定位置分享喜好設定。  Android 全域預設值為「允許」。</translation>
+        <translation>允許使用者設定位置分享喜好設定。Android 全域預設值為「允許」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="46"/>
@@ -38713,7 +38725,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="47"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;WARNING: Disable this with &lt;span style=&quot;font-weight:600;&quot;&gt;caution&lt;/span&gt;.  If there is no network connection available and users cannot add one, the affected devices become very difficult to administer.  Before disabling users&apos; ability to add their own WiFi networks, ensure that the devices have a (tested) backup WiFi connection.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;警告：請&lt;span style=&quot;font-weight:600;&quot;&gt;謹慎&lt;/span&gt;停用此項。  如果沒有可用的網路連線且使用者無法新增網路，則受影響的裝置將變得非常難以管理。  在停用使用者新增自己的 WiFi 網路的能力之前，請確保裝置具有（經過測試的）備用 WiFi 連線。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;警告：請&lt;span style=&quot;font-weight:600;&quot;&gt;謹慎&lt;/span&gt;停用此項。如果沒有可用的網路連線且使用者無法新增網路，則受影響的裝置將變得非常難以管理。在停用使用者新增自己的 WiFi 網路的能力之前，請確保裝置具有（經過測試的）備用 WiFi 連線。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="48"/>
@@ -38753,7 +38765,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="55"/>
         <source>Allow device to make outgoing phone calls.  Emergency calls may occur regardless of this setting.</source>
-        <translation>允許裝置進行電話呼出。  無論此設定如何，都可撥打緊急電話。</translation>
+        <translation>允許裝置撥打電話。無論此設定如何，都可撥打緊急電話。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="56"/>
@@ -38857,17 +38869,17 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="132"/>
         <source>Allow Install</source>
-        <translation type="unfinished"></translation>
+        <translation>允許安裝</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="133"/>
         <source>Personal Profile Only</source>
-        <translation type="unfinished"></translation>
+        <translation>僅限個人設定檔</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="134"/>
         <source>Disallow Install</source>
-        <translation type="unfinished"></translation>
+        <translation>禁止安裝</translation>
     </message>
 </context>
 <context>
@@ -38901,7 +38913,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="166"/>
         <source>Select the X.509 certificate that the client will use to verify the network.  (Use the Certificates payload from the list on the left side of this dialog to populate this dropdown.)</source>
-        <translation>選擇用戶端將用於驗證網路的 X.509 憑證。  （使用此對話方塊左側清單中的憑證承載來填入此下拉式清單。）</translation>
+        <translation>選擇用戶端將用於驗證網路的 X.509 憑證。（使用此對話方塊左側清單中的憑證承載來填入此下拉式清單。）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="193"/>
@@ -38912,7 +38924,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="217"/>
         <source>Select the PKCS#12 archive that the client will use to identify itself to the network.  (Use the Certificates payload from the list on the left side of this dialog to populate this dropdown.)</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇用戶端將用於向網路標識自己的 PKCS#12 封存。  （使用此對話方塊左側清單中的憑證承載來填入此下拉式清單。）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="262"/>
@@ -38942,7 +38954,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="376"/>
         <source>For tunnelling protocols only, this indicates the identity of the user presented to the outer protocol.  This value is subject to string expansions.</source>
-        <translation>僅針對通道通訊協定，這表示呈現給外部通訊協定的使用者身分識別。  此值取決於字串展開。</translation>
+        <translation>僅針對通道通訊協定，這表示呈現給外部通訊協定的使用者身分識別。此值取決於字串展開。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="402"/>
@@ -38952,7 +38964,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="424"/>
         <source>Identity of user.  For tunneling outer protocols (PEAP, EAP-TTLS, and EAP-FAST), this is used to authenticate inside the tunnel, and AnonymousIdentity is used for the EAP identity outside the tunnel.  For non-tunneling outer protocols, this is used for the EAP identity.  This value is subject to string expansions.</source>
-        <translation>使用者的身分識別。  對於通道外部通訊協定（PEAP、EAP-TTLS 和 EAP-FAST），這用於在通道內部進行驗證，「匿名身分識別」用於通道外部的 EAP 身分識別。  對於非通道外部通訊協定，這用於 EAP 身分識別。  此值取決於字串展開。</translation>
+        <translation>使用者的身分識別。對於通道外部通訊協定（PEAP、EAP-TTLS 和 EAP-FAST），這用於在通道內部進行驗證，「匿名身分識別」用於通道外部的 EAP 身分識別。對於非通道外部通訊協定，這用於 EAP 身分識別。此值取決於字串展開。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="443"/>
@@ -38962,7 +38974,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="465"/>
         <source>Password of user.  If not specified, defaults to prompting the user.</source>
-        <translation>使用者的密碼。  如果未指定，預設為提示使用者。</translation>
+        <translation>使用者的密碼。如果未指定，預設為提示使用者。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationEAPWidget.ui" line="483"/>
@@ -39065,7 +39077,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationForm.ui" line="72"/>
         <source>Provide a &quot;human friendly&quot; name for the Network configuration. When exporting this configuration for external use or auditing, specifying a value here may be helpful.</source>
-        <translation>提供網路設定的「人類易記」名稱。當匯出此設定進行外部使用或稽核時，在此處指定一個值將有所協助。</translation>
+        <translation>提供網路設定的「人類易記」名稱。當匯出此設定進行外部使用或稽核時，在此處指定一個值將有所幫助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationForm.ui" line="100"/>
@@ -39075,7 +39087,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationForm.ui" line="122"/>
         <source>At present, Google supports exactly one &quot;Open Network Configuration&quot; configuration type: WiFi</source>
-        <translation>目前，Google 至支援一個「開放網路設定」設定類型：WiFi</translation>
+        <translation>目前，Google 僅支援一個「開放網路設定」設定類型：WiFi</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationForm.cpp" line="26"/>
@@ -39103,7 +39115,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="48"/>
         <source>The SSID of the wireless network.  Sometimes called &quot;the wifi network name.&quot;  To configure a non-UTF-8 SSID, use the Hexadecimal option.</source>
-        <translation>無線網路的 SSID。  有時稱為「WiFi 網路名稱」。  要設定非 UTF-8 SSID，請使用十六進位選項。</translation>
+        <translation>無線網路的 SSID。有時稱為「WiFi 網路名稱」。要設定非 UTF-8 SSID，請使用十六進位選項。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="95"/>
@@ -39118,7 +39130,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="131"/>
         <source>The SSID or &quot;name&quot; of the WiFi network.  Limited to 32 characters.</source>
-        <translation>WiFi 網路的 SSID 或「名稱」。  限制為 32 個字元。</translation>
+        <translation>WiFi 網路的 SSID 或「名稱」。限制為 32 個字元。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="140"/>
@@ -39163,7 +39175,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="286"/>
         <source>The pre-shared key for this network.  This is also often referred to as the &quot;wireless password&quot;, &quot;network password&quot;, and &quot;passphrase.&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>此網路的預先共用金鑰。  這通常還被稱為「無線密碼」、「網路密碼」和「複雜密碼」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleNetworkConfigurationWifiWidget.ui" line="304"/>
@@ -39479,7 +39491,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="24"/>
         <source>The device must be secured with a low-security biometric recognition technology, at minimum.  This includes technologies that can recognize the identity of an individual that are roughly equivalent to a 3-digit PIN (false detection is less than 1 in 1,000).</source>
-        <translation>裝置必須至少使用低安全性生物特徵辨識技術進行保護。  這包括可以識別個人身分的技術，大致相當於 3 位數的 PIN 碼（錯誤偵測數不到 1000 分之一）。</translation>
+        <translation>裝置必須至少使用低安全性生物特徵辨識技術進行保護。這包括可以識別個人身分的技術，大致相當於 3 位數的 PIN 碼（錯誤偵測數不到 1000 分之一）。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="25"/>
@@ -39539,7 +39551,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="30"/>
         <source>The password must contain at least a letter, a numerical digit and a special symbol.  Other password constraints, for example, passwordMinimumLetters are enforced.</source>
-        <translation>密碼必須至少包含一個字母、一個數字和一個特殊符號。  其他密碼限制，例如，強制執行「密碼最少字母數」。</translation>
+        <translation>密碼必須至少包含一個字母、一個數字和一個特殊符號。其他密碼限制，例如，強制執行「密碼最少字母數」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="33"/>
@@ -39574,52 +39586,52 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="38"/>
         <source>Number of incorrect device-unlock passwords that can be entered before a device is wiped.  A value of 0 means there is no restriction.</source>
-        <translation>在抹除裝置之前可以輸入的錯誤裝置解除鎖定密碼的次數。  值 0 表示沒有限制。</translation>
+        <translation>在抹除裝置之前可以輸入的錯誤裝置解除鎖定密碼的數量。值 0 表示沒有限制。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="39"/>
         <source>A duration after which a password must be changed.  A value of 0 means that passwords do not expire.</source>
-        <translation>在此之後必須變更密碼的持續時間。  值 0 表示密碼不會到期。</translation>
+        <translation>在此之後必須變更密碼的持續時間。值 0 表示密碼不會過期。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="40"/>
         <source>The length of the password history.  After setting this field, the user won&apos;t be able to enter a new password that is the same as any password in the history.  A value of 0 means there is no restriction.</source>
-        <translation>密碼歷程記錄長度。  設定此欄位後，使用者將無法輸入與歷程記錄中任何密碼相同的新密碼。  值 0 表示沒有限制。</translation>
+        <translation>密碼歷程記錄長度。設定此欄位後，使用者將無法輸入與歷程記錄中任何密碼相同的新密碼。值 0 表示沒有限制。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="41"/>
         <source>The minimum allowed password length.  A value of 0 means there is no restriction.  Only enforced when Password Quality is &apos;Numeric&apos;, &apos;Numeric, non-repeating&apos;, &apos;Alphabetic&apos;, &apos;Alphanumeric&apos;, or &apos;Complex&apos;.</source>
-        <translation>允許的最小密碼長度。  值 0 表示沒有限制。  僅當密碼品質為「數字」、「非重複數字」、「字母」、「英數字元」或「複雜」時才強制執行。</translation>
+        <translation>允許的最小密碼長度。值 0 表示沒有限制。僅當密碼品質為「數字」、「非重複數字」、「字母」、「英數字元」或「複雜」時才強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="42"/>
         <source>Minimum number of letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation>密碼中所需的最少字母數目。  僅在密碼品質為「複雜」時強制執行。</translation>
+        <translation>密碼中所需的最少字母數目。僅在密碼品質為「複雜」時強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="43"/>
         <source>Minimum number of lower case letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation>密碼中所需的最少小寫字母數目。  僅在密碼品質為「複雜」時強制執行。</translation>
+        <translation>密碼中所需的最少小寫字母數目。僅在密碼品質為「複雜」時強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="44"/>
         <source>Minimum number of non-letter characters (numerical digits or symbols) required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation>密碼中所需的最少非字母字元（數字或符號）數目。  僅在密碼品質為「複雜」時強制執行。</translation>
+        <translation>密碼中所需的最少非字母字元（數字或符號）數目。僅在密碼品質為「複雜」時強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="45"/>
         <source>Minimum number of numerical digits required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation>密碼中所需的最少數字數目。  僅在密碼品質為「複雜」時強制執行。</translation>
+        <translation>密碼中所需的最少數字數目。僅在密碼品質為「複雜」時強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="46"/>
         <source>Minimum number of symbols required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation>密碼中所需的最少符號數目。  僅在密碼品質為「複雜」時強制執行。</translation>
+        <translation>密碼中所需的最少符號數目。僅在密碼品質為「複雜」時強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="47"/>
         <source>Minimum number of upper case letters required in the password.  Only enforced when Password Quality is &apos;Complex&apos;.</source>
-        <translation>密碼中所需的最少大寫字母數目。  僅在密碼品質為「複雜」時強制執行。</translation>
+        <translation>密碼中所需的最少大寫字母數目。僅在密碼品質為「複雜」時強制執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="48"/>
@@ -39634,7 +39646,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="50"/>
         <source>The length of time between strong authentication interactions (e.g., password, PIN, pattern).  Users may utilize any enabled authentication method to unlock the device or work profile until timeout.</source>
-        <translation>強驗證互動（例如，密碼、PIN 碼、模式）之間的時間長度。  使用者可以使用任何已啟用的驗證方法來解除鎖定裝置或工作設定檔，直到逾時。</translation>
+        <translation>強驗證互動（例如，密碼、PIN 碼、模式）之間的時間長度。使用者可以使用任何已啟用的驗證方法來解除鎖定裝置或工作設定檔，直到逾時。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePasswordRequirementsForm.cpp" line="81"/>
@@ -39734,7 +39746,7 @@ Do you want to close the dialog?</source>
         <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="23"/>
         <source>Set password constraints, like minimum number of characters, symbols, number of failed passwords before device wipe, etc.</source>
         <comment>Payload Password Policy description</comment>
-        <translation>設定密碼限制，如最少字元數、符號數、裝置抹除前的失敗密碼次數等。</translation>
+        <translation>設定密碼限制，如最少字元數、符號、裝置抹除前的失敗密碼次數等。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/translations.cpp" line="24"/>
@@ -39788,7 +39800,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePolicyGeneralForm.ui" line="33"/>
         <source>Brief explanation of the contents or purpose of the policy</source>
-        <translation>原則之內容或目的的簡要說明</translation>
+        <translation>原則之內容或目的之簡要說明</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GooglePolicyGeneralForm.ui" line="40"/>
@@ -39879,7 +39891,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/idp/IDPGroupsDialog.ui" line="35"/>
         <source>Search by Name</source>
-        <translation type="unfinished"></translation>
+        <translation>按名稱搜尋</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/idp/IDPGroupsDialog.cpp" line="31"/>
@@ -40774,7 +40786,7 @@ The full http link looks similar to:
 
 The code itself is just: 
   XXYYZZ12345</source>
-        <translation>選取包含您想要匯入之代碼的檔案。  檔案中的每一行中可以包含您從 Apple 接收到的完整 http 位址，或僅僅只是兌換代碼。
+        <translation>選取包含您想要匯入之代碼的檔案。檔案中的每一行中可以包含您從 Apple 接收到的完整 http 位址，或僅僅只是兌換代碼。
 
 完整 http 連結看起來類似於：
   https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/com.apple.jingle.app.finance.DirectAction/freeProductCodeWizard?code=XXYYZZ12345&amp;mt=8
@@ -41661,7 +41673,7 @@ Please try again in a few seconds.</source>
     <message>
         <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="115"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; a device can be in one and only one cart, and can&apos;t at the same time in a cart and associated to a single person.</source>
-        <translation>&lt;b&gt;註：&lt;/b&gt; 一個裝置只能在一個購物車中，不能同時在一個購物車中且關聯至單個人。</translation>
+        <translation>&lt;b&gt;註：&lt;/b&gt;一個裝置只能在一個購物車中，不能同時在一個購物車中且關聯至單個人。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ImportClassroomMappingsDialogs.cpp" line="116"/>
@@ -42156,7 +42168,7 @@ Internal name: %2</source>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="335"/>
         <source> copy</source>
-        <translation> 複製</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryQueryWidget.cpp" line="384"/>
@@ -42947,7 +42959,7 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="564"/>
         <source> copy</source>
-        <translation> 複製</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/LicenseTabWidget.cpp" line="598"/>
@@ -43035,7 +43047,7 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="163"/>
         <source> - ID: %1</source>
-        <translation> - ID：%1</translation>
+        <translation>- ID：%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/lockeventtracker.cpp" line="195"/>
@@ -43602,7 +43614,7 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="231"/>
         <source>Disable Screen Time window during login</source>
-        <translation>登入期間停用「螢幕時間」視窗</translation>
+        <translation>登入期間停用「螢幕使用時間」視窗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="238"/>
@@ -43617,17 +43629,17 @@ It might take a few seconds before the filesets appear in the fileset tab.</sour
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="252"/>
         <source>Disable Unlock with Watch window during login</source>
-        <translation type="unfinished"></translation>
+        <translation>在登入期間停用以凝視解鎖視窗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="259"/>
         <source>Disable Accessibility window during login</source>
-        <translation type="unfinished"></translation>
+        <translation>在登入期間停用協助工具視窗</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="266"/>
         <source>Enable &gt;console login</source>
-        <translation>啟用 &gt;主控台登入</translation>
+        <translation>啟用 &gt; 主控台登入</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowForm.ui" line="273"/>
@@ -44176,17 +44188,17 @@ located on the client computer:
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="240"/>
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="266"/>
         <source>Removable System Extensions</source>
-        <translation type="unfinished"></translation>
+        <translation>卸除式系統延伸項目</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="247"/>
         <source>Removable System Extensions column value is comma-separated list of system extensions identifiers</source>
-        <translation type="unfinished"></translation>
+        <translation>卸除式系統延伸項目列值是以逗號分隔的系統延伸識別碼</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/MacOSSystemExtensionPolicyForm.ui" line="261"/>
         <source>Team Identifiers</source>
-        <translation type="unfinished"></translation>
+        <translation>小組識別碼</translation>
     </message>
 </context>
 <context>
@@ -44277,7 +44289,7 @@ located on the client computer:
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="259"/>
         <source> and </source>
-        <translation> 和 </translation>
+        <translation>和 </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ManageFilesetRevisionDlg.cpp" line="261"/>
@@ -46075,7 +46087,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="138"/>
         <source>Conflicting with pre-enrolled client</source>
-        <translation type="unfinished"></translation>
+        <translation>與預先註冊的客戶衝突</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="141"/>
@@ -46105,7 +46117,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/models/newclientsmodel.cpp" line="184"/>
         <source>Pre-enrolled clients are clients that have been entered as placeholders or are otherwise waiting on model update</source>
-        <translation type="unfinished"></translation>
+        <translation>預先註冊的用戶端是已作為預留位置輸入或以其他方式等待型號更新的用戶端</translation>
     </message>
 </context>
 <context>
@@ -46143,7 +46155,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/NewGSuiteOUDlg.cpp" line="113"/>
         <source>Please check the server logs for more information.  (%1)</source>
-        <translation>請檢查伺服器記錄，瞭解更多資訊。  (%1)</translation>
+        <translation>請檢查伺服器記錄，瞭解更多資訊。(%1)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewGSuiteOUDlg.cpp" line="115"/>
@@ -46675,7 +46687,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/Configurator/ParentalControlsForm.ui" line="24"/>
         <source>Content Filtering</source>
-        <translation>內容篩選</translation>
+        <translation>內容篩選器</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ParentalControlsForm.ui" line="33"/>
@@ -47053,7 +47065,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/Configurator/PasscodePolicyForm.ui" line="352"/>
         <source>Maximum number of failed attempts</source>
-        <translation>失敗嘗試次數上限</translation>
+        <translation>失敗的嘗試次數上限</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PasscodePolicyForm.ui" line="383"/>
@@ -47351,7 +47363,7 @@ As the serial number must be unique, please resolve the conflict for these clien
  * Force installed - automatically installed; user cannot remove it
  * Blocked - blocked from installation, even if otherwise available; if the app was installed under a previous policy, it will be uninstalled
  * Available - available to install at users behest</source>
-        <translation>在裝置上指定應用程式安裝原則。  選項包括：
+        <translation>在裝置上指定應用程式安裝原則。選項包括：
 
 * 未指定 - 在大多數裝置上，預設為「可用」
 。* 預先安裝 - 已自動安裝；使用者可以將其移除
@@ -47362,7 +47374,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.ui" line="82"/>
         <source>Auto Update Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>自動更新模式</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.ui" line="89"/>
@@ -47372,7 +47384,12 @@ As the serial number must be unique, please resolve the conflict for these clien
 * Default - detects updates within 24 hours, updates when device is charging, not being used, and connected to an unmetered network
 * Postponed - apps will not be updated within 90 days of the device detecting a new version
 * High Priority - app update should be triggered within 60 seconds of detection (or connection, if the device is off or not connected to a network)</source>
-        <translation type="unfinished"></translation>
+        <translation>指定此應用程式的自動更新模式。  選項包括：
+
+* 未指定 - 預設為 Default 但不會使您安裝的原則混亂
+* 預設 - 在 24 小時內偵測更新，在裝置充電、未使用和連線到未計量的網路時更新
+* 延遲 - 應用程式不會在裝置偵測到新版本後 90 天內更新
+* 高優先順序 - 應用程式更新應在偵測到（或連線，如果裝置關閉或未連線到網路）的 60 秒內觸發</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="23"/>
@@ -47383,7 +47400,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="23"/>
         <source>Unspecified. Defaults to &apos;Available&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>未指定。預設為「可用」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="24"/>
@@ -47428,37 +47445,37 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="41"/>
         <source>Unspecified. Defaults to &apos;Default&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>未指定。預設為「預設」。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="42"/>
         <source>Default</source>
-        <translation type="unfinished">預設</translation>
+        <translation>預設</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="42"/>
         <source>Default app update priority.</source>
-        <translation type="unfinished"></translation>
+        <translation>預設應用程式更新優先順序。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="43"/>
         <source>Postponed</source>
-        <translation type="unfinished"></translation>
+        <translation>已延遲</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="43"/>
         <source>Postponed app update priority.</source>
-        <translation type="unfinished"></translation>
+        <translation>已延遲應用程式更新優先順序。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="44"/>
         <source>High Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>高優先順序</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppConfigurator.cpp" line="44"/>
         <source>High app update priority.</source>
-        <translation type="unfinished"></translation>
+        <translation>高應用程式更新優先順序。</translation>
     </message>
 </context>
 <context>
@@ -47478,10 +47495,10 @@ As the serial number must be unique, please resolve the conflict for these clien
 &lt;/ul&gt;
 &lt;p&gt;If none of the above fit, and you believe this is in error, please consult your FileWave Administrator.&lt;/p&gt;
 </source>
-        <translation>&lt;p&gt;﻿無法載入任何企業；查詢應用程式管理屬性需要企業。  可能的原因：&lt;/p&gt;
+        <translation>&lt;p&gt;﻿無法載入任何企業；查詢應用程式管理屬性需要企業。可能的原因：&lt;/p&gt;
 &lt;ul&gt;
-	&lt;li&gt;在此 FileWave 執行個體中沒有定義企業。  可以透過「喜好設定」&amp;rarr;「Google」索引標籤上的「設定服務帳戶」按鈕設定企業&lt;/li&gt;
-	&lt;li&gt;此使用者可能無權存取任何定義的企業。  如果是這種情況，請諮詢您的 FileWave 管理員。
+	&lt;li&gt;在此 FileWave 執行個體中沒有定義企業。可以透過「喜好設定」&amp;rarr;「Google」索引標籤上的「設定服務帳戶」按鈕設定企業&lt;/li&gt;
+	&lt;li&gt;此使用者可能無權存取任何定義的企業。如果是這種情況，請諮詢您的 FileWave 管理員。
 	&lt;li&gt;暫時性網路錯誤；請重新載入此對話方塊以重試。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;如果以上都不符合，且您認為有誤，請諮詢您的 FileWave 管理員。&lt;/p&gt;
@@ -47500,7 +47517,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppManagedPropertiesWidget.cpp" line="61"/>
         <source>&lt;p&gt;FileWave did not successfully parse the Play Store&apos;s managed configuration for this app.  Please try reopening this Play Store window.  If this problem persists, contact your FileWave Administrator.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;FileWave 未成功剖析該應用程式的 Play Store 受管理設定。  請嘗試重新開啟此 Play Store 視窗。  如果問題仍然存在，請聯絡您的 FileWave 管理員。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;FileWave 未成功剖析該應用程式的 Play Store 受管理設定。請嘗試重新開啟此 Play Store 視窗。如果問題仍然存在，請聯絡您的 FileWave 管理員。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppManagedPropertiesWidget.cpp" line="169"/>
@@ -47523,7 +47540,7 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppPermissionsWidget.ui" line="40"/>
         <source>The default action devices will take when an app requests a permission.   Changes made here affect solely this application and take precedence over the policy default permission, the app default permission (dropdown above), and policy-wide permission grants.</source>
-        <translation>當應用程式要求權限時，裝置將採取的預設動作。   此處所做的變更僅影響此應用程式，並優先於原則預設權限、應用程式預設權限（上方下拉式清單）和原則範圍的權限授予。</translation>
+        <translation>當應用程式要求權限時，裝置將採取的預設動作。 此處所做的變更僅影響此應用程式，並優先於原則預設權限、應用程式預設權限（上方下拉式清單）和原則範圍的權限授予。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreAppPermissionsWidget.cpp" line="19"/>
@@ -47619,14 +47636,14 @@ As the serial number must be unique, please resolve the conflict for these clien
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="118"/>
         <source>FileWave was unable to negotiate a Play Store instance with Google.  Please try reopening this Play Store window.  If this problem persists, contact your FileWave Administrator.</source>
-        <translation>FileWave 無法與 Google 交涉 Play Store 執行個體。  請嘗試重新開啟此 Play Store 視窗。  如果問題仍然存在，請聯絡您的 FileWave 管理員。</translation>
+        <translation>FileWave 無法與 Google 交涉 Play Store 執行個體。請嘗試重新開啟此 Play Store 視窗。如果問題仍然存在，請聯絡您的 FileWave 管理員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="127"/>
         <source>Server error; FileWave was unable to negotiate a Play Store instance with Google.  Please try reopening this Play Store window.
 
 Server said (%1): %2</source>
-        <translation>伺服器錯誤；FileWave 無法與 Google 交涉 Play Store 執行個體。  請嘗試重新開啟此 Play Store 視窗。
+        <translation>伺服器錯誤；FileWave 無法與 Google 交涉 Play Store 執行個體。請嘗試重新開啟此 Play Store 視窗。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -47635,7 +47652,7 @@ Server said (%1): %2</source>
         <source>Forbidden!  Unable to get list of registered enterprises from server.  Note: Without at least one valid enterprise, you will not be able to add any Play Store apps.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法從伺服器取得已註冊企業清單。  註：如果沒有至少一個有效企業，您將無法新增任何 Play Store 應用程式。
+        <translation>禁止！無法從伺服器取得已註冊企業清單。註：如果沒有至少一個有效企業，您將無法新增任何 Play Store 應用程式。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -47644,7 +47661,7 @@ Server said (%1): %2</source>
         <source>Unable to get list of enterprises.  Adding a Play Store app requires an enterprise.
 
 Server said (%1): %2</source>
-        <translation>無法取得企業清單。  新增 Play Store 應用程式需要企業。
+        <translation>無法取得企業清單。新增 Play Store 應用程式需要企業。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -47653,24 +47670,24 @@ Server said (%1): %2</source>
         <source>Server error; unable to get list of enterprises.  Without any enterprises, you will not be able to add any Play Store apps.
 
 Server said (%1): %2</source>
-        <translation>伺服器錯誤；無法取得企業清單。  如果沒有任何企業，您將無法新增任何 Play Store 應用程式。
+        <translation>伺服器錯誤；無法取得企業清單。如果沒有任何企業，您將無法新增任何 Play Store 應用程式。
 
 伺服器告知 (%1)：%2</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="255"/>
         <source>Unknown response from server.  Enterprise list unavailable.  Please consult the server logs or contact your FileWave administrator for help.  (Note that without any valid enterprises, you will not be able to add any Play Store apps.)</source>
-        <translation>伺服器傳回未知的回應。  企業清單無法使用。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。  （請注意，如果沒有任何有效企業，您將無法新增任何 Play Store 應用程式。)</translation>
+        <translation>伺服器傳回未知的回應。企業清單無法使用。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。（請注意，如果沒有任何有效企業，您將無法新增任何 Play Store 應用程式。)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="267"/>
         <source>No enterprises found on server.  If you believe this is in error, please contact your FileWave Administrator for help.</source>
-        <translation>伺服器上找不到企業。  若您認為有誤，請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器上找不到企業。若您認為有誤，請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="286"/>
         <source>The server gave an invalid or incorrect response: an enterprise does not have a required name.  Please contact your FileWave Administrator for help.</source>
-        <translation>伺服器給出的回應無效或不正確：一個企業不具有所需名稱。  請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器給出的回應無效或不正確：一個企業不具有所需名稱。請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="332"/>
@@ -47680,14 +47697,14 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="341"/>
         <source>Lookup failed.  Unable to create Play Store Fileset for package name: &lt;strong&gt;%1&lt;/strong&gt;</source>
-        <translation>查詢失敗。  無法為封裝名稱建立 Play Store 檔案集：&lt;strong&gt;%1&lt;/strong&gt;</translation>
+        <translation>查詢失敗。無法為封裝名稱建立 Play Store 檔案集：&lt;strong&gt;%1&lt;/strong&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="347"/>
         <source>Forbidden!  Unable to get app meta data.
 
 Server said (%1): %2</source>
-        <translation>禁止！  無法取得應用程式中繼資料。
+        <translation>禁止！無法取得應用程式中繼資料。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -47696,7 +47713,7 @@ Server said (%1): %2</source>
         <source>Not found!  Unable to find app.
 
 Server said (%1): %2</source>
-        <translation>找不到！  找不到應用程式。
+        <translation>找不到！找不到應用程式。
 
 伺服器告知 (%1)：%2</translation>
     </message>
@@ -47721,23 +47738,23 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="377"/>
         <source>Unknown response from server.  App meta data unavailable.  Please consult the server logs or contact your FileWave administrator for help.</source>
-        <translation>伺服器傳回未知的回應。  應用程式中繼資料無法使用。  請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>伺服器傳回未知的回應。應用程式中繼資料無法使用。請查閱伺服器記錄，或聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="386"/>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="396"/>
         <source>Invalid message received from Play Store.  Unable to create Play Store Fileset for package name: &lt;strong&gt;%1&lt;/strong&gt;</source>
-        <translation>從 Play Store 收到無效訊息。  無法為封裝名稱建立 Play Store 檔案集：&lt;strong&gt;%1&lt;/strong&gt;</translation>
+        <translation>從 Play Store 收到無效訊息。無法為封裝名稱建立 Play Store 檔案集：&lt;strong&gt;%1&lt;/strong&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="389"/>
         <source>Unable to read Play Store response (unknown error parsing response).  If the problem persists, please contact your FileWave administrator for help.</source>
-        <translation>無法讀取 Play Store 回應（剖析回應時發生未知錯誤）。  如果問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>無法讀取 Play Store 回應（剖析回應時發生未知錯誤）。如果問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="400"/>
         <source>Unable to create Play Store Fileset: loaded metadata is invalid.  If this problem persists, please contact your FileWave Administrator for help.</source>
-        <translation>無法建立 Play Store 檔案集：載入的中繼資料無效。  如果此問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>無法建立 Play Store 檔案集：載入的中繼資料無效。如果此問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="405"/>
@@ -47757,12 +47774,12 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="425"/>
         <source>Unable to create Play Store Fileset.  If this problem persists, please contact your FileWave Administrator for help.</source>
-        <translation>無法建立 Play Store 檔案集。  如果此問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
+        <translation>無法建立 Play Store 檔案集。如果此問題持續存在，請聯絡您的 FileWave 管理員以取得協助。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.cpp" line="429"/>
         <source>Play Store Fileset successfully created: &lt;strong&gt;%1&lt;/strong&gt; (id: %2)</source>
-        <translation>Play Store 檔案集已成功建立： &lt;strong&gt;%1&lt;/strong&gt; (id: %2）</translation>
+        <translation>Play Store 檔案集已成功建立：&lt;strong&gt;%1&lt;/strong&gt; (id: %2）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PlayStoreDlg.h" line="37"/>
@@ -47959,7 +47976,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/PolicyGeneralForm.ui" line="33"/>
         <source>Brief explanation of the contents or purpose of the policy</source>
-        <translation>原則之內容或目的的簡要說明</translation>
+        <translation>原則之內容或目的之簡要說明</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/PolicyGeneralForm.ui" line="40"/>
@@ -48329,7 +48346,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/PrinterPolicyWidget.cpp" line="184"/>
         <source> is configured correctly</source>
-        <translation> 已正確設定</translation>
+        <translation>已正確設定</translation>
     </message>
 </context>
 <context>
@@ -48456,12 +48473,12 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="21"/>
         <source>Camera</source>
-        <translation type="unfinished">相機</translation>
+        <translation>相機</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="22"/>
         <source>Microphone</source>
-        <translation type="unfinished"></translation>
+        <translation>麥克風</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="23"/>
@@ -48531,7 +48548,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="36"/>
         <source>Removable Volumes</source>
-        <translation>抽取式磁碟區</translation>
+        <translation>卸除式磁碟區</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrivacyControlForm.cpp" line="37"/>
@@ -48666,7 +48683,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/ProfileAttributesEditor.ui" line="233"/>
         <source>Install the profile for all users on the device.  This may require users to log in for the settings to be present</source>
-        <translation>為裝置上的所有使用者安裝設定檔。  這可能要求使用者登入才會顯示設定</translation>
+        <translation>為裝置上的所有使用者安裝設定檔。這可能要求使用者登入才會顯示設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ProfileAttributesEditor.ui" line="236"/>
@@ -49085,7 +49102,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="20"/>
         <source>Sticky available</source>
-        <translation>可用自黏</translation>
+        <translation>可用相黏</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/ContentCachingForm.cpp" line="21"/>
@@ -49316,7 +49333,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="571"/>
         <source>Creating new fileset revision from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>從資料夾建立新的檔案集修訂版本......</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="701"/>
@@ -49452,7 +49469,7 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1691"/>
         <source>Sending OU management requests upstream.  Given upstream API constraints, this may take some time; please be patient.</source>
-        <translation>正在向上游傳送 OU 管理要求。  提供上游 API 限制，這可能需要一些時間；請耐心等待。</translation>
+        <translation>正在向上游傳送 OU 管理要求。提供上游 API 限制，這可能需要一些時間；請耐心等待。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1694"/>
@@ -49467,117 +49484,117 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1727"/>
         <source>Update Unsuccessful.  Make sure that other Administrators have released control of each window.</source>
-        <translation>更新失敗。  確保其他管理員已釋放對每個視窗的控制。</translation>
+        <translation>更新失敗。確保其他管理員已釋放對每個視窗的控制。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1731"/>
         <source>Update Unsuccessful.  Permission denied.</source>
-        <translation>更新失敗。  權限被拒。</translation>
+        <translation>更新失敗。權限被拒。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1734"/>
         <source>Update Unsuccessful.  There are still locks held by other administrators so model update cannot safely continue.</source>
-        <translation>更新失敗。  其他管理員仍然持有鎖定，因此模型更新無法安全地繼續。</translation>
+        <translation>更新失敗。其他管理員仍然持有鎖定，因此模型更新無法安全地繼續。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1737"/>
         <source>Update Unsuccessful.  The license has either expired or been revoked - please contact FileWave support.</source>
-        <translation>更新失敗。  授權已過期或已被撤銷 - 請聯絡 FileWave 支援人員。</translation>
+        <translation>更新失敗。授權已過期或已被撤銷 - 請聯絡 FileWave 支援人員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1740"/>
         <source>Update Unsuccessful.  Your license is not valid for this version of the software - please contact FileWave support.</source>
-        <translation>更新失敗。  您的授權對此版本的軟體無效 - 請聯絡 FileWave 支援人員。</translation>
+        <translation>更新失敗。您的授權對此版本的軟體無效 - 請聯絡 FileWave 支援人員。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1743"/>
         <source>Update Unsuccessful.   Inventory server is offline, certain features require an inventory connection, please investigate.</source>
-        <translation>更新失敗。   庫存伺服器離線，某些功能需要庫存連線，請調查。</translation>
+        <translation>更新失敗。庫存伺服器離線，某些功能需要庫存連線，請調查。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1746"/>
         <source>Update Unsuccessful.   Update process is already running.</source>
-        <translation>更新失敗。   更新程序已經在執行。</translation>
+        <translation>更新失敗。更新程序已經在執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1751"/>
         <source>Update Unsuccessful.  Error building Filesets, check server log for details.</source>
-        <translation>更新失敗。  建置檔案集發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。建置檔案集發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1754"/>
         <source>Update Unsuccessful.  Error building smart filters, check server log for details.</source>
-        <translation>更新失敗。  建置智慧型篩選器發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。建置智慧型篩選器發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1757"/>
         <source>Update Unsuccessful.  Error building user manifests, check server log for details.</source>
-        <translation>更新失敗。  建置使用者資訊清單發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。建置使用者資訊清單發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1760"/>
         <source>Update Unsuccessful.  Error deleting obsolete files, check server log for details.</source>
-        <translation>更新失敗。  刪除過時檔案時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。刪除過時檔案時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1763"/>
         <source>Update Unsuccessful.  Error moving files, check server log for details.</source>
-        <translation>更新失敗。  移動檔案時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。移動檔案時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1766"/>
         <source>Update Unsuccessful.  Error moving temporary files, check server log for details.</source>
-        <translation>更新失敗。  移動暫時檔案時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。移動暫時檔案時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1771"/>
         <source>Update Unsuccessful.  The APN certificate is not valid.</source>
-        <translation>更新失敗。  APN 憑證無效。</translation>
+        <translation>更新失敗。APN 憑證無效。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1774"/>
         <source>Update Unsuccessful.  Error due to missing Profile Filesets files, check server log for details.</source>
-        <translation>更新失敗。  由於缺少設定檔檔案集檔案而發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。由於缺少設定檔檔案集檔案而發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1777"/>
         <source>Update Unsuccessful.  Error while updating mobile devices, check mdm server log for details.</source>
-        <translation>更新失敗。  更新行動裝置時發生錯誤，請檢查 MDM 伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。更新行動裝置時發生錯誤，請檢查 MDM 伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1781"/>
         <source>Update Unsuccessful.  Error while updating Android EMM devices; check server log for details.</source>
-        <translation>更新失敗。  更新 Android EMM 裝置時發生錯誤；請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。更新 Android EMM 裝置時發生錯誤；請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1785"/>
         <source>Update Unsuccessful.  Error while updating Inventory information, check server log for details.</source>
-        <translation>更新失敗。  更新庫存資訊時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。更新庫存資訊時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1788"/>
         <source>Update Unsuccessful.  Error while preparing notifications for Android devices, check server log for details.</source>
-        <translation>更新失敗。  準備對 Android 裝置的通知時發生錯誤；請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。準備對 Android 裝置的通知時發生錯誤；請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1791"/>
         <source>Update Unsuccessful.  Error while updating Archive state, check server log for details.</source>
-        <translation>更新失敗。  更新封存狀態時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。更新封存狀態時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1794"/>
         <source>Update Unsuccessful.  Error while synchronizing mobile user data, check server log for details.</source>
-        <translation>更新失敗。  同步行動使用者資料時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。同步行動使用者資料時發生錯誤，請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1797"/>
         <source>Update Unsuccessful.  A chromebook sync is in progress. Please try again later.</source>
-        <translation>更新失敗。  正在進行 chromebook 同步。請稍後再試。</translation>
+        <translation>更新失敗。正在進行 chromebook 同步。請稍後再試。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1800"/>
         <source>Update Unsuccessful.  Error while executing outstanding GSuite OU operations; check server logs for details.</source>
-        <translation>更新失敗。  執行未完成 GSuite OU 操作時發生錯誤；請檢查伺服器記錄瞭解詳細資料。</translation>
+        <translation>更新失敗。執行未完成 GSuite OU 操作時發生錯誤；請檢查伺服器記錄瞭解詳細資料。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1803"/>
@@ -50196,7 +50213,7 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_login.cpp" line="166"/>
         <source>There doesn&apos;t appear to be a server running at that address.  Verify the address and make sure your server is up and running.</source>
-        <translation>似乎沒有伺服器在該位址上執行。  請驗證位址並確保您的伺服器已啟動且正在執行。</translation>
+        <translation>似乎沒有伺服器在該位址上執行。請驗證位址並確保您的伺服器已啟動且正在執行。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="76"/>
@@ -50241,17 +50258,17 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="183"/>
         <source> (license assigned to user)</source>
-        <translation> （授權已指派給使用者）</translation>
+        <translation>（授權已指派給使用者）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="186"/>
         <source> (license assigned to device)</source>
-        <translation> （授權已指派給裝置）</translation>
+        <translation>（授權已指派給裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="189"/>
         <source> (license assigned to device if possible, otherwise to user)</source>
-        <translation> （授權在可行情況下指派給裝置，否則指派給使用者）</translation>
+        <translation>（授權在可行情況下指派給裝置，否則指派給使用者）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/command_line/command_newassociation.cpp" line="200"/>
@@ -50787,12 +50804,12 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginItemsPayload.cpp" line="14"/>
         <source>Login Items:  Managed Items</source>
-        <translation>登入項目：  受管理項目</translation>
+        <translation>登入項目：受管理項目</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginItemsPayload.cpp" line="78"/>
         <source>Login Items:  Network Share Point</source>
-        <translation>登入項目：  網路共用點</translation>
+        <translation>登入項目：網路共用點</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginItemsPayload.h" line="24"/>
@@ -50815,22 +50832,22 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowStandalonePayload.h" line="170"/>
         <source>Login Window:  Screen Saver Preferences</source>
-        <translation>登入視窗：  螢幕保護程式喜好設定</translation>
+        <translation>登入視窗：螢幕保護程式喜好設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowStandalonePayload.h" line="213"/>
         <source>Login Window:  MCX Preferences</source>
-        <translation>登入視窗：  MCX 喜好設定</translation>
+        <translation>登入視窗：MCX 喜好設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowStandalonePayload.h" line="239"/>
         <source>Login Window:  Global Preferences</source>
-        <translation>登入視窗：  全域喜好設定</translation>
+        <translation>登入視窗：全域喜好設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/LoginWindowStandalonePayload.h" line="275"/>
         <source>Login Window:  Scripts</source>
-        <translation>登入視窗：  指令碼</translation>
+        <translation>登入視窗：指令碼</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/MacOSExtensionsPayload.h" line="43"/>
@@ -50998,12 +51015,12 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/PerAppVPNPayload.cpp" line="18"/>
         <source>Configures Per-App VPN settings</source>
-        <translation>進行 Per-App VPN 設定</translation>
+        <translation>進行個別應用程式的 VPN 設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PerAppVPNPayload.h" line="27"/>
         <source>Per-App VPN</source>
-        <translation>Per-App VPN</translation>
+        <translation>個別應用程式的 VPN</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/PrinterPayload.h" line="14"/>
@@ -51075,7 +51092,7 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXPayload.cpp" line="719"/>
         <source>Media Access:  Disc Recording</source>
-        <translation>媒體存取：  碟片燒錄</translation>
+        <translation>媒體存取：碟片燒錄</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXPayload.cpp" line="767"/>
@@ -51090,7 +51107,7 @@ Try Again.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXPayload.cpp" line="868"/>
         <source>Media Access:  Finder Settings</source>
-        <translation>媒體存取：  Finder 設定</translation>
+        <translation>媒體存取：Finder 設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXPayload.cpp" line="913"/>
@@ -51405,13 +51422,13 @@ Try Again.</source>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="449"/>
         <source> (Never Overwrite)</source>
         <comment>FilesetContentsContainer</comment>
-        <translation> （從不覆寫）</translation>
+        <translation>（從不覆寫）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="451"/>
         <source> (Only Overwrite Older)</source>
         <comment>FilesetContentsContainer</comment>
-        <translation> （僅覆寫資料夾）</translation>
+        <translation>（僅覆寫資料夾）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetContentsContainer.cpp" line="777"/>
@@ -51538,11 +51555,11 @@ This address has been entered as an Android Factory Reset Protection (FRP) accou
 If this email was erroneously sent, you may disregard this communication.  (Although you may want to inform your FileWave administrator that they typo-ed an email!)</source>
         <translation>驗證要求
 
-此地址已作為您 FileWave 執行個體中的 Android 重設成出廠預設值保護(FRP) 帳戶輸入。  要啟用 FRP，請將下列代碼貼到該電子郵件的 FileWave：
+此地址已作為您 FileWave 執行個體中的 Android 重設成出廠預設值保護(FRP) 帳戶輸入。要啟用 FRP，請將下列代碼貼到該電子郵件的 FileWave：
 
     {emm_frp_token}
 
-如果該電子郵件為錯誤傳送，您可以無視此信函。  （儘管您可能想通知您的 FileWave 管理員，他們傳錯了電子郵件！）</translation>
+如果該電子郵件為錯誤傳送，您可以無視此信函。（儘管您可能想通知您的 FileWave 管理員，他們傳錯了電子郵件！）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/InventoryUtilities.cpp" line="274"/>
@@ -51680,7 +51697,7 @@ If this email was erroneously sent, you may disregard this communication.  (Alth
         <translation>無 / CSV</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="32"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="34"/>
         <source>Insufficient Activation Code found!
 
 Please enter your Activation Code</source>
@@ -52415,7 +52432,7 @@ Therefore it may happen that the device is not locked.</source>
         <source>Failed to send remote wipe commandto EMM server.  Server said (%1):
 
 %2</source>
-        <translation>無法向 EMM 伺服器傳送遠端抹除命令。  伺服器告知 (%1)：
+        <translation>無法向 EMM 伺服器傳送遠端抹除命令。伺服器告知 (%1)：
 
 %2</translation>
     </message>
@@ -52591,7 +52608,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="217"/>
         <source>Allow Radio (Supervised devices only)</source>
-        <translation>允許收音機（僅受監督的裝置）</translation>
+        <translation>允許無線電（僅受監督的裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="227"/>
@@ -52661,7 +52678,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="411"/>
         <source>Allow iCloud Private Relay</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 iCloud 保密傳送</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="421"/>
@@ -52776,7 +52793,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="678"/>
         <source>Allow configuring Restrictions / Screen Time (Supervised devices only)</source>
-        <translation>允許設定限制/螢幕時間（僅受監督的裝置）</translation>
+        <translation>允許設定限制/螢幕使用時間（僅受監督的裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="688"/>
@@ -52806,7 +52823,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="738"/>
         <source>Allow modifying cellular plan settings (Supervised devices only)</source>
-        <translation>允許修改行動數據套餐設定（僅受監督的裝置）</translation>
+        <translation>允許修改行動數據方案設定（僅受監督的裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="748"/>
@@ -52926,7 +52943,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="993"/>
         <source>Let copy and paste respect document allowance options</source>
-        <translation type="unfinished"></translation>
+        <translation>讓複製和貼上尊重文件限額選項</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1003"/>
@@ -52941,12 +52958,12 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1017"/>
         <source>Allow USB drive access in Files app (Supervised devices only)</source>
-        <translation>允許 USB 磁碟機存取 Files 應用程式（僅受監督的裝置）</translation>
+        <translation>允許 USB 磁碟機存取「檔案」應用程式（僅受監督的裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1027"/>
         <source>Allow network drive access in Files app (Supervised devices only)</source>
-        <translation>允許網路磁碟機存取 Files 應用程式（僅受監督的裝置）</translation>
+        <translation>允許網路磁碟機存取「檔案」應用程式（僅受監督的裝置）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1037"/>
@@ -53111,7 +53128,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1434"/>
         <source>Force translation to be limited on device only</source>
-        <translation type="unfinished"></translation>
+        <translation>強制轉譯僅限於裝置</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1461"/>
@@ -53251,7 +53268,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.cpp" line="70"/>
         <source>iOS 11+: Prevent Cross-Site Tracking is enabled and the user can’t disable it. Block All Cookies is not enabled, though the user can enable it.</source>
-        <translation>iOS 11+：防止跨網站追蹤」已啟用，使用者無法將其停用。「封鎖所有 Cookie」未啟用，使用者可以將其啟用。</translation>
+        <translation>iOS 11+：「防止跨網站追蹤」已啟用，使用者無法將其停用。「封鎖所有 Cookie」未啟用，使用者可以將其啟用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.cpp" line="72"/>
@@ -53356,7 +53373,7 @@ Therefore it may happen that the device is not locked.</source>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.ui" line="97"/>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.ui" line="206"/>
         <source>Allow all movies</source>
-        <translation>顯示所有電影</translation>
+        <translation>允許所有電影</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.ui" line="105"/>
@@ -53512,7 +53529,7 @@ Therefore it may happen that the device is not locked.</source>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.cpp" line="316"/>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.cpp" line="337"/>
         <source>Allow All Movies</source>
-        <translation>顯示所有電影</translation>
+        <translation>允許所有電影</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.cpp" line="132"/>
@@ -53594,7 +53611,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.cpp" line="177"/>
         <source>Tout Public</source>
-        <translation>面向所有人</translation>
+        <translation>普級</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsMediaContentWidget.cpp" line="178"/>
@@ -53978,7 +53995,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="488"/>
         <source>Screen Time</source>
-        <translation>螢幕時間</translation>
+        <translation>螢幕使用時間</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="502"/>
@@ -53987,7 +54004,7 @@ Therefore it may happen that the device is not locked.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="516"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1795"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1810"/>
         <source>Sharing</source>
         <translation>分享</translation>
     </message>
@@ -54062,599 +54079,604 @@ Therefore it may happen that the device is not locked.</source>
         <translation>家庭共用</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="748"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="726"/>
+        <source>Battery</source>
+        <translation type="unfinished">電池</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="763"/>
         <source>Select All</source>
         <translation>全選</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="755"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="770"/>
         <source>Select None</source>
         <translation>全部不選</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="800"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="848"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="815"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="863"/>
         <source>Third-party Preference Panes</source>
         <translation>第三方喜好設定窗格</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="812"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1101"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1159"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1217"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1321"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="827"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1116"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1232"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1336"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="819"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1111"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1169"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1227"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1331"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="834"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1126"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1184"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1242"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1346"/>
         <source>-</source>
         <translation>-</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="889"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="904"/>
         <source>Apps</source>
         <translation>應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="895"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="910"/>
         <source>Allow use of Game Center</source>
         <translation>允許使用遊戲中心</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="925"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="940"/>
         <source>Allow multiplayer gaming</source>
         <translation>允許多人連線遊戲</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="935"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="950"/>
         <source>Allow adding Game Center friends</source>
         <translation>允許新增遊戲中心朋友</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="945"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="960"/>
         <source>Allow Game Center friends sharing modification</source>
         <translation>允許遊戲中心朋友分享修改</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="955"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="970"/>
         <source>Allow Game Center account modification</source>
         <translation>允許遊戲中心帳戶修改</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="969"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="984"/>
         <source>Allow App Store app adoption</source>
         <translation>允許使用 App Store 應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="979"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="994"/>
         <source>Allow Safari AutoFill</source>
         <translation>允許 Safari 自動填入</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="989"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1004"/>
         <source>Allow accessing web sites using TLS 1.0 and 1.1</source>
         <translation>允許使用 TLS 1.0 和 1.1 存取網站</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="996"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1011"/>
         <source>Allow software update notifications</source>
         <translation>允許軟體更新通知</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1006"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1021"/>
         <source>Allow apps to get File Provider info</source>
         <translation>允許應用程式取得檔案提供者資訊</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1013"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1028"/>
         <source>Require admin password to install or update apps</source>
         <translation>需要管理員密碼才可安裝或更新應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1020"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1035"/>
         <source>Restrict App Store to software updates only</source>
         <translation>將 App Store 限制為僅軟體更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1027"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1042"/>
         <source>Restrict App Store to MDM installed apps and software updates</source>
         <translation>將 App Store 限制為 MDM 安裝的應用程式和軟體更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1050"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1065"/>
         <source>Restrict which apps are allowed to launch</source>
         <translation>限制允許啟動的應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1080"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1095"/>
         <source>Allow Apps:</source>
         <translation>允許應用程式：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1087"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1102"/>
         <source>The user can always launch these apps</source>
         <translation>使用者可始終啟動這些應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1138"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1153"/>
         <source>Allow Folders:</source>
         <translation>允許資料夾：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1145"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1160"/>
         <source>The user can always launch applications in these folders</source>
         <translation>使用者可始終啟動這些資料夾中的應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1196"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1211"/>
         <source>Disallow Folders:</source>
         <translation>不允許資料夾</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1203"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1218"/>
         <source>The user can never launch applications in these folders</source>
         <translation>使用者不能啟動這些資料夾中的應用程式</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1269"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1284"/>
         <source>Widgets</source>
         <translation>小工具</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1275"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1290"/>
         <source>Allow only the following Dashboard widgets to run</source>
         <translation>僅允許下列儀表板小工具執行</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1293"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1308"/>
         <source>Allow Widgets:</source>
         <translation>允許小工具：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1300"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1315"/>
         <source>The user can always run these widgets</source>
         <translation>使用者可始終執行這些小工具</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1370"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1385"/>
         <source>Media</source>
         <translation>媒體</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1381"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1396"/>
         <source>Network Access</source>
         <translation>網路存取</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1388"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1403"/>
         <source>Access settings for network media</source>
         <translation>網路媒體的存取設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1411"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1426"/>
         <source>AirDrop:</source>
         <translation>AirDrop：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1427"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1490"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1524"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1555"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1586"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1660"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1684"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1708"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1442"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1505"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1539"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1570"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1601"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1675"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1699"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1723"/>
         <source>Allow</source>
         <translation>允許</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1447"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1462"/>
         <source>Hard Disk Media Access</source>
         <translation>硬碟媒體存取</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1454"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1469"/>
         <source>Access settings for hard disk media</source>
         <translation>硬碟媒體的存取設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1474"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1489"/>
         <source>Internal Disks:</source>
         <translation>內部磁碟：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1500"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1534"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1565"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1596"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1670"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1694"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1718"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1515"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1549"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1580"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1611"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1685"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1709"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1733"/>
         <source>Require Authentication</source>
         <translation>需要驗證</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1510"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1541"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1572"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1603"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1525"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1556"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1587"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1618"/>
         <source>Read-Only</source>
         <translation>唯讀</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1517"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1532"/>
         <source>External Disks:</source>
         <translation>外接式磁碟：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1548"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1563"/>
         <source>Disk Images:</source>
         <translation>磁碟影像：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1579"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1594"/>
         <source>DVD-RAM:</source>
         <translation>DVD-RAM：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1617"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1632"/>
         <source>Disc Media Access</source>
         <translation>光碟媒體存取</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1624"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1639"/>
         <source>Access settings for removable disk media</source>
         <translation>卸除式磁碟媒體的存取設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1644"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1659"/>
         <source>CDs &amp; CD-ROMs:</source>
         <translation>CD 和 CD-ROM：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1677"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1692"/>
         <source>DVDs</source>
         <translation>DVD</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1701"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1716"/>
         <source>Recordable Discs:</source>
         <translation>可燒錄光碟：</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1732"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1747"/>
         <source>Eject at logout</source>
         <translation>登出時退出</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1739"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1754"/>
         <source>Eject all removable media at logout</source>
         <translation>登出時退出所有卸除式媒體</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1762"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1777"/>
         <source>Allow File Transfer using Finder or iTunes</source>
         <translation>允許使用 Finder 或 iTunes 傳輸檔案</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1772"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1787"/>
         <source>Allow transferring documents to and from iOS and iPadOS devices using Finder or iTunes</source>
         <translation>允許使用 Finder 或 iTunes 在 iOS 與 iPadOS 裝置之間來回傳輸文件</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1801"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1816"/>
         <source>Select services that should be available in the share menu</source>
         <translation>選取應當在共用功能表中可用的服務</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1808"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1823"/>
         <source>AirDrop</source>
         <translation>AirDrop</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1818"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1833"/>
         <source>Mail</source>
         <translation>郵件</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1828"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1843"/>
         <source>Messages</source>
         <translation>訊息</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1838"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1853"/>
         <source>Notes</source>
         <translation>記事</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1848"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1863"/>
         <source>Reminders</source>
         <translation>提醒</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1858"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1873"/>
         <source>Add to Reading List</source>
         <translation>新增至閱讀清單</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1868"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1883"/>
         <source>Add to Photos</source>
         <translation>新增至相片</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1878"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1893"/>
         <source>Add to Aperture</source>
         <translation>新增至 Aperture</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1904"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1919"/>
         <source>Twitter</source>
         <translation>Twitter</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1914"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1929"/>
         <source>Facebook</source>
         <translation>Facebook</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1924"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1939"/>
         <source>LinkedIn</source>
         <translation>LinkedIn</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1934"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1949"/>
         <source>Video Services - Flickr, Vimeo, Tudou and Youku</source>
         <translation>影片服務 - Flickr、Vimeo、土豆和優酷</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1944"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1959"/>
         <source>Sina Weibo</source>
         <translation>新浪微博</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1959"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1974"/>
         <source>Automatically enable new sharing services</source>
         <translation>自動啟用新分享服務</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1966"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1981"/>
         <source>New sharing services will be enabled in the share menu automatically</source>
         <translation>將在共用功能表中自動啟用新分享服務</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="1989"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2004"/>
         <source>Functionality</source>
         <translation>功能</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2000"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2015"/>
         <source>Lock desktop picture</source>
         <translation>鎖定桌面圖片</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2013"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2028"/>
         <source>Prevents user from modifying the desktop picture selection</source>
         <translation>防止使用者修改桌面圖片選擇</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2040"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2055"/>
         <source>Desktop picture path</source>
         <translation>桌面圖片路徑</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2047"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2062"/>
         <source>The path of the file to use as the desktop picture. Leave path blank to use the current selection on device</source>
-        <translation>用作桌面圖片的檔案的路徑。將路徑留空以使用裝置上的目前的選擇項目</translation>
+        <translation>用作桌面圖片的檔案的路徑。將路徑留空以使用裝置上的目前選擇項目</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2057"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2072"/>
         <source>optional</source>
         <translation>選用</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2072"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2087"/>
         <source>Allow use of Camera</source>
         <translation>允許使用相機</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2082"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2097"/>
         <source>Allow Apple Music</source>
         <translation>允許 Apple Music</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2092"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2107"/>
         <source>Allow Spotlight Suggestions</source>
         <translation>允許 Spotlight 建議</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2102"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2117"/>
         <source>Allow Look Up</source>
         <translation>允許查詢</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2112"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2127"/>
         <source>Allow Dictation</source>
         <translation>允許聽寫</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2122"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2137"/>
         <source>Allow Touch ID to unlock device</source>
         <translation>允許使用 Touch ID 解除鎖定裝置</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2147"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2162"/>
         <source>Require password to unlock device with Touch ID after </source>
-        <translation type="unfinished"></translation>
+        <translation>需要密碼才能使用 Touch ID 解鎖裝置，需要在 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2167"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2182"/>
         <source>second(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>秒後</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2190"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2205"/>
         <source>Allow Handoff</source>
         <translation>允許 Handoff</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2216"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2231"/>
         <source>Allow password sharing</source>
         <translation>允許密碼分享</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2226"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2241"/>
         <source>Allow password AutoFill</source>
         <translation>允許密碼自動填入</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2236"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2251"/>
         <source>Allow proximity based password sharing requests</source>
         <translation>允許基於鄰近性的密碼分享要求</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2262"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2277"/>
         <source>Allow screenshots and screen recording</source>
         <translation>允許螢幕擷取畫面和螢幕錄製</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2293"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2308"/>
         <source>Allow AirPlay, View Screen by Classroom, and Screen Sharing</source>
         <translation>允許 AirPlay、View Screen by Classroom 和螢幕畫面分享</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2324"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2339"/>
         <source>Allow Classroom to perform AirPlay and View Screen without prompting</source>
         <translation>允許 Classroom 在沒有提示的情況下執行 AirPlay 和 View Screen</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2337"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2352"/>
         <source>Allow Classroom to lock the device without prompting</source>
         <translation>允許 Classroom 在不提示的情況下鎖定裝置</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2344"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2359"/>
         <source>Automatically join Classroom classes without prompting</source>
         <translation>自動加入 Classroom 課程，無需提示</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2351"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2366"/>
         <source>Require teacher permission to leave Classroom unmanaged classes</source>
         <translation>需要教師權限才能離開 Classroom 未受管理課程</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2374"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2389"/>
         <source>Allow use of iCloud password for local accounts</source>
         <translation>允許將 iCloud 密碼用於本機帳戶</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2384"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2399"/>
         <source>Allow iCloud Drive</source>
         <translation>允許 iCloud 磁碟機</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2415"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2430"/>
         <source>Allow iCloud Desktop &amp;&amp; Documents</source>
         <translation>允許 iCloud 桌面和文件</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2428"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2443"/>
         <source>Allow iCloud Keychain</source>
         <translation>允許 iCloud Keychain</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2438"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2453"/>
         <source>Allow iCloud Mail</source>
         <translation>允許 iCloud 郵件</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2448"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2463"/>
         <source>Allow iCloud Contacts</source>
         <translation>允許 iCloud 聯絡人</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2458"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2473"/>
         <source>Allow iCloud Calendars</source>
         <translation>允許 iCloud 行事曆</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2468"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2483"/>
         <source>Allow iCloud Reminders</source>
         <translation>允許 iCloud 提醒</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2478"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2493"/>
         <source>Allow iCloud Back to My Mac</source>
         <translation>允許 iCloud 返回至我的 Mac</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2488"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2503"/>
         <source>Allow iCloud Find My Mac</source>
         <translation>允許 iCloud 尋找我的 Mac</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2498"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2513"/>
         <source>Allow iCloud Bookmarks</source>
         <translation>允許 iCloud 書籤</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2508"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2523"/>
         <source>Allow iCloud Photos</source>
         <translation>允許 iCloud 相片</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2518"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2533"/>
         <source>Allow iCloud Notes</source>
         <translation>允許 iCloud 記事</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2528"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2543"/>
         <source>Allow iCloud Private Relay</source>
-        <translation type="unfinished"></translation>
+        <translation>允許 iCloud 保密傳送</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2538"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2553"/>
         <source>Allow Content Caching</source>
         <translation>允許內容快取</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2548"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2563"/>
         <source>Allow modifying Wallpaper</source>
         <translation>允許修改背景圖案</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2558"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2573"/>
         <source>Allow modifying Passcode</source>
-        <translation type="unfinished"></translation>
+        <translation>允許修改驗證碼</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2599"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2631"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2663"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2614"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2646"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2678"/>
         <source> days(s)</source>
-        <translation> 天</translation>
+        <translation>天</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2618"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2633"/>
         <source>Defer macOS updates</source>
         <translation>延遲 macOS 更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2650"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2665"/>
         <source>Defer app updates</source>
         <translation>延遲應用程式更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2695"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2710"/>
         <source>Defer major macOS updates</source>
         <translation>延遲重大 macOS 更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2705"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2720"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;For clients below macOS 11.3 the value of &apos;Defer macOS updates&apos;&lt;br/&gt;will be used for all software updates.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;對於低於 macOS 11.3 的用戶端，「延遲 macOS 更新」&lt;br/&gt;的值將用於所有軟體更新。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -54670,7 +54692,7 @@ Therefore it may happen that the device is not locked.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="133"/>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="375"/>
         <source>Bundle Identifier</source>
         <translation>套件組合識別碼</translation>
     </message>
@@ -54690,12 +54712,12 @@ Therefore it may happen that the device is not locked.</source>
         <translation>team-identifier</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="375"/>
         <source>Adding Allowed Widget</source>
         <translation>新增允許的小工具</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="637"/>
+        <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.cpp" line="655"/>
         <source>bundle %1 is not installed on this host</source>
         <translation>套件組合 %1 未安裝在此主機上</translation>
     </message>
@@ -54786,36 +54808,36 @@ Therefore it may happen that the device is not locked.</source>
 <context>
     <name>RevertModelDlg</name>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="33"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="35"/>
         <source>Update license code</source>
         <translation>更新授權代碼</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="38"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="40"/>
         <source>Do you really wish to revert to the last server model?
 This operation will irreversibly undo all changes made since the last update.</source>
-        <translation>是否確定要還原到最後一個伺服器模型？
+        <translation>是否確定要還原到上次伺服器模型？
 此操作將不可逆轉地還原自上次更新以來所做的所有變更。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="41"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="43"/>
         <source>Revert Model</source>
         <translation>還原模型</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="87"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="106"/>
         <source>The database encryption key for the committed schema is missing. If the model is forced to revert then the encrypted values in the admin schema will be lost.
 Do you want to force revert the model?</source>
         <translation>已提交架構的資料庫加密金鑰遺失。如果強制還原模型，則管理架構中的加密值將遺失。
 是否想要強制還原模型？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="93"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="112"/>
         <source>Force Revert Model</source>
         <translation>強制還原模型</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="117"/>
+        <location filename="../../FWAdminLib/RevertModelDlg.cpp" line="136"/>
         <source>A REVERT MODEL has been performed!
 When any user performs a revert model, you must log out and log back into the FileWave™ system.</source>
         <translation>已執行還原模型！
@@ -54832,7 +54854,7 @@ When any user performs a revert model, you must log out and log back into the Fi
 
 This operation will irreversibly undo all
 changes made since the last update.</source>
-        <translation>是否確定要還原到最後一個伺服器模型？
+        <translation>是否確定要還原到上次伺服器模型？
 
 此操作將不可逆轉地還原自上次更新以來所做的所有變更。</translation>
     </message>
@@ -55371,8 +55393,7 @@ changes made since the last update.</source>
         <location filename="../../FWAdminLib/Configurator/SPForm.ui" line="504"/>
         <source>Allow sending diagnostic and usage data to Apple, and sharing
 crash data and statistics with app developers</source>
-        <translation>允許傳送診斷和使用情況資料到 Apple，並與應用程式開發人員分享
-損毀資料和統計資料</translation>
+        <translation>允許傳送診斷和使用情況資料到 Apple，並與應用程式開發人員分享損毀資料和統計資料</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SPForm.cpp" line="56"/>
@@ -55560,7 +55581,7 @@ crash data and statistics with app developers</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/sslcertificateform.cpp" line="158"/>
         <source>An error occurred while saving the file: %1</source>
-        <translation>儲存檔案時發生錯誤。%1</translation>
+        <translation>儲存檔案時發生錯誤：%1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/sslcertificateform.cpp" line="166"/>
@@ -56358,107 +56379,107 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="50"/>
         <source>Choose which options to show in the assistant.</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇要在小幫手中顯示的選項。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="67"/>
         <source>Hides and disables the passcode pane. Availability: iOS 7+.</source>
-        <translation type="unfinished"></translation>
+        <translation>隱藏和停用密碼窗格。可用性：iOS 7+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="84"/>
         <source>If the Restore pane is not skipped, removes the Move from Android option in the&lt;br/&gt;Restore pane on iOS. Availability: iOS 9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果未跳過還原窗格，則刪除 iOS 上還原窗格中的&lt;br/&gt;從 Android 移動選項。可用性：iOS 9+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="101"/>
         <source>Skips the screen for watch migration. Availability: iOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過手錶移轉的畫面。可用性：iOS 11+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="108"/>
         <source>Unlock with Watch</source>
-        <translation type="unfinished"></translation>
+        <translation>用手錶解鎖</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="118"/>
         <source>Skips Unlock Your Mac with your Apple Watch pane. Availability: macOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過使用 Apple Watch 窗格解鎖 Mac。可用性：macOS 12+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="135"/>
         <source>Skips the mandatory software update screen in iOS. Availability: iOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 iOS 中的強制軟體更新畫面。可用性：iOS 12+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="152"/>
         <source>Skips the iMessage and FaceTime screen in iOS. Availability: iOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過在 iOS 中的 iMessage 和 FaceTime 畫面。可用性：iOS 12+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="159"/>
         <source>Home Button (Deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>「首頁」按鈕（已棄用）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="169"/>
         <source>Skips the Meet the New Home Button screen on iPhone 7, iPhone 7 Plus, iPhone 8,&lt;br/&gt;iPhone 8 Plus and iPhone SE. Availability: iOS 10+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 iPhone 7、iPhone 7 Plus、iPhone 8、&lt;br/&gt;iPhone 8 Plus 和 iPhone SE 上的認識新 Home 鍵畫面。可用性：iOS 10+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="186"/>
         <source>Skips zoom setup. Availability: iOS 8.3+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 zoom 設定。可用性：iOS 8.3+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="193"/>
         <source>New Feature Highlights (Deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>新功能亮點（已棄用）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="203"/>
         <source>Skips on-boarding informational screens for user education (Go Home, Cover Sheet,&lt;br/&gt;Multitasking &amp; Control Center, for example) in iOS. Availability: iOS 11 - 13.6.</source>
-        <translation type="unfinished"></translation>
+        <translation>在 iOS 中跳過用於使用者教育的入門資訊畫面（例如，前往 Home、封面、&lt;br/&gt;多工和控制中心）。可用性：iOS 11 - 13.6。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="220"/>
         <source>Skips the add cellular plan pane. Availability: iOS 12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過新增行動數據方案窗格。可用性：iOS 12+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="237"/>
         <source>Skips Device to Device Migration pane. Availability: iOS 13+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過裝置到裝置移轉窗格。可用性：iOS 13+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="254"/>
         <source>Skips the Get Started pane. Availability: iOS 13+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過開始使用窗格。可用性：iOS 13+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="271"/>
         <source>Skips biometric setup. Availability: iOS 8.1+ and macOS 10.12.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過生物特徵辨識設定。可用性：iOS 8.1+ 和 macO 10.12.4+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="288"/>
         <source>Disables restoring from backup. Availability: iOS 7+ and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>停用從備份還原。可用性：iOS 7+ 和 macOS 10.9+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="305"/>
         <source>Skips Apple Pay setup. Availability: iOS 8.1+ and macOS 10.12.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 Apple Pay 設定。可用性：iOS 8.1+ 和 macO 10.12.4+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="312"/>
         <source>True Tone Display (Deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>原彩顯示（已棄用）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="322"/>
         <source>Skips DisplayTone setup. Availability: iOS 9.3.2+ and macOS 10.13.6+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過顯示色調設定。可用性：iOS 9.3.2+ 和 macOS 10.13.6+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="329"/>
@@ -56468,17 +56489,17 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="339"/>
         <source>Skips the Choose Your Look screen. Availability: iOS 13+ and macOS 10.14+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過選擇您的外觀視窗。可用性：iOS 13+ 和 macOS 10.14+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="346"/>
         <source>Screen Time</source>
-        <translation>螢幕時間</translation>
+        <translation>螢幕使用時間</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="356"/>
         <source>Skips the Screen Time pane. Availability: iOS 12+ and macOS 10.15+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過畫面使用時間窗格。可用性：iOS 12+ 和 macOS 10.15+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="363"/>
@@ -56488,7 +56509,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="373"/>
         <source>Disables Location Services. Availability: iOS 7+ and macOS 10.11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>停用定位服務。可用性：iOS 7+ 和 macOS 10.11+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="380"/>
@@ -56498,7 +56519,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="390"/>
         <source>Skips the privacy pane. Availability: iOS 11.13+, tvOS 11.13+, and macOS 10.13.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過隱私窗格。可用性：iOS 11.13+、tvOS 11.13+ 和 macOS 10.13.4+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="397"/>
@@ -56508,7 +56529,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="407"/>
         <source>Disables Siri. Availability: iOS 7+, tvOS 10.2+, and macOS 10.12+.</source>
-        <translation type="unfinished"></translation>
+        <translation>停用 Siri。可用性：iOS 7+、tvOS 10.2+ 和 macOS 10.12+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="414"/>
@@ -56518,7 +56539,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="424"/>
         <source>Skips Apple ID setup. Availability: iOS 7.0+, tvOS 10.2+, and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 Apple ID 設定。可用性：iOS 7.0+、tvOS 10.2+ 和 macOS 10.9+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="431"/>
@@ -56528,7 +56549,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="441"/>
         <source>Skips Terms and Conditions. Availability: iOS 7+, tvOS 10.2+, and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過條款和條件。可用性：iOS 7+、tvOS 10.2+ 和 macOS 10.9+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="448"/>
@@ -56538,7 +56559,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="458"/>
         <source>Skips the App Analytics pane. Availability: iOS 7+, tvOS 10.2+, and macOS 10.9+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過應用程式分析窗格。可用性：iOS 7+、tvOS 10.2+ 和 macOS 10.9+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="465"/>
@@ -56548,7 +56569,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="475"/>
         <source>Skips the Restore Completed pane. Availability: iOS 14+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過還原已完成窗格。可用性：iOS 14+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="482"/>
@@ -56558,122 +56579,122 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="492"/>
         <source>Skips the Software Update Complete pane. Availability: iOS 14+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過軟體更新完成窗格。可用性：iOS 14+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="499"/>
         <source>Accessibility</source>
-        <translation type="unfinished">協助工具</translation>
+        <translation>協助工具</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="509"/>
         <source>Skips the Accessibility pane, only if the Mac is connected to Ethernet and the cloud config&lt;br/&gt;is downloaded. Availability: macOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>僅在 Mac 是連線到以太網並下載雲端設&lt;br/&gt;定時才跳過協助工具窗格。可用性：macOS 11+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="516"/>
         <source>FileVault</source>
-        <translation type="unfinished">FileVault</translation>
+        <translation>FileVault</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="526"/>
         <source>Disables FileVault Setup Assistant screen in macOS. Availability: macOS 10.10+.</source>
-        <translation type="unfinished"></translation>
+        <translation>在 macOS 中停用 FileVault 設定小幫手畫面。可用性：macOS 10.10+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="533"/>
         <source>iCloud Analytics</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 分析</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="543"/>
         <source>Skips iCloud Analytics screen. Availability: macOS 10.12.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 iCloud 分析畫面可用性：macOS 10.12.4+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="550"/>
         <source>iCloud Documents and Desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>iCloud 文件和桌面</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="560"/>
         <source>Skips iCloud Documents and Desktop screen in macOS. Availability: macOS 10.13.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 macOS 中的 iCloud 文件和桌面。可用性：macOS 10.13.4+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="567"/>
         <source>iMessage</source>
-        <translation type="unfinished"></translation>
+        <translation>iMessage</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="577"/>
         <source>Skips the iMessage pane. Availability: iOS 10+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 iMessage 窗格。可用性：iOS 10+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="584"/>
         <source>tvOS Aerial screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>tvOS Aerial 螢幕保護程式</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="594"/>
         <source>Skips the tvOS screen about using aerial screensavers in ATV. Availability: tvOS 10.2+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過有關在 ATV 中使用 Aerial 螢幕保護程式的 tvOS 畫面。可用性：tvOS 10.2+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="601"/>
         <source>Tap To Setup</source>
-        <translation type="unfinished"></translation>
+        <translation>輕觸以設定</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="611"/>
         <source>Skips the Tap To Set Up option in AppleTV about using an iOS device to set up your AppleTV.&lt;br/&gt;Availability: tvOS 10.2+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 AppleTV 中有關使用 iOS 裝置設定 AppleTV 的輕觸以設定選項。&lt;br/&gt;可用性：tvOS 10.2+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="618"/>
         <source>TV Home Screen Sync</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 主畫面同步</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="628"/>
         <source>Skips TV home screen layout sync screen. Availability: tvOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 TV 主畫面版面配置同步畫面。可用性：tvOS 11+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="635"/>
         <source>TV Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>電視供應商</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="645"/>
         <source>Skips the TV provider sign in screen. Availability: tvOS 11+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過電視供應商登入畫面。可用性：tvOS 11+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="652"/>
         <source>Where is this Apple TV?</source>
-        <translation type="unfinished"></translation>
+        <translation>這台 Apple TV 在哪裡？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="662"/>
         <source>Skips the “Where is this Apple TV?” screen in tvOS. Availability: tvOS 11.4+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 tvOS 中「這台 Apple TV 在哪裡？」畫面。可用性：tvOS 11.4+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="669"/>
         <source>App Store</source>
-        <translation type="unfinished">App Store</translation>
+        <translation>App Store</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="679"/>
         <source>Skips the App Store pane. Availability: iOS 14.3+ and macOS 11.1+.</source>
-        <translation type="unfinished"></translation>
+        <translation>跳過 App Store 窗格。可用性：iOS 14.3+ 和 macOS 11.1+。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.ui" line="694"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please refer to &lt;a href=&quot;https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;Apple&apos;s documentation&lt;/span&gt;&lt;/a&gt; for more details.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;請參閱&lt;a href=&quot;https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;Apple 的文件&lt;/span&gt;&lt;/a&gt;以瞭解更多詳細資訊。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.cpp" line="18"/>
@@ -56683,7 +56704,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SetupAssistantForm.cpp" line="19"/>
         <source>Additional items to skip that are not yet listed above.</source>
-        <translation type="unfinished"></translation>
+        <translation>上面尚未列出的要跳過的其他項目。</translation>
     </message>
 </context>
 <context>
@@ -57110,7 +57131,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
 &lt;table&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;註：&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Helvetica&apos;;&quot;&gt;&lt;/td&gt;
-        &lt;td&gt;上述 SIS 設定用於同時為 Engage 和 Apple Classroom 擷取 SIS 資料。  &lt;br/&gt;如果您已設定 Engage，則必須執行，您才能修改 SIS 設定。&lt;/td&gt;
+        &lt;td&gt;上述 SIS 設定用於同時為 Engage 和 Apple Classroom 擷取 SIS 資料。&lt;br/&gt;如果您已設定 Engage，則必須執行，您才能修改 SIS 設定。&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
 
@@ -57120,7 +57141,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="44"/>
         <source> (full sync)</source>
-        <translation> （完整同步）</translation>
+        <translation>（完整同步）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/SisPreferencesWidget.cpp" line="68"/>
@@ -57270,7 +57291,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/Configurator/SmartCardForm.cpp" line="26"/>
         <source>Until the certificate is explicitly rejected by CRL/OCSP, it is considered as valid. This implies that unavailable/unreachable CRL/OCSP allows this check to succeed.</source>
-        <translation>在憑證被 CRL/OCSP 明確拒絕之前，被認為是有效的。這意指無法使用/無法連線的 CRL/OCSP 允許此檢查成功。</translation>
+        <translation>在憑證被 CRL/OCSP 明確拒絕之前，視為有效。這意指無法使用/無法連線的 CRL/OCSP 允許此檢查成功。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/SmartCardForm.cpp" line="29"/>
@@ -57382,7 +57403,7 @@ Only the report for the first query is shown.</source>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.ui" line="83"/>
         <source>When this is checked, only the updates that have been requested by clients will appear in the list.  To see all updates, uncheck the box.</source>
-        <translation>當核取此項時，僅用戶端要求的更新將出現在清單中。  要查看全部更新，請取消核取方塊。</translation>
+        <translation>當核取此項時，僅用戶端要求的更新將出現在清單中。要查看全部更新，請取消核取方塊。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.ui" line="86"/>
@@ -57502,7 +57523,7 @@ Only the report for the first query is shown.</source>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.cpp" line="896"/>
         <source> is</source>
-        <translation> 是</translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.cpp" line="898"/>
@@ -57547,7 +57568,7 @@ Only the report for the first query is shown.</source>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateDlg.cpp" line="951"/>
         <source>Supported by supervised devices that come either from DEP or have macOS 11+ UAMDM.</source>
-        <translation type="unfinished"></translation>
+        <translation>由來自 DEP 或具有 macOS 11+ UAMDM 的受監督裝置支援。</translation>
     </message>
 </context>
 <context>
@@ -57770,22 +57791,22 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="6"/>
         <source>Form</source>
-        <translation type="unfinished">表單</translation>
+        <translation>表單</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="14"/>
         <source>Number of TV licenses:</source>
-        <translation type="unfinished"></translation>
+        <translation>電視授權數量：</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="58"/>
         <source>+</source>
-        <translation type="unfinished">+</translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="75"/>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="86"/>
@@ -57794,27 +57815,31 @@ User Home?</source>
             &lt;p&gt;It cannot be removed for the following 6 months.&lt;/p&gt;
             &lt;p&gt;For more information, click &lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
             </source>
-        <translation type="unfinished"></translation>
+        <translation>
+            &lt;p&gt;立即驗證授權使用情況。&lt;/p&gt;
+            &lt;p&gt;在接下來的 6 個月內不能移除。&lt;/p&gt;
+            &lt;p&gt;如需瞭解更多資訊，請按一下&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=52428939&quot;&gt;這裡&lt;/a&gt;&lt;/p&gt;
+            </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="188"/>
         <source>Now</source>
-        <translation type="unfinished"></translation>
+        <translation>現在</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="204"/>
         <source>Please verify data</source>
-        <translation type="unfinished"></translation>
+        <translation>請驗證資料</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="205"/>
         <source>Are you sure you want to add %1 as TV user identity?</source>
-        <translation type="unfinished"></translation>
+        <translation>您確定要將 %1 新增為 TV 使用者身分嗎？</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="206"/>
         <source>If you accept, it will be immediately stored as such, and it won&apos;t be possible to remove it for 6 months.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果您接受，它將立即按原樣儲存，並且在 6 個月內無法刪除。</translation>
     </message>
 </context>
 <context>
@@ -57845,17 +57870,17 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/TVRemoteFormIOS.cpp" line="21"/>
         <source>Device Name</source>
-        <translation type="unfinished">裝置名稱</translation>
+        <translation>裝置名稱</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/TVRemoteFormIOS.cpp" line="22"/>
         <source>00:00:00:00:00:00</source>
-        <translation type="unfinished">00:00:00:00:00:00</translation>
+        <translation>00:00:00:00:00:00</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/TVRemoteFormIOS.cpp" line="22"/>
         <source>New Apple TV</source>
-        <translation type="unfinished"></translation>
+        <translation>新 Apple TV </translation>
     </message>
 </context>
 <context>
@@ -58017,32 +58042,32 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="12"/>
         <source>Identification</source>
-        <translation type="unfinished">識別</translation>
+        <translation>識別</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="12"/>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>上次修改日期</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="12"/>
         <source>Removable</source>
-        <translation type="unfinished">可移除</translation>
+        <translation>可移除</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="43"/>
         <source>An error occurred writing the TV users data: </source>
-        <translation type="unfinished"></translation>
+        <translation>寫入 TV 使用者資料時發生錯誤： </translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="57"/>
         <source>Now</source>
-        <translation type="unfinished"></translation>
+        <translation>現在</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="70"/>
         <source>An error occurred reading the TV users data: </source>
-        <translation type="unfinished"></translation>
+        <translation>讀取 TV 使用者資料時發生錯誤： </translation>
     </message>
 </context>
 <context>
@@ -58998,12 +59023,12 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2016"/>
         <source>Enable NAT keepalive while the device is asleep</source>
-        <translation>當裝置睡眠時啟用 NAT keepalive</translation>
+        <translation>當裝置睡眠時啟用 NAT 存留</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2026"/>
         <source>NAT Keepalive Interval</source>
-        <translation>NAT Keepalive 間隔</translation>
+        <translation>NAT 存留間隔</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNForm.ui" line="2033"/>
@@ -59306,7 +59331,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNUUIDWidget.ui" line="42"/>
         <source>The VPN UUID of the per-app VPN to use for this account’s network communication. Available in iOS 14 and later.</source>
-        <translation>用於此帳戶網路通訊的 Per-App VPN 的 VPN UUID在 iOS 14 及更高版本中可用。</translation>
+        <translation>用於此帳戶網路通訊的個別應用程式的 VPN 的 VPN UUID在 iOS 14 及更高版本中可用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/VPNUUIDWidget.cpp" line="40"/>
@@ -60034,17 +60059,17 @@ Please check MDM log for more details.</source>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="190"/>
         <source>Update VPP User</source>
-        <translation type="unfinished"></translation>
+        <translation>更新 VPP 使用者</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="191"/>
         <source>Apple services are currently not available.</source>
-        <translation type="unfinished">Apple 服務目前的無法使用。</translation>
+        <translation>Apple 服務目前的無法使用。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="198"/>
         <source>Error while updating VPP user(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>更新 VPP 使用者時發生錯誤。</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="58"/>
@@ -60054,7 +60079,7 @@ Please check MDM log for more details.</source>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2Models.cpp" line="59"/>
         <source>Invite Url</source>
-        <translation>邀請 Url</translation>
+        <translation>邀請 URL</translation>
     </message>
 </context>
 <context>
@@ -60295,7 +60320,7 @@ All licenses assigned to the user(s) will be dissociated.</source>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="948"/>
         <source> (full sync)</source>
-        <translation> （完整同步）</translation>
+        <translation>（完整同步）</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/vppv2/VPPv2UsersDlg.cpp" line="1022"/>
@@ -60692,7 +60717,7 @@ All licenses assigned to the user(s) will be dissociated.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/WebclipForm.ui" line="83"/>
         <source>The URL to be displayed when opening the web clip</source>
-        <translation>在已開啟 Web Clip 時要顯示的URL</translation>
+        <translation>在已開啟 Web Clip 時要顯示的 URL</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/WebclipForm.ui" line="90"/>
