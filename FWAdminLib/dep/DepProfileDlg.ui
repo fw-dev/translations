@@ -2533,7 +2533,7 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>:/resources/lockbutton_lock_locked.png</pixmap>
+         <pixmap resource="../../FileWaveGuiLib/lockbutton/lockbutton.qrc">:/resources/lockbutton_lock_locked.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -2625,7 +2625,9 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
   <tabstop>chkboxAllowActivationLockIfBypassCodeIsAvailable</tabstop>
   <tabstop>txtboxLostMessage</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="../../FileWaveGuiLib/lockbutton/lockbutton.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>
@@ -2656,22 +2658,6 @@ QLabel[objectName^=&quot;lTip&quot;] { color: &quot;grey&quot;; font-size: 10pt}
     <hint type="destinationlabel">
      <x>541</x>
      <y>354</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>cbPrefillAccountNames</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>cbUseDeviceOwnerAccount</receiver>
-   <slot>setEnabled(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>95</x>
-     <y>299</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>95</x>
-     <y>318</y>
     </hint>
    </hints>
   </connection>
