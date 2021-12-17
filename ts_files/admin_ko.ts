@@ -9451,7 +9451,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="69"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2937"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2966"/>
         <source>These settings are stored on the server, and will be the same across all administrators.</source>
         <translation>이러한 설정은 서버에 저장되어 있으며 모든 관리자에게 동일합니다.</translation>
     </message>
@@ -9748,7 +9748,7 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="925"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1238"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2338"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2367"/>
         <source>Port:</source>
         <translation>포트:</translation>
     </message>
@@ -9806,22 +9806,22 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1092"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1570"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2579"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2727"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2881"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2972"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3120"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2608"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2756"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2910"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3001"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3149"/>
         <source>+</source>
         <translation>+</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1105"/>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1577"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2598"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2743"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2897"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2988"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3131"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2627"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2772"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2926"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3017"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3160"/>
         <source>-</source>
         <translation>-</translation>
     </message>
@@ -9847,8 +9847,8 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1248"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2783"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2847"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2812"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2876"/>
         <source>Protocol</source>
         <translation>프로토콜</translation>
     </message>
@@ -9969,262 +9969,262 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>Volume Purchase Program - 앱 및 도서</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1634"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1950"/>
         <source>Minimum delay (in minutes) between license assignment and Install Application.</source>
         <translation>라이선스 할당과 애플리케이션 설치 사이의 최소 지연(분 단위).</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1812"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1809"/>
         <source>Enable VPP Notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1819"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1816"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=55543458&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;VPP v2 Only&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1896"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1761"/>
         <source>Preferred license distribution model to use for new associations: </source>
         <translation>새 연결에 사용하기 위해 선호되는 라이선스 배포 모델: </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1906"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1771"/>
         <source>Assign to Device if possible, otherwise to User</source>
         <translation>가능하면 장치에 할당하고, 그렇지 않은 경우 사용자에게 할당</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1694"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1643"/>
         <source>Synchronize with LDAP every:</source>
         <translation>LDAP과 동기화하는 간격:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1719"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1668"/>
         <source> hour(s)</source>
         <translation> 시간</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1663"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1748"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2003"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1697"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1857"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2075"/>
         <source>Last Sync: (N/A)</source>
         <translation>마지막 동기화: (해당 사항 없음)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1770"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1719"/>
         <source>Automatically associate users via their email address</source>
         <translation>이메일 주소를 통해 사용자를 자동으로 연결</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1777"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1726"/>
         <source>Send invite emails to newly registered LDAP users</source>
         <translation>새로 등록된 LDAP 사용자에게 초대 이메일 전송</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1787"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1736"/>
         <source>LDAP synchronization:</source>
         <translation>LDAP 동기화:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1961"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1896"/>
         <source>Configure email invitation template</source>
         <translation>이메일 초대 템플릿 구성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1845"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1922"/>
         <source>No tokens are configured</source>
         <translation>구성된 토큰이 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1871"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1912"/>
         <source>Configure tokens</source>
         <translation>토큰 구성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1951"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2046"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1873"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2055"/>
         <source>Synchronize</source>
         <translation>동기화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1974"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1979"/>
         <source>Device Enrollment Program - Apple School Manager and Apple Business Manager</source>
         <translation>장치 등록 프로그램 - Apple School Manager 및 Apple Business Manager</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2019"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2012"/>
         <source>Download certificate</source>
         <translation>인증서 다운로드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2029"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2035"/>
         <source>Configure accounts</source>
         <translation>계정 구성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2039"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2048"/>
         <source>Determining status...</source>
         <translation>상태 확인 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2086"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2115"/>
         <source>Inventory</source>
         <translation>인벤토리</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2092"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2121"/>
         <source>Inventory Server</source>
         <translation>인벤토리 서버</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2120"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2149"/>
         <source>Inventory and MDM are using the same server.</source>
         <translation>인벤토리와 MDM이 동일한 서버를 사용하고 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2146"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2175"/>
         <source>Smart Groups</source>
         <translation>스마트 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2152"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2181"/>
         <source>Refresh every (minutes):</source>
         <translation>새로 고침 간격(분 단위):</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2191"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2220"/>
         <source>Refresh all Smart Groups Now</source>
         <translation>지금 모든 스마트 그룹 새로 고침</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2207"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2236"/>
         <source>iOS Inventory</source>
         <translation>iOS 인벤토리</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2213"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2242"/>
         <source>Device Inventory Poll Interval (hours):</source>
         <translation>장치 인벤토리 폴링 간격(시간 단위):</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2226"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2255"/>
         <source>How often IOS devices will be polled for Inventory information</source>
         <translation>IOS 장치가 인벤토리 정보를 폴링하는 빈도</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2242"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2271"/>
         <source>Device Not Checked-In Notification (days):</source>
         <translation>장치 미확인 알림(일 단위):</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2255"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2284"/>
         <source>Devices that have not checked in for this time interval will display as Red</source>
         <translation>이 시간 간격 동안 확인하지 않은 장치는 빨간색으로 표시됩니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2287"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2316"/>
         <source>LDAP Custom Fields</source>
         <translation>LDAP 사용자 지정 필드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2293"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2322"/>
         <source>Clear value if there is no match between client and LDAP user or computer</source>
         <translation>클라이언트와 LDAP 사용자 또는 컴퓨터 간에 일치하는 항목이 없는 경우에 값 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2304"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2333"/>
         <source>Mail</source>
         <translation>메일</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2310"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2339"/>
         <source>Settings</source>
         <translation>설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2321"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2350"/>
         <source>Host:</source>
         <translation>호스트:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2358"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2387"/>
         <source>Use TLS</source>
         <translation>TLS 사용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2365"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2394"/>
         <source>User name:</source>
         <translation>사용자 이름:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2382"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2411"/>
         <source>User password:</source>
         <translation>사용자 비밀번호:</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2402"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2431"/>
         <source>Send from (email address):</source>
         <translation>전송(이메일 주소):</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2438"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2467"/>
         <source>Send test mail</source>
         <translation>테스트 메일 전송</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2447"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2476"/>
         <source>Keep in mind that the email server needs to possibly handle thousands of emails (e.g &lt;a href=&quot;https://postmarkapp.com&quot;&gt;Postmark&lt;/a&gt; or &lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;).</source>
         <translation>이메일 서버는 수천 개의 이메일(예:&lt;a href=&quot;https://postmarkapp.com&quot;&gt;Postmark&lt;/a&gt; 또는 &lt;a href=&quot;http://mailchimp.com&quot;&gt;MailChimp&lt;/a&gt;)을 취급해야 한다는 사실을 유념합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2477"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2506"/>
         <source>Education</source>
         <translation>교육</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2482"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2511"/>
         <source>Imaging</source>
         <translation>이미징</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2505"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2534"/>
         <source>Editor</source>
         <translation>편집기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2511"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2540"/>
         <source>The following extensions may be edited with the built-in text editor.</source>
         <translation>다음과 같은 확장은 내장형 텍스트 편집기로 편집할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2521"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2550"/>
         <source>To edit a file, open a fileset, select a file, and click Edit Text</source>
         <translation>파일을 편집하려면 파일 세트를 열고 파일을 선택한 다음 &apos;텍스트 편집&apos;을 클릭합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2531"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2560"/>
         <source>Text Editor Extensions</source>
         <translation>텍스트 편집기 확장</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2627"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3008"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3039"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2656"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3037"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3068"/>
         <source>Reset to Defaults</source>
         <translation>기본값으로 재설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2653"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2682"/>
         <source>Proxies</source>
         <translation>프록시</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2666"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2695"/>
         <source>Proxy Authentication Settings</source>
         <translation>프록시 인증 설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2673"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2702"/>
         <source>These settings are used to provide authentication values for already configured system proxies.  The protocol, host and port values are used to determine which system proxy a particular username and password combination applies to.
 
 By default, the FileWave Admin will use the same proxy settings as the server.</source>
@@ -10233,82 +10233,82 @@ By default, the FileWave Admin will use the same proxy settings as the server.</
 기본적으로 FileWave Admin은 서버와 동일한 프록시 설정을 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2709"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2738"/>
         <source>Server Proxy Credentials</source>
         <translation>서버 프록시 자격 증명</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2766"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2920"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2795"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2949"/>
         <source>Test</source>
         <translation>테스트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2788"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2852"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2817"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2881"/>
         <source>Host Name</source>
         <translation>호스트 이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2793"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2857"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2822"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2886"/>
         <source>Port</source>
         <translation>포트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2798"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2862"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2827"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2891"/>
         <source>User Name</source>
         <translation>사용자 이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2803"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2867"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2832"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2896"/>
         <source>Password</source>
         <translation>비밀번호</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2819"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2848"/>
         <source>Admin Proxy Credentials Override</source>
         <translation>Admin 프록시 자격 증명 재정의</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2931"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2960"/>
         <source>Software Update</source>
         <translation>소프트웨어 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2940"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2969"/>
         <source>Apple Software Updates</source>
         <translation>Apple 소프트웨어 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2956"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="2985"/>
         <source>Apple catalog urls</source>
         <translation>CardDAV 계정의 기본 URLApple 카탈로그 URL</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3020"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3049"/>
         <source>Microsoft Windows Updates</source>
         <translation>Microsoft Windows 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3029"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3058"/>
         <source>Microsoft Catalog URL: </source>
         <translation>Microsoft 카탈로그 URL: </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3081"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3110"/>
         <source>Revert to Defaults</source>
         <translation>기본값으로 복원</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3123"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3152"/>
         <source>Creates a new LDAP server configuration</source>
         <translation>새 LDAP 서버 구성을 생성합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3134"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="3163"/>
         <source>Deletes the selected LDAP servers from the preferences</source>
         <translation>기본 설정에서 선택한 LDAP 서버를 삭제합니다.</translation>
     </message>
@@ -10507,8 +10507,8 @@ Are you sure you want to continue?</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="1474"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3362"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3376"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3365"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3379"/>
         <source>LDAP authentication</source>
         <translation>LDAP 인증</translation>
     </message>
@@ -10877,13 +10877,13 @@ Continue ?</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3073"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3136"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3141"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3191"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3224"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3241"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3252"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3272"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3139"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3144"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3194"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3227"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3244"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3255"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3275"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
@@ -10893,142 +10893,142 @@ Continue ?</source>
         <translation>하나 이상의 DEP 계정을 동기화할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3122"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3125"/>
         <source>MDM for macOS</source>
         <translation>macOS용 MDM</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3130"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3133"/>
         <source>Upload FileWave Client Package for MDM</source>
         <translation>MDM용 FileWave 클라이언트 패키지 업로드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3136"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3139"/>
         <source>This doesn&apos;t seem to be a FileWave Client package.</source>
         <translation>이는 FileWave 클라이언트 패키지가 아닌 것 같습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3141"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3144"/>
         <source>Unable to determine the package version.</source>
         <translation>패키지 버전을 확인할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3153"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3156"/>
         <source>MDM for Windows</source>
         <translation>Windows용 MDM</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3160"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3163"/>
         <source>Upload FileWave Client Package for Windows MDM</source>
         <translation>Windows MDM용 FileWave 클라이언트 패키지 업로드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3192"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3195"/>
         <source>Error Scheduling Custom Fields Extraction</source>
         <translation>사용자 지정 필드 추출 예약 중에 오류 발생</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3198"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3231"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3201"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3234"/>
         <source>Success</source>
         <translation>성공</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3199"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3202"/>
         <source>Custom field extraction successfully scheduled</source>
         <translation>사용자 지정 필드 추출이 예약되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3226"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3229"/>
         <source>Error scheduling synchronization for server &apos;%1&apos;</source>
         <translation>&apos;%1&apos; 서버에 대한 동기화 예약 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3227"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3230"/>
         <source>Error scheduling synchronization for all servers</source>
         <translation>모든 서버에 대한 동기화 예약 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3233"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3236"/>
         <source>Synchronization for server &apos;%1&apos; successfully scheduled</source>
         <translation>&apos;%1&apos; 서버에 대한 동기화가 예약되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3234"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3237"/>
         <source>Synchronization for all servers successfully scheduled</source>
         <translation>모든 서버에 대한 동기화가 예약되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3241"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3244"/>
         <source>Clearing the LDAP user cache failed: %1.</source>
         <translation>LDAP 사용자 캐시 지우기 실패: %1.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3254"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3257"/>
         <source>Could not upload FileWave Client package for MDM:</source>
         <translation>MDM용 FileWave 클라이언트 패키지를 업로드할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3256"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3270"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3259"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3273"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Error while uploading package.&lt;/font&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;패키지 업로드 중에 오류 발생.&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3261"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3280"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3264"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3283"/>
         <source>Success !</source>
         <translation>성공!</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3261"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3280"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3264"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3283"/>
         <source>FileWave Client package successfully uploaded.</source>
         <translation>FileWave 클라이언트 패키지가 업로드되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3274"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3277"/>
         <source>Could not upload FileWave Client package for Windows MDM:</source>
         <translation>Windows MDM용 FileWave 클라이언트 패키지를 업로드할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3289"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3292"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Package not available, MDM for macOS will not work.&lt;/font&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;패키지를 사용할 수 없으며, macOS용 MDM은 작동하지 않습니다.&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3295"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3311"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3298"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3314"/>
         <source>Package available.</source>
         <translation>패키지 사용 가능.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3297"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3300"/>
         <source>Package version %1 available.</source>
         <translation>패키지 버전 %1 사용 가능.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3305"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3308"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;Package not available, MDM for Windows devices will not work.&lt;/font&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;패키지를 사용할 수 없으며, Windows용 MDM은 작동하지 않습니다.&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3313"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3316"/>
         <source>Package %1 available.</source>
         <translation>패키지 %1 사용 가능.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3362"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3365"/>
         <source>Failed to test changes in LDAP authentication configuration.</source>
         <translation>LDAP 인증 구성의 변경사항을 테스트하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3376"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3379"/>
         <source>Failed to apply new configuration for LDAP authentication: %1</source>
         <translation>LDAP 인증에 대한 새로운 구성을 적용하지 못했습니다. %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3387"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3390"/>
         <source>Apache was previously configured to use LDAP for device enrollment.
 FileWave can update Apache configuration to match your LDAP settings.
 Do you wish to keep existing settings or apply the new configuration?
@@ -11039,33 +11039,33 @@ Do you wish to keep existing settings or apply the new configuration?
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3391"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3394"/>
         <source>Specialized configurations have to be edited manually.</source>
         <translation>전문적인 구성은 수동으로 편집해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3392"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3395"/>
         <source>Keep Previous</source>
         <translation>이전 구성 유지</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3393"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3396"/>
         <source>Apply New</source>
         <translation>새 구성 적용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3411"/>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3415"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3414"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3418"/>
         <source>Missing field error</source>
         <translation>누락된 필드 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3411"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3414"/>
         <source>LDAP Server Host/IP is mandatory.</source>
         <translation>LDAP 서버 호스트/IP는 필수입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3415"/>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="3418"/>
         <source>LDAP Server Base DN is mandatory.</source>
         <translation>LDAP 서버 기반 DN은 필수입니다.</translation>
     </message>
@@ -13148,17 +13148,17 @@ Please choose a different name or remove Imaging association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2091"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2093"/>
         <source>Start session without user prompt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2092"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2094"/>
         <source>This could interrupt the user while doing important work. Are you sure that you want to start a remote session without user confirmation?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2093"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2095"/>
         <source>Start Session</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13288,66 +13288,66 @@ Please choose a different name or remove Imaging association.</source>
         <translation>Chromebook 활성화</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1834"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1836"/>
         <source>%1 Groups</source>
         <translation>%1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1834"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1836"/>
         <source>%1 Group</source>
         <translation>%1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1837"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1839"/>
         <source>%1 Mobile Devices</source>
         <translation>%1개 모바일 장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1837"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1839"/>
         <source>%1 Mobile Device</source>
         <translation>%1개 모바일 장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1840"/>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1842"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1844"/>
         <source>%1 Clients</source>
         <translation>%1개 클라이언트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1840"/>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1842"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1844"/>
         <source>%1 Client</source>
         <translation>%1개 클라이언트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1844"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1850"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1846"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1852"/>
         <source> (%1 Clones)</source>
         <translation> (%1개 복제본)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1844"/>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1850"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1846"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1852"/>
         <source> (%1 Clone)</source>
         <translation> (%1개 복제본)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1847"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1849"/>
         <source> %1 Groups</source>
         <translation> %1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1847"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1849"/>
         <source> %1 Group</source>
         <translation> %1개 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1854"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1856"/>
         <source>,  %1 Mobile Devices</source>
         <translation>, %1개 모바일 장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1854"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="1856"/>
         <source>,  %1 Mobile Device</source>
         <translation>, %1개 모바일 장치</translation>
     </message>
@@ -14287,6 +14287,16 @@ Do you want to open the Client Monitor anyway?</source>
         <translation>
             <numerusform>클라이언트 관리 모드 변경 중에 오류가 발생했습니다.</numerusform>
         </translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="2564"/>
+        <source>Deprecated feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="2565"/>
+        <source>Observe Client feature is deprecated in favor of TeamViewer integration and won&apos;t be available in a future version.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -23310,34 +23320,34 @@ Server returned : %1</source>
         <translation>로그아웃 실패: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1230"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1110"/>
         <source>Failed to move Filesets/Groups: %1</source>
         <translation>파일 세트/그룹을 이동하지 못했습니다. %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1238"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3278"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1118"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3158"/>
         <source>Some of the selected items cannot be moved</source>
         <translation>선택한 품목 중 일부를 이동할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1318"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1198"/>
         <source>Failed to delete Filesets/Groups: %1</source>
         <translation>파일 세트/그룹을 삭제하지 못했습니다. %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1326"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1900"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1206"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1780"/>
         <source>Some of the selected items cannot be deleted</source>
         <translation>선택한 항목 중 일부를 삭제할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1892"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1772"/>
         <source>Failed to delete User/Clone/Groups: %1</source>
         <translation>사용자/복제본/그룹을 삭제하지 못했습니다. %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3270"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3150"/>
         <source>Failed to move Devices/Groups: %1</source>
         <translation>장치/그룹을 이동하지 못했습니다. %1</translation>
     </message>
@@ -27774,1197 +27784,1197 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIFieldChoice</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1760"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1758"/>
         <source>32-bit only</source>
         <translation>32비트 전용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1761"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1759"/>
         <source>64-bit only</source>
         <translation>64비트 전용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1762"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1760"/>
         <source>ACTIVE</source>
         <translation>활성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1763"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1761"/>
         <source>Activating</source>
         <translation>활성화 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1764"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1762"/>
         <source>Activation of dependency fileset failure</source>
         <translation>종속성 파일 세트 활성화 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1765"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1763"/>
         <source>Active</source>
         <translation>활성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1766"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1764"/>
         <source>Administrator</source>
         <translation>관리자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1767"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1765"/>
         <source>Allowed via iCloud</source>
         <translation>iCloud를 통해 허용됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1768"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1766"/>
         <source>Android</source>
         <translation>Android</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1769"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1767"/>
         <source>Android APK Fileset</source>
         <translation>Android APK 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1770"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1768"/>
         <source>Apple Hosted Media Fileset</source>
         <translation>Apple Hosted Media 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1771"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1769"/>
         <source>Archived</source>
         <translation>보관됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1772"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1770"/>
         <source>Assigned</source>
         <translation>할당됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1771"/>
         <source>Associated</source>
         <translation>연결됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1774"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1772"/>
         <source>Attended access only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1775"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
         <source>Authentication Error</source>
         <translation>인증 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1776"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1774"/>
         <source>Available</source>
         <translation>사용 가능</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1777"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1775"/>
         <source>Available in Kiosk</source>
         <translation>Kiosk에서 사용 가능</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1778"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1776"/>
         <source>Azure AD Identity Provider</source>
         <translation>Azure AD ID 공급자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1779"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1777"/>
         <source>Blocker script</source>
         <translation>차단 스크립트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1780"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1778"/>
         <source>Book</source>
         <translation>도서</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1781"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1779"/>
         <source>Booster/Server disk full</source>
         <translation>Booster/서버 디스크 꽉 참</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1782"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1780"/>
         <source>Both</source>
         <translation>모두</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1783"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1781"/>
         <source>Can&apos;t download from server</source>
         <translation>서버에서 다운로드할 수 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1784"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1782"/>
         <source>Chrome</source>
         <translation>Chrome</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1785"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1783"/>
         <source>Chromebook Managed User</source>
         <translation>Chromebook 관리된 사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1786"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1784"/>
         <source>Chromebook Unmanaged User</source>
         <translation>Chromebook 관리되지 않은 사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1787"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1785"/>
         <source>Client Command Line</source>
         <translation>클라이언트 명령줄</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1788"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1786"/>
         <source>Client Script</source>
         <translation>클라이언트 스크립트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1789"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1787"/>
         <source>Completed</source>
         <translation>완료됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1790"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1788"/>
         <source>Config</source>
         <translation>구성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1791"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1789"/>
         <source>Critical</source>
         <translation type="unfinished">중요</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1792"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1790"/>
         <source>DELINQUENT</source>
         <translation>불이행</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1793"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1791"/>
         <source>DEP</source>
         <translation>DEP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1794"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1792"/>
         <source>DEP Enrollment</source>
         <translation>DEP 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1795"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1793"/>
         <source>DEPROVISIONED</source>
         <translation>프로비저닝 해제됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1796"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1794"/>
         <source>DISABLED</source>
         <translation>사용 안 함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1797"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1795"/>
         <source>Debug</source>
         <translation>디버그</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1798"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1796"/>
         <source>Default Fileset</source>
         <translation>기본 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1799"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1797"/>
         <source>Delete files of a dependency fileset failed</source>
         <translation>종속성 파일 세트의 파일 삭제 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1800"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1798"/>
         <source>Deleted</source>
         <translation>삭제됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1801"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1799"/>
         <source>Dependency fileset failed</source>
         <translation>종속성 파일 세트 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1802"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1800"/>
         <source>Device only</source>
         <translation>장치만</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1803"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1801"/>
         <source>Disabled</source>
         <translation>사용 안 함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1804"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1802"/>
         <source>Discovery Crashed</source>
         <translation>검색 충돌 발생</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1805"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1803"/>
         <source>Disk full</source>
         <translation>디스크 꽉 참</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1806"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1804"/>
         <source>Download command sent</source>
         <translation>다운로드 명령 전송됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1807"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1805"/>
         <source>Download finished</source>
         <translation>다운로드 완료됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1808"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1806"/>
         <source>Download in progress</source>
         <translation>다운로드 진행 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1809"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1807"/>
         <source>Download of dependency fileset failure</source>
         <translation>종속성 파일 세트 다운로드 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1810"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1808"/>
         <source>Downloaded</source>
         <translation>다운로드됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1811"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1809"/>
         <source>Downloading</source>
         <translation>다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1812"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1810"/>
         <source>Downloading upgrade package</source>
         <translation>업그레이드 패키지 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1813"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1811"/>
         <source>Empty</source>
         <translation>비어 있음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1814"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1812"/>
         <source>Enabled</source>
         <translation>사용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1815"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1813"/>
         <source>Enabled via DEP</source>
         <translation>DEP를 통해 사용 설정됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1816"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1814"/>
         <source>Enrolled</source>
         <translation>등록됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1817"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1815"/>
         <source>Enrolled After Model Update</source>
         <translation>모델 업데이트 후 등록됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1818"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1816"/>
         <source>Enrolled via Azure, waiting for fwcld</source>
         <translation>Azure를 통해 등록됨, fwcld를 기다리는 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1819"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1817"/>
         <source>Enrollment via APK</source>
         <translation>APK를 통해 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1820"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1818"/>
         <source>Enrollment via AZURE AD</source>
         <translation>AZURE AD를 통해 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1821"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1819"/>
         <source>Enrollment via EMM_API</source>
         <translation>EMM_API를 통해 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1822"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1820"/>
         <source>Enrollment via fwcld</source>
         <translation>Fwcld를 통해 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1823"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1821"/>
         <source>Enterprise iOS App Fileset</source>
         <translation>Enterprise iOS 앱 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1824"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1822"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1825"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1823"/>
         <source>FDE not supported</source>
         <translation>FDE 지원 안 함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1826"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1824"/>
         <source>FDE supported</source>
         <translation>FDE 지원</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1827"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1825"/>
         <source>FDE supported but not manageable</source>
         <translation>FDE 지원되지만 관리 불가능</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1828"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1826"/>
         <source>Failed</source>
         <translation>실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1829"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1827"/>
         <source>Failed CRC validation</source>
         <translation>실패한 CRC 유효성 검사</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1830"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1828"/>
         <source>Fatal</source>
         <translation>치명적</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1831"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1829"/>
         <source>FileWave Administrator</source>
         <translation>FileWave 관리자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1832"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1830"/>
         <source>FileWave Administrator logged in via IDP</source>
         <translation>IDP를 통해 로그인한 FileWave 관리자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1833"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1831"/>
         <source>FileWave Administrator logged in via LDAP</source>
         <translation>LDAP을 통해 로그인한 FileWave 관리자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1834"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1832"/>
         <source>FileWave Policy Fileset</source>
         <translation>FileWave 정책 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1835"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1833"/>
         <source>Fileset install failed, a more recent version is installed</source>
         <translation>파일 세트 설치 실패. 최신 버전이 설치되어 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1836"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1834"/>
         <source>Fully enrolled</source>
         <translation>완전 등록됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1837"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1835"/>
         <source>Generic Error</source>
         <translation>일반 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1838"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1836"/>
         <source>Google Identity Provider</source>
         <translation>Google ID 공급자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1840"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1838"/>
         <source>Handled via MDM</source>
         <translation>MDM을 통해 처리됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1841"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1839"/>
         <source>IDP groups used for idp authentication</source>
         <translation>IDP 인증에 사용되는 IDP 그룹</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1842"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1840"/>
         <source>INACTIVE</source>
         <translation>비활성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1843"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1841"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1844"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1842"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1845"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1843"/>
         <source>Idle</source>
         <translation>유휴</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1847"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1845"/>
         <source>Imported</source>
         <translation>가져옴</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1848"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1846"/>
         <source>Importing</source>
         <translation>가져오는 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1849"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1847"/>
         <source>Inactive</source>
         <translation>비활성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1850"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1848"/>
         <source>Info</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1851"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1849"/>
         <source>Install command sent</source>
         <translation>설치 명령 전송됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1852"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1850"/>
         <source>Install failed</source>
         <translation>설치 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1853"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1851"/>
         <source>Install in progress</source>
         <translation>설치 진행 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1854"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1852"/>
         <source>Installation cancelled by the user</source>
         <translation>사용자가 설치를 취소함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1855"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1853"/>
         <source>Installed</source>
         <translation>설치 완료</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1856"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1854"/>
         <source>Installed successfully</source>
         <translation>설치 성공</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1857"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1855"/>
         <source>Installed via Mac App Store</source>
         <translation>Mac App Store를 통해 설치됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1858"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1856"/>
         <source>Installer running now</source>
         <translation>설치 관리자 실행 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1859"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1857"/>
         <source>Installing upgrade</source>
         <translation>업그레이드 설치 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1860"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1858"/>
         <source>Installing via Mac App Store (can take some time)</source>
         <translation>Mac App Store를 통해 설치 중(시간이 걸릴 수 있음)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1861"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1859"/>
         <source>Institutional</source>
         <translation>기관</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1862"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1860"/>
         <source>Inventory only</source>
         <translation>인벤토리만</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1863"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1861"/>
         <source>LDAP</source>
         <translation>LDAP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1864"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1862"/>
         <source>License report</source>
         <translation>라이선스 보고서</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1865"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1863"/>
         <source>Linux</source>
         <translation>Linux</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1867"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1865"/>
         <source>MDM</source>
         <translation>MDM</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1868"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1866"/>
         <source>MDM Code</source>
         <translation>MDM 코드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1869"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1867"/>
         <source>MDM Code and Empty iCloud Code</source>
         <translation>MDM 코드와 비어 있는 iCloud 코드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1870"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1868"/>
         <source>MDM Code and iCloud Code</source>
         <translation>MDM 코드와 iCloud 코드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1871"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1869"/>
         <source>MDM OS Update is not supported</source>
         <translation>MDM OS 업데이트는 지원되지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1872"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1870"/>
         <source>Mac App Store license associated</source>
         <translation>Mac App Store 라이선스가 연결됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1873"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1871"/>
         <source>Mac App Store license fatal error</source>
         <translation>Mac App Store 라이선스의 치명적 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1874"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1872"/>
         <source>Mac MDM Update</source>
         <translation>Mac MDM 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1875"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1873"/>
         <source>Make files passive of a dependency fileset failed</source>
         <translation>종속성 파일 세트에 대한 패시브 파일 생성 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1876"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1874"/>
         <source>Managed</source>
         <translation>관리됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1877"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1875"/>
         <source>Missing</source>
         <translation>누락됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1879"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1877"/>
         <source>Native</source>
         <translation>네이티브</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1880"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1878"/>
         <source>Network Scanner Crashed</source>
         <translation>네트워크 스캐너 충돌 발생</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1881"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1879"/>
         <source>Network Scanner Failed</source>
         <translation>네트워크 스캐너 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1882"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1880"/>
         <source>Network error</source>
         <translation>네트워크 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1883"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1881"/>
         <source>No VPP license associated to this fileset</source>
         <translation>이 파일 세트에 연결된 VPP 라이선스 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1884"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1882"/>
         <source>No VPP token associated to this fileset</source>
         <translation>이 파일 세트에 연결된 VPP 토큰 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1885"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1883"/>
         <source>No VPP user for this application&apos;s VPP token associated to the device</source>
         <translation>장치에 연결된 이 애플리케이션의 VPP 토큰을 사용하는 VPP 사용자가 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1887"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1885"/>
         <source>No upgrade in progress</source>
         <translation>진행 중인 업그레이드 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1888"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1886"/>
         <source>Non-admin IDP users logged in via IDP</source>
         <translation>IDP를 통해 로그인한 비관리자 IDP 사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1889"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1887"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1890"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1888"/>
         <source>Normal User</source>
         <translation>일반 사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1891"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1889"/>
         <source>Not Imported</source>
         <translation>가져오지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1892"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1890"/>
         <source>Not a VPP application</source>
         <translation>VPP 애플리케이션이 아님</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1893"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1891"/>
         <source>Not available</source>
         <translation>사용할 수 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1894"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1892"/>
         <source>Not enough Mac App Store VPP license</source>
         <translation>Mac App Store VPP 라이선스가 충분하지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1895"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1893"/>
         <source>Not enrolled</source>
         <translation>등록되지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1896"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1894"/>
         <source>Not installed: client is inventory only</source>
         <translation>설치되지 않음: 클라이언트는 인벤토리 전용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1897"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1895"/>
         <source>Not installed: conflict detected</source>
         <translation>설치되지 않음: 충돌이 감지됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1898"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1896"/>
         <source>Not managed by FileWave</source>
         <translation>FileWave에서 관리하지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1899"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1897"/>
         <source>OSX</source>
         <translation>OSX</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1900"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1898"/>
         <source>OTA Enrollment</source>
         <translation>OTA 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1901"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1899"/>
         <source>Okta Identity Provider</source>
         <translation>Okta ID 공급자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1902"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1900"/>
         <source>Passive</source>
         <translation>수동</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1903"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1901"/>
         <source>Pending</source>
         <translation>보류 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1904"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1902"/>
         <source>Personal</source>
         <translation>개인</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1905"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1903"/>
         <source>Personal and Institutional</source>
         <translation>개인 및 기관</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1839"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1837"/>
         <source>Google Policy</source>
         <translation type="unfinished">Google 정책</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1846"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1844"/>
         <source>Important</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1866"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1864"/>
         <source>Low</source>
         <translation type="unfinished">낮음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1878"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1876"/>
         <source>Moderate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1886"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1884"/>
         <source>No access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1906"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1904"/>
         <source>Play Store Fileset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1907"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1905"/>
         <source>Policy Fileset</source>
         <translation>정책 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1908"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1906"/>
         <source>Pre-enrolled</source>
         <translation>사전 등록됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1909"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1907"/>
         <source>Preparing MDM OS Update scheduling</source>
         <translation>MDM OS 업데이트 예약 준비 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1910"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1908"/>
         <source>Presumed DEP Enrollment</source>
         <translation>추정된 DEP 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1911"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1909"/>
         <source>Profile Fileset</source>
         <translation>프로필 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1912"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1910"/>
         <source>Profile installation failure</source>
         <translation>프로필 설치 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1913"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1911"/>
         <source>Profile is partially installed, client has failed to deploy some CSPs</source>
         <translation>프로필이 부분적으로 설치되었습니다. 클라이언트에서 일부 CSP를 배포하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1914"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1912"/>
         <source>Profiles cannot be managed via the profiles command since macOS 11</source>
         <translation>macOS 11 이상 버전에서 프로필 명령을 통해 프로필을 관리할 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1915"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1913"/>
         <source>Provisioning</source>
         <translation>프로비저닝</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1916"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1914"/>
         <source>Pushed</source>
         <translation>푸시됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1917"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1915"/>
         <source>Query report</source>
         <translation>쿼리 보고서</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1918"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1916"/>
         <source>RETURN_ARRIVED</source>
         <translation>RETURN_ARRIVED</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1919"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1917"/>
         <source>RETURN_REQUESTED</source>
         <translation>RETURN_REQUESTED</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1920"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1918"/>
         <source>Registered</source>
         <translation>등록됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1921"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1919"/>
         <source>Remaining</source>
         <translation>남음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1922"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1920"/>
         <source>Remote wipe executed</source>
         <translation>원격 지우기 실행됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1923"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1921"/>
         <source>Removed</source>
         <translation>제거됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1924"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1922"/>
         <source>Required</source>
         <translation>필수</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1925"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1923"/>
         <source>Requirements met</source>
         <translation>요구 사항이 충족됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1926"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1924"/>
         <source>Requirements not met: architecture</source>
         <translation>요구 사항이 충족되지 않음: 아키텍처</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1927"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1925"/>
         <source>Requirements not met: insufficient memory</source>
         <translation>요구 사항이 충족되지 않음: 메모리 부족</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1928"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1926"/>
         <source>Requirements not met: script</source>
         <translation>요구 사항이 충족되지 않음: 스크립트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1929"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1927"/>
         <source>Requirements not met: system version</source>
         <translation>요구 사항이 충족되지 않음: 시스템 버전</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1930"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1928"/>
         <source>Requirements not met: will not retry</source>
         <translation>요구 사항이 충족되지 않음: 재시도하지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1931"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1929"/>
         <source>Restriction</source>
         <translation>제한</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1932"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1930"/>
         <source>Retired</source>
         <translation>사용 중지됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1933"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1931"/>
         <source>Retrieved Empty iCloud Code</source>
         <translation>비어 있는 iCloud 코드 검색됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1934"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1932"/>
         <source>Retrieved iCloud Code</source>
         <translation>iCloud 코드 검색됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1935"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1933"/>
         <source>SHIPPED</source>
         <translation>배송됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1936"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1934"/>
         <source>Script execution failure</source>
         <translation>스크립트 실행 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1937"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1935"/>
         <source>Server only</source>
         <translation>서버만</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1938"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1936"/>
         <source>Skipped</source>
         <translation>건너뜀</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1939"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1937"/>
         <source>Stopped</source>
         <translation>중지됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1940"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1938"/>
         <source>Succeeded</source>
         <translation>성공</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1941"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1939"/>
         <source>Success</source>
         <translation>성공</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1942"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1940"/>
         <source>SynchronizationError</source>
         <translation>SynchronizationError</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1943"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1941"/>
         <source>Tethered Network only</source>
         <translation>테더링된 네트워크만</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1944"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1942"/>
         <source>Tracked</source>
         <translation>추적됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1945"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1943"/>
         <source>UNKNOWN</source>
         <translation>알 수 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1946"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1944"/>
         <source>Unattended access</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1947"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1945"/>
         <source>Undefined</source>
         <translation>정의되지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1948"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1946"/>
         <source>Unenrolled</source>
         <translation>등록 취소됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1949"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1947"/>
         <source>Uninstall failed</source>
         <translation>설치 제거 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1950"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1948"/>
         <source>Uninstaller running now</source>
         <translation>지금 실행 중인 제거 프로그램</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1951"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1949"/>
         <source>Universal</source>
         <translation>범용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1952"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1950"/>
         <source>Unknown</source>
         <translation>알 수 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1953"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1951"/>
         <source>Unknown error</source>
         <translation>알 수 없는 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1954"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1952"/>
         <source>Untracked</source>
         <translation>추적 안 됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1955"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1953"/>
         <source>Update of dependency fileset failure</source>
         <translation>종속성 파일 세트 업데이트 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1956"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1954"/>
         <source>Upgrade failure</source>
         <translation>업그레이드 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1957"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1955"/>
         <source>User Enrollment</source>
         <translation>사용자 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1958"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1956"/>
         <source>User approved enrollment</source>
         <translation>사용자가 승인한 등록</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1959"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1957"/>
         <source>User needs to accept the invite to the organization with a valid iTunes account</source>
         <translation>사용자는 유효한 iTunes 계정으로 조직 초대를 수락해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1960"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1958"/>
         <source>VPP App Assignment</source>
         <translation>VPP 앱 할당</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1961"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1959"/>
         <source>VPP license for asset can not be assigned to a device</source>
         <translation>자산용 VPP 라이선스를 장치에 할당할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1962"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1960"/>
         <source>VPP user is retired</source>
         <translation>VPP 사용자가 사용 중지되었습니다</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1963"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1961"/>
         <source>Waiting for booster</source>
         <translation>Booster 대기 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1964"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1962"/>
         <source>Waiting for higher priority filesets</source>
         <translation>우선순위가 높은 파일 세트를 기다리는 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1965"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1963"/>
         <source>Waiting for user to log in</source>
         <translation>사용자 로그인을 기다리는 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1966"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1964"/>
         <source>Waiting for user to log out</source>
         <translation>사용자 로그아웃을 기다리는 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1967"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1965"/>
         <source>Waiting for user to log out to install dependency</source>
         <translation>종속성 설치를 위해 사용자가 로그아웃하기를 기다리는 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1968"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1966"/>
         <source>Warning</source>
         <translation>경고</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1969"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1967"/>
         <source>Windows</source>
         <translation>Windows</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1970"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1968"/>
         <source>Windows Image Fileset</source>
         <translation>Windows 이미지 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1971"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1969"/>
         <source>Windows Imaging Drivers Fileset</source>
         <translation>Windows 이미징 드라이버 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1972"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1970"/>
         <source>Windows MDM Profile</source>
         <translation>Windows MDM 프로필</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1973"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1971"/>
         <source>Windows Profile requires an MDM device</source>
         <translation>Windows 프로필에는 MDM 장치가 필요함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1974"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1972"/>
         <source>allowed</source>
         <translation>허용됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1975"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1973"/>
         <source>completed</source>
         <translation>완료됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1976"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1974"/>
         <source>dev</source>
         <translation>dev</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1977"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1975"/>
         <source>disallowed</source>
         <translation>허용 안 함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1978"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1976"/>
         <source>error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1979"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1977"/>
         <source>false</source>
         <translation>false</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1980"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1978"/>
         <source>full</source>
         <translation>전체</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1981"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1979"/>
         <source>iCloud</source>
         <translation>iCloud</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1982"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1980"/>
         <source>iOS</source>
         <translation>iOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1983"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1981"/>
         <source>iOS Update</source>
         <translation>iOS 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1984"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1982"/>
         <source>iTunes App Fileset</source>
         <translation>iTunes 앱 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1985"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1983"/>
         <source>macOS</source>
         <translation>macOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1986"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1984"/>
         <source>macOS Image Fileset</source>
         <translation>macOS 이미지 파일 세트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1987"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1985"/>
         <source>medium</source>
         <translation>중간</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1988"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1986"/>
         <source>not rename</source>
         <translation>이름 바꾸지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1989"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1987"/>
         <source>not supported</source>
         <translation>지원 안 함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1990"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1988"/>
         <source>off</source>
         <translation>꺼짐</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1991"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1989"/>
         <source>remaining</source>
         <translation>남음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1992"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1990"/>
         <source>true</source>
         <translation>true</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1993"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1991"/>
         <source>tvOS</source>
         <translation>tvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1994"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1992"/>
         <source>unknown</source>
         <translation>알 수 없음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1995"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1993"/>
         <source>use client name</source>
         <translation>클라이언트 이름 사용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1996"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1994"/>
         <source>use template</source>
         <translation>템플릿 사용</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1997"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1995"/>
         <source>validated</source>
         <translation>유효성 검사됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1998"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1996"/>
         <source>warning</source>
         <translation>경고</translation>
     </message>
@@ -28972,131 +28982,131 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIFieldOperator</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1711"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1709"/>
         <source>after</source>
         <translation>후</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1712"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1710"/>
         <source>all</source>
         <translation>모두</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1713"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1711"/>
         <source>before</source>
         <translation>전</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1714"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1712"/>
         <source>begins with</source>
         <translation>(으)로 시작</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1715"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1713"/>
         <source>contains</source>
         <translation>포함</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1716"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1714"/>
         <source>does not begin with</source>
         <translation>(으)로 시작되지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1717"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1715"/>
         <source>does not contain</source>
         <translation>포함하지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1718"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1716"/>
         <source>does not end with</source>
         <translation>(으)로 끝나지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1719"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1717"/>
         <source>does not equal</source>
         <translation>같지 않음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1720"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1718"/>
         <source>ends with</source>
         <translation>(으)로 끝남</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1721"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1719"/>
         <source>equals</source>
         <translation>같음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1722"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1720"/>
         <source>in more than</source>
         <translation>보다 큼</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1723"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1736"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1721"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1734"/>
         <source>is</source>
         <translation>이(가)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1724"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1722"/>
         <source>is greater than</source>
         <translation>보다 큼</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1725"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1723"/>
         <source>is greater than or equal to</source>
         <translation>보다 크거나 같음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1726"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1724"/>
         <source>is in subnet</source>
         <translation>부분 집합에 있음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1727"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1725"/>
         <source>is less than</source>
         <translation>보다 작음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1728"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1726"/>
         <source>is less than or equal to</source>
         <translation>보다 작거나 같음</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1729"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1737"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1727"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1735"/>
         <source>is not</source>
         <translation>은(는) 다음이 아님</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1730"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1738"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1728"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1736"/>
         <source>is not null</source>
         <translation>null 아님</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1731"/>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1739"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1729"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1737"/>
         <source>is null</source>
         <translation>null임</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1732"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1730"/>
         <source>older than</source>
         <translation>보다 오래됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1733"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1731"/>
         <source>one</source>
         <translation>하나</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1734"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1732"/>
         <source>within the next</source>
         <translation>다음 기간 이내</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1735"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1733"/>
         <source>within the past</source>
         <translation>이전 기간 이내</translation>
     </message>
@@ -29104,82 +29114,82 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIFieldUnit</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1743"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1741"/>
         <source>bytes</source>
         <translation>바이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1744"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1742"/>
         <source>days</source>
         <translation>일</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1745"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1743"/>
         <source>gigabytes</source>
         <translation>기가바이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1746"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1744"/>
         <source>gigahertz</source>
         <translation>기가헤르츠</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1747"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1745"/>
         <source>hertz</source>
         <translation>헤르츠</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1748"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1746"/>
         <source>hours</source>
         <translation>시간</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1749"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1747"/>
         <source>kilobytes</source>
         <translation>킬로바이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1750"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1748"/>
         <source>kilohertz</source>
         <translation>킬로헤르츠</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1751"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1749"/>
         <source>megabytes</source>
         <translation>메가바이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1752"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1750"/>
         <source>megahertz</source>
         <translation>메가헤르츠</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1753"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1751"/>
         <source>minutes</source>
         <translation>분</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1754"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1752"/>
         <source>months</source>
         <translation>개월</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1755"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1753"/>
         <source>seconds</source>
         <translation>초</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1756"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1754"/>
         <source>terabytes</source>
         <translation>테라바이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1757"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1755"/>
         <source>weeks</source>
         <translation>주</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1758"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1756"/>
         <source>years</source>
         <translation>년</translation>
     </message>
@@ -34395,12 +34405,12 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIQueryLogic</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1740"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1738"/>
         <source>all</source>
         <translation>모두</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1741"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1739"/>
         <source>one</source>
         <translation>하나</translation>
     </message>
@@ -34408,22 +34418,22 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIReport</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="2000"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1998"/>
         <source>This report shows the list of desktop and iOS licenses.</source>
         <translation>이 보고서에는 데스크톱 및 iOS 라이선스 목록이 표시됩니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="2001"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1999"/>
         <source>Licenses</source>
         <translation>라이선스</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="2002"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="2000"/>
         <source>This report is the result of a query.</source>
         <translation>이 보고서는 쿼리의 결과입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="2003"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="2001"/>
         <source>Query</source>
         <translation>쿼리</translation>
     </message>
@@ -34825,72 +34835,60 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1644"/>
-        <source>Release Date</source>
-        <comment>field release_date display name</comment>
-        <translation type="unfinished">출시일</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1645"/>
-        <source>Release date of the update.</source>
-        <comment>field release_date description</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1646"/>
         <source>Install Date</source>
         <comment>field install_date display name</comment>
         <translation>설치 날짜</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1647"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1645"/>
         <source>Date at which the update was installed.</source>
         <comment>field install_date description</comment>
         <translation>업데이트가 설치된 날짜.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1648"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1646"/>
         <source>Status</source>
         <comment>field status display name</comment>
         <translation>상태</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1649"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1647"/>
         <source>Update status code</source>
         <comment>field status description</comment>
         <translation>라이선스 코드 업데이트</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1650"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1648"/>
         <source>Support URL</source>
         <comment>field support_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1651"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1649"/>
         <source>Support URL to get more information about the update.</source>
         <comment>field support_url description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1652"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1650"/>
         <source>KBArticle</source>
         <comment>field kb_article display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1653"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1651"/>
         <source>KBArticle ID for Windows updates.</source>
         <comment>field kb_article description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1654"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1652"/>
         <source>MsrcSeverity</source>
         <comment>field msrc_severity display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1655"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1653"/>
         <source>Msrc Severity level of Windows updates.</source>
         <comment>field msrc_severity description</comment>
         <translation type="unfinished"></translation>
@@ -34899,139 +34897,139 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUser</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1656"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1654"/>
         <source>FileWave Administrator user</source>
         <comment>component User display name</comment>
         <translation>FileWave 관리자 사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1657"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1655"/>
         <source>password</source>
         <comment>field password display name</comment>
         <translation>비밀번호</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1658"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1656"/>
         <source>last login</source>
         <comment>field last_login display name</comment>
         <translation>마지막 로그인</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1659"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1657"/>
         <source>superuser status</source>
         <comment>field is_superuser display name</comment>
         <translation>슈퍼사용자 상태</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1660"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1658"/>
         <source>Designates that this user has all permissions without explicitly assigning them.</source>
         <comment>field is_superuser description</comment>
         <translation>권한을 명시적으로 할당하지 않고 이 사용자가 모든 권한을 보유한다고 지정합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1661"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1659"/>
         <source>username</source>
         <comment>field username display name</comment>
         <translation>사용자 이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1662"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1660"/>
         <source>Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</source>
         <comment>field username description</comment>
         <translation>필수. 150자 이하. 문자, 숫자 및 @/./+/-/_만 가능.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1663"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1661"/>
         <source>first name</source>
         <comment>field first_name display name</comment>
         <translation>이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1664"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1662"/>
         <source>last name</source>
         <comment>field last_name display name</comment>
         <translation>성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1665"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1663"/>
         <source>email address</source>
         <comment>field email display name</comment>
         <translation>이메일 주소</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1666"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1664"/>
         <source>staff status</source>
         <comment>field is_staff display name</comment>
         <translation>직원 상태</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1667"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1665"/>
         <source>Designates whether the user can log into this admin site.</source>
         <comment>field is_staff description</comment>
         <translation>사용자가 이 관리자 사이트에 로그인할 수 있는지 여부를 지정합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1668"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1666"/>
         <source>active</source>
         <comment>field is_active display name</comment>
         <translation>활성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1669"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1667"/>
         <source>Designates whether this user should be treated as active. Unselect this instead of deleting accounts.</source>
         <comment>field is_active description</comment>
         <translation>이 사용자를 활성 사용자로 취급해야 하는지 여부를 지정합니다. 계정을 삭제하는 대신 이 설정을 선택 해제하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1670"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1668"/>
         <source>date joined</source>
         <comment>field date_joined display name</comment>
         <translation>가입한 날짜</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1671"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1669"/>
         <source>Type of user</source>
         <comment>field user_type display name</comment>
         <translation>사용자 유형</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1672"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1670"/>
         <source>full name</source>
         <comment>field full_name display name</comment>
         <translation>전체 이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1673"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1671"/>
         <source>description</source>
         <comment>field description display name</comment>
         <translation>설명</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1674"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1672"/>
         <source>phone number</source>
         <comment>field phone display name</comment>
         <translation>전화번호</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1675"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1673"/>
         <source>imaging user</source>
         <comment>field imaging_user display name</comment>
         <translation>이미징 사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1676"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1674"/>
         <source>base DN</source>
         <comment>field base_dn display name</comment>
         <translation>기본 DN</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1677"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1675"/>
         <source>identity provider</source>
         <comment>field identity_provider display name</comment>
         <translation>ID 공급자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1678"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1676"/>
         <source>IDP user id</source>
         <comment>field idp_user_id display name</comment>
         <translation>IDP 사용자 ID</translation>
@@ -35040,49 +35038,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUserAppToken</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1679"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1677"/>
         <source>User App Token</source>
         <comment>component UserAppToken display name</comment>
         <translation>사용자 앱 토큰</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1680"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1678"/>
         <source>Token Name</source>
         <comment>field token_name display name</comment>
         <translation>토큰 이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1681"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1679"/>
         <source>The unique name of the token.</source>
         <comment>field token_name description</comment>
         <translation>토큰의 고유 이름.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1682"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1680"/>
         <source>Token Description</source>
         <comment>field description display name</comment>
         <translation>토큰 설명</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1683"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1681"/>
         <source>Description of the token</source>
         <comment>field description description</comment>
         <translation>토큰에 대한 설명</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1684"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1682"/>
         <source>user</source>
         <comment>field user display name</comment>
         <translation>사용자</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1685"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1683"/>
         <source>token</source>
         <comment>field token display name</comment>
         <translation>토큰</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1686"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1684"/>
         <source>is default</source>
         <comment>field is_default display name</comment>
         <translation>기본값입니다.</translation>
@@ -35091,91 +35089,91 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIUserLogin</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1687"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1685"/>
         <source>User Logins</source>
         <comment>component UserLogin display name</comment>
         <translation>사용자 로그인</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1688"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1686"/>
         <source>Information related to logged in users</source>
         <comment>component UserLogin description</comment>
         <translation>로그인한 사용자와 관련된 정보</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1689"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1687"/>
         <source>Username</source>
         <comment>field username display name</comment>
         <translation>사용자 이름</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1690"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1688"/>
         <source>The username that logged in or out from the device. User email for Chromebook managed users.</source>
         <comment>field username description</comment>
         <translation>장치에 로그인하거나 로그아웃한 사용자 이름. Chromebook 관리된 사용자의 사용자 이메일.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1691"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1689"/>
         <source>device</source>
         <comment>field device display name</comment>
         <translation>장치</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1692"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1690"/>
         <source>Login Date</source>
         <comment>field login_date display name</comment>
         <translation>로그인 날짜</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1693"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1691"/>
         <source>The date and time at which the user last logged in.</source>
         <comment>field login_date description</comment>
         <translation>사용자가 마지막으로 로그인한 날짜 및 시간입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1694"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1692"/>
         <source>Logout Date</source>
         <comment>field logout_date display name</comment>
         <translation>로그아웃 날짜</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1695"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1693"/>
         <source>The date and time at which the user last logged out.</source>
         <comment>field logout_date description</comment>
         <translation>사용자가 마지막으로 로그아웃한 날짜 및 시간입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1696"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1694"/>
         <source>Currently Logged in</source>
         <comment>field currently_logged_in display name</comment>
         <translation>현재 로그인됨</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1697"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1695"/>
         <source>A flag that indicates whether the user is currently logged in.</source>
         <comment>field currently_logged_in description</comment>
         <translation>사용자가 현재 로그인되어 있는지 나타내는 플래그입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1698"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1696"/>
         <source>Login Count</source>
         <comment>field login_count display name</comment>
         <translation>로그인 횟수</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1699"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1697"/>
         <source>The count of logins for this user.</source>
         <comment>field login_count description</comment>
         <translation>이 사용자의 로그인 횟수입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1700"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1698"/>
         <source>User management type</source>
         <comment>field user_type display name</comment>
         <translation>사용자 관리 유형</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1701"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1699"/>
         <source>The type of user. For Chromebooks, possible values are: &apos;Chromebook Managed User&apos;, &apos;Chromebook Unmanaged User. Will be &apos;Normal User&apos; on other platforms</source>
         <comment>field user_type description</comment>
         <translation>사용자 유형. Chromebook의 경우 가능한 값은 &apos;Chromebook 관리된 사용자&apos;, &apos;Chromebook 관리되지 않는 사용자&apos;입니다. 다른 플랫폼에서는 &apos;일반 사용자&apos;입니다.</translation>
@@ -35184,49 +35182,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
 <context>
     <name>FWIWindowsUpdate</name>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1702"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1700"/>
         <source>Windows updates</source>
         <comment>component WindowsUpdate display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1703"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1701"/>
         <source>Information specific to Windows updates</source>
         <comment>component WindowsUpdate description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1704"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1702"/>
         <source>Support URL</source>
         <comment>field support_url display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1705"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1703"/>
         <source>Support URL to get more information about the update.</source>
         <comment>field support_url description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1706"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1704"/>
         <source>KBArticle</source>
         <comment>field kb_article display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1707"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1705"/>
         <source>KBArticle ID for Windows updates.</source>
         <comment>field kb_article description</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1708"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1706"/>
         <source>MsrcSeverity</source>
         <comment>field msrc_severity display name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1709"/>
+        <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1707"/>
         <source>Msrc Severity level of Windows updates.</source>
         <comment>field msrc_severity description</comment>
         <translation type="unfinished"></translation>
@@ -39003,8 +39001,8 @@ Do you want to close the dialog?</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleCertificateForm.cpp" line="163"/>
-        <source>The specified file is either invalid or encrypted.  For Android management specifically, FileWave 13.1 does not support encrypted certificates.</source>
-        <translation>지정된 파일이 잘못되었거나 암호화되었습니다.  특히 Android 관리의 경우 FileWave 13.1은 암호화된 인증서를 지원하지 않습니다.</translation>
+        <source>The specified file is either invalid or encrypted.  Note that encrypted certificates are not supported by the Android Management API.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleCertificateForm.cpp" line="185"/>
@@ -49884,7 +49882,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     </message>
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="302"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1214"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1094"/>
         <source>%1 Error %2 returned from server</source>
         <translation>서버에서 반환된 %1 오류 %2</translation>
     </message>
@@ -49901,7 +49899,7 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
     <message>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="390"/>
         <location filename="../../FWAdminLib/FWAdminClient.cpp" line="593"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3570"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3450"/>
         <source>Adding files to upload queue...</source>
         <translation>업로드 대기열에 파일 추가 중...</translation>
     </message>
@@ -49911,373 +49909,368 @@ Do you want to validate the new fingerprint and proceed to model update ?</sourc
         <translation>폴더에서 새 파일 세트 수정 버전 생성 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="701"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="996"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="948"/>
         <source>Importing Flat Package</source>
         <translation>플랫 패키지 가져오기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="783"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="883"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="788"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1801"/>
         <source>Scanning for Files/Folders...</source>
         <translation>파일/폴더 검색 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="807"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="906"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="811"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1818"/>
         <source>Creating Files/Folders on Server...</source>
         <translation>서버에 파일/폴더 생성 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="831"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="956"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="864"/>
         <location filename="../../FWAdminLib/WinMagicFiles/FWSnapshot.cpp" line="1840"/>
         <source>Preparing files for upload...</source>
         <translation>파일 업로드 준비 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1101"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1153"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1062"/>
         <source>Importing MSI Installer</source>
         <translation>MSI 설치 프로그램 가져오기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1216"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1096"/>
         <source>Error creating new fileset group</source>
         <translation>새 파일 세트 그룹 생성 중 오류 발생</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1605"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1485"/>
         <source>Error: Sending request packet.
 Try Again.</source>
         <translation>오류: 요청 패킷을 전송하고 있습니다.
 다시 시도하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1630"/>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1638"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1510"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1518"/>
         <source>Building Fileset Containers...</source>
         <translation>파일 세트 컨테이너 빌드 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1642"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1522"/>
         <source>Building Smart Filters...</source>
         <translation>스마트 필터 빌드 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1645"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1525"/>
         <source>Building User Manifests...</source>
         <translation>사용자 매니페스트 빌드 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1648"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1528"/>
         <source>Remove Deleted Files...</source>
         <translation>삭제된 파일 제거...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1651"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1531"/>
         <source>Moving New Files...</source>
         <translation>새 파일을 이동시키는 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1654"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1534"/>
         <source>Moving Temporary Files...</source>
         <translation>임시 파일을 이동시키는 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1657"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1537"/>
         <source>Backing Up Previous Model...</source>
         <translation>이전 모델 백업 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1660"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1540"/>
         <source>Updating (Apple) MDM Server...</source>
         <translation>(Apple) MDM 서버 업데이트 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1663"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1543"/>
         <source>Updating EMM Server...</source>
         <translation>EMM 서버 업데이트 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1666"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1546"/>
         <source>An integrity error in the DB was detected</source>
         <translation>DB에서 무결성 오류가 감지되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1669"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1549"/>
         <source>Updating Inventory information...</source>
         <translation>인벤토리 정보 업데이트 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1672"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1552"/>
         <source>Manage Archived clients...</source>
         <translation>보관된 클라이언트 관리...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1675"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1555"/>
         <source>Synchronizing Mobile User data...</source>
         <translation>모바일 사용자 데이터 동기화 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1678"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1558"/>
         <source>Synchronizing Clients data...</source>
         <translation>클라이언트 데이터 동기화 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1681"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1561"/>
         <source>Sending Fileset data to Inventory...</source>
         <translation>파일 세트 데이터를 인벤토리로 전송하는 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1684"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1564"/>
         <source>Build internal data required for Model Update...</source>
         <translation>모델 업데이트에 필요한 내부 데이터 빌드...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1687"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1567"/>
         <source>Sending queued Chromebook move request upstream...</source>
         <translation>대기 중인 Chromebook 이동 요청을 업스트림으로 전송하는 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1690"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1570"/>
         <source>Sending OU management requests upstream.  Given upstream API constraints, this may take some time; please be patient.</source>
         <translation>OU 관리 요청을 업스트림으로 전송 중입니다.  업스트림 API 제약사항이 지정된 경우 시간이 걸릴 수 있습니다. 기다려 주십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1693"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1573"/>
         <source>Processing pending Chromebook notational field modifications...</source>
         <translation>보류 중인 Chromebook 표기 필드 수정사항 처리 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1703"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1583"/>
         <source>Model Updated Successfully</source>
         <translation>모델이 업데이트되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1726"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1606"/>
         <source>Update Unsuccessful.  Make sure that other Administrators have released control of each window.</source>
         <translation>업데이트 실패.  다른 관리자가 각 창의 제어를 해제했어야 합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1730"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1610"/>
         <source>Update Unsuccessful.  Permission denied.</source>
         <translation>업데이트 실패.  권한 거부됨.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1733"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1613"/>
         <source>Update Unsuccessful.  There are still locks held by other administrators so model update cannot safely continue.</source>
         <translation>업데이트 실패.  잠금 상태가 다른 관리자에 의해 여전히 유지되고 있어 모델 업데이트가 안전하게 계속될 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1736"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1616"/>
         <source>Update Unsuccessful.  The license has either expired or been revoked - please contact FileWave support.</source>
         <translation>업데이트 실패.  라이선스가 만료되었거나 취소되었습니다. FileWave 지원팀에 문의하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1739"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1619"/>
         <source>Update Unsuccessful.  Your license is not valid for this version of the software - please contact FileWave support.</source>
         <translation>업데이트 실패.  라이선스가 이 소프트웨어 버전에 유효하지 않습니다. FileWave 지원팀에 문의하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1742"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1622"/>
         <source>Update Unsuccessful.   Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation>업데이트 실패.   인벤토리 서버가 오프라인 상태입니다. 특정 기능에는 인벤토리 접속이 필요합니다. 관련 내용을 조사해 주십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1745"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1625"/>
         <source>Update Unsuccessful.   Update process is already running.</source>
         <translation>업데이트 실패.   업데이트 프로세스가 이미 실행 중입니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1750"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1630"/>
         <source>Update Unsuccessful.  Error building Filesets, check server log for details.</source>
         <translation>업데이트 실패.  파일 세트 빌드 중에 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1753"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1633"/>
         <source>Update Unsuccessful.  Error building smart filters, check server log for details.</source>
         <translation>업데이트 실패.  스마트 필터 빌드 중에 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1756"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1636"/>
         <source>Update Unsuccessful.  Error building user manifests, check server log for details.</source>
         <translation>업데이트 실패.  사용자 매니페스트 빌드 중에 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1759"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1639"/>
         <source>Update Unsuccessful.  Error deleting obsolete files, check server log for details.</source>
         <translation>업데이트 실패.  사용되지 않는 파일 삭제 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1762"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1642"/>
         <source>Update Unsuccessful.  Error moving files, check server log for details.</source>
         <translation>업데이트 실패.  파일 이동 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1765"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1645"/>
         <source>Update Unsuccessful.  Error moving temporary files, check server log for details.</source>
         <translation>업데이트 실패.  임시 파일 이동 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1770"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1650"/>
         <source>Update Unsuccessful.  The APN certificate is not valid.</source>
         <translation>업데이트 실패.  APN 인증서가 유효하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1773"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1653"/>
         <source>Update Unsuccessful.  Error due to missing Profile Filesets files, check server log for details.</source>
         <translation>업데이트 실패.  프로필 파일 세트 파일 누락으로 인한 오류입니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1776"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1656"/>
         <source>Update Unsuccessful.  Error while updating mobile devices, check mdm server log for details.</source>
         <translation>업데이트 실패.  모바일 장치 업데이트 중 오류가 발생했습니다. 자세한 내용은 mdm 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1780"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1660"/>
         <source>Update Unsuccessful.  Error while updating Android EMM devices; check server log for details.</source>
         <translation>업데이트 실패.  Android EMM 업데이트 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1784"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1664"/>
         <source>Update Unsuccessful.  Error while updating Inventory information, check server log for details.</source>
         <translation>업데이트 실패.  인벤토리 정보 업데이트 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1787"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1667"/>
         <source>Update Unsuccessful.  Error while preparing notifications for Android devices, check server log for details.</source>
         <translation>업데이트 실패.  Android 장치에 대한 알림을 준비하는 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1790"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1670"/>
         <source>Update Unsuccessful.  Error while updating Archive state, check server log for details.</source>
         <translation>업데이트 실패.  보관 상태 업데이트 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1793"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1673"/>
         <source>Update Unsuccessful.  Error while synchronizing mobile user data, check server log for details.</source>
         <translation>업데이트 실패.  모바일 사용자 데이터 동기화 중 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1796"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1676"/>
         <source>Update Unsuccessful.  A chromebook sync is in progress. Please try again later.</source>
         <translation>업데이트 실패.  Chromebook 동기화가 진행 중입니다. 나중에 다시 시도하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1799"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1679"/>
         <source>Update Unsuccessful.  Error while executing outstanding GSuite OU operations; check server logs for details.</source>
         <translation>업데이트 실패.  아직 처리되지 않은 G Suite OU 작업을 실행하는 동안 오류가 발생했습니다. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1802"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1682"/>
         <source>Update Unsuccessful. Check the server log for details.</source>
         <translation>업데이트 실패. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1883"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="1763"/>
         <source>You do not have delete privileges on at least 1 item</source>
         <translation>하나 이상의 항목에 대한 삭제 권한이 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2338"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2218"/>
         <source>Error sending request to the server, check the log file for details.</source>
         <translation>서버에 요청을 보내는 동안 오류가 발생했습니다. 자세한 내용은 로그 파일에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2348"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2228"/>
         <source>Revert Unsuccessful. Permission denied.</source>
         <translation>복원 실패. 권한 거부됨.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2351"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2231"/>
         <source>Revert Unsuccessful. There are still locks held by other administrators so model revert cannot safely continue.</source>
         <translation>복원 실패. 다른 관리자가 유지하고 있는 잠금이 아직 있어 모델 복원을 안전하게 계속할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2354"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2234"/>
         <source>Revert Unsuccessful. The license has either expired or been revoked - please contact FileWave support.</source>
         <translation>복원 실패. 라이선스가 만료되었거나 취소되었습니다. FileWave 지원팀에 문의하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2357"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2237"/>
         <source>Revert Unsuccessful. Your license is not valid for this version of the software - please contact FileWave support.</source>
         <translation>복원 실패. 라이선스가 이 소프트웨어 버전에 유효하지 않습니다. FileWave 지원팀에 문의하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2360"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2240"/>
         <source>Revert Unsuccessful. Inventory server is offline, certain features require an inventory connection, please investigate.</source>
         <translation>복원 실패. 인벤토리 서버가 오프라인 상태입니다. 특정 기능에는 인벤토리 접속이 필요합니다. 관련 내용을 조사해 주십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2365"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2245"/>
         <source>Revert Unsuccessful. Check the server log for details.</source>
         <translation>복원 실패. 자세한 내용은 서버 로그에서 확인하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2403"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2283"/>
         <source>Failed to create the server log file: %1</source>
         <translation>서버 로그 파일 생성 실패: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2429"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2309"/>
         <source>Server Log</source>
         <translation>서버 로그</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2438"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2318"/>
         <source>Sorry, but getting the %1 log file failed.</source>
         <translation>죄송하지만 %1 로그 파일을 가져오지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2625"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2505"/>
         <source>Merging folders, please wait...</source>
         <translation>폴더를 병합 중입니다. 기다려 주십시오...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2630"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2510"/>
         <source>Merging</source>
         <translation>병합 중</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2752"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2632"/>
         <source>Would you like to replace the file %1?</source>
         <translation>%1 파일을 바꾸시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2753"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2633"/>
         <source>Replace</source>
         <translation>교체</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2754"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2634"/>
         <source>Skip</source>
         <translation>건너뛰기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2755"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2635"/>
         <source>Replace All</source>
         <translation>모두 바꾸기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3103"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2983"/>
         <source>%1 can&apos;t be renamed because it is a predefined folder.</source>
         <translation>%1은(는) 미리 정의된 폴더이므로 이름을 바꿀 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3114"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="2994"/>
         <source>A folder named %1 already exists in this location.</source>
         <translation>이름이 %1인 폴더가 이 위치에 이미 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3506"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3386"/>
         <source>Creating new imaging fileset from folder...</source>
         <translation>폴더에서 새 이미징 파일 세트를 만드는 중...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3551"/>
+        <location filename="../../FWAdminLib/FWAdminClient.cpp" line="3431"/>
         <source>Adding files &amp; folders to upload queue...</source>
         <translation>업로드 대기열에 파일 및 폴더 추가 중...</translation>
     </message>
@@ -52905,7 +52898,7 @@ Server response: %1</source>
     <name>RemoteWipeDlg</name>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="26"/>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="292"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="291"/>
         <source>Remote Wipe</source>
         <translation>원격 지우기</translation>
     </message>
@@ -52950,32 +52943,32 @@ Server response: %1</source>
         <translation>iOS 11 이상에서 사용 가능</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="166"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="167"/>
         <source>Find My Mac PIN: </source>
         <translation>내 Mac PIN 찾기: </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="179"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="180"/>
         <source>123456</source>
         <translation>123456</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="186"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="187"/>
         <source>(required)</source>
         <translation type="unfinished">(필수)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="208"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="210"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;In macOS 12 and later, this command uses Erase All Content and Settings (EACS) on Mac computers with the Apple M1 chip or the Apple T2 Security Chip. On those devices, if EACS can’t run, the device can use obliteration (macOS 11.x behavior). &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Upon receiving this command, the device performs preflight checks to determine if the device is in a state that allows EACS. (&lt;/span&gt;&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=55543547&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;More information&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="221"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="223"/>
         <source>The following option defines the device’s fallback behavior:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="230"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="232"/>
         <source>Obliteration behavior:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -53018,143 +53011,143 @@ If EACS preflight succeeds but EACS fails, then the device attempts to erase its
         <translation>원격 지우기: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="149"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="148"/>
         <source>Sending this command will erase all data on the target device.</source>
         <translation>이 명령을 전송하면 대상 장치에 있는 모든 데이터를 지웁니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="150"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="149"/>
         <source>Wipe Device</source>
         <translation>장치 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="156"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="155"/>
         <source>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;This machine is scheduled to be wiped after the next Model Update.&lt;/font&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;font color=&quot;red&quot;&gt;이 컴퓨터는 다음 모델 업데이트 후에 지우도록 예약되어 있습니다.&lt;/font&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="157"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="156"/>
         <source>Remove Wipe Flag</source>
         <translation>지우기 플래그 제거</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="158"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="157"/>
         <source>Close</source>
         <translation>닫기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="163"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="162"/>
         <source>Set Wipe Flag</source>
         <translation>지우기 플래그 설정</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="177"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="176"/>
         <source>The iOS device will be wiped immediately.</source>
         <translation>iOS 장치를 즉시 지웁니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="180"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="179"/>
         <source>The macOS device will be wiped immediately.</source>
         <translation>macOS 장치를 즉시 지웁니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="183"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="182"/>
         <source>The Android EMM device will be wiped immediately.</source>
         <translation>Android EMM 장치를 즉시 지웁니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="185"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="184"/>
         <source>The device will be wiped after model update.
 You can revert this by removing the wipe flag before model update.</source>
         <translation>모델 업데이트 후에 장치를 지웁니다.
 모델 업데이트 전에 지우기 플래그를 제거하여 되돌릴 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="190"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="189"/>
         <source>Wipe device</source>
         <translation>장치 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="192"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="191"/>
         <source>Please enter your password to confirm.</source>
         <translation>확인하려면 비밀번호를 입력하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="261"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="260"/>
         <source>Remote Wipe Clear - Error</source>
         <translation>원격 지우기 취소 - 오류</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="262"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="261"/>
         <source>There was an error clearing the remote wipe request for this client, remote wipe is still potentially queued for this client</source>
         <translation>이 클라이언트에 대한 원격 지우기 요청을 취소하는 중에 오류가 발생했습니다. 이 클라이언트의 원격 지우기가 아직 대기 중일 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="287"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="286"/>
         <source>Remote Wipe Clear</source>
         <translation>원격 지우기 취소</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="288"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="287"/>
         <source>You may only have one client set to remote wipe at a time.
 Please delete previously wiped clients.</source>
         <translation>한 번에 클라이언트 하나만 원격으로 지우도록 설정할 수 있습니다.
 이전에 지운 클라이언트를 삭제하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="293"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="292"/>
         <source>This machine is now scheduled to be wiped after the next Model Update.</source>
         <translation>이 컴퓨터는 이제 다음 모델 업데이트 후에 지우도록 예약되었습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="337"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="336"/>
         <source>Remove Activation Lock Failed</source>
         <translation>원격 활성화 잠금 실패</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="338"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="337"/>
         <source>Could not remove Activation Lock - the device may still prompt for the previous user&apos;s Apple ID.
 Do you want to wipe the device anyway?</source>
         <translation>활성화 잠금을 제거할 수 없습니다. 장치가 이전 사용자의 Apple ID를 계속 확인하려고 할 수 있습니다.
 장치를 지우시겠습니까?</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="340"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="339"/>
         <source>Devices locked using iCloud require end-user to enable &quot;Find My&quot; to be locked.
 Therefore it may happen that the device is not locked.</source>
         <translation>iCloud를 사용하여 잠그는 장치를 잠그려면 최종 사용자가 &quot;내 장치 찾기&quot;를 활성화해야 할 수 있습니다.
 그러므로 장치가 잠기지 않는 경우가 발생할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="368"/>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="373"/>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="385"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="367"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="372"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="384"/>
         <source>EMM Remote Wipe</source>
         <translation>EMM 원격 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="369"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="368"/>
         <source>(EMM) Device not found or device already unenrolled (%1, %2); no upstream request sent.</source>
         <translation>(EMM) 장치를 찾을 수 없거나 장치 등록이 이미 취소되었습니다(%1, %2). 전송된 업스트림 요청이 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="374"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="373"/>
         <source>(EMM) Remote wipe command queued (%1, %2) and will be sent presently.</source>
         <translation>(EMM) 원격 지우기 명령이 대기열에 추가되었고(%1, %2) 곧 전송됩니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="378"/>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="392"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="377"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="391"/>
         <source>MDM Remote Wipe</source>
         <translation>MDM 원격 지우기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="379"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="378"/>
         <source>Remote Wipe message successfully sent to MDM server.</source>
         <translation>원격 지우기 메시지를 MDM 서버로 보냈습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="386"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="385"/>
         <source>Failed to send remote wipe commandto EMM server.  Server said (%1):
 
 %2</source>
@@ -53163,7 +53156,7 @@ Therefore it may happen that the device is not locked.</source>
 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="393"/>
+        <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="392"/>
         <source>Failed to send Remote Wipe message to MDM server.</source>
         <translation>원격 지우기 메시지를 MDM 서버로 보내지 못했습니다.</translation>
     </message>
