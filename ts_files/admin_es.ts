@@ -1964,634 +1964,639 @@ Server said (%1): %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="129"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="131"/>
         <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="159"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="162"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="159"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="162"/>
         <source>Another user is editing the selected profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="251"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="254"/>
         <source>macOS, iOS and tvOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="253"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="256"/>
         <source>Use this section to configure certificate transparency settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="256"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
         <source>Use this section to specify PKCS1 and PKCS12 certificates you want to install on the device. Add your corporate certificate, and other certificates necessary to authenticate the device&apos;s access to your network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="257"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="260"/>
         <source>Use this section to define settings for Interfaces.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="258"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
         <source>Use this section to define settings for obtaining certificates from SCEP servers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="262"/>
         <source>Use this section to configure the Setup Assistant.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="264"/>
         <source>iOS and macOS 10.7+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="263"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="266"/>
         <source>Use this section to define settings for configuration access to CalDAV servers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="264"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
         <source>Use this section to define settings for configuration access to CardDAV servers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="265"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="268"/>
         <source>Use this section to define settings for connecting to your POP or IMAP accounts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="266"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="269"/>
         <source>Use this section to define settings for connecting to your Exchange server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="270"/>
         <source>Use this section to specify font settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="269"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="272"/>
         <source>Use this section to define settings for configuration access to LDAP servers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="273"/>
         <source>Use this section to specify passcode policies. (Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="278"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="281"/>
         <source>Use this section to define settings for Security and Privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="279"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="282"/>
         <source>Use this section to configure how the device connects to your wireless network via VPN, including the necessary authentication information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="280"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="283"/>
         <source>Use this section to configure Web Clips.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="282"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="285"/>
         <source>iOS and macOS 10.10+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="283"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
         <source>Use this section to define settings for connecting to AirPlay destinations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="284"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="287"/>
         <source>Use this section to define commands setting such as Voice or Data Roaming, Wallpaper, Bluetooth or Remote Desktop. These commands will be sent for each verify.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="289"/>
         <source>iOS and macOS 10.15+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="289"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="292"/>
         <source>Use this section to configure notification settings for apps. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="292"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="295"/>
         <source>iOS and tvOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="294"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="297"/>
         <source>Use this section to configure settings for a proxy server through which all HTTP traffic from the device will pass. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="298"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="301"/>
         <source>iOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="299"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="302"/>
         <source>Use this section to specify advanced settings, such as a carrier Access Point Name (APN). (These settings should be managed only by trained professionals.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="300"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="303"/>
         <source>Use this section to specify settings related to application and content restrictions. (Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="302"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="478"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="305"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="481"/>
         <source>Use this section to specify the app to which the device should be locked to. This setting will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="304"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="307"/>
         <source>Use this section to define settings for calendar subscriptions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="306"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="309"/>
         <source>iOS 7+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="307"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="310"/>
         <source>Use this section to define settings for connecting to AirPrint printers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="308"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="311"/>
         <source>Use this section to configure add-on VPN software.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="309"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="312"/>
         <source>Use this section to configure Single Sign-On</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="310"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="313"/>
         <source>Use this section to configure which URLs can be accessed by the device.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="312"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="315"/>
         <source>iOS 8+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="313"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="316"/>
         <source>Use this section to cellular network settings. (In iOS 7 and later, the APN payload is deprecated in favor of the Cellular payload..)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="320"/>
         <source>Use this section to configure macOS Server document providers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="321"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="324"/>
         <source>Use this section to configure Managed Domains</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="325"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="328"/>
         <source>Use this section to specify how managed apps use cellular data networks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="327"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="330"/>
         <source>iOS 9.3+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="330"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="333"/>
         <source>Use this section to configure Google accounts.The user will be prompted to sign in to the configured accounts.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="335"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="338"/>
         <source>Use this section to configure home screen layout. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="340"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="343"/>
         <source>Use this section to define text to be displayed in the login window and lock screen. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="488"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
         <source>Use this section to configure DNS proxy settings. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="343"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="346"/>
         <source>iOS 11.3+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="346"/>
-        <source>Use this section to configure the list of Apple TVs that can be controlled using the Remote app. These settings will only affect supervised devices.</source>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="158"/>
+        <source>Managing profiles for Apple device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="349"/>
-        <source>iOS 14.2+</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="350"/>
-        <source>Use this section to configure certificate revocation settings.</source>
+        <source>Use this section to configure the list of Apple TVs that can be controlled using the Remote app. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="352"/>
-        <source>macOS 10.5+</source>
+        <source>iOS 14.2+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="353"/>
+        <source>Use this section to configure certificate revocation settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="355"/>
+        <source>macOS 10.5+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="358"/>
         <source>Use this section to define custom settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="360"/>
         <source>Use this section to define settings for Directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="363"/>
         <source>Use this section to define settings for Dock.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="362"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="365"/>
         <source>Use this section to configure settings for Energy Saver.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="366"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="369"/>
         <source>Use this section to configure settings for Finder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="370"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="373"/>
         <source>Use this section to specify settings for the items that run at login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="376"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="379"/>
         <source>Use this section to specify settings for the behavior and appearence of the Login Window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="380"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="383"/>
         <source>Use this section to define settings for Mobility and Portable Home Directories.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="383"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="386"/>
         <source>Use this section to define settings for Parental Controls.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="387"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="390"/>
         <source>Use this section to define settings for Printing.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="399"/>
         <source>Use this section to specify settings related to app and content restrictions.(Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="401"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="404"/>
         <source>Use this section to define Universal Access settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="406"/>
         <source>macOS 10.7+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="404"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="407"/>
         <source>Use this section to specify settings for Active Directory Certificates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="405"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="408"/>
         <source>Use this section to specify Identification settings for OSX.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="406"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="409"/>
         <source>Use this section to define settings for Messages.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="411"/>
         <source>Use this section to configure proxies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="409"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="412"/>
         <source>Use this section to configure settings for Time Machine.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="417"/>
         <source>Use this section to configure Xsan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="416"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="419"/>
         <source>macOS 10.9+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="423"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="426"/>
         <source>Use this section to define settings for Disk Encryption.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="425"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="428"/>
         <source>macOS 10.12+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="428"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="431"/>
         <source>Use this section to configure smart card security settings for macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="431"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="434"/>
         <source>Use this section to configure system migration settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="434"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="437"/>
         <source>Use this section to configure time server settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="435"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="438"/>
         <source>macOS 10.13+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="438"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="441"/>
         <source>Use this section to configure allowed extensions on macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="439"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="442"/>
         <source>macOS 10.13.2+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="442"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="445"/>
         <source>Use this section to configure kernel extensions policy on macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="443"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="446"/>
         <source>macOS 10.13.4+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="446"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="449"/>
         <source>Use this section to configure content caching settings on macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="447"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="450"/>
         <source>macOS 10.14+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="453"/>
         <source>Use this section to define settings for Privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="451"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="454"/>
         <source>macOS 10.15+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="457"/>
         <source>Use this section to configure an app&apos;s associated domains.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="457"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="460"/>
         <source>Use this section to configure system extensions policy on macOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="460"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="463"/>
         <source>Use this section to configure content filter settings for macOS.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="465"/>
         <source>tvOS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="468"/>
         <source>Use this section to configure settings for AirPlay security.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="468"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="471"/>
         <source>Use this section to put a supervised Apple TV into Conference Room Display mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="471"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="474"/>
         <source>Use this section to configure tvOS home screen layout. These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="475"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="478"/>
         <source>Use this section to configure restrictions for Apple TV.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="482"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
         <source>Use this section to configure the list of iOS devices that can control the Apple TV(s). These settings will only affect supervised devices.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="488"/>
         <source>iOS 11.0+ and macOS 10.15+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="494"/>
         <source>iOS 13.0+ and macOS 10.15+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="492"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="495"/>
         <source>Use this section to configure single sign-on app extensions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="494"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="497"/>
         <source>iOS 14.0+ and macOS 11.0+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="495"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="498"/>
         <source>Use this section to configure DNS settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="510"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="513"/>
         <source>Subtitle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="535"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="699"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="702"/>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="536"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="539"/>
         <source>Mandatory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="541"/>
         <source>%1 payload(s) configured.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="540"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="543"/>
         <source>Not configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="582"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="585"/>
         <source>SCEP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="849"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="852"/>
         <source>This profile is now invalid because Disk Encryption must be managed via FDE assistant. FDE parts will be removed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="907"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="910"/>
         <source>Profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="919"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="922"/>
         <source>The profile must contain 1 or more payloads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="925"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="928"/>
         <source>This profile has %1 error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="927"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="930"/>
         <source>This profile has %1 errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="936"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="939"/>
         <source>Payloads &apos;%1&apos; and &apos;%2&apos; can&apos;t be used together</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="946"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="949"/>
         <source>Please correct the error before continuing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="969"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="972"/>
         <source>1 validation error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="973"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="976"/>
         <source>%1 validation errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1064"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1067"/>
         <source>Unsaved Changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1065"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1068"/>
         <source>Are you sure you want to close?  Your changes will be lost.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1068"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1071"/>
         <source>Discard Changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1147"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1150"/>
         <source>Could not parse plist from profile data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1165"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1179"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1168"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1182"/>
         <source>Disk encryption profiles cannot be imported.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1171"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1174"/>
         <source>Would you like to import without disk encryption payloads?
 
 Note: the profile will not be signed and disk encryption payloads will be removed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1177"/>
         <source>Would you like to import without disk encryption payloads?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1222"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1225"/>
         <source>
 
 Note: signed profiles won&apos;t be modified but will not use Per-App-VPN.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1229"/>
         <source>Could not find Per-App-VPN referenced by several payloads; VPN UUID information has been cleared for these payloads.%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1227"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1230"/>
         <source>Could not find Per-App-VPN referenced by one payload; VPN UUID information has been cleared for this payload.%1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4886,8 +4891,8 @@ You must still wipe it manually.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="227"/>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="316"/>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="377"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="379"/>
         <source>Cannot create mobile configuration fileset.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4897,74 +4902,79 @@ You must still wipe it manually.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="244"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="235"/>
+        <source>Managing profiles for Apple device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="246"/>
         <source>The profile payload identifiers differ.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="247"/>
         <source>The existing fileset has a different profile payload identifier Would you like to create a new fileset instead?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="268"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="270"/>
         <source>Another fileset already has the same profile payload identifier.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="272"/>
         <source>The existing fileset ID: %1 already has the profile payload identifier %2. Would you like to update this fileset?
 
 Note: the profile will not be signed if a new fileset is created.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="274"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="276"/>
         <source>The existing fileset ID: %1 already has the profile payload identifier %2. Would you like to update this fileset?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="278"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="280"/>
         <source>Update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="279"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="281"/>
         <source>Create New</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="319"/>
         <source>The selected profile has the profile payload identifier %1.  This identifier cannot be used.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="362"/>
         <source>Profile - </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="380"/>
         <source>There was an error creating the new fileset on the server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="395"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="397"/>
         <source>Cannot update mobile configuration fileset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="398"/>
         <source>There was an error updating the fileset on the server.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="472"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="474"/>
         <source>Select an .apk archive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="473"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="475"/>
         <source>Android Packages (*.apk)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9331,6 +9341,22 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3925"/>
         <source>Failed to open Web Admin Url.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3970"/>
+        <source>Open Web Console</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3976"/>
+        <source>Deprecated feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3977"/>
+        <source>%1 is deprecated in FileWave Native Admin console and will be removed in a future version.
+Please use Web Admin console instead.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -16627,8 +16653,8 @@ Please retry once editing is done.</source>
     <name>DEPAssociationDlg</name>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="345"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="379"/>
         <source>DEP Associations</source>
         <translation type="unfinished"></translation>
     </message>
@@ -16699,71 +16725,71 @@ Please retry once editing is done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="204"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="205"/>
         <source>Exclude</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="209"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="210"/>
         <source>Include</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="214"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="220"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="729"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="732"/>
         <source>All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
         <source>Excluded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="217"/>
         <source>Included</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
         <source>iOS only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
         <source>macOS only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="224"/>
         <source>tvOS only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="246"/>
         <source>View</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="311"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="312"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="455"/>
         <source>Exclude device(s) from automatic assignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
         <source>Removing DEP Associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="319"/>
         <source>Are you sure you want to remove the selected %1 association(s)?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="322"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="323"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="466"/>
         <source>You can define if corresponding devices will be:
 - excluded from automatic rules (checked);
 - included in automatic rules process (unchecked);
@@ -16772,169 +16798,175 @@ Please retry once editing is done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="345"/>
         <source>An error occurred while deleting associations:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="379"/>
         <source>An error occurred while creating associations:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="449"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
         <source>Profile is used in rules</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="451"/>
         <source>Profile &quot;%1&quot; is used in assignment rules. Are you sure you want to remove it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="458"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
         <source>Profile is associated to devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="460"/>
         <source>Profile &quot;%1&quot; is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="461"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
         <source>Profile is used in rules and associated to devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="463"/>
         <source>Profile &quot;%1&quot; is used in assignment rules and is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="589"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="751"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="526"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="591"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="754"/>
         <source>DEP Profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="589"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="526"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="591"/>
         <source>An error occurred while retrieving information about profile:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="538"/>
         <source>Failed to delete DEP profile:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="964"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="560"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="624"/>
+        <source>Editing or creating DEP profiles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="967"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
         <source>Another user is editing the selected profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="633"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="636"/>
         <source>Failed to get DEP auto-assignment rules: error %1 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="665"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="668"/>
         <source>Replace existing associations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="668"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="692"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="671"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="695"/>
         <source>Assign DEP profiles automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="669"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="672"/>
         <source>%1 devices(s) will now be associated to a DEP profile if they match a profile assignment rule.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="693"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="696"/>
         <source>Failed to assign DEP profiles matching rules: error %1 %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="727"/>
         <source>DEP Accounts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="727"/>
         <source>Retrieving DEP accounts failed:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="752"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="755"/>
         <source>Sending DEP profile failed:
 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="816"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="819"/>
         <source>Automatic assignment rules</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="839"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="842"/>
         <source>DEP Device Automatic Assignment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="840"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="843"/>
         <source>Failed to set whether devices should be excluded from automatic assignment: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="850"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="853"/>
         <source> (full sync)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="905"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="908"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="911"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="914"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="915"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="918"/>
         <source>Never synchronized.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="956"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="959"/>
         <source>Sync with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="957"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="960"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="966"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="969"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -16942,7 +16974,7 @@ Please retry once editing is done.</source>
 <context>
     <name>DEPAssociationModel</name>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="131"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="132"/>
         <source>Profile Name</source>
         <translation type="unfinished"></translation>
     </message>

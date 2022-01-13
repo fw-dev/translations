@@ -1992,610 +1992,615 @@ Server said (%1): %2</source>
         <translation>儲存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="129"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="131"/>
         <source>Search</source>
         <translation>搜尋</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="159"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="162"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="159"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="162"/>
         <source>Another user is editing the selected profile</source>
         <translation>另一使用者正在編輯所選設定檔</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="251"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="254"/>
         <source>macOS, iOS and tvOS</source>
         <translation>macOS、iOS 和 tvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="253"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="256"/>
         <source>Use this section to configure certificate transparency settings.</source>
         <translation>使用此區段進行憑證透明效果設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="256"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
         <source>Use this section to specify PKCS1 and PKCS12 certificates you want to install on the device. Add your corporate certificate, and other certificates necessary to authenticate the device&apos;s access to your network.</source>
         <translation>使用此區段指定您想要在裝置上安裝的 PKCS1 和 PKCS12 憑證。新增您的公司憑證，以及驗證裝置對網路存取權限所需的其他憑證。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="257"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="260"/>
         <source>Use this section to define settings for Interfaces.</source>
         <translation>使用此區段定義介面的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="258"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
         <source>Use this section to define settings for obtaining certificates from SCEP servers</source>
         <translation>使用此區段定義從 SCEP 伺服器取得憑證的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="262"/>
         <source>Use this section to configure the Setup Assistant.</source>
         <translation>使用此區段在設定小幫手中進行設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="264"/>
         <source>iOS and macOS 10.7+</source>
         <translation>iOS 和 macOS 10.7+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="263"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="266"/>
         <source>Use this section to define settings for configuration access to CalDAV servers</source>
         <translation>使用此區段定義對 CalDAV 伺服器的組態存取權限的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="264"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
         <source>Use this section to define settings for configuration access to CardDAV servers</source>
         <translation>使用此區段定義對 CardDAV 伺服器的組態存取權限的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="265"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="268"/>
         <source>Use this section to define settings for connecting to your POP or IMAP accounts.</source>
         <translation>使用此區段定義連線至 POP 或 IMAP 帳戶的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="266"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="269"/>
         <source>Use this section to define settings for connecting to your Exchange server.</source>
         <translation>使用此區段定義連線至 Exchange 伺服器的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="270"/>
         <source>Use this section to specify font settings.</source>
         <translation>使用此區段指定字型設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="269"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="272"/>
         <source>Use this section to define settings for configuration access to LDAP servers</source>
         <translation>使用此區段定義對 LDAP 伺服器的組態存取權限的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="273"/>
         <source>Use this section to specify passcode policies. (Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation>使用此區段指定驗證碼原則。（在安裝組態設定檔後，使用者將無法在其裝置上修改這些設定。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="278"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="281"/>
         <source>Use this section to define settings for Security and Privacy.</source>
         <translation>使用此區段定義安全性與隱私權的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="279"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="282"/>
         <source>Use this section to configure how the device connects to your wireless network via VPN, including the necessary authentication information.</source>
         <translation>使用此區段設定裝置如何透過 VPN 連線至您的無線網路，包括必要的驗證資訊。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="280"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="283"/>
         <source>Use this section to configure Web Clips.</source>
         <translation>使用此區段設定 Web Clip。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="282"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="285"/>
         <source>iOS and macOS 10.10+</source>
         <translation>iOS 和 macOS 10.10+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="283"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
         <source>Use this section to define settings for connecting to AirPlay destinations.</source>
         <translation>使用此區段定義連線至 AirPlay 目的地的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="284"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="287"/>
         <source>Use this section to define commands setting such as Voice or Data Roaming, Wallpaper, Bluetooth or Remote Desktop. These commands will be sent for each verify.</source>
         <translation>使用此區段定義命令設定，如語音或數據漫遊、背景圖案、藍牙或者遠端桌面。將針對每次驗證傳送這些命令。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="289"/>
         <source>iOS and macOS 10.15+</source>
         <translation>iOS 和 macOS 10.15+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="289"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="292"/>
         <source>Use this section to configure notification settings for apps. These settings will only affect supervised devices.</source>
         <translation>使用此區段設定應用程式的通知設定。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="292"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="295"/>
         <source>iOS and tvOS</source>
         <translation>iOS 和 tvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="294"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="297"/>
         <source>Use this section to configure settings for a proxy server through which all HTTP traffic from the device will pass. These settings will only affect supervised devices.</source>
         <translation>使用此區段設定 Proxy 伺服器的設定，來自裝置的所有 HTTP 流量將通過Proxy 伺服器。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="298"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="301"/>
         <source>iOS</source>
         <translation>iOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="299"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="302"/>
         <source>Use this section to specify advanced settings, such as a carrier Access Point Name (APN). (These settings should be managed only by trained professionals.)</source>
         <translation>使用此區段指定進階設定，如電訊廠商存取點名稱 (APN)。（這些設定應僅由受過培訓的專業人士管理。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="300"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="303"/>
         <source>Use this section to specify settings related to application and content restrictions. (Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation>使用此區段指定與應用程式和內容限制相關的設定。（在安裝組態設定檔後，使用者將無法在其裝置上修改這些設定。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="302"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="478"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="305"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="481"/>
         <source>Use this section to specify the app to which the device should be locked to. This setting will only affect supervised devices.</source>
         <translation>使用此區段指定應將裝置鎖定到的應用程式。此設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="304"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="307"/>
         <source>Use this section to define settings for calendar subscriptions.</source>
         <translation>使用此區段定義行事曆訂閱的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="306"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="309"/>
         <source>iOS 7+</source>
         <translation>iOS 7+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="307"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="310"/>
         <source>Use this section to define settings for connecting to AirPrint printers.</source>
         <translation>使用此區段定義連線至 AirPrint 印表機的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="308"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="311"/>
         <source>Use this section to configure add-on VPN software.</source>
         <translation>使用此區段設定附加元件 VPN 軟體。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="309"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="312"/>
         <source>Use this section to configure Single Sign-On</source>
         <translation>使用此區段設定單一登入</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="310"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="313"/>
         <source>Use this section to configure which URLs can be accessed by the device.</source>
         <translation>使用此區段設定裝置可存取的 URL。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="312"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="315"/>
         <source>iOS 8+</source>
         <translation>iOS 8+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="313"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="316"/>
         <source>Use this section to cellular network settings. (In iOS 7 and later, the APN payload is deprecated in favor of the Cellular payload..)</source>
         <translation>使用此區段進行行動電話通訊網路設定。（在 iOS 7 和更高版本中，已使用行動電話通訊承載取代 APN 承載。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="320"/>
         <source>Use this section to configure macOS Server document providers</source>
         <translation>使用此區段設定 macOS Server 文件提供者</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="321"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="324"/>
         <source>Use this section to configure Managed Domains</source>
         <translation>使用此區段設定受管理網域</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="325"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="328"/>
         <source>Use this section to specify how managed apps use cellular data networks</source>
         <translation>使用此區段指定受管理應用程式如何使用行動數據網路</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="327"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="330"/>
         <source>iOS 9.3+</source>
         <translation>iOS 9.3+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="330"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="333"/>
         <source>Use this section to configure Google accounts.The user will be prompted to sign in to the configured accounts.</source>
         <translation>使用此區段設定 Google 帳戶。將提示使用者登入至已設定的帳戶。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="335"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="338"/>
         <source>Use this section to configure home screen layout. These settings will only affect supervised devices.</source>
         <translation>使用此區段設定主畫面版面配置。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="340"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="343"/>
         <source>Use this section to define text to be displayed in the login window and lock screen. These settings will only affect supervised devices.</source>
         <translation>使用此區段定義登入視窗和鎖定螢幕中顯示的文字。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="488"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
         <source>Use this section to configure DNS proxy settings. These settings will only affect supervised devices.</source>
         <translation>使用此區段進行 DNS proxy 設定。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="343"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="346"/>
         <source>iOS 11.3+</source>
         <translation>iOS 11.3+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="346"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="158"/>
+        <source>Managing profiles for Apple device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="349"/>
         <source>Use this section to configure the list of Apple TVs that can be controlled using the Remote app. These settings will only affect supervised devices.</source>
         <translation>使用此區段設定可使用遙控器應用程式控制的 Apple TV 清單。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="349"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="352"/>
         <source>iOS 14.2+</source>
         <translation>iOS 14.2+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="350"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="353"/>
         <source>Use this section to configure certificate revocation settings.</source>
         <translation>使用此區段進行憑證撤銷設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="352"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="355"/>
         <source>macOS 10.5+</source>
         <translation>macOS 10.5+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="355"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="358"/>
         <source>Use this section to define custom settings.</source>
         <translation>使用此區段定義自訂設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="360"/>
         <source>Use this section to define settings for Directory.</source>
         <translation>使用此區段定義目錄的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="363"/>
         <source>Use this section to define settings for Dock.</source>
         <translation>使用此區段定義 Dock 的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="362"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="365"/>
         <source>Use this section to configure settings for Energy Saver.</source>
         <translation>使用此區段進行能源節約程式的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="366"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="369"/>
         <source>Use this section to configure settings for Finder.</source>
         <translation>使用此區段進行 Finder 設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="370"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="373"/>
         <source>Use this section to specify settings for the items that run at login</source>
         <translation>使用此區段指定登入時執行的項目的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="376"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="379"/>
         <source>Use this section to specify settings for the behavior and appearence of the Login Window</source>
         <translation>使用此區段指定登入視窗行為和外觀的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="380"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="383"/>
         <source>Use this section to define settings for Mobility and Portable Home Directories.</source>
         <translation>使用此區段定義行動性和可攜式主目錄的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="383"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="386"/>
         <source>Use this section to define settings for Parental Controls.</source>
         <translation>使用此區段定義家長監護的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="387"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="390"/>
         <source>Use this section to define settings for Printing.</source>
         <translation>使用此區段定義列印設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="399"/>
         <source>Use this section to specify settings related to app and content restrictions.(Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation>使用此區段指定與應用程式和內容限制相關的設定。（在安裝組態設定檔後，使用者將無法在其裝置上修改這些設定。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="401"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="404"/>
         <source>Use this section to define Universal Access settings.</source>
         <translation>使用此區段定義通用存取設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="406"/>
         <source>macOS 10.7+</source>
         <translation>macOS 10.7+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="404"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="407"/>
         <source>Use this section to specify settings for Active Directory Certificates</source>
         <translation>使用此區段指定 Active Directory 憑證的設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="405"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="408"/>
         <source>Use this section to specify Identification settings for OSX.</source>
         <translation>使用此區段指定 OSX 的識別設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="406"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="409"/>
         <source>Use this section to define settings for Messages.</source>
         <translation>使用此區段定義訊息設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="411"/>
         <source>Use this section to configure proxies</source>
         <translation>使用此區段設定 proxy</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="409"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="412"/>
         <source>Use this section to configure settings for Time Machine.</source>
         <translation>使用此區段進行 Time Machine 的設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="417"/>
         <source>Use this section to configure Xsan</source>
         <translation>使用此區段設定 Xsan</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="416"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="419"/>
         <source>macOS 10.9+</source>
         <translation>macOS 10.9+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="423"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="426"/>
         <source>Use this section to define settings for Disk Encryption.</source>
         <translation>使用此區段定義磁碟加密設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="425"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="428"/>
         <source>macOS 10.12+</source>
         <translation>macOS 10.12+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="428"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="431"/>
         <source>Use this section to configure smart card security settings for macOS</source>
         <translation>使用此區段設定 macOS 的智慧卡安全性設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="431"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="434"/>
         <source>Use this section to configure system migration settings</source>
         <translation>使用此區段進行系統移轉設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="434"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="437"/>
         <source>Use this section to configure time server settings</source>
         <translation>使用此區段進行時間伺服器設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="435"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="438"/>
         <source>macOS 10.13+</source>
         <translation>macOS 10.13+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="438"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="441"/>
         <source>Use this section to configure allowed extensions on macOS</source>
         <translation>使用此區段設定 macOS 上允許的擴充功能</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="439"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="442"/>
         <source>macOS 10.13.2+</source>
         <translation>macOS 10.13.2+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="442"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="445"/>
         <source>Use this section to configure kernel extensions policy on macOS</source>
         <translation>使用此區段設定 macOS 上的核心擴充功能原則</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="443"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="446"/>
         <source>macOS 10.13.4+</source>
         <translation>macOS 10.13.4+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="446"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="449"/>
         <source>Use this section to configure content caching settings on macOS</source>
         <translation>使用此區段進行 macOS 上的內容快取設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="447"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="450"/>
         <source>macOS 10.14+</source>
         <translation>macOS 10.14+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="453"/>
         <source>Use this section to define settings for Privacy.</source>
         <translation>使用此區段定義隱私權設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="451"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="454"/>
         <source>macOS 10.15+</source>
         <translation>macOS 10.15+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="457"/>
         <source>Use this section to configure an app&apos;s associated domains.</source>
         <translation>使用此區段設定應用程式的關聯網域。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="457"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="460"/>
         <source>Use this section to configure system extensions policy on macOS</source>
         <translation>使用此區段設定 macOS 上的系統擴充功能原則</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="460"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="463"/>
         <source>Use this section to configure content filter settings for macOS.</source>
         <translation>使用此區段進行 macOS 的內容篩選設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="465"/>
         <source>tvOS</source>
         <translation>tvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="468"/>
         <source>Use this section to configure settings for AirPlay security.</source>
         <translation>使用此區段進行 AirPlay 安全性設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="468"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="471"/>
         <source>Use this section to put a supervised Apple TV into Conference Room Display mode.</source>
         <translation>使用此區段將受監督的 Apple TV 進入 Conference Room Display 模式。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="471"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="474"/>
         <source>Use this section to configure tvOS home screen layout. These settings will only affect supervised devices.</source>
         <translation>使用此區段設定 tvOS 主畫面版面配置。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="475"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="478"/>
         <source>Use this section to configure restrictions for Apple TV.</source>
         <translation>使用此區段設定 Apple TV 的限制。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="482"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
         <source>Use this section to configure the list of iOS devices that can control the Apple TV(s). These settings will only affect supervised devices.</source>
         <translation>使用此區段設定可控制 Apple TV 的 iOS 裝置清單。這些設定將僅影響受監督的裝置。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="488"/>
         <source>iOS 11.0+ and macOS 10.15+</source>
         <translation>iOS 11.0+ 和 macOS 10.15+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="494"/>
         <source>iOS 13.0+ and macOS 10.15+</source>
         <translation>iOS 13.0+ 和 macOS 10.15+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="492"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="495"/>
         <source>Use this section to configure single sign-on app extensions.</source>
         <translation>使用此區段設定單一登入應用程式擴充功能。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="494"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="497"/>
         <source>iOS 14.0+ and macOS 11.0+</source>
         <translation>iOS 14.0+ 和 macOS 11.0+</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="495"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="498"/>
         <source>Use this section to configure DNS settings.</source>
         <translation>使用此區段進行 DNS 設定。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="510"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="513"/>
         <source>Subtitle</source>
         <translation>副標題</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="535"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="699"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="702"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="536"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="539"/>
         <source>Mandatory</source>
         <translation>必填</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="541"/>
         <source>%1 payload(s) configured.</source>
         <translation>已設定 %1 承載。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="540"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="543"/>
         <source>Not configured</source>
         <translation>未設定</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="582"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="585"/>
         <source>SCEP</source>
         <translation>SCEP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="849"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="852"/>
         <source>This profile is now invalid because Disk Encryption must be managed via FDE assistant. FDE parts will be removed.</source>
         <translation>此設定檔現在無效，因為磁碟加密必須經由 FDE 小幫手進行管理。FDE 部分將被移除。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="907"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="910"/>
         <source>Profile</source>
         <translation>設定檔</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="919"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="922"/>
         <source>The profile must contain 1 or more payloads</source>
         <translation>設定檔必須包含 1 個或多個承載</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="925"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="928"/>
         <source>This profile has %1 error</source>
         <translation>此設定檔有 %1 個錯誤</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="927"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="930"/>
         <source>This profile has %1 errors</source>
         <translation>此設定檔有 %1 個錯誤</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="936"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="939"/>
         <source>Payloads &apos;%1&apos; and &apos;%2&apos; can&apos;t be used together</source>
         <translation>承載「%1」和「%2」 不能一起使用</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="946"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="949"/>
         <source>Please correct the error before continuing</source>
         <translation>請先更正錯誤，然後繼續</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="969"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="972"/>
         <source>1 validation error</source>
         <translation>1 個驗證错误</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="973"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="976"/>
         <source>%1 validation errors</source>
         <translation>%1 個驗證錯誤</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1064"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1067"/>
         <source>Unsaved Changes</source>
         <translation>未儲存變更</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1065"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1068"/>
         <source>Are you sure you want to close?  Your changes will be lost.</source>
         <translation>是否確定要關閉？  您的變更將丟失。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1068"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1071"/>
         <source>Discard Changes</source>
         <translation>捨棄變更</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1147"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1150"/>
         <source>Could not parse plist from profile data</source>
         <translation>無法剖析來自設定檔資料的 plist</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1165"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1179"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1168"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1182"/>
         <source>Disk encryption profiles cannot be imported.</source>
         <translation>無法匯入磁碟加密設定檔。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1171"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1174"/>
         <source>Would you like to import without disk encryption payloads?
 
 Note: the profile will not be signed and disk encryption payloads will be removed.</source>
@@ -2604,24 +2609,24 @@ Note: the profile will not be signed and disk encryption payloads will be remove
 註：設定檔將不會被簽署，磁碟加密承載將被移除。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1177"/>
         <source>Would you like to import without disk encryption payloads?</source>
         <translation>是否想在沒有磁碟加密承載的情況下匯入？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1222"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1225"/>
         <source>
 
 Note: signed profiles won&apos;t be modified but will not use Per-App-VPN.</source>
         <translation>註：將不會修改已簽署設定檔，但將不會使用 Per-App-VPN。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1229"/>
         <source>Could not find Per-App-VPN referenced by several payloads; VPN UUID information has been cleared for these payloads.%1</source>
         <translation>無法找到由幾個承載參考的個別應用程式的-VPN；已清除這些承載的 VPN UUID 資訊。%1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1227"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1230"/>
         <source>Could not find Per-App-VPN referenced by one payload; VPN UUID information has been cleared for this payload.%1</source>
         <translation>無法找到由一個承載參考的個別應用程式的-VPN；已清除為此承載的 VPN UUID 資訊。%1</translation>
     </message>
@@ -4927,8 +4932,8 @@ You must still wipe it manually.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="227"/>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="316"/>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="377"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="379"/>
         <source>Cannot create mobile configuration fileset.</source>
         <translation>無法建立行動組態檔案集。</translation>
     </message>
@@ -4938,22 +4943,27 @@ You must still wipe it manually.</source>
         <translation>檔案 %1 中設定檔的承載識別碼無效。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="244"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="235"/>
+        <source>Managing profiles for Apple device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="246"/>
         <source>The profile payload identifiers differ.</source>
         <translation>設定檔承載識別碼不同。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="247"/>
         <source>The existing fileset has a different profile payload identifier Would you like to create a new fileset instead?</source>
         <translation>現有檔案集具有不同的設定檔承載識別碼。是否想要轉而建立新檔案集？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="268"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="270"/>
         <source>Another fileset already has the same profile payload identifier.</source>
         <translation>另一檔案集已具有相同的設定檔承載識別碼。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="272"/>
         <source>The existing fileset ID: %1 already has the profile payload identifier %2. Would you like to update this fileset?
 
 Note: the profile will not be signed if a new fileset is created.</source>
@@ -4962,52 +4972,52 @@ Note: the profile will not be signed if a new fileset is created.</source>
 註：如果建立新檔案集，將不會簽署該設定檔。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="274"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="276"/>
         <source>The existing fileset ID: %1 already has the profile payload identifier %2. Would you like to update this fileset?</source>
         <translation>現有檔案集 ID：%1 已具有設定檔承載識別碼 %2。是否想要更新此檔案集？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="278"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="280"/>
         <source>Update</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="279"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="281"/>
         <source>Create New</source>
         <translation>新建</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="319"/>
         <source>The selected profile has the profile payload identifier %1.  This identifier cannot be used.</source>
         <translation>所選設定檔已具有設定檔承載識別碼 %1。無法使用該識別碼。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="362"/>
         <source>Profile - </source>
         <translation>設定檔 - </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="380"/>
         <source>There was an error creating the new fileset on the server.</source>
         <translation>在伺服器上建立新檔案集時發生錯誤。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="395"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="397"/>
         <source>Cannot update mobile configuration fileset.</source>
         <translation>無法更新行動組態檔案集。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="398"/>
         <source>There was an error updating the fileset on the server.</source>
         <translation>在伺服器上更新檔案集時發生錯誤。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="472"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="474"/>
         <source>Select an .apk archive.</source>
         <translation>選取 .apk 封存。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="473"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="475"/>
         <source>Android Packages (*.apk)</source>
         <translation>Android 封裝 (*.apk)</translation>
     </message>
@@ -9433,6 +9443,22 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3925"/>
         <source>Failed to open Web Admin Url.</source>
         <translation>無法開啟 Web Admin URL。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3970"/>
+        <source>Open Web Console</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3976"/>
+        <source>Deprecated feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3977"/>
+        <source>%1 is deprecated in FileWave Native Admin console and will be removed in a future version.
+Please use Web Admin console instead.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -16828,8 +16854,8 @@ Please retry once editing is done.</source>
     <name>DEPAssociationDlg</name>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="345"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="379"/>
         <source>DEP Associations</source>
         <translation>DEP 關聯</translation>
     </message>
@@ -16900,71 +16926,71 @@ Please retry once editing is done.</source>
         <translation>同步</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="204"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="205"/>
         <source>Exclude</source>
         <translation>排除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="209"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="210"/>
         <source>Include</source>
         <translation>包含</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="214"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="220"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="729"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="732"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
         <source>Excluded</source>
         <translation>已排除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="217"/>
         <source>Included</source>
         <translation>已包括</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
         <source>iOS only</source>
         <translation>僅 iOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
         <source>macOS only</source>
         <translation>僅 macOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="224"/>
         <source>tvOS only</source>
         <translation>僅 tvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="246"/>
         <source>View</source>
         <translation>檢視</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="311"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="312"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="455"/>
         <source>Exclude device(s) from automatic assignment</source>
         <translation>從自動指派中排除裝置</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
         <source>Removing DEP Associations</source>
         <translation>正在移除 DEP 關聯</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="319"/>
         <source>Are you sure you want to remove the selected %1 association(s)?</source>
         <translation>是否確定要移除所選 %1 個關聯？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="322"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="323"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="466"/>
         <source>You can define if corresponding devices will be:
 - excluded from automatic rules (checked);
 - included in automatic rules process (unchecked);
@@ -16977,175 +17003,181 @@ Please retry once editing is done.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="345"/>
         <source>An error occurred while deleting associations:
 %1</source>
         <translation>刪除關聯時發生錯誤：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="379"/>
         <source>An error occurred while creating associations:
 %1</source>
         <translation>建立關聯時發生錯誤：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="449"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
         <source>Profile is used in rules</source>
         <translation>設定檔已在規則中使用</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="451"/>
         <source>Profile &quot;%1&quot; is used in assignment rules. Are you sure you want to remove it?</source>
         <translation>設定檔「%1」已在指派規則中使用。是否確定要移除？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="458"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
         <source>Profile is associated to devices</source>
         <translation>設定檔已關聯至裝置</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="460"/>
         <source>Profile &quot;%1&quot; is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation>設定檔「%1」已指派給 %2 個裝置，請查看詳細資料。是否確定要移除？設定檔關聯也將被移除。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="461"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
         <source>Profile is used in rules and associated to devices</source>
         <translation>設定檔已在規則中使用且已關聯至裝置</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="463"/>
         <source>Profile &quot;%1&quot; is used in assignment rules and is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation>設定檔「%1」已在指派規則中使用，且已指派給 %2 個裝置，請查看詳細資料。是否確定要移除？設定檔關聯也將被移除。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="589"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="751"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="526"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="591"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="754"/>
         <source>DEP Profile</source>
         <translation>DEP 設定檔</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="589"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="526"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="591"/>
         <source>An error occurred while retrieving information about profile:
 %1</source>
         <translation>擷取有關設定檔的資訊時發生錯誤：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="538"/>
         <source>Failed to delete DEP profile:
 %1</source>
         <translation>刪除 DEP 設定檔失敗：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="964"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="560"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="624"/>
+        <source>Editing or creating DEP profiles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="967"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
         <source>Another user is editing the selected profile</source>
         <translation>另一使用者正在編輯所選設定檔</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="633"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="636"/>
         <source>Failed to get DEP auto-assignment rules: error %1 %2</source>
         <translation>取得 DEP 自動指派規則失敗：錯誤 %1 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="665"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="668"/>
         <source>Replace existing associations</source>
         <translation>替換現有關聯</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="668"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="692"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="671"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="695"/>
         <source>Assign DEP profiles automatically</source>
         <translation>自動指派 DEP 設定檔</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="669"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="672"/>
         <source>%1 devices(s) will now be associated to a DEP profile if they match a profile assignment rule.</source>
         <translation>如果匹配設定檔指派規則，%1 裝置現在將關聯至一個 DEP 設定檔。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="693"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="696"/>
         <source>Failed to assign DEP profiles matching rules: error %1 %2</source>
         <translation>指派 DEP 設定檔匹配規則失敗：錯誤 %1 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="727"/>
         <source>DEP Accounts</source>
         <translation>DEP 帳戶</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="727"/>
         <source>Retrieving DEP accounts failed:
 %1</source>
         <translation>擷取 DEP 帳戶失敗：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="752"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="755"/>
         <source>Sending DEP profile failed:
 %1</source>
         <translation>傳送 DEP 設定檔失敗：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="816"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="819"/>
         <source>Automatic assignment rules</source>
         <translation>自動指派規則</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="839"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="842"/>
         <source>DEP Device Automatic Assignment</source>
         <translation>DEP 裝置自動指派</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="840"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="843"/>
         <source>Failed to set whether devices should be excluded from automatic assignment: %1</source>
         <translation>無法設定裝置是否應從自動指派中排除：%1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="850"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="853"/>
         <source> (full sync)</source>
         <translation>（完整同步）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="905"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="908"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation>錯誤：無法取得上次同步日期。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="911"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="914"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation>上次與 DEP Web 服務成功同步：%1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="915"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="918"/>
         <source>Never synchronized.</source>
         <translation>從未同步。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="956"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="959"/>
         <source>Sync with Apple</source>
         <translation>與 Apple 同步</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="957"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="960"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation>DEP 資料已成功與 Apple 同步</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="966"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="969"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation>無法同步一個或多個 DEP 帳戶。</translation>
     </message>
@@ -17153,7 +17185,7 @@ Please retry once editing is done.</source>
 <context>
     <name>DEPAssociationModel</name>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="131"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="132"/>
         <source>Profile Name</source>
         <translation>設定檔名稱</translation>
     </message>

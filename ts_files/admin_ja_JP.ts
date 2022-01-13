@@ -1992,610 +1992,615 @@ Server said (%1): %2</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="129"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="131"/>
         <source>Search</source>
         <translation>検索</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="251"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="254"/>
         <source>macOS, iOS and tvOS</source>
         <translation>macOS, iOSとｔｖOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="257"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="260"/>
         <source>Use this section to define settings for Interfaces.</source>
         <translation>このセクションでは、インターフェースの設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="256"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
         <source>Use this section to specify PKCS1 and PKCS12 certificates you want to install on the device. Add your corporate certificate, and other certificates necessary to authenticate the device&apos;s access to your network.</source>
         <translation>このセクションでは、デバイスにインストールするPKCS1およびPKCS12証明書を指定します。会社の証明書、およびデバイスのネットワークへのアクセスを認証するために必要なその他の証明書を追加します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="253"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="256"/>
         <source>Use this section to configure certificate transparency settings.</source>
         <translation>このセクションでは、証明書の透明性設定を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="258"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
         <source>Use this section to define settings for obtaining certificates from SCEP servers</source>
         <translation>このセクションでは、SCEPサーバーから証明書を取得するための設定を定義します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="273"/>
         <source>Use this section to specify passcode policies. (Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation>このセクションでは、パスコードポリシーを指定します。（構成プロファイルがインストールされると、ユーザーは自分のデバイスでこれらの設定を変更できなくなります。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="265"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="268"/>
         <source>Use this section to define settings for connecting to your POP or IMAP accounts.</source>
         <translation>このセクションでは、POPまたはIMAPアカウントに接続するための設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="266"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="269"/>
         <source>Use this section to define settings for connecting to your Exchange server.</source>
         <translation>このセクションでは、エクスチェンジサーバーに接続するための設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="269"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="272"/>
         <source>Use this section to define settings for configuration access to LDAP servers</source>
         <translation>このセクションでは、LDAPサーバーへのアクセスの構成の設定を定義します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="264"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
         <source>Use this section to define settings for configuration access to CardDAV servers</source>
         <translation>このセクションでは、CardDAVサーバーへのアクセスの構成の設定を定義します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="263"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="266"/>
         <source>Use this section to define settings for configuration access to CalDAV servers</source>
         <translation>このセクションでは、CalDAVサーバーへのアクセスの構成の設定を定義します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="279"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="282"/>
         <source>Use this section to configure how the device connects to your wireless network via VPN, including the necessary authentication information.</source>
         <translation>このセクションでは、必要な認証情報を含めたデバイスがVPN経由でワイヤレスネットワークに接続する方法を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="280"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="283"/>
         <source>Use this section to configure Web Clips.</source>
         <translation>このセクションでは、Webクリップを構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="278"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="281"/>
         <source>Use this section to define settings for Security and Privacy.</source>
         <translation>このセクションでは、セキュリティとプライバシーの設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="267"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="270"/>
         <source>Use this section to specify font settings.</source>
         <translation>このセクションでは、フォント設定を指定します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="283"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
         <source>Use this section to define settings for connecting to AirPlay destinations.</source>
         <translation>このセクションでは、AirPlay接続先に接続するための設定を遅疑します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="284"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="287"/>
         <source>Use this section to define commands setting such as Voice or Data Roaming, Wallpaper, Bluetooth or Remote Desktop. These commands will be sent for each verify.</source>
         <translation>このセクションでは、音声またはデータローミング、壁紙、Bluetooth、またはリモートデスクトップなどのコマンド設定を定義します。これらのコマンドは検証毎に送信されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="292"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="295"/>
         <source>iOS and tvOS</source>
         <translation>iOS とtvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="294"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="297"/>
         <source>Use this section to configure settings for a proxy server through which all HTTP traffic from the device will pass. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、デバイスからのすべてのHTTPトラフィックが通過するプロキシサーバーの設定を構成します。これらの設定は監視モードデバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="298"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="301"/>
         <source>iOS</source>
         <translation>iOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="300"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="303"/>
         <source>Use this section to specify settings related to application and content restrictions. (Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation>このセクションでは、アプリとコンテンツの制限に関連する設定を指定します。（構成プロファイルがインストールされると、ユーザーは自分のデバイスでこれらの設定を変更できなくなります。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="304"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="307"/>
         <source>Use this section to define settings for calendar subscriptions.</source>
         <translation>このセクションを使ってカレンダー購読の設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="299"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="302"/>
         <source>Use this section to specify advanced settings, such as a carrier Access Point Name (APN). (These settings should be managed only by trained professionals.)</source>
         <translation>このセクションでは、通信事業者のアクセスポイント名（APN）などの詳細設定を指定します。（これらの設定は訓練を受けた専門家によってのみ管理されるべきです。）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="302"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="478"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="305"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="481"/>
         <source>Use this section to specify the app to which the device should be locked to. This setting will only affect supervised devices.</source>
         <translation>このセクションでは、デバイスをロックするアプリを指定します。この設定は監視モードデバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="306"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="309"/>
         <source>iOS 7+</source>
         <translation>iOS 7以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="307"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="310"/>
         <source>Use this section to define settings for connecting to AirPrint printers.</source>
         <translation>このセクションでは、AirPrintプリンターに接続ための設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="310"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="313"/>
         <source>Use this section to configure which URLs can be accessed by the device.</source>
         <translation>このセクションでは、デバイスからアクセスできるURLを設定します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="309"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="312"/>
         <source>Use this section to configure Single Sign-On</source>
         <translation>このセクションでは、シングルサインオンを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="308"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="311"/>
         <source>Use this section to configure add-on VPN software.</source>
         <translation>このセクションでは、アドオンVPNソフトを構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="312"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="315"/>
         <source>iOS 8+</source>
         <translation>iOS 8以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="321"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="324"/>
         <source>Use this section to configure Managed Domains</source>
         <translation>このセクションでは、管理対象ドメインを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="320"/>
         <source>Use this section to configure macOS Server document providers</source>
         <translation>このセクションでは、macOSサーバーのドキュメントプロバイダを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="325"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="328"/>
         <source>Use this section to specify how managed apps use cellular data networks</source>
         <translation>このセクションでは、管理対象アプリが通信事業者データネットワークを使用する方法を指定します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="313"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="316"/>
         <source>Use this section to cellular network settings. (In iOS 7 and later, the APN payload is deprecated in favor of the Cellular payload..)</source>
         <translation>このセクションでは、通信事業者ネットワークを指定します。（iOS7以降では、APNペイロードはモバイル通信ペイロードを支持して廃止予定です）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="327"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="330"/>
         <source>iOS 9.3+</source>
         <translation>iOS 9.3以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="335"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="338"/>
         <source>Use this section to configure home screen layout. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、ホーム画面のレイアウトを構成します。これらの設定は監視モードデバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="340"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="343"/>
         <source>Use this section to define text to be displayed in the login window and lock screen. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、ログイン画面とロック画面で表示するテキストを定義します。これらの設定は監視モードデバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="330"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="333"/>
         <source>Use this section to configure Google accounts.The user will be prompted to sign in to the configured accounts.</source>
         <translation>このセクションでは、Googleアカウントを構成します。ユーザーは構成されたアカウントにサインインするように求められます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="289"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="292"/>
         <source>Use this section to configure notification settings for apps. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、アプリの通知設定を構成します。これらの設定は監視モードデバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="488"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
         <source>Use this section to configure DNS proxy settings. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、DNSプロキシ設定を構成します。これらの設定は監視モードデバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="343"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="346"/>
         <source>iOS 11.3+</source>
         <translation>iOS 11.3以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="346"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="349"/>
         <source>Use this section to configure the list of Apple TVs that can be controlled using the Remote app. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、リモートアプリを使用して制御できるApple TVのリストを構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="376"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="379"/>
         <source>Use this section to specify settings for the behavior and appearence of the Login Window</source>
         <translation>このセクションでは、ログイン画面の動作と外環の設定を指定します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="370"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="373"/>
         <source>Use this section to specify settings for the items that run at login</source>
         <translation>このセクションでは、ログイン時に実行される項目の設定を指定します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="380"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="383"/>
         <source>Use this section to define settings for Mobility and Portable Home Directories.</source>
         <translation>このセクションでは、モバイルとポータブルホームディレクトリーの設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="387"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="390"/>
         <source>Use this section to define settings for Printing.</source>
         <translation>このセクションでは、印刷の設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="383"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="386"/>
         <source>Use this section to define settings for Parental Controls.</source>
         <translation>このセクションでは、ペアレンタルコントロールの設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="366"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="369"/>
         <source>Use this section to configure settings for Finder.</source>
         <translation>このセクションでは、Finderの設定を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="401"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="404"/>
         <source>Use this section to define Universal Access settings.</source>
         <translation>このセクションでは、ユニバーサルアクセス設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="355"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="358"/>
         <source>Use this section to define custom settings.</source>
         <translation>このセクションでは、カスタム設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="357"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="360"/>
         <source>Use this section to define settings for Directory.</source>
         <translation>このセクションでは、ディレクトリ設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="362"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="365"/>
         <source>Use this section to configure settings for Energy Saver.</source>
         <translation>このセクションでは、省エネルギー設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="405"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="408"/>
         <source>Use this section to specify Identification settings for OSX.</source>
         <translation>このセクションでは、OSXの識別子設定を指定します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="406"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="409"/>
         <source>Use this section to define settings for Messages.</source>
         <translation>このセクションでは、メッセージ設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="404"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="407"/>
         <source>Use this section to specify settings for Active Directory Certificates</source>
         <translation>このセクションでは、Active Directory証明書の設定を定義します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="409"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="412"/>
         <source>Use this section to configure settings for Time Machine.</source>
         <translation>このセクションでは、Time Machineの設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="414"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="417"/>
         <source>Use this section to configure Xsan</source>
         <translation>このセクションでは、Xsanを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="408"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="411"/>
         <source>Use this section to configure proxies</source>
         <translation>このセクションでは、プロキシを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="423"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="426"/>
         <source>Use this section to define settings for Disk Encryption.</source>
         <translation>このセクションでは、ディスク暗号化設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="428"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="431"/>
         <source>Use this section to configure smart card security settings for macOS</source>
         <translation>このセクションでは、macOSのスマートカードのセキュリティ設定を構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="431"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="434"/>
         <source>Use this section to configure system migration settings</source>
         <translation>このセクションでは、システムの移行を構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="434"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="437"/>
         <source>Use this section to configure time server settings</source>
         <translation>このセクションでは、タイムサーバー設定を構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="438"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="441"/>
         <source>Use this section to configure allowed extensions on macOS</source>
         <translation>このセクションでは、macOSのエクステンションの許可を構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="442"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="445"/>
         <source>Use this section to configure kernel extensions policy on macOS</source>
         <translation>このセクションでは、macOSのカーネルエクステンションポリシーを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="446"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="449"/>
         <source>Use this section to configure content caching settings on macOS</source>
         <translation>このセクションでは、macOSのコンテンツキャッシュ設定を構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="261"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="264"/>
         <source>iOS and macOS 10.7+</source>
         <translation>iOSとmacOS 10.7以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="159"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="162"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="159"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="162"/>
         <source>Another user is editing the selected profile</source>
         <translation>別のユーザーが選択したプロファイルを編集中です</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="282"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="285"/>
         <source>iOS and macOS 10.10+</source>
         <translation>iOSとmacOS 10.10以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="286"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="289"/>
         <source>iOS and macOS 10.15+</source>
         <translation>iOSとmacOS 10.15以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="352"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="355"/>
         <source>macOS 10.5+</source>
         <translation>macOS 10.5以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="399"/>
         <source>Use this section to specify settings related to app and content restrictions.(Users will not be able to modify these settings on their devices once the configuration profile is installed.)</source>
         <translation>このセクションでは、アプリとコンテンツの制限に関連する設定を指定します。（構成プロファイルがインストールされると、ユーザーはデバイスでこれらの設定を変更できなくなります）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="363"/>
         <source>Use this section to define settings for Dock.</source>
         <translation>このセクションでは、Dockの設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="403"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="406"/>
         <source>macOS 10.7+</source>
         <translation>macOS 10.7以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="416"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="419"/>
         <source>macOS 10.9+</source>
         <translation>macOS 10.9以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="425"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="428"/>
         <source>macOS 10.12+</source>
         <translation>macOS 10.12以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="435"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="438"/>
         <source>macOS 10.13+</source>
         <translation>macOS 10.13以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="439"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="442"/>
         <source>macOS 10.13.2+</source>
         <translation>macOS 1013.2以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="443"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="446"/>
         <source>macOS 10.13.4+</source>
         <translation>macOS 10.13.4以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="447"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="450"/>
         <source>macOS 10.14+</source>
         <translation>macOS 10.14以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="453"/>
         <source>Use this section to define settings for Privacy.</source>
         <translation>このセクションでは、プライバシー設定を定義します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="451"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="454"/>
         <source>macOS 10.15+</source>
         <translation>macOS 1015以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="457"/>
         <source>Use this section to configure an app&apos;s associated domains.</source>
         <translation>このセクションでは、アプリの関連ドメインを構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="457"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="460"/>
         <source>Use this section to configure system extensions policy on macOS</source>
         <translation>このセクションを使ってmacOSのシステムエクステンションポリシーを構成します</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="465"/>
         <source>tvOS</source>
         <translation>tvOS</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="475"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="478"/>
         <source>Use this section to configure restrictions for Apple TV.</source>
         <translation>このセクションでは、Apple TVの制限を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="468"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="471"/>
         <source>Use this section to put a supervised Apple TV into Conference Room Display mode.</source>
         <translation>このセクションでは、監視モードのApple TVを会議室のディスプレイモードにします。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="259"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="158"/>
+        <source>Managing profiles for Apple device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="262"/>
         <source>Use this section to configure the Setup Assistant.</source>
         <translation>このセクションを使ってのセットアップアシスタントを構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="349"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="352"/>
         <source>iOS 14.2+</source>
         <translation>iOS 14.2以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="350"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="353"/>
         <source>Use this section to configure certificate revocation settings.</source>
         <translation>このセクションでは、証明書の失効設定を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="460"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="463"/>
         <source>Use this section to configure content filter settings for macOS.</source>
         <translation>このセクションでは、macOSのコンテンツフィルター設定を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="468"/>
         <source>Use this section to configure settings for AirPlay security.</source>
         <translation>このセクションでは、AirPlayセキュリティを構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="471"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="474"/>
         <source>Use this section to configure tvOS home screen layout. These settings will only affect supervised devices.</source>
         <translation>このセクションでは、tvOSのホーム画面のレイアウトを構成します。これらの設定は監視モードののデバイスでのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="482"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
         <source>Use this section to configure the list of iOS devices that can control the Apple TV(s). These settings will only affect supervised devices.</source>
         <translation>このセクションでは、Apple TVを制御できるiOSデバイスリストを構成します。これらの設定は監視対象デバイスにのみ影響します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="485"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="488"/>
         <source>iOS 11.0+ and macOS 10.15+</source>
         <translation>iOS 11.0以降とmacOS 10.15以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="491"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="494"/>
         <source>iOS 13.0+ and macOS 10.15+</source>
         <translation>iOS 13.0以降とmacOS 10.15以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="492"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="495"/>
         <source>Use this section to configure single sign-on app extensions.</source>
         <translation>このセクションでは、シングルサインオンアプリ拡張機能を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="494"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="497"/>
         <source>iOS 14.0+ and macOS 11.0+</source>
         <translation>iOS 14.0以降とmacOS 11.0以降</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="495"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="498"/>
         <source>Use this section to configure DNS settings.</source>
         <translation>このセクションを使ってDNS設定を構成します。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="510"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="513"/>
         <source>Subtitle</source>
         <translation>サブタイトル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="535"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="699"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="702"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="536"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="539"/>
         <source>Mandatory</source>
         <translation>必須</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="541"/>
         <source>%1 payload(s) configured.</source>
         <translation>%1 ペイロードを構成しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="540"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="543"/>
         <source>Not configured</source>
         <translation>未構成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="582"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="585"/>
         <source>SCEP</source>
         <translation>SCEP</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="849"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="852"/>
         <source>This profile is now invalid because Disk Encryption must be managed via FDE assistant. FDE parts will be removed.</source>
         <translation>FDEアシスタントを介してディスク暗号化を管理する必要があるため、このプロファイルは現在無効です。FDEパーツは削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="907"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="910"/>
         <source>Profile</source>
         <translation>プロファイル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="919"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="922"/>
         <source>The profile must contain 1 or more payloads</source>
         <translation>プロファイルは１つ以上のペイロードを含む必要があります</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="925"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="928"/>
         <source>This profile has %1 error</source>
         <translation>このプロファイルは %1 のエラーがあります</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="927"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="930"/>
         <source>This profile has %1 errors</source>
         <translation>このプロファイルは %1 のエラーがあります</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="936"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="939"/>
         <source>Payloads &apos;%1&apos; and &apos;%2&apos; can&apos;t be used together</source>
         <translation>ペイロード &apos;%1&apos; と &apos;%2&apos; は同時に利用できません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="946"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="949"/>
         <source>Please correct the error before continuing</source>
         <translation>続行する前にエラーを訂正してください</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="969"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="972"/>
         <source>1 validation error</source>
         <translation>1 バリテーションエラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="973"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="976"/>
         <source>%1 validation errors</source>
         <translation>%1 バリテーションエラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1064"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1067"/>
         <source>Unsaved Changes</source>
         <translation>変更を保存しない</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1065"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1068"/>
         <source>Are you sure you want to close?  Your changes will be lost.</source>
         <translation>本当に閉じてよろしいですか？変更は更新されません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1068"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1071"/>
         <source>Discard Changes</source>
         <translation>変更を破棄</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1147"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1150"/>
         <source>Could not parse plist from profile data</source>
         <translation>プロファイルデータからplistを解析できません</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1165"/>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1179"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1168"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1182"/>
         <source>Disk encryption profiles cannot be imported.</source>
         <translation>ストレージ暗号化プロファイルはインポートできません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1171"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1174"/>
         <source>Would you like to import without disk encryption payloads?
 
 Note: the profile will not be signed and disk encryption payloads will be removed.</source>
@@ -2604,24 +2609,24 @@ Note: the profile will not be signed and disk encryption payloads will be remove
 注意：このプロファイルは署名されず、ストレージ暗号化ペイロードは削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1174"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1177"/>
         <source>Would you like to import without disk encryption payloads?</source>
         <translation>ストレージ暗号化ペイロード以外をインポートしますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1222"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1225"/>
         <source>
 
 Note: signed profiles won&apos;t be modified but will not use Per-App-VPN.</source>
         <translation>注: 署名されたプロファイルは変更されませんがアプリごとのVPNが利用されません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1226"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1229"/>
         <source>Could not find Per-App-VPN referenced by several payloads; VPN UUID information has been cleared for these payloads.%1</source>
         <translation>複数のペイロードが参照するアプリごとのVPNを見つけることができませんでした。VPN UUID情報がこれらのペイロードに対しクリアされています。%1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1227"/>
+        <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="1230"/>
         <source>Could not find Per-App-VPN referenced by one payload; VPN UUID information has been cleared for this payload.%1</source>
         <translation>一つのペイロードが参照するアプリごとのVPNを見つけることができませんでした。VPN UUID情報はこのペイロードに対しクリアされています。%1</translation>
     </message>
@@ -4925,8 +4930,8 @@ You must still wipe it manually.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="227"/>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="316"/>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="377"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="379"/>
         <source>Cannot create mobile configuration fileset.</source>
         <translation>モバイル構成ファイルセットを作成できません。</translation>
     </message>
@@ -4936,22 +4941,27 @@ You must still wipe it manually.</source>
         <translation>ファイル %1 のプロファイルに無効なペイロード識別子があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="244"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="235"/>
+        <source>Managing profiles for Apple device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="246"/>
         <source>The profile payload identifiers differ.</source>
         <translation>プロファイルペイロード識別子が違います。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="247"/>
         <source>The existing fileset has a different profile payload identifier Would you like to create a new fileset instead?</source>
         <translation>既存のファイルセットには異なるプロファイルペイロード識別子があります。新しいファイルセットを作成しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="268"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="270"/>
         <source>Another fileset already has the same profile payload identifier.</source>
         <translation>別のファイルセットには既に同じプロファイルペイロード識別子があります。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="270"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="272"/>
         <source>The existing fileset ID: %1 already has the profile payload identifier %2. Would you like to update this fileset?
 
 Note: the profile will not be signed if a new fileset is created.</source>
@@ -4960,52 +4970,52 @@ Note: the profile will not be signed if a new fileset is created.</source>
 ※: 新しいファイルセットが作成されると、プロファイルは署名されません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="274"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="276"/>
         <source>The existing fileset ID: %1 already has the profile payload identifier %2. Would you like to update this fileset?</source>
         <translation>既存のファイルセットID %1 には既にプロファイルペイロード識別子 %2 があります。このファイルセットを更新しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="278"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="280"/>
         <source>Update</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="279"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="281"/>
         <source>Create New</source>
         <translation>新規作成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="319"/>
         <source>The selected profile has the profile payload identifier %1.  This identifier cannot be used.</source>
         <translation>選択したプロファイルにはプロファイルペイロード識別子 %1 があります。この識別子は使用できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="362"/>
         <source>Profile - </source>
         <translation>プロフィル - </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="380"/>
         <source>There was an error creating the new fileset on the server.</source>
         <translation>サーバーで新規ファイルセットを作成時にエラーが発生しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="395"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="397"/>
         <source>Cannot update mobile configuration fileset.</source>
         <translation>モバイル構成ファイルセットを更新できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="396"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="398"/>
         <source>There was an error updating the fileset on the server.</source>
         <translation>サーバーでファイルセットを更新中にエラーが発生しました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="472"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="474"/>
         <source>Select an .apk archive.</source>
         <translation>.apkアーカイブを選択してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="473"/>
+        <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="475"/>
         <source>Android Packages (*.apk)</source>
         <translation>Androidパッケージ (*.apk)</translation>
     </message>
@@ -9259,6 +9269,22 @@ log out and log back into the FileWave™ system.</source>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3879"/>
         <source>Failed to remove Per-App VPN payloads and usages.</source>
         <translation>アプリごとのVPNペイロードと使用状況を削除できませんでした。</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3970"/>
+        <source>Open Web Console</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3976"/>
+        <source>Deprecated feature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3977"/>
+        <source>%1 is deprecated in FileWave Native Admin console and will be removed in a future version.
+Please use Web Admin console instead.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2518"/>
@@ -16831,8 +16857,8 @@ Please retry once editing is done.</source>
     <name>DEPAssociationDlg</name>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.ui" line="14"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="345"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="379"/>
         <source>DEP Associations</source>
         <translation>DEPアソシエーション（配布）</translation>
     </message>
@@ -16903,71 +16929,71 @@ Please retry once editing is done.</source>
         <translation>同期</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="204"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="205"/>
         <source>Exclude</source>
         <translation>除外する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="209"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="210"/>
         <source>Include</source>
         <translation>含む</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="214"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="220"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="729"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="732"/>
         <source>All</source>
         <translation>すべて</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="215"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
         <source>Excluded</source>
         <translation>除外した</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="216"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="217"/>
         <source>Included</source>
         <translation>含めた</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="221"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
         <source>iOS only</source>
         <translation>iOSのみ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="222"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
         <source>macOS only</source>
         <translation>mac0Sのみ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="223"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="224"/>
         <source>tvOS only</source>
         <translation>tvOSのみ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="245"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="246"/>
         <source>View</source>
         <translation>ビュー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="311"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="454"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="312"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="455"/>
         <source>Exclude device(s) from automatic assignment</source>
         <translation>自動割り当てからデバイスを除外する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="317"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
         <source>Removing DEP Associations</source>
         <translation>DEPアソシエーション（配布）を削除</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="318"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="319"/>
         <source>Are you sure you want to remove the selected %1 association(s)?</source>
         <translation>選択した %1 アソシエーション（配布）を削除してもよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="322"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="465"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="323"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="466"/>
         <source>You can define if corresponding devices will be:
 - excluded from automatic rules (checked);
 - included in automatic rules process (unchecked);
@@ -16980,175 +17006,181 @@ Please retry once editing is done.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="344"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="345"/>
         <source>An error occurred while deleting associations:
 %1</source>
         <translation>アソシエーション（配布）の削除中にエラーが発生しました：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="378"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="379"/>
         <source>An error occurred while creating associations:
 %1</source>
         <translation>アソシエーション（配布）の作成中にエラーが発生しました：
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="449"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
         <source>Profile is used in rules</source>
         <translation>プロファイルは規則で使用されています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="450"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="451"/>
         <source>Profile &quot;%1&quot; is used in assignment rules. Are you sure you want to remove it?</source>
         <translation>プロファイル &quot;%1&quot; は割り当て規則で使用されています。 削除してよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="458"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
         <source>Profile is associated to devices</source>
         <translation>プロファイルはデバイスに関連付けられています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="459"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="460"/>
         <source>Profile &quot;%1&quot; is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation>プロファイル &quot;%1&quot; は %2 デバイスに割り当てられています。詳細を確認してください。削除してよろしいですか？プロファイルアソシエーション（配布）も削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="461"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
         <source>Profile is used in rules and associated to devices</source>
         <translation>プロファイルは規則で使用され、デバイスに関連付けられています</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="462"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="463"/>
         <source>Profile &quot;%1&quot; is used in assignment rules and is assigned to %2 device(s), see details. Are you sure you want to remove it? Profile associations will be removed as well.</source>
         <translation>プロファイル &quot;%1&quot; が割り当て規則で使用され、 %2 デバイスに割り当てられています。詳細を確認してください。 削除してよろしいですか？ プロファイルの関連付けも削除されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="589"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="751"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="526"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="538"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="591"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="754"/>
         <source>DEP Profile</source>
         <translation>DEPプロファイル</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="525"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="589"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="526"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="591"/>
         <source>An error occurred while retrieving information about profile:
 %1</source>
         <translation>プロファイル情報を取得中にエラーが発生しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="537"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="538"/>
         <source>Failed to delete DEP profile:
 %1</source>
         <translation>DEPプロファイルの削除に失敗しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="560"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="624"/>
+        <source>Editing or creating DEP profiles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
         <source>Another user is editing the selected profile</source>
         <translation>別のユーザーが選択したプロファイルを編集中です</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="633"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="636"/>
         <source>Failed to get DEP auto-assignment rules: error %1 %2</source>
         <translation>DEP自動割り当て規則を取得できませんでした: エラー %1 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="665"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="668"/>
         <source>Replace existing associations</source>
         <translation>既存のアソシエーション（配布）を置換する</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="668"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="692"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="671"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="695"/>
         <source>Assign DEP profiles automatically</source>
         <translation>DEPプロファイルを自動的に割り当てる</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="669"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="672"/>
         <source>%1 devices(s) will now be associated to a DEP profile if they match a profile assignment rule.</source>
         <translation>プロファイル割り当て規則に一致すると、%1 デバイスがDEPプロファイルに関連付けられます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="693"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="696"/>
         <source>Failed to assign DEP profiles matching rules: error %1 %2</source>
         <translation>規則に一致するDEPプロファイルを割り当てることができませんでした: エラー %1 %2</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="727"/>
         <source>DEP Accounts</source>
         <translation>DEPアカウント</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="724"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="727"/>
         <source>Retrieving DEP accounts failed:
 %1</source>
         <translation>DEPアカウントの取得に失敗しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="752"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="755"/>
         <source>Sending DEP profile failed:
 %1</source>
         <translation>DEPプロファイルの送信に失敗しました:
 %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="816"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="819"/>
         <source>Automatic assignment rules</source>
         <translation>自動割り当て規則</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="839"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="842"/>
         <source>DEP Device Automatic Assignment</source>
         <translation>DEPデバイスの自動割り当て</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="840"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="843"/>
         <source>Failed to set whether devices should be excluded from automatic assignment: %1</source>
         <translation>デバイスを自動割り当てから除外するかどうかを設定できませんでした: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="850"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="853"/>
         <source> (full sync)</source>
         <translation>(完全同期)</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="905"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="908"/>
         <source>Error: Unable to get last synchronization date.</source>
         <translation>エラー: 最終同期日を取得できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="911"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="914"/>
         <source>Last successful synchronization with DEP Web Service: %1</source>
         <translation>DEP Webサービスとの最終同期成功: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="915"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="918"/>
         <source>Never synchronized.</source>
         <translation>同期していません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="956"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="959"/>
         <source>Sync with Apple</source>
         <translation>Appleと同期</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="957"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="960"/>
         <source>DEP data successfully synchronized with Apple</source>
         <translation>DEPデータがAppleと同期しました</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="618"/>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="964"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="967"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="966"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="969"/>
         <source>Could not synchronize one or more DEP accounts.</source>
         <translation>1つ以上のDEPアカウントを同期できませんでした。</translation>
     </message>
@@ -17156,7 +17188,7 @@ Please retry once editing is done.</source>
 <context>
     <name>DEPAssociationModel</name>
     <message>
-        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="131"/>
+        <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="132"/>
         <source>Profile Name</source>
         <translation>プロファイル名</translation>
     </message>
