@@ -39,89 +39,89 @@
         <translation>파일 검증 완료...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1514"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1515"/>
         <source>Downloading User Manifest</source>
         <translation>사용자 매니페스트 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1541"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1542"/>
         <source>Downloading Imaging Manifest</source>
         <translation>이미징 매니페스트 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1568"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1569"/>
         <source>Downloading Smart Filter Manifests</source>
         <translation>스마트 필터 매니페스트 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="1634"/>
-        <location filename="../../QtClient/Catalog.cpp" line="1652"/>
-        <location filename="../../QtClient/Catalog.cpp" line="2009"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1635"/>
+        <location filename="../../QtClient/Catalog.cpp" line="1653"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2010"/>
         <source>Running</source>
         <translation>실행 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3923"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3924"/>
         <source>Waiting for Booster - %1</source>
         <translation>부스터 - %1 대기 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3942"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3943"/>
         <source>%1 (or dependency of) not found on server</source>
         <translation>서버에서 %1(또는 종속 항목)을(를) 찾을 수 없음</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4292"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4293"/>
         <source>Downloading Fileset Container (%1)</source>
         <translation>파일 세트 컨테이너(%1) 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4294"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4295"/>
         <source>Processing requirements of %1</source>
         <translation>%1 요구 사항 처리 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4403"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4404"/>
         <source>The Hard Disk is Full...Cannot download new Filesets.</source>
         <translation>하드 디스크가 꽉 찼습니다...새 파일 세트를 다운로드할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4415"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4416"/>
         <source>Downloading fileset %1 of %2</source>
         <translation>파일 세트 %2 중 %1 다운로드 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4454"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4455"/>
         <source>Activating %1</source>
         <translation>%1 활성화 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4464"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4465"/>
         <source>Activating fileset %1 of %2</source>
         <translation>파일 세트 %2 중 %1 활성화하는 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4569"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4570"/>
         <source>Installing Software...</source>
         <translation>소프트웨어 설치 중...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4661"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4662"/>
         <source> Installation Failed</source>
         <translation> 설치 실패</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4669"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4670"/>
         <source> Installation Successfully</source>
         <translation> 설치 성공</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5020"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5021"/>
         <source>Updating %1 to new version</source>
         <translation>%1을(를) 새 버전으로 업데이트하는 중</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5583"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5584"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -134,7 +134,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5599"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5600"/>
         <source>Filesets not meeting requirements:
 
 </source>
@@ -143,7 +143,7 @@ Filesets in Inventory:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5614"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5615"/>
         <source>
 Worklist:
 
@@ -154,17 +154,17 @@ Worklist:
 </translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5624"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5625"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
         <translation>&lt;파일 세트 이름을 아직 알 수 없음 &gt; ID: %1, 수정 ID: %2</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5694"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5695"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation>데이터가 삭제되면 이 컴퓨터는 종료됩니다</translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5695"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5696"/>
         <source>Executing Remote Wipe</source>
         <translation>원격 삭제 실행 중</translation>
     </message>
@@ -248,12 +248,12 @@ Worklist:
     </message>
     <message>
         <location filename="../../QtClient/MainController.cpp" line="263"/>
-        <location filename="../../QtClient/MainController.cpp" line="357"/>
+        <location filename="../../QtClient/MainController.cpp" line="355"/>
         <source>Blocked by local restriction</source>
         <translation>로컬 제한에 의해 차단됨</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="380"/>
+        <location filename="../../QtClient/MainController.cpp" line="378"/>
         <source>Connecting to FW Server...</source>
         <translation>FW 서버에 연결 중...</translation>
     </message>
