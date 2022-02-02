@@ -15,8 +15,12 @@
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/AboutWidget.ui" line="124"/>
+        <source>Copyright © FileWave International Holding AG %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Copyright © Filewave International Holding AG %1</source>
-        <translation>版权所有 © Filewave International Holding AG %1</translation>
+        <translation type="vanished">版权所有 © Filewave International Holding AG %1</translation>
     </message>
 </context>
 <context>

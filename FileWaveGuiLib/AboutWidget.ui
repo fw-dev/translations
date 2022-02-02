@@ -121,7 +121,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Copyright © Filewave International Holding AG %1</string>
+      <string>Copyright © FileWave International Holding AG %1</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

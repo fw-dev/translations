@@ -15,8 +15,8 @@
     </message>
     <message>
         <location filename="../../FileWaveGuiLib/AboutWidget.ui" line="124"/>
-        <source>Copyright © Filewave International Holding AG %1</source>
-        <translation></translation>
+        <source>Copyright © FileWave International Holding AG %1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
