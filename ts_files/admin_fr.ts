@@ -4082,18 +4082,18 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.ui" line="275"/>
-        <source>0</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="291"/>
         <source>|</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.ui" line="275"/>
+        <source>0 missing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="316"/>
-        <source>0 Critical</source>
+        <source>0 critical</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4275,6 +4275,11 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="724"/>
+        <source>%1 critical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="849"/>
         <source>%1 - Client Info</source>
         <translation type="unfinished"></translation>
@@ -4307,11 +4312,6 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="614"/>
         <source>Reveal Fileset</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="724"/>
-        <source>%1 Critical</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

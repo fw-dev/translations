@@ -913,12 +913,12 @@ DEP 프로필이 있는 DEP 장치에 대해서는 활성화 잠금을 구성할
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="560"/>
         <source>Firmware Password and Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 및 복구 잠금</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="566"/>
         <source>Manage Firmware Password and Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 및 복구 잠금 관리</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminPermissionsWidget.ui" line="629"/>
@@ -2235,7 +2235,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="158"/>
         <source>Managing profiles for Apple device</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple 장치 프로필 관리</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/AppleConfiguratorDlg.cpp" line="349"/>
@@ -3737,7 +3737,7 @@ Booster가 아직 실행 중인 경우 해당 Booster를 Booster 목록에 다�
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="677"/>
         <source>TeamViewer</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/AdminUserDlg.ui" line="701"/>
@@ -4114,21 +4114,21 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="103"/>
         <source>Missing Updates:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.ui" line="275"/>
-        <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>업데이트 없음:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="291"/>
         <source>|</source>
+        <translation>|</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.ui" line="275"/>
+        <source>0 missing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="316"/>
-        <source>0 Critical</source>
+        <source>0 critical</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4262,27 +4262,27 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="1127"/>
         <source>Software Updates</source>
-        <translation type="unfinished">소프트웨어 업데이트</translation>
+        <translation>소프트웨어 업데이트</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="1135"/>
         <source>Status:</source>
-        <translation type="unfinished">상태:</translation>
+        <translation>상태:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="1152"/>
         <source>Category:</source>
-        <translation type="unfinished"></translation>
+        <translation>범주:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="1162"/>
         <source>Critical:</source>
-        <translation type="unfinished"></translation>
+        <translation>중요:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.ui" line="1197"/>
         <source>0 Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>0개 업데이트</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="295"/>
@@ -4310,6 +4310,11 @@ Check the log file for more details</source>
         <translation>프로비저닝 해제...</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="724"/>
+        <source>%1 critical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="849"/>
         <source>%1 - Client Info</source>
         <translation>%1 - 클라이언트 정보</translation>
@@ -4322,12 +4327,12 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="304"/>
         <source>Show Recovery Lock Password...</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호 표시...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="306"/>
         <source>Show Firmware Password...</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 표시...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="561"/>
@@ -4345,34 +4350,29 @@ Check the log file for more details</source>
         <translation>파일 세트 공개</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="724"/>
-        <source>%1 Critical</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="736"/>
         <source>Yes</source>
-        <translation type="unfinished">예</translation>
+        <translation>예</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="737"/>
         <source>No</source>
-        <translation type="unfinished">아니요</translation>
+        <translation>아니요</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="743"/>
         <source>Missing</source>
-        <translation type="unfinished">누락됨</translation>
+        <translation>누락됨</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="756"/>
         <source>Unassigned</source>
-        <translation type="unfinished"></translation>
+        <translation>할당되지 않음</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="778"/>
         <source>%1 Updates</source>
-        <translation type="unfinished">%1개 업데이트</translation>
+        <translation>%1개 업데이트</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="791"/>
@@ -4532,12 +4532,12 @@ You must still wipe it manually.</source>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1509"/>
         <source>Failed to retrieve the recovery lock password: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호를 검색하지 못했습니다: %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientReportDlg.cpp" line="1529"/>
         <source>Failed to retrieve the Firmware Password: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호를 검색하지 못했습니다: %1</translation>
     </message>
 </context>
 <context>
@@ -4947,7 +4947,7 @@ You must still wipe it manually.</source>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="235"/>
         <source>Managing profiles for Apple device</source>
-        <translation type="unfinished"></translation>
+        <translation>Apple 장치 프로필 관리</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/CreateMobileFilesetDlg.cpp" line="246"/>
@@ -8928,13 +8928,6 @@ Please enter your Activation Code.</source>
         <translation>&apos;부분&apos; 파일 세트에 대한 권한을 설정할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1408"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1567"/>
         <source>Loading server logfile...</source>
         <translation>서버 로그 파일 로드 중...</translation>
@@ -8992,13 +8985,6 @@ log out and log back into the FileWave™ system.</source>
         <translation>&apos;부분&apos; 파일 세트를 복제할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1807"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1817"/>
         <source>Error while duplicating fileset</source>
         <translation>파일 세트 복제 중에 오류 발생</translation>
@@ -9024,15 +9010,6 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <translation>&apos;부분&apos; 파일 세트에 대한 보고서를 열 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1979"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2002"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2041"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2002"/>
         <source>Cannot open properties for a &apos;partial&apos; fileset</source>
         <translation>&apos;부분&apos; 파일 세트에 대한 속성을 열 수 없습니다.</translation>
@@ -9041,12 +9018,6 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2013"/>
         <source>Outdated platforms in requirements</source>
         <translation>오래된 플랫폼의 요구 사항</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2014"/>
-        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
-When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2023"/>
@@ -9064,6 +9035,35 @@ When this fileset is saved it will no longer contain the outdated platforms from
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2086"/>
         <source>Cannot export a &apos;partial&apos; fileset</source>
         <translation>&apos;부분&apos; 파일 세트를 내보낼 수 없습니다.</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1408"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1807"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1979"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2002"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2041"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2014"/>
+        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
+When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2086"/>
@@ -9449,18 +9449,19 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3970"/>
         <source>Open Web Console</source>
-        <translation type="unfinished"></translation>
+        <translation>웹 콘솔 열기</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3976"/>
         <source>Deprecated feature</source>
-        <translation type="unfinished"></translation>
+        <translation>사용이 중단된 기능</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="3977"/>
         <source>%1 is deprecated in FileWave Native Admin console and will be removed in a future version.
 Please use Web Admin console instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1는 FileWave Native Admin 콘솔에서 사용이 중단되었으며 향후 버전에서 제거됩니다.
+Web Admin 콘솔을 대신 사용해 주시기 바랍니다.</translation>
     </message>
 </context>
 <context>
@@ -10002,12 +10003,12 @@ Please use Web Admin console instead.</source>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1809"/>
         <source>Enable VPP Notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>VPP 사용 알림</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1816"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=55543458&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;VPP v2 Only&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(&lt;a href=”https://kb.filewave.com/pages/viewpage.action?pageId=55543458”&gt;&lt;span style=” text-decoration: underline; color:#0068da;”&gt;VPP v2만 해당&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.ui" line="1761"/>
@@ -12640,52 +12641,52 @@ Do you want to proceed with certificate generation now?</source>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="17"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="18"/>
         <source>Update ID</source>
-        <translation type="unfinished">업데이트 ID</translation>
+        <translation>업데이트 ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="19"/>
         <source>Size</source>
-        <translation type="unfinished">크기</translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="20"/>
         <source>Critical</source>
-        <translation type="unfinished">중요</translation>
+        <translation>중요</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="21"/>
         <source>Status</source>
-        <translation type="unfinished">상태</translation>
+        <translation>상태</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="22"/>
         <source>Update Assigned</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 할당됨</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="23"/>
         <source>Install Date</source>
-        <translation type="unfinished">설치 날짜</translation>
+        <translation>설치 날짜</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="28"/>
         <source>Category</source>
-        <translation type="unfinished">범주</translation>
+        <translation>범주</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="29"/>
         <source>Release Date</source>
-        <translation type="unfinished">출시일</translation>
+        <translation>출시일</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/models/clientSoftwareUpdateReportModel.cpp" line="30"/>
         <source>KB Article</source>
-        <translation type="unfinished"></translation>
+        <translation>KB 문서</translation>
     </message>
 </context>
 <context>
@@ -13161,32 +13162,32 @@ Please choose a different name or remove Imaging association.</source>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="124"/>
         <source>Restart Windows Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows 장치 다시 시작</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="127"/>
         <source>Remote Session (Prompt User)</source>
-        <translation type="unfinished"></translation>
+        <translation>원격 세션(사용자 확인)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="128"/>
         <source>Remote Session (Don&apos;t Prompt User)</source>
-        <translation type="unfinished"></translation>
+        <translation>원격 세션(사용자 확인하지 않음)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2093"/>
         <source>Start session without user prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 확인 없이 세션 시작</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2094"/>
         <source>This could interrupt the user while doing important work. Are you sure that you want to start a remote session without user confirmation?</source>
-        <translation type="unfinished"></translation>
+        <translation>중요한 작업을 수행하는 동안 사용이 중단될 수 있습니다. 사용자 확인 없이 원격 세션을 시작하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="2095"/>
         <source>Start Session</source>
-        <translation type="unfinished"></translation>
+        <translation>세션 시작</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="131"/>
@@ -13231,12 +13232,12 @@ Please choose a different name or remove Imaging association.</source>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="139"/>
         <source>Set Recovery Lock...</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 설정...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="140"/>
         <source>Verify Recovery Lock...</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 검증...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="142"/>
@@ -13688,6 +13689,13 @@ Failed FileWave IDs: %4</source>
         <translation>암호로 보호된 iOS 장치는 암호를 입력할 때까지 Wi-Fi 네트워크에 자동으로 연결되지 않습니다. 따라서 암호를 입력할 때까지 원격 관리가 불가능합니다. 계속하기 전에 암호를 알고 있는지 확인하십시오. Wi-Fi에 접속되지 않으면 FileWave는 이 정보를 지울 수 없습니다.</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="686"/>
+        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
+
+Do you want to open the Client Monitor anyway?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="1508"/>
         <source>Unable to delete group: %1
 
@@ -13723,31 +13731,28 @@ This group contains the %2 &apos;%3&apos;.  To delete this group, change the aut
         <source>Unable to send restart command to device: %2
 
 Server said: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 시작 명령을 장치에 보낼 수 없습니다. %2
+
+서버 메시지: %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="558"/>
         <source>Unable to send restart command to devices: %2
 
 Server said: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 시작 명령을 장치에 보낼 수 없습니다. %2
+
+서버 메시지: %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="650"/>
         <source>Restart command failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 시작 명령이 실패했습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="652"/>
         <source>Restart command sent successfully</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/ClientsWidget.cpp" line="686"/>
-        <source>The FileWave Server doesn&apos;t know this client&apos;s IP Address. It probably hasn&apos;t successfully connected yet.<byte value="xd"/>
-
-Do you want to open the Client Monitor anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 시작 명령이 전송되었습니다</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="801"/>
@@ -14317,12 +14322,12 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="2564"/>
         <source>Deprecated feature</source>
-        <translation type="unfinished"></translation>
+        <translation>사용이 중단된 기능</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/ClientsWidget.cpp" line="2565"/>
         <source>Observe Client feature is deprecated in favor of TeamViewer integration and won&apos;t be available in a future version.</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 통합을 위해 클라이언트 관찰 기능의 사용이 중단되었으며 향후 버전에서 사용하실 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -14759,72 +14764,72 @@ Do you want to open the Client Monitor anyway?</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1184"/>
         <source>Firmware Password / Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 / 복구 잠금</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1191"/>
         <source>Firmware Password command isn&apos;t supported on Mac computers with Apple silicon; Recovery Lock command is only available with Apple silicon.</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 명령이 Apple silicon이 설치된 Mac 컴퓨터에서 지원되지 않습니다. 복구 잠금 명령은 Apple silicon에서만 사용하실 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1205"/>
         <source>Firmware Password (macOS 10.13+)</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호(macOS 10.13+)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1220"/>
         <source>Change Firmware Password</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 변경</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1244"/>
         <source>New Firmware Password (empty to reset):</source>
-        <translation type="unfinished"></translation>
+        <translation>새 펌웨어 비밀번호(초기화하려면 비워둠):</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1258"/>
         <source>Verify Firmware Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호 검증:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1274"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;The provided passwords do not match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;입력한 비밀번호가 일치하지 않음&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=” font-weight:600; color:#ff0000;”&gt; 입력한 비밀번호가 일치하지 않음&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1290"/>
         <source>Device must be rebooted for the new firmware password to take effect or before you change the password again.</source>
-        <translation type="unfinished">새 펌웨어 비밀번호를 적용하거나 비밀번호를 다시 변경하려면 장치를 다시 부팅해야 합니다.</translation>
+        <translation>새 펌웨어 비밀번호를 적용하거나 비밀번호를 다시 변경하려면 장치를 다시 부팅해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1304"/>
         <source>Recovery Lock (macOS 11.5+)</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금(macOS 11.5+)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1319"/>
         <source>Change Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 변경</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1343"/>
         <source>New Recovery Lock (empty to reset):</source>
-        <translation type="unfinished"></translation>
+        <translation>새 복구 잠금(초기화하려면 비워둠):</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1357"/>
         <source>Verify Recovery Lock:</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 검증:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1373"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;The provided recovery locks do not match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;입력한 복구 잠금이 일치하지 않음&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.ui" line="1389"/>
         <source>Device must be rebooted for the new recovery lock to take effect or before you change the recovery lock again.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 복구 잠금을 적용하거나 복구 잠금을 다시 변경하려면 장치를 다시 부팅해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/CommandPolicyForm.cpp" line="44"/>
@@ -17076,7 +17081,7 @@ Please retry once editing is done.</source>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="560"/>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="624"/>
         <source>Editing or creating DEP profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>DEP 프로필 편집 또는 생성</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/dep/DEPAssociationDlg.cpp" line="620"/>
@@ -20215,7 +20220,7 @@ Server said (%1): %2</source>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="219"/>
         <source>Number of TeamViewer licenses:</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 라이선스 수:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EditActivationCodesDlg.ui" line="273"/>
@@ -22012,7 +22017,7 @@ You need to restart nginx on the appliance for the change to take effect.</sourc
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="266"/>
         <source>May only create one new token at a time.</source>
-        <translation type="unfinished"></translation>
+        <translation>한 번에 하나의 새 토큰만 생성할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnrollAndroidDeviceDlg.cpp" line="428"/>
@@ -22524,7 +22529,7 @@ Configurator와 함께 서버 인증서를 사용할 수 있도록 서버 인증
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="6"/>
         <source>Assign TeamViewer license</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 라이선스 할당</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/EnterNewTvUserId.ui" line="44"/>
@@ -27318,13 +27323,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="646"/>
         <source>Remote Access Policy</source>
         <comment>field remote_access_policy display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>원격 액세스 정책</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="647"/>
         <source>The Remote Access Policy determines what kind of TeamViewer access is allowed to the device.</source>
         <comment>field remote_access_policy description</comment>
-        <translation type="unfinished"></translation>
+        <translation>원격 액세스 정책은 장치에 허용되는 TeamViewer 액세스 유형을 결정합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="648"/>
@@ -27888,7 +27893,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1772"/>
         <source>Attended access only</source>
-        <translation type="unfinished"></translation>
+        <translation>출석 액세스 전용</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1773"/>
@@ -27973,7 +27978,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1789"/>
         <source>Critical</source>
-        <translation type="unfinished">중요</translation>
+        <translation>중요</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1790"/>
@@ -28523,32 +28528,32 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1837"/>
         <source>Google Policy</source>
-        <translation type="unfinished">Google 정책</translation>
+        <translation>Google 정책</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1844"/>
         <source>Important</source>
-        <translation type="unfinished"></translation>
+        <translation>중요</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1864"/>
         <source>Low</source>
-        <translation type="unfinished">낮음</translation>
+        <translation>낮음</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1876"/>
         <source>Moderate</source>
-        <translation type="unfinished"></translation>
+        <translation>중간</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1884"/>
         <source>No access</source>
-        <translation type="unfinished"></translation>
+        <translation>액세스 금지</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1904"/>
         <source>Play Store Fileset</source>
-        <translation type="unfinished"></translation>
+        <translation>Play 스토어 파일 세트</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1905"/>
@@ -28748,7 +28753,7 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1944"/>
         <source>Unattended access</source>
-        <translation type="unfinished"></translation>
+        <translation>무인 액세스</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1945"/>
@@ -32586,49 +32591,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1276"/>
         <source>Recovery Lock Password</source>
         <comment>field current_recovery_lock_password display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1277"/>
         <source>The password for Recovery Lock.</source>
         <comment>field current_recovery_lock_password description</comment>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1278"/>
         <source>Pending Recovery Lock Password</source>
         <comment>field pending_recovery_lock_password display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>보류 중인 복구 잠금 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1279"/>
         <source>The pending password for Recovery Lock.</source>
         <comment>field pending_recovery_lock_password description</comment>
-        <translation type="unfinished"></translation>
+        <translation>보류 중인 복구 잠금 비밀번호입니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1280"/>
         <source>Firmware Password</source>
         <comment>field current_firmware_password display name</comment>
-        <translation type="unfinished">펌웨어 비밀번호</translation>
+        <translation>펌웨어 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1281"/>
         <source>The Firmware Password.</source>
         <comment>field current_firmware_password description</comment>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1282"/>
         <source>Pending Firmware Password</source>
         <comment>field pending_firmware_password display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>보류 중인 펌웨어 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1283"/>
         <source>The pending Firmware Password.</source>
         <comment>field pending_firmware_password description</comment>
-        <translation type="unfinished"></translation>
+        <translation>보류 중인 펌웨어 비밀번호입니다.</translation>
     </message>
 </context>
 <context>
@@ -32874,13 +32879,13 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1322"/>
         <source>Display Version</source>
         <comment>field display_version display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>버전 표시</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1323"/>
         <source>Display version; 22H1, 22H2 etc.</source>
         <comment>field display_version description</comment>
-        <translation type="unfinished"></translation>
+        <translation>버전 표시, 22H1, 22H2 등</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1324"/>
@@ -34845,25 +34850,25 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1640"/>
         <source>Category</source>
         <comment>field category display name</comment>
-        <translation type="unfinished">범주</translation>
+        <translation>범주</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1641"/>
         <source>Category of the update.</source>
         <comment>field category description</comment>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 범주.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1642"/>
         <source>Description</source>
         <comment>field description display name</comment>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1643"/>
         <source>Description of the update.</source>
         <comment>field description description</comment>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 대한 설명.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1644"/>
@@ -34893,37 +34898,37 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1648"/>
         <source>Support URL</source>
         <comment>field support_url display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>지원 URL</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1649"/>
         <source>Support URL to get more information about the update.</source>
         <comment>field support_url description</comment>
-        <translation type="unfinished"></translation>
+        <translation>업데이트에 대한 자세한 정보를 확인하기 위한 지원 URL</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1650"/>
         <source>KBArticle</source>
         <comment>field kb_article display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>KB문서</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1651"/>
         <source>KBArticle ID for Windows updates.</source>
         <comment>field kb_article description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Windows 업데이트를 위한 Kb문서 ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1652"/>
         <source>MsrcSeverity</source>
         <comment>field msrc_severity display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Msrc심각도</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1653"/>
         <source>Msrc Severity level of Windows updates.</source>
         <comment>field msrc_severity description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Windows 업데이트의 Msrc 심각도 수준</translation>
     </message>
 </context>
 <context>
@@ -35217,49 +35222,49 @@ Unenrolled (MDM enrollment cancelled from the device)</source>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1700"/>
         <source>Windows updates</source>
         <comment>component WindowsUpdate display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Windows 업데이트</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1701"/>
         <source>Information specific to Windows updates</source>
         <comment>component WindowsUpdate description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Windows 업데이트 관련 정보</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1702"/>
         <source>Support URL</source>
         <comment>field support_url display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>지원 URL</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1703"/>
         <source>Support URL to get more information about the update.</source>
         <comment>field support_url description</comment>
-        <translation type="unfinished"></translation>
+        <translation>업데이트에 대한 자세한 정보를 확인하기 위한 지원 URL</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1704"/>
         <source>KBArticle</source>
         <comment>field kb_article display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>KB문서</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1705"/>
         <source>KBArticle ID for Windows updates.</source>
         <comment>field kb_article description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Windows 업데이트를 위한 Kb문서 ID</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1706"/>
         <source>MsrcSeverity</source>
         <comment>field msrc_severity display name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Msrc심각도</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/inventory/inventory_translations.cpp" line="1707"/>
         <source>Msrc Severity level of Windows updates.</source>
         <comment>field msrc_severity description</comment>
-        <translation type="unfinished"></translation>
+        <translation>Windows 업데이트의 Msrc 심각도 수준</translation>
     </message>
 </context>
 <context>
@@ -35536,12 +35541,12 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="129"/>
         <source>Remote Session (Don&apos;t Prompt User)</source>
-        <translation type="unfinished"></translation>
+        <translation>원격 세션(사용자 확인하지 않음)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="130"/>
         <source>FileWave is connecting to TeamViewer...</source>
-        <translation type="unfinished"></translation>
+        <translation>FileWave가 TeamViewer에 연결하는 중...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="146"/>
@@ -35562,7 +35567,7 @@ Make sure you update the Fileset or re-import it if you change the certificate.
     <message>
         <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="123"/>
         <source>Could not open TeamViewer session because the server sent an invalid response.</source>
-        <translation type="unfinished">서버에서 잘못된 응답을 보냈기 때문에 TeamViewer 세션을 열 수 없습니다.</translation>
+        <translation>서버에서 잘못된 응답을 보냈기 때문에 TeamViewer 세션을 열 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -37213,7 +37218,7 @@ macOS 10.13 이상 APFS는 인증된 다시 시작 옵션을 지원하지 않습
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="785"/>
         <source>11.0</source>
-        <translation type="unfinished">11.0</translation>
+        <translation>11.0</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="834"/>
@@ -37223,7 +37228,7 @@ macOS 10.13 이상 APFS는 인증된 다시 시작 옵션을 지원하지 않습
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="854"/>
         <source>2022</source>
-        <translation type="unfinished">2022</translation>
+        <translation>2022</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FilesetPropertiesDlg.ui" line="864"/>
@@ -38464,23 +38469,23 @@ Do you want to close the dialog?</source>
         <location filename="../../FWAdminLib/RecoveryLock/FirmwareOrRecoveryLockPasswordDlg.ui" line="20"/>
         <location filename="../../FWAdminLib/RecoveryLock/FirmwareOrRecoveryLockPasswordDlg.cpp" line="19"/>
         <source>Recovery Lock Password</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/FirmwareOrRecoveryLockPasswordDlg.ui" line="53"/>
         <location filename="../../FWAdminLib/RecoveryLock/FirmwareOrRecoveryLockPasswordDlg.cpp" line="20"/>
         <source>Recovery Lock Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/FirmwareOrRecoveryLockPasswordDlg.cpp" line="16"/>
         <source>Firmware Password</source>
-        <translation type="unfinished">펌웨어 비밀번호</translation>
+        <translation>펌웨어 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/FirmwareOrRecoveryLockPasswordDlg.cpp" line="17"/>
         <source>Firmware Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호:</translation>
     </message>
 </context>
 <context>
@@ -38548,12 +38553,12 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/FirmwarePasswordDlg.cpp" line="138"/>
         <source>Failed to retrieve the Firmware Password: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>펌웨어 비밀번호를 검색하지 못했습니다: %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FirmwarePasswordDlg.cpp" line="140"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/FirmwarePasswordDlg.cpp" line="154"/>
@@ -39034,7 +39039,7 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleCertificateForm.cpp" line="163"/>
         <source>The specified file is either invalid or encrypted.  Note that encrypted certificates are not supported by the Android Management API.</source>
-        <translation type="unfinished"></translation>
+        <translation>지정한 파일이 잘못되었거나 암호화되었습니다.  암호화 인증서는 Android 관리 API에서 지원되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleCertificateForm.cpp" line="185"/>
@@ -39288,12 +39293,12 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="37"/>
         <source>Location Mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>위치 모드</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="38"/>
         <source>The degree of location detection enabled on organization owned devices.</source>
-        <translation type="unfinished"></translation>
+        <translation>위치 감지 정도는 조직 소유 장치에서 사용 가능합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="39"/>
@@ -39403,27 +39408,27 @@ Do you want to close the dialog?</source>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="60"/>
         <source>Allow use of bluetooth.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bluetooth 사용 허용.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="61"/>
         <source>Allow bluetooth configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bluetooth 허용 구성.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="62"/>
         <source>Allow user to configure or modify bluetooth connections.  Note that &lt;a href=&quot;https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled&quot;&gt;this setting can be bypassed by users&lt;/a&gt;; to completely disable bluetooth, use &apos;Allow bluetooth&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자가 Bluetooth 연결을 구성하거나 수정할 수 있도록 허용합니다.  &lt;a href=”https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled”&gt;이 설정은 사용자가 무시할 수 있습니다&lt;/a&gt;; Bluetooth를 완전히 비활성화하려면 ‘Bluetooth 허용’을 사용하십시오.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="112"/>
         <source>Enabled</source>
-        <translation type="unfinished">사용</translation>
+        <translation>사용</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="113"/>
         <source>Not Restricted</source>
-        <translation type="unfinished"></translation>
+        <translation>제한 없음</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/PolicyEditor/GooglePolicyEditor/GoogleDeviceRestrictionsForm.cpp" line="89"/>
@@ -50307,6 +50312,15 @@ Try Again.</source>
         <translation>업로드 대기열에 파일 및 폴더 추가 중...</translation>
     </message>
     <message>
+        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="28"/>
+        <source>Could not open TeamViewer session because the server responded with an unexpected error.
+
+Server response: %1</source>
+        <translation>서버 응답에 예기치 않은 오류가 있어 TeamViewer 세션을 열 수 없습니다.
+
+서버 응답: %1</translation>
+    </message>
+    <message>
         <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="85"/>
         <location filename="../../FWAdminLib/FilesetScriptsEditor.cpp" line="96"/>
         <source>File Error</source>
@@ -52408,13 +52422,6 @@ Please enter your Activation Code</source>
         <source>(Default)</source>
         <translation>(기본값)</translation>
     </message>
-    <message>
-        <location filename="../../FWAdminLib/FWOneRemoteSession.cpp" line="28"/>
-        <source>Could not open TeamViewer session because the server responded with an unexpected error.
-
-Server response: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QueriesGroupsModel</name>
@@ -52643,77 +52650,77 @@ Server response: %1</source>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="20"/>
         <source>Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="46"/>
         <source>Current Recovery Lock:</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 복구 잠금:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="63"/>
         <source>New Recovery Lock (empty to reset):</source>
-        <translation type="unfinished"></translation>
+        <translation>새 복구 잠금(초기화하려면 비워둠):</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="80"/>
         <source>Verify Recovery Lock:</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 검증:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="107"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;The provided recovery locks do not match&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;입력한 복구 잠금이 일치하지 않음&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="129"/>
         <source>Device must be rebooted for the new recovery lock to take effect or before you change the recovery lock again.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 복구 잠금을 적용하거나 복구 잠금을 다시 변경하려면 장치를 다시 부팅해야 합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.ui" line="145"/>
         <source>Sending a notification to the device and waiting for the device to contact the server. This may take time if the device is not online.</source>
-        <translation type="unfinished">알림을 장치로 보내고 장치가 서버에 연결할 때까지 기다리는 중입니다. 장치가 온라인 상태가 아니면 시간이 오래 걸릴 수 있습니다.</translation>
+        <translation>알림을 장치로 보내고 장치가 서버에 연결할 때까지 기다리는 중입니다. 장치가 온라인 상태가 아니면 시간이 오래 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="36"/>
         <source>Set Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 설정</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="45"/>
         <source>Verify Recovery Lock</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 검증</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="84"/>
         <source>Stop waiting...</source>
-        <translation type="unfinished">대기 중지...</translation>
+        <translation>대기 중지...</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="109"/>
         <source>Are you sure you want to stop waiting? The result of the command will be reported in Client Info dialog once the device responds.</source>
-        <translation type="unfinished">대기를 중지하시겠습니까? 장치에서 응답하면 명령의 결과가 클라이언트 정보에 보고됩니다.</translation>
+        <translation>대기를 중지하시겠습니까? 장치에서 응답하면 명령의 결과가 클라이언트 정보에 보고됩니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="110"/>
         <source>Stop Waiting</source>
-        <translation type="unfinished">대기 중지</translation>
+        <translation>대기 중지</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="138"/>
         <source>Failed to retrieve the Recovery Lock Password: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호를 검색하지 못했습니다: %1</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="140"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockDlg.cpp" line="154"/>
         <source>Result unknown</source>
-        <translation type="unfinished">결과를 알 수 없음</translation>
+        <translation>결과를 알 수 없음</translation>
     </message>
 </context>
 <context>
@@ -52721,12 +52728,12 @@ Server response: %1</source>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockPasswordDlg.ui" line="20"/>
         <source>Recovery Lock Password</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RecoveryLock/RecoveryLockPasswordDlg.ui" line="53"/>
         <source>Recovery Lock Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>복구 잠금 비밀번호:</translation>
     </message>
 </context>
 <context>
@@ -52987,55 +52994,58 @@ Server response: %1</source>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="187"/>
         <source>(required)</source>
-        <translation type="unfinished">(필수)</translation>
+        <translation>(필수)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="210"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;In macOS 12 and later, this command uses Erase All Content and Settings (EACS) on Mac computers with the Apple M1 chip or the Apple T2 Security Chip. On those devices, if EACS can’t run, the device can use obliteration (macOS 11.x behavior). &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Upon receiving this command, the device performs preflight checks to determine if the device is in a state that allows EACS. (&lt;/span&gt;&lt;a href=&quot;https://kb.filewave.com/pages/viewpage.action?pageId=55543547&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;&gt;More information&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=” font-style:italic;”&gt;macOS 12 및 이후 버전에서 이 명령은 Apple M1 칩 또는 Apple T2 보안 칩이 있는 Mac 컴퓨터에서 모든 콘텐츠 및 설정 지우기(EACS)를 사용합니다. 이러한 장치에서 EACS를 실행할 수 없는 경우, 장치는 삭제(macOS 11.x 동작)를 사용할 수 있습니다. &lt;/span&gt;&lt;/p&gt;&lt;p align=”justify”&gt;&lt;span style=” font-style:italic;”&gt;이 명령을 수신하면, 장치는 실행 전 검사를 수행하여 장치가 EACS 허용 상태인지 확인합니다. (&lt;/span&gt;&lt;a href=”https://kb.filewave.com/pages/viewpage.action?pageId=55543547”&gt;&lt;span style=” text-decoration: underline; color:#0068da;”&gt;자세한 정보&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="223"/>
         <source>The following option defines the device’s fallback behavior:</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 옵션은 장치의 대체 동작을 정의합니다:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.ui" line="232"/>
         <source>Obliteration behavior:</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제 동작:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="37"/>
         <source>Default</source>
-        <translation type="unfinished">기본값</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="37"/>
         <source>If EACS preflight fails, the device responds to the server with an Error status and then attempts to erase itself.
 If EACS preflight succeeds but EACS fails, then the device attempts to erase itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>EACS preflight가 실패하는 경우, 장치는 오류 상태로 서버에 응답한 다음 자체 삭제를 시도합니다.
+EACS preflight는 성공했으나 EACS가 실패한 경우 장치는 자체적으로 삭제를 시도합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="38"/>
         <source>Do Not Obliterate</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제 금지</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="38"/>
         <source>If EACS preflight fails, the device responds to the server with an Error status and doesn’t attempt to erase itself.
 If EACS preflight succeeds but EACS fails, then the device doesn’t attempt to erase itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>EACS preflight가 실패하는 경우, 장치는 오류 상태로 서버에 응답한 다음 자체 삭제를 시도하지 않습니다.
+EACS preflight는 성공했으나 EACS가 실패한 경우 장치는 자체적으로 삭제를 시도하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="39"/>
         <source>Obliterate With Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>경고와 함께 삭제</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="39"/>
         <source>If EACS preflight fails, the device responds with an Acknowledged status and then attempts to erase itself.
 If EACS preflight succeeds but EACS fails, then the device attempts to erase itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>EACS preflight가 실패하는 경우, 장치는 수신 확인 상태로 서버에 응답한 다음 자체 삭제를 시도합니다.
+EACS preflight는 성공했으나 EACS가 실패한 경우 장치는 자체적으로 삭제를 시도합니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/RemoteWipeDlg.cpp" line="50"/>
@@ -53869,7 +53879,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1414"/>
         <source>Allow Mail Privacy Protection (Supervised devices only)</source>
-        <translation type="unfinished"></translation>
+        <translation>이메일 개인정보 보호 허용(감독 대상 장치만 해당)</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsIOSForm.ui" line="1424"/>
@@ -54837,7 +54847,7 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="726"/>
         <source>Battery</source>
-        <translation type="unfinished">배터리</translation>
+        <translation>배터리</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="763"/>
@@ -55407,12 +55417,12 @@ Therefore it may happen that the device is not locked.</source>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2573"/>
         <source>Allow modifying passcode</source>
-        <translation type="unfinished"></translation>
+        <translation>암호 수정 허용</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2583"/>
         <source>Allow Erase All Content and Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 콘텐츠 및 설정 지우기 허용</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Configurator/RestrictionsOSXForm.ui" line="2624"/>
@@ -57013,7 +57023,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.ui" line="130"/>
         <source>Note: Propagation applies automatically recursively to children when &quot;no permissions&quot; is selected.  This will not be visible by editing the permissions for children of those nodes.</source>
-        <translation type="unfinished"></translation>
+        <translation>참고: &quot;권한 없음&quot;을 선택하면 자동으로 하위 항목에 전파됩니다.  이 노드의 하위 항목에 대한 권한을 편집하면 이 작업은 표시되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.cpp" line="66"/>
@@ -57064,7 +57074,7 @@ scripts. They are deleted when the execution of the last script finishes.</sourc
     <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.cpp" line="196"/>
         <source>This Administrator has no permissions to the original client.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 관리자는 원래 클라이언트에 대한 권한이 없습니다.</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/SetItemPermissionsDlg.cpp" line="238"/>
@@ -58422,7 +58432,7 @@ Only the report for the first query is shown.</source>
     <message>
         <location filename="../../FWAdminLib/SoftwareUpdateItemDelegate.cpp" line="68"/>
         <source>[Not specified]</source>
-        <translation type="unfinished"></translation>
+        <translation>[지정되지 않음]</translation>
     </message>
 </context>
 <context>
@@ -58569,7 +58579,7 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="14"/>
         <source>Number of TeamViewer licenses:</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 라이선스 수:</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.ui" line="58"/>
@@ -58602,17 +58612,17 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="191"/>
         <source>Please confirm</source>
-        <translation type="unfinished"></translation>
+        <translation>확인해 주십시오</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="192"/>
         <source>Are you sure you want to assign a TeamViewer license to %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1에 TeamViewer 라이선스를 할당하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="193"/>
         <source>The license cannot be revoked for 6 months.</source>
-        <translation type="unfinished"></translation>
+        <translation>6개월 동안 라이선스를 취소할 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -58830,17 +58840,17 @@ User Home?</source>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="45"/>
         <source>Cannot read TeamViewer licensing data</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 라이선스 데이터를 읽을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="98"/>
         <source>Cannot revoke TeamViewer license</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 라이선스를 취소할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="112"/>
         <source>Cannot assign TeamViewer license</source>
-        <translation type="unfinished"></translation>
+        <translation>TeamViewer 라이선스를 할당할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/TVAdminWidget.cpp" line="32"/>
