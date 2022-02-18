@@ -12953,7 +12953,7 @@ msgstr "指紋認証タイムアウトの強制（macOS 12以降）"
 
 #: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1865:39
 msgid " s"
-msgstr " s"
+msgstr "s"
 
 #: ./src/components/resources/profileManager/config/setupAssistant.js:21:34
 msgid ""
@@ -17513,7 +17513,7 @@ msgid ""
 "You have made changes on the Terms & Conditions. Do you want to discard all "
 "changes?"
 msgstr ""
-"あなたは利用規約に対し変更を加えました。これらの変更をすべて破棄しますか？\n"
+"あなたは利用規約に対し変更を加えました。これらの変更をすべて破棄しますか？\r\n"
 
 #: ./src/features/settings/TermsAndConditions/TermsAndConditions.page.tsx:131:38
 msgid "Continue editing"
@@ -18137,3 +18137,621 @@ msgstr "選択したデバイスにおけるアップデートインストール
 #: ./src/sagas/softwareUpdateSaga.js:95:21
 msgid "Error scheduling update installation on selected group."
 msgstr "選択したグループにおけるアップデートインストールのスケジュールエラー。"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:138:38
+msgid "Back to the Payload list"
+msgstr "ペイロードリストへ戻る"
+
+#: ./src/components/resources/manager/Manager.js:515:40
+msgid "Export Profile"
+msgstr "プロファイルをエクスポート"
+
+#: ./src/components/resources/manager/Manager.js:521:40
+msgid "Import Profile"
+msgstr "プロファイルをインポート"
+
+#: ./src/components/resources/manager/utils.js:382:24
+msgid "Warning: invalid certificate. Expiry date cannot precede Effective date"
+msgstr "警告: 無効な証明書です。有効期限を発効日の前とすることはできません"
+
+#: ./src/components/resources/manager/utils.js:400:26
+msgid "Warning: certificate validity window opens in %1 days"
+msgstr "警告: 証明書有効期限ウィンドウが %1 日で開きます"
+
+#: ./src/components/resources/manager/utils.js:408:26
+msgid "Warning: certificate no longer valid. Certificate expired %1 day(s) ago."
+msgstr "警告: 証明者が有効ではなくなっています。証明書の有効期限が %1 日前に切れました。"
+
+#: ./src/components/resources/manager/utils.js:416:26
+msgid "Warning: certificate will expire in less than 2 weeks."
+msgstr "警告: 証明書の有効期限が2週間以内に切れます。"
+
+#: ./src/components/resources/profileManager/config/airPlaySecurity.js:30:30
+msgid "Security requirement for devices that connect to the Apple TV using AirPlay"
+msgstr "AirPlayを使用してApple TVに接続するデバイスのセキュリティ要件"
+
+#: ./src/components/resources/profileManager/config/restrictionsiOS.js:806:32
+msgid "Allow Mail Privacy Protection (Supervised devices only)"
+msgstr "メールプライバシー保護を許可（監視対象デバイスのみ）"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1748:36
+msgid "Allow Erase All Content and Settings"
+msgstr "すべてのコンテンツと設定の消去を許可"
+
+#: ./src/components/resources/profileManager/hooks.js:125:36
+msgid "Password-protected certificates are not supported"
+msgstr "パスワード保護証明書はサポートされていません"
+
+#: ./src/components/resources/profileManager/hooks.js:131:38
+msgid "Enter the certificate passphrase:"
+msgstr "証明書パスフレーズを入力:"
+
+#: ./src/components/resources/table/columns/renderers/RemoteSessionRenderer.tsx:17:72
+msgid "Remote Session (Prompt)"
+msgstr "遠隔セッション（プロンプト）"
+
+#: ./src/components/resources/table/columns/renderers/UpdateStatusRenderer.tsx:89:64
+msgid "Not Available"
+msgstr "利用できません"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:228:31
+msgid ""
+"This update needs to be downloaded from Windows and uploaded manually to "
+"FileWave."
+msgstr ""
+"このアップデートはWindowsからダウンロードし手動でFileWaveにアップロードする必要があります。"
+
+#: ./src/features/deployments/DeploymentEditor/DeploymentEditor.component.tsx:260:28
+msgid "Back to the Deployments"
+msgstr "配布へ戻る"
+
+#: ./src/features/deployments/DeploymentEditor/targets/DeploymentTargetsTab/DeploymentTargetsTab.component.tsx:236:32
+msgid "Show/Hide Exclusions"
+msgstr "除外の表示/非表示"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:83:22
+msgid "Select deployment"
+msgstr "配布を選択"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:88:25
+msgid "Select"
+msgstr "選択"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:147:26
+msgid "Published"
+msgstr "公開済み"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:191:27
+msgid "There are no draft deployments yet."
+msgstr "ドラフト配布がまだ存在しません。"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:77:22
+msgid "Remote Session (Prompt User)"
+msgstr "遠隔セッション（ユーザーをプロンプト）"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:77:22
+msgid "Remote Session (Don't Prompt User)"
+msgstr "遠隔セッション（ユーザーをプロンプトしない）"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:109:22
+msgid "Set tracking state"
+msgstr "追跡状態を設定"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:124:22
+msgid "Verify"
+msgstr "検証"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:198:22
+msgid "Add to deployment"
+msgstr "配布に追加"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:27:25
+msgid "Set Mode"
+msgstr "モードを設定"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:44:20
+msgid "Set your expectations about device tracking data"
+msgstr "デバイス追跡データに関する予想を設定"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:57:22
+msgid "No location is gathered at any time"
+msgstr "常に位置情報は収集されません"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:71:22
+msgid "Tracking is enabled and will update the location at different intervals"
+msgstr "追跡が有効となっており、異なる間隔で位置情報を更新します"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:85:22
+msgid ""
+"Tracking is enabled and will be updated around every two minutes. For "
+"supervised iOS devices this option puts the device in Lost mode."
+msgstr ""
+"追跡が有効となっており、2分ごとに更新されます監視対象となるiOSデバイスの場合、このオプションによりデバイスは紛失モードになります。"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:38:34
+msgid "TeamViewer will start now"
+msgstr "TeamViewerが起動します。"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:43:34
+msgid "Invalid response received from the server"
+msgstr "サーバーから無効な応答を受信しました"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:61:36
+msgid "Taking control over %1"
+msgstr "%1 以上で制御取得"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:67:36
+msgid "Could not start unattended session: %1"
+msgstr "無人セッションを開始できませんでした: %1"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:116:15
+msgid "Start session without user prompt"
+msgstr "ユーザープロンプトなしでセッションを開始"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:117:15
+msgid ""
+"This could interrupt the user while doing important work. Are you sure that "
+"you want to start a remote session without user confirmation?"
+msgstr ""
+"これは重要な作業の最中にユーザーの作業を中断させるおそれがあります。ユーザーの確認なしで遠隔セッションを開始してもよろしいですか？"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:118:15
+msgid "Start Session"
+msgstr "セッションを開始"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:21:37
+msgid "Windows restart command"
+msgstr "Windows再起動コマンド"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:16:73
+msgid "Restart command sent successfully"
+msgstr "再起動コマンドの送信に成功しました"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:21:75
+msgid "Restart command failed"
+msgstr "コマンドの再起動に失敗しました"
+
+#: ./src/features/devices/smartGroups/SmartGroupForm.tsx:178:36
+msgid "Back to the Device list"
+msgstr "デバイスリストへ戻る"
+
+#: ./src/features/devices/DeviceDetails/DeviceDetails.page.tsx:32:24
+msgid "Installed Policy"
+msgstr "インストール済みポリシー"
+
+#: ./src/features/devices/DeviceDetails/tabs/DeviceinstalledPolicy/DeviceInstalledPolicy.tsx:23:59
+msgid "An error occurred when fetching Installed Device Policy: %1"
+msgstr "インストール済みのデバイスポリシーを取得する際にエラーが発生しました: %1"
+
+#: ./src/features/devices/DevicesList/DeviceList.page.tsx:67:246
+msgid "Create Smart Group"
+msgstr "スマートグループを作成"
+
+#: ./src/features/reports/reportsList/ReportsList.page.tsx:35:147
+msgid "Create Group"
+msgstr "グループを作成"
+
+#: ./src/features/devices/DevicesList/DeviceList.page.tsx:69:166
+msgid "Import CSV file"
+msgstr "CSVファイルをインポート"
+
+#: ./src/features/devices/importCsv/components/ImportCsvWizard.tsx:129:79
+msgid "Import"
+msgstr "インポート"
+
+#: ./src/features/devices/remoteSession/remoteSession.tsx:6:30
+msgid ""
+"Device token not available. The FileWave App needs to have the permission "
+"of the user to receive notifications"
+msgstr ""
+"デバイストークンが利用できません。FileWaveアプリにはユーザーが通知を受信する権限が必要です"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:43:49
+msgid "Google Policy updated successfully"
+msgstr "Googleポリシーの更新に成功しました"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:43:99
+msgid "Google Policy created successfully"
+msgstr "Googleポリシーの作成に成功しました"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:89:71
+msgid "An error occurred when fetching certificate data: %1"
+msgstr "証明書データを取得する際にエラーが発生しました: %1"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:96:51
+msgid "certificate with id %1"
+msgstr "証明書（ID %1）"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:77:38
+msgid "Filter Apps"
+msgstr "フィルターアプリ"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:82:32
+msgid "Custom Launcher and Locked Task are mutually exclusive."
+msgstr "カスタムランチャーとロックされたタスクは相互排他的です。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:34:24
+msgid "Allow user to configure the developer settings of the device"
+msgstr "ユーザーによるデバイスの開発者設定の構成を許可"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:35:30
+msgid ""
+"If enabled, the user has access to and can configure developer settings "
+"such as Safe Boot and device debugging features."
+msgstr ""
+"有効にした場合、ユーザーはセーフブートやデバイスデバッグ機能などの開発者設定にアクセスし構成することができます。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:72:24
+msgid "Location Mode"
+msgstr "位置情報モード"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:73:30
+msgid "The degree of location detection enabled on organization owned devices."
+msgstr "組織所有のデバイスにおいて有効になっている位置情報検出の程度。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:84:27
+msgid "Not Restricted"
+msgstr "制限なし"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:144:27
+msgid "Personal Profile Only"
+msgstr "個人プロファイル限定"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:177:34
+msgid ""
+"<div>The Play Store <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#AppAutoUpdatePolicy\">App Auto-Update Policy</a> "
+"enforced on a device. If unspecified, the Android default is Choice to the "
+"User. To force apps to update, use Always or WiFi only.</div>"
+msgstr ""
+"<div>Playストア<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy\">アプリ自動アップデートポリシー</a>（デバイス上で執行）。指定されていない場合、Androidデフォルトがユーザーの選択肢となります。アプリのアップデートを強制するには、「常時」または「Wi-Fiのみ」を利用してください。</div>"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:321:34
+msgid "Allow use of bluetooth."
+msgstr "Bluetoothの使用を許可します。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:339:28
+msgid "Allow bluetooth configuration"
+msgstr "Bluetooth構成を許可"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:340:38
+msgid ""
+"<div>Allow user to configure or modify bluetooth connections. Note that <a "
+"data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#Policy.FIELDS.bluetooth_disabled\">this setting can be "
+"bypassed by users</a>; to completely disable bluetooth, use \"Allow "
+"bluetooth\".</div>"
+msgstr ""
+"<div>ユーザーによるBluetooth接続の構成や修正を許可します。<a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">ユーザーがこの設定をバイパスすることができることに注意してください。</a>Bluetoothを完全に無効にするには\Bluetoothを許可’を使用してください。</div>"
+
+#: ./src/features/payloads/AndroidManager/config/network.ts:225:30
+msgid "Passphrase must be at least 8 characters long"
+msgstr "パスフレーズには最低 8 文字の長さが必要です"
+
+#: ./src/features/payloads/AndroidManager/config/password.ts:62:27
+msgid "Device Default Timeout"
+msgstr "デバイスデフォルトタイムアウト"
+
+#: ./src/features/payloads/FileWaveManager/config/general.ts:7:26
+msgid "General settings about policy"
+msgstr "ポリシーに関する一般設定"
+
+#: ./src/features/payloads/FileWaveManager/config/general.ts:18:31
+msgid "New FileWave Policy"
+msgstr "新規FileWaveポリシー"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:6:20
+msgid "Geofencing"
+msgstr "ジオフェンシング"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:9:26
+msgid "Define a geofence (radius) and a rule."
+msgstr "ジオフェンス（半径）とルールを定義します。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:14:24
+msgid "Latitude"
+msgstr "緯度"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:15:30
+msgid ""
+"The latitude of the geofence center, specified in Decimal Degrees. A "
+"latitudinal value ranges from -90.0 to +90.0."
+msgstr ""
+"10進角で指定されたジオフェンスセンターの緯度。-90.0 から +90.0 までの緯度の値範囲。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:24:24
+msgid "Longitude"
+msgstr "経度"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:25:30
+msgid ""
+"The longitude of the geofence center, specified in Decimal Degrees. A "
+"longitudinal value ranges from -180.0 to +180.0."
+msgstr ""
+"10進角で指定されたジオフェンスセンターの経度。-180.0 から +180.0 までの経度の値範囲。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:34:24
+msgid "Radius"
+msgstr "半径"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:35:30
+msgid ""
+"Note: Location accuracy is determined by a number of external factors, "
+"please see our Knowledge Base for more information."
+msgstr ""
+"注: ロケーション精度は複数の外部要因から決定されます。詳細については、ナレッジベースを確認してください。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:38:23
+msgid " (m)"
+msgstr " (m)"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:44:30
+msgid ""
+"A description of the geofence area. If a device leaves the area, the FW "
+"Client app will use this message to help inform a user to where the device "
+"should be moved."
+msgstr ""
+"ジオフェンス領域の説明。デバイスがこの領域を離れる場合、FWクライアントアプリはこのメッセージを使ってデバイスが移動する場所に関する補助情報をユーザーに伝えます。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:47:35
+msgid "e.g. Meeting Room B"
+msgstr "例、ミーティングルームB"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:51:24
+msgid "Event Actions"
+msgstr "イベントアクション:"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:56:28
+msgid "Leaving Action"
+msgstr "退出アクション"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:57:34
+msgid "What should happen when the device leaves the Geofence."
+msgstr "デバイスがジオフェンスを出る際に生じること。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:62:31
+msgid "Send Local Notification"
+msgstr "ローカル通知を送信"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:66:31
+msgid "Disable All Applications"
+msgstr "すべてのアプリケーションを無効にする"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:75:24
+msgid "Generated ID"
+msgstr "生成ID:"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:7:20
+msgid "Blocker Script"
+msgstr "ブロッカースクリプト"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:10:26
+msgid "Use blocker script to block payload deployment on devices"
+msgstr "ブロッカースクリプトを使用してデバイスでペイロード配布をブロックします"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:16:24
+msgid "Script to disable management"
+msgstr "管理を無効にするスクリプト"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:17:30
+msgid ""
+"This script will be run on the client side. If exit code is not 0 the "
+"client will be considered as locked and management will be disabled."
+msgstr ""
+"このスクリプトはクライアント側で稼働します。もし終了コードが0でなければ、クライアントはロックされているとみなされ、管理は無効となります。"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:21:26
+msgid "Script type"
+msgstr "スクリプトタイプ"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:60:28
+msgid "Launch Arguments"
+msgstr "起動引数"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:75:45
+msgid "<new argument>"
+msgstr "<new argument>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:80:38
+msgid ""
+"The values of the command line arguments are set just before the script "
+"execution. \n"
+"To use an inventory field value to set a command line argument value, use "
+"the syntax %FIELD_NAME%. \n"
+"For instance: foo-%asset_tag%."
+msgstr ""
+"コマンドライン引数の値はスクリプト実行の直前に設定されます。\nコマンドライン引数値を設定するためにインベントリフィールド値を使用するには、構文 %FIELD_NAME% を使用してください。\n例: foo-%asset_tag% 。"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:88:28
+msgid "Environment Variables"
+msgstr "環境変数"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:103:45
+msgid "<VARIABLE>"
+msgstr "<変数>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:109:45
+msgid "<VALUE>"
+msgstr "<値>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:114:38
+msgid ""
+"The values of the environment variables are set just before the script "
+"execution. \n"
+"To use an inventory field value, use the syntax %FIELD_NAME%. \n"
+"For instance: MY_VAR: foo-%asset_tag%. \n"
+"Note: environment variable names are case insensitive in Windows."
+msgstr ""
+"環境変数の値はスクリプト実行の直前に設定されます。\nインベントリフィールド値を使用するには、構文 %FIELD_NAME% を使用してください。\n例: MY_VAR: foo-%asset_tag% 。\N注: 環境変数名はWindowsにおいて大文字・小文字を区別しません。"
+
+#: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:43
+msgid "Policy saved successfully"
+msgstr "ポリシーの保存に成功しました"
+
+#: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:84
+msgid "Policy created successfully"
+msgstr "ポリシーの作成に成功しました"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/components/PayloadContentsFiles/components/PayloadContentsUploadedEnterpriseApp.component.tsx:86:30
+msgid "Download Link"
+msgstr "リンクをダウンロード"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/components/PayloadContentsFiles/components/PayloadContentsUploadedEnterpriseApp.component.tsx:79:30
+msgid "Go to download page"
+msgstr "ダウンロードページへ移動"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/PayloadContents.tsx:30:43
+msgid "Only MSI, PKG and IPA are supported file types"
+msgstr "サポートされるファイルタイプはMSI、PKGおよびIPAのみとなります"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadScripts/components/ScriptFormModal.component.tsx:77:24
+msgid "Filewave supports .sh, .bat, .pl, .cmd, .py and .ps1 scripts. Visit our "
+msgstr "Filewaveは .sh、.bat、.pl、.cmd、.py および .ps1 スクリプトをサポートしています。弊社が "
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:135:31
+msgid "Create Google Policy"
+msgstr "Googleポリシーを作成"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:140:31
+msgid "Create FileWave Policy"
+msgstr "FileWaveポリシーを作成"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:145:31
+msgid "+ Setup Google Enterprise"
+msgstr "+ Googleエンタープライズのセットアップ"
+
+#: ./src/features/payloads/payloadsRedux/payloadEnterpriseApp/payloadEnterpriseApp.thunk.ts:17:19
+msgid "Enterprise App details"
+msgstr "エンタープライズアプリの詳細"
+
+#: ./src/features/payloads/payloadsRedux/payloadEnterpriseApp/payloadEnterpriseApp.thunk.ts:18:19
+msgid "Cannot fetch enterprise app details"
+msgstr "エンタープライズアプリの詳細を取得できません"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:194:24
+msgid "Disable context menus (Windows 10)"
+msgstr "コンテキストメニューを無効にする（Windows 10）"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:195:30
+msgid ""
+"Enabling this policy prevents context menus from being invoked in the Start "
+"menu. Available only in Windows 10."
+msgstr ""
+"このポリシーを有効にすることでスタートメニューにおいてコンテキストメニューが呼び出されることを禁止します。Windows 10でのみ利用できます。"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:226:24
+msgid "Hide app list (Windows 10)"
+msgstr "アプリのリストを非表示にする（Windows 10）"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:227:30
+msgid ""
+"This policy hides the app list in the Start menu. Available only in Windows "
+"10."
+msgstr ""
+"このポリシーはスタートメニューにおけるアプリのリストを非表示にします。Windows 10でのみ利用できます。"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:273:24
+msgid "Hide the People Bar from the taskbar (Windows 10)"
+msgstr "タスクバーのPeopleバーを非表示にする（Windows 10）"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:274:30
+msgid ""
+"Enabling this policy removes the people icon from the taskbar as well as "
+"the corresponding settings toggle. It also prevents users from pinning "
+"people to the taskbar. Available only in Windows 10"
+msgstr ""
+"このポリシーを有効にすることにより、タスクバーならびに対応する設定トグルからPeopleアイコンを除去します。またこれはユーザーが人物をタスクバーにピン留めすることを禁止します。Windows 10でのみ利用できます"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:301:24
+msgid "Hide recently added apps (Windows 10)"
+msgstr "最近追加されたアプリを非表示にする（Windows 10）"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:302:30
+msgid ""
+"Enabling this policy prevents recently added apps in the jump lists from "
+"appearing on the Start menu. Available only in Windows 10."
+msgstr ""
+"このポリシーを有効にすることでジャンプリストに最近追加されたアプリがスタートメニューに表示されることを禁止します。Windows 10でのみ利用できます。"
+
+#: ./src/features/reports/components/ReportForm/ReportForm.component.tsx:176:62
+msgid "Back to the Report list"
+msgstr "レポートリストへ戻る"
+
+#: ./src/features/reports/components/ReportForm/ReportForm.component.tsx:176:101
+msgid "Back to the Report overview"
+msgstr "レポート概要へ戻る"
+
+#: ./src/features/reports/reportsList/ReportsList.page.tsx:34:163
+msgid "Create Report"
+msgstr "レポートを作成"
+
+#: ./src/features/settings/IdentityProvider/IdentityProvider.page.tsx:492:28
+msgid "Back to the Identity Provider list"
+msgstr "アイデンティティプロバイダリストへ戻る"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/components/SoftwareUpdateStatus/SoftwareUpdateStatus.js:28:50
+msgid "Info"
+msgstr "情報"
+
+#: ./src/features/sources/microsoft/MicrosoftAccountForm/MicrosoftAccountForm.component.tsx:161:30
+msgid "Back to the Software Update list"
+msgstr "ソフトウェア・アップデートリストへ戻る"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:190:32
+msgid "Clear all selections"
+msgstr "すべての選択を消去"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:227:27
+msgid "Automatic installation not available"
+msgstr "自動インストールは利用できません"
+
+#: ./src/features/sources/apple/workflows/modifyWorkflow/WorkflowForm.component.tsx:174:38
+msgid "Back to the Sources"
+msgstr "ソースに戻る"
+
+#: ./src/features/sources/google/components/GoogleEnterpriseList/GoogleEnterpriseList.component.tsx:82:30
+msgid "Service Account disabled. Enable it to continue unenrollment process."
+msgstr "サービスアカウントが無効になっています。エンロール解除プロセスの続行を可能とします。"
+
+#: ./src/features/sources/google/components/GoogleEnterpriseSetup/GoogleEnterpriseSetup.component.tsx:58:36
+msgid "File data is invalid: %1"
+msgstr "ファイルデータが無効となっています: %1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:68:19
+msgid "Server error while toggling Service Account: %1"
+msgstr "サービスアカウントの切り替え中にサーバーエラーが発生: %1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:69:19
+msgid "The server returned an unknown or unexpected response."
+msgstr "サーバーが未知または予期せぬ応答を返しました。"
+
+#: ./src/library/layouts/Header/Header.tsx:32:173
+msgid "Back to the previous page"
+msgstr "前のページに戻る"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.component.tsx:86:21
+msgid "Model Number: %1"
+msgstr "モデルナンバー: %1"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.component.tsx:92:24
+msgid "Start model update"
+msgstr "モデルアップデート開始"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.hooks.tsx:23:26
+msgid "Help (%1)"
+msgstr "ヘルプ (%1)"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:103:28
+msgid "IDP Setup"
+msgstr "IDP セットアップ"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:216:32
+msgid "About Profiles / Policies"
+msgstr "プロファイル/ポリシーの説明"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:459:28
+msgid "Settings - Identity Provider"
+msgstr "設定 - アイデンティティプロバイダ"

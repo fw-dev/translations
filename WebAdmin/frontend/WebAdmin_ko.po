@@ -14110,7 +14110,7 @@ msgid ""
 "The \"Password Quality\" choice sets the restrictions an Android device "
 "will enforce."
 msgstr ""
-"선택하는 \"비밀번호 품질\”에 따라 Android 장치에서 적용하는 제한이 설정됩니다."
+"선택하는 \"비밀번호 품질”에 따라 Android 장치에서 적용하는 제한이 설정됩니다."
 
 #: ./src/features/payloads/AndroidManager/config/password.ts:129:27
 msgid "No Requirements"
@@ -18151,3 +18151,621 @@ msgstr "선택한 장치에서 업데이트 설치를 예약하는 중에 오류
 #: ./src/sagas/softwareUpdateSaga.js:95:21
 msgid "Error scheduling update installation on selected group."
 msgstr "선택한 그룹에서 업데이트 설치를 예약하는 중에 오류가 발생했습니다."
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:138:38
+msgid "Back to the Payload list"
+msgstr "페이로드 목록 돌아가기"
+
+#: ./src/components/resources/manager/Manager.js:515:40
+msgid "Export Profile"
+msgstr "프로필 내보내기"
+
+#: ./src/components/resources/manager/Manager.js:521:40
+msgid "Import Profile"
+msgstr "프로필 가져오기"
+
+#: ./src/components/resources/manager/utils.js:382:24
+msgid "Warning: invalid certificate. Expiry date cannot precede Effective date"
+msgstr "경고: 잘못된 인증서 만료일이 유효 날짜 이전일 수 없습니다"
+
+#: ./src/components/resources/manager/utils.js:400:26
+msgid "Warning: certificate validity window opens in %1 days"
+msgstr "경고: 인증서 유효 기간이 %1일 후에 열립니다"
+
+#: ./src/components/resources/manager/utils.js:408:26
+msgid "Warning: certificate no longer valid. Certificate expired %1 day(s) ago."
+msgstr "경고: 인증서가 더 이상 유효하지 않습니다 인증서가 %1일 전에 만료되었습니다"
+
+#: ./src/components/resources/manager/utils.js:416:26
+msgid "Warning: certificate will expire in less than 2 weeks."
+msgstr "경고: 인증서가 2주 이내에 만료됩니다"
+
+#: ./src/components/resources/profileManager/config/airPlaySecurity.js:30:30
+msgid "Security requirement for devices that connect to the Apple TV using AirPlay"
+msgstr "AirPlay를 사용하여 Apple TV에 연결하는 장치의 보안 요구 사항"
+
+#: ./src/components/resources/profileManager/config/restrictionsiOS.js:806:32
+msgid "Allow Mail Privacy Protection (Supervised devices only)"
+msgstr "이메일 개인정보 보호 허용(감독 대상 장치만 해당)"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1748:36
+msgid "Allow Erase All Content and Settings"
+msgstr "모든 콘텐츠 및 설정 지우기 허용"
+
+#: ./src/components/resources/profileManager/hooks.js:125:36
+msgid "Password-protected certificates are not supported"
+msgstr "암호로 보호된 인증서는 지원되지 않습니다"
+
+#: ./src/components/resources/profileManager/hooks.js:131:38
+msgid "Enter the certificate passphrase:"
+msgstr "인증서 암호를 입력:"
+
+#: ./src/components/resources/table/columns/renderers/RemoteSessionRenderer.tsx:17:72
+msgid "Remote Session (Prompt)"
+msgstr "원격 세션(확인)"
+
+#: ./src/components/resources/table/columns/renderers/UpdateStatusRenderer.tsx:89:64
+msgid "Not Available"
+msgstr "사용할 수 없음"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:228:31
+msgid ""
+"This update needs to be downloaded from Windows and uploaded manually to "
+"FileWave."
+msgstr ""
+"이 업데이트는 Windows에서 다운로드하고 FileWave에 수동으로 업로드해야 합니다."
+
+#: ./src/features/deployments/DeploymentEditor/DeploymentEditor.component.tsx:260:28
+msgid "Back to the Deployments"
+msgstr "배포로 돌아가기"
+
+#: ./src/features/deployments/DeploymentEditor/targets/DeploymentTargetsTab/DeploymentTargetsTab.component.tsx:236:32
+msgid "Show/Hide Exclusions"
+msgstr "제외 표시/숨기기"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:83:22
+msgid "Select deployment"
+msgstr "배포 선택"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:88:25
+msgid "Select"
+msgstr "선택"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:147:26
+msgid "Published"
+msgstr "게시됨"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:191:27
+msgid "There are no draft deployments yet."
+msgstr "아직 배포 초안이 없습니다."
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:77:22
+msgid "Remote Session (Prompt User)"
+msgstr "원격 세션(사용자 확인)"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:77:22
+msgid "Remote Session (Don't Prompt User)"
+msgstr "원격 세션(사용자 확인하지 않음)"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:109:22
+msgid "Set tracking state"
+msgstr "추적 상태 설정"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:124:22
+msgid "Verify"
+msgstr "검증"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:198:22
+msgid "Add to deployment"
+msgstr "배포에 추가"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:27:25
+msgid "Set Mode"
+msgstr "모드 설정"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:44:20
+msgid "Set your expectations about device tracking data"
+msgstr "장치 추적 데이터에 대한 기대치 설정"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:57:22
+msgid "No location is gathered at any time"
+msgstr "어떤 위치도 수집되지 않습니다"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:71:22
+msgid "Tracking is enabled and will update the location at different intervals"
+msgstr "추적이 활성화되어 있으며 다른 간격으로 위치를 업데이트합니다"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:85:22
+msgid ""
+"Tracking is enabled and will be updated around every two minutes. For "
+"supervised iOS devices this option puts the device in Lost mode."
+msgstr ""
+"추적이 활성화되어 있으며 약 2분 마다 업데이트됩니다. 감독 대상 iOS 장치의 경우 이 옵션은 장치를 분실 모드로 전환합니다."
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:38:34
+msgid "TeamViewer will start now"
+msgstr "TeamViewer가 지금 시작됩니다"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:43:34
+msgid "Invalid response received from the server"
+msgstr "서버로부터 유효하지 않은 응답을 받았습니다"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:61:36
+msgid "Taking control over %1"
+msgstr "%1 제어권 확보"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:67:36
+msgid "Could not start unattended session: %1"
+msgstr "무인 세션을 시작할 수 없음: %1"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:116:15
+msgid "Start session without user prompt"
+msgstr "사용자 확인 없이 세션 시작"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:117:15
+msgid ""
+"This could interrupt the user while doing important work. Are you sure that "
+"you want to start a remote session without user confirmation?"
+msgstr ""
+"중요한 작업을 수행하는 동안 사용이 중단될 수 있습니다. 사용자 확인 없이 원격 세션을 시작하시겠습니까?"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:118:15
+msgid "Start Session"
+msgstr "세션 시작"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:21:37
+msgid "Windows restart command"
+msgstr "Windows 다시 시작 명령"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:16:73
+msgid "Restart command sent successfully"
+msgstr "다시 시작 명령이 전송되었습니다"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:21:75
+msgid "Restart command failed"
+msgstr "다시 시작 명령이 실패했습니다"
+
+#: ./src/features/devices/smartGroups/SmartGroupForm.tsx:178:36
+msgid "Back to the Device list"
+msgstr "장치 목록 돌아가기"
+
+#: ./src/features/devices/DeviceDetails/DeviceDetails.page.tsx:32:24
+msgid "Installed Policy"
+msgstr "설치된 정책"
+
+#: ./src/features/devices/DeviceDetails/tabs/DeviceinstalledPolicy/DeviceInstalledPolicy.tsx:23:59
+msgid "An error occurred when fetching Installed Device Policy: %1"
+msgstr "설치된 장치 정책 정보를 가져오는 중에 오류가 발생했습니다: %1"
+
+#: ./src/features/devices/DevicesList/DeviceList.page.tsx:67:246
+msgid "Create Smart Group"
+msgstr "스마트 그룹 만들기"
+
+#: ./src/features/reports/reportsList/ReportsList.page.tsx:35:147
+msgid "Create Group"
+msgstr "그룹 만들기"
+
+#: ./src/features/devices/DevicesList/DeviceList.page.tsx:69:166
+msgid "Import CSV file"
+msgstr "CSV 파일 가져오기"
+
+#: ./src/features/devices/importCsv/components/ImportCsvWizard.tsx:129:79
+msgid "Import"
+msgstr "가져오기"
+
+#: ./src/features/devices/remoteSession/remoteSession.tsx:6:30
+msgid ""
+"Device token not available. The FileWave App needs to have the permission "
+"of the user to receive notifications"
+msgstr ""
+"장치 토큰을 사용할 수 없습니다. FileWave 앱은 알림을 수신하기 위해 사용자의 권한이 필요합니다"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:43:49
+msgid "Google Policy updated successfully"
+msgstr "Google 정책이 성공적으로 업데이트되었습니다"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:43:99
+msgid "Google Policy created successfully"
+msgstr "Google 정책이 성공적으로 생성되었습니다"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:89:71
+msgid "An error occurred when fetching certificate data: %1"
+msgstr "인증서 데이터 정보를 가져오는 중 오류가 발생했습니다: %1"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:96:51
+msgid "certificate with id %1"
+msgstr "ID가 있는 인증서 %1"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:77:38
+msgid "Filter Apps"
+msgstr "앱 필터링"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:82:32
+msgid "Custom Launcher and Locked Task are mutually exclusive."
+msgstr "사용자 지정 시작 관리자와 잠긴 작업은 상호 배타적입니다."
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:34:24
+msgid "Allow user to configure the developer settings of the device"
+msgstr "사용자가 장치의 개발자 설정을 구성할 수 있게 허용합니다"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:35:30
+msgid ""
+"If enabled, the user has access to and can configure developer settings "
+"such as Safe Boot and device debugging features."
+msgstr ""
+"활성화하면 사용자가 Safe Boot 같은 개발자 설정과 장치 디버깅 기능에 액세스하고 이를 구성할 수 있습니다."
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:72:24
+msgid "Location Mode"
+msgstr "위치 모드"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:73:30
+msgid "The degree of location detection enabled on organization owned devices."
+msgstr "위치 감지 정도는 조직 소유 장치에서 사용 가능합니다."
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:84:27
+msgid "Not Restricted"
+msgstr "제한 없음"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:144:27
+msgid "Personal Profile Only"
+msgstr "개인 프로필만"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:177:34
+msgid ""
+"<div>The Play Store <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#AppAutoUpdatePolicy\">App Auto-Update Policy</a> "
+"enforced on a device. If unspecified, the Android default is Choice to the "
+"User. To force apps to update, use Always or WiFi only.</div>"
+msgstr ""
+"장치에서 실행되는 <div>Play Store <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy\">앱 자동 업데이트 정책</a> 입니다. 지정되지 않은 경우 Android 기본값은 사용자 선택입니다. 앱을 강제로 업데이트하려면 항상 또는 Wi-Fi만 사용하십시오.</div>"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:321:34
+msgid "Allow use of bluetooth."
+msgstr "Bluetooth 사용 허용."
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:339:28
+msgid "Allow bluetooth configuration"
+msgstr "Bluetooth 구성 허용"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:340:38
+msgid ""
+"<div>Allow user to configure or modify bluetooth connections. Note that <a "
+"data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#Policy.FIELDS.bluetooth_disabled\">this setting can be "
+"bypassed by users</a>; to completely disable bluetooth, use \"Allow "
+"bluetooth\".</div>"
+msgstr ""
+"<div>사용자가 Bluetooth 연결을 구성하거나 수정할 수 있도록 허용합니다. <a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">이 설정은 사용자가 무시할 수 있습니다.</a> Bluetooth를 완전히 비활성화하려면 \‘Bluetooth 허용’\을 사용하십시오.</div>"
+
+#: ./src/features/payloads/AndroidManager/config/network.ts:225:30
+msgid "Passphrase must be at least 8 characters long"
+msgstr "암호는 8자 이상이어야 합니다."
+
+#: ./src/features/payloads/AndroidManager/config/password.ts:62:27
+msgid "Device Default Timeout"
+msgstr "장치 기본 시간 제한"
+
+#: ./src/features/payloads/FileWaveManager/config/general.ts:7:26
+msgid "General settings about policy"
+msgstr "정책 대한 일반 설정"
+
+#: ./src/features/payloads/FileWaveManager/config/general.ts:18:31
+msgid "New FileWave Policy"
+msgstr "새 FileWave 정책"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:6:20
+msgid "Geofencing"
+msgstr "지오펜싱"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:9:26
+msgid "Define a geofence (radius) and a rule."
+msgstr "지오펜스(반경)와 규칙을 정의합니다."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:14:24
+msgid "Latitude"
+msgstr "위도"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:15:30
+msgid ""
+"The latitude of the geofence center, specified in Decimal Degrees. A "
+"latitudinal value ranges from -90.0 to +90.0."
+msgstr ""
+"십진수로 지정된 지오펜스 중앙의 위도입니다. 위도 값의 범위는 -90.0 ~ +90.0입니다."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:24:24
+msgid "Longitude"
+msgstr "경도"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:25:30
+msgid ""
+"The longitude of the geofence center, specified in Decimal Degrees. A "
+"longitudinal value ranges from -180.0 to +180.0."
+msgstr ""
+"십진수로 지정된 지오펜스 중앙의 경도입니다. 경도 값의 범위는 -180.0 ~ +180.0입니다."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:34:24
+msgid "Radius"
+msgstr "반경"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:35:30
+msgid ""
+"Note: Location accuracy is determined by a number of external factors, "
+"please see our Knowledge Base for more information."
+msgstr ""
+"참고: 위치 정확도는 여러 외부 요인에 의해 결정됩니다. 자세한 내용은 기술 자료를 참조하십시오."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:38:23
+msgid " (m)"
+msgstr " (m)"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:44:30
+msgid ""
+"A description of the geofence area. If a device leaves the area, the FW "
+"Client app will use this message to help inform a user to where the device "
+"should be moved."
+msgstr ""
+"지오펜스 영역에 대한 설명입니다. 장치가 이 영역에서 나가면 FW 클라이언트 앱은 이 메시지를 사용하여 장치를 이동해야 하는 위치를 사용자에게 알려줍니다."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:47:35
+msgid "e.g. Meeting Room B"
+msgstr "예: 회의실 B"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:51:24
+msgid "Event Actions"
+msgstr "이벤트 작업"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:56:28
+msgid "Leaving Action"
+msgstr "나갈 때 작업"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:57:34
+msgid "What should happen when the device leaves the Geofence."
+msgstr "장치가 지오펜스를 벗어날 때 발생하는 일."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:62:31
+msgid "Send Local Notification"
+msgstr "로컬 알림 보내기"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:66:31
+msgid "Disable All Applications"
+msgstr "모든 애플리케이션 비활성화"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:75:24
+msgid "Generated ID"
+msgstr "생성된 ID"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:7:20
+msgid "Blocker Script"
+msgstr "차단 스크립트"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:10:26
+msgid "Use blocker script to block payload deployment on devices"
+msgstr "차단 스크립트를 사용해 장치에서 페이로드 배포 차단"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:16:24
+msgid "Script to disable management"
+msgstr "관리를 비활성화하기 위한 스크립트"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:17:30
+msgid ""
+"This script will be run on the client side. If exit code is not 0 the "
+"client will be considered as locked and management will be disabled."
+msgstr ""
+"이 스크립트는 클라이언트 측에서 실행됩니다. 종료 코드가 0이 아니면 클라이언트가 잠겨 있는 것으로 간주되어 관리가 비활성화됩니다."
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:21:26
+msgid "Script type"
+msgstr "스크립트 유형"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:60:28
+msgid "Launch Arguments"
+msgstr "시작 인수"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:75:45
+msgid "<new argument>"
+msgstr "<new argument>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:80:38
+msgid ""
+"The values of the command line arguments are set just before the script "
+"execution. \n"
+"To use an inventory field value to set a command line argument value, use "
+"the syntax %FIELD_NAME%. \n"
+"For instance: foo-%asset_tag%."
+msgstr ""
+"명령줄 인수 값은 스크립트 실행 직전에 설정됩니다 \n 인벤토리 필드 값을 사용하여 명령줄 인수 값을 설정하려면 %FIELD_NAME% 구문을 사용합니다. \n예: foo-%asset_tag%."
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:88:28
+msgid "Environment Variables"
+msgstr "환경 변수"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:103:45
+msgid "<VARIABLE>"
+msgstr "<가변>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:109:45
+msgid "<VALUE>"
+msgstr "<값>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:114:38
+msgid ""
+"The values of the environment variables are set just before the script "
+"execution. \n"
+"To use an inventory field value, use the syntax %FIELD_NAME%. \n"
+"For instance: MY_VAR: foo-%asset_tag%. \n"
+"Note: environment variable names are case insensitive in Windows."
+msgstr ""
+"환경 변수의 값은 스크립트 실행 직전에 설정됩니다. \n인벤토리 필드 값을 사용하려면 %FIELD_NAME% 구문을 사용하십시오. \n예: MY_VAR: foo-%asset_tag%. 참고: Windows에서 환경 변수 이름은 대/소문자를 구분하지 않습니다."
+
+#: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:43
+msgid "Policy saved successfully"
+msgstr "정책이 성공적으로 저장되었습니다."
+
+#: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:84
+msgid "Policy created successfully"
+msgstr "정책이 성공적으로 생성되었습니다"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/components/PayloadContentsFiles/components/PayloadContentsUploadedEnterpriseApp.component.tsx:86:30
+msgid "Download Link"
+msgstr "다운로드한 링크"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/components/PayloadContentsFiles/components/PayloadContentsUploadedEnterpriseApp.component.tsx:79:30
+msgid "Go to download page"
+msgstr "다운로드 페이지로 이동"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/PayloadContents.tsx:30:43
+msgid "Only MSI, PKG and IPA are supported file types"
+msgstr "MSI, PKG, IPA만 지원되는 파일 형식임"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadScripts/components/ScriptFormModal.component.tsx:77:24
+msgid "Filewave supports .sh, .bat, .pl, .cmd, .py and .ps1 scripts. Visit our "
+msgstr "Filewave는 .sh, .bat, .pl, .cmd, .py, .ps1 스크립트를 지원합니다. 방문 "
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:135:31
+msgid "Create Google Policy"
+msgstr "Google 정책 생성"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:140:31
+msgid "Create FileWave Policy"
+msgstr "FileWave 정책 생성"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:145:31
+msgid "+ Setup Google Enterprise"
+msgstr "+ Google 앤터프라이즈 설정"
+
+#: ./src/features/payloads/payloadsRedux/payloadEnterpriseApp/payloadEnterpriseApp.thunk.ts:17:19
+msgid "Enterprise App details"
+msgstr "엔터프라이즈 앱 세부정보"
+
+#: ./src/features/payloads/payloadsRedux/payloadEnterpriseApp/payloadEnterpriseApp.thunk.ts:18:19
+msgid "Cannot fetch enterprise app details"
+msgstr "엔터프라이즈 앱 세부정보를 가져올 수 없습니다"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:194:24
+msgid "Disable context menus (Windows 10)"
+msgstr "상황에 맞는 메뉴 사용 안 함(Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:195:30
+msgid ""
+"Enabling this policy prevents context menus from being invoked in the Start "
+"menu. Available only in Windows 10."
+msgstr ""
+"이 정책을 사용으로 설정하면 상황에 맞는 메뉴가 시작 메뉴에서 호출되지 않습니다. Windows 10에서만 사용 가능"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:226:24
+msgid "Hide app list (Windows 10)"
+msgstr "앱 목록 숨김(Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:227:30
+msgid ""
+"This policy hides the app list in the Start menu. Available only in Windows "
+"10."
+msgstr ""
+"이 정책은 시작 메뉴에서 앱 목록을 숨깁니다. Windows 10에서만 사용 가능"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:273:24
+msgid "Hide the People Bar from the taskbar (Windows 10)"
+msgstr "작업 표시줄에서 피플 바 숨김(Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:274:30
+msgid ""
+"Enabling this policy removes the people icon from the taskbar as well as "
+"the corresponding settings toggle. It also prevents users from pinning "
+"people to the taskbar. Available only in Windows 10"
+msgstr ""
+"이 정책을 사용으로 설정하면 피플 아이콘이 작업 표시줄과 해당하는 설정 토글에서 모두 제거됩니다. 사용자가 피플을 작업 표시줄에 고정할 수도 없게 됩니다. Windows 10에서만 사용 가능"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:301:24
+msgid "Hide recently added apps (Windows 10)"
+msgstr "최근에 추가한 앱 숨김(Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:302:30
+msgid ""
+"Enabling this policy prevents recently added apps in the jump lists from "
+"appearing on the Start menu. Available only in Windows 10."
+msgstr ""
+"이 정책을 사용으로 설정하면 점프 목록에 최근에 추가한 항목이 시작 메뉴에 표시되지 않습니다. Windows 10에서만 사용 가능"
+
+#: ./src/features/reports/components/ReportForm/ReportForm.component.tsx:176:62
+msgid "Back to the Report list"
+msgstr "보고서 목록 돌아가기"
+
+#: ./src/features/reports/components/ReportForm/ReportForm.component.tsx:176:101
+msgid "Back to the Report overview"
+msgstr "보고서 개요 돌아가기"
+
+#: ./src/features/reports/reportsList/ReportsList.page.tsx:34:163
+msgid "Create Report"
+msgstr "보고서 생성"
+
+#: ./src/features/settings/IdentityProvider/IdentityProvider.page.tsx:492:28
+msgid "Back to the Identity Provider list"
+msgstr "ID 공급자 목록 돌아가기"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/components/SoftwareUpdateStatus/SoftwareUpdateStatus.js:28:50
+msgid "Info"
+msgstr "정보"
+
+#: ./src/features/sources/microsoft/MicrosoftAccountForm/MicrosoftAccountForm.component.tsx:161:30
+msgid "Back to the Software Update list"
+msgstr "소프트웨어 업데이트 목록 돌아가기"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:190:32
+msgid "Clear all selections"
+msgstr "모든 선택 지우기"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:227:27
+msgid "Automatic installation not available"
+msgstr "자동 설치 사용 불가"
+
+#: ./src/features/sources/apple/workflows/modifyWorkflow/WorkflowForm.component.tsx:174:38
+msgid "Back to the Sources"
+msgstr "소스로 돌아가기"
+
+#: ./src/features/sources/google/components/GoogleEnterpriseList/GoogleEnterpriseList.component.tsx:82:30
+msgid "Service Account disabled. Enable it to continue unenrollment process."
+msgstr "서비스 계정 사용 중지됨. 등록 취소 프로세스를 계속하려면 활성화하십시오."
+
+#: ./src/features/sources/google/components/GoogleEnterpriseSetup/GoogleEnterpriseSetup.component.tsx:58:36
+msgid "File data is invalid: %1"
+msgstr "데이터가 잘못됨: %1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:68:19
+msgid "Server error while toggling Service Account: %1"
+msgstr "서비스 계정 토글 중 서버 오류: %1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:69:19
+msgid "The server returned an unknown or unexpected response."
+msgstr "서버에서 알 수 없거나 예상치 못한 응답을 반환했습니다."
+
+#: ./src/library/layouts/Header/Header.tsx:32:173
+msgid "Back to the previous page"
+msgstr "이전 페이지로 돌아가기"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.component.tsx:86:21
+msgid "Model Number: %1"
+msgstr "모델 번호: %1"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.component.tsx:92:24
+msgid "Start model update"
+msgstr "모델 업데이트 시작"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.hooks.tsx:23:26
+msgid "Help (%1)"
+msgstr "도움말(%1)"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:103:28
+msgid "IDP Setup"
+msgstr "IDP 설정"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:216:32
+msgid "About Profiles / Policies"
+msgstr "프로필/정책 정보"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:459:28
+msgid "Settings - Identity Provider"
+msgstr "설정 - ID 공급자"

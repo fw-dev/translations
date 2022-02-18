@@ -2754,7 +2754,7 @@ msgid ""
 "The user of the account with optional domain (e.g. \"user\" or "
 "\"domain\\user\")"
 msgstr ""
-"带可选域帐户的用户（例如“用户”或“域\用户”）"
+"带可选域帐户的用户（例如“用户”或“域用户”）"
 
 #: ./src/features/setupAssistant/components/steps/OrganizationalInfo/OrganizationalInfoForm.tsx:35:50
 msgid "Email Address"
@@ -12902,7 +12902,7 @@ msgid ""
 "\"domain\\user\") (required for supervised devices). Leave blank to set on "
 "device"
 msgstr ""
-"带可选域帐户的用户（例如，“用户”或“域\用户”）（对于受监控设备是必需的）。留空以在设备上设置"
+"带可选域帐户的用户（例如，“用户”或“域用户”）（对于受监控设备是必需的）。留空以在设备上设置"
 
 #: ./src/components/resources/profileManager/config/loginWindow.js:292:32
 msgid "Disable Unlock with Watch window during login"
@@ -18130,3 +18130,621 @@ msgstr "在选定设备上计划更新安装时出错。"
 #: ./src/sagas/softwareUpdateSaga.js:95:21
 msgid "Error scheduling update installation on selected group."
 msgstr "在选定组上计划更新安装时出错。"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:138:38
+msgid "Back to the Payload list"
+msgstr "返回有效负载列表"
+
+#: ./src/components/resources/manager/Manager.js:515:40
+msgid "Export Profile"
+msgstr "导出配置文件"
+
+#: ./src/components/resources/manager/Manager.js:521:40
+msgid "Import Profile"
+msgstr "导入配置文件"
+
+#: ./src/components/resources/manager/utils.js:382:24
+msgid "Warning: invalid certificate. Expiry date cannot precede Effective date"
+msgstr "警告：证书无效。到期日期不能早于生效日期"
+
+#: ./src/components/resources/manager/utils.js:400:26
+msgid "Warning: certificate validity window opens in %1 days"
+msgstr "警告：证书有效期窗口将在 %1 天后打开"
+
+#: ./src/components/resources/manager/utils.js:408:26
+msgid "Warning: certificate no longer valid. Certificate expired %1 day(s) ago."
+msgstr "警告：证书不再有效。证书已于 %1 天前过期。"
+
+#: ./src/components/resources/manager/utils.js:416:26
+msgid "Warning: certificate will expire in less than 2 weeks."
+msgstr "警告：证书将在 2 周后到期。"
+
+#: ./src/components/resources/profileManager/config/airPlaySecurity.js:30:30
+msgid "Security requirement for devices that connect to the Apple TV using AirPlay"
+msgstr "使用 AirPlay 与 Apple TV 连接的设备的安全性要求"
+
+#: ./src/components/resources/profileManager/config/restrictionsiOS.js:806:32
+msgid "Allow Mail Privacy Protection (Supervised devices only)"
+msgstr "允许邮件隐私保护（仅限受监控设备）"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1748:36
+msgid "Allow Erase All Content and Settings"
+msgstr "允许“擦除所有内容和设置”"
+
+#: ./src/components/resources/profileManager/hooks.js:125:36
+msgid "Password-protected certificates are not supported"
+msgstr "不支持受密码保护的证书"
+
+#: ./src/components/resources/profileManager/hooks.js:131:38
+msgid "Enter the certificate passphrase:"
+msgstr "输入证书密码："
+
+#: ./src/components/resources/table/columns/renderers/RemoteSessionRenderer.tsx:17:72
+msgid "Remote Session (Prompt)"
+msgstr "远程会话（提示）"
+
+#: ./src/components/resources/table/columns/renderers/UpdateStatusRenderer.tsx:89:64
+msgid "Not Available"
+msgstr "不可用"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:228:31
+msgid ""
+"This update needs to be downloaded from Windows and uploaded manually to "
+"FileWave."
+msgstr ""
+"此更新需要从 Windows 下载并手动上传到 FileWave。"
+
+#: ./src/features/deployments/DeploymentEditor/DeploymentEditor.component.tsx:260:28
+msgid "Back to the Deployments"
+msgstr "返回部署"
+
+#: ./src/features/deployments/DeploymentEditor/targets/DeploymentTargetsTab/DeploymentTargetsTab.component.tsx:236:32
+msgid "Show/Hide Exclusions"
+msgstr "显示/隐藏排除项"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:83:22
+msgid "Select deployment"
+msgstr "选择部署"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:88:25
+msgid "Select"
+msgstr "选择"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:147:26
+msgid "Published"
+msgstr "已发布"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:191:27
+msgid "There are no draft deployments yet."
+msgstr "尚未有部署草稿。"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:77:22
+msgid "Remote Session (Prompt User)"
+msgstr "远程会话（提示用户）"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:77:22
+msgid "Remote Session (Don't Prompt User)"
+msgstr "远程会话（不提示用户）"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:109:22
+msgid "Set tracking state"
+msgstr "设置跟踪状态"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:124:22
+msgid "Verify"
+msgstr "验证"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:198:22
+msgid "Add to deployment"
+msgstr "添加到部署"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:27:25
+msgid "Set Mode"
+msgstr "设置模式"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:44:20
+msgid "Set your expectations about device tracking data"
+msgstr "设定对设备跟踪数据的期望"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:57:22
+msgid "No location is gathered at any time"
+msgstr "任何时候都不收集位置信息"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:71:22
+msgid "Tracking is enabled and will update the location at different intervals"
+msgstr "启用跟踪功能，并以不同的时间间隔更新位置信息"
+
+#: ./src/features/devices/actions/setTrackingState/TrackDeviceModal/TrackDeviceModal.tsx:85:22
+msgid ""
+"Tracking is enabled and will be updated around every two minutes. For "
+"supervised iOS devices this option puts the device in Lost mode."
+msgstr ""
+"启用跟踪功能，大约每两分钟更新一次。对于受监控的 iOS 设备，此选项会将设备置于丢失模式。"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:38:34
+msgid "TeamViewer will start now"
+msgstr "TeamViewer 将立即启动"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:43:34
+msgid "Invalid response received from the server"
+msgstr "从服务器收到的响应无效"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:61:36
+msgid "Taking control over %1"
+msgstr "获取对 %1的控制"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:67:36
+msgid "Could not start unattended session: %1"
+msgstr "无法启动无人值守会话：%1"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:116:15
+msgid "Start session without user prompt"
+msgstr "在不提示用户的情况下启动会话"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:117:15
+msgid ""
+"This could interrupt the user while doing important work. Are you sure that "
+"you want to start a remote session without user confirmation?"
+msgstr ""
+"这可能会在用户执行重要工作时导致中断。是否确定要在不请用户确认的情况下启动远程会话？"
+
+#: ./src/features/devices/actions/startUnattendedSession/startUnattendedSession.tsx:118:15
+msgid "Start Session"
+msgstr "启动会话"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:21:37
+msgid "Windows restart command"
+msgstr "Windows 重新启动命令"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:16:73
+msgid "Restart command sent successfully"
+msgstr "重新启动命令发送成功"
+
+#: ./src/features/devices/actions/windowsRestart/windowsRestart.ts:21:75
+msgid "Restart command failed"
+msgstr "重新启动命令失败"
+
+#: ./src/features/devices/smartGroups/SmartGroupForm.tsx:178:36
+msgid "Back to the Device list"
+msgstr "返回设备列表"
+
+#: ./src/features/devices/DeviceDetails/DeviceDetails.page.tsx:32:24
+msgid "Installed Policy"
+msgstr "已安装的策略"
+
+#: ./src/features/devices/DeviceDetails/tabs/DeviceinstalledPolicy/DeviceInstalledPolicy.tsx:23:59
+msgid "An error occurred when fetching Installed Device Policy: %1"
+msgstr "获取已安装设备策略时出错：%1"
+
+#: ./src/features/devices/DevicesList/DeviceList.page.tsx:67:246
+msgid "Create Smart Group"
+msgstr "创建智能组"
+
+#: ./src/features/reports/reportsList/ReportsList.page.tsx:35:147
+msgid "Create Group"
+msgstr "创建组"
+
+#: ./src/features/devices/DevicesList/DeviceList.page.tsx:69:166
+msgid "Import CSV file"
+msgstr "导入 CSV 文件"
+
+#: ./src/features/devices/importCsv/components/ImportCsvWizard.tsx:129:79
+msgid "Import"
+msgstr "导入"
+
+#: ./src/features/devices/remoteSession/remoteSession.tsx:6:30
+msgid ""
+"Device token not available. The FileWave App needs to have the permission "
+"of the user to receive notifications"
+msgstr ""
+"设备令牌不可用。FileWave 应用程序需要用户允许才能接收通知"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:43:49
+msgid "Google Policy updated successfully"
+msgstr "Google 策略更新成功"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:43:99
+msgid "Google Policy created successfully"
+msgstr "Google 策略创建成功"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:89:71
+msgid "An error occurred when fetching certificate data: %1"
+msgstr "获取证书数据时出错：%1"
+
+#: ./src/features/payloads/AndroidManager/AndroidManager.page.tsx:96:51
+msgid "certificate with id %1"
+msgstr "证书 ID %1"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:77:38
+msgid "Filter Apps"
+msgstr "过滤应用程序"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:82:32
+msgid "Custom Launcher and Locked Task are mutually exclusive."
+msgstr "自定义启动器和锁定任务是互斥的。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:34:24
+msgid "Allow user to configure the developer settings of the device"
+msgstr "允许用户配置设备的开发人员设置。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:35:30
+msgid ""
+"If enabled, the user has access to and can configure developer settings "
+"such as Safe Boot and device debugging features."
+msgstr ""
+"如果启用，用户可以访问并配置开发人员设置，如安全启动和设备调试特性。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:72:24
+msgid "Location Mode"
+msgstr "定位模式"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:73:30
+msgid "The degree of location detection enabled on organization owned devices."
+msgstr "在组织拥有的设备上启用的位置检测程度。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:84:27
+msgid "Not Restricted"
+msgstr "不受限制"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:144:27
+msgid "Personal Profile Only"
+msgstr "仅个人配置文件"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:177:34
+msgid ""
+"<div>The Play Store <a target=\"_blank\" rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#AppAutoUpdatePolicy\">App Auto-Update Policy</a> "
+"enforced on a device. If unspecified, the Android default is Choice to the "
+"User. To force apps to update, use Always or WiFi only.</div>"
+msgstr ""
+"<div>在设备上执行的 Play Store <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#AppAutoUpdatePolicy\">应用程序自动更新策略</a>。如果未指定，用户选择 Android 默认设置。要强制应用程序更新，请使用“始终”或“仅 Wi-Fi”。</div>"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:321:34
+msgid "Allow use of bluetooth."
+msgstr "允许使用蓝牙。"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:339:28
+msgid "Allow bluetooth configuration"
+msgstr "允许蓝牙配置"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:340:38
+msgid ""
+"<div>Allow user to configure or modify bluetooth connections. Note that <a "
+"data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#Policy.FIELDS.bluetooth_disabled\">this setting can be "
+"bypassed by users</a>; to completely disable bluetooth, use \"Allow "
+"bluetooth\".</div>"
+msgstr ""
+"<div>允许用户配置或修改蓝牙连接。请注意，<a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">用户可以绕过此设置</a>；若要完全禁用蓝牙，请选择 \"允许蓝牙\"。</div>"
+
+#: ./src/features/payloads/AndroidManager/config/network.ts:225:30
+msgid "Passphrase must be at least 8 characters long"
+msgstr "密码长度必须至少为 8 个字符"
+
+#: ./src/features/payloads/AndroidManager/config/password.ts:62:27
+msgid "Device Default Timeout"
+msgstr "设备默认超时"
+
+#: ./src/features/payloads/FileWaveManager/config/general.ts:7:26
+msgid "General settings about policy"
+msgstr "关于策略的常规设置"
+
+#: ./src/features/payloads/FileWaveManager/config/general.ts:18:31
+msgid "New FileWave Policy"
+msgstr "新 FileWave 策略"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:6:20
+msgid "Geofencing"
+msgstr "地理围栏"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:9:26
+msgid "Define a geofence (radius) and a rule."
+msgstr "定义地理围栏（半径）和规则。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:14:24
+msgid "Latitude"
+msgstr "纬度"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:15:30
+msgid ""
+"The latitude of the geofence center, specified in Decimal Degrees. A "
+"latitudinal value ranges from -90.0 to +90.0."
+msgstr ""
+"地理围栏中心的纬度，用十进制度数表示。纬度值的范围是 -90.0 到 +90.0。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:24:24
+msgid "Longitude"
+msgstr "经度"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:25:30
+msgid ""
+"The longitude of the geofence center, specified in Decimal Degrees. A "
+"longitudinal value ranges from -180.0 to +180.0."
+msgstr ""
+"地理围栏中心的经度，用十进制度数表示。经度值的范围是 -180.0 到 +180.0。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:34:24
+msgid "Radius"
+msgstr "半径"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:35:30
+msgid ""
+"Note: Location accuracy is determined by a number of external factors, "
+"please see our Knowledge Base for more information."
+msgstr ""
+"注意：位置的精度由许多外部因素决定，请参阅我们的知识库以获取更多信息。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:38:23
+msgid " (m)"
+msgstr " (m)"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:44:30
+msgid ""
+"A description of the geofence area. If a device leaves the area, the FW "
+"Client app will use this message to help inform a user to where the device "
+"should be moved."
+msgstr ""
+"地理围栏区域描述。如果设备离开该区域，FW 客户端应用程序将使用此消息告诉用户应将设备移动到哪里。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:47:35
+msgid "e.g. Meeting Room B"
+msgstr "例如，会议室 B"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:51:24
+msgid "Event Actions"
+msgstr "事件操作"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:56:28
+msgid "Leaving Action"
+msgstr "离开操作"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:57:34
+msgid "What should happen when the device leaves the Geofence."
+msgstr "设备离开地理围栏时应执行的操作。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:62:31
+msgid "Send Local Notification"
+msgstr "发送本地通知"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:66:31
+msgid "Disable All Applications"
+msgstr "禁用所有应用程序"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:75:24
+msgid "Generated ID"
+msgstr "地理围栏区域 ID"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:7:20
+msgid "Blocker Script"
+msgstr "拦截器脚本"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:10:26
+msgid "Use blocker script to block payload deployment on devices"
+msgstr "使用拦截器脚本来阻止设备上的有效负载部署"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:16:24
+msgid "Script to disable management"
+msgstr "禁用管理的脚本"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:17:30
+msgid ""
+"This script will be run on the client side. If exit code is not 0 the "
+"client will be considered as locked and management will be disabled."
+msgstr ""
+"该脚本将在客户端上运行。如果退出代码不是 0，将视为客户端锁定，并禁用管理。"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:21:26
+msgid "Script type"
+msgstr "脚本类型"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:60:28
+msgid "Launch Arguments"
+msgstr "启动参数"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:75:45
+msgid "<new argument>"
+msgstr "<new argument>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:80:38
+msgid ""
+"The values of the command line arguments are set just before the script "
+"execution. \n"
+"To use an inventory field value to set a command line argument value, use "
+"the syntax %FIELD_NAME%. \n"
+"For instance: foo-%asset_tag%."
+msgstr ""
+"在执行脚本之前设置命令行参数的值。\n若要使用清单字段值来设置命令行参数值，请使用语法 %FIELD_NAME%。\n例如：foo-%asset_tag%。"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:88:28
+msgid "Environment Variables"
+msgstr "环境变量"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:103:45
+msgid "<VARIABLE>"
+msgstr "<VARIABLE>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:109:45
+msgid "<VALUE>"
+msgstr "<VALUE>"
+
+#: ./src/features/payloads/FileWaveManager/config/script.ts:114:38
+msgid ""
+"The values of the environment variables are set just before the script "
+"execution. \n"
+"To use an inventory field value, use the syntax %FIELD_NAME%. \n"
+"For instance: MY_VAR: foo-%asset_tag%. \n"
+"Note: environment variable names are case insensitive in Windows."
+msgstr ""
+"在执行脚本之前设置环境变量的值。\n若要使用清单字段值，请使用语法 %FIELD_NAME%。\n例如：MY_VAR: foo-%asset_tag%.\n注意：Windows 中的环境变量名称不区分大小写。"
+
+#: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:43
+msgid "Policy saved successfully"
+msgstr "策略保存成功"
+
+#: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:84
+msgid "Policy created successfully"
+msgstr "策略创建成功"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/components/PayloadContentsFiles/components/PayloadContentsUploadedEnterpriseApp.component.tsx:86:30
+msgid "Download Link"
+msgstr "下载链接"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/components/PayloadContentsFiles/components/PayloadContentsUploadedEnterpriseApp.component.tsx:79:30
+msgid "Go to download page"
+msgstr "转到下载页面"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadInfo/components/PayloadContents/PayloadContents.tsx:30:43
+msgid "Only MSI, PKG and IPA are supported file types"
+msgstr "仅支持 MSI、PKG 和 IPA 文件类型"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadScripts/components/ScriptFormModal.component.tsx:77:24
+msgid "Filewave supports .sh, .bat, .pl, .cmd, .py and .ps1 scripts. Visit our "
+msgstr "Filewave 支持 .sh、.bat、.pl、.cmd、.py 和 .ps1 脚本。访问我们的 "
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:135:31
+msgid "Create Google Policy"
+msgstr "创建 Google 策略"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:140:31
+msgid "Create FileWave Policy"
+msgstr "创建 FileWave 策略"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:145:31
+msgid "+ Setup Google Enterprise"
+msgstr "+ 设置 Google Enterprise"
+
+#: ./src/features/payloads/payloadsRedux/payloadEnterpriseApp/payloadEnterpriseApp.thunk.ts:17:19
+msgid "Enterprise App details"
+msgstr "企业应用程序详细信息"
+
+#: ./src/features/payloads/payloadsRedux/payloadEnterpriseApp/payloadEnterpriseApp.thunk.ts:18:19
+msgid "Cannot fetch enterprise app details"
+msgstr "无法获取企业应用程序详细信息"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:194:24
+msgid "Disable context menus (Windows 10)"
+msgstr "禁用上下文菜单 (Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:195:30
+msgid ""
+"Enabling this policy prevents context menus from being invoked in the Start "
+"menu. Available only in Windows 10."
+msgstr ""
+"启用此策略可阻止在“开始”菜单中调用上下文菜单。仅在 Windows 10 中可用。"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:226:24
+msgid "Hide app list (Windows 10)"
+msgstr "隐藏应用程序列表 (Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:227:30
+msgid ""
+"This policy hides the app list in the Start menu. Available only in Windows "
+"10."
+msgstr ""
+"此策略会隐藏“开始”菜单中的应用程序列表。仅在 Windows 10 中可用。"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:273:24
+msgid "Hide the People Bar from the taskbar (Windows 10)"
+msgstr "从任务栏中隐藏人员栏 (Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:274:30
+msgid ""
+"Enabling this policy removes the people icon from the taskbar as well as "
+"the corresponding settings toggle. It also prevents users from pinning "
+"people to the taskbar. Available only in Windows 10"
+msgstr ""
+"启用此策略将从任务栏中删除“人员”图标以及相应的“设置”切换开关。此外，还可阻止用户将人员固定在任务栏上。仅在 Windows 10 中可用"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:301:24
+msgid "Hide recently added apps (Windows 10)"
+msgstr "隐藏最近添加的应用程序 (Windows 10)"
+
+#: ./src/features/payloads/WindowsManager/config/start.ts:302:30
+msgid ""
+"Enabling this policy prevents recently added apps in the jump lists from "
+"appearing on the Start menu. Available only in Windows 10."
+msgstr ""
+"启用此策略可阻止跳转列表中最近添加的应用程序出现在“开始”菜单上。仅在 Windows 10 中可用。"
+
+#: ./src/features/reports/components/ReportForm/ReportForm.component.tsx:176:62
+msgid "Back to the Report list"
+msgstr "返回“报告”列表"
+
+#: ./src/features/reports/components/ReportForm/ReportForm.component.tsx:176:101
+msgid "Back to the Report overview"
+msgstr "返回“报告”概览"
+
+#: ./src/features/reports/reportsList/ReportsList.page.tsx:34:163
+msgid "Create Report"
+msgstr "创建报告"
+
+#: ./src/features/settings/IdentityProvider/IdentityProvider.page.tsx:492:28
+msgid "Back to the Identity Provider list"
+msgstr "返回“身份提供者”列表"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/components/SoftwareUpdateStatus/SoftwareUpdateStatus.js:28:50
+msgid "Info"
+msgstr "信息"
+
+#: ./src/features/sources/microsoft/MicrosoftAccountForm/MicrosoftAccountForm.component.tsx:161:30
+msgid "Back to the Software Update list"
+msgstr "返回“软件更新”列表"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:190:32
+msgid "Clear all selections"
+msgstr "清除所有选项"
+
+#: ./src/features/softwareUpdates/softwareUpdateDetail/SoftwareUpdateDetail.page.tsx:227:27
+msgid "Automatic installation not available"
+msgstr "自动安装不可用"
+
+#: ./src/features/sources/apple/workflows/modifyWorkflow/WorkflowForm.component.tsx:174:38
+msgid "Back to the Sources"
+msgstr "返回“来源”"
+
+#: ./src/features/sources/google/components/GoogleEnterpriseList/GoogleEnterpriseList.component.tsx:82:30
+msgid "Service Account disabled. Enable it to continue unenrollment process."
+msgstr "服务帐户已启用。启用以继续取消注册过程。"
+
+#: ./src/features/sources/google/components/GoogleEnterpriseSetup/GoogleEnterpriseSetup.component.tsx:58:36
+msgid "File data is invalid: %1"
+msgstr "文件数据无效：%1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:68:19
+msgid "Server error while toggling Service Account: %1"
+msgstr "切换服务帐户时出现服务器错误：%1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:69:19
+msgid "The server returned an unknown or unexpected response."
+msgstr "服务器返回了未知或意外的响应。"
+
+#: ./src/library/layouts/Header/Header.tsx:32:173
+msgid "Back to the previous page"
+msgstr "返回上一页"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.component.tsx:86:21
+msgid "Model Number: %1"
+msgstr "模型编号：%1"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.component.tsx:92:24
+msgid "Start model update"
+msgstr "启动模型更新"
+
+#: ./src/sharedComponents/AppTopBar/AppTopBar.hooks.tsx:23:26
+msgid "Help (%1)"
+msgstr "帮助 (%1)"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:103:28
+msgid "IDP Setup"
+msgstr "IDP 设置"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:216:32
+msgid "About Profiles / Policies"
+msgstr "关于配置文件/策略"
+
+#: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:459:28
+msgid "Settings - Identity Provider"
+msgstr "设置 - 身份提供者"
