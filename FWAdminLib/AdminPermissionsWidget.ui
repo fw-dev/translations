@@ -163,34 +163,20 @@
        </widget>
       </item>
       <item row="5" column="1">
-       <widget class="QCheckBox" name="checkBoxUploadEngageCertificate">
-        <property name="text">
-         <string>Upload Engage Certificate</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QCheckBox" name="checkBoxEngageMigration">
-        <property name="text">
-         <string>Engage Migration</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
        <widget class="QCheckBox" name="checkBoxConfigureClassroomCertificate">
         <property name="text">
          <string>Configure Classroom</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="2">
+      <item row="0" column="2">
        <widget class="QCheckBox" name="checkBoxModifyEMMEnterpriseConfiguration">
         <property name="text">
          <string>Modify EMM Enterprise</string>
         </property>
        </widget>
       </item>
-      <item row="3" column="2">
+      <item row="1" column="2">
        <widget class="QCheckBox" name="checkBoxModifyEMMDefaultPolicy">
         <property name="text">
          <string>Configure EMM Default Policy</string>

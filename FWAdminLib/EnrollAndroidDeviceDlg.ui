@@ -375,21 +375,6 @@
                 <property name="statusTip">
                  <string>The maximum duration is 30 days, 720 hours, or 43200 minutes.</string>
                 </property>
-                <item>
-                 <property name="text">
-                  <string>Minutes</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Hours</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Days</string>
-                 </property>
-                </item>
                </widget>
               </item>
               <item>

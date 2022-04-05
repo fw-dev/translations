@@ -4,33 +4,33 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="73"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="83"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="76"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="86"/>
         <source>FileWave Kiosk</source>
         <translation>Kiosque FileWave</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="95"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="98"/>
         <source>Client Info...</source>
         <translation>Informations du client...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="107"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="110"/>
         <source>Available Updates: %1</source>
         <translation>Mises à jour disponibles: %1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="113"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="116"/>
         <source>Verifying, please wait...</source>
         <translation>Vérification en cours, merci de patienter...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="115"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="118"/>
         <source>No Kiosk Associations</source>
         <translation>Pas d&apos;associations kiosque</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="120"/>
         <source>Install Software...</source>
         <translation>Installation du logiciel...</translation>
     </message>
@@ -196,28 +196,10 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     </message>
 </context>
 <context>
-    <name>KioskClient</name>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="250"/>
-        <source>An administrator would like to take control of your machine.</source>
-        <translation>Un administrateur voudrait prendre le contrôle de votre machine.</translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="251"/>
-        <source>Deny</source>
-        <translation>Refuser</translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="252"/>
-        <source>Allow</source>
-        <translation>Autoriser</translation>
-    </message>
-</context>
-<context>
     <name>KioskClientInfo</name>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="14"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="254"/>
         <source>FileWave Kiosk</source>
         <translation>Kiosque FileWave</translation>
     </message>
@@ -327,73 +309,73 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="44"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="47"/>
         <source>Verify</source>
         <translation>Vérifier</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="127"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
         <source>%1 sec</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="128"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="131"/>
         <source>%1 min</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="136"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="132"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="139"/>
         <source>%1:%2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="133"/>
         <source>True</source>
         <translation>Activé</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="140"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="143"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="214"/>
         <source>[disconnected]</source>
         <translation>[déconnecté]</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="228"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="231"/>
         <source>(never)</source>
         <translation>(jamais)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="232"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="235"/>
         <source>(now trying...)</source>
         <translation>(essai en cours...)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="240"/>
         <source>Connected (updates found)</source>
         <translation>Connecté (mises à jour trouvées)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="240"/>
         <source>Connected (no updates)</source>
         <translation>Connecté (pas de mise à jour)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="242"/>
         <source>Not connected</source>
         <translation>Déconnecté</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="247"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="250"/>
         <source>Device setup verification started successfully.</source>
         <translation>La vérification a démarré correctement.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="252"/>
         <source>Could not start verification ; please contact your administrator.</source>
         <translation>Impossible de démarrer la vérification; veuillez contacter votre administrateur.</translation>
     </message>
@@ -637,64 +619,64 @@ Quand vous cliquez sur &quot;Associer mon compte&quot; l&apos;App Store vous dem
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="323"/>
         <source>Start Installation</source>
         <translation>Démarrer l&apos;installation</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="187"/>
         <source>You can delay installation until: %1.</source>
         <translation>Vous pouvez retarder l&apos;installation jusqu&apos;à: %1.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="188"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="191"/>
         <source>This update is now mandatory and cannot be delayed.</source>
         <translation>Cette mise à jour est obligatoire et ne peut pas être retardée.</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>15 Minutes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="213"/>
         <source>30 Minutes</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="214"/>
         <source>1 Hour</source>
         <translation>1 Heure</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="215"/>
         <source>2 Hours</source>
         <translation>2 Heures</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="223"/>
         <source>deadline</source>
         <translation>date limite</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="221"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="224"/>
         <source>till</source>
         <translation>jusqu&apos;à</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="324"/>
         <source>At least one applications is preventing this installation from taking place.
 Do you want to quit all applications before starting the installation?</source>
         <translation>Une ou plusieurs applications empêche l&apos;installation de démarrer.
 Voulez-vous quitter toutes les applications avant de démarrer l&apos;installation ?</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="108"/>
         <source>%1 programs active</source>
         <translation>%1 programme(s) actif(s)</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="126"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation>L&apos;installation débutera automatiquement dans %1 secondes...</translation>
     </message>

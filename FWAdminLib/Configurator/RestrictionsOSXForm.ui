@@ -2384,6 +2384,16 @@
           </spacer>
          </item>
          <item>
+          <widget class="QCheckBox" name="allowAirPlayIncomingRequests">
+           <property name="text">
+            <string>Allow AirPlay receiver</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QCheckBox" name="allowUseOfiCloudPassword">
            <property name="text">
             <string>Allow use of iCloud password for local accounts</string>

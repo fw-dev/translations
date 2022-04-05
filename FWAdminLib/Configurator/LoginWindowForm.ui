@@ -161,6 +161,13 @@
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QCheckBox" name="m_checkShowInputMenu">
+           <property name="text">
+            <string>Show Input menu in login window</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
       </layout>

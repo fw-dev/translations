@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>379</width>
-    <height>151</height>
+    <height>157</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,6 +39,19 @@
         </property>
        </widget>
       </item>
+      <item row="3" column="1">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>3</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
       <item row="2" column="1">
        <widget class="QComboBox" name="depAccounts">
         <property name="minimumSize">
@@ -46,6 +59,13 @@
           <width>200</width>
           <height>0</height>
          </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="3">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Please select the DEP account to use:</string>
         </property>
        </widget>
       </item>
@@ -62,37 +82,10 @@
         </property>
        </spacer>
       </item>
-      <item row="4" column="1">
-       <spacer name="verticalSpacer">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>3</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
       <item row="0" column="0" colspan="3">
        <widget class="QLabel" name="label">
         <property name="text">
          <string>SIS data will be synchronized with Apple School Manager.</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0" colspan="3">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>Please select the DEP account to use:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0" colspan="3">
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>Warning: Engage is not compatible with ASM.</string>
         </property>
        </widget>
       </item>

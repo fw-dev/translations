@@ -272,7 +272,7 @@
                  <string notr="true">color: #3a91fd; text-decoration: underline; border: none</string>
                 </property>
                 <property name="text">
-                 <string>0</string>
+                 <string>0 missing</string>
                 </property>
                </widget>
               </item>
@@ -313,7 +313,7 @@
                  <string notr="true">color: #3a91fd; text-decoration: underline; border: none</string>
                 </property>
                 <property name="text">
-                 <string>0 Critical</string>
+                 <string>0 critical</string>
                 </property>
                </widget>
               </item>
@@ -562,7 +562,7 @@
       <item>
        <widget class="QTabWidget" name="tabWidget">
         <property name="currentIndex">
-         <number>12</number>
+         <number>0</number>
         </property>
         <widget class="QWidget" name="_filesetsTab">
          <attribute name="title">

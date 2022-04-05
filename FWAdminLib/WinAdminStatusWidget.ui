@@ -164,54 +164,6 @@
       <string>License</string>
      </property>
      <layout class="QGridLayout" name="gridLayout">
-      <item row="7" column="0">
-       <widget class="QLabel" name="labelEngageProductEnabled_2">
-        <property name="text">
-         <string>Clever Integration:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="7" column="1">
-       <widget class="QLabel" name="cleverEnabledFromDate">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>Licensed Chromebooks:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QLabel" name="licensedChromebooks">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-      <item row="6" column="1">
-       <widget class="QLabel" name="engageEnabled">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="licenseType">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="0">
        <widget class="QLabel" name="labelLicensedClients">
         <property name="text">
@@ -219,6 +171,20 @@
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="licensedClients">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="expiry">
+        <property name="text">
+         <string/>
         </property>
        </widget>
       </item>
@@ -232,8 +198,8 @@
         </property>
        </widget>
       </item>
-      <item row="4" column="1">
-       <widget class="QLabel" name="expiry">
+      <item row="3" column="1">
+       <widget class="QLabel" name="licensedChromebooks">
         <property name="text">
          <string/>
         </property>
@@ -259,10 +225,10 @@
         </property>
        </widget>
       </item>
-      <item row="6" column="0">
-       <widget class="QLabel" name="labelEngageProductEnabled">
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>Engage Enabled:</string>
+         <string>Licensed Chromebooks:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -276,8 +242,8 @@
         </property>
        </widget>
       </item>
-      <item row="2" column="1">
-       <widget class="QLabel" name="licensedMobiles">
+      <item row="0" column="1">
+       <widget class="QLabel" name="licenseType">
         <property name="text">
          <string/>
         </property>
@@ -293,8 +259,8 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="1">
-       <widget class="QLabel" name="licensedClients">
+      <item row="2" column="1">
+       <widget class="QLabel" name="licensedMobiles">
         <property name="text">
          <string/>
         </property>

@@ -117,7 +117,7 @@
       <item row="0" column="0" colspan="3">
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>When new iOS devices are enrolled, FileWave can automatically create VPP users and associate them.</string>
+         <string>When new iOS or macOS devices are enrolled, FileWave can automatically create VPP users and associate them.</string>
         </property>
        </widget>
       </item>

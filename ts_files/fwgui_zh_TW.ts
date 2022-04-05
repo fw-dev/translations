@@ -4,33 +4,33 @@
 <context>
     <name>Installer</name>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="73"/>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="83"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="76"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="86"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="95"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="98"/>
         <source>Client Info...</source>
         <translation>用戶端資訊...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="107"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="110"/>
         <source>Available Updates: %1</source>
         <translation>可用更新：%1</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="113"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="116"/>
         <source>Verifying, please wait...</source>
         <translation>正在驗證，請稍候...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="115"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="118"/>
         <source>No Kiosk Associations</source>
         <translation>無 Kiosk 關聯</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/Installer.cpp" line="117"/>
+        <location filename="../../QtGUIInstaller/Installer.cpp" line="120"/>
         <source>Install Software...</source>
         <translation>安裝軟體...</translation>
     </message>
@@ -196,28 +196,10 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     </message>
 </context>
 <context>
-    <name>KioskClient</name>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="250"/>
-        <source>An administrator would like to take control of your machine.</source>
-        <translation>一名管理員想要控制您的電腦。</translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="251"/>
-        <source>Deny</source>
-        <translation>拒絕</translation>
-    </message>
-    <message>
-        <location filename="../../QtGUIInstaller/KioskClient.cpp" line="252"/>
-        <source>Allow</source>
-        <translation>允許</translation>
-    </message>
-</context>
-<context>
     <name>KioskClientInfo</name>
     <message>
         <location filename="../../QtGUIInstaller/KioskClientInfo.ui" line="14"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="251"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="254"/>
         <source>FileWave Kiosk</source>
         <translation>FileWave Kiosk</translation>
     </message>
@@ -327,73 +309,73 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>此裝置目前已由您的管理員鎖定。自助服務 Kiosk 不可用。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="44"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="47"/>
         <source>Verify</source>
         <translation>驗證</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="127"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
         <source>%1 sec</source>
         <translation>%1 秒</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="128"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="131"/>
         <source>%1 min</source>
         <translation>%1 分鐘</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="129"/>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="136"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="132"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="139"/>
         <source>%1:%2</source>
         <translation>%1:%2</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="130"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="133"/>
         <source>True</source>
         <translation>True</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="140"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="143"/>
         <source>None</source>
         <translation>無</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="214"/>
         <source>[disconnected]</source>
         <translation>[已斷開連線]</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="228"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="231"/>
         <source>(never)</source>
         <translation>（從不）</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="232"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="235"/>
         <source>(now trying...)</source>
         <translation>（現在正在嘗試...）</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="240"/>
         <source>Connected (updates found)</source>
         <translation>已連線（找到更新）</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="237"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="240"/>
         <source>Connected (no updates)</source>
         <translation>已連線（無更新）</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="239"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="242"/>
         <source>Not connected</source>
         <translation>未連線</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="247"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="250"/>
         <source>Device setup verification started successfully.</source>
         <translation>已成功啟動裝置設定驗證。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="249"/>
+        <location filename="../../QtGUIInstaller/KioskClientInfo.cpp" line="252"/>
         <source>Could not start verification ; please contact your administrator.</source>
         <translation>無法啟動驗證；請聯絡您的管理員。</translation>
     </message>
@@ -632,7 +614,7 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
     </message>
     <message>
         <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.ui" line="198"/>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="320"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="323"/>
         <source>Start Installation</source>
         <translation>開始安裝</translation>
     </message>
@@ -642,57 +624,57 @@ When you click &quot;Associate my Account&quot; the App Store will ask for your 
         <translation>[重新啟動期限資訊...]</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="105"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="108"/>
         <source>%1 programs active</source>
         <translation>%1 個程式為使用中</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="123"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="126"/>
         <source>Installation will begin automatically in %1 seconds...</source>
         <translation>安裝將在 %1 秒後自動開始...</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="184"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="187"/>
         <source>You can delay installation until: %1.</source>
         <translation>您可以將安裝延遲到：%1。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="188"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="191"/>
         <source>This update is now mandatory and cannot be delayed.</source>
         <translation>此更新現在必須進行，無法延遲。</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="209"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
         <source>15 Minutes</source>
         <translation>15 分鐘</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="210"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="213"/>
         <source>30 Minutes</source>
         <translation>30 分鐘</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="211"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="214"/>
         <source>1 Hour</source>
         <translation>1 小時</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="212"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="215"/>
         <source>2 Hours</source>
         <translation>2 小時</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="220"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="223"/>
         <source>deadline</source>
         <translation>期限</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="221"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="224"/>
         <source>till</source>
         <translation>至</translation>
     </message>
     <message>
-        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="321"/>
+        <location filename="../../QtGUIInstaller/QuitRunningProcessDialog.cpp" line="324"/>
         <source>At least one applications is preventing this installation from taking place.
 Do you want to quit all applications before starting the installation?</source>
         <translation>至少一個應用程式正在阻止進行此安裝。

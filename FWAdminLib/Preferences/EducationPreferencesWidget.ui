@@ -23,16 +23,11 @@
    <item>
     <widget class="QTabWidget" name="educationAppTab">
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="SisPreferencesWidget" name="sisWidget">
       <attribute name="title">
        <string>SIS</string>
-      </attribute>
-     </widget>
-     <widget class="EngagePreferencesWidget" name="engageTab">
-      <attribute name="title">
-       <string>Engage</string>
       </attribute>
      </widget>
      <widget class="ClassroomPreferencesWidget" name="classroomTab">
@@ -58,12 +53,6 @@
   </layout>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>EngagePreferencesWidget</class>
-   <extends>QWidget</extends>
-   <header>FWAdminLib/Preferences/EngagePreferencesWidget.h</header>
-   <container>1</container>
-  </customwidget>
   <customwidget>
    <class>ClassroomPreferencesWidget</class>
    <extends>QWidget</extends>

@@ -187,7 +187,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: Location accuracy is determined by a number of external factors, please see our &lt;a href=&quot;https://kb.filewave.com/display/KB/Location+Tracking&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Knowledge Base&lt;/span&gt;&lt;/a&gt; for more information.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: Location accuracy is determined by a number of external factors. Please see our &lt;a href=&quot;https://kb.filewave.com/display/KB/Location+Tracking&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Knowledge Base&lt;/span&gt;&lt;/a&gt; for more information.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

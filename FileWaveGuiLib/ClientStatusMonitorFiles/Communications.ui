@@ -67,43 +67,19 @@
    </item>
    <item row="0" column="1" rowspan="2">
     <layout class="QGridLayout" name="gridLayout">
-     <item row="6" column="2">
-      <widget class="QLabel" name="monitorExampleLabel">
-       <property name="text">
-        <string>ex. 20010</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="2">
-      <widget class="QLabel" name="kioskExampleLabel">
-       <property name="text">
-        <string>ex. 20020</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="commServerAddED"/>
-     </item>
-     <item row="10" column="1">
-      <widget class="QSpinBox" name="commTickleIntervalSB">
-       <property name="minimum">
-        <number>1</number>
-       </property>
-       <property name="maximum">
-        <number>28800</number>
-       </property>
-       <property name="value">
-        <number>120</number>
-       </property>
-      </widget>
-     </item>
      <item row="1" column="1">
       <widget class="QLineEdit" name="commClientNameED"/>
      </item>
-     <item row="5" column="2">
-      <widget class="QLabel" name="commSrvPubPorExample">
-       <property name="text">
-        <string>ex. 20005</string>
+     <item row="4" column="1">
+      <widget class="QSpinBox" name="commServerPortSB">
+       <property name="minimum">
+        <number>1025</number>
+       </property>
+       <property name="maximum">
+        <number>65535</number>
+       </property>
+       <property name="value">
+        <number>20015</number>
        </property>
       </widget>
      </item>
@@ -120,10 +96,67 @@
        </property>
       </widget>
      </item>
-     <item row="7" column="0">
-      <widget class="QLabel" name="kioskPortLabel">
+     <item row="2" column="2">
+      <widget class="BonjourServiceView" name="bonjourView"/>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLabel" name="commSec1LA">
        <property name="text">
-        <string>Kiosk Port:</string>
+        <string>seconds</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QSpinBox" name="commSrvPubPortSB">
+       <property name="maximum">
+        <number>65535</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QSpinBox" name="commMonitorPortSB">
+       <property name="minimum">
+        <number>1025</number>
+       </property>
+       <property name="maximum">
+        <number>65535</number>
+       </property>
+       <property name="value">
+        <number>20010</number>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="commTickleIntravalLA">
+       <property name="text">
+        <string>Tickle Interval:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="commMonitorPortLA">
+       <property name="text">
+        <string>Monitor Port:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLabel" name="kioskExampleLabel">
+       <property name="text">
+        <string>ex. 20020</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="commServerPortLA">
+       <property name="text">
+        <string>Server Port:</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -143,69 +176,8 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
-      <widget class="QSpinBox" name="commServerPortSB">
-       <property name="minimum">
-        <number>1025</number>
-       </property>
-       <property name="maximum">
-        <number>65535</number>
-       </property>
-       <property name="value">
-        <number>20015</number>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="2">
-      <widget class="BonjourServiceView" name="bonjourView"/>
-     </item>
-     <item row="10" column="2">
-      <widget class="QLabel" name="commSec1LA">
-       <property name="text">
-        <string>seconds</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
-      <widget class="QLabel" name="commMonitorPortLA">
-       <property name="text">
-        <string>Monitor Port:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="0">
-      <widget class="QLabel" name="vncRelayPortLA">
-       <property name="text">
-        <string>VNC Relay Port:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QSpinBox" name="commSrvPubPortSB">
-       <property name="maximum">
-        <number>65535</number>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="1">
-      <widget class="QSpinBox" name="vncRelayPortSB">
-       <property name="maximum">
-        <number>65535</number>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="2">
-      <widget class="QLabel" name="vncRelayPortExample">
-       <property name="text">
-        <string>ex. 20030</string>
-       </property>
-      </widget>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="commServerAddED"/>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="commServerAddLA">
@@ -217,46 +189,30 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="QLabel" name="commServerPortLA">
+     <item row="6" column="2">
+      <widget class="QLabel" name="monitorExampleLabel">
        <property name="text">
-        <string>Server Port:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        <string>ex. 20010</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="commClientNameLA">
-       <property name="text">
-        <string>Client Name:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="10" column="0">
-      <widget class="QLabel" name="commTickleIntravalLA">
-       <property name="text">
-        <string>Tickle Interval:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="1">
-      <widget class="QSpinBox" name="commMonitorPortSB">
+     <item row="8" column="1">
+      <widget class="QSpinBox" name="commTickleIntervalSB">
        <property name="minimum">
-        <number>1025</number>
+        <number>1</number>
        </property>
        <property name="maximum">
-        <number>65535</number>
+        <number>28800</number>
        </property>
        <property name="value">
-        <number>20010</number>
+        <number>120</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLabel" name="commSrvPubPorExample">
+       <property name="text">
+        <string>ex. 20005</string>
        </property>
       </widget>
      </item>
@@ -304,34 +260,30 @@
        </item>
       </layout>
      </item>
-     <item row="4" column="2">
-      <widget class="QLabel" name="commServerPortExample">
+     <item row="7" column="0">
+      <widget class="QLabel" name="kioskPortLabel">
        <property name="text">
-        <string>ex. 20015</string>
-       </property>
-      </widget>
-     </item>
-     <item row="9" column="0">
-      <widget class="QLabel" name="vncServerPortLA">
-       <property name="text">
-        <string>VNC Server Port:</string>
+        <string>Kiosk Port:</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
-     <item row="9" column="2">
-      <widget class="QLabel" name="vncServerPortExample">
+     <item row="1" column="0">
+      <widget class="QLabel" name="commClientNameLA">
        <property name="text">
-        <string>ex. 20031</string>
+        <string>Client Name:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
-     <item row="9" column="1">
-      <widget class="QSpinBox" name="vncServerPortSB">
-       <property name="maximum">
-        <number>65535</number>
+     <item row="4" column="2">
+      <widget class="QLabel" name="commServerPortExample">
+       <property name="text">
+        <string>ex. 20015</string>
        </property>
       </widget>
      </item>
@@ -356,8 +308,6 @@
   <tabstop>commSrvPubPortSB</tabstop>
   <tabstop>commMonitorPortSB</tabstop>
   <tabstop>kioskPortSpinBox</tabstop>
-  <tabstop>vncRelayPortSB</tabstop>
-  <tabstop>vncServerPortSB</tabstop>
   <tabstop>commTickleIntervalSB</tabstop>
  </tabstops>
  <resources/>

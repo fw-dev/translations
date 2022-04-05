@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>526</width>
-    <height>448</height>
+    <height>449</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,96 +38,8 @@
        <string>Communications</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="4" column="1">
-        <widget class="QLabel" name="label_24">
-         <property name="text">
-          <string>Kiosk Port:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-         <property name="buddy">
-          <cstring>kioskPort</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="1">
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>Tickle Interval:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-         <property name="buddy">
-          <cstring>spinBoxTickleInterval</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <widget class="QLineEdit" name="vncRelayPort"/>
-       </item>
-       <item row="1" column="2">
-        <widget class="QLineEdit" name="serverPort"/>
-       </item>
-       <item row="8" column="5">
-        <widget class="QCheckBox" name="checkBoxSynchronizeClientName">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="tristate">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1" colspan="4">
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>Synchronize Client Name with Computer name</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-         <property name="buddy">
-          <cstring>checkBoxSynchronizeClientName</cstring>
-         </property>
-        </widget>
-       </item>
        <item row="0" column="2" colspan="3">
         <widget class="QLineEdit" name="lineEditServerAddress">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>FileWave Server Address:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-         <property name="buddy">
-          <cstring>lineEditServerAddress</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="6">
-        <spacer name="horizontalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>1</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="5">
-        <widget class="BonjourServiceView" name="bonjourView">
          <property name="text">
           <string/>
          </property>
@@ -153,45 +65,77 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="1">
-        <widget class="QLabel" name="label_3">
+       <item row="0" column="1">
+        <widget class="QLabel" name="label">
          <property name="text">
-          <string>Monitor Port:</string>
+          <string>FileWave Server Address:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
          <property name="buddy">
-          <cstring>monitorPort</cstring>
+          <cstring>lineEditServerAddress</cstring>
          </property>
         </widget>
        </item>
-       <item row="6" column="3">
-        <widget class="QLabel" name="smallLabelVNCSrvPort">
+       <item row="2" column="3">
+        <widget class="QLabel" name="smallLabelSrvPubPort">
          <property name="text">
-          <string>ex. 20031</string>
+          <string>ex. 20005</string>
          </property>
         </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLabel" name="label_10">
+        <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>VNC Relay Port:</string>
+          <string>Tickle Interval:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
          </property>
-        </widget>
-       </item>
-       <item row="3" column="3" colspan="3">
-        <widget class="QLabel" name="smallLabel_2">
-         <property name="text">
-          <string>ex. 20010</string>
+         <property name="buddy">
+          <cstring>spinBoxTickleInterval</cstring>
          </property>
         </widget>
        </item>
-       <item row="6" column="2">
-        <widget class="QLineEdit" name="vncServerPort"/>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="serverPort"/>
+       </item>
+       <item row="6" column="5">
+        <widget class="QCheckBox" name="checkBoxSynchronizeClientName">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="tristate">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1" colspan="4">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Synchronize Client Name with Computer name</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>checkBoxSynchronizeClientName</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="5">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>1</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item row="0" column="0">
         <spacer name="horizontalSpacer_4">
@@ -206,6 +150,48 @@
          </property>
         </spacer>
        </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="kioskPort"/>
+       </item>
+       <item row="0" column="5">
+        <widget class="BonjourServiceView" name="bonjourView">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Monitor Port:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>monitorPort</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>1</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="serverPublishPort"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="monitorPort"/>
+       </item>
        <item row="1" column="3" colspan="3">
         <widget class="QLabel" name="smallLabel">
          <property name="text">
@@ -213,56 +199,40 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="3">
-        <widget class="QLabel" name="smallLabelVNCRelayPort">
+       <item row="3" column="3" colspan="3">
+        <widget class="QLabel" name="smallLabel_2">
          <property name="text">
-          <string>ex. 20030</string>
+          <string>ex. 20010</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="monitorPort"/>
-       </item>
-       <item row="4" column="2">
-        <widget class="QLineEdit" name="kioskPort"/>
-       </item>
-       <item row="9" column="5">
-        <spacer name="verticalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>1</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="7" column="3" colspan="3">
+       <item row="5" column="3" colspan="3">
         <widget class="QLabel" name="label_9">
          <property name="text">
           <string>seconds</string>
          </property>
         </widget>
        </item>
-       <item row="6" column="1">
-        <widget class="QLabel" name="label_28">
-         <property name="text">
-          <string>VNC Server Port:</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="2">
+       <item row="5" column="2">
         <widget class="QSpinBox" name="spinBoxTickleInterval">
          <property name="specialValueText">
           <string>_</string>
          </property>
          <property name="maximum">
           <number>28800</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="label_24">
+         <property name="text">
+          <string>Kiosk Port:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="buddy">
+          <cstring>kioskPort</cstring>
          </property>
         </widget>
        </item>
@@ -273,16 +243,6 @@
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLineEdit" name="serverPublishPort"/>
-       </item>
-       <item row="2" column="3">
-        <widget class="QLabel" name="smallLabelSrvPubPort">
-         <property name="text">
-          <string>ex. 20005</string>
          </property>
         </widget>
        </item>
@@ -853,11 +813,11 @@
        <item>
         <widget class="QGroupBox" name="groupBox_2">
          <property name="title">
-          <string>Observe Client</string>
+          <string>Remote Sessions</string>
          </property>
          <layout class="QGridLayout" name="gridLayout_4">
           <item row="1" column="0" colspan="2">
-           <widget class="QCheckBox" name="checkBoxVNCPromptClient">
+           <widget class="QCheckBox" name="checkBoxTeamViewerPromptClient">
             <property name="text">
              <string>Prompt client for remote control access</string>
             </property>
@@ -880,7 +840,7 @@
            </spacer>
           </item>
           <item row="0" column="0">
-           <widget class="QCheckBox" name="checkBoxVNCManaged">
+           <widget class="QCheckBox" name="checkBoxTeamViewerManaged">
             <property name="text">
              <string>Managed remote control</string>
             </property>
@@ -933,8 +893,6 @@
   <tabstop>serverPublishPort</tabstop>
   <tabstop>monitorPort</tabstop>
   <tabstop>kioskPort</tabstop>
-  <tabstop>vncRelayPort</tabstop>
-  <tabstop>vncServerPort</tabstop>
   <tabstop>spinBoxTickleInterval</tabstop>
   <tabstop>checkBoxSynchronizeClientName</tabstop>
   <tabstop>boosterRouting</tabstop>
@@ -966,8 +924,8 @@
   <tabstop>spinBoxPriority</tabstop>
   <tabstop>disablePersonalData</tabstop>
   <tabstop>cbLocationRefresh</tabstop>
-  <tabstop>checkBoxVNCManaged</tabstop>
-  <tabstop>checkBoxVNCPromptClient</tabstop>
+  <tabstop>checkBoxTeamViewerManaged</tabstop>
+  <tabstop>checkBoxTeamViewerPromptClient</tabstop>
  </tabstops>
  <resources/>
  <connections/>

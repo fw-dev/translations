@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>454</width>
-    <height>235</height>
+    <height>241</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -63,11 +63,11 @@
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
-      <string>Observe Client</string>
+      <string>Remote Sessions</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_4">
       <item row="1" column="0" colspan="2">
-       <widget class="QCheckBox" name="vncPromptClient">
+       <widget class="QCheckBox" name="teamViewerPromptClient">
         <property name="text">
          <string>Prompt client for remote control access</string>
         </property>
@@ -87,7 +87,7 @@
        </spacer>
       </item>
       <item row="0" column="0">
-       <widget class="QCheckBox" name="vncManaged">
+       <widget class="QCheckBox" name="teamViewerManaged">
         <property name="text">
          <string>Managed remote control</string>
         </property>

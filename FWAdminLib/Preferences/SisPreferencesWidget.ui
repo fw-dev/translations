@@ -71,16 +71,7 @@
      <item row="2" column="0" colspan="3">
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;td&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE: &lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica';&quot;&gt;&lt;/td&gt;
-        &lt;td&gt;The above SIS configuration is used to extract SIS data for both Engage and Apple Classroom.  &lt;br/&gt;If you have Engage configured then it must be running before you can modify the SIS configuration.&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;table border=&quot;0&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;NOTE: &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p&gt;The above SIS configuration is used to extract SIS data for Apple Classroom.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
