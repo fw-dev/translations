@@ -15271,109 +15271,109 @@ Server said: %1</source>
         <translation>세부정보 숨기기</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="76"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="82"/>
         <source>&lt;h3&gt;Subject info&lt;/h3&gt;&lt;br /&gt;</source>
         <translation>&lt;h3&gt;주체 정보&lt;/h3&gt;&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="77"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="92"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="83"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="98"/>
         <source>&lt;strong&gt;Common name:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;일반 이름:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="78"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="93"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="84"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="99"/>
         <source>&lt;strong&gt;Organization:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;조직:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="80"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="95"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="86"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="101"/>
         <source>&lt;strong&gt;Organizational unit:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;조직 단위:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="82"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="97"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="88"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="103"/>
         <source>&lt;strong&gt;Locality name:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;지역 이름:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="84"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="99"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="90"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="105"/>
         <source>&lt;strong&gt;State or province:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;시/도:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="86"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="101"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="92"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="107"/>
         <source>&lt;strong&gt;Country:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;국가:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="88"/>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="103"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="94"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="109"/>
         <source>&lt;br /&gt;&lt;br /&gt;</source>
         <translation>&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="91"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="97"/>
         <source>&lt;h3&gt;Issuer info&lt;/h3&gt;&lt;br /&gt;</source>
         <translation>&lt;h3&gt;발급자 정보&lt;/h3&gt;&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="106"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="112"/>
         <source>&lt;strong&gt;Effective date:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;적용 날짜:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="108"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="114"/>
         <source>&lt;strong&gt;Expiry date:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;만료일:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="110"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="116"/>
         <source>&lt;strong&gt;Version:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;버전:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="112"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="118"/>
         <source>&lt;strong&gt;Serial number:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;일련 번호:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="114"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="120"/>
         <source>&lt;strong&gt;MD5 Digest:&lt;/strong&gt; %1&lt;br /&gt;</source>
         <translation>&lt;strong&gt;MD5 다이제스트:&lt;/strong&gt; %1&lt;br /&gt;</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="176"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="192"/>
         <source>Select a certificate (PKCS1 or PKSC12 format) to add to the configuration profile.</source>
         <translation>구성 프로필에 추가할 인증서(PKCS1 또는 PKSC12 형식)를 선택합니다.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="179"/>
-        <source>Certificates (*.cer *.crt *.p12 *.pfx)</source>
-        <translation>인증서(*.cer *.crt *.p12 *.pfx)</translation>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="195"/>
+        <source>Certificates (*.cer *.crt *.p12 *.pfx *.pem)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="201"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="217"/>
         <source>Certificate passphrase</source>
         <translation>인증서 암호</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="202"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="218"/>
         <source>It was not possible to load the certificate. Maybe it is protected by a passphrase. If this is the case, please enter the passphrase below.</source>
         <translation>인증서를 로드할 수 없었습니다. 암호로 보호되어 있는 것 같습니다. 이 경우 아래에 암호를 입력하십시오.</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="215"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="231"/>
         <source>Loading certificate</source>
         <translation>인증서 로드</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="216"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialForm.cpp" line="232"/>
         <source>There were errors loading the certificate file: %1.</source>
         <translation>인증서 파일 로드 중 오류가 발생했습니다. %1.</translation>
     </message>
@@ -50506,19 +50506,19 @@ Server response: %1</source>
         <translation>com.apple.AssetCache.managed</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialPayload.cpp" line="34"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialPayload.cpp" line="37"/>
         <source>Configures certificate settings.</source>
         <comment>CredentialPayload</comment>
         <translation>인증서 설정 구성</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialPayload.cpp" line="35"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialPayload.cpp" line="38"/>
         <source>Credential</source>
         <comment>CredentialPayload</comment>
         <translation>자격 증명</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Configurator/CredentialPayload.h" line="36"/>
+        <location filename="../../FWAdminLib/Configurator/CredentialPayload.h" line="32"/>
         <source>Certificates</source>
         <comment>CredentialPayload</comment>
         <translation>인증서</translation>
