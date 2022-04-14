@@ -7344,8 +7344,8 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="203"/>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="292"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="869"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="876"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="880"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="887"/>
         <source>(Update the model after changing this preference)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7371,7 +7371,7 @@ Check the log file for more details</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="270"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="668"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="679"/>
         <source>Select All (%1)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7386,131 +7386,131 @@ Check the log file for more details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="313"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="337"/>
         <source>You do not have permission to add clients to the group: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="314"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="338"/>
         <source>FileWave Admin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="356"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="380"/>
         <source>All clients, except conflicting, will be added.
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="384"/>
         <source>All existing conflicts will be resolved.
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="366"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="390"/>
         <source>%1Would you like to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="545"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="556"/>
         <source>Too many Clients Selected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="545"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="556"/>
         <source>You have selected more clients to add than client licenses available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="571"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="582"/>
         <source>Error creating new client. The serial number is already in use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="576"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="587"/>
         <source>Error creating new mobile client: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="578"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="589"/>
         <source>Error creating new client: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="860"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="871"/>
         <source>Save and add %1 Client(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="863"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="874"/>
         <source>Add %1 Client(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="872"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="879"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="883"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="890"/>
         <source>(Setting is not applied until next model update)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="899"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="910"/>
         <source>Client(s) with a conflict cannot be added</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="952"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="959"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="963"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="970"/>
         <source>Create VPP User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="953"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="964"/>
         <source>Another VPP tool has the ownership of the account. Go to &quot;configure tokens&quot; to take the ownership.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="960"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="971"/>
         <source>Apple services are currently not available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="967"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="978"/>
         <source>VPP user</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="967"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="978"/>
         <source>Error while creating VPP users</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="567"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="578"/>
         <source>Error creating new client. The name is already in use.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="563"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="574"/>
         <source>Error creating new client. The maximum number of licensed clients has been exceeded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="652"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="663"/>
         <source>Loading...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="664"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="675"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="857"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="868"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="919"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="930"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12810,11 +12810,6 @@ Please choose a different name or remove Imaging association.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
-        <source>Restart Windows Devices</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="126"/>
         <source>Remote Session (Prompt User)</source>
         <translation type="unfinished"></translation>
@@ -12916,6 +12911,7 @@ Please choose a different name or remove Imaging association.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="119"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
         <source>Restart</source>
         <translation type="unfinished"></translation>
     </message>

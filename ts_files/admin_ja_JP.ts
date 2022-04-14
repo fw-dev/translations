@@ -7397,8 +7397,8 @@ Check the log file for more details</source>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="203"/>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.ui" line="292"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="869"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="876"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="880"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="887"/>
         <source>(Update the model after changing this preference)</source>
         <translation>(この環境設定を変更後情報（モデル）を更新）</translation>
     </message>
@@ -7424,7 +7424,7 @@ Check the log file for more details</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="270"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="668"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="679"/>
         <source>Select All (%1)</source>
         <translation>すべて選択 (%1)</translation>
     </message>
@@ -7439,131 +7439,131 @@ Check the log file for more details</source>
         <translation>新規ユーザーの削除中にエラーが発生しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="313"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="337"/>
         <source>You do not have permission to add clients to the group: %1</source>
         <translation>グループにクライアントを追加する権限がありません: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="314"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="338"/>
         <source>FileWave Admin</source>
         <translation>FileWave Admin</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="356"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="380"/>
         <source>All clients, except conflicting, will be added.
 </source>
         <translation>競合するものを除くすべてのクライアントが追加されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="360"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="384"/>
         <source>All existing conflicts will be resolved.
 </source>
         <translation>すべての既存の競合が解消されます。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="366"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="390"/>
         <source>%1Would you like to continue?</source>
         <translation>%1続行しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="545"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="556"/>
         <source>Too many Clients Selected</source>
         <translation>選択したクライアントが多すぎます</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="545"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="556"/>
         <source>You have selected more clients to add than client licenses available</source>
         <translation>利用可能ライセンスを追加するクライアントを選択してください</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="563"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="574"/>
         <source>Error creating new client. The maximum number of licensed clients has been exceeded.</source>
         <translation>新規クライアント作成でエラーが発生しました。ライセンスされたクライアントの最大数を超えました。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="567"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="578"/>
         <source>Error creating new client. The name is already in use.</source>
         <translation>新規クライアント作成でエラーが発生しました。名前は既に使用されています。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="571"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="582"/>
         <source>Error creating new client. The serial number is already in use.</source>
         <translation>新規クライアント作成でエラーが発生しました。名前は既に使用されています。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="576"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="587"/>
         <source>Error creating new mobile client: %1</source>
         <translation>新規モバイルクライアントの作成中にエラーが発生しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="578"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="589"/>
         <source>Error creating new client: %1</source>
         <translation>新規クライアントの作成中にエラーが発生しました: %1</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="652"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="663"/>
         <source>Loading...</source>
         <translation>ロード...</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="664"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="675"/>
         <source>Refresh</source>
         <translation>リフレッシュ</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="857"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="868"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="860"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="871"/>
         <source>Save and add %1 Client(s)</source>
         <translation>%1 個のクライアントの保存と追加</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="863"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="874"/>
         <source>Add %1 Client(s)</source>
         <translation>%1 個のクライアントを追加</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="872"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="879"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="883"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="890"/>
         <source>(Setting is not applied until next model update)</source>
         <translation>（設定は次のモデルアップデートまで適用されません）</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="899"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="910"/>
         <source>Client(s) with a conflict cannot be added</source>
         <translation>競合のあるクライアントは追加できません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="919"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="930"/>
         <source>You have unsaved changes.  Would you like to save them?</source>
         <translation>変更が保存されていません。  保存しますか？</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="952"/>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="959"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="963"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="970"/>
         <source>Create VPP User</source>
         <translation>VPPユーザーを作成</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="953"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="964"/>
         <source>Another VPP tool has the ownership of the account. Go to &quot;configure tokens&quot; to take the ownership.</source>
         <translation>別のVPPツールにアカウントの所有権があります。&quot;トークンを構成&quot;に進み、所有権を取得してください。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="960"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="971"/>
         <source>Apple services are currently not available.</source>
         <translation>Appleのサービスはただ今ご利用いただけません。</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="967"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="978"/>
         <source>VPP user</source>
         <translation>VPPユーザー</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="967"/>
+        <location filename="../../FWAdminLib/NewClientFromServerDlg.cpp" line="978"/>
         <source>Error while creating VPP users</source>
         <translation>VPPユーザーを作成中にエラーが発生しました</translation>
     </message>
@@ -13034,6 +13034,7 @@ Please choose a different name or remove Imaging association.</source>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="119"/>
+        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
         <source>Restart</source>
         <translation>再起動</translation>
     </message>
@@ -13053,11 +13054,6 @@ Please choose a different name or remove Imaging association.</source>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="122"/>
         <source>Restart (Supported MDM devices)</source>
         <translation>再起動 (MDMデバイスでサポート)</translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="123"/>
-        <source>Restart Windows Devices</source>
-        <translation>Windowsデバイスを再開</translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/views/clientsgroupsview.cpp" line="126"/>
