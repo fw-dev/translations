@@ -232,28 +232,28 @@ Worklist:
 <context>
     <name>FW::MainController</name>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="231"/>
+        <location filename="../../QtClient/MainController.cpp" line="196"/>
         <source>Client is archived.</source>
         <translation>用戶端已封存。</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="236"/>
+        <location filename="../../QtClient/MainController.cpp" line="201"/>
         <source>Running...</source>
         <translation>正在執行...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="241"/>
+        <location filename="../../QtClient/MainController.cpp" line="206"/>
         <source>Installing %1</source>
         <translation>正在安裝 %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="246"/>
-        <location filename="../../QtClient/MainController.cpp" line="338"/>
+        <location filename="../../QtClient/MainController.cpp" line="211"/>
+        <location filename="../../QtClient/MainController.cpp" line="294"/>
         <source>Blocked by local restriction</source>
         <translation>已被本機限制封鎖</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="361"/>
+        <location filename="../../QtClient/MainController.cpp" line="317"/>
         <source>Connecting to FW Server...</source>
         <translation>正在連線至 FW 伺服器...</translation>
     </message>
@@ -261,28 +261,28 @@ Worklist:
 <context>
     <name>FW::ServerConnection</name>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1241"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1240"/>
         <source>Building list of files to download...</source>
         <translation>正在建置要下載的檔案清單...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1260"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1259"/>
         <source>Downloading subset for %1</source>
         <translation>正在下載 %1 的子集</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1319"/>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1552"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1318"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1551"/>
         <source>Downloading %1</source>
         <translation>正在下載 %1</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1469"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1468"/>
         <source>Sending download request to server...</source>
         <translation>正在傳送下載要求至伺服器...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1553"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1552"/>
         <source>Downloading...</source>
         <translation>正在下載...</translation>
     </message>

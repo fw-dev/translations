@@ -232,28 +232,28 @@ Worklist:
 <context>
     <name>FW::MainController</name>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="231"/>
+        <location filename="../../QtClient/MainController.cpp" line="196"/>
         <source>Client is archived.</source>
         <translation>クライアントはアーカイブされました。</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="236"/>
+        <location filename="../../QtClient/MainController.cpp" line="201"/>
         <source>Running...</source>
         <translation>実行...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="241"/>
+        <location filename="../../QtClient/MainController.cpp" line="206"/>
         <source>Installing %1</source>
         <translation>%1 をインストールします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="246"/>
-        <location filename="../../QtClient/MainController.cpp" line="338"/>
+        <location filename="../../QtClient/MainController.cpp" line="211"/>
+        <location filename="../../QtClient/MainController.cpp" line="294"/>
         <source>Blocked by local restriction</source>
         <translation>ローカル制限でブロックされました</translation>
     </message>
     <message>
-        <location filename="../../QtClient/MainController.cpp" line="361"/>
+        <location filename="../../QtClient/MainController.cpp" line="317"/>
         <source>Connecting to FW Server...</source>
         <translation>FWサーバーに接続します...</translation>
     </message>
@@ -261,28 +261,28 @@ Worklist:
 <context>
     <name>FW::ServerConnection</name>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1241"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1240"/>
         <source>Building list of files to download...</source>
         <translation>ダウンロードするファイルのリストを構築します...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1260"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1259"/>
         <source>Downloading subset for %1</source>
         <translation>%1 のサブセットをダウンロードします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1319"/>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1552"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1318"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1551"/>
         <source>Downloading %1</source>
         <translation>%1 をダウンロードします</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1469"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1468"/>
         <source>Sending download request to server...</source>
         <translation>サーバーにダウンロードリクエストを送信します...</translation>
     </message>
     <message>
-        <location filename="../../QtClient/ServerConnection.cpp" line="1553"/>
+        <location filename="../../QtClient/ServerConnection.cpp" line="1552"/>
         <source>Downloading...</source>
         <translation>ダウンロードします...</translation>
     </message>
