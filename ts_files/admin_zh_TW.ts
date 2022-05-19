@@ -9009,42 +9009,6 @@ log out and log back into the FileWave™ system.</source>
         <translation>無法匯出「部分」檔案集</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1399"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1800"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1972"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1995"/>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2034"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2007"/>
-        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
-When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2079"/>
-        <source>This is a &apos;partial&apos; fileset and cannot be exported.<byte value="xd"/>
-<byte value="xd"/>
-A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2096"/>
         <source>You don&apos;t have access to export Filesets.</source>
         <translation>您沒有權限匯出檔案集。</translation>
@@ -9207,6 +9171,42 @@ A partial fileset is one that is currently being uploaded - or didn&apos;t compl
 (# of mobile clients exceeds license limit)</source>
         <translation>
 （行動用戶端數超出授權限制）</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1399"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be modified.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1800"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be duplicated.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1972"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="1995"/>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2034"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be opened.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2007"/>
+        <source>This fileset contains requirements with platforms that are no longer supported: macOS &lt; 10.7 or macOS PPC.<byte value="xd"/>
+When this fileset is saved it will no longer contain the outdated platforms from the requirements.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2079"/>
+        <source>This is a &apos;partial&apos; fileset and cannot be exported.<byte value="xd"/>
+<byte value="xd"/>
+A partial fileset is one that is currently being uploaded - or didn&apos;t completely upload.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/WinAdminMainDlg.cpp" line="2937"/>
@@ -10428,13 +10428,6 @@ Are you sure you want to continue?</source>
         <translation>Proxy 測試失敗</translation>
     </message>
     <message>
-        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="927"/>
-        <source>There was an error in the request to check the proxy.<byte value="xd"/>
-
-%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="929"/>
         <source>There was an error in the request</source>
         <translation>要求中存在錯誤</translation>
@@ -10691,6 +10684,13 @@ Please use another extension.</source>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2333"/>
         <source>The new shared key could not be set on the MDM Server: %1</source>
         <translation>無法在 MDM 伺服器上設定新共用金鑰：%1</translation>
+    </message>
+    <message>
+        <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="927"/>
+        <source>There was an error in the request to check the proxy.<byte value="xd"/>
+
+%1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../FWAdminLib/Preferences/WinAdminPrefDlg.cpp" line="2353"/>
