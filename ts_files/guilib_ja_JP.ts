@@ -16,7 +16,7 @@
     <message>
         <location filename="../../FileWaveGuiLib/AboutWidget.ui" line="124"/>
         <source>Copyright © FileWave International Holding AG %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright © Filewave International Holding AG %1</translation>
     </message>
     <message>
         <source>Copyright © Filewave International Holding AG %1</source>
@@ -25,6 +25,10 @@
 </context>
 <context>
     <name>BoosterPreferencesDlg</name>
+    <message>
+        <source>Maximum Client Connections</source>
+        <translation type="vanished">最大クライアント接続数</translation>
+    </message>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="14"/>
         <source>FileWave Booster Preferences</source>
@@ -216,10 +220,6 @@
         <translation>サブスクリプションポート</translation>
     </message>
     <message>
-        <source>Maximum Client Connections</source>
-        <translation type="vanished">最大クライアント接続数</translation>
-    </message>
-    <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.cpp" line="75"/>
         <source>Booster Error</source>
         <translation>ブースターエラー</translation>
@@ -273,6 +273,735 @@ You may ignore this warning if you have a customized setup. </source>
         <translation>FileWaveサーバーまたは他のブースターに接続するには、ポート20015または20013を使用してください。保存しますか？
 
 カスタマイズした設定をしている場合は、この警告を無視してもかまいません。 </translation>
+    </message>
+</context>
+<context>
+    <name>CCommunications</name>
+    <message>
+        <source>VNC Relay Port:</source>
+        <translation type="vanished">VNCリレーポート:</translation>
+    </message>
+    <message>
+        <source>ex. 20030</source>
+        <translation type="vanished">例: 20030</translation>
+    </message>
+    <message>
+        <source>VNC Server Port:</source>
+        <translation type="vanished">VNCサーバーポート:</translation>
+    </message>
+    <message>
+        <source>ex. 20031</source>
+        <translation type="vanished">例: 20031</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="14"/>
+        <source>Communications</source>
+        <translation>通信</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="195"/>
+        <source>ex. 20010</source>
+        <translation>例: 20010</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="152"/>
+        <source>ex. 20020</source>
+        <translation>例: 20020</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="215"/>
+        <source>ex. 20005</source>
+        <translation>例: 20005</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="92"/>
+        <source>Server Publish Port:</source>
+        <translation>サーバーパブリッシュポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="266"/>
+        <source>Kiosk Port:</source>
+        <translation>Kioskポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="105"/>
+        <source>seconds</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="142"/>
+        <source>Monitor Port:</source>
+        <translation>モニターポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="185"/>
+        <source>FileWave Server Address:</source>
+        <translation>FileWaveサーバーアドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="159"/>
+        <source>Server Port:</source>
+        <translation>サーバーポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="276"/>
+        <source>Client Name:</source>
+        <translation>クライアント名:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="132"/>
+        <source>Tickle Interval:</source>
+        <translation>Tickleインターバル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="237"/>
+        <source>Sync computer name</source>
+        <translation>コンピューター名を同期する</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="244"/>
+        <source>Use SSL</source>
+        <translation>SSLを使用する</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="286"/>
+        <source>ex. 20015</source>
+        <translation>例: 20015</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.cpp" line="42"/>
+        <source>(no value)</source>
+        <translation>(値なし)</translation>
+    </message>
+</context>
+<context>
+    <name>ConnectDlg</name>
+    <message>
+        <source>SSL</source>
+        <translation type="vanished">SSL</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="14"/>
+        <source>Connect to Booster</source>
+        <translation>ブースターに接続</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="71"/>
+        <source>FileWave Booster</source>
+        <translation>FileWaveブースター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="81"/>
+        <source>Address:</source>
+        <translation>アドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="91"/>
+        <source>Port:</source>
+        <translation>ポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="22"/>
+        <source>Connect</source>
+        <translation>接続</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="71"/>
+        <source>Unable to connect.
+No running Booster found at specified address.</source>
+        <translation>接続できません。
+指定されたアドレスで実行中のブースターが見つかりません。</translation>
+    </message>
+</context>
+<context>
+    <name>MAIN</name>
+    <message>
+        <source>Some other User is modifying one of the objects involved in this operation.</source>
+        <translation type="vanished">他のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
+        <source>Another user is modifying one of the objects involved in this operation.</source>
+        <translation>別のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
+        <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
+        <translation>このリクエストを処理中にデータベースエラーが発生しました。詳細は、サーバーログ（fwxadmin.log）を確認してください。</translation>
+    </message>
+</context>
+<context>
+    <name>Options</name>
+    <message>
+        <source>Priority:</source>
+        <translation type="vanished">プライオリティ:</translation>
+    </message>
+    <message>
+        <source>Win</source>
+        <translation type="vanished">Win</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="14"/>
+        <source>Options</source>
+        <translation>オプション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="23"/>
+        <source>Debug Level:</source>
+        <translation>デバッグレベル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="43"/>
+        <source>File Check Interval:</source>
+        <translation>ファイル確認インターバル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="65"/>
+        <source>minutes</source>
+        <translation>分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="74"/>
+        <source>Free Space Margin:</source>
+        <translation>空き容量:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="81"/>
+        <source> MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="97"/>
+        <source>Password:</source>
+        <translation>パスワード:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="111"/>
+        <source>Confirm Password:</source>
+        <translation>確認パスワード:</translation>
+    </message>
+</context>
+<context>
+    <name>PreferencesMain</name>
+    <message>
+        <source>Managed remote control cannot be enabled without password being configured too.</source>
+        <translation type="vanished">パスワードも構成しないと、管理対象のリモートコントロールを有効にできません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="98"/>
+        <source>Communications</source>
+        <translation>コミュニケーション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="101"/>
+        <source>Boosters</source>
+        <translation>ブースター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="104"/>
+        <source>Options</source>
+        <translation>オプション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="113"/>
+        <source>Privacy</source>
+        <translation>プライバシー</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="135"/>
+        <source>FileWave™ Imaging Appliance Preferences</source>
+        <translation>FileWave™イメージアプライアンス環境設定</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="137"/>
+        <source>FileWave™ Client Preferences</source>
+        <translation>FileWave™クライアント環境設定</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="376"/>
+        <source>Cannot confirm password.  Please re-enter password.</source>
+        <translation>パスワードを確認できません。  パスワードを再入力してください。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="377"/>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+</context>
+<context>
+    <name>PrefsEditorDlg</name>
+    <message>
+        <source>ex. 20031</source>
+        <translation type="vanished">例 20031</translation>
+    </message>
+    <message>
+        <source>VNC Relay Port:</source>
+        <translation type="vanished">VNCリレーポート:</translation>
+    </message>
+    <message>
+        <source>ex. 20030</source>
+        <translation type="vanished">例 20030</translation>
+    </message>
+    <message>
+        <source>VNC Server Port:</source>
+        <translation type="vanished">VNCサーバーポート:</translation>
+    </message>
+    <message>
+        <source>Observe Client</source>
+        <translation type="vanished">クライアントを表示する</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="14"/>
+        <source>Superprefs Editor</source>
+        <translation>スーパープレッフエディター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="20"/>
+        <source>These preferences will be merged with the preferences on target clients.</source>
+        <translation>これらの設定は、対象クライアントの環境設定とマージされます。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="27"/>
+        <source>If you would like a value to remain unchanged, leave it blank.</source>
+        <translation>値を変更しない場合は、空白のままにしてください。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="38"/>
+        <source>Communications</source>
+        <translation>通信</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="229"/>
+        <source>Kiosk Port:</source>
+        <translation>Kioskポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="91"/>
+        <source>Tickle Interval:</source>
+        <translation>Tickleインターバル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="117"/>
+        <source>Synchronize Client Name with Computer name</source>
+        <translation>クライアント名とコンピューター名を同期させる</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="71"/>
+        <source>FileWave Server Address:</source>
+        <translation>FileWaveサーバーアドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="51"/>
+        <source>ex. 20020</source>
+        <translation>例 20020</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="58"/>
+        <source>Server Port:</source>
+        <translation>サーバーポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="166"/>
+        <source>Monitor Port:</source>
+        <translation>モニターポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="205"/>
+        <source>ex. 20010</source>
+        <translation>例 20010</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="198"/>
+        <source>ex. 20015</source>
+        <translation>例 20015</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="212"/>
+        <source>seconds</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="219"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="622"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="671"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="684"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="737"/>
+        <source>_</source>
+        <translation>_</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="242"/>
+        <source>Server Publish Port:</source>
+        <translation>サーバーパブリッシュポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="84"/>
+        <source>ex. 20005</source>
+        <translation>例 20005</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="253"/>
+        <source>Boosters</source>
+        <translation>ブースター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="279"/>
+        <source>Booster 3:</source>
+        <translation>ブースター 3:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="321"/>
+        <source>Port</source>
+        <translation>ポート</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="354"/>
+        <source>Publish Port</source>
+        <translation>パブリッシュポート</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="384"/>
+        <source>Booster 5:</source>
+        <translation>ブースター 5:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="397"/>
+        <source>Booster 4:</source>
+        <translation>ブースター 4:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="476"/>
+        <source>Booster 1:</source>
+        <translation>ブースター 1:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="502"/>
+        <source>Booster 2:</source>
+        <translation>ブースター 2:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="528"/>
+        <source>IP or DNS Address:</source>
+        <translation>IPまたはDNSアドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="561"/>
+        <source>Route server messages via boosters.</source>
+        <translation>ブースター経由でサーバーメッセージをルーティングする。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="572"/>
+        <source>Options</source>
+        <translation>オプション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="598"/>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="605"/>
+        <source>minutes</source>
+        <translation>分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="612"/>
+        <source>Priority:</source>
+        <translation>プライオリティ:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="638"/>
+        <source>Password:</source>
+        <translation>パスワード:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="648"/>
+        <source>Verify Password:</source>
+        <translation>確認パスワード:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="707"/>
+        <source>File Check Interval:</source>
+        <translation>ファイル確認間隔:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="717"/>
+        <source>Free Space Margin:</source>
+        <translation>空き容量:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="727"/>
+        <source>Debug Level:</source>
+        <translation>デバッグレベル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="761"/>
+        <source>Privacy</source>
+        <translation>プライバシー</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="767"/>
+        <source>Personal Data</source>
+        <translation>個人データ</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="786"/>
+        <source>Location refresh interval:</source>
+        <translation>位置リフレッシュ間隔:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="793"/>
+        <source>Disable personal data collection</source>
+        <translation>個人データ収集を無効にする</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="806"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;個人データの収集は組織レベルで無効にされるかもしれません。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="816"/>
+        <source>Remote Sessions</source>
+        <translation>遠隔セッション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="822"/>
+        <source>Prompt client for remote control access</source>
+        <translation>クライアントにリモートコントロールアクセスを要求する</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="845"/>
+        <source>Managed remote control</source>
+        <translation>管理されたリモートコントロール</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="119"/>
+        <source> </source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="120"/>
+        <source>Never</source>
+        <translation>しない</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="121"/>
+        <source>5 minutes</source>
+        <translation>5 分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="122"/>
+        <source>15 minutes</source>
+        <translation>15 分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="123"/>
+        <source>30 minutes</source>
+        <translation>30 分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="124"/>
+        <source>1 hour</source>
+        <translation>1 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="125"/>
+        <source>2 hours</source>
+        <translation>2 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="126"/>
+        <source>6 hours</source>
+        <translation>6 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="127"/>
+        <source>12 hours</source>
+        <translation>12 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="128"/>
+        <source>1 day</source>
+        <translation>1 日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="178"/>
+        <source>Select an existing fwcld.newprefs.plist file or click Cancel to start with a blank one...</source>
+        <translation>既存のfwcld.newprefs.plist ファイルを選択するか、または「キャンセル」をクリックして空白のファイルから始めてください...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="249"/>
+        <source>Password verification failed.</source>
+        <translation>パスワード確認に失敗しました。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="255"/>
+        <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
+        <translation>Superprefsファイルを保存する場所を選択してください;  後でファイルセットに追加します。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="377"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="404"/>
+        <source>You have unsaved changes.  Are you sure you want to quit?</source>
+        <translation>変更が保存されていません。終了しますか？</translation>
+    </message>
+</context>
+<context>
+    <name>Privacy</name>
+    <message>
+        <source>Observe Client</source>
+        <translation type="vanished">クライアントを観察</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="14"/>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="20"/>
+        <source>Personal Data</source>
+        <translation>個人データ</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="39"/>
+        <source>Location refresh interval:</source>
+        <translation>場所リフレッシュインターバル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="46"/>
+        <source>Disable personal data collection</source>
+        <translation>個人データ収集を無効にする</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="56"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;個人データの収集は組織レベルで無効にされるかもしれません. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="66"/>
+        <source>Remote Sessions</source>
+        <translation>遠隔セッション</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="72"/>
+        <source>Prompt client for remote control access</source>
+        <translation>クライアントにリモートコントロールアクセスを促す</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="92"/>
+        <source>Managed remote control</source>
+        <translation>リモートコントロールを管理</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="15"/>
+        <source>Never</source>
+        <translation>しない</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="16"/>
+        <source>5 minutes</source>
+        <translation>5 分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="17"/>
+        <source>15 minutes</source>
+        <translation>15 分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="18"/>
+        <source>30 minutes</source>
+        <translation>30 分</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="19"/>
+        <source>1 hour</source>
+        <translation>1 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="20"/>
+        <source>2 hours</source>
+        <translation>2 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="21"/>
+        <source>6 hours</source>
+        <translation>6 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="22"/>
+        <source>12 hours</source>
+        <translation>12 時間</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="23"/>
+        <source>1 day</source>
+        <translation>1 日</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>GCM correctly configured.</source>
+        <translation type="vanished">GCMは正しく構成されています。</translation>
+    </message>
+    <message>
+        <source>GCM not configured.</source>
+        <translation type="vanished">GCMが構成されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="655"/>
+        <source>n.a.</source>
+        <comment>not applicable</comment>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="9"/>
+        <source>FCM correctly configured.</source>
+        <translation>FCMは正しく構成されています。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="11"/>
+        <source>Project number not set.</source>
+        <translation>プロジェクト番号が設定されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="13"/>
+        <source>API Key not set.</source>
+        <translation>APIキーキーが設定されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="15"/>
+        <source>Invalid server API key or project not correctly configured in Google Dev. Console.</source>
+        <translation>無効なサーバーAPIキーまたはプロジェクトがGoogle Dev. Consoleに正しく設定されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/Translator.cpp" line="17"/>
+        <source>FCM not configured.</source>
+        <translation>FCMは構成されていません。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="52"/>
+        <source>Select an Icon</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>アイコンを選択</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="56"/>
+        <source>Select an exe, dll, or icon file</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>exe、dll、またはアイコンファイルを選択してください</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="60"/>
+        <source>Select an Application or icon file</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>アプリまたはアイコンファイルを選択してください</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="63"/>
+        <source>Images (</source>
+        <comment>KioskResourceHelper</comment>
+        <translation>イメージ (</translation>
     </message>
 </context>
 <context>
@@ -594,105 +1323,6 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
 </context>
 <context>
-    <name>CCommunications</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="14"/>
-        <source>Communications</source>
-        <translation>通信</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="195"/>
-        <source>ex. 20010</source>
-        <translation>例: 20010</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="152"/>
-        <source>ex. 20020</source>
-        <translation>例: 20020</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="215"/>
-        <source>ex. 20005</source>
-        <translation>例: 20005</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="92"/>
-        <source>Server Publish Port:</source>
-        <translation>サーバーパブリッシュポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="266"/>
-        <source>Kiosk Port:</source>
-        <translation>Kioskポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="105"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="142"/>
-        <source>Monitor Port:</source>
-        <translation>モニターポート:</translation>
-    </message>
-    <message>
-        <source>VNC Relay Port:</source>
-        <translation type="vanished">VNCリレーポート:</translation>
-    </message>
-    <message>
-        <source>ex. 20030</source>
-        <translation type="vanished">例: 20030</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="185"/>
-        <source>FileWave Server Address:</source>
-        <translation>FileWaveサーバーアドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="159"/>
-        <source>Server Port:</source>
-        <translation>サーバーポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="276"/>
-        <source>Client Name:</source>
-        <translation>クライアント名:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="132"/>
-        <source>Tickle Interval:</source>
-        <translation>Tickleインターバル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="237"/>
-        <source>Sync computer name</source>
-        <translation>コンピューター名を同期する</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="244"/>
-        <source>Use SSL</source>
-        <translation>SSLを使用する</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="286"/>
-        <source>ex. 20015</source>
-        <translation>例: 20015</translation>
-    </message>
-    <message>
-        <source>VNC Server Port:</source>
-        <translation type="vanished">VNCサーバーポート:</translation>
-    </message>
-    <message>
-        <source>ex. 20031</source>
-        <translation type="vanished">例: 20031</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.cpp" line="42"/>
-        <source>(no value)</source>
-        <translation>(値なし)</translation>
-    </message>
-</context>
-<context>
     <name>CFWStatusDlg</name>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="14"/>
@@ -860,45 +1490,6 @@ settings for this client</source>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="53"/>
         <source>Password Incorrect!</source>
         <translation>パスワードが違います!</translation>
-    </message>
-</context>
-<context>
-    <name>ConnectDlg</name>
-    <message>
-        <source>SSL</source>
-        <translation type="vanished">SSL</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="14"/>
-        <source>Connect to Booster</source>
-        <translation>ブースターに接続</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="71"/>
-        <source>FileWave Booster</source>
-        <translation>FileWaveブースター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="81"/>
-        <source>Address:</source>
-        <translation>アドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.ui" line="91"/>
-        <source>Port:</source>
-        <translation>ポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="22"/>
-        <source>Connect</source>
-        <translation>接続</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/connectdlg.cpp" line="71"/>
-        <source>Unable to connect.
-No running Booster found at specified address.</source>
-        <translation>接続できません。
-指定されたアドレスで実行中のブースターが見つかりません。</translation>
     </message>
 </context>
 <context>
@@ -1128,74 +1719,6 @@ Please wait for the results before opening a new connection</source>
     </message>
 </context>
 <context>
-    <name>MAIN</name>
-    <message>
-        <source>Some other User is modifying one of the objects involved in this operation.</source>
-        <translation type="vanished">他のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="78"/>
-        <source>Another user is modifying one of the objects involved in this operation.</source>
-        <translation>別のユーザーがこの操作に関連するオブジェクトの1つを変更しています。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/GUITools.cpp" line="79"/>
-        <source>A database error occurred processing this request; please check the server logs (fwxadmin.log) for more information.</source>
-        <translation>このリクエストを処理中にデータベースエラーが発生しました。詳細は、サーバーログ（fwxadmin.log）を確認してください。</translation>
-    </message>
-</context>
-<context>
-    <name>Options</name>
-    <message>
-        <source>Priority:</source>
-        <translation type="vanished">プライオリティ:</translation>
-    </message>
-    <message>
-        <source>Win</source>
-        <translation type="vanished">Win</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="14"/>
-        <source>Options</source>
-        <translation>オプション</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="23"/>
-        <source>Debug Level:</source>
-        <translation>デバッグレベル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="43"/>
-        <source>File Check Interval:</source>
-        <translation>ファイル確認インターバル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="65"/>
-        <source>minutes</source>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="74"/>
-        <source>Free Space Margin:</source>
-        <translation>空き容量:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="81"/>
-        <source> MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="97"/>
-        <source>Password:</source>
-        <translation>パスワード:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="111"/>
-        <source>Confirm Password:</source>
-        <translation>確認パスワード:</translation>
-    </message>
-</context>
-<context>
     <name>PasswordDlg</name>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="13"/>
@@ -1206,529 +1729,6 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="19"/>
         <source>Please enter the password to control this Booster:</source>
         <translation>このブースターを制御するためのパスワードを入力してください:</translation>
-    </message>
-</context>
-<context>
-    <name>PreferencesMain</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="98"/>
-        <source>Communications</source>
-        <translation>コミュニケーション</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="101"/>
-        <source>Boosters</source>
-        <translation>ブースター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="104"/>
-        <source>Options</source>
-        <translation>オプション</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="113"/>
-        <source>Privacy</source>
-        <translation>プライバシー</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="135"/>
-        <source>FileWave™ Imaging Appliance Preferences</source>
-        <translation>FileWave™イメージアプライアンス環境設定</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="137"/>
-        <source>FileWave™ Client Preferences</source>
-        <translation>FileWave™クライアント環境設定</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="376"/>
-        <source>Cannot confirm password.  Please re-enter password.</source>
-        <translation>パスワードを確認できません。  パスワードを再入力してください。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="377"/>
-        <source>Error</source>
-        <translation>エラー</translation>
-    </message>
-    <message>
-        <source>Managed remote control cannot be enabled without password being configured too.</source>
-        <translation type="vanished">パスワードも構成しないと、管理対象のリモートコントロールを有効にできません。</translation>
-    </message>
-</context>
-<context>
-    <name>PrefsEditorDlg</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="14"/>
-        <source>Superprefs Editor</source>
-        <translation>スーパープレッフエディター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="20"/>
-        <source>These preferences will be merged with the preferences on target clients.</source>
-        <translation>これらの設定は、対象クライアントの環境設定とマージされます。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="27"/>
-        <source>If you would like a value to remain unchanged, leave it blank.</source>
-        <translation>値を変更しない場合は、空白のままにしてください。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="38"/>
-        <source>Communications</source>
-        <translation>通信</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="229"/>
-        <source>Kiosk Port:</source>
-        <translation>Kioskポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="91"/>
-        <source>Tickle Interval:</source>
-        <translation>Tickleインターバル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="117"/>
-        <source>Synchronize Client Name with Computer name</source>
-        <translation>クライアント名とコンピューター名を同期させる</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="71"/>
-        <source>FileWave Server Address:</source>
-        <translation>FileWaveサーバーアドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="51"/>
-        <source>ex. 20020</source>
-        <translation>例 20020</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="58"/>
-        <source>Server Port:</source>
-        <translation>サーバーポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="166"/>
-        <source>Monitor Port:</source>
-        <translation>モニターポート:</translation>
-    </message>
-    <message>
-        <source>ex. 20031</source>
-        <translation type="vanished">例 20031</translation>
-    </message>
-    <message>
-        <source>VNC Relay Port:</source>
-        <translation type="vanished">VNCリレーポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="205"/>
-        <source>ex. 20010</source>
-        <translation>例 20010</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="198"/>
-        <source>ex. 20015</source>
-        <translation>例 20015</translation>
-    </message>
-    <message>
-        <source>ex. 20030</source>
-        <translation type="vanished">例 20030</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="212"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <source>VNC Server Port:</source>
-        <translation type="vanished">VNCサーバーポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="219"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="622"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="671"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="684"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="737"/>
-        <source>_</source>
-        <translation>_</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="242"/>
-        <source>Server Publish Port:</source>
-        <translation>サーバーパブリッシュポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="84"/>
-        <source>ex. 20005</source>
-        <translation>例 20005</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="253"/>
-        <source>Boosters</source>
-        <translation>ブースター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="279"/>
-        <source>Booster 3:</source>
-        <translation>ブースター 3:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="321"/>
-        <source>Port</source>
-        <translation>ポート</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="354"/>
-        <source>Publish Port</source>
-        <translation>パブリッシュポート</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="384"/>
-        <source>Booster 5:</source>
-        <translation>ブースター 5:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="397"/>
-        <source>Booster 4:</source>
-        <translation>ブースター 4:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="476"/>
-        <source>Booster 1:</source>
-        <translation>ブースター 1:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="502"/>
-        <source>Booster 2:</source>
-        <translation>ブースター 2:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="528"/>
-        <source>IP or DNS Address:</source>
-        <translation>IPまたはDNSアドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="561"/>
-        <source>Route server messages via boosters.</source>
-        <translation>ブースター経由でサーバーメッセージをルーティングする。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="572"/>
-        <source>Options</source>
-        <translation>オプション</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="598"/>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="605"/>
-        <source>minutes</source>
-        <translation>分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="612"/>
-        <source>Priority:</source>
-        <translation>プライオリティ:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="638"/>
-        <source>Password:</source>
-        <translation>パスワード:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="648"/>
-        <source>Verify Password:</source>
-        <translation>確認パスワード:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="707"/>
-        <source>File Check Interval:</source>
-        <translation>ファイル確認間隔:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="717"/>
-        <source>Free Space Margin:</source>
-        <translation>空き容量:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="727"/>
-        <source>Debug Level:</source>
-        <translation>デバッグレベル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="761"/>
-        <source>Privacy</source>
-        <translation>プライバシー</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="767"/>
-        <source>Personal Data</source>
-        <translation>個人データ</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="786"/>
-        <source>Location refresh interval:</source>
-        <translation>位置リフレッシュ間隔:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="793"/>
-        <source>Disable personal data collection</source>
-        <translation>個人データ収集を無効にする</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="806"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;個人データの収集は組織レベルで無効にされるかもしれません。 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="816"/>
-        <source>Remote Sessions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Observe Client</source>
-        <translation type="vanished">クライアントを表示する</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="822"/>
-        <source>Prompt client for remote control access</source>
-        <translation>クライアントにリモートコントロールアクセスを要求する</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="845"/>
-        <source>Managed remote control</source>
-        <translation>管理されたリモートコントロール</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="119"/>
-        <source> </source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="120"/>
-        <source>Never</source>
-        <translation>しない</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="121"/>
-        <source>5 minutes</source>
-        <translation>5 分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="122"/>
-        <source>15 minutes</source>
-        <translation>15 分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="123"/>
-        <source>30 minutes</source>
-        <translation>30 分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="124"/>
-        <source>1 hour</source>
-        <translation>1 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="125"/>
-        <source>2 hours</source>
-        <translation>2 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="126"/>
-        <source>6 hours</source>
-        <translation>6 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="127"/>
-        <source>12 hours</source>
-        <translation>12 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="128"/>
-        <source>1 day</source>
-        <translation>1 日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="178"/>
-        <source>Select an existing fwcld.newprefs.plist file or click Cancel to start with a blank one...</source>
-        <translation>既存のfwcld.newprefs.plist ファイルを選択するか、または「キャンセル」をクリックして空白のファイルから始めてください...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="249"/>
-        <source>Password verification failed.</source>
-        <translation>パスワード確認に失敗しました。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="255"/>
-        <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
-        <translation>Superprefsファイルを保存する場所を選択してください;  後でファイルセットに追加します。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="377"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="404"/>
-        <source>You have unsaved changes.  Are you sure you want to quit?</source>
-        <translation>変更が保存されていません。終了しますか？</translation>
-    </message>
-</context>
-<context>
-    <name>Privacy</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="14"/>
-        <source>Form</source>
-        <translation>フォーム</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="20"/>
-        <source>Personal Data</source>
-        <translation>個人データ</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="39"/>
-        <source>Location refresh interval:</source>
-        <translation>場所リフレッシュインターバル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="46"/>
-        <source>Disable personal data collection</source>
-        <translation>個人データ収集を無効にする</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="56"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;個人データの収集は組織レベルで無効にされるかもしれません. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="66"/>
-        <source>Remote Sessions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Observe Client</source>
-        <translation type="vanished">クライアントを観察</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="72"/>
-        <source>Prompt client for remote control access</source>
-        <translation>クライアントにリモートコントロールアクセスを促す</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="92"/>
-        <source>Managed remote control</source>
-        <translation>リモートコントロールを管理</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="15"/>
-        <source>Never</source>
-        <translation>しない</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="16"/>
-        <source>5 minutes</source>
-        <translation>5 分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="17"/>
-        <source>15 minutes</source>
-        <translation>15 分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="18"/>
-        <source>30 minutes</source>
-        <translation>30 分</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="19"/>
-        <source>1 hour</source>
-        <translation>1 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="20"/>
-        <source>2 hours</source>
-        <translation>2 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="21"/>
-        <source>6 hours</source>
-        <translation>6 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="22"/>
-        <source>12 hours</source>
-        <translation>12 時間</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="23"/>
-        <source>1 day</source>
-        <translation>1 日</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>GCM correctly configured.</source>
-        <translation type="vanished">GCMは正しく構成されています。</translation>
-    </message>
-    <message>
-        <source>GCM not configured.</source>
-        <translation type="vanished">GCMが構成されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterconnection.cpp" line="655"/>
-        <source>n.a.</source>
-        <comment>not applicable</comment>
-        <translation>なし</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="9"/>
-        <source>FCM correctly configured.</source>
-        <translation>FCMは正しく構成されています。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="11"/>
-        <source>Project number not set.</source>
-        <translation>プロジェクト番号が設定されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="13"/>
-        <source>API Key not set.</source>
-        <translation>APIキーキーが設定されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="15"/>
-        <source>Invalid server API key or project not correctly configured in Google Dev. Console.</source>
-        <translation>無効なサーバーAPIキーまたはプロジェクトがGoogle Dev. Consoleに正しく設定されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/Translator.cpp" line="17"/>
-        <source>FCM not configured.</source>
-        <translation>FCMは構成されていません。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="52"/>
-        <source>Select an Icon</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>アイコンを選択</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="56"/>
-        <source>Select an exe, dll, or icon file</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>exe、dll、またはアイコンファイルを選択してください</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="60"/>
-        <source>Select an Application or icon file</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>アプリまたはアイコンファイルを選択してください</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskResourceHelper.cpp" line="63"/>
-        <source>Images (</source>
-        <comment>KioskResourceHelper</comment>
-        <translation>イメージ (</translation>
     </message>
 </context>
 <context>
