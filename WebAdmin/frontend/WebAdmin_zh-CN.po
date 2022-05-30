@@ -18479,7 +18479,7 @@ msgstr ""
 
 #: ./src/features/payloads/FileWaveManager/config/geofencing.ts:38:23
 msgid " (m)"
-msgstr " (m)"
+msgstr "(m)"
 
 #: ./src/features/payloads/FileWaveManager/config/geofencing.ts:44:30
 msgid ""
@@ -18556,7 +18556,9 @@ msgid ""
 "the syntax %FIELD_NAME%. \n"
 "For instance: foo-%asset_tag%."
 msgstr ""
-"在执行脚本之前设置命令行参数的值。\n若要使用清单字段值来设置命令行参数值，请使用语法 %FIELD_NAME%。\n例如：foo-%asset_tag%。"
+"在执行脚本之前设置命令行参数的值。\n"
+"若要使用清单字段值来设置命令行参数值，请使用语法 %FIELD_NAME%。\n"
+"例如：foo-%asset_tag%。"
 
 #: ./src/features/payloads/FileWaveManager/config/script.ts:88:28
 msgid "Environment Variables"
@@ -18578,7 +18580,10 @@ msgid ""
 "For instance: MY_VAR: foo-%asset_tag%. \n"
 "Note: environment variable names are case insensitive in Windows."
 msgstr ""
-"在执行脚本之前设置环境变量的值。\n若要使用清单字段值，请使用语法 %FIELD_NAME%。\n例如：MY_VAR: foo-%asset_tag%.\n注意：Windows 中的环境变量名称不区分大小写。"
+"在执行脚本之前设置环境变量的值。\n"
+"若要使用清单字段值，请使用语法 %FIELD_NAME%。\n"
+"例如：MY_VAR: foo-%asset_tag%.\n"
+"注意：Windows 中的环境变量名称不区分大小写。"
 
 #: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:43
 msgid "Policy saved successfully"
@@ -18748,3 +18753,1674 @@ msgstr "关于配置文件/策略"
 #: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:459:28
 msgid "Settings - Identity Provider"
 msgstr "设置 - 身份提供者"
+
+#: ./src/features/payloads/payloadsList/components/createPayloadsGroup/CreatePayloadsGroupModal.component.tsx:55:29
+msgid "Create New Group"
+msgstr "创建新组"
+
+#: ./src/features/payloads/actions/renamePayloadGroup.tsx:49:29
+msgid "Rename Group"
+msgstr "重新命名群組"
+
+#: ./src/components/resources/profileManager/config/airPlay.js:34:26
+msgid "Value can't be lower than 10"
+msgstr "值不能低于 10"
+
+#: ./src/components/resources/profileManager/config/airPlay.js:39:26
+msgid "Value can't be higher than 99"
+msgstr "值不能高于 99"
+
+#: ./src/components/resources/profileManager/config/apn.js:6:26
+msgid ""
+"Use this section to specify advanced settings, such as a carrier Access "
+"Point Name (APN)."
+msgstr ""
+"此部分用于指定高级设置，例如运营商的接入点名称 (APN)。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:421:43
+msgid "Log out User after:"
+msgstr "此时间后注销用户："
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:464:27
+msgid "Use FWAdmin time zone (%1)"
+msgstr "使用 FWAdmin 时区 (%1)"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:524:24
+msgid "Firmware Password / Recovery Lock"
+msgstr "固件密码/恢复锁定"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:525:30
+msgid ""
+"Firmware Password command is not supported on Mac computers with Apple "
+"silicon; Recovery Lock command is only available with Apple silicon."
+msgstr ""
+"装有 Apple Silicon 的 Mac 电脑不支持固件密码命令；恢复锁定命令仅适用于 Apple Silicon。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:535:32
+msgid "Firmware Password (macOS 10.13+)"
+msgstr "固件密码 (macOS 10.13+)"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:541:36
+msgid "Change Fireware Password"
+msgstr "更改固件密码"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:551:36
+msgid "New Firmware Password (empty to reset):"
+msgstr "新固件密码（清空以重置）："
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:568:36
+msgid "Verify Firmware Password:"
+msgstr "验证固件密码："
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:569:42
+msgid ""
+"Device must be rebooted for the new wireframe password to take effect or "
+"before you change the password again."
+msgstr ""
+"为了使新线框密码生效，或者在再次更改密码之前，设备必须重新启动。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:588:42
+msgid "The provided passwords do not match"
+msgstr "提供的密码不匹配"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:598:32
+msgid "Recovery Lock (11.5+)"
+msgstr "恢复锁定 (11.5+)"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:604:36
+msgid "Change Recovery Lock"
+msgstr "更改恢复锁定"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:614:36
+msgid "New Recovery Lock (empty to reset):"
+msgstr "新恢复锁定（清空以重置）："
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:631:36
+msgid "Verify Recovery Lock:"
+msgstr "验证恢复锁定："
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:632:42
+msgid ""
+"Device must be rebooted for the new recovery lock to take effect or before "
+"you change the recovery lock again."
+msgstr ""
+"为了使新恢复锁定生效，或者在再次更改恢复锁定之前，设备必须重新启动。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:651:42
+msgid "The provided recovery locks do not match"
+msgstr "提供的恢复锁定不匹配"
+
+#: ./src/components/resources/profileManager/config/contacts.js:6:26
+msgid ""
+"Use this section to define settings for configuration access to CardDAV "
+"servers."
+msgstr ""
+"此部分用于定义访问 CardDAV 服务器的配置设置。"
+
+#: ./src/components/resources/profileManager/config/exchange.js:27:46
+msgid "Name for the Exchange Web Services Account"
+msgstr "Exchange Web 服务帐户的名称"
+
+#: ./src/components/resources/profileManager/config/exchange.js:50:27
+msgid "Exchange Web Services (macOS only)"
+msgstr "Exchange Web 服务（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/exchange.js:184:46
+msgid "Name or description for the Web Services certificate"
+msgstr "Web 服务证书的名称和描述"
+
+#: ./src/components/resources/profileManager/config/exchange.js:232:24
+msgid "Internal Exchange Host"
+msgstr "内部交换主机"
+
+#: ./src/components/resources/profileManager/config/exchange.js:299:30
+msgid "Microsoft Exchange Server"
+msgstr "Microsoft Exchange Server"
+
+#: ./src/components/resources/profileManager/config/exchange.js:263:24
+msgid "Internal Server Path"
+msgstr "内部服务器路径"
+
+#: ./src/components/resources/profileManager/config/exchange.js:264:30
+msgid "Server path for the internal exchange host"
+msgstr "内部交换主机的服务器路径"
+
+#: ./src/components/resources/profileManager/config/exchange.js:280:24
+msgid "Use SSL for Internal Exchange Host"
+msgstr "对内部交换主机使用 SSL"
+
+#: ./src/components/resources/profileManager/config/exchange.js:346:30
+msgid "Send all communication through secure socket layer"
+msgstr "通过安全套接层发送所有通信"
+
+#: ./src/components/resources/profileManager/config/exchange.js:298:24
+msgid "External Exchange Host"
+msgstr "内部交换主机"
+
+#: ./src/components/resources/profileManager/config/exchange.js:328:24
+msgid "External Server Path"
+msgstr "外部服务器路径"
+
+#: ./src/components/resources/profileManager/config/exchange.js:329:30
+msgid "Server path for the external exchange host"
+msgstr "外部交换主机的服务器路径"
+
+#: ./src/components/resources/profileManager/config/exchange.js:345:24
+msgid "Use SSL for External Exchange Host"
+msgstr "对外部交换主机使用 SSL"
+
+#: ./src/components/resources/profileManager/config/exchange.js:465:27
+msgid "1 day"
+msgstr "1 天"
+
+#: ./src/components/resources/profileManager/config/exchange.js:469:27
+msgid "3 days"
+msgstr "3 天"
+
+#: ./src/components/resources/profileManager/config/exchange.js:473:27
+msgid "1 week"
+msgstr "1 周"
+
+#: ./src/components/resources/profileManager/config/exchange.js:477:27
+msgid "2 weeks"
+msgstr "2 周"
+
+#: ./src/components/resources/profileManager/config/exchange.js:481:27
+msgid "1 month"
+msgstr "1 个月"
+
+#: ./src/components/resources/profileManager/config/extensions.js:33:32
+msgid ""
+"The bundle identifiers of the extensions that are allowed to run on the "
+"device. All other extensions from any extension point will be disallowed."
+msgstr ""
+"允许在设备上运行的扩展的捆绑包标识符。将禁止来自任何扩展点的所有其他扩展。"
+
+#: ./src/components/resources/profileManager/config/identification.js:7:26
+msgid "Use this section to configure Identification"
+msgstr "使用此部分配置标识"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:103:35
+msgid "Build"
+msgstr "組建編號"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:119:35
+msgid "Time"
+msgstr "时间"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:239:32
+msgid "Show Input menu in login window"
+msgstr "在登录窗口显示输入菜单"
+
+#: ./src/components/resources/profileManager/config/network.js:746:25
+msgid "Login window"
+msgstr "登录窗口"
+
+#: ./src/components/resources/profileManager/config/network.js:817:36
+msgid "Authentication protocols supported on target network"
+msgstr "目标网络支持的身份验证协议"
+
+#: ./src/components/resources/profileManager/config/network.js:1203:27
+msgid "First Active Ethernet (macOS only)"
+msgstr "第一个活动的以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1207:27
+msgid "Second Active Ethernet (macOS only)"
+msgstr "第二个活动的以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1211:27
+msgid "Third Active Ethernet (macOS only)"
+msgstr "第三个活动的以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1215:27
+msgid "First Ethernet (macOS only)"
+msgstr "第一个以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1219:27
+msgid "Second Ethernet (macOS only)"
+msgstr "第二个以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1223:27
+msgid "Third Ethernet (macOS only)"
+msgstr "第三个以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1227:27
+msgid "Any Ethernet (macOS only)"
+msgstr "任何以太网（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/network.js:1603:27
+msgid "WPA2 Personal"
+msgstr "WPA2 个人"
+
+#: ./src/components/resources/profileManager/config/network.js:1607:27
+msgid "WPA3 Personal"
+msgstr "WPA3 个人"
+
+#: ./src/components/resources/profileManager/config/network.js:1623:27
+msgid "WPA2 Enterprise"
+msgstr "WPA2 企业"
+
+#: ./src/components/resources/profileManager/config/network.js:1627:27
+msgid "WPA3 Enterprise"
+msgstr "WPA3 企业"
+
+#: ./src/components/resources/profileManager/config/network.js:1720:27
+msgid "Allow specific Apps"
+msgstr "允许特定应用程序"
+
+#: ./src/components/resources/profileManager/config/parentalControls.js:228:28
+msgid "Prevent computer access during the specified days and hours."
+msgstr "防止在指定的日期和时间内访问计算机。"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:540:40
+msgid "Speech & Dictation"
+msgstr "语音和听写"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:662:32
+msgid "Third-party Preference Panes"
+msgstr "第三方首选项窗格"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:668:36
+msgid "Preference Identifier"
+msgstr "首选项标识符"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1575:40
+msgid "Require password to unlock device with Touch ID after"
+msgstr "需要密码才能在以下时间之后使用 Touch ID 解锁设备："
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1723:36
+msgid "Allow AirPlay receiver"
+msgstr "允许 AirPlay 接收器"
+
+#: ./src/components/resources/profileManager/config/restrictionsTvos.js:106:36
+msgid "Allow automatic Screen Saver (Supervised devices only)"
+msgstr "允许自动屏幕保护程序（仅限受监控设备）"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:243:32
+msgid "Automatically allow built-in software to receive incoming connections"
+msgstr "自动允许内置软件接收传入的连接"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:265:32
+msgid ""
+"Automatically allow downloaded signed software to receive incoming "
+"connections"
+msgstr ""
+"自动允许下载的签名软件接收传入的连接"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:268:38
+msgid ""
+"Allows software signed by a valid certificate authority to provide services "
+"accessed from the network"
+msgstr ""
+"允许由有效证书颁发机构签名的软件提供从网络访问的服务"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:313:32
+msgid "Enable logging, available in macOS 12 and later"
+msgstr "启用日志，可在 macOS 12 和更高版本中使用"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:331:32
+msgid "Logging type"
+msgstr "日志类型"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:336:35
+msgid "Brief"
+msgstr "简要信息"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:340:35
+msgid "Detail"
+msgstr "详细信息"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:344:35
+msgid "Throttled"
+msgstr "已阻止"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:5:20
+msgid "Setup Assistant (supervised only)"
+msgstr "设置助手（仅限受监控设备）"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:6:26
+msgid "Use this section to configure the Setup Assistant."
+msgstr "使用此部分配置设置助手。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:25:34
+msgid ""
+"Skips the Accessibility pane, only if the Mac is connected to Ethernet and "
+"the cloud config is downloaded. Availability: macOS 11+."
+msgstr ""
+"仅当 Mac 连接到以太网且云配置已下载时，才会跳过“辅助功能”窗格。可用性：macOS 11+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:43:34
+msgid "Skips the App Store pane. Availability: iOS 14.3+ and macOS 11.1+."
+msgstr "跳过 App Store 窗格。可用性：iOS 14.3+ 和 macOS 11.1+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:104:34
+msgid ""
+"Disables FileVault Setup Assistant screen in macOS. Availability: macOS "
+"10.10+."
+msgstr ""
+"在 macOS 中禁用“FileVault 设置助手”屏幕。可用性：macOS 10.10+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:112:28
+msgid "Home Button (Deprecated)"
+msgstr "主页按钮（已弃用）"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:121:28
+msgid "iCloud Analytics"
+msgstr "iCloud 分析"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:122:34
+msgid "Skips iCloud Analytics screen. Availability: macOS 10.12.4+."
+msgstr "跳过“iCloud 分析”屏幕。可用性：macOS 10.12.4+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:130:28
+msgid "iCloud Documents and Desktop"
+msgstr "iCloud 文档和桌面"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:131:34
+msgid ""
+"Skips iCloud Documents and Desktop screen in macOS. Availability: macOS "
+"10.13.4+."
+msgstr ""
+"跳过 macOS 中的“iCloud 文档和桌面”屏幕。可用性：macOS 10.13.4+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:139:28
+msgid "iMessage"
+msgstr "iMessage"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:140:34
+msgid "Skips the iMessage pane. Availability: iOS 10+."
+msgstr "跳过 iMessage 窗格。可用性：iOS 10+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:184:28
+msgid "New Feature Highlights (Deprecated)"
+msgstr "新功能亮点（已弃用）"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:256:28
+msgid "Tap To Setup"
+msgstr "点击以设置"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:257:34
+msgid ""
+"Skips the Tap To Set Up option in AppleTV about using an iOS device to set "
+"up your AppleTV. Availability: tvOS 10.2+."
+msgstr ""
+"跳过 AppleTV 中关于使用 iOS 设备设置 AppleTV 的“点击以设置”选项。可用性：tvOS 10.2+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:283:28
+msgid "True Tone Display (Deprecated)"
+msgstr "True Tone Display（已弃用）"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:292:28
+msgid "TV Home Screen Sync"
+msgstr "电视主屏幕同步"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:293:34
+msgid "Skips TV home screen layout sync screen. Availability: tvOS 11+."
+msgstr "跳过电视主屏幕布局同步屏幕。可用性：tvOS 11+。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:301:28
+msgid "TV Provider"
+msgstr "电视提供商"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:302:34
+msgid "Skips the TV provider sign in screen. Availability: tvOS 11+"
+msgstr "跳过“电视提供商登录”屏幕。可用性：tvOS 11+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:310:28
+msgid "tvOS Aerial screensaver"
+msgstr "tvOS Aerial 屏幕保护程序"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:311:34
+msgid ""
+"Skips the tvOS screen about using aerial screensavers in ATV. Availability: "
+"tvOS 10.2+"
+msgstr ""
+"跳过有关在 ATV 中使用 Aerial 屏幕保护程序的 tvOS 屏幕。可用性：tvOS 10.2+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:346:28
+msgid "Where is this Apple TV?"
+msgstr "此 Apple TV 在哪里？"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:347:34
+msgid ""
+"Skips the \"Where is this Apple TV?\" screen in tvOS. Availability: tvOS "
+"11.4+"
+msgstr ""
+"跳过 tvOS 中的 \“此 Apple TV 在哪里？\”屏幕。可用性：tvOS 11.4+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:376:30
+msgid ""
+"Please refer to <a "
+"href=\"https://support.apple.com/guide/mdm/setup-assistant-pane-options-"
+"mdmc5a826c7/1/web/1.0\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Apple's documentation</a>  for more details."
+msgstr ""
+"有关更多详细信息，请参阅 <a href=\"https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0\" target=\"_blank\" rel=\"noopener noreferrer\">Apple 文档</a>。"
+
+#: ./src/components/resources/profileManager/config/vpn.js:146:25
+msgid "Shared Secret / Group Name"
+msgstr "共享密钥/组名"
+
+#: ./src/components/resources/profileManager/config/vpn.js:953:26
+msgid "Child SA Params"
+msgstr "儿童 SA 参数"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1057:27
+msgid "Pulse Secure"
+msgstr "Pulse Secure"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1265:24
+msgid "Exclude local network traffic from the VPN connection"
+msgstr "从 VPN 连接中排除本地网络流量"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1266:30
+msgid ""
+"Traffic destined for the local network will not go through the VPN "
+"connection"
+msgstr ""
+"发往本地网络的流量将不会通过 VPN 连接"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1572:27
+msgid "Certificate (macOS only)"
+msgstr "证书（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1576:27
+msgid "Kerberos (macOS only)"
+msgstr "Kerberos（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1593:27
+msgid "CryptoCard (macOS only)"
+msgstr "CryptoCard（仅限 macOS）"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2458:27
+msgid "packet-tunnel"
+msgstr "数据包隧道"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2642:24
+msgid "Proxy Password"
+msgstr "代理密码"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2982:30
+msgid "Required if VPN provider is a System Extension"
+msgstr "如果 VPN 提供者是系统扩展，则需要此选项"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:145:43
+msgid "The following profile"
+msgstr "下列配置文件"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:147:25
+msgid " type is"
+msgstr " 类型为"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:148:25
+msgid " types are"
+msgstr " 类型为"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:149:22
+msgid " unavailable: "
+msgstr " 不可用： "
+
+#: ./src/components/resources/profileManager/ProfileManager.js:151:25
+msgid "That profile"
+msgstr "该配置文件"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:152:25
+msgid "Those profiles"
+msgstr "这些配置文件"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:153:22
+msgid " will remain in the payload unchanged."
+msgstr " 将在有效负载中保留不变。"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:154:33
+msgid "Unsupported Profiles Found!"
+msgstr "发现不支持的配置文件！"
+
+#: ./src/features/associations/actions/actions.utils.tsx:87:19
+msgid "The following associations were successfully deleted:"
+msgstr "以下关联已成功删除："
+
+#: ./src/features/associations/actions/actions.utils.tsx:93:19
+msgid "The following associations were not found:"
+msgstr "以下关联未找到："
+
+#: ./src/features/associations/actions/actions.utils.tsx:99:19
+msgid "The following associations were not deleted:"
+msgstr "以下关联未删除："
+
+#: ./src/features/associations/actions/actions.utils.tsx:105:19
+msgid "You don't have permission to the following associations:"
+msgstr "您没有以下关联的权限："
+
+#: ./src/features/associations/actions/actions.utils.tsx:114:19
+msgid "The following associations are locked by other users:"
+msgstr "以下关联被其他用户锁定："
+
+#: ./src/features/associations/actions/actions.utils.tsx:150:21
+msgid "Association deleted"
+msgstr "关联已删除"
+
+#: ./src/features/associations/actions/actions.utils.tsx:151:21
+msgid "Associations deleted"
+msgstr "关联已删除"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:20:19
+msgid "Delete Association"
+msgstr "刪除關聯"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:21:19
+msgid "Delete Associations"
+msgstr "删除关联"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:25:19
+msgid "Are you sure you want to delete this association?"
+msgstr "是否确定要删除此关联？"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:26:19
+msgid "Are you sure you want to delete these associations?"
+msgstr "是否确定要删除这些关联？"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:30:19
+msgid "Deleting association failed"
+msgstr "删除关联失败"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:31:19
+msgid "Deleting associations failed"
+msgstr "删除关联失败"
+
+#: ./src/features/associations/associationsList/AssociationsList.page.tsx:85:19
+msgid "1 association"
+msgstr "1 个关联"
+
+#: ./src/features/associations/associationsList/AssociationsList.page.tsx:86:19
+msgid "%1 associations"
+msgstr "%1 个关联"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:24:25
+msgid "Association Actions"
+msgstr "关联操作"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:25:25
+msgid "Associations Actions"
+msgstr "关联操作"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:27:25
+msgid "Cannot fetch association actions"
+msgstr "无法获取关联操作"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:28:25
+msgid "Cannot fetch associations actions"
+msgstr "无法获取关联操作"
+
+#: ./src/features/deployments/DeploymentEditor/DeploymentEditor.component.tsx:360:33
+msgid "Publishing in progress"
+msgstr "正在发布"
+
+#: ./src/features/deployments/DeploymentEditor/options/DeploymentOptionsTab/DeploymentOptionsTab.component.tsx:133:25
+msgid "Assign to Device if possible, otherwise to User"
+msgstr "如果可能，分配给设备，否则分配给用户"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/DeploymentPayloadsTab.component.tsx:175:32
+msgid "Add payload"
+msgstr "添加有效负载"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/PayloadRevision/PayloadRevision.renderer.tsx:16:49
+msgid "(default)"
+msgstr "（默认）"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/PayloadRevision/PayloadRevision.renderer.tsx:104:32
+msgid "Change Revision"
+msgstr "更改修订"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:93:36
+msgid "in Device Groups"
+msgstr "设备组中"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:100:36
+msgid "standalone"
+msgstr "单机"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:113:40
+msgid "LDAP Groups"
+msgstr "LDAP 组"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:128:40
+msgid "IDP Groups"
+msgstr "IDP 组"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:143:36
+msgid "per Device (up to)"
+msgstr "每个设备（最多）"
+
+#: ./src/features/deployments/DeploymentList/DeploymentList.page.tsx:133:35
+msgid "Active Deployments"
+msgstr "活动的部署"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:105:23
+msgid "You are editing this deployment in another browser / tab."
+msgstr "您正在另一个浏览器 / 标签中编辑此部署。"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:114:23
+msgid "The resource '%1' is being edited by '%2'."
+msgstr "资源 '%1' 正在被 '%2' 编辑。"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:21:23
+msgid "Enable Device(s)"
+msgstr "启用设备"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:22:21
+msgid "This will enable selected device(s). Are you sure you want to proceed?"
+msgstr "这将启用选择的设备。是否确实要继续？"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:26:24
+msgid "Enable Device(s) request sent successfully"
+msgstr "已成功发送启用设备请求"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:27:24
+msgid "Enable Device(s) command failed"
+msgstr "启用设备命令失败"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:34:23
+msgid "Disable Device(s)"
+msgstr "禁用设备"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:35:21
+msgid "This will disable selected device(s). Are you sure you want to proceed?"
+msgstr "这将禁用选择的设备。是否确实要继续？"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:165:22
+msgid "Disable"
+msgstr "禁用"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:39:24
+msgid "Disable Device(s) request sent successfully"
+msgstr "已成功发送禁用设备请求"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:40:24
+msgid "Disable Device(s) command failed"
+msgstr "禁用设备命令失败"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:12:35
+msgid "Lock Device(s)"
+msgstr "锁定设备"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:16:17
+msgid ""
+"This will lock selected device(s). Users will be able to unlock the device "
+"using their passcode. Are you sure you want to proceed?"
+msgstr ""
+"这将锁定选择的设备。用户将能够使用他们的密码解锁该设备。是否确实要继续？"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:19:17
+msgid "Lock"
+msgstr "鎖定"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:25:17
+msgid "Lock Device(s) request sent successfully"
+msgstr "已成功发送锁定设备请求"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:35:17
+msgid "Lock Device(s) command failed"
+msgstr "锁定设备命令失败"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:11:35
+msgid "Renew Token(s)"
+msgstr "续订令牌"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:17:17
+msgid "Renew Token(s) request sent successfully"
+msgstr "已成功发送续订令牌请求"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:27:17
+msgid "Renew Token(s) command failed"
+msgstr "续订令牌命令失败"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:12:35
+msgid "Restart Device(s)"
+msgstr "重新启用设备"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:16:17
+msgid "This will restart selected device(s). Are you sure you want to proceed?"
+msgstr "这将重新启动选择的设备。是否确实要继续？"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:25:17
+msgid "Restart Device(s) request sent successfully"
+msgstr "已成功发送重新启动设备请求"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:35:17
+msgid "Restart Device(s) command failed"
+msgstr "重新启动设备命令失败"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:12:35
+msgid "Wipe Device(s)"
+msgstr "擦除设备"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:16:17
+msgid "This will wipe selected device(s). Are you sure you want to proceed?"
+msgstr "这将擦除选择的设备。是否确实要继续？"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:25:17
+msgid "Wipe Device(s) request sent successfully"
+msgstr "已成功发送擦除设备请求"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:35:17
+msgid "Wipe Device(s) command failed"
+msgstr "擦除设备命令失败"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:4:20
+msgid "Wipe & Keep Enrolled"
+msgstr "擦除但保留注册"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:7:19
+msgid ""
+"All devices will be wiped, but they will stay enrolled. Wi-Fi profiles and "
+"a few other settings like region, language, keyboard will be kept."
+msgstr ""
+"所有设备将被擦除，但它们将保持注册状态。Wi-Fi 配置文件和地区、语言、键盘等其他设置将被保留。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:10:19
+msgid ""
+"The device will be wiped, but it will stay enrolled. Wi-Fi profiles and a "
+"few other settings like region, language, keyboard will be kept."
+msgstr ""
+"设备将被擦除，但它将保持注册状态。Wi-Fi 配置文件和地区、语言、键盘等其他设置将被保留。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:16:20
+msgid "Complete Wipe"
+msgstr "完全擦除"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:19:19
+msgid "All devices will be completely wiped, all the data will be erased."
+msgstr "所有的设备将被完全擦除，所有的数据都将被清除。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:22:19
+msgid "The device will be completely wiped, all the data will be erased."
+msgstr "设备将被完全擦除，所有的数据都将被清除。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:28:20
+msgid "Complete Wipe (protected)"
+msgstr "完全擦除（受保护）"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:31:19
+msgid ""
+"Unlike the \"Complete Wipe\", which can be easily circumvented by simply "
+"power cycling the device, the protected wipe will keep trying to reset the "
+"devices until it’s done."
+msgstr ""
+"与可通过简单的电源重启轻松规避的 \“完全擦除\” 不同，受保护的擦除将不断尝试重置设备，直到完成。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:34:19
+msgid ""
+"Unlike the \"Complete Wipe\", which can be easily circumvented by simply "
+"power cycling the device, the protected wipe will keep trying to reset the "
+"device until it’s done."
+msgstr ""
+"与可通过简单的电源重启轻松规避的 \“完全擦除\” 不同，受保护的擦除将不断尝试重置设备，直到完成。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:40:20
+msgid "Persist User Data"
+msgstr "保留用户数据"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:43:19
+msgid "All devices will be wiped, but the user accounts and data will persist."
+msgstr "所有设备都将被擦除，但用户帐户和数据将持久存在。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:46:19
+msgid "The device will be wiped, but the user accounts and data will persist."
+msgstr "设备将被擦除，但用户帐户和数据将持久存在。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:52:20
+msgid "Persist Provisioned Data"
+msgstr "保留已配置的数据"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:55:19
+msgid ""
+"Provisioned data will be backed up to a persistent location, and then a "
+"remote wipe of the devices will be performed. The information that was "
+"backed up will be restored and applied to the devices when it resumes."
+msgstr ""
+"已配置的数据将被备份到一个持久的位置，然后对设备进行远程擦除。当恢复时，被备份的信息将被恢复并应用到设备上。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:58:19
+msgid ""
+"Provisioned data will be backed up to a persistent location, and then a "
+"remote wipe of the device will be performed. The information that was "
+"backed up will be restored and applied to the device when it resumes."
+msgstr ""
+"已配置的数据将被备份到一个持久的位置，然后将对设备进行远程擦除。当恢复时，被备份的信息将被恢复并应用到设备上。"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:73:22
+msgid "Copy to Groups"
+msgstr "复制到组"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:268:23
+msgid "Move to Group"
+msgstr "移动到组"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:98:22
+msgid "Remove from System"
+msgstr "从系统中移除"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:115:22
+msgid "Set Tracking State"
+msgstr "设置跟踪状态"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:125:22
+msgid "Edit Device Fields"
+msgstr "编辑设备字段"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:160:22
+msgid "Renew Token"
+msgstr "续订令牌"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:175:22
+msgid "Lock Device"
+msgstr "锁定设备"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:185:22
+msgid "Play Sound"
+msgstr "播放声音"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:210:22
+msgid "Edit Smart Group"
+msgstr "編輯智慧型群組"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:220:22
+msgid "Remove Group"
+msgstr "移除群組"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:291:25
+msgid "Add to Deployment"
+msgstr "添加到部署"
+
+#: ./src/features/devices/actions/restart/restart.tsx:89:40
+msgid ""
+"\n"
+"                  The paths to kexts to add to auxilliary kernel cache "
+"since\n"
+"                  the last kernel cache rebuild. If not present, the system\n"
+"                  only adds previously-discovered kexts to kernel cache.\n"
+"                "
+msgstr ""
+"\n                  自\n                  上次内核缓存重建起kext 要添加到辅助内核缓存的路径。如果不存在，系统\n                  只会将以前发现的 kext 添加到内核缓存中。\n                "
+
+#: ./src/features/devices/DeviceDetails/tabs/info/status/DeviceDeploymentChart.js:78:28
+msgid "N/A"
+msgstr "不適用"
+
+#: ./src/features/devices/DeviceDetails/tabs/payloads/DevicePayloadsTableView.tsx:70:21
+msgid "Fileset reinstallation failed: %1"
+msgstr "重新安装文件集失败： %1"
+
+#: ./src/features/devices/DeviceDetails/tabs/payloads/DevicePayloadsTableView.tsx:79:24
+msgid "Reinstall"
+msgstr "重新安裝"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:33:24
+msgid "Cannot fetch"
+msgstr "无法获取"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:43:26
+msgid "Device Apps"
+msgstr "设备应用程序"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:49:26
+msgid "Device Commands"
+msgstr "设备命令"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:55:26
+msgid "Device Groups"
+msgstr "设备组"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:61:26
+msgid "Device Media"
+msgstr "设备媒体"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:67:26
+msgid "Device Payloads"
+msgstr "设备有效负载"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:73:26
+msgid "Device Updates"
+msgstr "设备更新"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:79:26
+msgid "Device Users"
+msgstr "设备用户"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:95:29
+msgid "The following items were successfully changed:"
+msgstr "以下项目已成功更改："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:98:37
+msgid "The following items were not found:"
+msgstr "以下项目未找到："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:103:39
+msgid "The following items were not deleted:"
+msgstr "以下项目未删除："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:108:37
+msgid "The following items were not moved:"
+msgstr "以下项目未移动："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:114:19
+msgid "You don't have permission to the following items:"
+msgstr "您没有以下项目的权限："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:120:19
+msgid "The following items are locked by other users:"
+msgstr "以下项目被其他用户锁定："
+
+#: ./src/features/payloads/actions/moveToGroup.ts:18:22
+msgid "Payload group moved to \"%1\""
+msgstr "有效负载组已移至 \“%1\”"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:21:22
+msgid "Payload moved to \"%1\""
+msgstr "有效负载已移至 \“%1\”"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:23:20
+msgid "Items moved to \"%1\""
+msgstr "项目已移至 \“%1\”"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:52:19
+msgid "Move failed"
+msgstr "移动失败"
+
+#: ./src/features/payloads/actions/removePayload.ts:16:22
+msgid "Delete Payload Group"
+msgstr "删除有效负载组"
+
+#: ./src/features/payloads/actions/removePayload.ts:18:22
+msgid "Delete Payload"
+msgstr "删除有效负载"
+
+#: ./src/features/payloads/actions/removePayload.ts:19:20
+msgid "Delete Items"
+msgstr "删除项目"
+
+#: ./src/features/payloads/actions/removePayload.ts:30:28
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"        Deleting this payload group will <strong>affect %2 "
+"devices</strong>. You can't undo this action.\n"
+"        Are you sure you want to delete this payload group?"
+msgstr ""
+"您正要删除<strong> %1</strong>。\n        删除此有效负载组将<strong>影响 %2 个设备</strong>。您无法撤销此操作。\n        是否确定要删除此有效负载组？"
+
+#: ./src/features/payloads/actions/removePayload.ts:38:26
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"      Deleting this payload will <strong>affect %2 devices</strong>. You "
+"can't undo this action.\n"
+"      Are you sure you want to delete this payload?"
+msgstr ""
+"您正要删除<strong> %1</strong>。\n        删除此有效负载将<strong>影响 %2 个设备</strong>。您无法撤销此操作。\n        是否确定要删除此有效负载？"
+
+#: ./src/features/payloads/actions/removePayload.ts:46:24
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"    Deleting these items will <strong>affect %2 devices</strong>. You can't "
+"undo this action.\n"
+"    Are you sure you want to delete them?"
+msgstr ""
+"您正要删除<strong> %1</strong>。\n        删除这些项目将<strong>影响 %2 个设备</strong>。您无法撤销此操作。\n        是否确定要删除？"
+
+#: ./src/features/payloads/actions/removePayload.ts:57:22
+msgid "Payload group deleted"
+msgstr "已删除有效负载组"
+
+#: ./src/features/payloads/actions/removePayload.ts:60:20
+msgid "Items deleted"
+msgstr "已删除项目"
+
+#: ./src/features/payloads/actions/removePayload.ts:94:19
+msgid "Delete failed"
+msgstr "删除失败"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:114:33
+msgid "Id"
+msgstr "ID"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:409:30
+msgid ""
+"Allow user to configure or modify bluetooth connections. Note that <a "
+"data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#Policy.FIELDS.bluetooth_disabled\">this setting can be "
+"bypassed by users</a>; to completely disable bluetooth, use \"Allow "
+"bluetooth\"."
+msgstr ""
+"允许用户配置或修改蓝牙连接。请注意，<a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">用户可以绕过此设置</a>；若要完全禁用蓝牙，请选择 \“允许蓝牙\”。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:43:30
+msgid ""
+"Note: Location accuracy is determined by a number of external factors. "
+"Please see our Knowledge Base for more information."
+msgstr ""
+"注意：位置的精度由许多外部因素决定。请参阅我们的知识库以获取更多信息。"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:145:23
+msgid "Move to group"
+msgstr "移动到组"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:220:25
+msgid "Payload Actions"
+msgstr "有效负载操作"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadDependencies/components/PayloadDependencyContainerContent.js:212:36
+msgid "Add dependencies"
+msgstr "添加依赖项"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadScripts/components/ScriptsSection.component.tsx:74:29
+msgid "Add script"
+msgstr "添加脚本"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:231:21
+msgid "1 payload"
+msgstr "1 个有效负载"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:232:21
+msgid "%1 payloads"
+msgstr "%1 个有效负载"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:235:21
+msgid "1 payload group"
+msgstr "1 个有效负载组"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:236:21
+msgid "%1 payload groups"
+msgstr "%1 个有效负载组"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:239:43
+msgid "&"
+msgstr "和"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:416:35
+msgid "Create Configuration"
+msgstr "创建配置"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:6:21
+msgid "Notify the user before downloading the update"
+msgstr "在下载更新前通知用户"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:10:21
+msgid ""
+"Auto install the update and then notify the user to schedule a device "
+"restart"
+msgstr ""
+"自动安装更新，然后通知用户计划设备重新启动的时间"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:15:21
+msgid "Auto install and restart"
+msgstr "自动安装和重新启动"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:16:21
+msgid "Auto install and restart at a specified time"
+msgstr "自动安装并在指定时间重新启动"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:18:21
+msgid "Auto install and restart without enduser control"
+msgstr "自动安装和重新启动，无需终端用户控制"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:21:21
+msgid "Turn off automatic updates"
+msgstr "关闭自动更新"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:63:21
+msgid "Use the default Windows Update notifications"
+msgstr "使用默认的 Windows 更新通知"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:65:21
+msgid "Turn off all notifications, excluding restart warnings"
+msgstr "关闭所有通知，不包括重新启动警告"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:69:21
+msgid "Turn off all notifications, including restart warnings"
+msgstr "关闭所有通知，包括重新启动警告"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:89:26
+msgid "Use this section to configure software updates settings"
+msgstr "使用此部分可配置软件更新设置"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:100:24
+msgid "Update settings"
+msgstr "更新设置"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:106:24
+msgid "Microsoft product updates"
+msgstr "Microsoft 产品更新"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:107:30
+msgid "Control whether to scan for app updates from Microsoft Update."
+msgstr "控制是否扫描来自 Microsoft 更新的应用程序更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:122:24
+msgid "Windows drivers"
+msgstr "Windows 驱动程序"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:123:30
+msgid "Allow or block driver updates via Windows Update."
+msgstr "允许或阻止通过 Windows 更新进行驱动程序更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:138:24
+msgid "Quality update deferral period (days)"
+msgstr "质量更新的推迟时间（天数）"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:139:30
+msgid "Defer quality updates for the specified number of days."
+msgstr "按指定天数推迟质量更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:244:30
+msgid "The value must not be empty."
+msgstr "该值不得为空。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:596:30
+msgid "The value must be a valid number."
+msgstr "该值必须为一个有效数字。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:159:30
+msgid "The value must be between 0 and 30."
+msgstr "该值必须在 0 和 30 之间。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:171:24
+msgid "Feature update deferral period (days)"
+msgstr "功能更新的推迟时间（天数）"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:172:30
+msgid "Defer feature updates for the specified number of days."
+msgstr "按指定天数推迟功能更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:192:30
+msgid "The value must be between 0 and 365."
+msgstr "该值必须在 0 和 365 之间。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:204:24
+msgid "Upgrade Windows 10 devices to Latest Windows 11 release"
+msgstr "将 Windows 10 设备升级到最新的 Windows 11 版本"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:207:30
+msgid "Set to upgrade eligible Windows 10 devices to latest Windows 11 release."
+msgstr "设置为将符合条件的 Windows 10 设备升级到最新的 Windows 11 版本。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:235:24
+msgid "Set feature update uninstall period (2 - 60 days)"
+msgstr "设置功能更新卸载期（2-60 天）"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:236:30
+msgid "Set feature update uninstall period"
+msgstr "设置功能更新卸载期"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:254:30
+msgid "The value must be between 2 and 60."
+msgstr "该值必须在 2 和 60 之间。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:266:24
+msgid "User experience settings"
+msgstr "用户体验设置"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:273:24
+msgid "Automatic update behavior"
+msgstr "自动更新行为"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:274:30
+msgid "Manage automatic update behavior to scan, download, and install updates."
+msgstr "管理自动更新行为，以扫描、下载并安装更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:288:24
+msgid "Active hours start"
+msgstr "活动时间开始"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:310:30
+msgid ""
+"Configure a period when restarts due to update installations will be "
+"suppressed."
+msgstr ""
+"配置一个时段，在此时段内禁止因安装更新而重新启动"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:309:24
+msgid "Active hours end"
+msgstr "活动时间结束"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:330:24
+msgid "Automatic behavior frequency"
+msgstr "自动行为频率"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:331:30
+msgid "Scheduled the update installation on the weeks of the month."
+msgstr "将安装更新的时间预定在每月哪几周。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:342:28
+msgid "Every week"
+msgstr "每周"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:355:28
+msgid "First week of the month"
+msgstr "每月的第一周"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:368:28
+msgid "Second week of the month"
+msgstr "每月的第二周"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:381:28
+msgid "Third week of the month"
+msgstr "每月的第三周"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:394:28
+msgid "Fourth week of the month"
+msgstr "每月的第四周"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:409:24
+msgid "Scheduled install day"
+msgstr "预定安装日"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:410:30
+msgid "Select install day for scheduled updates."
+msgstr "选择预定更新的安装日。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:425:24
+msgid "Scheduled install time"
+msgstr "预定安装时间"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:426:30
+msgid "Select automation update installation day and time."
+msgstr "选择自动更新的安装日和时间。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:443:24
+msgid "Restart checks"
+msgstr "重新启动检查"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:444:30
+msgid ""
+"Set to skip all check before restart: Battery level = 40%, User presence, "
+"Display Needed, Presentation mode, Full screen mode, phone call state, game "
+"mode etc."
+msgstr ""
+"设置为在重新启动前跳过所有检查：电池电量 = 40%、用户在线、显示需要、演示模式、全屏模式、电话呼叫状态、游戏模式等。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:459:24
+msgid "Option to pause Windows updates"
+msgstr "暂停 Windows 更新的选项"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:460:30
+msgid ""
+"An option in Windows Update that, when enabled, lets device users pause "
+"updates for a certain number of days."
+msgstr ""
+"Windows 更新中的一个选项，启用后可让设备用户在一定天数内暂停更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:475:24
+msgid "Option to check for Windows updates"
+msgstr "检查 Windows 更新的选项"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:476:30
+msgid ""
+"A button in Windows Update that, when enabled, lets device users check the "
+"update service for updates."
+msgstr ""
+"Windows 更新中的一个按钮，启用后可让设备用户检查更新服务以便进行更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:491:24
+msgid "Change notification update level"
+msgstr "更改更新通知级别"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:492:30
+msgid "Specifies what Windows Update notifications users see."
+msgstr "指定用户看到的 Windows 更新通知的内容。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:507:24
+msgid "Deadline settings"
+msgstr "截止日期设置"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:513:24
+msgid "Use deadline settings"
+msgstr "使用截止日期设置"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:514:30
+msgid "Allows user to use deadline settings."
+msgstr "允许用户使用截止日期设置。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:520:24
+msgid "Deadline for feature updates"
+msgstr "功能更新的截止日期"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:521:30
+msgid ""
+"Specifies the number of days a user has before feature updates are "
+"installed on their devices automatically."
+msgstr ""
+"指定用户的设备将在多少天后自动安装功能更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:571:30
+msgid "The value must be between 2 and 30."
+msgstr "该值必须在 2 和 30 之间。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:553:24
+msgid "Deadline for quality updates"
+msgstr "质量更新的截止日期"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:554:30
+msgid ""
+"Specifies the number of days a user has before quality updates are "
+"installed on their devices automatically."
+msgstr ""
+"指定用户的设备将在多少天后自动安装质量更新。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:583:24
+msgid "Grace period"
+msgstr "宽限期"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:584:30
+msgid ""
+"Specifies a minimum number of days after deadline until restarts occur "
+"automatically."
+msgstr ""
+"指定截止日期后至少间隔多少天才自动重新启动。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:601:30
+msgid "The value must be between 0 and 7."
+msgstr "该值必须在 0 和 7 之间。"
+
+#: ./src/features/reports/components/MainComponentPicker/MainComponentPicker.component.tsx:78:29
+msgid "Boosters"
+msgstr "Booster"
+
+#: ./src/features/settings/components/IDPSetupForm/IDPSetupForm.component.tsx:188:28
+msgid "Copy URLs to your IDP settings in order to get responses from IDP."
+msgstr "将 URL 复制到您的 IDP 设置中，以便取得来自 IDP 的响应。"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:47:55
+msgid "Unique identifier"
+msgstr "唯一識別碼"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:48:51
+msgid "Location name"
+msgstr "位置名称"
+
+#: ./src/features/sources/apple/components/depAccountList/DepAccountList.component.tsx:76:34
+msgid "Synchronize DEP Accounts"
+msgstr "同步 DEP 帐户"
+
+#: ./src/features/sources/apple/components/depAccountList/DepAccountList.component.tsx:111:32
+msgid "Add DEP account"
+msgstr "添加 DEP 帐户"
+
+#: ./src/features/sources/apple/components/depProfileList/DepProfileList.component.tsx:40:32
+msgid "Add DEP profile"
+msgstr "添加 DEP 配置文件"
+
+#: ./src/features/sources/apple/components/general/UploadCertificate.component.tsx:29:25
+msgid "Upload certificate"
+msgstr "上传证书"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:100:34
+msgid "Synchronize VPP Tokens"
+msgstr "同步 VPP 令牌"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:135:32
+msgid "Add VPP"
+msgstr "添加 VPP"
+
+#: ./src/features/sources/apple/components/workflowList/WorkflowList.component.tsx:38:32
+msgid "Add workflow"
+msgstr "添加工作流"
+
+#: ./src/features/sources/apple/depProfiles/components/form/general/DepProfileMdmOptions.component.tsx:184:28
+msgid ""
+"Custom enrollment option can't be used without IDP configuration created. "
+"Please, configure IDP to enable this option again."
+msgstr ""
+"没有创建 IDP 配置就不能使用自定义注册选项。请配置 IDP 以再次启用该选项。"
+
+#: ./src/features/sources/apple/workflows/modifyWorkflow/WorkflowForm.component.tsx:289:43
+msgid "Preview"
+msgstr "预览"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:73:24
+msgid "No Enrollment WiFi"
+msgstr "无注册 WiFi"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:142:21
+msgid "Android Enrollment Token %1"
+msgstr "Android 注册令牌 %1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:265:35
+msgid "Create Token"
+msgstr "创建令牌"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:220:27
+msgid "Remove Token"
+msgstr "删除令牌"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:233:21
+msgid "Token details"
+msgstr "令牌详细信息"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:234:21
+msgid "Create New Android Enrollment Token"
+msgstr "创建新的 Android 注册令牌"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:69:24
+msgid "- - No available WiFi payloads"
+msgstr "-- 无可用 Wi-Fi 有效负载"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:85:20
+msgid ""
+"To enroll  Android Devices, create a new token to scan the QR code with the "
+"desired device. "
+msgstr ""
+"如需注册 Android 设备，请创建一个新的令牌，用要注册的设备扫描二维码。 "
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:96:26
+msgid "Learn More"
+msgstr "了解更多"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:138:29
+msgid "Duration"
+msgstr "持续时间"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:140:31
+msgid "Number of days valid (30 max)"
+msgstr "有效天数（最多 30 天）"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:159:25
+msgid "Multiple Enrollments Allowed"
+msgstr "允许多个注册"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:168:27
+msgid "If unchecked, the token will be valid for a single enrollment."
+msgstr "如果不勾选，令牌将只对单一注册有效。"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:177:26
+msgid "WiFi Profile"
+msgstr "WiFi 配置文件"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:106:25
+msgid "Multiple Enrollments"
+msgstr "多个注册"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:115:26
+msgid "Wifi Profile"
+msgstr "WiFi 配置文件"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:128:24
+msgid "QR Code"
+msgstr "二维码"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:145:31
+msgid "Download generated PDF"
+msgstr "下载生成的 PDF"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:28:28
+msgid "Click on"
+msgstr "点击"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:29:25
+msgid " + Create Token ↗"
+msgstr " + 创建令牌 ↗"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:31:28
+msgid "to add a new Enrollment Token."
+msgstr "添加一个新的注册令牌。"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/AndroidEnrollmentTable.component.tsx:60:33
+msgid "Expires"
+msgstr "至"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/AndroidEnrollmentTable.component.tsx:66:33
+msgid "MultipleEnrollments"
+msgstr "多个注册"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/components/EnrollmentDownloadRenderer/EnrollmentDownloadRenderer.tsx:22:25
+msgid "Download PDF"
+msgstr "下载 PDF"
+
+#: ./src/features/sources/google/components/utils.ts:22:39
+msgid "Token name:"
+msgstr "令牌名称："
+
+#: ./src/features/sources/google/components/utils.ts:24:19
+msgid "Expiry date:"
+msgstr "到期日期："
+
+#: ./src/features/sources/google/components/utils.ts:28:19
+msgid "Multiple enrollments:"
+msgstr "多个注册："
+
+#: ./src/features/sources/google/components/utils.ts:34:25
+msgid "Wifi profile:"
+msgstr "WiFi 配置文件："
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:252:32
+msgid "Android Enrollment Tokens"
+msgstr "Android 注册令牌"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:258:40
+msgid "Connect your EMM account tokens"
+msgstr "连接你的 EMM 帐户令牌"
+
+#: ./src/features/sources/microsoft/components/AzureAccountsTable/AzureAccountsTable.component.tsx:69:36
+msgid "Add Azure account"
+msgstr "添加 Azure 帐户"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:23:17
+msgid "Enrollment Tokens list"
+msgstr "注册令牌列表"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:24:17
+msgid "Cannot fetch Enrollment Token list"
+msgstr "无法获取注册令牌列表"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:47:19
+msgid "Create Enrollment Token"
+msgstr "创建注册令牌"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:48:19
+msgid "Error creating Enrollment Token"
+msgstr "创建注册令牌时出错"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:75:19
+msgid "Update Enrollment Token"
+msgstr "更新注册令牌"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:76:19
+msgid "Error updating Enrollment Token"
+msgstr "更新注册令牌时出错"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:94:17
+msgid "Delete Enrollment Token"
+msgstr "删除注册令牌"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:95:17
+msgid "Error deleting Enrollment Token"
+msgstr "删除注册令牌时出错"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:113:17
+msgid "WiFi Profiles list"
+msgstr "WiFi 配置文件列表"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:114:17
+msgid "Cannot fetch WiFi Profiles list"
+msgstr "无法获取 WiFi 配置文件列表"
+
+#: ./src/features/TeamViewer/TeamViewerErrorModal/TeamViewerErrorModal.component.tsx:22:46
+msgid "TeamViewer error"
+msgstr "TeamViewer 错误"
+
+#: ./src/features/TeamViewer/TeamViewerErrorModal/TeamViewerErrorModal.component.tsx:27:27
+msgid "Retry"
+msgstr "重试"
+
+#: ./src/library/form/fields/StringField.tsx:86:38
+msgid "Show text"
+msgstr "显示文本"
+
+#: ./src/library/form/fields/StringField.tsx:86:63
+msgid "Hide text"
+msgstr "隐藏文本"
+
+#: ./src/sharedComponents/Formik/FormikTableInput/components/FormikTableInputContent.component.tsx:167:38
+msgid "Table row values are invalid."
+msgstr "表格行值无效。"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:82:26
+msgid "Column Actions"
+msgstr "列操作"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:87:27
+msgid "Unpin Column"
+msgstr "取消固定列"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:88:27
+msgid "Pin Column"
+msgstr "固定列"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:98:27
+msgid "Autosize Column"
+msgstr "自动调整列的大小"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ClearFilter.component.tsx:36:27
+msgid "Clear Filter"
+msgstr "清除过滤器"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/SetFilter.component.tsx:148:28
+msgid "Column Filters"
+msgstr "列过滤器"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:111:29
+msgid "Period"
+msgstr "期间"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:120:40
+msgid "From"
+msgstr "从"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:127:40
+msgid "To"
+msgstr "至"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/SetFilter.component.tsx:165:29
+msgid "Select all"
+msgstr "全选"
+
+#: ./src/sharedComponents/table/components/SimpleToolPanel/SimpleToolPanel.component.tsx:56:22
+msgid "Column Settings"
+msgstr "列设置"
+
+#: ./src/sharedComponents/table/components/SimpleToolPanel/SimpleToolPanel.component.tsx:73:27
+msgid "Reset Columns"
+msgstr "重置列"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:64:20
+msgid "Other"
+msgstr "其他"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:159:20
+msgid "Paid Licenses"
+msgstr "已支付授權"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:169:20
+msgid "Free"
+msgstr "免費"

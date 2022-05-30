@@ -18439,7 +18439,7 @@ msgid ""
 "bypassed by users</a>; to completely disable bluetooth, use \"Allow "
 "bluetooth\".</div>"
 msgstr ""
-"<div>사용자가 Bluetooth 연결을 구성하거나 수정할 수 있도록 허용합니다. <a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">이 설정은 사용자가 무시할 수 있습니다.</a> Bluetooth를 완전히 비활성화하려면 \‘Bluetooth 허용’\을 사용하십시오.</div>"
+"<div>사용자가 Bluetooth 연결을 구성하거나 수정할 수 있도록 허용합니다. <a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">이 설정은 사용자가 무시할 수 있습니다.</a> Bluetooth를 완전히 비활성화하려면 ‘Bluetooth 허용’을 사용하십시오.</div>"
 
 #: ./src/features/payloads/AndroidManager/config/network.ts:225:30
 msgid "Passphrase must be at least 8 characters long"
@@ -18577,7 +18577,9 @@ msgid ""
 "the syntax %FIELD_NAME%. \n"
 "For instance: foo-%asset_tag%."
 msgstr ""
-"명령줄 인수 값은 스크립트 실행 직전에 설정됩니다 \n 인벤토리 필드 값을 사용하여 명령줄 인수 값을 설정하려면 %FIELD_NAME% 구문을 사용합니다. \n예: foo-%asset_tag%."
+"명령줄 인수 값은 스크립트 실행 직전에 설정됩니다 \n"
+" 인벤토리 필드 값을 사용하여 명령줄 인수 값을 설정하려면 %FIELD_NAME% 구문을 사용합니다. \n"
+"예: foo-%asset_tag%."
 
 #: ./src/features/payloads/FileWaveManager/config/script.ts:88:28
 msgid "Environment Variables"
@@ -18599,7 +18601,9 @@ msgid ""
 "For instance: MY_VAR: foo-%asset_tag%. \n"
 "Note: environment variable names are case insensitive in Windows."
 msgstr ""
-"환경 변수의 값은 스크립트 실행 직전에 설정됩니다. \n인벤토리 필드 값을 사용하려면 %FIELD_NAME% 구문을 사용하십시오. \n예: MY_VAR: foo-%asset_tag%. 참고: Windows에서 환경 변수 이름은 대/소문자를 구분하지 않습니다."
+"환경 변수의 값은 스크립트 실행 직전에 설정됩니다. \n"
+"인벤토리 필드 값을 사용하려면 %FIELD_NAME% 구문을 사용하십시오. \n"
+"예: MY_VAR: foo-%asset_tag%. 참고: Windows에서 환경 변수 이름은 대/소문자를 구분하지 않습니다."
 
 #: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:43
 msgid "Policy saved successfully"
@@ -18769,3 +18773,1674 @@ msgstr "프로필/정책 정보"
 #: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:459:28
 msgid "Settings - Identity Provider"
 msgstr "설정 - ID 공급자"
+
+#: ./src/features/payloads/payloadsList/components/createPayloadsGroup/CreatePayloadsGroupModal.component.tsx:55:29
+msgid "Create New Group"
+msgstr "새 그룹 생성"
+
+#: ./src/features/payloads/actions/renamePayloadGroup.tsx:49:29
+msgid "Rename Group"
+msgstr "그룹 이름 변경"
+
+#: ./src/components/resources/profileManager/config/airPlay.js:34:26
+msgid "Value can't be lower than 10"
+msgstr "값은 10보다 작을 수 없습니다"
+
+#: ./src/components/resources/profileManager/config/airPlay.js:39:26
+msgid "Value can't be higher than 99"
+msgstr "값은 99보다 높을 수 없습니다"
+
+#: ./src/components/resources/profileManager/config/apn.js:6:26
+msgid ""
+"Use this section to specify advanced settings, such as a carrier Access "
+"Point Name (APN)."
+msgstr ""
+"이 섹션에서 통신사 APN(액세스 포인트 이름) 등의 고급 설정을 지정합니다."
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:421:43
+msgid "Log out User after:"
+msgstr "다음 이후에 사용자 로그아웃:"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:464:27
+msgid "Use FWAdmin time zone (%1)"
+msgstr "FWAdmin 시간대 사용(%1)"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:524:24
+msgid "Firmware Password / Recovery Lock"
+msgstr "펌웨어 비밀번호 / 복구 잠금"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:525:30
+msgid ""
+"Firmware Password command is not supported on Mac computers with Apple "
+"silicon; Recovery Lock command is only available with Apple silicon."
+msgstr ""
+"펌웨어 비밀번호 명령이 Apple silicon이 설치된 Mac 컴퓨터에서 지원되지 않습니다. 복구 잠금 명령은 Apple silicon에서만 사용하실 수 있습니다."
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:535:32
+msgid "Firmware Password (macOS 10.13+)"
+msgstr "펌웨어 비밀번호(macOS 10.13+)"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:541:36
+msgid "Change Fireware Password"
+msgstr "펌웨어 비밀번호 변경"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:551:36
+msgid "New Firmware Password (empty to reset):"
+msgstr "새 펌웨어 비밀번호(초기화하려면 비워둠):"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:568:36
+msgid "Verify Firmware Password:"
+msgstr "펌웨어 비밀번호 검증:"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:569:42
+msgid ""
+"Device must be rebooted for the new wireframe password to take effect or "
+"before you change the password again."
+msgstr ""
+"새 와이어프레임 비밀번호를 적용하거나 비밀번호를 다시 변경하려면 장치를 다시 부팅해야 합니다."
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:588:42
+msgid "The provided passwords do not match"
+msgstr "입력한 비밀번호가 일치하지 않음"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:598:32
+msgid "Recovery Lock (11.5+)"
+msgstr "복구 잠금(11.5+)"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:604:36
+msgid "Change Recovery Lock"
+msgstr "복구 잠금 변경"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:614:36
+msgid "New Recovery Lock (empty to reset):"
+msgstr "새 복구 잠금(초기화하려면 비워둠):"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:631:36
+msgid "Verify Recovery Lock:"
+msgstr "복구 잠금 검증:"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:632:42
+msgid ""
+"Device must be rebooted for the new recovery lock to take effect or before "
+"you change the recovery lock again."
+msgstr ""
+"새 복구 잠금을 적용하거나 복구 잠금을 다시 변경하려면 장치를 다시 부팅해야 합니다."
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:651:42
+msgid "The provided recovery locks do not match"
+msgstr "입력한 복구 잠금이 일치하지 않음"
+
+#: ./src/components/resources/profileManager/config/contacts.js:6:26
+msgid ""
+"Use this section to define settings for configuration access to CardDAV "
+"servers."
+msgstr ""
+"이 섹션에서 CardDAV 서버에 대한 구성 액세스 설정을 정의합니다."
+
+#: ./src/components/resources/profileManager/config/exchange.js:27:46
+msgid "Name for the Exchange Web Services Account"
+msgstr "Exchange 웹 서비스 계정 이름"
+
+#: ./src/components/resources/profileManager/config/exchange.js:50:27
+msgid "Exchange Web Services (macOS only)"
+msgstr "Exchange 웹 서비스(macOS 전용)"
+
+#: ./src/components/resources/profileManager/config/exchange.js:184:46
+msgid "Name or description for the Web Services certificate"
+msgstr "웹 서비스 인증서의 이름 및 설명"
+
+#: ./src/components/resources/profileManager/config/exchange.js:232:24
+msgid "Internal Exchange Host"
+msgstr "내부 Exchange 호스트"
+
+#: ./src/components/resources/profileManager/config/exchange.js:299:30
+msgid "Microsoft Exchange Server"
+msgstr "Microsoft Exchange Server"
+
+#: ./src/components/resources/profileManager/config/exchange.js:263:24
+msgid "Internal Server Path"
+msgstr "내부 서버 경로"
+
+#: ./src/components/resources/profileManager/config/exchange.js:264:30
+msgid "Server path for the internal exchange host"
+msgstr "내부 Exchange 호스트용 서버 경로"
+
+#: ./src/components/resources/profileManager/config/exchange.js:280:24
+msgid "Use SSL for Internal Exchange Host"
+msgstr "내부 Exchange 호스트용 SSL 사용"
+
+#: ./src/components/resources/profileManager/config/exchange.js:346:30
+msgid "Send all communication through secure socket layer"
+msgstr "SSL을 통해 모든 통신내용 전송"
+
+#: ./src/components/resources/profileManager/config/exchange.js:298:24
+msgid "External Exchange Host"
+msgstr "외부 Exchange 호스트"
+
+#: ./src/components/resources/profileManager/config/exchange.js:328:24
+msgid "External Server Path"
+msgstr "외부 서버 경로"
+
+#: ./src/components/resources/profileManager/config/exchange.js:329:30
+msgid "Server path for the external exchange host"
+msgstr "외부 Exchange 호스트용 서버 경로"
+
+#: ./src/components/resources/profileManager/config/exchange.js:345:24
+msgid "Use SSL for External Exchange Host"
+msgstr "외부 Exchange 호스트용 SSL 사용"
+
+#: ./src/components/resources/profileManager/config/exchange.js:465:27
+msgid "1 day"
+msgstr "1일"
+
+#: ./src/components/resources/profileManager/config/exchange.js:469:27
+msgid "3 days"
+msgstr "3일"
+
+#: ./src/components/resources/profileManager/config/exchange.js:473:27
+msgid "1 week"
+msgstr "1주"
+
+#: ./src/components/resources/profileManager/config/exchange.js:477:27
+msgid "2 weeks"
+msgstr "2주"
+
+#: ./src/components/resources/profileManager/config/exchange.js:481:27
+msgid "1 month"
+msgstr "1개월"
+
+#: ./src/components/resources/profileManager/config/extensions.js:33:32
+msgid ""
+"The bundle identifiers of the extensions that are allowed to run on the "
+"device. All other extensions from any extension point will be disallowed."
+msgstr ""
+"장치에서 실행될 수 있는 확장 번들 식별자입니다. 확장 지점의 다른 모든 확장자는 허용되지 않습니다."
+
+#: ./src/components/resources/profileManager/config/identification.js:7:26
+msgid "Use this section to configure Identification"
+msgstr "이 섹션에서 ID를 구성합니다"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:103:35
+msgid "Build"
+msgstr "빌드"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:119:35
+msgid "Time"
+msgstr "시간"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:239:32
+msgid "Show Input menu in login window"
+msgstr "로그인 창에 입력 메뉴 표시"
+
+#: ./src/components/resources/profileManager/config/network.js:746:25
+msgid "Login window"
+msgstr "로그인 창"
+
+#: ./src/components/resources/profileManager/config/network.js:817:36
+msgid "Authentication protocols supported on target network"
+msgstr "대상 네트워크에서 지원되는 인증 프로토콜"
+
+#: ./src/components/resources/profileManager/config/network.js:1203:27
+msgid "First Active Ethernet (macOS only)"
+msgstr "첫 번째 활성 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1207:27
+msgid "Second Active Ethernet (macOS only)"
+msgstr "두 번째 활성 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1211:27
+msgid "Third Active Ethernet (macOS only)"
+msgstr "세 번째 활성 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1215:27
+msgid "First Ethernet (macOS only)"
+msgstr "첫 번째 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1219:27
+msgid "Second Ethernet (macOS only)"
+msgstr "두 번째 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1223:27
+msgid "Third Ethernet (macOS only)"
+msgstr "세 번째 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1227:27
+msgid "Any Ethernet (macOS only)"
+msgstr "모든 이더넷(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/network.js:1603:27
+msgid "WPA2 Personal"
+msgstr "WPA2 개인"
+
+#: ./src/components/resources/profileManager/config/network.js:1607:27
+msgid "WPA3 Personal"
+msgstr "WPA3 개인"
+
+#: ./src/components/resources/profileManager/config/network.js:1623:27
+msgid "WPA2 Enterprise"
+msgstr "WPA2 엔터프라이즈"
+
+#: ./src/components/resources/profileManager/config/network.js:1627:27
+msgid "WPA3 Enterprise"
+msgstr "WPA3 엔터프라이즈"
+
+#: ./src/components/resources/profileManager/config/network.js:1720:27
+msgid "Allow specific Apps"
+msgstr "특정 앱 허용"
+
+#: ./src/components/resources/profileManager/config/parentalControls.js:228:28
+msgid "Prevent computer access during the specified days and hours."
+msgstr "지정된 요일과 시간 동안 컴퓨터 액세스를 차단합니다."
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:540:40
+msgid "Speech & Dictation"
+msgstr "음성 받아쓰기"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:662:32
+msgid "Third-party Preference Panes"
+msgstr "타사 기본 설정 창"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:668:36
+msgid "Preference Identifier"
+msgstr "기본 설정 식별자"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1575:40
+msgid "Require password to unlock device with Touch ID after"
+msgstr "다음 시간이 지난 후 Touch ID로 장치를 잠금 해제하려면 비밀번호 필요:"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1723:36
+msgid "Allow AirPlay receiver"
+msgstr "AirPlay 수신기 허용"
+
+#: ./src/components/resources/profileManager/config/restrictionsTvos.js:106:36
+msgid "Allow automatic Screen Saver (Supervised devices only)"
+msgstr "자동 화면 보호기 허용(감독 대상 장치만 해당)"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:243:32
+msgid "Automatically allow built-in software to receive incoming connections"
+msgstr "기본 제공 소프트웨어에서 수신 연결을 받도록 자동 허용"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:265:32
+msgid ""
+"Automatically allow downloaded signed software to receive incoming "
+"connections"
+msgstr ""
+"서명된 다운로드한 소프트웨어에서 수신 연결을 받도록 자동 허용"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:268:38
+msgid ""
+"Allows software signed by a valid certificate authority to provide services "
+"accessed from the network"
+msgstr ""
+"유효한 인증 기관의 서명을 받은 소프트웨어에서 네트워크에 액세스된 서비스를 제공하도록 허용"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:313:32
+msgid "Enable logging, available in macOS 12 and later"
+msgstr "로깅 사용, macOS 12 이상에서 사용 가능"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:331:32
+msgid "Logging type"
+msgstr "로깅 유형"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:336:35
+msgid "Brief"
+msgstr "간단 정보"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:340:35
+msgid "Detail"
+msgstr "세부 정보"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:344:35
+msgid "Throttled"
+msgstr "스로틀링"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:5:20
+msgid "Setup Assistant (supervised only)"
+msgstr "설정 어시스턴트(감독 대상만 해당)"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:6:26
+msgid "Use this section to configure the Setup Assistant."
+msgstr "이 섹션에서 설정 어시스턴트를 구성합니다."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:25:34
+msgid ""
+"Skips the Accessibility pane, only if the Mac is connected to Ethernet and "
+"the cloud config is downloaded. Availability: macOS 11+."
+msgstr ""
+"Mac이 이더넷에 연결되어 있고 클라우드 구성이 다운로드된 경우에만 접근성 창을 건너뜁니다. 가용성: macOS 11+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:43:34
+msgid "Skips the App Store pane. Availability: iOS 14.3+ and macOS 11.1+."
+msgstr "App Store 창을 건너뜁니다. 가용성: iOS 14.3+ 및 macOS 11.1+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:104:34
+msgid ""
+"Disables FileVault Setup Assistant screen in macOS. Availability: macOS "
+"10.10+."
+msgstr ""
+"macOS에서 FileVault 설정 어시스턴트 화면을 사용하지 않습니다. 가용성: macOS 10.10+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:112:28
+msgid "Home Button (Deprecated)"
+msgstr "홈 버튼(더 이상 사용되지 않음)"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:121:28
+msgid "iCloud Analytics"
+msgstr "iCloud 분석"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:122:34
+msgid "Skips iCloud Analytics screen. Availability: macOS 10.12.4+."
+msgstr "iCloud 분석 화면을 건너뜁니다. 가용성: macOS 10.12.4+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:130:28
+msgid "iCloud Documents and Desktop"
+msgstr "iCloud 문서 및 데스크톱"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:131:34
+msgid ""
+"Skips iCloud Documents and Desktop screen in macOS. Availability: macOS "
+"10.13.4+."
+msgstr ""
+"macOS에서 iCloud 문서 및 데스크톱 화면을 건너뜁니다. 가용성: macOS 10.13.4+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:139:28
+msgid "iMessage"
+msgstr "iMessage"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:140:34
+msgid "Skips the iMessage pane. Availability: iOS 10+."
+msgstr "iMessage 창을 건너뜁니다. 가용성: iOS 10+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:184:28
+msgid "New Feature Highlights (Deprecated)"
+msgstr "새로운 기능 하이라이트(더 이상 사용되지 않음)"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:256:28
+msgid "Tap To Setup"
+msgstr "살짝 눌러서 설정"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:257:34
+msgid ""
+"Skips the Tap To Set Up option in AppleTV about using an iOS device to set "
+"up your AppleTV. Availability: tvOS 10.2+."
+msgstr ""
+"AppleTV에서 iOS 장치를 사용하여 AppleTV 설정에 대한 살짝 눌러서 설정 옵션을 건너뜁니다. 가용성: tvOS 10.2+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:283:28
+msgid "True Tone Display (Deprecated)"
+msgstr "True Tone 디스플레이(더 이상 사용되지 않음)"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:292:28
+msgid "TV Home Screen Sync"
+msgstr "TV 홈 화면 동기화"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:293:34
+msgid "Skips TV home screen layout sync screen. Availability: tvOS 11+."
+msgstr "TV 홈 화면 레이아웃 동기화 화면을 건너뜁니다. 가용성: tvOS 11+."
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:301:28
+msgid "TV Provider"
+msgstr "TV 공급자"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:302:34
+msgid "Skips the TV provider sign in screen. Availability: tvOS 11+"
+msgstr "TV 공급자 로그인 화면을 건너뜁니다. 가용성: tvOS 11+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:310:28
+msgid "tvOS Aerial screensaver"
+msgstr "tvOS Aerial 화면 보호기"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:311:34
+msgid ""
+"Skips the tvOS screen about using aerial screensavers in ATV. Availability: "
+"tvOS 10.2+"
+msgstr ""
+"ATV에서 Aerial 화면 보호기 사용 관련 tvOS 화면을 건너뜁니다. 가용성: tvOS 10.2+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:346:28
+msgid "Where is this Apple TV?"
+msgstr "이 Apple TV는 어디에 있습니까?"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:347:34
+msgid ""
+"Skips the \"Where is this Apple TV?\" screen in tvOS. Availability: tvOS "
+"11.4+"
+msgstr ""
+"tvOS의 \"이 Apple TV는 어디에 있습니까?\" 화면을 건너뜁니다. 가용성: tvOS 11.4+"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:376:30
+msgid ""
+"Please refer to <a "
+"href=\"https://support.apple.com/guide/mdm/setup-assistant-pane-options-"
+"mdmc5a826c7/1/web/1.0\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Apple's documentation</a>  for more details."
+msgstr ""
+"자세한 내용은 <a href=\"https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0\" target=\"_blank\" rel=\"noopener noreferrer\">Apple 설명서</a>를 참조하십시오."
+
+#: ./src/components/resources/profileManager/config/vpn.js:146:25
+msgid "Shared Secret / Group Name"
+msgstr "공유 암호/그룹 이름"
+
+#: ./src/components/resources/profileManager/config/vpn.js:953:26
+msgid "Child SA Params"
+msgstr "하위 SA 매개변수"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1057:27
+msgid "Pulse Secure"
+msgstr "Pulse Secure"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1265:24
+msgid "Exclude local network traffic from the VPN connection"
+msgstr "VPN 연결을 통한 로컬 네트워크 트래픽 제외"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1266:30
+msgid ""
+"Traffic destined for the local network will not go through the VPN "
+"connection"
+msgstr ""
+"로컬 네트워크로 전송되는 트래픽이 VPN을 통하지 않음"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1572:27
+msgid "Certificate (macOS only)"
+msgstr "인증서(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1576:27
+msgid "Kerberos (macOS only)"
+msgstr "Kerberos(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1593:27
+msgid "CryptoCard (macOS only)"
+msgstr "CryptoCard(macOS만 해당)"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2458:27
+msgid "packet-tunnel"
+msgstr "패킷 터널"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2642:24
+msgid "Proxy Password"
+msgstr "프록시 비밀번호"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2982:30
+msgid "Required if VPN provider is a System Extension"
+msgstr "VPN 공급자가 시스템 확장일 경우 필요"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:145:43
+msgid "The following profile"
+msgstr "다음 프로필"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:147:25
+msgid " type is"
+msgstr " 유형은"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:148:25
+msgid " types are"
+msgstr " 유형은"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:149:22
+msgid " unavailable: "
+msgstr " 이용 불가: "
+
+#: ./src/components/resources/profileManager/ProfileManager.js:151:25
+msgid "That profile"
+msgstr "해당 프로필은"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:152:25
+msgid "Those profiles"
+msgstr "해당 프로필은"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:153:22
+msgid " will remain in the payload unchanged."
+msgstr " 페이로드에 그대로 있을 것입니다."
+
+#: ./src/components/resources/profileManager/ProfileManager.js:154:33
+msgid "Unsupported Profiles Found!"
+msgstr "지원되지 않는 프로필이 발견되었습니다!"
+
+#: ./src/features/associations/actions/actions.utils.tsx:87:19
+msgid "The following associations were successfully deleted:"
+msgstr "다음 연결이 성공적으로 삭제되었습니다:"
+
+#: ./src/features/associations/actions/actions.utils.tsx:93:19
+msgid "The following associations were not found:"
+msgstr "다음 연결이 발견되지 않았습니다:"
+
+#: ./src/features/associations/actions/actions.utils.tsx:99:19
+msgid "The following associations were not deleted:"
+msgstr "다음 연결이 삭제되지 않았습니다:"
+
+#: ./src/features/associations/actions/actions.utils.tsx:105:19
+msgid "You don't have permission to the following associations:"
+msgstr "다음 연결에 대한 권한이 없습니다:"
+
+#: ./src/features/associations/actions/actions.utils.tsx:114:19
+msgid "The following associations are locked by other users:"
+msgstr "다음 연결은 타 사용자에 의해 잠겼습니다:"
+
+#: ./src/features/associations/actions/actions.utils.tsx:150:21
+msgid "Association deleted"
+msgstr "연결 삭제됨"
+
+#: ./src/features/associations/actions/actions.utils.tsx:151:21
+msgid "Associations deleted"
+msgstr "연결 삭제됨"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:20:19
+msgid "Delete Association"
+msgstr "연결 삭제"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:21:19
+msgid "Delete Associations"
+msgstr "연결 삭제"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:25:19
+msgid "Are you sure you want to delete this association?"
+msgstr "이 연결을 삭제하시겠습니까?"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:26:19
+msgid "Are you sure you want to delete these associations?"
+msgstr "이 연결을 삭제하시겠습니까?"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:30:19
+msgid "Deleting association failed"
+msgstr "연결 삭제 실패"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:31:19
+msgid "Deleting associations failed"
+msgstr "연결 삭제 실패"
+
+#: ./src/features/associations/associationsList/AssociationsList.page.tsx:85:19
+msgid "1 association"
+msgstr "1개 연결"
+
+#: ./src/features/associations/associationsList/AssociationsList.page.tsx:86:19
+msgid "%1 associations"
+msgstr "%1개 연결"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:24:25
+msgid "Association Actions"
+msgstr "연결 작업"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:25:25
+msgid "Associations Actions"
+msgstr "연결 작업"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:27:25
+msgid "Cannot fetch association actions"
+msgstr "연결 작업을 가져올 수 없습니다"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:28:25
+msgid "Cannot fetch associations actions"
+msgstr "연결 작업을 가져올 수 없습니다"
+
+#: ./src/features/deployments/DeploymentEditor/DeploymentEditor.component.tsx:360:33
+msgid "Publishing in progress"
+msgstr "게시 중입니다"
+
+#: ./src/features/deployments/DeploymentEditor/options/DeploymentOptionsTab/DeploymentOptionsTab.component.tsx:133:25
+msgid "Assign to Device if possible, otherwise to User"
+msgstr "가능하면 장치에 할당하고, 그렇지 않은 경우 사용자에게 할당"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/DeploymentPayloadsTab.component.tsx:175:32
+msgid "Add payload"
+msgstr "페이로드 추가"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/PayloadRevision/PayloadRevision.renderer.tsx:16:49
+msgid "(default)"
+msgstr "(기본값)"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/PayloadRevision/PayloadRevision.renderer.tsx:104:32
+msgid "Change Revision"
+msgstr "수정 변경"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:93:36
+msgid "in Device Groups"
+msgstr "장치 그룹에서"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:100:36
+msgid "standalone"
+msgstr "자립형"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:113:40
+msgid "LDAP Groups"
+msgstr "LDAP 그룹"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:128:40
+msgid "IDP Groups"
+msgstr "IDP 그룹"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:143:36
+msgid "per Device (up to)"
+msgstr "장치당(최대)"
+
+#: ./src/features/deployments/DeploymentList/DeploymentList.page.tsx:133:35
+msgid "Active Deployments"
+msgstr "배포 활성화"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:105:23
+msgid "You are editing this deployment in another browser / tab."
+msgstr "다른 브라우저 / 탭에서 이 배포를 편집하고 있습니다."
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:114:23
+msgid "The resource '%1' is being edited by '%2'."
+msgstr "'%2'에 의해 리소스 '%1'의 편집이 진행 중입니다."
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:21:23
+msgid "Enable Device(s)"
+msgstr "장치 활성화"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:22:21
+msgid "This will enable selected device(s). Are you sure you want to proceed?"
+msgstr "선택한 장치가 활성화됩니다. 계속하시겠습니까?"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:26:24
+msgid "Enable Device(s) request sent successfully"
+msgstr "장치 활성화 요청 전송 성공"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:27:24
+msgid "Enable Device(s) command failed"
+msgstr "장치 활성화 명령 실패"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:34:23
+msgid "Disable Device(s)"
+msgstr "장치 비활성화"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:35:21
+msgid "This will disable selected device(s). Are you sure you want to proceed?"
+msgstr "선택한 장치가 비활성화됩니다. 계속하시겠습니까?"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:165:22
+msgid "Disable"
+msgstr "비활성화"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:39:24
+msgid "Disable Device(s) request sent successfully"
+msgstr "장치 비활성화 요청 전송 성공"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:40:24
+msgid "Disable Device(s) command failed"
+msgstr "장치 비활성화 명령 실패"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:12:35
+msgid "Lock Device(s)"
+msgstr "장치 잠금"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:16:17
+msgid ""
+"This will lock selected device(s). Users will be able to unlock the device "
+"using their passcode. Are you sure you want to proceed?"
+msgstr ""
+"선택한 장치가 잠깁니다. 암호를 사용하여 해당 장치를 잠금 해제할 수 있습니다. 계속하시겠습니까?"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:19:17
+msgid "Lock"
+msgstr "잠금"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:25:17
+msgid "Lock Device(s) request sent successfully"
+msgstr "장치 잠금 요청 전송 성공"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:35:17
+msgid "Lock Device(s) command failed"
+msgstr "장치 잠금 명령 실패"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:11:35
+msgid "Renew Token(s)"
+msgstr "토큰 갱신"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:17:17
+msgid "Renew Token(s) request sent successfully"
+msgstr "토큰 갱신 요청 전송 성공"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:27:17
+msgid "Renew Token(s) command failed"
+msgstr "토큰 갱신 명령 실패"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:12:35
+msgid "Restart Device(s)"
+msgstr "장치 다시 시작"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:16:17
+msgid "This will restart selected device(s). Are you sure you want to proceed?"
+msgstr "선택한 장치가 다시 시작됩니다. 계속하시겠습니까?"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:25:17
+msgid "Restart Device(s) request sent successfully"
+msgstr "장치 다시 시작 요청 전송 성공"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:35:17
+msgid "Restart Device(s) command failed"
+msgstr "장치 다시 시작 명령 실패"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:12:35
+msgid "Wipe Device(s)"
+msgstr "장치 지우기"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:16:17
+msgid "This will wipe selected device(s). Are you sure you want to proceed?"
+msgstr "선택한 장치가 지워집니다. 계속하시겠습니까?"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:25:17
+msgid "Wipe Device(s) request sent successfully"
+msgstr "장치 지우기 요청 전송 성공"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:35:17
+msgid "Wipe Device(s) command failed"
+msgstr "장치 지우기 명령 실패"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:4:20
+msgid "Wipe & Keep Enrolled"
+msgstr "지우기 & 등록 유지"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:7:19
+msgid ""
+"All devices will be wiped, but they will stay enrolled. Wi-Fi profiles and "
+"a few other settings like region, language, keyboard will be kept."
+msgstr ""
+"모든 장치가 지워져도 등록 상태는 유지됩니다. Wi-Fi 프로필 및 지역, 언어, 키보드와 같은 몇 가지 다른 설정이 유지됩니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:10:19
+msgid ""
+"The device will be wiped, but it will stay enrolled. Wi-Fi profiles and a "
+"few other settings like region, language, keyboard will be kept."
+msgstr ""
+"해당 장치가 지워져도 등록 상태는 유지됩니다. Wi-Fi 프로필 및 지역, 언어, 키보드와 같은 몇 가지 다른 설정이 유지됩니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:16:20
+msgid "Complete Wipe"
+msgstr "완전 지우기"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:19:19
+msgid "All devices will be completely wiped, all the data will be erased."
+msgstr "모든 장치가 완전히 지워지며 데이터가 모두 지워집니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:22:19
+msgid "The device will be completely wiped, all the data will be erased."
+msgstr "해당 장치가 완전히 지워지며 데이터가 모두 지워집니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:28:20
+msgid "Complete Wipe (protected)"
+msgstr "완전 지우기(보호됨)"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:31:19
+msgid ""
+"Unlike the \"Complete Wipe\", which can be easily circumvented by simply "
+"power cycling the device, the protected wipe will keep trying to reset the "
+"devices until it’s done."
+msgstr ""
+"장치 전원을 껐다 켜는 것만으로 쉽게 회피할 수 있는 \"완전 지우기\"와 달리, 보호된 지우기는 완료될 때까지 해당 장치 초기화를 계속 시도합니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:34:19
+msgid ""
+"Unlike the \"Complete Wipe\", which can be easily circumvented by simply "
+"power cycling the device, the protected wipe will keep trying to reset the "
+"device until it’s done."
+msgstr ""
+"장치 전원을 껐다 켜는 것만으로 쉽게 회피할 수 있는 \"완전 지우기\"와 달리, 보호된 지우기는 완료될 때까지 해당 장치 초기화를 계속 시도합니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:40:20
+msgid "Persist User Data"
+msgstr "사용자 데이터 유지"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:43:19
+msgid "All devices will be wiped, but the user accounts and data will persist."
+msgstr "모든 장치가 지워져도 사용자 계정 및 데이터는 유지됩니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:46:19
+msgid "The device will be wiped, but the user accounts and data will persist."
+msgstr "해당 장치가 지워져도 사용자 계정 및 데이터는 유지됩니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:52:20
+msgid "Persist Provisioned Data"
+msgstr "프로비저닝 데이터 유지"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:55:19
+msgid ""
+"Provisioned data will be backed up to a persistent location, and then a "
+"remote wipe of the devices will be performed. The information that was "
+"backed up will be restored and applied to the devices when it resumes."
+msgstr ""
+"프로비저닝 데이터가 영구 위치에 백업된 후 장치 원격 지우기가 실행됩니다. 장치를 재시작하면 백업 정보가 복원되어 장치에 적용됩니다."
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:58:19
+msgid ""
+"Provisioned data will be backed up to a persistent location, and then a "
+"remote wipe of the device will be performed. The information that was "
+"backed up will be restored and applied to the device when it resumes."
+msgstr ""
+"프로비저닝 데이터가 영구 위치에 백업된 후 장치 원격 지우기가 실행됩니다. 장치를 재시작하면 백업 정보가 복원되어 장치에 적용됩니다."
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:73:22
+msgid "Copy to Groups"
+msgstr "그룹에 복사"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:268:23
+msgid "Move to Group"
+msgstr "그룹으로 이동"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:98:22
+msgid "Remove from System"
+msgstr "시스템에서 제거"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:115:22
+msgid "Set Tracking State"
+msgstr "추적 상태 설정"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:125:22
+msgid "Edit Device Fields"
+msgstr "장치 필드 편집"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:160:22
+msgid "Renew Token"
+msgstr "토큰 갱신"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:175:22
+msgid "Lock Device"
+msgstr "장치 잠금"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:185:22
+msgid "Play Sound"
+msgstr "사운드 재생"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:210:22
+msgid "Edit Smart Group"
+msgstr "스마트 그룹 편집"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:220:22
+msgid "Remove Group"
+msgstr "그룹 제거"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:291:25
+msgid "Add to Deployment"
+msgstr "배포에 추가"
+
+#: ./src/features/devices/actions/restart/restart.tsx:89:40
+msgid ""
+"\n"
+"                  The paths to kexts to add to auxilliary kernel cache "
+"since\n"
+"                  the last kernel cache rebuild. If not present, the system\n"
+"                  only adds previously-discovered kexts to kernel cache.\n"
+"                "
+msgstr ""
+"\n                  마지막 캐시 재구성 이후\n                  보조 커널 캐시에 추가할 kext 경로입니다. 경로가 없는 경우 시스템은\n                  이전에 검색된 kext만 커널 캐시에 추가합니다.\                "
+
+#: ./src/features/devices/DeviceDetails/tabs/info/status/DeviceDeploymentChart.js:78:28
+msgid "N/A"
+msgstr "해당 사항 없음"
+
+#: ./src/features/devices/DeviceDetails/tabs/payloads/DevicePayloadsTableView.tsx:70:21
+msgid "Fileset reinstallation failed: %1"
+msgstr "파일 세트 다시 설치 실패: %1"
+
+#: ./src/features/devices/DeviceDetails/tabs/payloads/DevicePayloadsTableView.tsx:79:24
+msgid "Reinstall"
+msgstr "다시 설치"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:33:24
+msgid "Cannot fetch"
+msgstr "가져올 수 없음"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:43:26
+msgid "Device Apps"
+msgstr "장치 앱"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:49:26
+msgid "Device Commands"
+msgstr "장치 명령"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:55:26
+msgid "Device Groups"
+msgstr "장치 그룹"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:61:26
+msgid "Device Media"
+msgstr "장치 미디어"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:67:26
+msgid "Device Payloads"
+msgstr "장치 페이로드"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:73:26
+msgid "Device Updates"
+msgstr "장치 업데이트"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:79:26
+msgid "Device Users"
+msgstr "장치 사용자"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:95:29
+msgid "The following items were successfully changed:"
+msgstr "다음 항목이 성공적으로 변경되었습니다:"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:98:37
+msgid "The following items were not found:"
+msgstr "다음 항목이 발견되지 않았습니다:"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:103:39
+msgid "The following items were not deleted:"
+msgstr "다음 항목이 삭제되지 않았습니다:"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:108:37
+msgid "The following items were not moved:"
+msgstr "다음 항목이 이동되지 않았습니다:"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:114:19
+msgid "You don't have permission to the following items:"
+msgstr "다음 항목에 대한 권한이 없습니다:"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:120:19
+msgid "The following items are locked by other users:"
+msgstr "다음 항목은 타 사용자에 의해 잠겼습니다:"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:18:22
+msgid "Payload group moved to \"%1\""
+msgstr "페이로드 그룹이 \"%1\"(으)로 이동됨"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:21:22
+msgid "Payload moved to \"%1\""
+msgstr "페이로드가 \"%1\"(으)로 이동됨"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:23:20
+msgid "Items moved to \"%1\""
+msgstr "항목이 \"%1\"(으)로 이동됨"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:52:19
+msgid "Move failed"
+msgstr "이동 실패"
+
+#: ./src/features/payloads/actions/removePayload.ts:16:22
+msgid "Delete Payload Group"
+msgstr "페이로드 그룹 삭제"
+
+#: ./src/features/payloads/actions/removePayload.ts:18:22
+msgid "Delete Payload"
+msgstr "페이로드 삭제"
+
+#: ./src/features/payloads/actions/removePayload.ts:19:20
+msgid "Delete Items"
+msgstr "항목 삭제"
+
+#: ./src/features/payloads/actions/removePayload.ts:30:28
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"        Deleting this payload group will <strong>affect %2 "
+"devices</strong>. You can't undo this action.\n"
+"        Are you sure you want to delete this payload group?"
+msgstr ""
+"<strong> %1</strong> 삭제가 실행될 것입니다.\n        이 페이로드 그룹이 <strong>%2 장치에 영향을 줄 것입니다</strong>. 해당 작업을 취소할 수 없습니다.\n        그래도 이 페이로드 그룹을 삭제하시겠습니까?"
+
+#: ./src/features/payloads/actions/removePayload.ts:38:26
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"      Deleting this payload will <strong>affect %2 devices</strong>. You "
+"can't undo this action.\n"
+"      Are you sure you want to delete this payload?"
+msgstr ""
+"<strong> %1</strong> 삭제가 실행될 것입니다.\n      이 페이로드가 <strong>%2 장치에 영향을 줄 것입니다</strong>. 해당 작업을 취소할 수 없습니다.\n      그래도 이 페이로드를 삭제하시겠습니까?"
+
+#: ./src/features/payloads/actions/removePayload.ts:46:24
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"    Deleting these items will <strong>affect %2 devices</strong>. You can't "
+"undo this action.\n"
+"    Are you sure you want to delete them?"
+msgstr ""
+"<strong> %1</strong> 삭제가 실행될 것입니다.\n    이 항목이 <strong>%2 장치에 영향을 줄 것입니다</strong>. 해당 작업을 취소할 수 없습니다.\n      그래도 삭제하시겠습니까?"
+
+#: ./src/features/payloads/actions/removePayload.ts:57:22
+msgid "Payload group deleted"
+msgstr "페이로드 그룹이 삭제됨"
+
+#: ./src/features/payloads/actions/removePayload.ts:60:20
+msgid "Items deleted"
+msgstr "항목이 삭제됨"
+
+#: ./src/features/payloads/actions/removePayload.ts:94:19
+msgid "Delete failed"
+msgstr "삭제 실패"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:114:33
+msgid "Id"
+msgstr "ID"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:409:30
+msgid ""
+"Allow user to configure or modify bluetooth connections. Note that <a "
+"data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#Policy.FIELDS.bluetooth_disabled\">this setting can be "
+"bypassed by users</a>; to completely disable bluetooth, use \"Allow "
+"bluetooth\"."
+msgstr ""
+"사용자가 Bluetooth 연결을 구성하거나 수정할 수 있도록 허용합니다. <a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">이 설정은 사용자가 무시할 수 있습니다.</a> Bluetooth를 완전히 비활성화하려면 \‘Bluetooth 허용’\을 사용하십시오."
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:43:30
+msgid ""
+"Note: Location accuracy is determined by a number of external factors. "
+"Please see our Knowledge Base for more information."
+msgstr ""
+"참고: 위치 정확도는 외부 요인 개수에 따라 결정됩니다. 더 자세한 내용은 기술 자료를 참조하십시오."
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:145:23
+msgid "Move to group"
+msgstr "그룹으로 이동"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:220:25
+msgid "Payload Actions"
+msgstr "페이로드 작업"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadDependencies/components/PayloadDependencyContainerContent.js:212:36
+msgid "Add dependencies"
+msgstr "종속성 추가"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadScripts/components/ScriptsSection.component.tsx:74:29
+msgid "Add script"
+msgstr "스크립트 추가"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:231:21
+msgid "1 payload"
+msgstr "1개 페이로드"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:232:21
+msgid "%1 payloads"
+msgstr "%1개 페이로드"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:235:21
+msgid "1 payload group"
+msgstr "1개 페이로드 그룹"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:236:21
+msgid "%1 payload groups"
+msgstr "%1개 페이로드 그룹"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:239:43
+msgid "&"
+msgstr "&"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:416:35
+msgid "Create Configuration"
+msgstr "구성 생성"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:6:21
+msgid "Notify the user before downloading the update"
+msgstr "장치 다운로드 전에 사용자에게 알림"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:10:21
+msgid ""
+"Auto install the update and then notify the user to schedule a device "
+"restart"
+msgstr ""
+"자동 업데이트 설치 후 사용자에게 장치 재시작 일정 알림"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:15:21
+msgid "Auto install and restart"
+msgstr "자동 설치 및 재시작"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:16:21
+msgid "Auto install and restart at a specified time"
+msgstr "특정 시간에 자동 설치 및 재시작"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:18:21
+msgid "Auto install and restart without enduser control"
+msgstr "최종 사용자 제어 없이 자동 설치 및 재시작"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:21:21
+msgid "Turn off automatic updates"
+msgstr "자동 업데이트 끄기"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:63:21
+msgid "Use the default Windows Update notifications"
+msgstr "기본 Windows 업데이트 알림 사용 "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:65:21
+msgid "Turn off all notifications, excluding restart warnings"
+msgstr "재시작 경고 외 모든 알림 끄기"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:69:21
+msgid "Turn off all notifications, including restart warnings"
+msgstr "재시작 경고 포함 모든 알림 끄기"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:89:26
+msgid "Use this section to configure software updates settings"
+msgstr "이 섹션에서 소프트웨어 업데이트 설정을 구성합니다"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:100:24
+msgid "Update settings"
+msgstr "업데이트 설정"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:106:24
+msgid "Microsoft product updates"
+msgstr "Microsoft 제품 업데이트"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:107:30
+msgid "Control whether to scan for app updates from Microsoft Update."
+msgstr "Microsoft 업데이트에서 앱 업데이트를 검사할지 제어합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:122:24
+msgid "Windows drivers"
+msgstr "Windows 드라이버"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:123:30
+msgid "Allow or block driver updates via Windows Update."
+msgstr "Windows 업데이트를 통해 드라이버 업데이트를 허용 또는 차단합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:138:24
+msgid "Quality update deferral period (days)"
+msgstr "품질 업데이트 연기 기간(일)"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:139:30
+msgid "Defer quality updates for the specified number of days."
+msgstr "특정 일수 동안 품질 업데이트를 연기합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:244:30
+msgid "The value must not be empty."
+msgstr "값은 비워둘 수 없습니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:596:30
+msgid "The value must be a valid number."
+msgstr "값은 유효한 숫자여야 합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:159:30
+msgid "The value must be between 0 and 30."
+msgstr "값은 0에서 30사이여야 합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:171:24
+msgid "Feature update deferral period (days)"
+msgstr "기능 업데이트 연기 기간(일)"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:172:30
+msgid "Defer feature updates for the specified number of days."
+msgstr "특정 일수 동안 기능 업데이트를 연기합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:192:30
+msgid "The value must be between 0 and 365."
+msgstr "값은 0에서 365 사이여야 합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:204:24
+msgid "Upgrade Windows 10 devices to Latest Windows 11 release"
+msgstr "Windows 10 장치를 최신 Windows 11 릴리스로 업그레이드"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:207:30
+msgid "Set to upgrade eligible Windows 10 devices to latest Windows 11 release."
+msgstr "적격 Windows 10 장치를 최신 Windows 11 릴리스로 업그레이드합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:235:24
+msgid "Set feature update uninstall period (2 - 60 days)"
+msgstr "기능 업데이트 제거 기간 설정(2~60일)"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:236:30
+msgid "Set feature update uninstall period"
+msgstr "기능 업데이트 제거 기간 설정"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:254:30
+msgid "The value must be between 2 and 60."
+msgstr "값은 2에서 60 사이여야 합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:266:24
+msgid "User experience settings"
+msgstr "사용자 경험 설정"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:273:24
+msgid "Automatic update behavior"
+msgstr "자동 업데이트 동작"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:274:30
+msgid "Manage automatic update behavior to scan, download, and install updates."
+msgstr "업데이트 검사, 다운로드, 설치 등 자동 업데이트 동작을 관리합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:288:24
+msgid "Active hours start"
+msgstr "활성화 시간 시작"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:310:30
+msgid ""
+"Configure a period when restarts due to update installations will be "
+"suppressed."
+msgstr ""
+"업데이트 설치로 인한 재시작을 방지하는 기간을 구성합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:309:24
+msgid "Active hours end"
+msgstr "활성화 시간 종료"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:330:24
+msgid "Automatic behavior frequency"
+msgstr "자동 동작 주기"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:331:30
+msgid "Scheduled the update installation on the weeks of the month."
+msgstr "해당 월 특정 주차에 업데이트 설치를 예약합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:342:28
+msgid "Every week"
+msgstr "매주"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:355:28
+msgid "First week of the month"
+msgstr "해당 월 첫째 주"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:368:28
+msgid "Second week of the month"
+msgstr "해당 월 둘째 주"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:381:28
+msgid "Third week of the month"
+msgstr "해당 월 셋째 주"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:394:28
+msgid "Fourth week of the month"
+msgstr "해당 월 넷째 주"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:409:24
+msgid "Scheduled install day"
+msgstr "설치일 예약"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:410:30
+msgid "Select install day for scheduled updates."
+msgstr "예약된 업데이트의 설치일을 선택합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:425:24
+msgid "Scheduled install time"
+msgstr "설치 시간 예약"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:426:30
+msgid "Select automation update installation day and time."
+msgstr "자동 업데이트 설치일 및 설치 시간을 선택합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:443:24
+msgid "Restart checks"
+msgstr "점검 재시작"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:444:30
+msgid ""
+"Set to skip all check before restart: Battery level = 40%, User presence, "
+"Display Needed, Presentation mode, Full screen mode, phone call state, game "
+"mode etc."
+msgstr ""
+"재시작 전 모든 점검을 건너뛰도록 설정: 배터리 잔량 = 40%, 사용자 존재, 필요한 디스플레이, 프리젠테이션 모드, 전체 화면 모드, 전화 상태, 게임 모드 등."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:459:24
+msgid "Option to pause Windows updates"
+msgstr "Windows 업데이트 중지 옵션"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:460:30
+msgid ""
+"An option in Windows Update that, when enabled, lets device users pause "
+"updates for a certain number of days."
+msgstr ""
+"활성화된 경우 장치 사용자가 특성 일수 동안 업데이트를 중지할 수 있도록 허용하는 Windows 업데이트 옵션입니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:475:24
+msgid "Option to check for Windows updates"
+msgstr "Windows 업데이트 확인 옵션"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:476:30
+msgid ""
+"A button in Windows Update that, when enabled, lets device users check the "
+"update service for updates."
+msgstr ""
+"활성화된 경우 장치 사용자가 업데이트할 때 업데이트 서비스를 확인할 수 있도록 허용하는 Windows 업데이트 내 버튼입니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:491:24
+msgid "Change notification update level"
+msgstr "알림 업데이트 수준 변경"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:492:30
+msgid "Specifies what Windows Update notifications users see."
+msgstr "사용자가 보는 Windows 업데이트 알림을 지정합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:507:24
+msgid "Deadline settings"
+msgstr "기한 설정"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:513:24
+msgid "Use deadline settings"
+msgstr "기한 설정 사용"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:514:30
+msgid "Allows user to use deadline settings."
+msgstr "사용자가 기한 설정을 사용할 수 있습니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:520:24
+msgid "Deadline for feature updates"
+msgstr "기능 업데이트 기한"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:521:30
+msgid ""
+"Specifies the number of days a user has before feature updates are "
+"installed on their devices automatically."
+msgstr ""
+"기능 업데이트가 장치에 자동으로 설치되기까지 남은 일수를 지정합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:571:30
+msgid "The value must be between 2 and 30."
+msgstr "값은 2에서 30사이여야 합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:553:24
+msgid "Deadline for quality updates"
+msgstr "품질 업데이트 기한"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:554:30
+msgid ""
+"Specifies the number of days a user has before quality updates are "
+"installed on their devices automatically."
+msgstr ""
+"품질 업데이트가 장치에 자동으로 설치되기까지 남은 일수를 지정합니다."
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:583:24
+msgid "Grace period"
+msgstr "유예 기한"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:584:30
+msgid ""
+"Specifies a minimum number of days after deadline until restarts occur "
+"automatically."
+msgstr ""
+"기한 이후 자동으로 재시작될 때까지 남은 최소 일수를 지정합니다. "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:601:30
+msgid "The value must be between 0 and 7."
+msgstr "값은 0에서 7사이여야 합니다."
+
+#: ./src/features/reports/components/MainComponentPicker/MainComponentPicker.component.tsx:78:29
+msgid "Boosters"
+msgstr "부스터"
+
+#: ./src/features/settings/components/IDPSetupForm/IDPSetupForm.component.tsx:188:28
+msgid "Copy URLs to your IDP settings in order to get responses from IDP."
+msgstr "IDP로부터 응답을 받으려면 URL을 IDP 설정에 복사합니다."
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:47:55
+msgid "Unique identifier"
+msgstr "고유 식별자"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:48:51
+msgid "Location name"
+msgstr "위치 이름"
+
+#: ./src/features/sources/apple/components/depAccountList/DepAccountList.component.tsx:76:34
+msgid "Synchronize DEP Accounts"
+msgstr "DEP 계정 동기화"
+
+#: ./src/features/sources/apple/components/depAccountList/DepAccountList.component.tsx:111:32
+msgid "Add DEP account"
+msgstr "DEP 계정 추가"
+
+#: ./src/features/sources/apple/components/depProfileList/DepProfileList.component.tsx:40:32
+msgid "Add DEP profile"
+msgstr "DEP 프로필 추가"
+
+#: ./src/features/sources/apple/components/general/UploadCertificate.component.tsx:29:25
+msgid "Upload certificate"
+msgstr "인증서 업로드"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:100:34
+msgid "Synchronize VPP Tokens"
+msgstr "VPP 토큰 동기화"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:135:32
+msgid "Add VPP"
+msgstr "VPP 추가"
+
+#: ./src/features/sources/apple/components/workflowList/WorkflowList.component.tsx:38:32
+msgid "Add workflow"
+msgstr "워크플로 추가"
+
+#: ./src/features/sources/apple/depProfiles/components/form/general/DepProfileMdmOptions.component.tsx:184:28
+msgid ""
+"Custom enrollment option can't be used without IDP configuration created. "
+"Please, configure IDP to enable this option again."
+msgstr ""
+"IDP 구성이 생성되지 않으면 사용자 지정 등록 옵션을 사용할 수 없습니다. 이 옵션을 활성화하려면 IDP를 다시 구성하십시오."
+
+#: ./src/features/sources/apple/workflows/modifyWorkflow/WorkflowForm.component.tsx:289:43
+msgid "Preview"
+msgstr "미리보기"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:73:24
+msgid "No Enrollment WiFi"
+msgstr "등록 Wi-Fi 없음"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:142:21
+msgid "Android Enrollment Token %1"
+msgstr "Android 등록 토큰 %1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:265:35
+msgid "Create Token"
+msgstr "토큰 생성"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:220:27
+msgid "Remove Token"
+msgstr "토큰 제거"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:233:21
+msgid "Token details"
+msgstr "토큰 세부 정보"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:234:21
+msgid "Create New Android Enrollment Token"
+msgstr "Android 등록 토큰 새로 만들기"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:69:24
+msgid "- - No available WiFi payloads"
+msgstr "-- 사용 가능한 Wi-Fi 페이로드 없음"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:85:20
+msgid ""
+"To enroll  Android Devices, create a new token to scan the QR code with the "
+"desired device. "
+msgstr ""
+"Android 장치를 등록하려면 원하는 장치로 QR 코드를 스캔하여 새 토큰을 생성하십시오. "
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:96:26
+msgid "Learn More"
+msgstr "더 알아보기"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:138:29
+msgid "Duration"
+msgstr "지속시간"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:140:31
+msgid "Number of days valid (30 max)"
+msgstr "유효 일수(최대 30일)"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:159:25
+msgid "Multiple Enrollments Allowed"
+msgstr "다중 등록 허용됨"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:168:27
+msgid "If unchecked, the token will be valid for a single enrollment."
+msgstr "선택하지 않으면 토큰이 단일 등록에 유효합니다."
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:177:26
+msgid "WiFi Profile"
+msgstr "Wi-Fi 프로필"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:106:25
+msgid "Multiple Enrollments"
+msgstr "다중 등록"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:115:26
+msgid "Wifi Profile"
+msgstr "Wi-Fi 프로필"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:128:24
+msgid "QR Code"
+msgstr "QR 코드"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:145:31
+msgid "Download generated PDF"
+msgstr "생성된 PDF 다운로드"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:28:28
+msgid "Click on"
+msgstr "클릭"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:29:25
+msgid " + Create Token ↗"
+msgstr " + 토큰 생성 ↗"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:31:28
+msgid "to add a new Enrollment Token."
+msgstr "새 등록 토큰을 추가합니다."
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/AndroidEnrollmentTable.component.tsx:60:33
+msgid "Expires"
+msgstr "유효기간"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/AndroidEnrollmentTable.component.tsx:66:33
+msgid "MultipleEnrollments"
+msgstr "다중 등록"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/components/EnrollmentDownloadRenderer/EnrollmentDownloadRenderer.tsx:22:25
+msgid "Download PDF"
+msgstr "PDF 다운로드"
+
+#: ./src/features/sources/google/components/utils.ts:22:39
+msgid "Token name:"
+msgstr "토큰 이름:"
+
+#: ./src/features/sources/google/components/utils.ts:24:19
+msgid "Expiry date:"
+msgstr "만료일:"
+
+#: ./src/features/sources/google/components/utils.ts:28:19
+msgid "Multiple enrollments:"
+msgstr "다중 등록:"
+
+#: ./src/features/sources/google/components/utils.ts:34:25
+msgid "Wifi profile:"
+msgstr "Wi-Fi 프로필:"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:252:32
+msgid "Android Enrollment Tokens"
+msgstr "Android 등록 토큰"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:258:40
+msgid "Connect your EMM account tokens"
+msgstr "EMM 계정 토큰에 연결"
+
+#: ./src/features/sources/microsoft/components/AzureAccountsTable/AzureAccountsTable.component.tsx:69:36
+msgid "Add Azure account"
+msgstr "Azure 계정 추가"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:23:17
+msgid "Enrollment Tokens list"
+msgstr "등록 토큰 목록"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:24:17
+msgid "Cannot fetch Enrollment Token list"
+msgstr "등록 토큰 목록 가져오기 불가"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:47:19
+msgid "Create Enrollment Token"
+msgstr "등록 토큰 생성"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:48:19
+msgid "Error creating Enrollment Token"
+msgstr "토큰 등록 생성 오류"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:75:19
+msgid "Update Enrollment Token"
+msgstr "등록 토큰 업데이트"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:76:19
+msgid "Error updating Enrollment Token"
+msgstr "토큰 등록 업데이트 중 오류"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:94:17
+msgid "Delete Enrollment Token"
+msgstr "등록 토큰 삭제"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:95:17
+msgid "Error deleting Enrollment Token"
+msgstr "토큰 등록 삭제 오류"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:113:17
+msgid "WiFi Profiles list"
+msgstr "Wi-Fi 프로필 목록"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:114:17
+msgid "Cannot fetch WiFi Profiles list"
+msgstr "Wi-Fi 프로필 목록 가져오기 불가"
+
+#: ./src/features/TeamViewer/TeamViewerErrorModal/TeamViewerErrorModal.component.tsx:22:46
+msgid "TeamViewer error"
+msgstr "TeamViewer 오류"
+
+#: ./src/features/TeamViewer/TeamViewerErrorModal/TeamViewerErrorModal.component.tsx:27:27
+msgid "Retry"
+msgstr "재시도"
+
+#: ./src/library/form/fields/StringField.tsx:86:38
+msgid "Show text"
+msgstr "문자 보이기"
+
+#: ./src/library/form/fields/StringField.tsx:86:63
+msgid "Hide text"
+msgstr "문자 숨기기"
+
+#: ./src/sharedComponents/Formik/FormikTableInput/components/FormikTableInputContent.component.tsx:167:38
+msgid "Table row values are invalid."
+msgstr "테이블 행의 값이 잘못되었습니다."
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:82:26
+msgid "Column Actions"
+msgstr "열 작업"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:87:27
+msgid "Unpin Column"
+msgstr "열 고정 해제"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:88:27
+msgid "Pin Column"
+msgstr "열 고정"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:98:27
+msgid "Autosize Column"
+msgstr "열 높이 자동 조정"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ClearFilter.component.tsx:36:27
+msgid "Clear Filter"
+msgstr "필터 해제"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/SetFilter.component.tsx:148:28
+msgid "Column Filters"
+msgstr "열 필터"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:111:29
+msgid "Period"
+msgstr "기간"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:120:40
+msgid "From"
+msgstr "시작"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:127:40
+msgid "To"
+msgstr "종료"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/SetFilter.component.tsx:165:29
+msgid "Select all"
+msgstr "전체 선택"
+
+#: ./src/sharedComponents/table/components/SimpleToolPanel/SimpleToolPanel.component.tsx:56:22
+msgid "Column Settings"
+msgstr "열 설정"
+
+#: ./src/sharedComponents/table/components/SimpleToolPanel/SimpleToolPanel.component.tsx:73:27
+msgid "Reset Columns"
+msgstr "열 초기화"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:64:20
+msgid "Other"
+msgstr "기타"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:159:20
+msgid "Paid Licenses"
+msgstr "유료 라이선스"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:169:20
+msgid "Free"
+msgstr "무료"

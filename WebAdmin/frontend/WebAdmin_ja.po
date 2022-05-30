@@ -18425,7 +18425,7 @@ msgid ""
 "bypassed by users</a>; to completely disable bluetooth, use \"Allow "
 "bluetooth\".</div>"
 msgstr ""
-"<div>ユーザーによるBluetooth接続の構成や修正を許可します。<a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">ユーザーがこの設定をバイパスすることができることに注意してください。</a>Bluetoothを完全に無効にするには\Bluetoothを許可’を使用してください。</div>"
+"<div>ユーザーによるBluetooth接続の構成や修正を許可します。<a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">ユーザーがこの設定をバイパスすることができることに注意してください。</a>Bluetoothを完全に無効にするにはBluetoothを許可’を使用してください。</div>"
 
 #: ./src/features/payloads/AndroidManager/config/network.ts:225:30
 msgid "Passphrase must be at least 8 characters long"
@@ -18486,7 +18486,7 @@ msgstr ""
 
 #: ./src/features/payloads/FileWaveManager/config/geofencing.ts:38:23
 msgid " (m)"
-msgstr " (m)"
+msgstr "(m)"
 
 #: ./src/features/payloads/FileWaveManager/config/geofencing.ts:44:30
 msgid ""
@@ -18563,7 +18563,9 @@ msgid ""
 "the syntax %FIELD_NAME%. \n"
 "For instance: foo-%asset_tag%."
 msgstr ""
-"コマンドライン引数の値はスクリプト実行の直前に設定されます。\nコマンドライン引数値を設定するためにインベントリフィールド値を使用するには、構文 %FIELD_NAME% を使用してください。\n例: foo-%asset_tag% 。"
+"コマンドライン引数の値はスクリプト実行の直前に設定されます。\n"
+"コマンドライン引数値を設定するためにインベントリフィールド値を使用するには、構文 %FIELD_NAME% を使用してください。\n"
+"例: foo-%asset_tag% 。"
 
 #: ./src/features/payloads/FileWaveManager/config/script.ts:88:28
 msgid "Environment Variables"
@@ -18585,7 +18587,9 @@ msgid ""
 "For instance: MY_VAR: foo-%asset_tag%. \n"
 "Note: environment variable names are case insensitive in Windows."
 msgstr ""
-"環境変数の値はスクリプト実行の直前に設定されます。\nインベントリフィールド値を使用するには、構文 %FIELD_NAME% を使用してください。\n例: MY_VAR: foo-%asset_tag% 。\N注: 環境変数名はWindowsにおいて大文字・小文字を区別しません。"
+"環境変数の値はスクリプト実行の直前に設定されます。\n"
+"インベントリフィールド値を使用するには、構文 %FIELD_NAME% を使用してください。\n"
+"例: MY_VAR: foo-%asset_tag% 。N注: 環境変数名はWindowsにおいて大文字・小文字を区別しません。"
 
 #: ./src/features/payloads/FileWaveManager/FileWaveManager.page.tsx:117:43
 msgid "Policy saved successfully"
@@ -18755,3 +18759,1674 @@ msgstr "プロファイル/ポリシーの説明"
 #: ./src/sharedComponents/AppTopBar/userGuide/userGuide.config.ts:459:28
 msgid "Settings - Identity Provider"
 msgstr "設定 - アイデンティティプロバイダ"
+
+#: ./src/features/payloads/payloadsList/components/createPayloadsGroup/CreatePayloadsGroupModal.component.tsx:55:29
+msgid "Create New Group"
+msgstr "新規グループを作成"
+
+#: ./src/features/payloads/actions/renamePayloadGroup.tsx:49:29
+msgid "Rename Group"
+msgstr "グループをリネーム"
+
+#: ./src/components/resources/profileManager/config/airPlay.js:34:26
+msgid "Value can't be lower than 10"
+msgstr "値は10未満にすることはできません"
+
+#: ./src/components/resources/profileManager/config/airPlay.js:39:26
+msgid "Value can't be higher than 99"
+msgstr "値は99を上回ることはできません"
+
+#: ./src/components/resources/profileManager/config/apn.js:6:26
+msgid ""
+"Use this section to specify advanced settings, such as a carrier Access "
+"Point Name (APN)."
+msgstr ""
+"このセクションでは、通信事業者のアクセスポイント名（APN）などの詳細設定を行います。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:421:43
+msgid "Log out User after:"
+msgstr "次の後でユーザーをログアウト:"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:464:27
+msgid "Use FWAdmin time zone (%1)"
+msgstr "FWAdminタイムゾーン（%1）を使用する"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:524:24
+msgid "Firmware Password / Recovery Lock"
+msgstr "ファームウェアパスワード/リカバリーロック"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:525:30
+msgid ""
+"Firmware Password command is not supported on Mac computers with Apple "
+"silicon; Recovery Lock command is only available with Apple silicon."
+msgstr ""
+"ファームウェアパスワードのコマンドはApple Siliconを搭載したMacコンピューターではサポートされていません。リカバリーロックのコマンドはApple Siliconでのみ利用できます。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:535:32
+msgid "Firmware Password (macOS 10.13+)"
+msgstr "ファームウェアパスワード（macOS 10.13以降）"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:541:36
+msgid "Change Fireware Password"
+msgstr "ファームウェアパスワードを変更する"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:551:36
+msgid "New Firmware Password (empty to reset):"
+msgstr "新規ファームウェアパスワード (リセットは空にする):"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:568:36
+msgid "Verify Firmware Password:"
+msgstr "ファームウェアパスワードを検証:"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:569:42
+msgid ""
+"Device must be rebooted for the new wireframe password to take effect or "
+"before you change the password again."
+msgstr ""
+"新しいワイヤーフレームパスワードを有効にするため、またはパスワードを再度変更する前に、デバイスを再起動する必要があります。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:588:42
+msgid "The provided passwords do not match"
+msgstr "提供されたパスワードが一致しません"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:598:32
+msgid "Recovery Lock (11.5+)"
+msgstr "リカバリーロック（11.5+）"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:604:36
+msgid "Change Recovery Lock"
+msgstr "リカバリーロックを変更"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:614:36
+msgid "New Recovery Lock (empty to reset):"
+msgstr "新規リカバリーロック (リセットは空にする):"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:631:36
+msgid "Verify Recovery Lock:"
+msgstr "リカバリーロックを検証:"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:632:42
+msgid ""
+"Device must be rebooted for the new recovery lock to take effect or before "
+"you change the recovery lock again."
+msgstr ""
+"新しいリカバリーロックを有効にするため、またはリカバリーロックを再度変更する前に、デバイスを再起動する必要があります。"
+
+#: ./src/components/resources/profileManager/config/commandPolicy.js:651:42
+msgid "The provided recovery locks do not match"
+msgstr "提供されたリカバリーロックが一致しません"
+
+#: ./src/components/resources/profileManager/config/contacts.js:6:26
+msgid ""
+"Use this section to define settings for configuration access to CardDAV "
+"servers."
+msgstr ""
+"このセクションでは、CardDAVサーバーへのアクセスの構成の設定を定義します。"
+
+#: ./src/components/resources/profileManager/config/exchange.js:27:46
+msgid "Name for the Exchange Web Services Account"
+msgstr "Exchange Webサービスアカウント名"
+
+#: ./src/components/resources/profileManager/config/exchange.js:50:27
+msgid "Exchange Web Services (macOS only)"
+msgstr "Exchange Web サービス (macOSのみ)"
+
+#: ./src/components/resources/profileManager/config/exchange.js:184:46
+msgid "Name or description for the Web Services certificate"
+msgstr "Webサービス証明書の名前または説明"
+
+#: ./src/components/resources/profileManager/config/exchange.js:232:24
+msgid "Internal Exchange Host"
+msgstr "内部l Exchange ホスト"
+
+#: ./src/components/resources/profileManager/config/exchange.js:299:30
+msgid "Microsoft Exchange Server"
+msgstr "Microsoft Exchange サーバー"
+
+#: ./src/components/resources/profileManager/config/exchange.js:263:24
+msgid "Internal Server Path"
+msgstr "内部サーバーパス"
+
+#: ./src/components/resources/profileManager/config/exchange.js:264:30
+msgid "Server path for the internal exchange host"
+msgstr "内部 Exchange ホストのサーバーパス"
+
+#: ./src/components/resources/profileManager/config/exchange.js:280:24
+msgid "Use SSL for Internal Exchange Host"
+msgstr "内部 Exchange ホストにSSLを使用する"
+
+#: ./src/components/resources/profileManager/config/exchange.js:346:30
+msgid "Send all communication through secure socket layer"
+msgstr "Secure Socket Layer を介してすべての通信を送信する"
+
+#: ./src/components/resources/profileManager/config/exchange.js:298:24
+msgid "External Exchange Host"
+msgstr "外部l Exchange ホスト"
+
+#: ./src/components/resources/profileManager/config/exchange.js:328:24
+msgid "External Server Path"
+msgstr "外部サーバーパス"
+
+#: ./src/components/resources/profileManager/config/exchange.js:329:30
+msgid "Server path for the external exchange host"
+msgstr "外部 Exchange ホストのサーバーパス"
+
+#: ./src/components/resources/profileManager/config/exchange.js:345:24
+msgid "Use SSL for External Exchange Host"
+msgstr "外部 Exchange ホストにSSLを使用する"
+
+#: ./src/components/resources/profileManager/config/exchange.js:465:27
+msgid "1 day"
+msgstr "1 日"
+
+#: ./src/components/resources/profileManager/config/exchange.js:469:27
+msgid "3 days"
+msgstr "3日"
+
+#: ./src/components/resources/profileManager/config/exchange.js:473:27
+msgid "1 week"
+msgstr "1週間"
+
+#: ./src/components/resources/profileManager/config/exchange.js:477:27
+msgid "2 weeks"
+msgstr "2週間"
+
+#: ./src/components/resources/profileManager/config/exchange.js:481:27
+msgid "1 month"
+msgstr "1か月"
+
+#: ./src/components/resources/profileManager/config/extensions.js:33:32
+msgid ""
+"The bundle identifiers of the extensions that are allowed to run on the "
+"device. All other extensions from any extension point will be disallowed."
+msgstr ""
+"デバイス上で実行が許可されている拡張のバンドル識別子。任意の拡張ポイントからのそれ以外のすべての拡張は許可されません。"
+
+#: ./src/components/resources/profileManager/config/identification.js:7:26
+msgid "Use this section to configure Identification"
+msgstr "このセクションでIDを設定"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:103:35
+msgid "Build"
+msgstr "ビルド"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:119:35
+msgid "Time"
+msgstr "時間"
+
+#: ./src/components/resources/profileManager/config/loginWindow.js:239:32
+msgid "Show Input menu in login window"
+msgstr "ログイン画面で入力メニューを表示する"
+
+#: ./src/components/resources/profileManager/config/network.js:746:25
+msgid "Login window"
+msgstr "ログイン画面"
+
+#: ./src/components/resources/profileManager/config/network.js:817:36
+msgid "Authentication protocols supported on target network"
+msgstr "ターゲットネットワークでサポートされている認証プロトコル"
+
+#: ./src/components/resources/profileManager/config/network.js:1203:27
+msgid "First Active Ethernet (macOS only)"
+msgstr "最初のアクティブイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1207:27
+msgid "Second Active Ethernet (macOS only)"
+msgstr "2番目のアクティブイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1211:27
+msgid "Third Active Ethernet (macOS only)"
+msgstr "3番目のアクティブイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1215:27
+msgid "First Ethernet (macOS only)"
+msgstr "最初のイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1219:27
+msgid "Second Ethernet (macOS only)"
+msgstr "2番目のイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1223:27
+msgid "Third Ethernet (macOS only)"
+msgstr "3番目のイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1227:27
+msgid "Any Ethernet (macOS only)"
+msgstr "どちらかのイーサネット（macOSのみ）"
+
+#: ./src/components/resources/profileManager/config/network.js:1603:27
+msgid "WPA2 Personal"
+msgstr "WPA2パーソナル"
+
+#: ./src/components/resources/profileManager/config/network.js:1607:27
+msgid "WPA3 Personal"
+msgstr "WPA3パーソナル"
+
+#: ./src/components/resources/profileManager/config/network.js:1623:27
+msgid "WPA2 Enterprise"
+msgstr "WPA2エンタープライズ"
+
+#: ./src/components/resources/profileManager/config/network.js:1627:27
+msgid "WPA3 Enterprise"
+msgstr "WPA3エンタープライズ"
+
+#: ./src/components/resources/profileManager/config/network.js:1720:27
+msgid "Allow specific Apps"
+msgstr "特定のアプリを許可する"
+
+#: ./src/components/resources/profileManager/config/parentalControls.js:228:28
+msgid "Prevent computer access during the specified days and hours."
+msgstr "指定した曜日と時間帯にコンピューターへのアクセスを禁止します。"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:540:40
+msgid "Speech & Dictation"
+msgstr "スピーチとディクテーション"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:662:32
+msgid "Third-party Preference Panes"
+msgstr "サードパーティー環境設定パネル"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:668:36
+msgid "Preference Identifier"
+msgstr "優先識別子"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1575:40
+msgid "Require password to unlock device with Touch ID after"
+msgstr "次の期間後にタッチIDによりデバイスをロック解除するために必要となるパスワード"
+
+#: ./src/components/resources/profileManager/config/restrictionsMacOS.js:1723:36
+msgid "Allow AirPlay receiver"
+msgstr "AirPlay レシーバーを許可する"
+
+#: ./src/components/resources/profileManager/config/restrictionsTvos.js:106:36
+msgid "Allow automatic Screen Saver (Supervised devices only)"
+msgstr "自動スクリーンセイバーを許可する（監視対象デバイスのみ） "
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:243:32
+msgid "Automatically allow built-in software to receive incoming connections"
+msgstr "内蔵ソフトウェアで着信接続を自動で受信可能にする"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:265:32
+msgid ""
+"Automatically allow downloaded signed software to receive incoming "
+"connections"
+msgstr ""
+"ダウンロードされた署名済みソフトウェアで、着信接続を自動で受信可能にする"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:268:38
+msgid ""
+"Allows software signed by a valid certificate authority to provide services "
+"accessed from the network"
+msgstr ""
+"有効な認証局によって署名されたソフトウェアが、ネットワークからアクセスされるサービスを提供可能にする"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:313:32
+msgid "Enable logging, available in macOS 12 and later"
+msgstr "ロギングを有効にする、macOS 12 以降で利用可能"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:331:32
+msgid "Logging type"
+msgstr "ロギングのタイプ"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:336:35
+msgid "Brief"
+msgstr "簡易"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:340:35
+msgid "Detail"
+msgstr "詳細"
+
+#: ./src/components/resources/profileManager/config/securityAndPrivacyiOS.js:344:35
+msgid "Throttled"
+msgstr "段階的な"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:5:20
+msgid "Setup Assistant (supervised only)"
+msgstr "セットアップアシスタント（監視対象のみ）"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:6:26
+msgid "Use this section to configure the Setup Assistant."
+msgstr "このセクションを使ってのセットアップアシスタントを構成します。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:25:34
+msgid ""
+"Skips the Accessibility pane, only if the Mac is connected to Ethernet and "
+"the cloud config is downloaded. Availability: macOS 11+."
+msgstr ""
+"Macがイーサネットに接続されており、クラウド構成がダウンロードされている場合にのみアクセシビリティ・ペインをスキップします。対象：macOS 11以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:43:34
+msgid "Skips the App Store pane. Availability: iOS 14.3+ and macOS 11.1+."
+msgstr "App Storeペインをスキップします。対象：iOS 14.3以降とmacOS 11.1以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:104:34
+msgid ""
+"Disables FileVault Setup Assistant screen in macOS. Availability: macOS "
+"10.10+."
+msgstr ""
+"macOSのFileVaultセットアップアシスタント画面を無効にします。対象：macOS 10.10以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:112:28
+msgid "Home Button (Deprecated)"
+msgstr "ホームボタン（非推奨）"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:121:28
+msgid "iCloud Analytics"
+msgstr "iCloud分析"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:122:34
+msgid "Skips iCloud Analytics screen. Availability: macOS 10.12.4+."
+msgstr "iCloud分析画面をスキップします。対象：macOS 10.12.4以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:130:28
+msgid "iCloud Documents and Desktop"
+msgstr "iCloudドキュメントおよびデスクトップ"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:131:34
+msgid ""
+"Skips iCloud Documents and Desktop screen in macOS. Availability: macOS "
+"10.13.4+."
+msgstr ""
+"macOSのiCloudドキュメントおよびデスクトップの画面をスキップします。対象：macOS 10.13.4以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:139:28
+msgid "iMessage"
+msgstr "iMessage"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:140:34
+msgid "Skips the iMessage pane. Availability: iOS 10+."
+msgstr "iMessageペインをスキップします。対象: iOS 10以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:184:28
+msgid "New Feature Highlights (Deprecated)"
+msgstr "新機能のハイライト(非推奨)"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:256:28
+msgid "Tap To Setup"
+msgstr "タップしてセットアップ"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:257:34
+msgid ""
+"Skips the Tap To Set Up option in AppleTV about using an iOS device to set "
+"up your AppleTV. Availability: tvOS 10.2+."
+msgstr ""
+"AppleTVを設定するために使用するiOSデバイスに関するAppleTVにおける「タップしてセットアップ」をスキップします。対象：tvOS 10.2以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:283:28
+msgid "True Tone Display (Deprecated)"
+msgstr "True Tone ディスプレイ(非推奨)"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:292:28
+msgid "TV Home Screen Sync"
+msgstr "TVホーム画面の同期化"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:293:34
+msgid "Skips TV home screen layout sync screen. Availability: tvOS 11+."
+msgstr "TVホーム画面レイアウト同期化画面をスキップします。対象：tvOS 11以降。"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:301:28
+msgid "TV Provider"
+msgstr "TVプロバイダー"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:302:34
+msgid "Skips the TV provider sign in screen. Availability: tvOS 11+"
+msgstr "TVプロバイダーサインイン画面をスキップします。対象：tvOS 11以降"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:310:28
+msgid "tvOS Aerial screensaver"
+msgstr "tvOS Aerialスクリーンセーバー"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:311:34
+msgid ""
+"Skips the tvOS screen about using aerial screensavers in ATV. Availability: "
+"tvOS 10.2+"
+msgstr ""
+"ATVでAerialスクリーンセーバーの使用に関するtvOS画面をスキップします。対象：tvOS 10.2以降"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:346:28
+msgid "Where is this Apple TV?"
+msgstr "このApple TVはどこですか？"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:347:34
+msgid ""
+"Skips the \"Where is this Apple TV?\" screen in tvOS. Availability: tvOS "
+"11.4+"
+msgstr ""
+"tvOSの \"このApple TVはどこですか？\" 画面をスキップします。対象：tvOS 11.4以降"
+
+#: ./src/components/resources/profileManager/config/setupAssistant.js:376:30
+msgid ""
+"Please refer to <a "
+"href=\"https://support.apple.com/guide/mdm/setup-assistant-pane-options-"
+"mdmc5a826c7/1/web/1.0\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Apple's documentation</a>  for more details."
+msgstr ""
+"詳細については、<a href=\"https://support.apple.com/guide/mdm/setup-assistant-pane-options-mdmc5a826c7/1/web/1.0\" target=\"_blank\" rel=\"noopener noreferrer\">Appleのドキュメント</a>を参照してください。"
+
+#: ./src/components/resources/profileManager/config/vpn.js:146:25
+msgid "Shared Secret / Group Name"
+msgstr "共有秘密 / グループ名"
+
+#: ./src/components/resources/profileManager/config/vpn.js:953:26
+msgid "Child SA Params"
+msgstr "子 SA パラメーター"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1057:27
+msgid "Pulse Secure"
+msgstr "パルスセキュア"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1265:24
+msgid "Exclude local network traffic from the VPN connection"
+msgstr "VPN接続からのローカルネットワークトラフィックを除外"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1266:30
+msgid ""
+"Traffic destined for the local network will not go through the VPN "
+"connection"
+msgstr ""
+"ローカルネットワーク宛てのトラフィックはVPN接続を経由しません"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1572:27
+msgid "Certificate (macOS only)"
+msgstr "証明書 (macOSのみ)"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1576:27
+msgid "Kerberos (macOS only)"
+msgstr "Kerberos (macOSのみ)"
+
+#: ./src/components/resources/profileManager/config/vpn.js:1593:27
+msgid "CryptoCard (macOS only)"
+msgstr "CryptoCard (macOSのみ)"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2458:27
+msgid "packet-tunnel"
+msgstr "パケットトンネル"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2642:24
+msgid "Proxy Password"
+msgstr "プロキシ パスワード"
+
+#: ./src/components/resources/profileManager/config/vpn.js:2982:30
+msgid "Required if VPN provider is a System Extension"
+msgstr "VPNプロバイダーがシステム拡張の場合は必須"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:145:43
+msgid "The following profile"
+msgstr "以下のプロファイルの"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:147:25
+msgid " type is"
+msgstr " タイプは"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:148:25
+msgid " types are"
+msgstr " タイプは（複数）"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:149:22
+msgid " unavailable: "
+msgstr " 利用不可： "
+
+#: ./src/components/resources/profileManager/ProfileManager.js:151:25
+msgid "That profile"
+msgstr "そのプロフィール"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:152:25
+msgid "Those profiles"
+msgstr "それらのプロフィール"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:153:22
+msgid " will remain in the payload unchanged."
+msgstr " 変更されず、ペイロードに残ります。"
+
+#: ./src/components/resources/profileManager/ProfileManager.js:154:33
+msgid "Unsupported Profiles Found!"
+msgstr "サポートされていないプロフィールが見つかりました！"
+
+#: ./src/features/associations/actions/actions.utils.tsx:87:19
+msgid "The following associations were successfully deleted:"
+msgstr "以下のアソシエーション（配布）が正常に削除されました："
+
+#: ./src/features/associations/actions/actions.utils.tsx:93:19
+msgid "The following associations were not found:"
+msgstr "以下のアソシエーション（配布）が見つかりませんでした："
+
+#: ./src/features/associations/actions/actions.utils.tsx:99:19
+msgid "The following associations were not deleted:"
+msgstr "以下のアソシエーション（配布）が削除されませんでした："
+
+#: ./src/features/associations/actions/actions.utils.tsx:105:19
+msgid "You don't have permission to the following associations:"
+msgstr "以下のアソシエーション（配布）への権限がありません："
+
+#: ./src/features/associations/actions/actions.utils.tsx:114:19
+msgid "The following associations are locked by other users:"
+msgstr "以下のアソシエーション（配布）は他のユーザーにロックされています："
+
+#: ./src/features/associations/actions/actions.utils.tsx:150:21
+msgid "Association deleted"
+msgstr "アソシエーション（配布）が削除されました"
+
+#: ./src/features/associations/actions/actions.utils.tsx:151:21
+msgid "Associations deleted"
+msgstr "アソシエーション（配布）を削除"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:20:19
+msgid "Delete Association"
+msgstr "アソシエーションを削除"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:21:19
+msgid "Delete Associations"
+msgstr "アソシエーション（配布）を削除する"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:25:19
+msgid "Are you sure you want to delete this association?"
+msgstr "このアソシエーション（配布）の削除を続行しますか？"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:26:19
+msgid "Are you sure you want to delete these associations?"
+msgstr "これらのアソシエーション（配布）の削除を続行しますか？"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:30:19
+msgid "Deleting association failed"
+msgstr "アソシエーション（配布）の削除に失敗しました"
+
+#: ./src/features/associations/actions/deleteAssociations.ts:31:19
+msgid "Deleting associations failed"
+msgstr "アソシエーション（配布）の削除に失敗しました"
+
+#: ./src/features/associations/associationsList/AssociationsList.page.tsx:85:19
+msgid "1 association"
+msgstr "1 アソシエーション（配布）"
+
+#: ./src/features/associations/associationsList/AssociationsList.page.tsx:86:19
+msgid "%1 associations"
+msgstr "%1アソシエーション（配布）"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:24:25
+msgid "Association Actions"
+msgstr "アソシエーション（配布）アクション"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:25:25
+msgid "Associations Actions"
+msgstr "アソシエーション（配布）アクション"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:27:25
+msgid "Cannot fetch association actions"
+msgstr "アソシエーションアクションを取得できません"
+
+#: ./src/features/associations/associationsList/hooks/useActions.tsx:28:25
+msgid "Cannot fetch associations actions"
+msgstr "アソシエーションアクションを取得できません"
+
+#: ./src/features/deployments/DeploymentEditor/DeploymentEditor.component.tsx:360:33
+msgid "Publishing in progress"
+msgstr "発行中"
+
+#: ./src/features/deployments/DeploymentEditor/options/DeploymentOptionsTab/DeploymentOptionsTab.component.tsx:133:25
+msgid "Assign to Device if possible, otherwise to User"
+msgstr "可能であればデバイスへ、そうでなければユーザーへ割り当て"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/DeploymentPayloadsTab.component.tsx:175:32
+msgid "Add payload"
+msgstr "ペイロードを追加する"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/PayloadRevision/PayloadRevision.renderer.tsx:16:49
+msgid "(default)"
+msgstr "（デフォルト）"
+
+#: ./src/features/deployments/DeploymentEditor/payloads/PayloadRevision/PayloadRevision.renderer.tsx:104:32
+msgid "Change Revision"
+msgstr "リビジョンを変更する"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:93:36
+msgid "in Device Groups"
+msgstr "デバイスグループで"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:100:36
+msgid "standalone"
+msgstr "スタンドアロン"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:113:40
+msgid "LDAP Groups"
+msgstr "LDAPグループ"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:128:40
+msgid "IDP Groups"
+msgstr "IDPグループ"
+
+#: ./src/features/deployments/DeploymentEditor/summary/components/SummaryHeader.component.tsx:143:36
+msgid "per Device (up to)"
+msgstr "デバイスあたり（最大）"
+
+#: ./src/features/deployments/DeploymentList/DeploymentList.page.tsx:133:35
+msgid "Active Deployments"
+msgstr "アクティブなデプロイメント"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:105:23
+msgid "You are editing this deployment in another browser / tab."
+msgstr "別のブラウザ/タブでこのデプロイメントを編集しています。"
+
+#: ./src/features/deployments/DeploymentsModal/DeploymentsModal.component.tsx:114:23
+msgid "The resource '%1' is being edited by '%2'."
+msgstr "リソース「%1」は、「%2」によって編集されています。"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:21:23
+msgid "Enable Device(s)"
+msgstr "デバイスを有効にする"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:22:21
+msgid "This will enable selected device(s). Are you sure you want to proceed?"
+msgstr "これにより、選択したデバイスが有効になります。続行してもよろしいですか？"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:26:24
+msgid "Enable Device(s) request sent successfully"
+msgstr "デバイス有効化リクエストが正常に送信されました"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:27:24
+msgid "Enable Device(s) command failed"
+msgstr "デバイス有効化コマンドに失敗しました"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:34:23
+msgid "Disable Device(s)"
+msgstr "デバイスを無効にする"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:35:21
+msgid "This will disable selected device(s). Are you sure you want to proceed?"
+msgstr "これにより、選択したデバイスが無効になります。続行してもよろしいですか？"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:165:22
+msgid "Disable"
+msgstr "無効"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:39:24
+msgid "Disable Device(s) request sent successfully"
+msgstr "デバイス無効化リクエストが正常に送信されました"
+
+#: ./src/features/devices/actions/android/enableDisable/androidEnableDisable.tsx:40:24
+msgid "Disable Device(s) command failed"
+msgstr "デバイス無効化コマンドに失敗しました"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:12:35
+msgid "Lock Device(s)"
+msgstr "デバイスをロックする"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:16:17
+msgid ""
+"This will lock selected device(s). Users will be able to unlock the device "
+"using their passcode. Are you sure you want to proceed?"
+msgstr ""
+"これにより、選択したデバイスがロックされます。ユーザーはそのパスコードを使用して、デバイスのロックを解除できます。続行してもよろしいですか？"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:19:17
+msgid "Lock"
+msgstr "配布停止"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:25:17
+msgid "Lock Device(s) request sent successfully"
+msgstr "デバイスをロックするためのリクエストが正常に送信されました"
+
+#: ./src/features/devices/actions/android/lock/androidLock.tsx:35:17
+msgid "Lock Device(s) command failed"
+msgstr "デバイスをロックするためのコマンドに失敗しました"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:11:35
+msgid "Renew Token(s)"
+msgstr "トークンを更新する"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:17:17
+msgid "Renew Token(s) request sent successfully"
+msgstr "トークン更新リクエストが正常に送信されました"
+
+#: ./src/features/devices/actions/android/renewToken/renewEMMToken.tsx:27:17
+msgid "Renew Token(s) command failed"
+msgstr "トークン更新コマンドに失敗しました"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:12:35
+msgid "Restart Device(s)"
+msgstr "デバイスを再起動"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:16:17
+msgid "This will restart selected device(s). Are you sure you want to proceed?"
+msgstr "これにより、選択したデバイスが再起動します。続行してもよろしいですか？"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:25:17
+msgid "Restart Device(s) request sent successfully"
+msgstr "デバイス再起動リクエストが正常に送信されました"
+
+#: ./src/features/devices/actions/android/restart/restart.tsx:35:17
+msgid "Restart Device(s) command failed"
+msgstr "デバイス再起動コマンドに失敗しました"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:12:35
+msgid "Wipe Device(s)"
+msgstr "デバイスをワイプする"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:16:17
+msgid "This will wipe selected device(s). Are you sure you want to proceed?"
+msgstr "これにより、選択したデバイスがワイプされます。続行してもよろしいですか？"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:25:17
+msgid "Wipe Device(s) request sent successfully"
+msgstr "デバイスをワイプするためのリクエストが正常に送信されました"
+
+#: ./src/features/devices/actions/android/wipe/androidWipe.tsx:35:17
+msgid "Wipe Device(s) command failed"
+msgstr "デバイスをワイプするためのコマンドに失敗しました"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:4:20
+msgid "Wipe & Keep Enrolled"
+msgstr "ワイプ＆エンロールの維持"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:7:19
+msgid ""
+"All devices will be wiped, but they will stay enrolled. Wi-Fi profiles and "
+"a few other settings like region, language, keyboard will be kept."
+msgstr ""
+"すべてのデバイスはワイプされますが、エンロール状態は維持されます。Wi-Fiプロファイルと地域、言語、キーボードなどのその他の設定は保存されます。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:10:19
+msgid ""
+"The device will be wiped, but it will stay enrolled. Wi-Fi profiles and a "
+"few other settings like region, language, keyboard will be kept."
+msgstr ""
+"デバイスはワイプされますが、エンロール状態は維持されます。Wi-Fiプロファイルと地域、言語、キーボードなどのその他の設定は保存されます。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:16:20
+msgid "Complete Wipe"
+msgstr "ワイプを完了する"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:19:19
+msgid "All devices will be completely wiped, all the data will be erased."
+msgstr "すべてのデバイスが完全にワイプされ、すべてのデータが消去されます。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:22:19
+msgid "The device will be completely wiped, all the data will be erased."
+msgstr "デバイスは完全にワイプされ、すべてのデータが消去されます。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:28:20
+msgid "Complete Wipe (protected)"
+msgstr "ワイプを完了する（保護された）"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:31:19
+msgid ""
+"Unlike the \"Complete Wipe\", which can be easily circumvented by simply "
+"power cycling the device, the protected wipe will keep trying to reset the "
+"devices until it’s done."
+msgstr ""
+"デバイスの電源を切り替えるだけで簡単に迂回できる \"完全なワイプ \"とは異なり、保護ワイプは、それが完了するまでデバイスのリセットを続行します。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:34:19
+msgid ""
+"Unlike the \"Complete Wipe\", which can be easily circumvented by simply "
+"power cycling the device, the protected wipe will keep trying to reset the "
+"device until it’s done."
+msgstr ""
+"デバイスの電源を切り替えるだけで簡単に迂回できる \"完全なワイプ \"とは異なり、保護ワイプは、それが完了するまでデバイスのリセットを続行します。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:40:20
+msgid "Persist User Data"
+msgstr "ユーザーデータを永続化する"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:43:19
+msgid "All devices will be wiped, but the user accounts and data will persist."
+msgstr "すべてのデバイスがワイプされますが、ユーザーアカウントとデータは永続化します。 "
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:46:19
+msgid "The device will be wiped, but the user accounts and data will persist."
+msgstr "デバイスはワイプされますが、ユーザーアカウントとデータは永続化します。"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:52:20
+msgid "Persist Provisioned Data"
+msgstr "プロビジョニングされたデータを永続化する"
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:55:19
+msgid ""
+"Provisioned data will be backed up to a persistent location, and then a "
+"remote wipe of the devices will be performed. The information that was "
+"backed up will be restored and applied to the devices when it resumes."
+msgstr ""
+"プロビジョニングされたデータは、永続化された位置にバックアップされ、デバイスのリモートワイプが実行されます。バックアップされた情報は復元され、デバイスの再起動時に適用されます。 "
+
+#: ./src/features/devices/actions/components/WipeDeviceModal/microsoft/WindowsWipeDeviceModal.text.ts:58:19
+msgid ""
+"Provisioned data will be backed up to a persistent location, and then a "
+"remote wipe of the device will be performed. The information that was "
+"backed up will be restored and applied to the device when it resumes."
+msgstr ""
+"プロビジョニングされたデータは、永続化された位置にバックアップされ、デバイスのリモートワイプが実行されます。バックアップされた情報は復元され、デバイスの再起動時に適用されます。 "
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:73:22
+msgid "Copy to Groups"
+msgstr "グループへコピー"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:268:23
+msgid "Move to Group"
+msgstr "グループへ移動"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:98:22
+msgid "Remove from System"
+msgstr "システムから削除"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:115:22
+msgid "Set Tracking State"
+msgstr "追跡状態を設定する"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:125:22
+msgid "Edit Device Fields"
+msgstr "デバイスフィールドを編集する"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:160:22
+msgid "Renew Token"
+msgstr "トークンを更新する"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:175:22
+msgid "Lock Device"
+msgstr "デバイスをロック"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:185:22
+msgid "Play Sound"
+msgstr "音を再生"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:210:22
+msgid "Edit Smart Group"
+msgstr "スマートグループを編集"
+
+#: ./src/features/devices/actions/helpers/actionsMapping.ts:220:22
+msgid "Remove Group"
+msgstr "グループを削除"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:291:25
+msgid "Add to Deployment"
+msgstr "配布に追加"
+
+#: ./src/features/devices/actions/restart/restart.tsx:89:40
+msgid ""
+"\n"
+"                  The paths to kexts to add to auxilliary kernel cache "
+"since\n"
+"                  the last kernel cache rebuild. If not present, the system\n"
+"                  only adds previously-discovered kexts to kernel cache.\n"
+"                "
+msgstr ""
+"\n                  前回カーネルキャッシュがリビルドされて以来\n、補助カーネルに追加されるkextへのパス。存在しない場合、システムは\n                  過去発見されたkextのみをカーネルキャッシュへ追加します。\n                "
+
+#: ./src/features/devices/DeviceDetails/tabs/info/status/DeviceDeploymentChart.js:78:28
+msgid "N/A"
+msgstr "なし"
+
+#: ./src/features/devices/DeviceDetails/tabs/payloads/DevicePayloadsTableView.tsx:70:21
+msgid "Fileset reinstallation failed: %1"
+msgstr "ファイルセットの再インストールに失敗しました：%1"
+
+#: ./src/features/devices/DeviceDetails/tabs/payloads/DevicePayloadsTableView.tsx:79:24
+msgid "Reinstall"
+msgstr "再インストール"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:33:24
+msgid "Cannot fetch"
+msgstr "取得できません"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:43:26
+msgid "Device Apps"
+msgstr "デバイスアプリ"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:49:26
+msgid "Device Commands"
+msgstr "デバイスコマンド"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:55:26
+msgid "Device Groups"
+msgstr "デバイスグループ"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:61:26
+msgid "Device Media"
+msgstr "デバイスメディア"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:67:26
+msgid "Device Payloads"
+msgstr "デバイスペイロード"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:73:26
+msgid "Device Updates"
+msgstr "デバイスアップデート"
+
+#: ./src/features/devices/devicesRedux/DeviceTabs/DeviceTabs.thunk.ts:79:26
+msgid "Device Users"
+msgstr "デバイスユーザー"
+
+#: ./src/features/payloads/actions/actions.utils.tsx:95:29
+msgid "The following items were successfully changed:"
+msgstr "以下の項目が正常に削除されました："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:98:37
+msgid "The following items were not found:"
+msgstr "以下の項目が見つかりませんでした："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:103:39
+msgid "The following items were not deleted:"
+msgstr "以下の項目が削除されませんでした："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:108:37
+msgid "The following items were not moved:"
+msgstr "以下の項目を移動できませんでした："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:114:19
+msgid "You don't have permission to the following items:"
+msgstr "以下の項目に対する権限がありません："
+
+#: ./src/features/payloads/actions/actions.utils.tsx:120:19
+msgid "The following items are locked by other users:"
+msgstr "以下の項目は他のユーザーにロックされています："
+
+#: ./src/features/payloads/actions/moveToGroup.ts:18:22
+msgid "Payload group moved to \"%1\""
+msgstr "ペイロードグループが \"%1\"に移動しました"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:21:22
+msgid "Payload moved to \"%1\""
+msgstr "ペイロードが \"%1\"に移動しました"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:23:20
+msgid "Items moved to \"%1\""
+msgstr "項目が\"%1\"に移動しました"
+
+#: ./src/features/payloads/actions/moveToGroup.ts:52:19
+msgid "Move failed"
+msgstr "移動に失敗しました"
+
+#: ./src/features/payloads/actions/removePayload.ts:16:22
+msgid "Delete Payload Group"
+msgstr "ペイロードグループを削除する"
+
+#: ./src/features/payloads/actions/removePayload.ts:18:22
+msgid "Delete Payload"
+msgstr "ペイロードを削除する"
+
+#: ./src/features/payloads/actions/removePayload.ts:19:20
+msgid "Delete Items"
+msgstr "項目を削除する"
+
+#: ./src/features/payloads/actions/removePayload.ts:30:28
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"        Deleting this payload group will <strong>affect %2 "
+"devices</strong>. You can't undo this action.\n"
+"        Are you sure you want to delete this payload group?"
+msgstr ""
+"<strong> %1</strong>を削除しようとしています。\n        このペイロードグループの削除は、デバイスに<strong>影響%2を与えます</strong>。このアクションを元に戻すことはできません。\n        このペイロードグループの削除を続行しますか？"
+
+#: ./src/features/payloads/actions/removePayload.ts:38:26
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"      Deleting this payload will <strong>affect %2 devices</strong>. You "
+"can't undo this action.\n"
+"      Are you sure you want to delete this payload?"
+msgstr ""
+"<strong> %1</strong>を削除しようとしています。\n        このペイロードの削除は、デバイスに<strong>影響%2を与えます</strong>。このアクションを元に戻すことはできません。\n        このペイロードの削除を続行しますか？"
+
+#: ./src/features/payloads/actions/removePayload.ts:46:24
+msgid ""
+"You are about to delete<strong> %1</strong>.\n"
+"    Deleting these items will <strong>affect %2 devices</strong>. You can't "
+"undo this action.\n"
+"    Are you sure you want to delete them?"
+msgstr ""
+"<strong> %1</strong>を削除しようとしています。\n        これらの項目の削除は、デバイスに<strong>影響%2を与えます</strong>。このアクションを元に戻すことはできません。\n        それらの削除を続行しますか？"
+
+#: ./src/features/payloads/actions/removePayload.ts:57:22
+msgid "Payload group deleted"
+msgstr "ペイロードグループを削除しました"
+
+#: ./src/features/payloads/actions/removePayload.ts:60:20
+msgid "Items deleted"
+msgstr "項目を削除しました"
+
+#: ./src/features/payloads/actions/removePayload.ts:94:19
+msgid "Delete failed"
+msgstr "削除に失敗しました"
+
+#: ./src/features/payloads/AndroidManager/config/dedicatedDevice.ts:114:33
+msgid "Id"
+msgstr "ID"
+
+#: ./src/features/payloads/AndroidManager/config/deviceRestrictions.tsx:409:30
+msgid ""
+"Allow user to configure or modify bluetooth connections. Note that <a "
+"data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" "
+"href=\"https://developers.google.com/android/management/reference/rest/v1/"
+"enterprises.policies#Policy.FIELDS.bluetooth_disabled\">this setting can be "
+"bypassed by users</a>; to completely disable bluetooth, use \"Allow "
+"bluetooth\"."
+msgstr ""
+"ユーザーによるBluetooth接続の構成や修正を許可します。<a data-testId=\"bluetooth-config-enabled-description-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developers.google.com/android/management/reference/rest/v1/enterprises.policies#Policy.FIELDS.bluetooth_disabled\">ユーザーがこの設定をバイパスすることができる</a>ことに注意してください。Bluetoothを完全に無効にするには \"bluetoothを許可\"を使用してください。"
+
+#: ./src/features/payloads/FileWaveManager/config/geofencing.ts:43:30
+msgid ""
+"Note: Location accuracy is determined by a number of external factors. "
+"Please see our Knowledge Base for more information."
+msgstr ""
+"注: 位置の精度は、いくつかの外的因子によって決まります。詳細は、ナレッジベースを参照してください。"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:145:23
+msgid "Move to group"
+msgstr "グループへ移動"
+
+#: ./src/features/payloads/payloadDetails/components/PayloadDetailsContent.tsx:220:25
+msgid "Payload Actions"
+msgstr "ペイロードアクション"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadDependencies/components/PayloadDependencyContainerContent.js:212:36
+msgid "Add dependencies"
+msgstr "依存関係を追加する"
+
+#: ./src/features/payloads/payloadDetails/payloadTabs/payloadScripts/components/ScriptsSection.component.tsx:74:29
+msgid "Add script"
+msgstr "スクリプトを追加する"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:231:21
+msgid "1 payload"
+msgstr "1ペイロード"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:232:21
+msgid "%1 payloads"
+msgstr "%1ペイロード:"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:235:21
+msgid "1 payload group"
+msgstr "1ペイロードグループ"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:236:21
+msgid "%1 payload groups"
+msgstr "%1ペイロードグループ"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:239:43
+msgid "&"
+msgstr "&"
+
+#: ./src/features/payloads/payloadsList/PayloadsList.page.tsx:416:35
+msgid "Create Configuration"
+msgstr "設定を作成する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:6:21
+msgid "Notify the user before downloading the update"
+msgstr "アップデートをダウンロードする前にユーザーに通知する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:10:21
+msgid ""
+"Auto install the update and then notify the user to schedule a device "
+"restart"
+msgstr ""
+"アップデートを自動インストールして、デバイス再起動のスケジュールをユーザーに通知する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:15:21
+msgid "Auto install and restart"
+msgstr "自動インストールと再起動 "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:16:21
+msgid "Auto install and restart at a specified time"
+msgstr "指定時間の自動インストールと再起動"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:18:21
+msgid "Auto install and restart without enduser control"
+msgstr "エンドユーザー制御のない自動インストールと再起動"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:21:21
+msgid "Turn off automatic updates"
+msgstr "自動更新をオフにする"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:63:21
+msgid "Use the default Windows Update notifications"
+msgstr "デフォルトのWindowsアップデート通知を使用する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:65:21
+msgid "Turn off all notifications, excluding restart warnings"
+msgstr "再起動警告を除くすべての通知をオフにする"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:69:21
+msgid "Turn off all notifications, including restart warnings"
+msgstr "再起動警告を含むすべての通知をオフにする"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:89:26
+msgid "Use this section to configure software updates settings"
+msgstr "このセクションでソフトウェアのアップデートを設定します"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:100:24
+msgid "Update settings"
+msgstr "アップデート設定"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:106:24
+msgid "Microsoft product updates"
+msgstr "Microsoft製品のアップデート"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:107:30
+msgid "Control whether to scan for app updates from Microsoft Update."
+msgstr "Microsoftアップデートからアプリをアップデートするためにスキャンするかどうかを管理します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:122:24
+msgid "Windows drivers"
+msgstr "Windowsドライバー"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:123:30
+msgid "Allow or block driver updates via Windows Update."
+msgstr "Windowsアップデートを介したドライバーアップデートを許可またはブロックします。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:138:24
+msgid "Quality update deferral period (days)"
+msgstr "品質アップデート延期期間（日）"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:139:30
+msgid "Defer quality updates for the specified number of days."
+msgstr "品質アップデートを指定された日数だけ延期します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:244:30
+msgid "The value must not be empty."
+msgstr "値を空白にすることはできません。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:596:30
+msgid "The value must be a valid number."
+msgstr "値は有効な数である必要があります。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:159:30
+msgid "The value must be between 0 and 30."
+msgstr "値は０から30までの数である必要があります。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:171:24
+msgid "Feature update deferral period (days)"
+msgstr "機能アップデート延期期間（日）"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:172:30
+msgid "Defer feature updates for the specified number of days."
+msgstr "機能アップデートを指定された日数だけ延期します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:192:30
+msgid "The value must be between 0 and 365."
+msgstr "値は０から365までの数である必要があります。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:204:24
+msgid "Upgrade Windows 10 devices to Latest Windows 11 release"
+msgstr "Windows 10デバイスを最新のWindows 11リリースにアップグレードする"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:207:30
+msgid "Set to upgrade eligible Windows 10 devices to latest Windows 11 release."
+msgstr "対象となるWindows 10デバイスを最新のWindows 11 リリースにアップグレードするための設定を行います。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:235:24
+msgid "Set feature update uninstall period (2 - 60 days)"
+msgstr "機能アップデートアンインストール期間を設定する（2 - 60日）"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:236:30
+msgid "Set feature update uninstall period"
+msgstr "機能アップデートアンインストール期間を設定する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:254:30
+msgid "The value must be between 2 and 60."
+msgstr "値は2から60までの数である必要があります。 "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:266:24
+msgid "User experience settings"
+msgstr "ユーザーエクスペリエンス 設定"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:273:24
+msgid "Automatic update behavior"
+msgstr "自動更新挙動"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:274:30
+msgid "Manage automatic update behavior to scan, download, and install updates."
+msgstr "自動アップデート行動を管理して、アップデートをスキャン、ダウンロード、インストールします。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:288:24
+msgid "Active hours start"
+msgstr "アクティブアワー開始"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:310:30
+msgid ""
+"Configure a period when restarts due to update installations will be "
+"suppressed."
+msgstr ""
+"アップデートのインストールによる再起動の抑制期間を設定します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:309:24
+msgid "Active hours end"
+msgstr "アクティブアワー終了"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:330:24
+msgid "Automatic behavior frequency"
+msgstr "自動行動頻度"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:331:30
+msgid "Scheduled the update installation on the weeks of the month."
+msgstr "その月の週にアップデートのインストールをスケジュールしました。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:342:28
+msgid "Every week"
+msgstr "毎週"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:355:28
+msgid "First week of the month"
+msgstr "その月の第一週"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:368:28
+msgid "Second week of the month"
+msgstr "その月の第二週"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:381:28
+msgid "Third week of the month"
+msgstr "その月の第三週"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:394:28
+msgid "Fourth week of the month"
+msgstr "その月の第四週"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:409:24
+msgid "Scheduled install day"
+msgstr "予定されたインストール日"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:410:30
+msgid "Select install day for scheduled updates."
+msgstr "予定されたアップデートのためのインストール日を選択してください。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:425:24
+msgid "Scheduled install time"
+msgstr "予定されたインストール時刻"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:426:30
+msgid "Select automation update installation day and time."
+msgstr "自動インストール日時を選択してください。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:443:24
+msgid "Restart checks"
+msgstr "チェックを再起動する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:444:30
+msgid ""
+"Set to skip all check before restart: Battery level = 40%, User presence, "
+"Display Needed, Presentation mode, Full screen mode, phone call state, game "
+"mode etc."
+msgstr ""
+"再開する前にすべてのチェックを省略するように設定します：電池残量 = 40%、ユーザープレゼンス、必要なディスプレイ、プレゼンテーションモード、フルスクリーンモード、通話状態、ゲームモードなど。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:459:24
+msgid "Option to pause Windows updates"
+msgstr "Windowsアップデートを一時停止するオプション"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:460:30
+msgid ""
+"An option in Windows Update that, when enabled, lets device users pause "
+"updates for a certain number of days."
+msgstr ""
+"Windowsアップデートのオプション。これを有効にすると、デバイスユーザーは、一定日数の間アップデートを一時停止することができます。  "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:475:24
+msgid "Option to check for Windows updates"
+msgstr "Windowsアップデート向け確認オプション"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:476:30
+msgid ""
+"A button in Windows Update that, when enabled, lets device users check the "
+"update service for updates."
+msgstr ""
+"Windowsアップデートのボタン。 これを有効にすると、デバイスユーザーは、アップデートサービスを確認することができます。  "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:491:24
+msgid "Change notification update level"
+msgstr "アップデート通知頻度を変更する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:492:30
+msgid "Specifies what Windows Update notifications users see."
+msgstr "ユーザーに表示されるWindowsアップデート通知を指定します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:507:24
+msgid "Deadline settings"
+msgstr "期限設定"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:513:24
+msgid "Use deadline settings"
+msgstr "期限設定を使用する"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:514:30
+msgid "Allows user to use deadline settings."
+msgstr "ユーザーによる期限設定の使用を許可します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:520:24
+msgid "Deadline for feature updates"
+msgstr "機能アップデートの期限"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:521:30
+msgid ""
+"Specifies the number of days a user has before feature updates are "
+"installed on their devices automatically."
+msgstr ""
+"機能アップデートが デバイスに自動インストールされるまでの日数を指定します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:571:30
+msgid "The value must be between 2 and 30."
+msgstr "値は2から30までの数である必要があります。 "
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:553:24
+msgid "Deadline for quality updates"
+msgstr "品質アップデートの期限"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:554:30
+msgid ""
+"Specifies the number of days a user has before quality updates are "
+"installed on their devices automatically."
+msgstr ""
+"品質アップデートが デバイスに自動インストールされるまでの日数を指定します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:583:24
+msgid "Grace period"
+msgstr "猶予期間"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:584:30
+msgid ""
+"Specifies a minimum number of days after deadline until restarts occur "
+"automatically."
+msgstr ""
+"期限から自動再始動までの最小日数を指定します。"
+
+#: ./src/features/payloads/WindowsManager/config/softwareUpdates.ts:601:30
+msgid "The value must be between 0 and 7."
+msgstr "値は０から7までの数である必要があります。"
+
+#: ./src/features/reports/components/MainComponentPicker/MainComponentPicker.component.tsx:78:29
+msgid "Boosters"
+msgstr "ブースター"
+
+#: ./src/features/settings/components/IDPSetupForm/IDPSetupForm.component.tsx:188:28
+msgid "Copy URLs to your IDP settings in order to get responses from IDP."
+msgstr "IDPからのレスポンスを得るためにURLを自分のIDP設定へコピーします。"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:47:55
+msgid "Unique identifier"
+msgstr "固有識別子"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:48:51
+msgid "Location name"
+msgstr "位置情報名"
+
+#: ./src/features/sources/apple/components/depAccountList/DepAccountList.component.tsx:76:34
+msgid "Synchronize DEP Accounts"
+msgstr "DEPアカウントを同期する"
+
+#: ./src/features/sources/apple/components/depAccountList/DepAccountList.component.tsx:111:32
+msgid "Add DEP account"
+msgstr "DEPアカウントを追加する"
+
+#: ./src/features/sources/apple/components/depProfileList/DepProfileList.component.tsx:40:32
+msgid "Add DEP profile"
+msgstr "DEPプロファイルを追加する"
+
+#: ./src/features/sources/apple/components/general/UploadCertificate.component.tsx:29:25
+msgid "Upload certificate"
+msgstr "証明書をアップロードする"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:100:34
+msgid "Synchronize VPP Tokens"
+msgstr "VPPトークンを同期する"
+
+#: ./src/features/sources/apple/components/vppTokenList/VPPTokenList.component.tsx:135:32
+msgid "Add VPP"
+msgstr "VPPを追加"
+
+#: ./src/features/sources/apple/components/workflowList/WorkflowList.component.tsx:38:32
+msgid "Add workflow"
+msgstr "ワークフローを追加する"
+
+#: ./src/features/sources/apple/depProfiles/components/form/general/DepProfileMdmOptions.component.tsx:184:28
+msgid ""
+"Custom enrollment option can't be used without IDP configuration created. "
+"Please, configure IDP to enable this option again."
+msgstr ""
+"カスタムエンロールオプションは、 IDP 設定が作成されていない場合は使用できません。IDPを設定して、このオプションを再度有効にしてください。"
+
+#: ./src/features/sources/apple/workflows/modifyWorkflow/WorkflowForm.component.tsx:289:43
+msgid "Preview"
+msgstr "プレビュー"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:73:24
+msgid "No Enrollment WiFi"
+msgstr "登録されたWiFiがありません"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:142:21
+msgid "Android Enrollment Token %1"
+msgstr "Androidエンロールトークン%1"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:265:35
+msgid "Create Token"
+msgstr "トークンを作成する"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:220:27
+msgid "Remove Token"
+msgstr "トークンを削除する"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:233:21
+msgid "Token details"
+msgstr "トークンの詳細"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/AndroidDeviceTokenModal.component.tsx:234:21
+msgid "Create New Android Enrollment Token"
+msgstr "新しいAndroidエンロールトークンを作成する"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:69:24
+msgid "- - No available WiFi payloads"
+msgstr "-- 利用可能なWiFiペイロードがありません"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:85:20
+msgid ""
+"To enroll  Android Devices, create a new token to scan the QR code with the "
+"desired device. "
+msgstr ""
+"Androidデバイスをエンロールするには、新しいトークンを作成して、使用するデバイスでQRコードをスキャンします。 "
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:96:26
+msgid "Learn More"
+msgstr "詳細情報"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:138:29
+msgid "Duration"
+msgstr "期間"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:140:31
+msgid "Number of days valid (30 max)"
+msgstr "有効日数（最大30日）"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:159:25
+msgid "Multiple Enrollments Allowed"
+msgstr "複数エンロールが可能"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:168:27
+msgid "If unchecked, the token will be valid for a single enrollment."
+msgstr "チェックを外すと、トークンの単回エンロールが有効になります。"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/CreateAndroidDeviceToken/CreateAndroidDeviceToken.component.tsx:177:26
+msgid "WiFi Profile"
+msgstr "WiFiプロファイル"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:106:25
+msgid "Multiple Enrollments"
+msgstr "複数エンロール"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:115:26
+msgid "Wifi Profile"
+msgstr "WiFiプロファイル"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:128:24
+msgid "QR Code"
+msgstr "QRコード"
+
+#: ./src/features/sources/google/components/AndroidDeviceTokenModal/EditAndroidDeviceToken/EditAndroidDeviceToken.component.tsx:145:31
+msgid "Download generated PDF"
+msgstr "生成されたPDFをダウンロードする"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:28:28
+msgid "Click on"
+msgstr "ここをクリック"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:29:25
+msgid " + Create Token ↗"
+msgstr " + トークンを作成↗"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/AndroidEnrollmentList.component.tsx:31:28
+msgid "to add a new Enrollment Token."
+msgstr "新しいエンロールトークンを追加します。"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/AndroidEnrollmentTable.component.tsx:60:33
+msgid "Expires"
+msgstr "有効期限"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/AndroidEnrollmentTable.component.tsx:66:33
+msgid "MultipleEnrollments"
+msgstr "複数エンロール"
+
+#: ./src/features/sources/google/components/AndroidEnrollmentList/components/AndroidEnrollmentTable/components/EnrollmentDownloadRenderer/EnrollmentDownloadRenderer.tsx:22:25
+msgid "Download PDF"
+msgstr "PDFをダウンロード"
+
+#: ./src/features/sources/google/components/utils.ts:22:39
+msgid "Token name:"
+msgstr "トークン名:"
+
+#: ./src/features/sources/google/components/utils.ts:24:19
+msgid "Expiry date:"
+msgstr "有効期限日："
+
+#: ./src/features/sources/google/components/utils.ts:28:19
+msgid "Multiple enrollments:"
+msgstr "複数エンロール："
+
+#: ./src/features/sources/google/components/utils.ts:34:25
+msgid "Wifi profile:"
+msgstr "WiFiプロファイル："
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:252:32
+msgid "Android Enrollment Tokens"
+msgstr "Androidエンロールトークン"
+
+#: ./src/features/sources/google/GoogleSource.page.tsx:258:40
+msgid "Connect your EMM account tokens"
+msgstr "EMMアカウントトークンを接続する"
+
+#: ./src/features/sources/microsoft/components/AzureAccountsTable/AzureAccountsTable.component.tsx:69:36
+msgid "Add Azure account"
+msgstr "Azureアカウントを追加する"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:23:17
+msgid "Enrollment Tokens list"
+msgstr "エンロールトークンのリスト"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:24:17
+msgid "Cannot fetch Enrollment Token list"
+msgstr "エンロールトークンリストを取得できません"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:47:19
+msgid "Create Enrollment Token"
+msgstr "エンロールトークンを作成する"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:48:19
+msgid "Error creating Enrollment Token"
+msgstr "エンロールトークン作成でエラー発生"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:75:19
+msgid "Update Enrollment Token"
+msgstr "エンロールトークンをアップデートする"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:76:19
+msgid "Error updating Enrollment Token"
+msgstr "エンロールトークンのアップデートでエラー発生"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:94:17
+msgid "Delete Enrollment Token"
+msgstr "エンロールトークンを削除する"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:95:17
+msgid "Error deleting Enrollment Token"
+msgstr "エンロールトークン削除でエラー発生"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:113:17
+msgid "WiFi Profiles list"
+msgstr "WiFiプロファイルリスト"
+
+#: ./src/features/sources/sourcesRedux/enrollmentList/enrollmentList.thunk.ts:114:17
+msgid "Cannot fetch WiFi Profiles list"
+msgstr "WiFiプロファイルリストを取得できません"
+
+#: ./src/features/TeamViewer/TeamViewerErrorModal/TeamViewerErrorModal.component.tsx:22:46
+msgid "TeamViewer error"
+msgstr "TeamViewerエラー"
+
+#: ./src/features/TeamViewer/TeamViewerErrorModal/TeamViewerErrorModal.component.tsx:27:27
+msgid "Retry"
+msgstr "再試行"
+
+#: ./src/library/form/fields/StringField.tsx:86:38
+msgid "Show text"
+msgstr "テキストを表示する"
+
+#: ./src/library/form/fields/StringField.tsx:86:63
+msgid "Hide text"
+msgstr "テキストを非表示にする"
+
+#: ./src/sharedComponents/Formik/FormikTableInput/components/FormikTableInputContent.component.tsx:167:38
+msgid "Table row values are invalid."
+msgstr "表の行の値が無効です。"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:82:26
+msgid "Column Actions"
+msgstr "列のアクション"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:87:27
+msgid "Unpin Column"
+msgstr "列の固定を解除する"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:88:27
+msgid "Pin Column"
+msgstr "列を固定する"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ActionsPanel.component.tsx:98:27
+msgid "Autosize Column"
+msgstr "列の自動サイズ調整"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/ClearFilter.component.tsx:36:27
+msgid "Clear Filter"
+msgstr "フィルターをクリア"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/SetFilter.component.tsx:148:28
+msgid "Column Filters"
+msgstr "列フィルター"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:111:29
+msgid "Period"
+msgstr "期間"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:120:40
+msgid "From"
+msgstr "から"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/DateFilter.component.tsx:127:40
+msgid "To"
+msgstr "まで"
+
+#: ./src/sharedComponents/table/components/ColumnHeaderMenu/components/SetFilter.component.tsx:165:29
+msgid "Select all"
+msgstr "すべて選択"
+
+#: ./src/sharedComponents/table/components/SimpleToolPanel/SimpleToolPanel.component.tsx:56:22
+msgid "Column Settings"
+msgstr "列設定"
+
+#: ./src/sharedComponents/table/components/SimpleToolPanel/SimpleToolPanel.component.tsx:73:27
+msgid "Reset Columns"
+msgstr "列をリセットする"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:64:20
+msgid "Other"
+msgstr "その他"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:159:20
+msgid "Paid Licenses"
+msgstr "支払い済みライセンス"
+
+#: ./src/sharedComponents/table/utils/quickFilters.ts:169:20
+msgid "Free"
+msgstr "無料"
