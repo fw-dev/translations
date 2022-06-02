@@ -24,562 +24,6 @@
     </message>
 </context>
 <context>
-    <name>CCommunications</name>
-    <message>
-        <source>VNC Relay Port:</source>
-        <translation type="vanished">VNC 轉接埠：</translation>
-    </message>
-    <message>
-        <source>ex. 20030</source>
-        <translation type="vanished">範例20030</translation>
-    </message>
-    <message>
-        <source>VNC Server Port:</source>
-        <translation type="vanished">VNC 伺服器連接埠：</translation>
-    </message>
-    <message>
-        <source>ex. 20031</source>
-        <translation type="vanished">範例20031</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="14"/>
-        <source>Communications</source>
-        <translation>通訊</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="195"/>
-        <source>ex. 20010</source>
-        <translation>範例20010</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="152"/>
-        <source>ex. 20020</source>
-        <translation>範例20020</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="215"/>
-        <source>ex. 20005</source>
-        <translation>範例20005</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="92"/>
-        <source>Server Publish Port:</source>
-        <translation>伺服器發佈連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="266"/>
-        <source>Kiosk Port:</source>
-        <translation>Kiosk 連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="105"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="142"/>
-        <source>Monitor Port:</source>
-        <translation>監視器連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="185"/>
-        <source>FileWave Server Address:</source>
-        <translation>FileWave 伺服器位址：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="159"/>
-        <source>Server Port:</source>
-        <translation>伺服器連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="276"/>
-        <source>Client Name:</source>
-        <translation>用戶端名稱：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="132"/>
-        <source>Tickle Interval:</source>
-        <translation>Tickle 間隔：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="237"/>
-        <source>Sync computer name</source>
-        <translation>同步電腦名稱</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="244"/>
-        <source>Use SSL</source>
-        <translation>使用 SSL</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="286"/>
-        <source>ex. 20015</source>
-        <translation>範例20015</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.cpp" line="42"/>
-        <source>(no value)</source>
-        <translation>（沒有值）</translation>
-    </message>
-</context>
-<context>
-    <name>PreferencesMain</name>
-    <message>
-        <source>Managed remote control cannot be enabled without password being configured too.</source>
-        <translation type="vanished">如果不設定密碼，也無法啟用受管理遠端控制。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="98"/>
-        <source>Communications</source>
-        <translation>通訊</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="101"/>
-        <source>Boosters</source>
-        <translation>Booster</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="104"/>
-        <source>Options</source>
-        <translation>選項</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="113"/>
-        <source>Privacy</source>
-        <translation>隱私權</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="135"/>
-        <source>FileWave™ Imaging Appliance Preferences</source>
-        <translation>FileWave™ 映像設備喜好設定</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="137"/>
-        <source>FileWave™ Client Preferences</source>
-        <translation>FileWave™ 用戶端喜好設定</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="376"/>
-        <source>Cannot confirm password.  Please re-enter password.</source>
-        <translation>無法確認密碼。請重新輸入密碼。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="377"/>
-        <source>Error</source>
-        <translation>錯誤</translation>
-    </message>
-</context>
-<context>
-    <name>PrefsEditorDlg</name>
-    <message>
-        <source>ex. 20031</source>
-        <translation type="vanished">範例20031</translation>
-    </message>
-    <message>
-        <source>VNC Relay Port:</source>
-        <translation type="vanished">VNC 轉接埠：</translation>
-    </message>
-    <message>
-        <source>ex. 20030</source>
-        <translation type="vanished">範例20030</translation>
-    </message>
-    <message>
-        <source>VNC Server Port:</source>
-        <translation type="vanished">VNC 伺服器連接埠：</translation>
-    </message>
-    <message>
-        <source>Observe Client</source>
-        <translation type="vanished">觀察用戶端</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="14"/>
-        <source>Superprefs Editor</source>
-        <translation>Superprefs Editor</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="20"/>
-        <source>These preferences will be merged with the preferences on target clients.</source>
-        <translation>這些喜好設定將與目標用戶端的喜好設定合併。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="27"/>
-        <source>If you would like a value to remain unchanged, leave it blank.</source>
-        <translation>如果您希望某個值保持不變，請將其留空。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="38"/>
-        <source>Communications</source>
-        <translation>通訊</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="229"/>
-        <source>Kiosk Port:</source>
-        <translation>Kiosk 連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="91"/>
-        <source>Tickle Interval:</source>
-        <translation>Tickle 間隔：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="117"/>
-        <source>Synchronize Client Name with Computer name</source>
-        <translation>將用戶端名稱與電腦名稱同步</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="71"/>
-        <source>FileWave Server Address:</source>
-        <translation>FileWave 伺服器位址：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="51"/>
-        <source>ex. 20020</source>
-        <translation>範例20020</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="58"/>
-        <source>Server Port:</source>
-        <translation>伺服器連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="166"/>
-        <source>Monitor Port:</source>
-        <translation>監視器連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="205"/>
-        <source>ex. 20010</source>
-        <translation>範例20010</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="198"/>
-        <source>ex. 20015</source>
-        <translation>範例20015</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="212"/>
-        <source>seconds</source>
-        <translation>秒</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="219"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="622"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="671"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="684"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="737"/>
-        <source>_</source>
-        <translation>_</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="242"/>
-        <source>Server Publish Port:</source>
-        <translation>伺服器發佈連接埠：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="84"/>
-        <source>ex. 20005</source>
-        <translation>範例20005</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="253"/>
-        <source>Boosters</source>
-        <translation>Booster</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="279"/>
-        <source>Booster 3:</source>
-        <translation>Booster 3：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="321"/>
-        <source>Port</source>
-        <translation>連接埠</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="354"/>
-        <source>Publish Port</source>
-        <translation>發佈連接埠</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="384"/>
-        <source>Booster 5:</source>
-        <translation>Booster 5：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="397"/>
-        <source>Booster 4:</source>
-        <translation>Booster 4：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="476"/>
-        <source>Booster 1:</source>
-        <translation>Booster 1：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="502"/>
-        <source>Booster 2:</source>
-        <translation>Booster 2：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="528"/>
-        <source>IP or DNS Address:</source>
-        <translation>IP 或 DNS 位址：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="561"/>
-        <source>Route server messages via boosters.</source>
-        <translation>透過 Booster 路由伺服器訊息。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="572"/>
-        <source>Options</source>
-        <translation>選項</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="598"/>
-        <source>MB</source>
-        <translation>MB</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="605"/>
-        <source>minutes</source>
-        <translation>分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="612"/>
-        <source>Priority:</source>
-        <translation>重要度:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="638"/>
-        <source>Password:</source>
-        <translation>密碼：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="648"/>
-        <source>Verify Password:</source>
-        <translation>驗證密碼：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="707"/>
-        <source>File Check Interval:</source>
-        <translation>檔案檢查間隔：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="717"/>
-        <source>Free Space Margin:</source>
-        <translation>可用空間邊界：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="727"/>
-        <source>Debug Level:</source>
-        <translation>偵錯等級：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="761"/>
-        <source>Privacy</source>
-        <translation>隱私權</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="767"/>
-        <source>Personal Data</source>
-        <translation>個人資料</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="786"/>
-        <source>Location refresh interval:</source>
-        <translation>位置重新整理間隔：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="793"/>
-        <source>Disable personal data collection</source>
-        <translation>停用個人資料收集</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="806"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;可在組織層級停用收集個人資料。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="816"/>
-        <source>Remote Sessions</source>
-        <translation>遠端工作階段</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="822"/>
-        <source>Prompt client for remote control access</source>
-        <translation>提示用戶端進行遠端控制存取</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="845"/>
-        <source>Managed remote control</source>
-        <translation>受管理遠端控制</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="119"/>
-        <source> </source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="120"/>
-        <source>Never</source>
-        <translation>從不</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="121"/>
-        <source>5 minutes</source>
-        <translation>5 分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="122"/>
-        <source>15 minutes</source>
-        <translation>15 分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="123"/>
-        <source>30 minutes</source>
-        <translation>30 分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="124"/>
-        <source>1 hour</source>
-        <translation>1 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="125"/>
-        <source>2 hours</source>
-        <translation>2 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="126"/>
-        <source>6 hours</source>
-        <translation>6 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="127"/>
-        <source>12 hours</source>
-        <translation>12 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="128"/>
-        <source>1 day</source>
-        <translation>1 天</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="178"/>
-        <source>Select an existing fwcld.newprefs.plist file or click Cancel to start with a blank one...</source>
-        <translation>選取現有的 fwcld.newprefs.plist 檔案或按一下「取消」以從空白開始...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="249"/>
-        <source>Password verification failed.</source>
-        <translation>密碼驗證失敗。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="255"/>
-        <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
-        <translation>選擇一個位置來儲存 Superprefs 檔案；您稍後可將其新增到檔案集中。</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="377"/>
-        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="404"/>
-        <source>You have unsaved changes.  Are you sure you want to quit?</source>
-        <translation>您有未儲存的變更。  是否確定要結束？</translation>
-    </message>
-</context>
-<context>
-    <name>Privacy</name>
-    <message>
-        <source>Observe Client</source>
-        <translation type="vanished">觀察用戶端</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="14"/>
-        <source>Form</source>
-        <translation>表單</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="20"/>
-        <source>Personal Data</source>
-        <translation>個人資料</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="39"/>
-        <source>Location refresh interval:</source>
-        <translation>位置重新整理間隔：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="46"/>
-        <source>Disable personal data collection</source>
-        <translation>停用個人資料收集</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="56"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;可在組織層級停用收集個人資料。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="66"/>
-        <source>Remote Sessions</source>
-        <translation>遠端工作階段</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="72"/>
-        <source>Prompt client for remote control access</source>
-        <translation>提示用戶端進行遠端控制存取</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="92"/>
-        <source>Managed remote control</source>
-        <translation>受管理遠端控制</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="15"/>
-        <source>Never</source>
-        <translation>從不</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="16"/>
-        <source>5 minutes</source>
-        <translation>5 分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="17"/>
-        <source>15 minutes</source>
-        <translation>15 分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="18"/>
-        <source>30 minutes</source>
-        <translation>30 分鐘</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="19"/>
-        <source>1 hour</source>
-        <translation>1 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="20"/>
-        <source>2 hours</source>
-        <translation>2 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="21"/>
-        <source>6 hours</source>
-        <translation>6 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="22"/>
-        <source>12 hours</source>
-        <translation>12 小時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="23"/>
-        <source>1 day</source>
-        <translation>1 天</translation>
-    </message>
-</context>
-<context>
     <name>BoosterPreferencesDlg</name>
     <message>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterpreferencesdlg.ui" line="14"/>
@@ -1145,6 +589,105 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
 </context>
 <context>
+    <name>CCommunications</name>
+    <message>
+        <source>VNC Relay Port:</source>
+        <translation type="vanished">VNC 轉接埠：</translation>
+    </message>
+    <message>
+        <source>ex. 20030</source>
+        <translation type="vanished">範例20030</translation>
+    </message>
+    <message>
+        <source>VNC Server Port:</source>
+        <translation type="vanished">VNC 伺服器連接埠：</translation>
+    </message>
+    <message>
+        <source>ex. 20031</source>
+        <translation type="vanished">範例20031</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="14"/>
+        <source>Communications</source>
+        <translation>通訊</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="195"/>
+        <source>ex. 20010</source>
+        <translation>範例20010</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="152"/>
+        <source>ex. 20020</source>
+        <translation>範例20020</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="215"/>
+        <source>ex. 20005</source>
+        <translation>範例20005</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="92"/>
+        <source>Server Publish Port:</source>
+        <translation>伺服器發佈連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="266"/>
+        <source>Kiosk Port:</source>
+        <translation>Kiosk 連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="105"/>
+        <source>seconds</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="142"/>
+        <source>Monitor Port:</source>
+        <translation>監視器連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="185"/>
+        <source>FileWave Server Address:</source>
+        <translation>FileWave 伺服器位址：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="159"/>
+        <source>Server Port:</source>
+        <translation>伺服器連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="276"/>
+        <source>Client Name:</source>
+        <translation>用戶端名稱：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="132"/>
+        <source>Tickle Interval:</source>
+        <translation>Tickle 間隔：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="237"/>
+        <source>Sync computer name</source>
+        <translation>同步電腦名稱</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="244"/>
+        <source>Use SSL</source>
+        <translation>使用 SSL</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.ui" line="286"/>
+        <source>ex. 20015</source>
+        <translation>範例20015</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Communications.cpp" line="42"/>
+        <source>(no value)</source>
+        <translation>（沒有值）</translation>
+    </message>
+</context>
+<context>
     <name>CFWStatusDlg</name>
     <message>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="14"/>
@@ -1641,6 +1184,463 @@ Please wait for the results before opening a new connection</source>
         <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="19"/>
         <source>Please enter the password to control this Booster:</source>
         <translation>請輸入密碼以控制此 Booster：</translation>
+    </message>
+</context>
+<context>
+    <name>PreferencesMain</name>
+    <message>
+        <source>Managed remote control cannot be enabled without password being configured too.</source>
+        <translation type="vanished">如果不設定密碼，也無法啟用受管理遠端控制。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="98"/>
+        <source>Communications</source>
+        <translation>通訊</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="101"/>
+        <source>Boosters</source>
+        <translation>Booster</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="104"/>
+        <source>Options</source>
+        <translation>選項</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="113"/>
+        <source>Privacy</source>
+        <translation>隱私權</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="135"/>
+        <source>FileWave™ Imaging Appliance Preferences</source>
+        <translation>FileWave™ 映像設備喜好設定</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="137"/>
+        <source>FileWave™ Client Preferences</source>
+        <translation>FileWave™ 用戶端喜好設定</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="376"/>
+        <source>Cannot confirm password.  Please re-enter password.</source>
+        <translation>無法確認密碼。請重新輸入密碼。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/PreferencesMain.cpp" line="377"/>
+        <source>Error</source>
+        <translation>錯誤</translation>
+    </message>
+</context>
+<context>
+    <name>PrefsEditorDlg</name>
+    <message>
+        <source>ex. 20031</source>
+        <translation type="vanished">範例20031</translation>
+    </message>
+    <message>
+        <source>VNC Relay Port:</source>
+        <translation type="vanished">VNC 轉接埠：</translation>
+    </message>
+    <message>
+        <source>ex. 20030</source>
+        <translation type="vanished">範例20030</translation>
+    </message>
+    <message>
+        <source>VNC Server Port:</source>
+        <translation type="vanished">VNC 伺服器連接埠：</translation>
+    </message>
+    <message>
+        <source>Observe Client</source>
+        <translation type="vanished">觀察用戶端</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="14"/>
+        <source>Superprefs Editor</source>
+        <translation>Superprefs Editor</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="20"/>
+        <source>These preferences will be merged with the preferences on target clients.</source>
+        <translation>這些喜好設定將與目標用戶端的喜好設定合併。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="27"/>
+        <source>If you would like a value to remain unchanged, leave it blank.</source>
+        <translation>如果您希望某個值保持不變，請將其留空。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="38"/>
+        <source>Communications</source>
+        <translation>通訊</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="229"/>
+        <source>Kiosk Port:</source>
+        <translation>Kiosk 連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="91"/>
+        <source>Tickle Interval:</source>
+        <translation>Tickle 間隔：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="117"/>
+        <source>Synchronize Client Name with Computer name</source>
+        <translation>將用戶端名稱與電腦名稱同步</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="71"/>
+        <source>FileWave Server Address:</source>
+        <translation>FileWave 伺服器位址：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="51"/>
+        <source>ex. 20020</source>
+        <translation>範例20020</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="58"/>
+        <source>Server Port:</source>
+        <translation>伺服器連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="166"/>
+        <source>Monitor Port:</source>
+        <translation>監視器連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="205"/>
+        <source>ex. 20010</source>
+        <translation>範例20010</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="198"/>
+        <source>ex. 20015</source>
+        <translation>範例20015</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="212"/>
+        <source>seconds</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="219"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="622"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="671"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="684"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="737"/>
+        <source>_</source>
+        <translation>_</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="242"/>
+        <source>Server Publish Port:</source>
+        <translation>伺服器發佈連接埠：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="84"/>
+        <source>ex. 20005</source>
+        <translation>範例20005</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="253"/>
+        <source>Boosters</source>
+        <translation>Booster</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="279"/>
+        <source>Booster 3:</source>
+        <translation>Booster 3：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="321"/>
+        <source>Port</source>
+        <translation>連接埠</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="354"/>
+        <source>Publish Port</source>
+        <translation>發佈連接埠</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="384"/>
+        <source>Booster 5:</source>
+        <translation>Booster 5：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="397"/>
+        <source>Booster 4:</source>
+        <translation>Booster 4：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="476"/>
+        <source>Booster 1:</source>
+        <translation>Booster 1：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="502"/>
+        <source>Booster 2:</source>
+        <translation>Booster 2：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="528"/>
+        <source>IP or DNS Address:</source>
+        <translation>IP 或 DNS 位址：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="561"/>
+        <source>Route server messages via boosters.</source>
+        <translation>透過 Booster 路由伺服器訊息。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="572"/>
+        <source>Options</source>
+        <translation>選項</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="598"/>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="605"/>
+        <source>minutes</source>
+        <translation>分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="612"/>
+        <source>Priority:</source>
+        <translation>重要度:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="638"/>
+        <source>Password:</source>
+        <translation>密碼：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="648"/>
+        <source>Verify Password:</source>
+        <translation>驗證密碼：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="707"/>
+        <source>File Check Interval:</source>
+        <translation>檔案檢查間隔：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="717"/>
+        <source>Free Space Margin:</source>
+        <translation>可用空間邊界：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="727"/>
+        <source>Debug Level:</source>
+        <translation>偵錯等級：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="761"/>
+        <source>Privacy</source>
+        <translation>隱私權</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="767"/>
+        <source>Personal Data</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="786"/>
+        <source>Location refresh interval:</source>
+        <translation>位置重新整理間隔：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="793"/>
+        <source>Disable personal data collection</source>
+        <translation>停用個人資料收集</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="806"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;可在組織層級停用收集個人資料。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="816"/>
+        <source>Remote Sessions</source>
+        <translation>遠端工作階段</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="822"/>
+        <source>Prompt client for remote control access</source>
+        <translation>提示用戶端進行遠端控制存取</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.ui" line="845"/>
+        <source>Managed remote control</source>
+        <translation>受管理遠端控制</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="119"/>
+        <source> </source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="120"/>
+        <source>Never</source>
+        <translation>從不</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="121"/>
+        <source>5 minutes</source>
+        <translation>5 分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="122"/>
+        <source>15 minutes</source>
+        <translation>15 分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="123"/>
+        <source>30 minutes</source>
+        <translation>30 分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="124"/>
+        <source>1 hour</source>
+        <translation>1 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="125"/>
+        <source>2 hours</source>
+        <translation>2 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="126"/>
+        <source>6 hours</source>
+        <translation>6 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="127"/>
+        <source>12 hours</source>
+        <translation>12 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="128"/>
+        <source>1 day</source>
+        <translation>1 天</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="178"/>
+        <source>Select an existing fwcld.newprefs.plist file or click Cancel to start with a blank one...</source>
+        <translation>選取現有的 fwcld.newprefs.plist 檔案或按一下「取消」以從空白開始...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="249"/>
+        <source>Password verification failed.</source>
+        <translation>密碼驗證失敗。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="255"/>
+        <source>Select a location to save the Superprefs file;  You&apos;ll add it to a fileset later.</source>
+        <translation>選擇一個位置來儲存 Superprefs 檔案；您稍後可將其新增到檔案集中。</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="377"/>
+        <location filename="../../FileWaveGuiLib/prefseditordlg.cpp" line="404"/>
+        <source>You have unsaved changes.  Are you sure you want to quit?</source>
+        <translation>您有未儲存的變更。  是否確定要結束？</translation>
+    </message>
+</context>
+<context>
+    <name>Privacy</name>
+    <message>
+        <source>Observe Client</source>
+        <translation type="vanished">觀察用戶端</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="14"/>
+        <source>Form</source>
+        <translation>表單</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="20"/>
+        <source>Personal Data</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="39"/>
+        <source>Location refresh interval:</source>
+        <translation>位置重新整理間隔：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="46"/>
+        <source>Disable personal data collection</source>
+        <translation>停用個人資料收集</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="56"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Collecting personal data may be disabled at an organization level. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;可在組織層級停用收集個人資料。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="66"/>
+        <source>Remote Sessions</source>
+        <translation>遠端工作階段</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="72"/>
+        <source>Prompt client for remote control access</source>
+        <translation>提示用戶端進行遠端控制存取</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.ui" line="92"/>
+        <source>Managed remote control</source>
+        <translation>受管理遠端控制</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="15"/>
+        <source>Never</source>
+        <translation>從不</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="16"/>
+        <source>5 minutes</source>
+        <translation>5 分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="17"/>
+        <source>15 minutes</source>
+        <translation>15 分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="18"/>
+        <source>30 minutes</source>
+        <translation>30 分鐘</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="19"/>
+        <source>1 hour</source>
+        <translation>1 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="20"/>
+        <source>2 hours</source>
+        <translation>2 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="21"/>
+        <source>6 hours</source>
+        <translation>6 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="22"/>
+        <source>12 hours</source>
+        <translation>12 小時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Privacy.cpp" line="23"/>
+        <source>1 day</source>
+        <translation>1 天</translation>
     </message>
 </context>
 <context>

@@ -276,6 +276,324 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
 </context>
 <context>
+    <name>BoosterStatusDlg</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="14"/>
+        <source>Booster Status Monitor</source>
+        <translation>ブースターステータスモニター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="40"/>
+        <source>FileWave Booster:</source>
+        <translation>FileWavｅブースター:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="277"/>
+        <source>free space on root disk</source>
+        <translation>ルートディスクの空き容量</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="324"/>
+        <source>remaining to load</source>
+        <translation>ロードの残り</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="267"/>
+        <source>Status:</source>
+        <translation>ステータス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="250"/>
+        <source>files remaining to load</source>
+        <translation>ロードの残りファイル</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="110"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="150"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="183"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="203"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="257"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="297"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="355"/>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="378"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="524"/>
+        <source>Address:</source>
+        <translation>アドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="317"/>
+        <source>active connections</source>
+        <translation>アクティブ接続数</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="160"/>
+        <source>12345</source>
+        <translation>12345</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="365"/>
+        <source>Launched:</source>
+        <translation>ローンチ:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="388"/>
+        <source>files boosted</source>
+        <translation>ブースト済みファイル</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="338"/>
+        <source>data transferred</source>
+        <translation>データ転送済み</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="284"/>
+        <source>Version:</source>
+        <translation>バージョン:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="223"/>
+        <source>Connecting...</source>
+        <translation>接続中....</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="120"/>
+        <source>Build:</source>
+        <translation>ビルド:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="133"/>
+        <source>Server Address:</source>
+        <translation>サーバーアドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="143"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="233"/>
+        <source>127.0.0.1</source>
+        <translation>127.0.0.1</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="193"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="537"/>
+        <source>Port:</source>
+        <translation>Port:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="307"/>
+        <source>Server Port:</source>
+        <translation>サーバーポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="331"/>
+        <source>20443</source>
+        <translation>20443</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="395"/>
+        <source>rejected client requests</source>
+        <translation>拒否されたクライアントリクエスト</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="449"/>
+        <source>Booster Servers:</source>
+        <translation>ブースターサーバー:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="474"/>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="484"/>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="494"/>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="504"/>
+        <source>4</source>
+        <translation>4</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="514"/>
+        <source>5</source>
+        <translation>5</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="550"/>
+        <source>Last Contact:</source>
+        <translation>最終接続:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="563"/>
+        <source>Files:</source>
+        <translation>ファイル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="576"/>
+        <source>Size:</source>
+        <translation>サイズ:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="589"/>
+        <source>Free space:</source>
+        <translation>空き容量:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="921"/>
+        <source>Preferences...</source>
+        <translation>環境設定...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="51"/>
+        <source>%1 - Booster Status Monitor</source>
+        <translation>%1 - ブースターステータスモニター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="132"/>
+        <source>Network Error: Booster is not running or otherwise unavailable on the network</source>
+        <translation>ネットワークエラーr: ブースターが実行されていないか、ネットワーク上で利用できません</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="138"/>
+        <source>Password incorrect</source>
+        <translation>パスワードが正しくありません</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="157"/>
+        <source>Waiting to reconnect...</source>
+        <translation>再接続待ち...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="166"/>
+        <source>Failed to set preferences for Booster %1:%2</source>
+        <translation>ブースター %1の設定に失敗しました1:%2</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="178"/>
+        <source>Reconnecting...</source>
+        <translation>再接続...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="190"/>
+        <source>Downloading File: FW%1</source>
+        <translation>ダウンロードファイル: FW%1</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="193"/>
+        <source>Broken Network Connection</source>
+        <translation>切断されたネットワーク接続</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="196"/>
+        <source>Waiting for Server/Booster</source>
+        <translation>サーバー/ブースター待ち</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="199"/>
+        <source>File ID: %1 not found on Booster/Server</source>
+        <translation>ファイルID: %1 はブースター/サーバーで見つかりません</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="202"/>
+        <source>File ID: %1 CRC error</source>
+        <translation>ファイルID: %1 CRC エラー</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="205"/>
+        <source>Running...</source>
+        <translation>実行...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="258"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="259"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="260"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="261"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="262"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="264"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="265"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="266"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="267"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="268"/>
+        <source>disabled</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="270"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="271"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="272"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="273"/>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="274"/>
+        <source>n.a.</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="298"/>
+        <source>Monitor Not Connected</source>
+        <translation>モニターは接続されていません</translation>
+    </message>
+</context>
+<context>
+    <name>Boosters</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="14"/>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="88"/>
+        <source>Booster 4:</source>
+        <translation>ブースター 4:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="95"/>
+        <source>Port</source>
+        <translation>ポート</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="105"/>
+        <source>Publish Port</source>
+        <translation>パブリッシュポート</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="159"/>
+        <source>IP or DNS Address</source>
+        <translation>IPまたはDNSアドレス</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="175"/>
+        <source>Booster 2:</source>
+        <translation>ブースター 2:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="207"/>
+        <source>Booster 3:</source>
+        <translation>ブースター 3:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="214"/>
+        <source>Booster 5:</source>
+        <translation>ブースター 5:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="234"/>
+        <source>Booster 1:</source>
+        <translation>ブースター 1:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="241"/>
+        <source>Route server messages via Boosters</source>
+        <translation>ブースター経由でサーバーメッセージをルーティングする</translation>
+    </message>
+</context>
+<context>
     <name>CCommunications</name>
     <message>
         <source>VNC Relay Port:</source>
@@ -375,6 +693,176 @@ You may ignore this warning if you have a customized setup. </source>
     </message>
 </context>
 <context>
+    <name>CFWStatusDlg</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="14"/>
+        <source>Client Monitor</source>
+        <translation>クライアントモニター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="34"/>
+        <source>Name:</source>
+        <translation>名前:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="82"/>
+        <source>Address:</source>
+        <translation>アドレス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="208"/>
+        <source>0.0.0.0</source>
+        <translation>0.0.0.0</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="111"/>
+        <source>Port:</source>
+        <translation>ポート:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="149"/>
+        <source>Version:</source>
+        <translation>バージョン:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="190"/>
+        <source>Platform:</source>
+        <translation>プラットフォーム:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="286"/>
+        <source>Server Connection:</source>
+        <translation>サーバー接続:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="365"/>
+        <source>Model Version:</source>
+        <translation>モデルバージョン:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="381"/>
+        <source>Last Successful Connection:</source>
+        <translation>最終接続:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="442"/>
+        <source>File:</source>
+        <translation>ファイル:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="508"/>
+        <source>Status:</source>
+        <translation>ステータス:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="540"/>
+        <source>FileWave Server:</source>
+        <translation>FileWaveサーバー:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="556"/>
+        <source>Last Connection Attempt:</source>
+        <translation>最終接続試行:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="605"/>
+        <source>Verify</source>
+        <translation>検証</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="628"/>
+        <source>Client Log</source>
+        <translation>クライアントログ</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="651"/>
+        <source>Preferences...</source>
+        <translation>環境設定...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="283"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="519"/>
+        <source>[disconnected]</source>
+        <translation>[切断]</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="293"/>
+        <source>Getting Client Prefs...</source>
+        <translation>クライアント環境設定を取得...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="445"/>
+        <source>Imaging Appliance Monitor</source>
+        <translation>イメージアプライアンスモニター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="447"/>
+        <source>%1 - Client Monitor</source>
+        <translation>%1 - クライアントモニター</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="494"/>
+        <source>(never)</source>
+        <translation>(なし)</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
+        <source>Connected (updates found)</source>
+        <translation>接続済み (アップデートあり)</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
+        <source>Connected (no updates)</source>
+        <translation>接続済み (アップデートなし)</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
+        <source>(now trying...)</source>
+        <translation>(ただいま試行中...)</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="504"/>
+        <source>Not connected</source>
+        <translation>未接続</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="517"/>
+        <source>Can&apos;t connect to client...</source>
+        <translation>クライアントに接続できません...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="586"/>
+        <source>The verify command has been sent to the client</source>
+        <translation>確認コマンドをクライアントに送信しました</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="588"/>
+        <source>Failed to send the verify message to this client</source>
+        <translation>このクライアントに確認メッセージを送信できませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>CSimplePasswordDlg</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="21"/>
+        <source>Password:</source>
+        <translation>パスワード:</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="22"/>
+        <source>Please enter the password needed to change the 
+settings for this client</source>
+        <translation>このクライアントの設定を変更するために
+必要なパスワードを入力してください</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="53"/>
+        <source>Password Incorrect!</source>
+        <translation>パスワードが違います!</translation>
+    </message>
+</context>
+<context>
     <name>ConnectDlg</name>
     <message>
         <source>SSL</source>
@@ -411,6 +899,232 @@ You may ignore this warning if you have a customized setup. </source>
 No running Booster found at specified address.</source>
         <translation>接続できません。
 指定されたアドレスで実行中のブースターが見つかりません。</translation>
+    </message>
+</context>
+<context>
+    <name>ConnectingToBoosterWidget</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidget.cpp" line="13"/>
+        <source>Connecting to booster %1...</source>
+        <translation>ブースター %1 に接続します...</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidget.cpp" line="14"/>
+        <source>Connecting to booster %1 (%2)</source>
+        <translation>ブースター %1 (%2) に接続します</translation>
+    </message>
+</context>
+<context>
+    <name>ConnectingToBoosterWidgetManager</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidgetManager.cpp" line="25"/>
+        <source>The selected booster has a pending connection.
+Please wait for the results before opening a new connection</source>
+        <translation>選択されたブースターには保留中の接続があります。
+新しい接続を開く前に結果を待ってください</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidgetManager.cpp" line="42"/>
+        <source>Unable to connect to the Booster: %1</source>
+        <translation>ブースターに接続できません: %1</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidgetManager.cpp" line="43"/>
+        <source>Unable to connect to the Booster: %1 (%2)</source>
+        <translation>ブースターに接続できません: %1 (%2)</translation>
+    </message>
+</context>
+<context>
+    <name>CronWidget</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="20"/>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="33"/>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="40"/>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="90"/>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="124"/>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="155"/>
+        <source>at</source>
+        <translation>場所</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="47"/>
+        <source>Every month on the</source>
+        <translation>毎月</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="64"/>
+        <source>mm</source>
+        <translation>mm</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="97"/>
+        <source>skip weekends</source>
+        <translation>週末をスキップ</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="114"/>
+        <source>Every day</source>
+        <translation>毎日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="134"/>
+        <source>Every hour</source>
+        <translation>毎時</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="141"/>
+        <source>Every week on</source>
+        <translation>毎週</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="148"/>
+        <source>One-time</source>
+        <translation>一度だけ</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="45"/>
+        <source>Monday</source>
+        <translation>月曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="46"/>
+        <source>Tuesday</source>
+        <translation>火曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="47"/>
+        <source>Wednesday</source>
+        <translation>水曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="48"/>
+        <source>Thursday</source>
+        <translation>木曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="49"/>
+        <source>Friday</source>
+        <translation>金曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="50"/>
+        <source>Saturday</source>
+        <translation>土曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="51"/>
+        <source>Sunday</source>
+        <translation>日曜日</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="54"/>
+        <source>first</source>
+        <translation>第1</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="55"/>
+        <source>second</source>
+        <translation>第2</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="56"/>
+        <source>third</source>
+        <translation>第3</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="57"/>
+        <source>fourth</source>
+        <translation>第</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="58"/>
+        <source>last</source>
+        <translation>最終</translation>
+    </message>
+</context>
+<context>
+    <name>EmailTemplateWidget</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="25"/>
+        <source>[Email body]</source>
+        <translation>[メール本文]</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="32"/>
+        <source>[Subject line]</source>
+        <translation>[件名]</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="45"/>
+        <source>Subject:</source>
+        <translation>件名：</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="64"/>
+        <source>Body:</source>
+        <translation>本文：</translation>
+    </message>
+</context>
+<context>
+    <name>FTabWidget</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="72"/>
+        <source>Close Tab</source>
+        <translation>タブを閉じる</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="75"/>
+        <source>Close All Tabs</source>
+        <translation>すべてのタブを閉じる</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="76"/>
+        <source>Close Other Tabs</source>
+        <translation>その他のタブを閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>FWProgressDialog</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/progressdialog/progressdialog.cpp" line="144"/>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+</context>
+<context>
+    <name>KioskCategoryTreeModel</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="37"/>
+        <source>Category</source>
+        <translation>カテゴリー</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="37"/>
+        <source>Description</source>
+        <translation>説明</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="45"/>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+</context>
+<context>
+    <name>LogViewer</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="22"/>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="40"/>
+        <source>Client Log</source>
+        <translation>クライアントログ</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="109"/>
+        <source>Sorry, but getting the log file failed.</source>
+        <translation>ログファイルの取得に失敗しました。</translation>
     </message>
 </context>
 <context>
@@ -479,6 +1193,19 @@ No running Booster found at specified address.</source>
         <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Options.ui" line="111"/>
         <source>Confirm Password:</source>
         <translation>確認パスワード:</translation>
+    </message>
+</context>
+<context>
+    <name>PasswordDlg</name>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="13"/>
+        <source>Password</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="19"/>
+        <source>Please enter the password to control this Booster:</source>
+        <translation>このブースターを制御するためのパスワードを入力してください:</translation>
     </message>
 </context>
 <context>
@@ -1002,733 +1729,6 @@ No running Booster found at specified address.</source>
         <source>Images (</source>
         <comment>KioskResourceHelper</comment>
         <translation>イメージ (</translation>
-    </message>
-</context>
-<context>
-    <name>BoosterStatusDlg</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="14"/>
-        <source>Booster Status Monitor</source>
-        <translation>ブースターステータスモニター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="40"/>
-        <source>FileWave Booster:</source>
-        <translation>FileWavｅブースター:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="277"/>
-        <source>free space on root disk</source>
-        <translation>ルートディスクの空き容量</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="324"/>
-        <source>remaining to load</source>
-        <translation>ロードの残り</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="267"/>
-        <source>Status:</source>
-        <translation>ステータス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="250"/>
-        <source>files remaining to load</source>
-        <translation>ロードの残りファイル</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="110"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="150"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="183"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="203"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="257"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="297"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="355"/>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="378"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="524"/>
-        <source>Address:</source>
-        <translation>アドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="317"/>
-        <source>active connections</source>
-        <translation>アクティブ接続数</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="160"/>
-        <source>12345</source>
-        <translation>12345</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="365"/>
-        <source>Launched:</source>
-        <translation>ローンチ:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="388"/>
-        <source>files boosted</source>
-        <translation>ブースト済みファイル</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="338"/>
-        <source>data transferred</source>
-        <translation>データ転送済み</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="284"/>
-        <source>Version:</source>
-        <translation>バージョン:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="223"/>
-        <source>Connecting...</source>
-        <translation>接続中....</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="120"/>
-        <source>Build:</source>
-        <translation>ビルド:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="133"/>
-        <source>Server Address:</source>
-        <translation>サーバーアドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="143"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="233"/>
-        <source>127.0.0.1</source>
-        <translation>127.0.0.1</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="193"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="537"/>
-        <source>Port:</source>
-        <translation>Port:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="307"/>
-        <source>Server Port:</source>
-        <translation>サーバーポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="331"/>
-        <source>20443</source>
-        <translation>20443</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="395"/>
-        <source>rejected client requests</source>
-        <translation>拒否されたクライアントリクエスト</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="449"/>
-        <source>Booster Servers:</source>
-        <translation>ブースターサーバー:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="474"/>
-        <source>1</source>
-        <translation>1</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="484"/>
-        <source>2</source>
-        <translation>2</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="494"/>
-        <source>3</source>
-        <translation>3</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="504"/>
-        <source>4</source>
-        <translation>4</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="514"/>
-        <source>5</source>
-        <translation>5</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="550"/>
-        <source>Last Contact:</source>
-        <translation>最終接続:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="563"/>
-        <source>Files:</source>
-        <translation>ファイル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="576"/>
-        <source>Size:</source>
-        <translation>サイズ:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="589"/>
-        <source>Free space:</source>
-        <translation>空き容量:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.ui" line="921"/>
-        <source>Preferences...</source>
-        <translation>環境設定...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="51"/>
-        <source>%1 - Booster Status Monitor</source>
-        <translation>%1 - ブースターステータスモニター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="132"/>
-        <source>Network Error: Booster is not running or otherwise unavailable on the network</source>
-        <translation>ネットワークエラーr: ブースターが実行されていないか、ネットワーク上で利用できません</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="138"/>
-        <source>Password incorrect</source>
-        <translation>パスワードが正しくありません</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="157"/>
-        <source>Waiting to reconnect...</source>
-        <translation>再接続待ち...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="166"/>
-        <source>Failed to set preferences for Booster %1:%2</source>
-        <translation>ブースター %1の設定に失敗しました1:%2</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="178"/>
-        <source>Reconnecting...</source>
-        <translation>再接続...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="190"/>
-        <source>Downloading File: FW%1</source>
-        <translation>ダウンロードファイル: FW%1</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="193"/>
-        <source>Broken Network Connection</source>
-        <translation>切断されたネットワーク接続</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="196"/>
-        <source>Waiting for Server/Booster</source>
-        <translation>サーバー/ブースター待ち</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="199"/>
-        <source>File ID: %1 not found on Booster/Server</source>
-        <translation>ファイルID: %1 はブースター/サーバーで見つかりません</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="202"/>
-        <source>File ID: %1 CRC error</source>
-        <translation>ファイルID: %1 CRC エラー</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="205"/>
-        <source>Running...</source>
-        <translation>実行...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="258"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="259"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="260"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="261"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="262"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="264"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="265"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="266"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="267"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="268"/>
-        <source>disabled</source>
-        <translation>無効</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="270"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="271"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="272"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="273"/>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="274"/>
-        <source>n.a.</source>
-        <translation>なし</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/boosterstatusdlg.cpp" line="298"/>
-        <source>Monitor Not Connected</source>
-        <translation>モニターは接続されていません</translation>
-    </message>
-</context>
-<context>
-    <name>Boosters</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="14"/>
-        <source>Form</source>
-        <translation>フォーム</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="88"/>
-        <source>Booster 4:</source>
-        <translation>ブースター 4:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="95"/>
-        <source>Port</source>
-        <translation>ポート</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="105"/>
-        <source>Publish Port</source>
-        <translation>パブリッシュポート</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="159"/>
-        <source>IP or DNS Address</source>
-        <translation>IPまたはDNSアドレス</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="175"/>
-        <source>Booster 2:</source>
-        <translation>ブースター 2:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="207"/>
-        <source>Booster 3:</source>
-        <translation>ブースター 3:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="214"/>
-        <source>Booster 5:</source>
-        <translation>ブースター 5:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="234"/>
-        <source>Booster 1:</source>
-        <translation>ブースター 1:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/Boosters.ui" line="241"/>
-        <source>Route server messages via Boosters</source>
-        <translation>ブースター経由でサーバーメッセージをルーティングする</translation>
-    </message>
-</context>
-<context>
-    <name>CFWStatusDlg</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="14"/>
-        <source>Client Monitor</source>
-        <translation>クライアントモニター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="34"/>
-        <source>Name:</source>
-        <translation>名前:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="82"/>
-        <source>Address:</source>
-        <translation>アドレス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="92"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="208"/>
-        <source>0.0.0.0</source>
-        <translation>0.0.0.0</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="111"/>
-        <source>Port:</source>
-        <translation>ポート:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="149"/>
-        <source>Version:</source>
-        <translation>バージョン:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="190"/>
-        <source>Platform:</source>
-        <translation>プラットフォーム:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="286"/>
-        <source>Server Connection:</source>
-        <translation>サーバー接続:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="365"/>
-        <source>Model Version:</source>
-        <translation>モデルバージョン:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="381"/>
-        <source>Last Successful Connection:</source>
-        <translation>最終接続:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="442"/>
-        <source>File:</source>
-        <translation>ファイル:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="508"/>
-        <source>Status:</source>
-        <translation>ステータス:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="540"/>
-        <source>FileWave Server:</source>
-        <translation>FileWaveサーバー:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="556"/>
-        <source>Last Connection Attempt:</source>
-        <translation>最終接続試行:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="605"/>
-        <source>Verify</source>
-        <translation>検証</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="628"/>
-        <source>Client Log</source>
-        <translation>クライアントログ</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.ui" line="651"/>
-        <source>Preferences...</source>
-        <translation>環境設定...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="283"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="519"/>
-        <source>[disconnected]</source>
-        <translation>[切断]</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="293"/>
-        <source>Getting Client Prefs...</source>
-        <translation>クライアント環境設定を取得...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="445"/>
-        <source>Imaging Appliance Monitor</source>
-        <translation>イメージアプライアンスモニター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="447"/>
-        <source>%1 - Client Monitor</source>
-        <translation>%1 - クライアントモニター</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="494"/>
-        <source>(never)</source>
-        <translation>(なし)</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
-        <source>Connected (updates found)</source>
-        <translation>接続済み (アップデートあり)</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="499"/>
-        <source>Connected (no updates)</source>
-        <translation>接続済み (アップデートなし)</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="502"/>
-        <source>(now trying...)</source>
-        <translation>(ただいま試行中...)</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="504"/>
-        <source>Not connected</source>
-        <translation>未接続</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="517"/>
-        <source>Can&apos;t connect to client...</source>
-        <translation>クライアントに接続できません...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="586"/>
-        <source>The verify command has been sent to the client</source>
-        <translation>確認コマンドをクライアントに送信しました</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/FWStatusDlg.cpp" line="588"/>
-        <source>Failed to send the verify message to this client</source>
-        <translation>このクライアントに確認メッセージを送信できませんでした</translation>
-    </message>
-</context>
-<context>
-    <name>CSimplePasswordDlg</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="21"/>
-        <source>Password:</source>
-        <translation>パスワード:</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="22"/>
-        <source>Please enter the password needed to change the 
-settings for this client</source>
-        <translation>このクライアントの設定を変更するために
-必要なパスワードを入力してください</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/SimplePasswordDlg.cpp" line="53"/>
-        <source>Password Incorrect!</source>
-        <translation>パスワードが違います!</translation>
-    </message>
-</context>
-<context>
-    <name>ConnectingToBoosterWidget</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidget.cpp" line="13"/>
-        <source>Connecting to booster %1...</source>
-        <translation>ブースター %1 に接続します...</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidget.cpp" line="14"/>
-        <source>Connecting to booster %1 (%2)</source>
-        <translation>ブースター %1 (%2) に接続します</translation>
-    </message>
-</context>
-<context>
-    <name>ConnectingToBoosterWidgetManager</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidgetManager.cpp" line="25"/>
-        <source>The selected booster has a pending connection.
-Please wait for the results before opening a new connection</source>
-        <translation>選択されたブースターには保留中の接続があります。
-新しい接続を開く前に結果を待ってください</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidgetManager.cpp" line="42"/>
-        <source>Unable to connect to the Booster: %1</source>
-        <translation>ブースターに接続できません: %1</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/ConnectingToBoosterWidgetManager.cpp" line="43"/>
-        <source>Unable to connect to the Booster: %1 (%2)</source>
-        <translation>ブースターに接続できません: %1 (%2)</translation>
-    </message>
-</context>
-<context>
-    <name>CronWidget</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="20"/>
-        <source>Form</source>
-        <translation>フォーム</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="33"/>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="40"/>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="90"/>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="124"/>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="155"/>
-        <source>at</source>
-        <translation>場所</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="47"/>
-        <source>Every month on the</source>
-        <translation>毎月</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="64"/>
-        <source>mm</source>
-        <translation>mm</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="97"/>
-        <source>skip weekends</source>
-        <translation>週末をスキップ</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="114"/>
-        <source>Every day</source>
-        <translation>毎日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="134"/>
-        <source>Every hour</source>
-        <translation>毎時</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="141"/>
-        <source>Every week on</source>
-        <translation>毎週</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.ui" line="148"/>
-        <source>One-time</source>
-        <translation>一度だけ</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="45"/>
-        <source>Monday</source>
-        <translation>月曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="46"/>
-        <source>Tuesday</source>
-        <translation>火曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="47"/>
-        <source>Wednesday</source>
-        <translation>水曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="48"/>
-        <source>Thursday</source>
-        <translation>木曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="49"/>
-        <source>Friday</source>
-        <translation>金曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="50"/>
-        <source>Saturday</source>
-        <translation>土曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="51"/>
-        <source>Sunday</source>
-        <translation>日曜日</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="54"/>
-        <source>first</source>
-        <translation>第1</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="55"/>
-        <source>second</source>
-        <translation>第2</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="56"/>
-        <source>third</source>
-        <translation>第3</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="57"/>
-        <source>fourth</source>
-        <translation>第</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/CronWidget.cpp" line="58"/>
-        <source>last</source>
-        <translation>最終</translation>
-    </message>
-</context>
-<context>
-    <name>EmailTemplateWidget</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="25"/>
-        <source>[Email body]</source>
-        <translation>[メール本文]</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="32"/>
-        <source>[Subject line]</source>
-        <translation>[件名]</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="45"/>
-        <source>Subject:</source>
-        <translation>件名：</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/EmailTemplateWidget.ui" line="64"/>
-        <source>Body:</source>
-        <translation>本文：</translation>
-    </message>
-</context>
-<context>
-    <name>FTabWidget</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="72"/>
-        <source>Close Tab</source>
-        <translation>タブを閉じる</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="75"/>
-        <source>Close All Tabs</source>
-        <translation>すべてのタブを閉じる</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/FTabWidget.cpp" line="76"/>
-        <source>Close Other Tabs</source>
-        <translation>その他のタブを閉じる</translation>
-    </message>
-</context>
-<context>
-    <name>FWProgressDialog</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/progressdialog/progressdialog.cpp" line="144"/>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-</context>
-<context>
-    <name>KioskCategoryTreeModel</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="37"/>
-        <source>Category</source>
-        <translation>カテゴリー</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="37"/>
-        <source>Description</source>
-        <translation>説明</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/KioskCategoryTreeModel.cpp" line="45"/>
-        <source>All</source>
-        <translation>すべて</translation>
-    </message>
-</context>
-<context>
-    <name>LogViewer</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="22"/>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="40"/>
-        <source>Client Log</source>
-        <translation>クライアントログ</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/ClientStatusMonitorFiles/LogViewer.cpp" line="109"/>
-        <source>Sorry, but getting the log file failed.</source>
-        <translation>ログファイルの取得に失敗しました。</translation>
-    </message>
-</context>
-<context>
-    <name>PasswordDlg</name>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="13"/>
-        <source>Password</source>
-        <translation>パスワード</translation>
-    </message>
-    <message>
-        <location filename="../../FileWaveGuiLib/BoosterMonitor/passworddlg.ui" line="19"/>
-        <source>Please enter the password to control this Booster:</source>
-        <translation>このブースターを制御するためのパスワードを入力してください:</translation>
     </message>
 </context>
 <context>

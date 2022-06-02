@@ -56,72 +56,72 @@
     <message>
         <location filename="../../QtClient/Catalog.cpp" line="1637"/>
         <location filename="../../QtClient/Catalog.cpp" line="1655"/>
-        <location filename="../../QtClient/Catalog.cpp" line="2012"/>
+        <location filename="../../QtClient/Catalog.cpp" line="2015"/>
         <source>Running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3926"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3929"/>
         <source>Waiting for Booster - %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="3945"/>
+        <location filename="../../QtClient/Catalog.cpp" line="3948"/>
         <source>%1 (or dependency of) not found on server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4295"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4298"/>
         <source>Downloading Fileset Container (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4297"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4300"/>
         <source>Processing requirements of %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4406"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4409"/>
         <source>The Hard Disk is Full...Cannot download new Filesets.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4418"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4421"/>
         <source>Downloading fileset %1 of %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4457"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4460"/>
         <source>Activating %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4467"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4470"/>
         <source>Activating fileset %1 of %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4572"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4575"/>
         <source>Installing Software...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4664"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4667"/>
         <source> Installation Failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="4672"/>
+        <location filename="../../QtClient/Catalog.cpp" line="4675"/>
         <source> Installation Successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5023"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5026"/>
         <source>Updating %1 to new version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5611"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5614"/>
         <source>Current Model Number: %1
 
 Filesets in Inventory:
@@ -130,14 +130,14 @@ Filesets in Inventory:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5627"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5630"/>
         <source>Filesets not meeting requirements:
 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5642"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5645"/>
         <source>
 Worklist:
 
@@ -145,17 +145,17 @@ Worklist:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5652"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5655"/>
         <source>&lt;Fileset name still unknown&gt; ID:%1, revision ID:%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5722"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5725"/>
         <source>This computer will be shut down once its data is erased</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../QtClient/Catalog.cpp" line="5723"/>
+        <location filename="../../QtClient/Catalog.cpp" line="5726"/>
         <source>Executing Remote Wipe</source>
         <translation type="unfinished"></translation>
     </message>
